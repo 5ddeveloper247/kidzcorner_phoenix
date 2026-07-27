@@ -38,28 +38,29 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c1.png') }}" class="h-[7vw]" />
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c1.png') }}" class="h-[7vw]" />
     <h3 class="ptitle">Objectives:</h3>
     <ul class="list-disc panel-ul">
-        <li>Identify the seeds of some common fruits</li>
+        <li>To recognize leaves from various types of trees.</li>
+        <li>To understand why trees need leaves.</li>
+        <li>To create artwork using pasted leaves.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <div>
         <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
             <li>Thematic Activity Book</li>
-        </ul>
-        <ul class="list-disc panel-ul w-[45vw]">For Optional Activity:
-            <li>Ask the children to bring some fruits seeds (washed) from home
-                Transparent plastic containers</li>
+            <li>Various types of leaves.</li>
+            <li>Scissors, glue and coloured paper.</li>
+            <li>Get the children to collect fallen leaves beforehand.</li>
         </ul>
     </div>
 </div>
@@ -67,254 +68,133 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Invite the children to recall and talk about the story "Little Seeds Find Their Mummy".</li>
+            <li>Have the children observe the photos of leaves. Then ask them to describe the shapes and characteristics of the leaves. They can also talk about other types of leaves, which they have seen.</li>
         </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c2.png') }}" class="h-[15vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children to describe the shape, similarities and differences of the leaves. Guide them to notice that the leaves are green and discuss why the leaves are green. Help the children understand that only green leaves can absorb sunlight to produce food.</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c2.png') }}" class="h-[15vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Guide the children to discuss whether flowers, trunks and roots can make food. Help them understand that only leaves can produce food for plants.</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c2.png') }}" class="h-[15vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="2">
-        <li>Ask the children: "What seeds are these?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c2.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="3">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c2.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="4">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
+        <li>Ask the children whether animals can produce food like plants (animals cannot because only plants can produce their own food). Ask the children how animals get their food (from eating plants or other animals). Help the children to further understand the relationship between plants and animals.</li>
     </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c2.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c3.png') }}" class="h-[20vw]" />
-    </div>
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What seeds are these?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c4.png') }}" class="h-[20vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c3.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
+        <li>Ask the children: "What seeds are these?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c4.png') }}" class="h-[20vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c4.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="7">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
+        <li>Ask the children: "What seeds are these?"</li>
     </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c4.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c5.png') }}" class="h-[20vw]" />
-    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c5.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="8">
-        <li>Ask the children: "What seeds are these?"</li>
+        <li>Ask the children to consider what will happen if a tree does not have leaves. Help the children understand the need to cherish trees and not pluck flowers, leaves and cut down trees indiscriminately.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c6.png') }}" class="h-[20vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c6.png') }}" class="h-[17vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="9">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
+        <li>Organise the children into groups. Have the children take out the leaves they have collected. Encourage them to display, talk about and compare the characteristics of the leaves, which they have collected.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c6.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="10">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
+        <li>Tell the children they can use the leaves they have collected to create works of art.</li>
     </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c6.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c7.png') }}" class="h-[20vw]" />
-    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class3/c7.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="11">
-        <li>Ask the children: "What seeds are these?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c8.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="12">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c8.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="13">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c8.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c9.png') }}" class="h-[20vw]" />
-    </div>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="14">
-        <li>Ask the children: "What seeds are these?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c10.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="15">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c10.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="16">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c10.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c11.png') }}" class="h-[20vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="17">
-        <li>Ask the children: "What seeds are these?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c12.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="18">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class3/c12.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="19">
-        <li>Ask the children: "What fruit is the mummy of these seeds?"</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c12.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class3/c13.png') }}" class="h-[20vw]" />
-    </div>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="20">
-        <li>(Optional activity) Let the children display the seeds that
-            they bring from home and take turns to name the seeds and
-            their mummy fruit. Encourage them to sort the seeds and
-            place them in different plastic containers. Teacher can
-            label the containers and keep them in the activity corner
-            for the children to revisit."</li>
+        <li>Get each group of children to share the leaves they have collected. Encourage the children to use their imagination to create their artwork with these leaves; e.g. pasting according to the colours and original shapes of the leaves or cutting the leaves to their required shapes.</li>
     </ol>
 </div>
+
 
 
 {{-- panel 17 --}}
 <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="21">
+    <ol class="list-decimal panel-ul w-[45vw]" start="12">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>
@@ -323,35 +203,22 @@ $showMascot = true;
 
 {{-- panel 18 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and plant</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite the children to once again look at the six types
-                of seeds in the lesson and name which seeds are the biggest
-                and which are the smallest in size.</li>
+            <li>Invite the children to display and explain their artwork.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to differentiate the seeds of some common fruits.</li>
-        </ul>
-    </div>
-</div>
-
-
-{{-- panel 19 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-
-    <div class="text-start flex flex-col">
-        <h3 class="ptitle">Extension</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Encourage the children to draw pictures of some fruits and their seeds.</li>
+            <li>Able to describe the shapes of various types of leaves.</li>
+            <li>Able to say that leaves absorb sunlight to produce food.</li>
+            <li>Be aware that one should not pluck flowers and leaves indiscriminately.</li>
+            <li>Able to create art from leaves.</li>
         </ul>
     </div>
 </div>
@@ -408,8 +275,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

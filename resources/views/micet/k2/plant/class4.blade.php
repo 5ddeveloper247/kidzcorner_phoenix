@@ -38,164 +38,301 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-    <div class="flex ">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c1.png') }}" class="h-[7vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c2.png') }}" class="h-[7vw]" />
-    </div>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
-
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c1.png') }}" class="h-[7vw]" />
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul">
-        <li>To practise gross motor and body coordination skills</li>
-        <li>Develop cooperation skills</li>
-        <li>Learn to obtain information from a chart/table</li>
+        <li>To understand that plants absorb water and nutrients from roots.</li>
+        <li>To understand how water and nutrients are transported from roots.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
     <div>
         <h3 class="ptitle">Preparations</h3>
 
         <ul class="list-disc panel-ul">
             <li>Thematic Activity Book</li>
-            <li>Set up an orchard in the classroom with different fruit plants such as apple, pear, orange, lychee, mango, banana, jackfruit, pineapple, durian, strawberry, grape and watermelon</li>
-            <li>Cut out the different types of paper fruits and hang them on the trees, minimum 6 to 8 fruits per plant. The height of the fruits should be within the children's reach
-                A basket for each group to collect the fruits</li>
-            <li>Draw a fruit chart on the white board to record the results of the game. Refer to the sample chart in Lesson Development, Point 7</li>
         </ul>
+        <p class="text-white text-xl">For Optional Activity:</p>
+        <div>
+        <ul class="list-disc panel-ul">
+            <li>Coloured water mixed from colour dyes.</li>
+            <li>White carnations.</li>
+            <li>One piece of white paper per child.</li>
+        </ul>
+        </div>
     </div>
 </div>
 
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Ask the children: What is the girl doing? Where is she?</li>
+            <li>Encourage the children to recall from the story what the apple tree ate to grow. Guide the children to conclude the uses of roots - They absorb water and nutrients from the soil.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class4/c3.png') }}" class="h-[20vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c2.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="2">
-        <li>Ask the children: "Have you ever seen anyone picking fruits?
-            Have you ever picked fruits? Invite the children to share their
-            experiences.</li>
+        <li>Have the children discuss how water and nutrients, after being absorbed by the roots, are transported to the entire tree.</li>
     </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c4.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c5.png') }}" class="h-[20vw]" />
-    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c3.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="3">
-        <li>Invite the children to a fruit picking contest.
-            Let the children look around the orchard set up
-            and name the fruits in it.</li>
-        <li>Let the children form groups. Let each group form a line.</li>
+        <li>Tell the children that we are going to observe an experiment
+            to show how a celery stem absorbs and transports water. In
+            this experiment, we place the celery stem in coloured water
+            to observe how water travels up the stem.</li>
     </ol>
 </div>
 
 
 {{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <li>Click on the video to show the children a stalk of celery. Ask them to look closely at the stem.</li>
+    </ol>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class4/v1.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Explain the rules of the contest : The children
-            are to stand at the starting line away from the
-            fruit trees. At the signal "Ready, go!" the first
-            child from each group will run to a fruit tree to
-            pick a fruit. The child will run back and put the
-            fruit into the basket in front of the group and
-            then queue behind the line. Then the second child
-            in line will continue.</li>
-        <li>The contest ends when all the fruits have been picked.
-            Remind the children that all group members need to be
-            fast so that they can pick up many fruits. The winner
-            will be the group that picks up the most number of
-            fruits. Once children understand the rules, let
-            the contest begin.</li>
+        <li>Click on the video to show how to place the celery stem in coloured water.</li>
     </ol>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class4/v2.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <li>Ask the children to look at the photo and guess what will happen to the celery stem after some time.</li>
+    </ol>
+
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c11.png') }}" class="h-[20vw]" />
+</div>
+
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <li>Click on the video to show how to place the celery stem in coloured water.</li>
+    </ol>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class4/v3.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+
+
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <li>Ask the children why the celery stem has changed colour.</li>
+    </ol>
+    <div class="flex items-center gap-2">
+        <img src="{{ asset('assets/images/micet/k2/plant/class4/c4.png') }}" class="h-[17vw]" />
+        <svg class="w-8 h-8 text-white stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
+
+        <img src="{{ asset('assets/images/micet/k2/plant/class4/c5.png') }}" class="h-[17vw]" />
+    </div>
 </div>
 
 
 {{-- panel 7 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="7">
-        <li>After the contest, let each group count the number of fruits in their basket.
-            Teacher can help to record the numbers in the chart on the white board.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <li>Explain that there are many tiny straws inside the celery stem. Water gets absorbed and travels up these straws. Ask the children to point to the straws.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class4/c6.png') }}" class="h-[17vw]" />
+    <div class="flex items-center gap-2">
+        <img src="{{ asset('assets/images/micet/k2/plant/class4/c4.png') }}" class="h-[17vw]" />
+        <svg class="w-8 h-8 text-white stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
 
+        <img src="{{ asset('assets/images/micet/k2/plant/class4/c5.png') }}" class="h-[17vw]" />
+    </div>
+</div>
+
+
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="10">
+        <li>Guide the children to understand that all plants have many tiny straws inside their stems to absorb and transport water to all parts of the plant.</li>
+    </ol>
+    <div class="flex items-center gap-2">
+        <img src="{{ asset('assets/images/micet/k2/plant/class4/c4.png') }}" class="h-[17vw]" />
+        <svg class="w-8 h-8 text-white stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
+
+        <img src="{{ asset('assets/images/micet/k2/plant/class4/c12.png') }}" class="h-[17vw]" />
+    </div>
+</div>
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="11">
+        <li>Click on the video to show how to place the celery stem in coloured water.</li>
+    </ol>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class4/v4.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+
+
+{{-- panel 8 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="12">
+        <li>Use the photo to re-emphasise that plants drink water through straws just like US.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c6.png') }}" class="h-[17vw]" />
 </div>
 
 
 {{-- panel 8 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="8">
-        <li>Based on the recorded numbers, let the children name the group that picks the
-            maximum number of fruits and declare that group as the winner of the contest.
-            Applaud all the children for their effort.</li>
-        <li>Invite the children to study the chart and decide on the following: Which group
-            has the most apples, which group has the most bananas, etc.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="13">
+        <li>Use the photo to re-emphasise that plants drink water through straws just like US.</li>
     </ol>
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c7.png') }}" class="h-[17vw]" />
+</div>
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="14">
+        <li>Tell the children that we are going to do another experiment. Click on the video to show white carnations being placed in blue and red coloured water.</li>
+    </ol>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class4/v5.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+
+{{-- panel 8 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="15">
+        <li>Ask the children to look at the photo and guess what will happen to the white carnations after some time.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c9.png') }}" class="h-[17vw]" />
+</div>
+
+
+{{-- panel 8 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="16">
+        <li>(Optional activity) Distribute some white carnations to the children.
+            The children place the carnations in different coloured water and
+            observe the different changes and then record their findings on paper.</li>
+    </ol>
+</div>
+
+
+{{-- panel 8 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="17">
+        <li>(Optional activity) Distribute some white carnations to the children.
+            The children place the carnations in different coloured water and
+            observe the different changes and then record their findings on paper.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/k2/plant/class4/c10.png') }}" class="h-[17vw]" />
 </div>
 
 
 {{-- panel 9 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="10">
-        <li>Guide children to complete the corresponding activities in the Thematic
-            Activity Book.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="18">
+        <li>Guide children to complete the corresponding activities in the Thematic Activity Book.</li>
     </ol>
 </div>
 
 
 {{-- panel 10 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: How Do Plants Drink Water?</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite the children to look at the chart and say which group
-                has the least apples, which group has the least lychees, etc.</li>
+            <li>Invite the children to conclude how plants drink water.
+                After a few days, invite the children to explain the
+                changes in the carnations and the reasons for the changes.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to cooperate with the group members to complete the contest of picking fruits.</li>
-            <li>Able to count the fruits.</li>
-            <li>Able to obtain information from a chart/table.</li>
+            <li>Able to understand that plants absorb water and nutrients from the roots.</li>
+            <li>Able to say that many small tubes in stems are responsible for transporting water and nutrients to the entire plant.</li>
+            <li>Able to record and explain the result of one's findings.</li>
         </ul>
     </div>
 </div>
@@ -256,8 +393,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

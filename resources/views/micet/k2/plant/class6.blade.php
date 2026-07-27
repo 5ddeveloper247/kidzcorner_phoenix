@@ -40,16 +40,16 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
     <div class="flex ">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class6/c1.png') }}" class="h-[7vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c1.png') }}" class="h-[7vw]" />
     </div>
 
 
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul">
-        <li>Identify the main characteristics of some fruits</li>
-        <li>Find similarities and differences in the fruits</li>
-        <li>Develop observation skills</li>
+        <li>To understand that trees come in different shapes and sizes.</li>
+        <li>To understand that all trees have roots, trunks, leaves, flowers <br> and plant regardless of their shapes and sizes.</li>
+        <li>To identify some common trees.</li>
     </ul>
 </div>
 
@@ -63,11 +63,7 @@ $showMascot = true;
 
         <ul class="list-disc panel-ul">
             <li>Thematic Activity Book</li>
-            <li>A basket of fruits (apple, pineapple, mandarin orange,
-                banana, grapes, star fruit and peach) for each group</li>
-            <li>One fruit knife per group</li>
-            <li>Before the activity starts, draw a record table on the white
-                board ( Refer to Lesson Development, point 2)</li>
+            <li>Drawing papers, coloured pencils.</li>
         </ul>
     </div>
 </div>
@@ -81,11 +77,10 @@ $showMascot = true;
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Let the children form groups. Give each group of children a basket of fruits.
-                Tell the children that they are going to observe and record the characteristics
-                of these fruits.</li>
+            <li>Encourage the children to observe and then name the various parts of the apple tree: roots, trunks, branches, leaves, flowers and fruits.</li>
         </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class6/c2.png') }}" class="w-[30vw]" />
 </div>
 
 
@@ -94,12 +89,8 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Guide children to understand the contents of the table on the white board.
-            Read out and explain the characteristics that will be recorded.</li>
+        <li>Ask the children whether all trees are the same. Encourage them to name some trees and describe their characteristics (e.g. shape, size, etc.).</li>
     </ol>
-    <div class="flex">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class6/c2.png') }}" class="w-[25vw] h-[20vw]" />
-    </div>
 </div>
 
 
@@ -108,12 +99,15 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Let each group take out an apple from the basket. Encourage the children
-            to observe the outside of an apple and talk about its characteristics.
-            Teacher can record their findings on the white board ( tick or colour
-            the appropriate box).</li>
+        <li>Ask the children if they recognise this tree. Encourage
+            them to identify some obvious characteristics (e.g. shape,
+            size, colour, etc). Help the children to learn the name of this tree.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c3.png') }}" class="w-[25vw] h-[17vw]" />
+    <div class="flex gap-2">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c3.png') }}" class="w-[20vw] h-[17vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c4.png') }}" class="w-[20vw] h-[17vw]" />
+    </div>
+    <p class="text-white text-center">apple tree</p>
 </div>
 
 
@@ -122,27 +116,26 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="4">
-        <li>Help each group cut the apple. Let children observe
-            the inside of the fruit and talk about the characteristics.
-            Teacher can record their findings on the white board ( tick
-            or colour the appropriate box).</li>
+        <li>Ask the children if they recognise this tree. Encourage them to identify some obvious characteristics (e.g. shape, size, colour, etc). Help the children to learn the name of this tree.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c3.png') }}" class="w-[25vw] h-[17vw]" />
+    <div class="flex flex-col">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c5.png') }}" class="w-[30vw]" />
+        <p class="text-white text-center">coconut tree</p>
+    </div>
 </div>
 
 
-{{-- panel 4 --}}
+{{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="5">
-        <li>Let each group take out a pineapple from the basket.
-            Encourage the children to observe the outside of a
-            pineapple and talk about its characteristics.
-            Teacher can record their findings on the white board
-            ( tick or colour the appropriate box).</li>
+        <li>Ask the children if they recognise this tree. Encourage them to identify some obvious characteristics (e.g. shape, size, colour, etc). Help the children to learn the name of this tree.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c4.png') }}" class="w-[20vw]" />
+    <div class="flex flex-col">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c6.png') }}" class="w-[30vw]" />
+        <p class="text-white text-center">pine tree</p>
+    </div>
 </div>
 
 
@@ -151,30 +144,23 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="6">
-        <li>Help each group cut the pineapple. Let children
-            observe the inside of the fruit and talk about
-            the characteristics.Teacher can record their
-            findings on the white board ( tick or colour
-            the appropriate box).</li>
-        <li>Cut a watermelon and ask questions that lead the children to compare the
-            similarities and differences between the inside and outside of the watermelon.</li>
+        <li>Ask the children if they recognise this tree. Encourage them to identify some obvious characteristics (e.g. shape, size, colour, etc). Help the children to learn the name of this tree.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c5.png') }}" class="w-[20vw]" />
+    <div class="flex flex-col">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c7.png') }}" class="w-[30vw]" />
+        <p class="text-white text-center">willow tree</p>
+    </div>
 </div>
 
 
-{{-- panel 4 --}}
+{{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="7">
-        <li>Let each group take out a mandarin orange from the basket.
-            Encourage the children to observe the outside of a orange
-            and talk about its characteristics. Teacher can record
-            their findings on the white board ( tick or colour the
-            appropriate box).</li>
+        <li>Ask the children if they recognise this tree. Encourage them to identify some obvious characteristics (e.g. shape, size, colour, etc). Help the children to learn the name of this tree.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c6.png') }}" class="w-[20vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class6/c8.png') }}" class="w-[30vw]" />
 </div>
 
 
@@ -183,166 +169,175 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="8">
-        <li>Help each group cut the mandarin orange. Let children
-            observe the inside of the fruit and talk about the characteristics.
-            Teacher can record their findings on the white board
-            ( tick or colour the appropriate box).</li>
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c6.png') }}" class="w-[20vw]" />
-</div>
-
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="9">
-        <li>Let each group take out a banana from the basket.
-            Encourage the children to observe the outside of
-            a banana and talk about its characteristics.
-            Teacher can record their findings on the white
-            board ( tick or colour the appropriate box).</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c7.png') }}" class="w-[25vw] h-[17vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="10">
-        <li>Let each group take out a banana from the basket.
-            Encourage the children to observe the outside of
-            a banana and talk about its characteristics.
-            Teacher can record their findings on the white
-            board ( tick or colour the appropriate box).</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class6/c7.png') }}" class="w-[25vw] h-[17vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class6/c8.png') }}" class="w-[25vw]" />
+    <div class="flex flex-col">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c8.png') }}" class="w-[30vw]" />
+        <p class="text-white text-center">coconut tree</p>
     </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="11">
-        <li>Let each group take out a grape from the basket.
-            Encourage the children to observe the outside of
-            a grape and talk about its characteristics. Teacher
-            can record their findings on the white board ( tick
-            or colour the appropriate box).</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="9">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c9.png') }}" class="w-[25vw]" />
+    <div class="flex flex-col text-center w-fit">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c10.png') }}" class="w-[40vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>flowers</p>
+            <p>leaves and fruits</p>
+            <p>a coconut grows<br> into a new tree</p>
+        </div>
+    </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="12">
-        <li>Help each group cut the grape. Let children observe
-            the inside of the fruit and talk about the characteristics.
-            Teacher can record their findings on the white board
-            ( tick or colour the appropriate box).</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="10">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c9.png') }}" class="w-[25vw]" />
+    <div class="flex flex-col text-center w-fit">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c11.png') }}" class="w-[30vw] h-[17vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>pine tree</p>
+            <p>tree trunk and branches</p>
+        </div>
+    </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="13">
-        <li>Let each group take out a star fruit from the basket.
-            Encourage the children toobserve the outside of a star
-            fruit and talk about its characteristics. Teacher can
-            record their findings on the white board ( tick or colour
-            the appropriate box).</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="11">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c10.png') }}" class="w-[25vw] h-[15vw]" />
+    <div class="flex flex-col text-center w-fit">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c12.png') }}" class="w-[30vw] h-[17vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>leaves and flowers</p>
+            <p>fruits</p>
+        </div>
+    </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="14">
-        <li>Help each group cut the star fruit. Let children
-            observe the inside of the fruit and talk about
-            the characteristics. Teacher can record their
-            findings on the white board ( tick or colour the
-            appropriate box).</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="12">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c11.png') }}" class="w-[25vw] h-[15vw]" />
+    <div class="flex flex-col text-center w-fit"> 
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c13.png') }}" class="w-[30vw] h-[17vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>walnut tree</p>
+            <p>tree trunk and branches</p>
+        </div>
+    </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="15">
-        <li>Let each group take out a peach from the basket.
-            Encourage the children to observe the outside of
-            a peach and talk about its characteristics. Teacher
-            can record their findings on the white board ( tick
-            or colour the appropriate box).</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="13">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c12.png') }}" class="w-[25vw] h-[15vw]" />
+    <div class="flex flex-col items-center mt-4">
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/plant/class6/c14.png') }}" class="w-[30vw] h-[17vw]" />
+            <div class="flex flex-col justify-around h-full ml-4 text-white text-lg space-y-8">
+                <p>fruits</p>
+                <p>walnut</p>
+            </div>
+        </div>
+
+        <div class="mt-2 text-white text-lg text-start">
+            <p>leaves and flowers</p>
+        </div>
+    </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="16">
-        <li>Help each group cut the peach. Let children
-            observe the inside of the fruit and talk
-            about the characteristics. Teacher can record
-            their findings on the white board ( tick or
-            colour the appropriate box).</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="14">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c12.png') }}" class="w-[25vw] h-[15vw]" />
+    <div class="flex flex-col text-center w-fit">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c15.png') }}" class="w-[30vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>willow tree</p>
+            <p>tree trunk and brances</p>
+        </div>
+    </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="17">
-        <li>Click on the picture below to open the Software Magnetic Board.
-            Let the children, complete the big chart on the screen based on
-            what they have observed. Facilitate the discussion in case there
-            are differences in opinion (for example whether apple skin needs
-            to be peeled or not before eating the apple).</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="15">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class6/c13.png') }}" class="w-[25vw] h-[15vw]" />
+    <div class="flex flex-col text-center w-fit">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c16.png') }}" class="w-[40vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>flower buds</p>
+            <p>flowers</p>
+            <P>a bee pollinating the flower</P>
+        </div>
+    </div>
 </div>
 
 
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <ol class="list-decimal panel-ul" start="18">
-        <li>Encourage children to discuss the similarities and differences seen in the fruits.
-            (for example the similarity between mandarin orange and pineapple is that both
-            have skins that need to be peeled before eating . The difference between apples
-            and pineapples is that the skin of an apple is smooth whereas the skin of a pineapple
-            is rough.)</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="16">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
     </ol>
+    <div class="flex flex-col text-center w-fit">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c17.png') }}" class="w-[40vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>oak tree</p>
+            <p>tree trunk and brances</p>
+        </div>
+    </div>
 </div>
 
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="17">
+        <li>Guide the children to understand that all trees, regardless of size and shape, have roots, trunks, leaves, flowers and fruits.</li>
+    </ol>
+    <div class="flex flex-col text-center w-fit">
+        <img src="{{ asset('assets/images/micet/k2/plant/class6/c18.png') }}" class="w-[40vw]" />
+        <div class="text-white text-center flex justify-between w-full">
+            <p>flowers</p>
+            <p>leaves and fruits</p>
+            <P>a fruit grow into a new tree</P>
+        </div>
+    </div>
+</div>
 
 
 {{-- panel 6 --}}
@@ -360,21 +355,20 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
     <h1 class="panel-title stroke">Classroom Activity 6: The Fruit Family</h1>
 
-    <div class="text-start flex flex-col justify-between h-full">
+    <div class="text-start flex flex-col justify-between h-full w-[45vw]">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Invite the children to study the chart and take
-                turns to find similarities or differences among
-                the fruits.</li>
+            <li>Conclude and help the children understand that different species of trees produce different types of leaves, trunks, branches, flowers and fruits.</li>
+            <li>Invite the children to display their drawings of trees and explain what is special about their trees.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Able to describe the different characteristics of some fruits.</li>
-            <li>Based on their observations, able to tell the similarities and differences
-                among the different fruits.</li>
+            <li>Able to explain that all trees have common characteristics: roots, trunks, leaves, flowers and fruits.</li>
+            <li>Able to identify some common trees.</li>
+            <li>Able to draw a special tree according to a tree's basic characteristics by using the imagination.</li>
         </ul>
     </div>
 </div>
@@ -389,8 +383,13 @@ $showMascot = true;
         <h3 class="ptitle">Extension</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Encourage the children to observe and discuss the
-                characteristics of the seeds of those fruits .</li>
+            <li>Bring the children to a garden or park. Help the children identify
+                and learn the names of some trees. Encourage the children to describe
+                the trunks, branches, leaves, flowers and fruits of the trees. Discuss
+                the similarities and differences among the different trees and name the
+                characteristics of each type of tree. The teacher may wish to take photographs
+                of different types of trees to paste in the learning corner in the classroom.</li>
+            <li>Take the children outdoors to draw trees.</li>
         </ul>
     </div>
 </div>
@@ -448,8 +447,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;
