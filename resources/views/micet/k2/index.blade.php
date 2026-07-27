@@ -60,11 +60,11 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="first grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{ url('/micet/k2/fruits/index') }}">
+        <a href="{{ url('/micet/k2/nutrition/index') }}">
             <img src="{{ asset('assets/images/micet/global/k2/mi9.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k2/fruits/index') }}">
+        <a href="{{ url('/micet/k2/nutrition/index') }}">
             <img src="{{ asset('assets/images/micet/global/k2/mi10.png') }}" />
         </a>
 
