@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2vw;
         }
 
         .ptitle {
@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,24 +48,20 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To learn to draw a fish.</li>
-            <li>To differentiate sizes.</li>
-            <li>To learn to count up to 7.</li>
-            <li>To imitate the movements of a fish swimming.</li>
+            <li>Understand where some of the common food comes from</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Crayons.</li>
             </ul>
         </div>
     </div>
@@ -73,121 +69,430 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the picture of a fish. Have the children name it and describe where it
-                    lives.</li>
+                <li>Ask children: What fruit is this? Where does it come from?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Click on the video. Have the children observe and describe how a fish swims
-                in the water. Guide the children in imitating the movements of the fish by
-                swinging their arms left and right.</li>
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c2.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Show the children the picture of the food source and the food. Encourage children to state that a papaya
+                grows on a papaya tree.</li>
+        </ol>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c3.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c1.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Ask children: What fruit is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c4.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Show the children the picture of the food source and the food. Encourage children to state that grapes grow
+                on grape vines.</li>
+        </ol>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c5.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c4.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: What fruit is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Show the children the picture of the food source and the food. Encourage children to state that grapes grow
+                on grape vines.</li>
+        </ol>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c7.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c6.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: What fruit is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c8.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c9.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Show the children the picture of the food source and the food. Encourage children to state that grapes grow
+                on grape vines.</li>
+        </ol>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c9.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c8.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask children: What fruit is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c10.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c11.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Show the children the picture of the food source and the food. Encourage children to state that grapes grow
+                on grape vines.</li>
+        </ol>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c11.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c10.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Ask children: What vegetable is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c12.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c13.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c14.png') }}" class="h-[20vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c15.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Show the children the picture of the food source and the food. Help children understand the relationship
+                between the food source and its related food.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c16.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Ask children: What vegetable is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c17.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c18.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c19.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="23">
+            <li>Show the children the picture of the food source and the food. Help children understand the relationship
+                between the food source and its related food.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c20.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="24">
+            <li>Ask children: What vegetable is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c21.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="25">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c22.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="26">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c23.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="27">
+            <li>Show the children the picture of the food source and the food. Help children understand the relationship
+                between the food source and its related food.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c24.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="28">
+            <li>Ask children: What vegetable is this? Where does it come from?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c25.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="29">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c26.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="30">
+            <li>Show the children the picture of the food source.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c27.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="31">
+            <li>Show the children the picture of the food source and the food. Help children understand the relationship
+                between the food source and its related food.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class2/c28.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="32">
+            <li>Click to play the video. Ask children to describe the process of cooking vegetables.</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class2/v1.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/micet/k2/nutrition/class2/v1.mp4') }}" type="video/mp4">
         </video>
     </div>
 
 
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Display the drawing of a fish. Have the children know that they are going to
-                learn to draw a fish.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children refer to the example provided to draw a fish.
-                Demonstrate how to draw a fish on the whiteboard, then walk around to assist
-                children in drawing. Encourage the children to draw in the fish scales, fins, etc
-                and colour it with their favourite colours.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="33">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c3.png') }}" class="w-[40vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the picture. Have the children explain the differences between the
-                two fish. (one big and one small)</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c4.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children count the number of fishes that Candy
-                caught and differentiate the number of big and small fishes.</li>
-            <li>Have the children state if there are more big fishes or more small fishes.</li>
-            <li>Have the children colour the big fishes.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c5.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their works and explain the
-                    characteristics of their fish.</li>
+                <li>Ask children to give examples of different food items and their food sources.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate sizes and count correctly.</li>
-                <li>Able to imitate the movements of a fish swimming.</li>
-                <li>Able to draw a fish by referring to the example.</li>
+                <li>Able to name the food sources of some of the common food.</li>
             </ul>
         </div>
     </div>
 
 
     {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Where Does Food Come From? (Part 1)</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage the children to draw different types of fishes.</li>
+                <li>Encourage the children to collect pictures of some food sources and their products, bring them to school
+                    and share the information with their classmates.</li>
             </ul>
         </div>
     </div>
@@ -245,8 +550,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

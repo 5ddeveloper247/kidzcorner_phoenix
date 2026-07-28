@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,19 +47,16 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To learn to sing the song "Beautiful butterflies".</li>
-            <li>To recognise and state the characteristics of a butterfly, and
-                imitate the way it flies.</li>
-            <li>To recognise and state the characteristics of a dragonfly,
-                and imitate the way it catches its food.</li>
+        <ul class="list-disc panel-ul">
+            <li>Develop logical inference skill</li>
+            <li>Understand food categories</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -73,16 +70,14 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children recall the story. Ask them to identify who Candy was
-                    chasing when she fell into the river. (a butterfly)</li>
-                <li>Ask the children if they have ever seen a butterfly and have them describe
-                    what a butterfly looks like.</li>
+                <li>Help the children to review the different food sources. Tell them that based on the various food
+                    sources, we can categorise food into different groups.</li>
             </ol>
         </div>
     </div>
@@ -90,242 +85,261 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Fruit Group - Introduce the fruit group by showing examples of fruits. Ask questions to guide the children
+                to identify the characteristics of the fruit group, such as fruits come from plants, are eaten raw, etc.
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c1.png') }}" class="w-[30vw]" />
+        <div class="flex flex-col items-center">
+            <div class="flex items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c1.png') }}" class="h-[10vw]" />
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c2.png') }}" class="w-[15vw]" />
+            </div>
+            <div class="flex items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c3.png') }}" class="w-[15vw]" />
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c4.png') }}" class="w-[15vw]" />
+            </div>
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Fruit Group - Introduce the fruit group by showing examples of fruits. Ask questions to guide the children
+                to identify the characteristics of the fruit group, such as fruits come from plants, are eaten raw, etc.
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c2.png') }}" class="w-[30vw]" />
+        <div class="flex flex-col items-center">
+            <div class="flex items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c5.png') }}" class="w-[15vw]" />
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c6.png') }}" class="w-[15vw]" />
+            </div>
+            <div class="flex items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c7.png') }}" class="w-[15vw]" />
+                <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c8.png') }}" class="w-[15vw]" />
+            </div>
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Fruit Group - Introduce the fruit group by showing examples of fruits. Ask questions to guide the children
+                to identify the characteristics of the fruit group, such as fruits come from plants, are eaten raw, etc.
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c3.png') }}" class="w-[25vw]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c9.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c10.png') }}" class="w-[25vw]" />
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+            <li>Ask the children how they think fruits help us? Explain that fruits give our body fibre which makes
+                digestion easy. Fruits also help our body to prevent disease and help in maintaining good health.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c11.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Vegetable Group - Introduce the vegetable group by showing examples of vegetables. Ask questions to guide
+                the children to identify the characteristics of the vegetable group, such as all vegetables are plants, are
+                usually eaten after cooking, etc.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c5.png') }}" class="w-[30vw]" />
+        <div class="space-y-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c12.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c13.png') }}" class="h-[8vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Vegetable Group - Show more examples of vegetables. Ask questions to guide the children to identify the
+                characteristics of the vegetable group, such as all vegetables are plants, are usually eaten after cooking,
+                etc.</li>
+        </ol>
+        <div class="space-y-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c14.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c15.png') }}" class="h-[8vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children how they think vegetables help us? Explain that vegetables give our body fibre which makes
+                digestion easy. Vegetables also help our body to prevent disease and help in maintaining good health.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c16.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the video. Have the children observe the butterflies to understand the
-                meaning of "gathering pollen", "gathering nectar". Explain to the children
-                that the nectar is the primary food for butterflies.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Grain Group - Introduce the grain group by showing examples of grains. Ask questions to guide the children
+                to identify the characteristics of the grain group, such as all grains are seeds of plants, they are usually
+                eaten after cooking, have a sticky texture after cooking, etc.</li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class4/v1.mp4') }}" type="video/mp4">
-        </video>
+        <div class="space-y-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c17.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c18.png') }}" class="h-[8vw]" />
+        </div>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the video. Have the children observe the butterflies to understand the
-                meaning of "gathering pollen", "gathering nectar". Explain to the children
-                that the nectar is the primary food for butterflies.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Click on the video to show the sticky texture of rice after cooking.</li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class4/v2.mp4') }}" type="video/mp4">
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/nutrition/class4/v1.mp4') }}" type="video/mp4">
         </video>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Play the song "Beautiful Butterflies". Have the children describe what the
-                <span class="flex items-end">butterflies in the song look like.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Click on the video to show the sticky texture of noodles after cooking. Guide the children to understand
+                that grains generally feel sticky after cooking.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/nutrition/class4/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul" start="6">
-            <li>Have the children repeat the lyrics after the teacher and sing the song when
-                <span class="flex items-end"> they are familiar with the words. <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask the children what they think the grain group food does? Explain that the grain group food gives our body
+                energy to work and play.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c19.png') }}" class="h-[15vw]" />
     </div>
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul" start="7">
-            <li> Have the children sing the song and dance like the butterflies when gathering
-                <span class="flex items-end">pollen and gathering nectar among flowers.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li> Meat Group - Introduce the meat group by showing examples. Ask questions to guide the children to identify
+                the characteristics of the meat group, such as they come from animals, are usually eaten after cooking, etc.
             </li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
+        <div class="space-y-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c20.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c21.png') }}" class="h-[8vw]" />
+        </div>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li> Meat Group - Introduce the meat group by showing examples. Ask questions to guide the children to identify
+                the characteristics of the meat group, such as they come from animals, are usually eaten after cooking, etc.
+            </li>
+        </ol>
+        <div class="space-y-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c22.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c23.png') }}" class="h-[8vw]" />
+        </div>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li> Display the picture of a dragonfly. Have the children name it and describe
-                <span class="flex items-end"> what its characteristics are.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li> Ask the children what they think the meat group food does? Explain that the meat group food helps grow our
+                muscles and makes us strong.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c6.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c24.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul" start="9">
-            <li> Ask the children how many wings a dragonfly has. Explain to them that a
-                dragonfly has 4 wings (2 pairs of wings). A dragonfly feeds on mainly
-                <span class="flex items-end">mosquitoes and some other insects.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li> Milk Group - Introduce the milk group by showing examples. Ask questions to guide the children to identify
+                the characteristics of the milk group, such as they come from dairy cows, etc.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c6.png') }}" class="w-[30vw]" />
+        <div class="space-y-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c25.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c26.png') }}" class="h-[8vw]" />
+        </div>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
-            <li>
-                <span class="flex items-end">
-                    Display the lyrics, teach the children to sing the song "Little Dragonflies".
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask the children what they think the milk group food does? Explain that milk group food makes our bones and
+                teeth strong.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Dragonflies with big eyes, <br>
-            Two pairs of wings light in flight. <br>
-            Flying east, flying west, <br>
-            Catching mosquitoes and flies.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c27.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul" start="9">
-            <li> Have the children sing the song and dance like dragonflies when catching
-                <span class="flex items-end"> mosquitoes and flies.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li> Click on the picture below to open the Software Magnetic Board. Guide the children to categorise the food
+                items into the different food groups. </li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Dragonflies with big eyes, <br>
-            Two pairs of wings light in flight. <br>
-            Flying east, flying west, <br>
-            Catching mosquitoes and flies.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class4/c28.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Food Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Guide children to complete the corresponding activities in the Thematic Activity Book.</li>
         </ol>
     </div>
 
@@ -338,24 +352,36 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children group themselves into two groups,
-                    namely, a butterfly group and a dragonfly group to sing and
-                    dance according to the songs.</li>
+                <li>Invite the children to talk about other special food that they have eaten, and based on the above
+                    method, categorise the food.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Beautiful Butterflies".</li>
-                <li>Able to identify some characteristics of butterflies and
-                    imitate them flying.</li>
-                <li>Able to identify some characteristics of dragonflies and
-                    imitate them hunting for food.</li>
+                <li>Be able to name the characteristics of food in each food group.</li>
+                <li>Be able to categorise food correctly.</li>
             </ul>
         </div>
     </div>
 
-    
+
+    {{-- panel 42 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Encourage the children to visit a supermarket with their parents in order to learn about the different
+                    types of food. Try using the method learnt in this activity to categorise the food. Parents may assist
+                    if the children come across less common and unique food.</li>
+            </ul>
+        </div>
+    </div>
+
+
 
     {{-- =============================================== --}}
     {{-- All Buttons --}}
@@ -408,8 +434,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

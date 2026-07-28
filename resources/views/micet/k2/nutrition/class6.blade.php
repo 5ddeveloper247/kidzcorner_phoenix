@@ -38,13 +38,13 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
         </div>
 
-
+        
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
@@ -57,7 +57,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -76,7 +76,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <img src="{{ asset('assets/images/micet/n2/habit1/class6/c1.png') }}" class="w-[40vw]" />
     </div>
@@ -84,7 +84,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
@@ -103,7 +103,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Have the children look at the fishing rod and name the parts that is needed to
@@ -117,7 +117,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Gather the boxes that the children brought. Guide the children in naming the
@@ -129,7 +129,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center justify-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Guide the children to complete the corresponding activity in the Thematic
@@ -142,7 +142,7 @@
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

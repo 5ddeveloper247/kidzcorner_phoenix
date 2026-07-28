@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Fun with Food</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -57,16 +57,17 @@
 
         <h3 class="title">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[40vw]">
-            <li>To understand the importance of putting effort in the things we do.</li>
-            <li>To enhance expression and inferential skills.</li>
+        <ul class="list-disc panel-ul">
+            <li>Know the basic food groups</li>
+            <li>Have a basic understanding of germs</li>
+            <li>Cultivate good food hygiene</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Fun with Food</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -79,15 +80,15 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Fun with Food</h1>
 
         <div>
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Tell the story using suggested questions and activities to reinforce the
-                    teaching points of the story.</li>
+                <li>Tell the story using suggested questions and activities to reinforce the teaching points of the story.
+                </li>
             </ol>
         </div>
     </div>
@@ -95,23 +96,25 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Fun With Food</h1>
 
-        <h3 class="p-title">Theme: Good Habits 1</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: Nutritious and Delicious</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">It is a sunny day, Mummy Cat decides to take Candy Cat to the river to <br>
-            teach herto fish. Candy is happy that she is going to learn a new skill.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Sue and her mother go to the supermarket and buy a lot of food. Sue <br>
+            comes home feeling tired and rests her head on the table. Suddenly, the <br>
+            food jumps out and invites Sue to go on an adventure in food land.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c2.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What equipment is needed for fishing?<br>
-                <span class="text-[#f7b94a]">Guide the children in identifying the equipment needed for fishing.</span>
+                Have you been to the supemmarket with your mother?<br>
+                <span class="text-[#f7b94a]">Discuss how various food are arranged in the different aisles in a <br>
+                    supermarket.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -120,15 +123,16 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">On the way, Candy meets Robbie Rooster and Rosie Rabbit. Candy <br>
-            invites them to go fishing but they say they have to finish their work first.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">The path is dark. Sue accidentally falls into a hole. Just then, Clever <br>
+            Carrot gives off a bright light and helps the other food rescue Sue from <br>
+            the hole. "Eating vegetables will give you bright eyes," says Clever Carrot.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c3.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                Would you go fishing with Candy if she invites you?<br>
-                <span class="text-[#f7b94a]">Encourage the children to decide and explain the reasons for their
-                    choice.</span>
+                Do you like to eat vegetables? Why are vegetables good for us?<br>
+                <span class="text-[#f7b94a]">Explain how eating vegetables helps our body get many nutrients. <br>
+                    Encourage children to eat more vegetables.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -137,17 +141,16 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">At the river, Candy leamns to fish from her mother. Not long after, Mary <br>
-            Mantis comes by. Candy puts down the fishing rod and dances with <br>
-            Mary Mantis.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Soon, they arrive at the foot of a big mountain. Molly Milk turns into a <br>
+            strong ladder and helps everyone climb up the mountain. "Drink more <br>
+            milk; it makes your teeth and bones strong", says Molly Milk.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c4.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think what Candy did is right?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they will not do things well if they
-                    <br>
-                    do it half-heartedly.</span>
+                Do you know where milk comes from?<br>
+                <span class="text-[#f7b94a]">Help the children to understand the source of milk and different types of <br>
+                    dairy products.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -156,14 +159,16 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just as Candy is about to sit down after dancing, a dragonfly flies <br>
-            around it. Candy then plays with the dragonfly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Clever Carrot and Richie Rice accidentally bump into each other and <br>
+            injure themselves. Patty Papaya helps to heal their wounds. "Eat more <br>
+            fruit; the wounds will heal fast," says Patty Papaya.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c5.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                What is special about dragonflies?<br>
-                <span class="text-[#f7b94a]">Explain the characteristics of dragonflies to the children.</span>
+                Do you like to eat fruit? What are the different types of fruit?<br>
+                <span class="text-[#f7b94a]">Help the children learn about different types of fruit, and encourage <br>
+                    them to eat more fruits ..</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -172,15 +177,15 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mummy Cat has already caught two fishes when Candy returns. Candy <br>
-            wants to catch a big fish like her mother.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Everyone begins to feel hungry after the long journey. Richie Rice takes <br>
+            out dry rations for everyone to eat. "Eating more energy food like rice <br>
+            and bread will make one energetic," says Richie Rice.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c6.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why could Mummy Cat catch two fishes while Candy had none?<br>
-                <span class="text-[#f7b94a]">Explain and teach the children the importance of putting effort
-                    in the things we do.</span>
+                Do you know what rice, bread and noodles are made of?<br>
+                <span class="text-[#f7b94a]">Teach the children about the different types of food products.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -189,16 +194,16 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just then, a beautiful butterfly flies by. Candy puts down the fishing rod <br>
-            again and starts to chase the butterfly. Candy accidentally falls into the <br>
-            river while running.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">After the meal, they arrive at the kingdom of germs. "Germs will <br>
+            contaminate the food and when we eat bad food, we become ill," says <br>
+            Fred Fish. So, everyone helps destroy the germs.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c7.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why did Candy fall into the river?<br>
-                <span class="text-[#f7b94a]">Explain to the children the dangers of not been observant
-                    when running.</span>
+                Do you know where to find germs? How can we get rid of germs?<br>
+                <span class="text-[#f7b94a]">Help children understand that germs are present in unclean things <br>
+                    and teach the children good hygiene practices.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -207,15 +212,17 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Fortunately, Mama Duck rushes over in time and saves Candy. Mummy <br>
-            Cat tells Candy that she has to leam to concentrate and do one thing at <br>
-            a time and not do things half-heartedly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Finally, they reach the food land and find a treasure box. Fred Fish is very <br>
+            strong and is able to lift the box with little effort. "Eat more fish, meat and <br>
+            beans to make you strong like me!" says Fred Fish.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c8.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think Candy will concentrate on fishing on the next trip?<br>
-                <span class="text-[#f7b94a]">Guide the children in predicting the ending of the story.</span>
+                Are you as strong as Fred? Let's try and see which heavy things you can carry.<br>
+                <span class="text-[#f7b94a]">Let the children try to lift some heavy things (child-appropriote) and help
+                    them <br>
+                    understand the importance of eating fish, meat and beans.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -224,16 +231,16 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Candy decides to concentrate on catching a fish. She does not play <br>
-            with the dragonfly or butterfly when they fly by again. Finally, Candy <br>
-            manages to catch a big fish!</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c9.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Just when everyone is about to open the treasure box, mother wakes <br>
+            Sue up. Oh, it was only a dream! Sue tells her mother about the dream <br>
+            and that she wishes to know what is inside the treasure box.</h3>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class1/c9.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why do you think Candy is able to catch a fish in the end?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they have concentrate and <br>
-                    put in effort in orderto leam a skill.</span>
+                Do you have dreams? What do you dream about? Do you tell your <br>
+                mother about your dreams?<br>
+                <span class="text-[#f7b94a]">Enhance children's understanding about dreams.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -242,21 +249,22 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Fun with Food</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children explain why Candy is able to catch a fish
-                    in the end.</li>
+                <li>Guide children to state the five food groups.</li>
+                <li>Ask the children to decide whether their daily meals include the five food groups. If not, ask them to
+                    check the food group which is missing from their meal.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to determine if Candy's behaviour is correct.</li>
-                <li>Able to explain why Candy is able to catch a fish in the end.</li>
+                <li>Able to understand the five food groups.</li>
+                <li>Know that germs are harmful; and cultivate good hygiene practices.</li>
             </ul>
         </div>
     </div>
@@ -316,8 +324,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;
