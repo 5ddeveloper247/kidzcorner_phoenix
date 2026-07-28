@@ -38,31 +38,27 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class8/c1.png') }}" class="h-[7vw]" />
+    <h1 class="panel-title stroke">Classroom Activity 8: The Busy Bee</h1>
+    <img src="{{ asset('assets/images/micet/k2/plant/class8/c1.png') }}" class="h-[7vw]" />
 
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul w-[45vw]">
-        <li>Understand the process of how a seed grows into a plant</li>
-        <li>Learn to grow a plant from a seed and record its growth</li>
-        <li>Develop a sense of responsibility</li>
+        <li>To imitate the process of bees gathering nectar.</li>
+        <li>To enhance body coordination.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Busy Bee</h1>
 
     <div>
         <h3 class="ptitle">Preparations</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
             <li>Thematic Activity Book</li>
-            <li>Pencils, colour pencils and erasers</li>
-            <li>Some green beans or seeds of other fast growing plants/li>
-            <li>A flower pot for each group (you may reuse plastic soft drink bottles) with soil or cotton wool. Label each pot with the group's name</li>
         </ul>
     </div>
 </div>
@@ -70,196 +66,117 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Busy Bee</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Show the children some seeds. Ask the children to describe what is needed by the seeds in order for them to grow (e.g. food, water, etc.). Let children share prior knowledge about plant growth.</li>
-            <li>Show the photo of the seed below. Ask the children to predict how it will grow.</li>
+            <li>Guide the children to recall the information learned from the previous activity about bees gathering nectar and transporting pollen. Ask them to describe the bees' appearance and living habits. Let the children talk about what they understand about bees..</li>
         </ol>
-        <div class="flex justify-center w-[45vw] mt-[2vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[8vw]" />
-        </div>
     </div>
 </div>
 
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="3">
-        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
-    </ol>
-    <div class="flex justify-center">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="2">
+            <li>Help the children to understand the lyrics.</li>
+            <li>Lead the children to sing the "Little Bees" song together. <span><button class="w-[3vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button></span></li>
+        </ol>
     </div>
+    <h2 class="text-white text-2xl text-justify">
+        Little bees, little bees,<br>
+        What are you doing?<br>
+        Buzzing here, buzzing there,<br>
+        Busy flying around.<br>
+        Little bees, little bees,<br>
+        Working very hard.<br>
+        Collect nectar, spread pollen<br>
+        To help everyone.
+    </h2>
 </div>
 
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="4">
-        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
-    </ol>
-    <div class="flex justify-center w-[45vw] mt-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="4">
+            <li>Ask the children to perform as they sing the "Little Bees" song along <br> with the music. Encourage the children to mimic the various movements of bees. <span><button class="w-[3vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button></span></li>
+        </ol>
     </div>
+    <h2 class="text-white text-2xl text-justify">
+        Little bees, little bees,<br>
+        What are you doing?<br>
+        Buzzing here, buzzing there,<br>
+        Busy flying around.<br>
+        Little bees, little bees,<br>
+        Working very hard.<br>
+        Collect nectar, spread pollen<br>
+        To help everyone.
+    </h2>
 </div>
 
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
-    </ol>
-    <div class="flex justify-center w-[45vw] mt-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="5">
+            <li>Guide the children to change the lyrics to the "Butterflies" song.</li>
+            <li>Lead the children to sing the "Butterflies" song and encourage them <br> to create movements according to the lyrics. <span><button class="w-[3vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button></span></li>
+        </ol>
     </div>
+    <h2 class="text-white text-xl text-justify">
+        Little bees, little bees,<br>
+        What are you doing?<br>
+        Buzzing here, buzzing there,<br>
+        Busy flying around.<br> 
+        Little bees, little bees,<br>
+        Working very hard.<br>
+        Collect nectar, spread pollen<br>
+        To help everyone.
+    </h2>
 </div>
 
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
-    </ol>
-    <div class="flex justify-center w-[45vw] mt-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
-    </div>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul" start="7">
-        <li>Show this photo of seed growth. Let the children discuss how the seed will <br>
-             grow (over 7 slides).</li>
-    </ol>
-    <div class="flex justify-center mt-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[15vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="w-[6vw]" />
-    </div>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="8">
-        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
-    </ol>
-    <div class="flex justify-center w-[45vw] mt-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[15vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="w-[6vw]" />
-    </div>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="9">
-        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
-    </ol>
-    <div class="flex justify-center w-[45vw] mt-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[15vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="w-[6vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[16.5vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="10">
-        <li>Click on the video. Show the children how a seed grows into a plant.</li>
-    </ol>
-    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k1/fruits/class8/v1.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="11">
-        <li>Tell the children that they will be doing an experiment to find out what happens when a seed is planted.</li>
-        <li>Let the children form small groups. Give each group a flower pot and some green beans (or seeds of other fast growing plants).</li>
-        <li>Teacher can demonstrate how to plant the seeds. Invite each group to plant a seed in their pot.</li>
-        <li>Let the children water the pot and place it at a sunny spot.</li>
-    </ol>
-</div>
 
 
 {{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Busy Bee</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="15">
-        <li>Encourage the children to make daily observations of their seeds. Let the children observe how the seed grows into a small plant with green leaves. Encourage the children to water their pot everyday and take good care of their plant.</li>
-        <li>Let the children draw what they observe over a period of few days on drawing papers or in the Thematic Activity Book. Remind the children to date each observational drawing.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <li>Guide children to complete the corresponding activities in the Thematic
+            Activity Book.</li>
     </ol>
 </div>
 
 
 {{-- panel 7 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Busy Bee</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite some children to display and explain their plant's growth records.</li>
+            <li>Invite the children who perform well to demonstrate to the class.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to cooperate with team members in planting and taking care of their own plants.</li>
-            <li>Able to draw how a seed grows into a plant based on their observations.</li>
+            <li>Able to sing the "Little Bees" song.</li>
+            <li>Able to use imagination to imitate the various movements of bees.</li>
         </ul>
     </div>
 </div>
@@ -267,7 +184,7 @@ $showMascot = true;
 
 {{-- panel 19 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Busy Bee</h1>
 
     <div class="text-start flex flex-col">
         <h3 class="ptitle">Extension</h3>
@@ -336,8 +253,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

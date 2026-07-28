@@ -67,19 +67,7 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <img src="{{ asset('assets/images/micet/k1/fruits/words/c1.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">seeds</p>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <img src="{{ asset('assets/images/micet/k1/fruits/words/c2.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c1.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -91,47 +79,84 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <img src="{{ asset('assets/images/micet/k1/fruits/words/c3.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">banana</p>
-</div>
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <img src="{{ asset('assets/images/micet/k1/fruits/words/c4.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c2.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">watermelon</p>
+    <p class="text-[#f7b94a] text-[5vw]">apple</p>
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <img src="{{ asset('assets/images/micet/k1/fruits/words/c5.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c3.png') }}" class="w-[25vw]" />
+</div>
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">apple tree</p>
+</div>
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c4.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">cherries</p>
+    <p class="text-[#f7b94a] text-[5vw]">leaf</p>
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <img src="{{ asset('assets/images/micet/k1/fruits/words/c6.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c5.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">orange</p>
+    <p class="text-[#f7b94a] text-[5vw]">tree trunk</p>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c6.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">root</p>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c7.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">sunlight</p>
+</div>
+
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c8.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">bee</p>
 </div>
 
 
@@ -142,7 +167,7 @@ $showMascot = true;
         <li>Click on the picture below to open the Software Magnetic Board. Guide the
             children to match the words with the pictures.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/words/c7.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/words/c9.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -201,8 +226,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

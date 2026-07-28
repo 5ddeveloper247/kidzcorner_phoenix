@@ -38,26 +38,30 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class10/c1.png') }}" class="h-[8vw]" />
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
+    <img src="{{ asset('assets/images/micet/k2/plant/class10/c1.png') }}" class="h-[8vw]" />
 
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul">
-        <li>Extend the understanding of the characteristics of fruits</li>
-        <li>Use the process of elimination to deduce the final answer</li>
+        <li>To act out the growth cycle of fruit trees.</li>
+        <li>To deepen the understanding of the growth cycle of fruit trees through drama.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
     <div>
         <h3 class="ptitle">Preparations</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Thematic Activity Book</li>
+            <li>Thematic Activity Book.</li>
+            <li>Children's "Experiment Record Table" from Activity 2.</li>
+            <li>Music from Activity 8.</li>
+            <li>Pictures of the apple's growth cycle from Activity 9.</li>
+
         </ol>
     </div>
 </div>
@@ -65,16 +69,22 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Let the children recall the story "Little Seeds
-                Find Their Mummy". Emphasise to the children
-                how in the story, the seeds use the different
-                clues to find their mummy.</li>
+            <li>Invite a few children to display their "Experiment Record Table" and to explain their findings, for example, factors required for plants growth or the growth cycle of plants.</li>
+            <li>Organise the children into groups to dramatise the growth cycle of plants.
+                <ul class="list-disc panel-ul w-[50vw]">
+                    <li>1st group to represent the seeds growing up</li>
+                    <li>2nd group to represent the bees and butterflies</li>
+                    <li>3rd group to represent people or animals</li>
+                    <li>One child to represent a person watering the seeds</li>
+                    <li>One child to represent the sun</li>
+                </ul>
+            </li>
         </ol>
     </div>
 </div>
@@ -82,765 +92,54 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="2">
-        <li>Invite the children to a game where they will help the little seeds find their mummies. Tell the children that they are going to be given some clues and they have to find the fruit mummy, based on the clues.</li>
-        <li>Reveal the clues ,one at a time, to describe the characteristics of a mystery fruit. Guide children to think of the possible answers. Let them use their deductive reasoning skills to get to the right answer.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <li>Help the children perform according to the following steps:</li>
+        <ul class="list-disc panel-ul w-[50vw]">
+            <li>A few children curl up their bodies to act as seeds.</li>
+            <li>Then get one child to water the "seeds".</li>
+            <li>One child is the sun, providing sunlight to the seeds.</li>
+            <li>With sunlight and water, the "seeds" start to grow slowly.</li>
+            <li>Direct the "seeds" to slowly open up their bodies and stand up to represent seeds that have grown into fruit trees.</li>
+        </ul>
+    </ol>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <li>Help the children perform according to the following steps:</li>
+        <ul class="list-disc panel-ul w-[50vw]">
+            <li>The children can extend their arms to represent branches and open their hands to represent flowers that have bloomed.</li>
+            <li>A few children act as bees and butterflies and perform the process of gathering nectar and transporting pollen.</li>
+            <li>After pollination, the "fruit trees" will slowly curl up their fingers to form circles to represent flowers withering and bearing fruit.</li>
+            <li>Lastly, a few children act as people or animals to pluck and eat the fruit and then sprinkle the seeds on the ground. In this way, the seeds will start life anew once again.</li>
+        </ul>
     </ol>
 </div>
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="4">
-        <li>Reveal the first clue. Guide the children to think of all possible fruits that fit this description.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit I <br>
-        Clue I: It is round.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="5">
-        <li>Reveal the second clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
+        <li>During the performance, the teacher can play some appropriate music and get the children to match their movements to the corresponding music. Encourage the children to make suitable impromptu movements.</li>
+        <li>At the end of the activity, encourage the children to reflect and discuss ways to improve their performance.</li>
     </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit I <br>
-        Clue I: It is round. <br>
-        Clue 2: It bears fruits on the trees.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="6">
-        <li>Reveal the third clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit I <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is soft.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="7">
-        <li>Reveal the fourth clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit I <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is soft. <br>
-        Clue 4: The skin is not smooth.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="8">
-        <li>Reveal the fifth clue. Guide the children to use their deductive reasoning skills and come to the final answer.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit I <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is soft. <br>
-        Clue 4: The skin is not smooth. <br>
-        Clue 5: It is orange in colour.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="9">
-        <li>Let the children share their answer with their classmates to check if it is correct.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit I <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is soft. <br>
-        Clue 4: The skin is not smooth. <br>
-        Clue 5: It is orange in colour.<br>
-        (orange)
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="10">
-        <li>Let the children reconfirm their answer by referring back to all the five clues.</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-2">
-        <h2 class="text-white text-xl text-justify">
-            Fruit I <br>
-            Clue I: It is round.<br>
-            Clue 2: It bears fruits on the trees.<br>
-            Clue 3: It is soft. <br>
-            Clue 4: The skin is not smooth. <br>
-            Clue 5: It is orange in colour.<br>
-        </h2>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class10/c2.png') }}" class="w-[15vw]" />
-            <h2 class="text-white text-xl">(orange)</h2>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="11">
-        <li>Reveal the first clue. Guide the children to think of all possible fruits that fit this description.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 2 <br>
-        Clue I: It is round.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="12">
-        <li>Reveal the second clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 2 <br>
-        Clue I: It is round. <br>
-        Clue 2: It bears fruits on the trees.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="13">
-        <li>Reveal the third clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 2 <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is hard.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="14">
-        <li>Reveal the fourth clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 2 <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is hard. <br>
-        Clue 4: The skin is not smooth.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="15">
-        <li>Reveal the fifth clue. Guide the children to use their deductive reasoning skills and come to the final answer.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 2 <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is hard.<br>
-        Clue 4: The skin is smooth.<br>
-        Clue 5: It is red or green in colour.<br>
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="16">
-        <li>Let the children share their answer with their classmates to check if it is correct.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 2 <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: It is hard.<br>
-        Clue 4: The skin is smooth.<br>
-        Clue 5: It is red or green in colour.<br>
-        (apple)
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="17">
-        <li>Let the children reconfirm their answer by referring back to all the five clues.</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-2">
-        <h2 class="text-white text-xl text-justify">
-            Fruit 2 <br>
-            Clue I: It is round.<br>
-            Clue 2: It bears fruits on the trees.<br>
-            Clue 3: It is hard.<br>
-            Clue 4: The skin is smooth.<br>
-            Clue 5: It is red or green in colour.<br>
-        </h2>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class10/c3.png') }}" class="w-[15vw]" />
-            <h2 class="text-white text-xl">(apple)</h2>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="18">
-        <li>Reveal the first clue. Guide the children to think of all possible fruits that fit this description.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 3 <br>
-        Clue I: It is round.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="19">
-        <li>Reveal the second clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 3 <br>
-        Clue I: It is round. <br>
-        Clue 2: It is small.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="20">
-        <li>Reveal the third clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 3<br>
-        Clue I: It is round.<br>
-        Clue 2: It is small.<br>
-        Clue 3: Its flesh is soft and transparent.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="21">
-        <li>Reveal the fourth clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 3 <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: Its flesh is soft and transparent. <br>
-        Clue 4: It is soft and smooth.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="22">
-        <li>Reveal the fifth clue. Guide the children to use their deductive reasoning skills and come to the final answer.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 3 <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: Its flesh is soft and transparent. <br>
-        Clue 4: It is soft and smooth. <br>
-        Clue 5: It is green or purple in colour.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="23">
-        <li>Let the children share their answer with their classmates to check if it is correct.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 3 <br>
-        Clue I: It is round.<br>
-        Clue 2: It bears fruits on the trees.<br>
-        Clue 3: Its flesh is soft and transparent. <br>
-        Clue 4: It is soft and smooth. <br>
-        Clue 5: It is green or purple in colour. <br>
-        (grape)
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="24">
-        <li>Let the children reconfirm their answer by referring back to all the five clues.</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-2">
-        <h2 class="text-white text-xl text-justify">
-            Fruit 3 <br>
-            Clue I: It is round.<br>
-            Clue 2: It bears fruits on the trees.<br>
-            Clue 3: Its flesh is soft and transparent. <br>
-            Clue 4: It is soft and smooth. <br>
-            Clue 5: It is green or purple in colour. <br>
-
-        </h2>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class10/c4.png') }}" class="w-[15vw]" />
-            <h2 class="text-white text-xl">(grape)</h2>
-        </div>
-    </div>
-</div>
-
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="25">
-        <li>Reveal the first clue. Guide the children to think of all possible fruits that fit this description.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 4 <br>
-        Clue I: It is big.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="26">
-        <li>Reveal the second clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 4<br>
-        Clue I: It is big.<br>
-        Clue 2: It bears fruits on the ground.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="27">
-        <li>Reveal the third clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 4<br>
-        Clue I: It is big.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: It is hard and smooth.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="28">
-        <li>Reveal the fourth clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 4<br>
-        Clue I: It is big.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: It is hard and smooth.<br>
-        Clue 4: Its flesh is red or yellow in colour.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="29">
-        <li>Reveal the fifth clue. Guide the children to use their deductive reasoning skills and come to the final answer.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 4<br>
-        Clue I: It is big.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: It is hard and smooth.<br>
-        Clue 4: Its flesh is red or yellow in colour.<br>
-        Clue 5: It is round or oval-shaped.
-
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="30">
-        <li>Let the children share their answer with their classmates to check if it is correct.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 4<br>
-        Clue I: It is big.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: It is hard and smooth.<br>
-        Clue 4: Its flesh is red or yellow in colour.<br>
-        Clue 5: It is round or oval-shaped.<br>
-        (watermelon)
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="31">
-        <li>Let the children reconfirm their answer by referring back to all the five clues.</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-2">
-        <h2 class="text-white text-xl text-justify">
-            Fruit 4<br>
-            Clue I: It is big.<br>
-            Clue 2: It bears fruits on the ground.<br>
-            Clue 3: It is hard and smooth.<br>
-            Clue 4: Its flesh is red or yellow in colour.<br>
-            Clue 5: It is round or oval-shaped.
-        </h2>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class10/c5.png') }}" class="w-[15vw]" />
-            <h2 class="text-white text-xl">(watermelon)</h2>
-        </div>
-    </div>
-</div>
-
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="32">
-        <li>Reveal the first clue. Guide the children to think of all possible fruits that fit this description.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 5 <br>
-        Clue I: It is round.
-
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="33">
-        <li>Reveal the second clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 5 <br>
-        Clue I: It is round. <br>
-        Clue 2: It is small.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="34">
-        <li>Reveal the third clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 5<br>
-        Clue I: It is round.<br>
-        Clue 2: It is small.<br>
-        Clue 3: Its flesh is soft and transparent.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="35">
-        <li>Reveal the fourth clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 5<br>
-        Clue I: It is round.<br>
-        Clue 2: It is small.<br>
-        Clue 3: Its flesh is soft and transparent.<br>
-        Clue 4: Its skin is rough.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="36">
-        <li>Reveal the fifth clue. Guide the children to use their deductive reasoning skills and come to the final answer.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 5<br>
-        Clue I: It is round.<br>
-        Clue 2: It is small.<br>
-        Clue 3: Its flesh is soft and transparent.<br>
-        Clue 4: Its skin is rough.<br>
-        Clue 5: It is red in colour.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="37">
-        <li>Let the children share their answer with their classmates to check if it is correct.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 5<br>
-        Clue I: It is round.<br>
-        Clue 2: It is small.<br>
-        Clue 3: Its flesh is soft and transparent.<br>
-        Clue 4: Its skin is rough.<br>
-        Clue 5: It is red in colour.<br>
-        (lychee)
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="38">
-        <li>Let the children reconfirm their answer by referring back to all the five clues.</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-2">
-        <h2 class="text-white text-xl text-justify">
-            Fruit 5<br>
-            Clue I: It is round.<br>
-            Clue 2: It is small.<br>
-            Clue 3: Its flesh is soft and transparent.<br>
-            Clue 4: Its skin is rough.<br>
-            Clue 5: It is red in colour.
-        </h2>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class10/c6.png') }}" class="w-[15vw]" />
-            <h2 class="text-white text-xl">(lychee)</h2>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="39">
-        <li>Reveal the first clue. Guide the children to think of all possible fruits that fit this description.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 6 <br>
-        Clue I: It is medium sized.
-
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="40">
-        <li>Reveal the second clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 6 <br>
-        Clue I: It is medium sized. <br>
-        Clue 2: It bears fruits on the ground.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="41">
-        <li>Reveal the third clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 6<br>
-        Clue I: It is medium sized.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: Its skin is hard and wrinkled.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="42">
-        <li>Reveal the fourth clue. Guide the children to use the process of elimination: after each clue, eliminate fruits that do not meet the criteria.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 6<br>
-        Clue I: It is medium sized.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: Its skin is hard and wrinkled.<br>
-        Clue 4: Its flesh is light green in colour.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="43">
-        <li>Reveal the fifth clue. Guide the children to use their deductive reasoning skills and come to the final answer.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 6<br>
-        Clue I: It is medium sized.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: Its skin is hard and wrinkled.<br>
-        Clue 4: Its flesh is light green in colour.<br>
-        Clue 5: It is round.
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="44">
-        <li>Let the children share their answer with their classmates to check if it is correct.</li>
-    </ol>
-    <h2 class="text-white text-xl text-justify">
-        Fruit 6<br>
-        Clue I: It is medium sized.<br>
-        Clue 2: It bears fruits on the ground.<br>
-        Clue 3: Its skin is hard and wrinkled.<br>
-        Clue 4: Its flesh is light green in colour.<br>
-        Clue 5: It is round.<br>
-        (honey melon)
-    </h2>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="45">
-        <li>Let the children reconfirm their answer by referring back to all the five clues.</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-2">
-        <h2 class="text-white text-xl text-justify">
-            Fruit 6<br>
-            Clue I: It is medium sized.<br>
-            Clue 2: It bears fruits on the ground.<br>
-            Clue 3: Its skin is hard and wrinkled.<br>
-            Clue 4: Its flesh is light green in colour.<br>
-            Clue 5: It is round.
-        </h2>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class10/c7.png') }}" class="w-[15vw]" />
-            <h2 class="text-white text-xl">(honey melon)</h2>
-        </div>
-    </div>
 </div>
 
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="46">
+    <ol class="list-decimal panel-ul w-[50vw]" start="7">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>
@@ -850,19 +149,34 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Let’s Help Little Seeds Find Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 10: The Growth of a Fruit Tree</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Let the children list out five clues of their favourite fruit and then have their friends guess the answer.</li>
+            <li>After reflection, improve and repeat the performance.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to use deductive reasoning skills to get to the correct answer.</li>
+            <li>Able to perform the growth cycle of fruit trees with classmates.</li>
+            <li>Able to perform impromptu according to the role assigned.</li>
+        </ul>
+    </div>
+</div>
+
+
+{{-- panel 19 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+
+    <div class="text-start flex flex-col">
+        <h3 class="ptitle">Evaluation</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Prepare some props with the children and invite the parents to watch the performance in school.</li>
         </ul>
     </div>
 </div>
@@ -920,8 +234,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;
