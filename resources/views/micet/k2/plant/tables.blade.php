@@ -41,12 +41,12 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul">
-            <li>Learn to describe the colour, shape, taste and other characteristics of different types of commonly seen fruits</li>
-            <li>Be aware that things can only be done well when one concentrates and perseveres on a task</li>
-            <li>Learn to identify the seeds of some common fruits and be able to match them accordingly</li>
-            <li>Exercise creativity by using dough to mould one's favourite fruit dolly</li>
-            <li>Learn to apply the various senses to determine the uniqueness of different fruits and categorise them accordingly</li>
-            <li>Grow some plants, record their growth, and learn about growth in plants</li>
+            <li>To learn about the growth process of fruits and to learn how plants grow from seeds.</li>
+            <li>To understand the roles of water and sunlight in the growth of plants through experiments.</li>
+            <li>To understand that bees and butterflies transport pollen.</li>
+            <li>To understand the functions of leaves and roots.</li>
+            <li>To demonstrate the growth process of fruit trees through dramatisation.</li>
+            <li>To create artwork using pasted leaves.</li>
         </ol>
     </div>
 
@@ -54,7 +54,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/k1/fruits/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -62,7 +62,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/k1/fruits/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 
@@ -122,8 +122,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-            const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+            const returnURL = "{{ url('/micet/k2/plant/index') }}";
+            const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
             // Track current position
             let currentSlide = 0;

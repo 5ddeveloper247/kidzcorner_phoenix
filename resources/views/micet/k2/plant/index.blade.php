@@ -70,7 +70,7 @@
     </div>
     <div class="grid grid-cols-3 gap-[2vw]">
         <a href="{{ url('/micet/k2/plant/cards') }}">
-            <img src="{{ asset('assets/images/micet/k2/plant/cards.png') }}" class="w-full" />
+            <img src="{{ asset('assets/images/micet/k2/plant/words.png') }}" class="w-full" />
         </a>
 
         <a href="{{ url('/micet/k2/plant/activity') }}">

@@ -38,23 +38,21 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class9/c1.png') }}" class="h-[8vw]" />
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c1.png') }}" class="h-[8vw]" />
 
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul">
-        <li>Learn to sing the "The Secret In The Orchard" song</li>
-        <li>Learn to recite a rap and clap to the rhythm</li>
-        <li>Create a new rap by changing the lyrics of the original rap</li>
-        <li>Develop a sense of rhythm and enjoy music</li>
+        <li>To understand the growth cycle of apple seeds.</li>
+        <li>To understand the growth cycle of plants and how plants grow from seeds.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
 
     <div>
         <h3 class="ptitle">Preparations</h3>
@@ -67,142 +65,166 @@ $showMascot = true;
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul">
-            <li>Click on the animation. Let the children listen to the song, "The Secret In The Orchard".</li>
+            <li>Ask the children to describe what they will see if an apple is cut in half. Guide the children to say that the inside of the apple has a core with seeds in it.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class9/c2.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="2">
-            <li>Invite the children to learn the lyrics.</li>
+            <li>Ask the children to describe what they will see if an apple is cut in half. Guide the children to say that the inside of the apple has a core with seeds in it.</li>
         </ol>
     </div>
-    <h2 class="text-white text-2xl text-justify">
-        In this place of many fruits, <br>
-        There are secrets hidden here and there. <br>
-        Little seeds searching everywhere,<br>
-        For their lost mummy.<br>
-        Special fruit from a magic tree,<br>
-        And little dolls for you and me.<br>
-        Other fruits shiny and green,<br>
-        One will be a lovely queen.<br>
-    </h2>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c2.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col h-full space-y-[1vw] items-center">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="3">
-            <li>When the children are familiar with the lyrics, encourage them to sing the song.</li>
+            <li>Ask the children to explain the use of the apple seed.</li>
+            <li>Guide the children to recall the story of how the apple seed <br> grows and describe the process of its growth.</li>
         </ol>
     </div>
-    <h2 class="text-white text-2xl text-justify">
-        <button class="w-[3vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-        In this place of many fruits, <br>
-        There are secrets hidden here and there. <br>
-        Little seeds searching everywhere,<br>
-        For their lost mummy.<br>
-        Special fruit from a magic tree,<br>
-        And little dolls for you and me.<br>
-        Other fruits shiny and green,<br>
-        One will be a lovely queen.<br>
-    </h2>
 </div>
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col h-full space-y-[1vw] items-center">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
-    <div class="text-start">
-        <ol class="list-decimal panel-ul" start="4">
-            <li>Invite the children to listen to the "Watermelon" rap. Let them guess the fruit and describe its characteristics.</li>
-        </ol>
-    </div>
-    <h2 class="text-white text-2xl text-justify">
-        <button class="w-[3vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-        In this place of many fruits,<br>
-        I am the prettiest one of all,<br>
-        With a round body, big and bright,<br>
-        And dressed in a green patterned robe<br>
-        that's just right.<br>
-    </h2>
-</div>
-
-
-{{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="5">
-            <li>Click on the animation to let the children verify whether they guessed the fruit correctly.</li>
+            <li>Help the children recall the growth cycle of plants: seed</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class9/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c2.png') }}" class="h-[20vw]" />
 </div>
 
 
-
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col h-full space-y-[1vw] items-center">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="6">
-            <li>Invite the children to learn the rap and let them clap their hands according to the beat.</li>
+            <li>Help the children recall the growth cycle of plants: seed</li>
         </ol>
     </div>
-    <h2 class="text-white text-2xl text-justify">
-        <button class="w-[3vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-        In this place of many fruits, <br>
-        I am the prettiest one of all,<br>
-        With a round body, big and bright,<br>
-        And dressed in a green patterned robe<br>
-        that's just right.<br>
-    </h2>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c3.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col h-full space-y-[1vw] items-center">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="7">
-            <li>Encourage the children to substitute words in the "Watermelon" rap to create other fruit raps, such as:</li>
+            <li>Help the children recall the growth cycle of plants: seed > seedling</li>
         </ol>
     </div>
-    <h2 class="text-white text-2xl text-justify">
-        In this place of many fruits, <br>
-        I am the prettiest one of all,<br>
-        With a round body, big and bright,<br>
-        And dressed in a green patterned robe<br>
-        that's just right.<br>
-    </h2>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c4.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="8">
+            <li>Help the children recall the growth cycle of plants: seed > seedling > flower bud</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c5.png') }}" class="h-[20vw]" />
+</div>
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="9">
+            <li>Help the children recall the growth cycle of plants: seed > seedling > flower bud -> flower</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c6.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="10">
+            <li>Help the children recall the growth cycle of plants: seed > seedling -> flower bud > flower</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c7.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="11">
+            <li>Help the children recall the growth cycle of plants: seed > seedling > flower bud -> flower > pollination</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c8.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="12">
+            <li>Help the children recall the growth cycle of plants: seed > seedling > flower bud -> flower > pollination</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c9.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="13">
+            <li>Help the children recall the growth cycle of plants: seed -> seedling > flower bud > flower > pollination > fruit</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c2.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul" start="14">
+            <li>Help the children recall the growth cycle of plants: seed > seedling > flower bud > flower > pollination > fruit > seed.</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class9/c2.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="8">
+    <ol class="list-decimal panel-ul w-[45vw]" start="15">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>
@@ -213,27 +235,37 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite the children to perform their own fruit rap.</li>
+            <li>Ask the children to arrange the apple's growth cycle pictures in sequence in the Thematic Activity Book and compare them with the photos presented.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to sing the "The Secret In The Orchard" song.</li>
-            <li>Able to chant the "Watermelon" rap and clap to the rhythm.</li>
-            <li>Able to create a new rap according to the characteristics of a fruit by substituting words in the original rap.</li>
+            <li>Able to recall the growth cycle of plants.</li>
+            <li>Able to arrange the growth cycle pictures in the correct sequence.</li>
         </ul>
     </div>
 </div>
 
 
+{{-- panel 19 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 9: The Apple Seed has Grown</h1>
 
+    <div class="text-start flex flex-col">
+        <h3 class="ptitle">Evaluation</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Guide the children to explore the growth cycle of other plants.</li>
+        </ul>
+    </div>
+</div>
 
 
 
@@ -288,8 +320,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

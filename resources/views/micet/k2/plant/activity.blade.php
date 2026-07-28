@@ -38,15 +38,15 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/activity/c1.png') }}" class="h-[8vw]" />
-    <img src="{{ asset('assets/images/micet/k1/fruits/activity/c2.png') }}" class="w-[25vw]" />
+    <h1 class="panel-title stroke">Computer Activities: Where do Fruits Come From?</h1>
+    <img src="{{ asset('assets/images/micet/k2/plant/activity/c4.png') }}" class="h-[8vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/activity/c1.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center hidden">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
+    <h1 class="panel-title stroke">Computer Activities: Where do Fruits Come From?</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Tuning-in</h3>
@@ -55,10 +55,9 @@ $showMascot = true;
             <li>
                 To begin the lesson, ask the following questions to arouse the children's curiosity and interest.
                 <ol class="list-[lower-alpha] pl-[2vw]">
-                    <li>What are the fruits you can name? </li>
-                    <li>Which is your favourite fruit? Why?</li>
-                    <li>Can you identify the characteristics of some of the common fruits?
-                        (shape, colour, taste, etc)</li>
+                    <li>How do fruits grow? </li>
+                    <li>Name the fruits you know.</li>
+                    <li>What is your favourite fruit?</li>
                 </ol>
             </li>
 
@@ -66,10 +65,9 @@ $showMascot = true;
                 Elicit answers from the children, before proceeding on with the following
                 questions to focus the children's attention on the key points of the courseware.
                 <ol class="list-[lower-alpha] pl-[2vw]">
-                    <li> How many mummies did the Little Seeds meet while they are looking for
-                        their own mummy?</li>
-                    <li>Did the Little Seeds find their own mummy?</li>
-                    <li>Who is the mummy of the Little Seeds?</li>
+                    <li> Where do apples come from?</li>
+                    <li>How did the fruit tree grow? How did it absorb nutrients?</li>
+                    <li>How do people know the age of a tree?</li>
                 </ol>
             </li>
         </ol>
@@ -78,21 +76,20 @@ $showMascot = true;
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center hidden">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Computer Activities: Where do Fruits Come From?</h1>
 
     <div class="text-start space-y-[1vw]">
-        <h3 class="ptitle">Activity 1: Story - Let’s look for Mummy</h3>
+        <h3 class="ptitle">Activity 1: Story - Where do fruits come from?</h3>
 
         <div class="flex gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/activity/c3.png') }}" class="w-[20vw] h-[15vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/activity/c2.png') }}" class="w-[20vw] h-[15vw]" />
             <div>
                 <h3 class="ptitle">Objectives</h3>
                 <ul class="list-disc panel-ul w-[25vw]">
-                    <li>To understand that things can be done well when one concentrates and perseveres on a task</li>
-                    <li>To understand what seeds are and to expand one's general knowledge</li>
-                    <li>To be able to identify various common fruits</li>
-                    <li>To learn to describe the colour, shape, taste and other characteristics of fruits</li>
+                    <li>To learn the growth process of apples.</li>
+                    <li>To learn vocabulary related to plants.</li>
+                    <li>To gain some knowledge about fruit trees.</li>
                 </ul>
             </div>
         </div>
@@ -102,142 +99,48 @@ $showMascot = true;
 
 
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw] hidden">
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
     <div>
         <h3 class="ptitle">Story</h3>
 
-        <p class="panel-ul">Tinny and Whinny are two small seeds looking for their mother. Susie
-            Swallow takes them to a big orchard. There are many fruits in the orchard,
-            but the little seeds do not know who their mummy is. The fruit fairy gives
-            them five treasure boxes. They follow the clues provided in the treasure
-            boxes in terms of shape, place, colour, size and appearance, and find a
-            watermelon, an orange, an apple, and a rambutan respectively. However,
-            these fruits are not their mummy. However, the seeds are not discouraged
-            and continue to look for their mother. Finally, they find their mummy - a
-            cherry.</p>
+        <p class="panel-ul">Bobo wants to find out where fruit comes from. He goes to the library to look
+            for information. He finds out that apples grow on trees. Bobo decides to go
+            to the orchard to look at apple trees. At the orchard, he sees a bee
+            gathering pollens from the apple trees. The bee tells Bobo that some time
+            after apple flowers receive pollen, the petals would wither and drop off.
+            After a period of time, the tree will bear apples. Bobo follows the bee to the
+            orchard. The apple tree gives Bobo an apple. After eating it, Bobo finds a
+            seed in it. This is how the apple tree grows, from a small seed into a big tree.
+            But what does the apple tree eat to grow so tall? Its leaves can absorb
+            sunlight and nutrients while its roots can absorb water and minerals from the
+            soil. Bobo wants to know the age of the apple tree. The apple tree tells him
+            to count the rings on its trunk to find out its age.</p>
     </div>
 </div>
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-start h-[full] items-center">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
+    <h1 class="panel-title stroke">Computer Activities: Where do Fruits Come From?</h1>
 
     <div class="text-start w-[58vw]">
-        <h3 class="ptitle">Activity 2: Fruit doll</h3>
+        <h3 class="ptitle">Activity 2: Counting</h3>
 
         <div class="flex gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/activity/c4.png') }}" class="w-[20vw] h-[15vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/activity/c3.png') }}" class="w-[20vw] h-[15vw]" />
             <div>
                 <h3 class="ptitle">Objectives</h3>
                 <ul class="list-disc panel-ul">
-                    <li>To promote creativity and imagination</li>
-                    <li>To learn basic matching of shapes and colours</li>
+                    <li>To learn basic addition and subtraction.</li>
+                    <li>To practise logical-mathematical skills.</li>
                 </ul>
                 <h3 class="ptitle">Process</h3>
                 <ul class="panel-ul">
-                    <li> Select a fruit dolly head from the fruit platter
-                        at bottom right of the screen. Select a fruit dolly
-                        body from the fruit platter at bottom left of the screen.
-                        Select fruit dolly hands from the tree branches.
-                        Select a fruit dolly face from the plate of seeds at the
-                        top left of the screen. Select buttons for fruit dolly's
-                        clothes from the plate of seeds.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
-
-    <!-- Constrained width and shifted left to avoid the mascot -->
-    <div class="text-start w-[58vw]">
-        <!-- Left-aligned Activity Title -->
-        <h3 class="ptitle text-[1.5vw]">Activity 3: Fruit conveyor belt</h3>
-
-        <div class="flex gap-[3vw]">
-
-            <img src="{{ asset('assets/images/micet/k1/fruits/activity/c5.png') }}" class="w-[20vw] h-[15vw]" />
-
-            <!-- Compact Text Column -->
-            <div class="flex-1 text-white">
-                <h3 class="ptitle text-[1.3vw]">Objectives</h3>
-                <ul class="list-disc pl-[1.2vw] panel-ul text-[1.05vw]">
-                    <li>To improve sequencing and memory skills</li>
-                    <li>To learn to discriminate between small differences between items</li>
-                    <li>To know more about the different types of fruits</li>
-                </ul>
-
-                <h3 class="ptitle text-[1.3vw] font-bold">Process</h3>
-                <div class="panel-ul text-[1.05vw]">
-                    <p>Select the correct fruit to put on the conveyor belt based on the clues provided.</p>
-                    <p><strong>Level 1:</strong> Select the correct fruit that corresponds to the sequence of fruits shown.</p>
-                    <p><strong>Level 2:</strong> Select the fruits and put them in the right sequence on the conveyor belt.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
-
-    <div class="text-start w-[58vw]">
-        <h3 class="ptitle">Activity 4: The magic tree</h3>
-
-        <div class="flex gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/activity/c6.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[25vw]">
-                    <li>To re-visit the concepts of size, numbers and colours</li>
-                    <li>To learn to categorise different types of fruits</li>
-                    <li>To practise using the keyboard</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul w-[30vw]">
-                    <li>Pluck the correct fruit requested by <br>
-                        clicking on the fruit, fruit basket and<br>
-                        correct number.<br>
-                        Level 1: A few types of fruits.<br>
-                        Level 2: More fruit varieties, sizes and<br>
-                        colours.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
-    <div class="text-start">
-        <h3 class="ptitle">Activity 5: Fruit parade</h3>
-
-        <div class="flex justify-center gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/activity/c7.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul text-[1.1vw] leading-snug">
-                    <li>To learn about the texture and shape of various fruits through games</li>
-                    <li>To develop reasoning skills</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul text-[0.85vw] leading-tight">
-                    <li>Guess the fruits according to the chants and pictures given. <br>
-                        First select a fruit dolly. Based on the fruit dolly's self introduction
-                        through a chant, select the correct pictures of the fruit, skin, shape
-                        and core. If correct, the fruit will be animated. After guessing all
-                        the fruits, one can choose a favourite fruit as the winner of the beauty
-                        contest to print out.</li>
+                    <li> The children calculate the equation
+                        based on the prompts on the screen
+                        and select the correct answer from the
+                        three options provided.</li>
                 </ul>
             </div>
         </div>
@@ -247,23 +150,21 @@ $showMascot = true;
 
 {{-- panel 9 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw] hidden">
-    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
+    <h1 class="panel-title stroke">Computer Activities: Where do Fruits Come From?</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Closure</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Organise a field trip to an orchard.</li>
-            <li>Ask each child for their favourite fruit and the reasons for his/her choice.</li>
-            <li>Encourage the children to describe the characteristics of some common fruits they know and draw them.</li>
+            <li>Upon completion, invite a few children to answer the questions posed at the beginning of the lesson.</li>
+            <li>Invite the children to explain, in their own words, the growth cycle of fruits.</</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to complete the activities in the courseware independently.</li>
-            <li>Able to describe the colour, shape, taste and other characteristics of some common fruits.</li>
-            <li>Able to understand the inner structure of fruits.</li>
+            <li>Able to complete the various activities in the courseware independently.</li>
+            <li>Able to understand the growth cycle of fruit trees.</li>
         </ul>
     </div>
 </div>
@@ -319,8 +220,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

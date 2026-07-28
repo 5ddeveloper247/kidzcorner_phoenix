@@ -38,20 +38,21 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c1.png') }}" class="h-[7vw]" />
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+    <img src="{{ asset('assets/images/micet/k2/plant/class7/c1.png') }}" class="h-[7vw]" />
 
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul">
-        <li>Identify some edible seeds and their plants</li>
+        <li>To understand that bees and butterflies transport pollen.</li>
+        <li>To understand how bees transport pollen.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+<div class="phonics-panel flex flex-col justify-start w-[45vw] items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
     <h3 class="ptitle">Preparations</h3>
 
     <ul class="list-disc panel-ul">
@@ -59,18 +60,28 @@ $showMascot = true;
         <li>Some edible seeds (watermelon seeds, pumpkin seeds, sunflower seeds, peanuts, rice grains, peas, corn kernels, walnuts, chestnuts, cashew nuts, pine nuts, almonds)</li>
         <li>Prior to this activity, find out from your children's parents if their child is allergic to any form of seeds</li>
     </ul>
+    <div class="text-white text-xl">For Optional Activity:
+        <ul class="list-disc panel-ul">
+            <li>Different types of fresh flowers, to show children pollen.</li>
+            <li>Cotton-swabs, for children to collect pollen.</li>
+        </ul>
+    </div>
 </div>
 
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li> Display the edible seeds one by one. Encourage the children to answer the given questions and talk about the information provided.</li>
+            <li>Ask the children whether they have seen bees, where they saw
+                them and describe what the bees were doing. Have the children
+                describe the physical characteristics of the bees. Help the
+                children recall that bees belong to the insect family and
+                that there are fine hairs on their legs.</li>
         </ol>
     </div>
 </div>
@@ -78,657 +89,170 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Display the edible seeds one by one. Encourage the children to answer the given questions and talk about the information provided.</li>
+        <li>Have the children look at the bee transporting pollen.
+            Encourage them to explain what the bee is doing and
+            point out pollen in the picture.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class7/c2.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="3">
+        <li>Have the children look at the bee transporting pollen. Encourage them to explain
+            what the bee is doing and point out pollen in the picture.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/k2/plant/class7/c3.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="4">
-        <li>Watermelon seeds come from the watermelon vine. The vines bear the watermelon fruit. The seeds are inside the watermelon fruit.</li>
+        <li>Have the children look at the bee transporting pollen. Encourage them to explain
+            what the bee is doing and point out pollen in the picture.</li>
     </ol>
-    <div class="grid grid-cols-3 items-center">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c6.png') }}" class="h-[15vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c5.png') }}" class="w-[25vw] h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c7.png') }}" class="h-[15vw]" />
-    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class7/c4.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="5">
+        <li>Have the children look at the bee transporting pollen. Encourage them to explain
+            what the bee is doing and point out pollen in the picture.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/k2/plant/class7/c5.png') }}" class="w-[25vw]" />
+</div>
+
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <li>Help the children understand that the bee is sucking nectar from the flower and at the same time, pollen will become stuck to its body and the fine hairs on its legs. In this way, the bee will transport the pollen to another flower when it flies to the other flower to gather nectar.</li>
+        <li>Explain to the children that a flower will bear fruit only when it receives pollen from another flower.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/k2/plant/class7/c6.png') }}" class="w-[25vw]" />
+</div>
+
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <li>Click on the video. Let the children observe how the bee is sucking nectar from the flower and at the same time, pollen will become stuck to its body and the fine hairs on its legs. In this way, the bee will transport the pollen to another flower when it flies to the other flower to gather nectar.</li>
+    </ol>
+    <video class="h-[11vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class7/v1.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="9">
+        <li>Ask the children what else, other than bees, can transport pollen. Guide the children to understand that butterflies can transport pollen just like bees.</li>
+    </ol>
 </div>
 
 
 {{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="5">
-        <li>Ask the children : "What are these? Are they edible?
-            Where do they come from?" Invite children to share
-            prior knowledge about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c2.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="6">
-        <li>These are pumpkin seeds. We usually eat them cooked, without the shells.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c8.png') }}" class="w-[40vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="7">
-        <li>Pumpkin seeds come from pumpkin vines.
-            The vines bear the pumpkin fruits. The
-            seeds are inside the pumpkin fruit.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c9.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c10.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c11.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="8">
-        <li>Ask the children these questions: "What are these?
-            Are they edible? Where do they come from?" Invite
-            children to share prior knowledge about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c12.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="9">
-        <li>These are sunflower seeds. We usually eat them cooked, without the shells.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c13.png') }}" class="w-[45vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="10">
-        <li>The sunflower seeds come from the sunflower plant.
-            The plant bears the sunflower. The seeds we eat
-            are found on the sunflower.</li>
+        <li>Click on the video. Ask the children what the butterfly is doing (sucking nectar).</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c14.png') }}" class="w-[35vw]" />
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class7/v2.mp4') }}" type="video/mp4">
+    </video>
 </div>
 
 
-{{-- panel 7 --}}
+
+{{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="11">
-        <li>Ask the children these questions: "What are these?
-            Are they edible? Where do they come from?" Invite
-            children to share prior knowledge about the seeds.</li>
+        <li>Click on the video. Ask the children what the butterflies are doing (sucking nectar and transporting pollen).</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c15.png') }}" class="w-[25vw]" />
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class7/v3.mp4') }}" type="video/mp4">
+    </video>
 </div>
 
 
 {{-- panel 7 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="11">
-        <li>These are peanuts. We usually eat them cooked ,without the shells.</li>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+    <ol class="list-decimal panel-ul w-[50vw]" start="12">
+        <li>Encourage the children to think about why bees and butterflies like flowers. Help the children understand that flowers use their colours and fragrance to attract bees and butterflies. In this way, the flowers can receive pollen from other flowers to complete the pollination process and bear fruits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c15.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class7/c7.png') }}" class="w-[25vw]" />
 </div>
 
 
-{{-- panel 7 --}}
+{{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
     <ol class="list-decimal panel-ul w-[50vw]" start="13">
-        <li>Peanuts come from the peanut plant. Peanuts
-            grow under the ground. The seeds we eat are
-            inside the peanut pod.</li>
+        <li>Click on the video. Ask the children to observe how to use a cotton-swab to simulate the bees' hairy legs to pick up pollen.</li>
     </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c18.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c19.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c15.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class7/v4.mp4') }}" type="video/mp4">
+    </video>
 </div>
 
 
-{{-- panel 7 --}}
+{{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="14">
-        <li>Peanuts are roasted and eaten as a snack. They are also made into yummy peanut butter.</li>
+        <li>Click on the video. Ask the children to observe how to use a cotton-swab to simulate the bees' hairy legs to pick up pollen.</li>
     </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c20.png') }}" class="w-[25vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c21.png') }}" class="w-[25vw]" />
-    </div>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class7/v5.mp4') }}" type="video/mp4">
+    </video>
 </div>
 
 
 {{-- panel 7 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="15">
-        <li>Ask the children these questions: "What are these? Are they edible?
-            Where do they come from?" Invite children to share prior knowledge
-            about the seeds.</li>
+        <li>(Optional activity) Distribute fresh flowers and cotton-swabs. Have the children observe the different types of flowers and pollen. Ask the children to imitate the bees by using the cotton-swabs to gather pollen from flowers.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c22.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 7 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
     <ol class="list-decimal panel-ul w-[50vw]" start="16">
-        <li>These are rice grains. We always eat them cooked
-            in the form of rice, porridge, etc.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c24.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c25.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="17">
-        <li>Rice grains come from the rice plant. The grains are the seeds of the plant.
-            They are found inside the rice kernels. We get the rice grains after removing the husks.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c26.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c28.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c24.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="18">
-        <li>Ask the children these questions: "What are these?
-            Are they edible? Where do they come from?" Invite
-            children to share prior knowledge about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c30.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="19">
-        <li>These are peas. We usually eat them cooked.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c30.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c31.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="20">
-        <li>Peas come from the pea plant. The plant bears the pea pods. Peas are the seeds found inside the pea pods.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c27.png') }}" class="w-[15vw] h-[15vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c29.png') }}" class="w-[15vw] h-[15vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c30.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="21">
-        <li>Ask the children these questions: "What are these? Are they edible?
-            Where do they come from?" Invite children to share prior knowledge
-            about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c32.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="22">
-        <li>These are corn kernels. We eat them cooked.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c32.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c35.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="23">
-        <li>Corn kernels come from the corn plant. They grow in rows on a cob.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c36.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c37.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c33.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="24">
-        <li>Corn kernels can be roasted and made into delicious popcorn.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c38.png') }}" class="w-[15vw] h-[20vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c34.png') }}" class="w-[15vw] h-[20vw]" />
-    </div>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="25">
-        <li>Ask the children these questions: "What are these? Are they edible?
-            Where do they come from?" Invite children to share prior knowledge
-            about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c39.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="26">
-        <li>These are walnuts. They have a hard shell. We usually eat them cooked.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c39.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c42.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="27">
-        <li>Walnuts come from the Walnut tree. The tree bears the walnut fruit. The seeds are found inside the fruit.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c46.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c43.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c41.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="28">
-        <li>Ask the children these questions: "What are these? Are they edible?
-            Where do they come from?" Invite children to share prior knowledge
-            about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c49.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="29">
-        <li>These are chestnuts. We eat them cooked.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c49.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c55.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="30">
-        <li>Chestnuts come from the chestnut tree.
-            The tree bears the chestnut fruit.
-            The seeds are found inside the fruit.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c47.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c44.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c49.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="31">
-        <li>Ask the children these questions: "What are these? Are they edible?
-            Where do they come from?" Invite children to share prior knowledge
-            about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c52.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="32">
-        <li>These are cashew nuts. We usually eat them cooked.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c52.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c56.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="33">
-        <li>Cashew nuts come from the cashew nut tree.
-            The tree bears the cashew nut fruit. The
-            special thing about the cashew nut plant
-            is that the cashew nut, which is the seed,
-            grows outside the fruit.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c48.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c45.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c52.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="34">
-        <li>Ask the children these questions: "What are these? Are they edible?
-            Where do they come from?" Invite children to share prior knowledge
-            about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c58.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="35">
-        <li>These are pine nuts. We usually eat them cooked.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c58.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c57.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="36">
-        <li>Pine nuts come from the pine nut tree. The tree bears the pine cones.
-            The pine nuts which are the seeds are inside the cone.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c59.png') }}" class="w-[15vw] h-[17vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c61.png') }}" class="w-[15vw] h-[17vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c58.png') }}" class="w-[15vw] h-[17vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="37">
-        <li>Ask the children these questions: "What are these? Are they edible?
-            Where do they come from?" Invite children to share prior knowledge
-            about the seeds.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c63.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-    <ol class="list-decimal panel-ul w-[50vw]" start="38">
-        <li>These are almonds. They have a hard shell. We usually eat them cooked.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c63.png') }}" class="w-[15vw] h-[12vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c66.png') }}" class="w-[15vw] h-[12vw]" />
-    </div>
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="39">
-        <li>Almonds come from the Almond tree. The tree bears the Almond fruit. The almonds, which are the seeds, are found inside a hard shell, in the fruit.</li>
-    </ol>
-    <div class="flex flex-row items-center justify-center space-x-[2vw]">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c60.png') }}" class="w-[15vw] h-[17vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c62.png') }}" class="w-[15vw] h-[17vw]" />
-        <svg class="w-[3vw] h-[3vw]" viewBox="0 0 100 100">
-            <polygon points="25,15 85,50 25,85" fill="#f5af23" />
-        </svg>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class7/c66.png') }}" class="w-[15vw] h-[17vw]" />
-    </div>
-</div>
-
-
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="40">
-        <li>Ask the children to identify the various edible seeds in the picture. Ask them if they have ever eaten them</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c64.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="41">
-        <li>Ask the children to identify the various edible seeds in the picture. Ask them if they have ever eaten them</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class7/c65.png') }}" class="w-[25vw]" />
-</div>
-
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="42">
-        <li>Display all the edible seeds in a bowl. Ask the children to
-            identify the seeds,and say which are edible, which ones can
-            be eaten raw and which ones need to be cooked.</li>
-        <li>Let the children take out the seeds that need to be cooked.
-            Encourage them to share the different ways of cooking these seeds..</li>
-    </ol>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="44">
-        <li>Let the children try out the seeds that can be eaten raw/or are cooked.
-            (Take note of children with food allergies)</li>
-        <li>Guide children to complete the corresponding activities in the Thematic Activity Book.</li>
+        <li>Guide children to complete the corresponding activities in the Thematic
+            Activity Book.</li>
     </ol>
 </div>
 
@@ -736,21 +260,35 @@ $showMascot = true;
 
 {{-- panel 12 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 7: Edible Seeds</h1>
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite children to describe the taste of the seeds they tried.
-                Let them name the seeds whose taste they like as well as those
-                they don't like.</li>
+            <li>Invite the children to display the pollens they have gathered and describe the differences among pollen of these flowers.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to name some edible seeds.</li>
+            <li>Able to describe the process of bees and butterflies transporting pollen.</li>
+            <li>Able to understand that flowers will only bear fruits after the pollination process.</li>
+            <li>Able to use the cotton swabs to gather pollen from flowers.</li>
+        </ul>
+    </div>
+</div>
+
+
+{{-- panel 19 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 7: Little Bees Transporting Pollen</h1>
+
+    <div class="text-start flex flex-col">
+        <h3 class="ptitle">Extension</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Encourage the children to look up information at home about other ways of transporting pollen.</li>
         </ul>
     </div>
 </div>
@@ -807,8 +345,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;
