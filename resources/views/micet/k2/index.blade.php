@@ -84,11 +84,11 @@
             <img src="{{ asset('assets/images/micet/global/k2/mi14.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k2/birds/index') }}">
+        <a href="{{ url('/micet/k2/underworld/index') }}">
             <img src="{{ asset('assets/images/micet/global/k2/mi15.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k2/birds/index') }}">
+        <a href="{{ url('/micet/k2/underworld/index') }}">
             <img src="{{ asset('assets/images/micet/global/k2/mi16.png') }}" />
         </a>
 
