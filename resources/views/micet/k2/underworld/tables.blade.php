@@ -41,12 +41,11 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul">
-            <li>Understand what school life is all about, develop a love for school</li>
-            <li>Develop a sense of independence</li>
-            <li>Understand the concepts of 'front' and 'back'</li>
-            <li>Understand what ordinal numbers are</li>
-            <li>Learn to express one's emotions and thoughts</li>
-            <li>Learn to identify one's belongings by marking them</li>
+            <li>To explore the underwater world</li>
+            <li>Identify different sea creatures and know their characteristics</li>
+            <li>Understand how some sea creatures protect themselves</li>
+            <li>Use imagination to draw a picture of the underwater world</li>
+            <li>Make a record based on observations</li>
         </ol>
     </div>
 
@@ -54,7 +53,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -62,7 +61,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 
@@ -122,8 +121,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/k2/underworld/index') }}";
+            const doneURL = "{{ url('/micet/k2/underworld/index') }}";
 
             // Track current position
             let currentSlide = 0;

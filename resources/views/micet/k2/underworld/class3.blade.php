@@ -42,7 +42,7 @@ $showMascot = true;
     <img src="{{ asset('assets/images/micet/k2/underworld/class3/c1.png') }}" class="h-[8vw]" />
     <h3 class="ptitle">Objectives:</h3>
 
-    <ul class="list-disc panel-ul w-[45vw]">
+    <ul class="list-disc panel-ul">
         <li>Identify different types of fish</li>
         <li>Identify three types of sea creatures: bony fish, cartilaginous fish and marine mammal</li>
         <li>Categorise sea creatures according to types</li>

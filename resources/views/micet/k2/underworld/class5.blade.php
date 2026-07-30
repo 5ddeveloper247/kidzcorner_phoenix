@@ -37,7 +37,7 @@ $showMascot = true;
 @section('content')
 
 {{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
+<div class="phonics-panel flex flex-col justify-between  w-[45vw] items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
     <img src="{{ asset('assets/images/micet/k2/underworld/class5/c1.png') }}" class="h-[8vw]" />
     <h3 class="ptitle">Objectives:</h3>
@@ -76,7 +76,7 @@ $showMascot = true;
         <ol class="list-decimal panel-ul w-[50vw]">
             <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
         </ol>
-        <div class="flex flex-col">
+        <div class="flex flex-col items-center">
             <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[25vw]" />
             <h2 class="text-white text-xl">squid</h2>
         </div>
@@ -93,7 +93,7 @@ $showMascot = true;
         <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c4.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -106,7 +106,7 @@ $showMascot = true;
     </ol>
 
     <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k2/underworld/class3/v1.mp4') }}" type="video/mp4">
+        <source src="{{ asset('assets/images/micet/k2/underworld/class5/v1.mp4') }}" type="video/mp4">
     </video>
 </div>
 
@@ -119,7 +119,7 @@ $showMascot = true;
         <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c5.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -136,15 +136,15 @@ $showMascot = true;
         </li>
     </ol>
 
-    <div class="grid grid-cols-2 gap-4 w-[45vw] items-center justify-items-center">
+    <div class="grid grid-cols-2 gap-6 w-[45vw] items-center justify-items-center">
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c6.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c6.png') }}" class="w-[15vw] h-[7vw] object-cover rounded-lg" />
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c2.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c2.png') }}" class="w-[15vw] h-[7vw] object-cover rounded-lg" />
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[18vw] object-contain" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[15vw] object-contain" />
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[18vw] object-contain" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[15vw] object-contain" />
     </div>
 </div>
 
@@ -157,9 +157,9 @@ $showMascot = true;
         <li>Display the squid and clam. Invite the children to touch the soft bodies of squid and clam and check if there are bones inside them.</li>
     </ol>
 
-    <div class="flex flex-col gap-2">
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[25vw]" />
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[25vw]" />
+    <div class="flex gap-2">
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[17vw] h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[17vw] h-[15vw]" />
     </div>
 </div>
 
@@ -174,15 +174,15 @@ $showMascot = true;
         </li>
     </ol>
 
-    <div class="grid grid-cols-2 gap-4 w-[45vw] items-center justify-items-center">
+    <div class="grid grid-cols-2 gap-6 w-[45vw] items-center justify-items-center">
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c6.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c6.png') }}" class="w-[15vw] h-[7vw] object-cover rounded-lg" />
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c2.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c2.png') }}" class="w-[15vw] h-[7vw] object-cover rounded-lg" />
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[18vw] object-contain" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[15vw] object-contain" />
 
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[18vw] object-contain" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[15vw] object-contain" />
     </div>
 </div>
 
@@ -195,9 +195,9 @@ $showMascot = true;
         <li>Display the squid and clam. Invite the children to touch the soft bodies of squid and clam and check if there are bones inside them.</li>
     </ol>
 
-    <div class="flex flex-col gap-2">
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[25vw]" />
-        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[25vw]" />
+    <div class="flex gap-2">
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[17vw] h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[17vw] h-[15vw]" />
     </div>
 </div>
 
@@ -210,13 +210,13 @@ $showMascot = true;
         <li>Guide children to understand that :
             <ul>
                 <li>Some molluscs have outer shells to protect their soft bodies.</li>
-                    <li>The shells are not their skeletons but like their homes.</li>
-                    <li>The molluscs with shells are not very mobile but their shells protect them from their enemies.</li>
+                <li>The shells are not their skeletons but like their homes.</li>
+                <li>The molluscs with shells are not very mobile but their shells protect them from their enemies.</li>
             </ul>
         </li>
     </ol>
 
-    <div class="flex flex-col gap-4">
+    <div class="flex gap-6">
 
         <img src="{{ asset('assets/images/micet/k2/underworld/class5/c2.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
         <img src="{{ asset('assets/images/micet/k2/underworld/class5/c5.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
@@ -225,7 +225,7 @@ $showMascot = true;
 
 
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="9">
@@ -242,7 +242,7 @@ $showMascot = true;
         <li>Ask children : What mollusc is this? Does it have one shell or two shells? (1 shell) Guide children to know that the soft body is inside the shell and can be partly seen.</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c8.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c8.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -253,7 +253,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[50vw]" start="10">
         <li>Inform the children that if a mollusc with a shell senses danger, then it will move away or hide inside its shell.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c9.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c9.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -262,10 +262,10 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="11">
-        <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
+        <li>Ask children : What mollusc is this? Does it have one shell or two shells? (one shell)</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c10.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -273,11 +273,15 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="11">
+        <li>Abalones are molluscs with one shell. We eat them and use their shells to make jewellery and decorations. Abalones are expensive to buy.</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <div class="flex gap-6">
+
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c10.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c11.png') }}" class="w-[20vw] h-[12vw] object-cover rounded-lg" />
+    </div>
 </div>
 
 
@@ -285,11 +289,13 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="12">
+        <li>Click to play the video. Let the children observe how a clam (molluscs with two shells) closes its shells tightly if in danger.</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/underworld/class5/v2.mp4') }}" type="video/mp4">
+    </video>
 </div>
 
 
@@ -297,11 +303,11 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="13">
+        <li>Ask children: What mollusc is this? How many shells does it have?( two shells)</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c12.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -310,11 +316,11 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="13">
+        <li>Oyster is a kind of mollusc with two shells. Oysters are popular food and some oysters produce pearls. However, valuable pearls are found in only a small group of oysters.</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c13.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -322,11 +328,16 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="14">
+        <li>Guide children to understand that:
+            <ul>
+                <li>The shells of molluscs often last longer than their bodies.</li>
+                <li>When the molluscs die, many of their shells are washed up onto the seashore. That's why we can find many empty seashells on the beach.</li>
+            </ul>
+        </li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c14.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -334,11 +345,65 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Ask children: What animal is this? Does it have a soft body or a hard body? Does it have bones inside its body?</li>
+    <ol class="list-decimal panel-ul w-[50vw]" start="15">
+        <li>Display different types of seashells. Invite children to discuss the types of molluscs they are and sort the seashells into two groups-one shell and two shell.</li>
     </ol>
 
-    <img src="{{ asset('assets/images/micet/k2/underqorld/class5/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/underworld/class5/c14.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="16">
+        <li>Guide children to understand that some molluscs do not have shells to protect their soft bodies. Molluscs that do not have shells can swim or move away from their enemies.</li>
+    </ol>
+
+    <div class="flex gap-2">
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c3.png') }}" class="w-[17vw] h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/underworld/class5/c6.png') }}" class="w-[17vw] h-[15vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="17">
+        <li>Let's look at how some molluscs without shells protect themselves.</li>
+    </ol>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="18">
+        <li>Click to play the video. Let the children observe how the octopus escapes from the predator. (besides swimming away quickly, the octopus can also squeeze its soft body into a narrow hole.)</li>
+    </ol>
+
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/underworld/class5/v3.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="19">
+        <li>Click to play the video. Let the children observe how a cuttlefish protects itself ( can quickly change its colour and camouflage into its surroundings).</li>
+    </ol>
+
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/underworld/class5/v4.mp4') }}" type="video/mp4">
+    </video>
 </div>
 
 
@@ -346,7 +411,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="8">
+    <ol class="list-decimal panel-ul w-[50vw]" start="20">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>
@@ -361,17 +426,30 @@ $showMascot = true;
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite all the children to sing the song by incorporating their names into it.
-                Encourage them to make movements according to the song. This activity can
-                be repeated a few times.</li>
+            <li>Have the children state the main characteristics of the molluscs.</li>
+            <li>Let the children name some molluscs with shells and some molluscs without shells.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Be able to imitate the way animals move.</li>
-            <li>Be able to understand the importance of walking to school,
-                instead of being carried to school by one's parent.</li>
+            <li>Able to state the main characteristics of molluscs.</li>
+            <li>Able to name some molluscs with shells and some without shells.</li>
+            <li>Able to sort seashells according to whether they have one shell or two shells.</li>
+        </ul>
+    </div>
+</div>
+
+
+
+{{-- panel 29 --}}
+<div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 5: Soft-Bodied Sea Creatures</h1>
+
+    <div class="text-start">
+        <h3 class="ptitle">Extension</h3>
+        <ul class="list-disc panel-ul">
+            <li>Place the seashells at the activity corner. Encourage children to use the seashells to create jewellery or artwork.</li>
         </ul>
     </div>
 </div>
@@ -430,8 +508,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k2/underqorld/index') }}";
-        const doneURL = "{{ url('/micet/k2/underqorld/index') }}";
+        const returnURL = "{{ url('/micet/k2/underworld/index') }}";
+        const doneURL = "{{ url('/micet/k2/underworld/index') }}";
 
         // Track current position
         let currentSlide = 0;

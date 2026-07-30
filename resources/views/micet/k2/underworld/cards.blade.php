@@ -11,11 +11,6 @@ $showMascot = true;
 
 @push('styles')
 <style>
-    .p-note {
-        font-size: 1.2vw;
-        color: white !important;
-    }
-
     .panel-title {
         color: #F7B94A;
         font-size: 2.5vw;
@@ -24,6 +19,11 @@ $showMascot = true;
     .ptitle {
         color: #F7B94A;
         font-size: 1.7vw;
+    }
+
+    .cardtitle {
+        color: #F7B94A;
+        font-size: 3.5vw;
     }
 
     .panel-ul {
@@ -36,190 +36,127 @@ $showMascot = true;
 
 @section('content')
 
-{{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-    <img src="{{ asset('assets/images/micet/k2/underworld/class9/c1.png') }}" class="h-[8vw]" />
-
-    <h3 class="ptitle">Objectives:</h3>
-
-    <ul class="list-disc panel-ul">
-        <li>Explore the underwater world</li>
-        <li>Use one's imagination to draw a picture of the underwater world</li>
-    </ul>
-</div>
-
-
-{{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <div>
-        <h3 class="ptitle">Preparations</h3>
-
-        <ol class="list-disc panel-ul w-[45vw] items-center">
-            <li>Tell children that today they will learn to play an action game.</li>
-            <li>Colour pencils, drawing papers </li>
-        </ol>
-    </div>
-</div>
-
-{{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Word Cards</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Let the children state some land animals (e.g. lion, monkey, polar bear and penguin) and their living environments. Guide children to list the different living environments (e.g. grassland, rainforest, South Pole and North Pole) on land, and state their characteristics (refer to the World of Animals lessons). Guide children to understand that different animals live in different living environments.</li>
-            <li>Ask children: We know that there are different living environments on land. How about the sea? Are there different living environments in the sea? Guide children to understand that there are different living environments in the sea. For example: coastline, coral reefs and deep sea. </li>
+        <ol class="list-decimal panel-ul w-[50vw]">
+            <li>Teacher to show the electronic word cards (next slide onwards). First show the picture and ask children
+                what it is. Then show the word and help children to recognise and pronounce the word. Tell children that
+                these words appear in Activity 1's story. Let children try to identify them during story telling.</li>
         </ol>
     </div>
 </div>
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="3">
-        <li>Let the children look at the different coral reefs and recall what a coral is and whether it is an animal or a plant. (A coral is an animal and is made up of many coral polyps; each coral polyp is actually a tiny animal.)</li>
-    </ol>
-    <div class="flex gap-2">
-        <img src="{{ asset('assets/images/micet/k2/underworld/class9/c2.png') }}" class="w-[20vw] h-[17vw]" />
-        <img src="{{ asset('assets/images/micet/k2/underworld/class9/c3.png') }}" class="w-[20vw] h-[17vw]" />
-    </div>
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c1.png') }}" class="h-[25vw]" />
 </div>
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="4">
-        <li>Explain to the children: when coral polyps die, their hard skeletons are left behind. New coral polyps then attach themselves to the skeletons. When they die, another layer of skeletons are added to the reef. It takes thousands of years for coral polyps to form reefs.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k2/underworld/class9/c4.png') }}" class="w-[30vw]" />
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">catfish</h1>
 </div>
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Click to play the video. Let children observe and say what are around the coral polyps (different sea creatures).</li>
-    </ol>
-    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k2/underworld/class9/v1.mp4') }}" type="video/mp4">
-    </video>
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c2.png') }}" class="h-[25vw]" />
 </div>
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">barbels</h1>
+</div>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Explain to the children: Colourful coral reefs are often called the 'rainforest of the ocean' as they are the living environments for many types of animals and plants, just like the rainforest on land.</li>
-    </ol>
-    <div class="flex gap-2">
-        <img src="{{ asset('assets/images/micet/k2/underworld/class9/c2.png') }}" class="w-[20vw] h-[17vw]" />
-        <img src="{{ asset('assets/images/micet/k2/underworld/class9/c3.png') }}" class="w-[20vw] h-[17vw]" />
-    </div>
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c3.png') }}" class="h-[25vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">clown fish</h1>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c4.png') }}" class="h-[25vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">crab</h1>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c5.png') }}" class="h-[25vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">jellyfish</h1>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c6.png') }}" class="h-[25vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">octopus</h1>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c7.png') }}" class="h-[25vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">sea turtle</h1>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c8.png') }}" class="h-[25vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex justify-center h-full items-center">
+    <h1 class="cardtitle">whale</h1>
 </div>
 
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="7">
-        <li>Inform children that the underwater world is amazing because besides the coral reefs and vast ocean, it also has other living environments similarto those on land, like plains and mountain ranges. Large sized sea creatures like whales like to live in the vast ocean.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <li>Click on the picture below to open the Software Magnetic Board. Guide the
+            children to match the words with the pictures.</li>
     </ol>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="8">
-        <li>Click to play the video. Let the children observe the large sized sea creatures that live in the vast ocean.</li>
-    </ol>
-    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k2/underworld/class9/v2.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="9">
-        <li>Explain to the children: The vast ocean is like the grassland on land, which has lots of open space and is a living environment for many big sized animals.</li>
-    </ol>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="10">
-        <li>Ask children: What are your favourite sea creatures? Why? Where do they live?</li>
-        <LI>Distribute the drawing papers. Let the children use their imagination to draw a picture of the amazing underwater world. Encourage children to draw their favourite sea creatures and living environments in their picture.</LI>
-    </ol>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="12">
-        <li>Guide children to complete the corresponding activities in the Thematic
-            Activity Book.</li>
-    </ol>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <div class="text-start flex flex-col justify-between h-full">
-        <h3 class="ptitle">Clousre</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Let children take turns to display and talk about their picture of the underwater world. Let them state why they like certain sea creatures.</li>
-        </ul>
-
-        <h3 class="ptitle">Evaluation</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Know that there are living environments under the sea just like those on land.</li>
-            <li>Able to use imagination to draw a picture of the underwater world.</li>
-            <li>Able to state one's favourite sea creatures and give reasons for their choice.</li>
-        </ul>
-    </div>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 9: The Amazing Underwater World</h1>
-
-    <div class="text-start flex flex-col">
-        <h3 class="ptitle">Extension</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Let the children gather information on coral reefs with the help of their parents. Then invite them to share the information with their classmates on how to protect the coral reefs and why there is a need to do so.</li>
-        </ul>
-    </div>
+    <img src="{{ asset('assets/images/micet/k2/underworld/words/c9.png') }}" class="w-[30vw]" />
 </div>
 
 
