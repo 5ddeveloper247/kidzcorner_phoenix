@@ -38,149 +38,202 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To develop interest in role play.</li>
-            <li>To develop different aspects of role playing skills such as
-                language, singing and movements.</li>
+        <ul class="list-disc panel-ul">
+            <li>Learn to sing "Clap Your Hands" song</li>
+            <li>Learn to sing and do actions together</li>
+            <li>Use imagination to modify lyrics and actions of the song</li>
+            <li>Enjoy singing and dancing together with friends</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Together with the children, create the backdrop scenery of
-                    a riverbank as in the story.</li>
-                <li>Headgear from Activity 8.</li>
-                <li>Fishing rods, fishing baskets and fishes from Activity 6.</li>
-                <li>"Fish pond" from Activity 7 (formed with the big card box or
-                    hula hoops or draw circles on the floor), place "fishes" in the
-                    "fish pond".</li>
+                <li>Thematic Activity Book</li>
+                <li>Design some movements and dance steps beforehand (example: stomp feet, turn head, shake body, walk
+                    slowly, run fast, jump, turn around and jump like a ballet dancer, hold hands and turn in a circle)</li>
             </ol>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal text-white text-[1.3vw] w-[55vw]">
-                <li>Review the story with the children. Have them retell the story and prompt them
-                    when necessary.</li>
-                <li>
-                    Segment the story into the following parts:
-                    <ul class="pl-[1vw]">
-                        <li>-Candy Cat wanted to learn fishing from Mummy Cat at the river bank.</li>
-                        <li>-Candy danced with Mary Mantis.</li>
-                        <li>-Candy played with the dragonfly.</li>
-                        <li>-Candy saw that her mother had caught a big fish.</li>
-                        <li>-Candy put down the fishing rod again to chase the butterfly but fell into the river.</li>
-                        <li>-Candy decided to concentrate and put in effort when fishing. She caught a big fish in the end.
-                        </li>
-                    </ul>
-                </li>
-                <li>Ask the children questions as they retell the story, e.g. "What did Candy say?",
-                    "What did Candy's mother do?".</li>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: What is this? Can you recall what it recommends us to do? Guide children to state the
+                    three eating habits and the three lifestyle habits recommended by My Healthy Plate.</li>
             </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class8/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask children: Which picture recommends us to stay active? Guide children to point at the correct picture.
+            </li>
+            <li>Inform children that we are all going to follow this recommendation to be active by singing and dancing.
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class8/c1.png') }}" class="h-[18vw]" />
+
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Play the music. Sing the song and do actions. </li>
+            <li>Replay the music. Let children sing and do actions together with the teacher.</li>
+        </ol>
+
+        <div>
+            <div class="flex items-end">
+                <button class="w-[3vw]" id="soundButton">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+                <h4 class="text-white text-[2.2vw] underline">Clap Your Hands</h4>
+            </div>
+            <h4 class="text-start text-white text-[2vw]">
+                Clap, clap, clap your hands, <br>
+                Clap your hands together. <br>
+                Clap, clap, clap your hands, <br>
+                Clap your hands together. <br>
+                Lalalalalalala, lalalalala, <br>
+                Lalalalalalala, lalalalala.
+            </h4>
         </div>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Organise the children into 6 groups. Each group to role play one segment of
-                the story. Allocate the roles (Candy Cat, Mummy Cat, Mary Mantis, Mama
-                Duck, butterfly, dragonfly etc) according to children's wishes and abilities</li>
-            <li>The children wear the corresponding headgears. The teacher circulates
-                around to rehearse with each group. Have the children participate in
-                discussion, e.g. what should Candy do now? What should she say? The
-                teacher acts as an observer and provide hints during the rehearsal.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>When children are familiar with the song, modify the lyrics and actions of the song and let the children
+                sing and do actions accordingly. For example: stomp, stomp, stomp your feet, stomp your feet together; run,
+                run, run faster, let us run together.</li>
         </ol>
+
+        <div>
+            <h4 class="text-start text-white text-[2vw]">
+                ________, _______, _________, <br>
+                _______________ together. <br>
+                ________, _______, _________, <br>
+                _______________ together. <br>
+                Lalalalalalala, lalalalala, <br>
+                Lalalalalalala, lalalalala.
+            </h4>
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>
-                Upon completion, have each group role play according to the sequence of the story. If the actor/actress
-                cannot remember his/her line, have the other children prompt him/her.
-                <ul class="pl-[1vw]">
-                    <li>-Play the accompanying music when the children are role playing the part where Candy Cat and Mary
-                        Mantis are dancing.</li>
-                    <li>-Guide all the children in singing the song <span class="italic">"Little Dragonflies"</span> when
-                        the
-                        dragonfly appears.</li>
-                    <li>-Guide all the children in singing the song <span class="italic">"Beautiful Butterflies"</span> when
-                        Candy is chasing the butterfly.</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Let children use their imagination to modify the lyrics and actions of the song. Provide children with
+                enough time to think and create at least one action.</li>
+        </ol>
 
-            <li>
-                If time permits, have the children in each group exchange roles, or have the groups exchange their segment
-                of the story and perform again.
-            </li>
+        <div>
+            <h4 class="text-start text-white text-[2vw]">
+                ________, _______, _________, <br>
+                _______________ together. <br>
+                ________, _______, _________, <br>
+                _______________ together. <br>
+                Lalalalalalala, lalalalala, <br>
+                Lalalalalalala, lalalalala.
+            </h4>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Invite children to form a circle and take turns to lead the song and dance session.</li>
+        </ol>
+
+        <div>
+            <h4 class="text-start text-white text-[2vw]">
+                ________, _______, _________, <br>
+                _______________ together. <br>
+                ________, _______, _________, <br>
+                _______________ together. <br>
+                Lalalalalalala, lalalalala, <br>
+                Lalalalalalala, lalalalala.
+            </h4>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children share their experiences in role playing.</li>
+                <li>Let the children form groups. Let them work in their groups to modify the lyrics and decide on the
+                    actions. Then let them take turns and perform in groups for their class.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to participate actively in this activity.</li>
-                <li>Able to use suitable language when role playing.</li>
-                <li>Able to imitate the character's actions according to one's role.</li>
+                <li>Know how to sing "Clap Your Hands" song.</li>
+                <li>Able to sing and do the actions together.</li>
+                <li>Able to use imagination to modify the lyrics and actions of the song.</li>
             </ul>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
 
         <div class="text-start flex flex-col h-full">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the other teachers and parents to watch the
-                    performance. Record the performance if possible.</li>
+                <li>Encourage children to lead their family members in singing and doing actions together at home.</li>
             </ul>
         </div>
     </div>
@@ -240,8 +293,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

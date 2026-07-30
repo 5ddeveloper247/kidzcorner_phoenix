@@ -38,32 +38,31 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To make a story character headgear through colouring,
-                cutting and pasting.</li>
-            <li>To develop fine motor skills.</li>
+            <li>Understand that a healthy diet requires making right choices</li>
+            <li>Sort food according to the five main food groups</li>
+            <li>Based on the principals of My Healthy Plate, find the right choices of food from each food group</li>
+            <li>Design one's own healthy plate</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Crayons and glue.</li>
-                <li>Strips of cardboard (3 x 30 cm) /vanguard sheet (one per
-                    child).</li>
-                <li>One headgear (made prior to this activity).</li>
+                <li>Pictures of food from different food groups (fruit, vegetable, grain, meat and milk)</li>
+                <li>Drawing papers, colour pencils</li>
             </ul>
         </div>
     </div>
@@ -71,20 +70,16 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>The teacher wears the headgear which was made prior to this activity. Have
-                    the children explain which story character this headgear represents, what the
-                    character did in the story and what is special about it. Have the children
-                    name the other characters in the story (Candy Cat, Mummy Cat, Mama Duck,
-                    Mary Mantis, butterfly and dragonfly), their characteristics, which is their
-                    favourite character and the reasons.</li>
-                <li>Have the children know that they will select their favourite character in the
-                    story to make a headgear.</li>
+                <li>Ask children: What do you like to eat for breakfast? What do you like to eat for lunch? What do you like
+                    to eat for dinner?</li>
+                <li>Guide children to understand that we can choose all sorts of food to eat everyday, but if we want to eat
+                    healthily, we need to make right choices.</li>
             </ol>
         </div>
     </div>
@@ -92,59 +87,115 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children choose their favourite story character in the Thematic
-                Activity Book activity 8. Organise the children into groups of six, each
-                member of the group selects one of the 6 characters. If there is more than one
-                child who selects the same character in a group, have them resolve the
-                conflict through negotiation.</li>
+            <li>Ask children: Do you know what are the right choices? Can you recall what are the recommendations of My
+                Healthy Plate? Guide children to state the three eating habits and the three lifestyle habits recommended by
+                My Healthy Plate.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c1.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class8/c1.png') }}" class="h-[15vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have the children colour their characters and paste them onto the cardboard
-                strips. Then, have them form the strips into circles, adjust the two ends to fit
-                their heads and glue the ends together to complete the headgears. Teacher
-                assists the children in making the headgears when necessary.</li>
+            <li>Display the food pictures prepared beforehand. Have children name each of the food. Let them state whether
+                they like to eat it and why.</li>
+            <li>Next, let the children sort the different food according to the five main food groups.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c2.png') }}" class="w-[25vw]" />
     </div>
 
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Based on the principles of My Healthy Plate, guide children to make the right choices and choose food from
+                each food group. Remind children that My
+                Healthy Plate recommends:
+                <ul class="list-disc">
+                    <li>Fruits and vegetables: Fruits and vegetables of different colours</li>
+                    <li>Wholegrains: Grains which have only their husk removed (such as brown rice, wheat, millet, etc.)
+                    </li>
+                    <li>Meat and others: Lean meat that is high in protein, oily fish, and calcium rich foods that are low
+                        fat or non fat.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Distribute drawing papers. Let children design their own version of My Healthy Plate for one meal such as
+                their lunch or dinner. </li>
+            <li>Guide children to make their My Healthy Plate step by step: draw the plate;choose and paste (or draw) the
+                food in the correct parts; draw a physical activity they will do to stay active, on the outside of the
+                plate; give a title to their drawing.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children wear and display their story character
-                    headgears.</li>
+                <li>Let children take turns to display and share their healthy plate drawings. Let the other children state
+                    if the food chosen are the right choices.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the characters and their characteristics in the
-                    story.</li>
-                <li>Able to make a story character headgear.</li>
+                <li>Able to sort food according to the five main food groups.</li>
+                <li>Able to make right choices and find the correct food from each food group, based on the principles of My
+                    Healthy Plate.</li>
+                <li>Able to make one's own healthy plate.</li>
             </ul>
         </div>
     </div>
 
 
-   
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Right Choices</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Bring children to visit a supermarket. Guide them to find the right choices of food based on the
+                    principles of My Healthy Plate.</li>
+            </ul>
+        </div>
+    </div>
+
+
+
 
 
 
@@ -199,8 +250,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,135 +38,144 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the sequence of the story "Candy Cat's
-                Fishing Adventure".</li>
-            <li>To learn to retell the story "Candy Cat's Fishing Adventure".</li>
+            <li>Use imagination to make a sandwich</li>
+            <li>Do a mix and match of food based on the principles of My Healthy Plate</li>
+            <li>Develop eye-hand coordination and fine motor skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
+            <ol class="list-disc panel-ul w-[45vw]">
+                <li>Small plates, knife and spoon: one set for each child</li>
+                <li> Wholemeal bread slices</li>
+                <li>Slices of raw vegetables like cucumbers, carrots, tomatoes and greens like lettuce and baby spinach</li>
+                <li>Slices of hard boiled eggs, mushrooms and avocadoes</li>
+                <li>Cheese slices</li>
+                <li>Cooked beans or fish slices</li>
+                <li>Fruits like apples, pears, grapes, orange, watermelon and guava</li>
+                <li>Milk and juices</li>
+                <li>A 'Healthy Meal'( a sandwich with a glass of drink and two
+                    types of fruits) (Note: Please make sure that all food is fresh and prepared
+                    using good hygiene. Do take note of food allergies if any)</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children cut out all 6 story cards from the Thematic Activity Book,
-                    activity 9.</li>
+                <li>Ask children: What is this? Have you eaten this before? Do you like it? Which types of sandwiches have
+                    you eaten before? Do you think sandwiches are healthy?</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class9/c1.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+    <div class="phonics-panel flex flex-col justify-s   tart h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Have the children recall the story "Candy Cat's Fishing Adventure" and pick
-                up the card which shows the beginning of the story. Invite a few children to
-                retell the beginning of the story using their own words. </li>
-            <li>Have the children recall the story and pick up the card that shows the ending
-                of the story. Invite a few children to retell the ending of the story using their
-                own words.</li>
+            <li>Inform children that as long as there is a good mix and match of ingredients, a sandwich can be a healthy
+                meal.</li>
+            <li>Display the healthy meal prepared earlier. Let the children know what are the ingredients used and how they
+                provide various nutrients for our body.</li>
+            <li>Invite children to make a sandwich and design a healthy meal based on the principles of My Healthy Plate.
+            </li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Have the children know that every story is made up of a beginning, a middle
-                (which may consists of several events) and an ending.</li>
-            <li>Have the children sequence the story cards in the order of the events.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Let the children first wash their hands. As they wash their hands, ask them why they need to wash their
+                hands. Guide children to know that bacteria on dirty hands are harmful and can make us sick. Hence it is
+                important to maintain good hygiene by washing hands before preparing food.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Next, invite a few children retell the story in sequence as the teacher guides
-                them along.</li>
+            <li>Display all the ingredients. Ask children to name the ingredients and what nutrients these foods provide.
+            </li>
+            <li>Ask children to choose the ingredients to make their own sandwich. Remind them to choose the ingredients
+                wisely, so that the sandwich they make will be a healthy one.</li>
+            <li>Encourage children to exercise their creativity by designing unique and interesting sandwiches. For example,
+                children could make a doll sandwich, a car sandwich, a house sandwich or a rabbit sandwich.</li>
+            <li>When the sandwiches are made, ask the children to select a drink and two types of fruits to go with the
+                sandwich, thus completing their healthy meal.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class9/c1.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Organise the children into 6 groups. Have the children in each group take
-                turns to retell the story in sequence to their group members.</li>
-            <li>Upon completion, group members help the storyteller determine if the
-                sequence of the story is correct by providing feedback.</li>
-            <li>The teacher circulates among the groups to provide guidance.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Have the children draw the scenes into the blank story cards on the last
-                activity page of the Thematic Activity Book, if they show interest in modifying
-                the story or adding in more scenes. Have the children cut out and combine
-                the new story cards with the original story cards to create a new story</li>
-            <li>Each group will then choose a representative with the best new story to
-                narrate to the class.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Invite children to take turns to showcase their healthy meal. Let them state the ingredients used in their
+                meal and what nutrients these ingredients give our body.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children judge who the best storyteller is and
-                    explain the reasons.</li>
-                <li>Display the children's version of the story (original story
-                    cards plus new story cards that children drew) for all to view
-                    and share.</li>
+                <li>Invite children to taste their healthy meal. If the weather permits, take the children out to a nearby
+                    garden or park for a picnic.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to retell the story in sequence.</li>
-                <li>Able to use imagination in modifying the story.</li>
+                <li>Able to make a healthy meal.</li>
+                <li>Able to introduce one's healthy meal to others.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: A Healthy Meal</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Ask children to prepare some healthy meals with their family members at home.</li>
             </ul>
         </div>
     </div>
@@ -229,8 +238,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

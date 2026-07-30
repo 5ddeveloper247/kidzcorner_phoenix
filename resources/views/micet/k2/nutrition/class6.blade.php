@@ -44,13 +44,12 @@
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
         </div>
 
-        
+
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To know the uses of a fishing rod and a fishing basket.</li>
-            <li>To make a fishing rod and a fishing basket.</li>
-            <li>To develop fine motor skills through practising tying knots on strings.</li>
+            <li>Learn about My Healthy Plate</li>
+            <li>Analyse one's eating and lifestyle habits</li>
         </ul>
     </div>
 
@@ -64,21 +63,8 @@
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Letter to parents (next slide).</li>
-                <li>A fishing rod and a fishing basket made beforehand.</li>
-                <li>One 20- 30 cm coloured yarn or thin string per child.</li>
-                <li>One small magnet per child.</li>
-                <li>Crayons.</li>
             </ul>
         </div>
-    </div>
-
-
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
-
-        <img src="{{ asset('assets/images/micet/n2/habit1/class6/c1.png') }}" class="w-[40vw]" />
     </div>
 
 
@@ -90,14 +76,11 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Display the prior made fishing rod and fishing basket. Have the children state
-                    their names and uses. Guide the children in explaining that these are the
-                    equipment needed for fishing.</li>
-                <li>Inform the children that they will learn to make fishing rods and fishing baskets.
-                    Have the children decide by voting which craft to make first, the fishing rods
-                    or fishing baskets. Guide the children in making the items.</li>
+                <li>Ask children: Do you know what this is? Encourage children to express what they think. Accept all
+                    logical answers.</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c1.png') }}" class="w-[20vw]" />
     </div>
 
 
@@ -105,13 +88,12 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Have the children look at the fishing rod and name the parts that is needed to
-                make it (rod, fishing line and hook). Have the children take out their own rod
-                (wooden or plastic) and tie the fishing line (a string) onto one end, then tie the
-                hook (small magnet) on the other end of the line. Assist the children in tying
-                when necessary.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Inform children that this is a new and recommended healthy diet guideline called My Healthy Plate.</li>
+            <li>Let children recall the five main food groups that they have learnt (fruit, vegetable, grain, meat and milk
+                groups). Ask children to indicate where the different food groups are on My Healthy Plate.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c1.png') }}" class="w-[18vw]" />
     </div>
 
 
@@ -120,10 +102,23 @@
         <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Gather the boxes that the children brought. Guide the children in naming the
-                shapes of the boxes.</li>
-            <li>Have the children decorate their baskets by drawing beautiful patterns.</li>
+            <li>Guide children to understand that My Healthy Plate is a visual tool that uses simple graphics to introduce a
+                healthy and balanced diet to everyone. At the same time, it reminds us to practise healthy habits that aid
+                in weight control and protect against various diseases.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c1.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Explain to the children that My Healthy Plate uses a round plate to help us understand clearly what food to
+                eat and in what portions we need to eat them, in each meal, in order to stay healthy.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c2.png') }}" class="w-[20vw]" />
     </div>
 
 
@@ -132,10 +127,181 @@
         <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Guide the children to complete the corresponding activity in the Thematic
-                Activity Book. Have the children colour the fish, cut it out and keep it for the
-                next classroom activity "Let's go fishing".</li>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class6/c2.png') }}" class="w-[30vw]" />
+            <li>Explain to children that there are three eating habits recommended by My Healthy Plate: <br> a) Fill half of
+                your plate with Fruits and Vegetables.
+                <ul class="list-disc">
+                    <li>Fruits and vegetables are rich in dietary fibre, vitamins and minerals. They can lower the risk of
+                        developing heart disease, stroke and certain types of cancer.</li>
+                    <li>Eating a variety of fruits and vegetables will help us get all the nutrients needed by our body.
+                    </li>
+                    <li> It matters how fruits and vegetables are eaten. Do not eat vegetables with lots of oil, or fruits
+                        with sugar syrup as this will add to our consumption of calories and lead to weight gain.</li>
+                </ul>
+
+            </li>
+        </ol>
+        <div class="flex gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c3.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c4.png') }}" class="h-[10vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Explain to children that there are three eating habits recommended by My Healthy Plate: <br> b) Fill half of
+                your plate with <span class="text-[#F8473A]">Wholegrains</span>.
+                <ul class="list-disc">
+                    <li>Wholegrain food such as brown rice, wholemeal bread and rolled oats contain vitamins (B and E),
+                        minerals (iron, zinc and magnesium) and other nutrients. Eating them can reduce the risk of heart
+                        disease and diabetes and help to keep your weight in check as you get hungry less easily.</li>
+                    <li>White rice or white bread are made from refined grains. Refined grains are processed wholegrains.
+                        Most of the valuable nutrients are removed during processing. Hence, eating wholegrains over refined
+                        grains is a wise choice.</li>
+                </ul>
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c5.png') }}" class="h-[10vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Explain to children that there are three eating habits recommended by My Healthy Plate: <br> c) Fill half of
+                your plate with <span class="text-[#F8473A]">Meat and Others</span>.
+                <ul class="list-disc">
+                    <li>Meat group food such as beef, chicken, fish and other food such as beans and nuts are high in
+                        protein. Proteins help build muscles so we can grow tall and strong.</li>
+                    <li>If we want to maximize our protein intake, we should choose wisely from the protein group: Lean
+                        meats such as chicken and fish and food such as tofu, beans and nuts give us more protein than fatty
+                        meats. Oily fish such as tuna, mackerel, sardine and salmon are high in omega 3 which can keep our
+                        heart strong. It is recommended that we eat two servings of fish a week.</li>
+                </ul>
+
+            </li>
+        </ol>
+        <div class="flex gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c6.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c7.png') }}" class="w-[10vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Explain to children that there are three eating habits recommended by My Healthy Plate: <br> c) Fill half of
+                your plate with <span class="text-[#F8473A]">Meat and Others</span>.
+                <ul class="list-disc">
+                    <li>Meat group food such as beef, chicken, fish and other food such as beans and nuts are high in
+                        protein. Proteins help build muscles so we can grow tall and strong.</li>
+                    <li>If we want to maximize our protein intake, we should choose wisely from the protein group: Lean
+                        meats such as chicken and fish and food such as tofu, beans and nuts give us more protein than fatty
+                        meats. Oily fish such as tuna, mackerel, sardine and salmon are high in omega 3 which can keep our
+                        heart strong. It is recommended that we eat two servings of fish a week.</li>
+                </ul>
+
+            </li>
+        </ol>
+        <div class="flex gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c6.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c7.png') }}" class="w-[10vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Explain to children that there are three lifestyle habits recommended by My Healthy Plate: <br> a) Use
+                healthier oils.
+                <ul class="list-disc">
+                    <li>Meat group food such as beef, chicken, fish and other food such as beans and nuts are high in
+                        protein. Proteins help build muscles so we can grow tall and strong.</li>
+                    <li>If we want to maximize our protein intake, we should choose wisely from the protein group: Lean
+                        meats such as chicken and fish and food such as tofu, beans and nuts give us more protein than fatty
+                        meats. Oily fish such as tuna, mackerel, sardine and salmon are high in omega 3 which can keep our
+                        heart strong. It is recommended that we eat two servings of fish a week.</li>
+                </ul>
+
+            </li>
+        </ol>
+        <div class="flex items-end gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c8.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c9.png') }}" class="w-[5vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Explain to children that there are three lifestyle habits recommended by My Healthy Plate: <br> b) Choose
+                water.
+                <ul class="list-disc">
+                    <li>We need to drink enough water everyday. Make water your drink of choice. Choosing water over
+                        sugar-sweetened drinks helps you maintain a healthy weight.</li>
+                </ul>
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c10.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Explain to children that there are three lifestyle habits recommended by My Healthy Plate: <br> c) Be
+                active.
+                <ul class="list-disc">
+                    <li>Be physically active by doing activities such as brisk walking, jogging, cycling, swimming, etc. You
+                        can also include daily lifestyle activities such as taking the stairs and doing household chores to
+                        be physically active.</li>
+                </ul>
+
+            </li>
+        </ol>
+        <div class="flex gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c11.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k2/nutrition/class6/c12.png') }}" class="w-[10vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Let children discuss what kind of lifestyle and eating habits they are currently having. Help them to
+                evaluate if these habits meet the standards that My Healthy Plate recommends.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
@@ -148,16 +314,31 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their fishing rods, fishing baskets
-                    and fishes. Encourage the children to appreciate each
-                    others' work.</li>
+                <li>Invite children to share with their classmates what kinds of food they are eating more. Have them look
+                    at the My Healthy Plate and say if the food they are eating more, should or should not be eaten in those
+                    portions.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to state the names and uses of a fishing rod and a fishing basket.</li>
-                <li>Able to make a fishing rod and a fishing basket.</li>
+                <li>Able to indicate the position of the five main food groups in My Healthy Plate.</li>
+                <li>Understand the concept of My Healthy Plate.</li>
+                <li>Able to evaluate one's eating and lifestyle habits.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 28 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: My Healthy Plate</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Encourage children to share the concept of My Healthy Plate with their family members and ask their family members to follow the recommended healthy food and lifestyle habits together.</li>
             </ul>
         </div>
     </div>
@@ -218,8 +399,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

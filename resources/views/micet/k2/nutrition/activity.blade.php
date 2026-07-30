@@ -38,15 +38,15 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
-        <img src="{{ asset('assets/images/micet/n2/habit1/activity/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k2/nutrition/activity/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Tuning-in</h3>
@@ -56,9 +56,9 @@
                     To begin the lesson, ask the following questions to arouse children's curiosity
                     and interest?
                     <ol class="list-[lower-alpha] pl-[2vw]">
-                        <li>Have you ever gone fishing? Share your interesting stories.</li>
-                        <li>What equipment is needed for fishing?</li>
-                        <li>What skills do you have?</li>
+                        <li>Do you know what food is?</li>
+                        <li>What are the different food groups?</li>
+                        <li>What is your favourite food?</li>
                     </ol>
                 </li>
 
@@ -66,9 +66,9 @@
                     Elicit answers from the children, then continue with the following questions to
                     focus the children's attention on the key points of the courseware.
                     <ol class="list-[lower-alpha] pl-[2vw]">
-                        <li>What happened when Candy was fishing?</li>
-                        <li>Why didn't Candy catch any fish initially?</li>
-                        <li>Did Candy catch any fish in the end?</li>
+                        <li>Do you know that different types of food can benefit our body?</li>
+                        <li>What are germs? How are germs harmful?</li>
+                        <li>What are the foods that make us strong?</li>
                     </ol>
                 </li>
             </ol>
@@ -78,23 +78,19 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 1: Story - Candy Cat’s Fishing Adventure</h3>
+            <h3 class="ptitle">Activity 1: Story - Fun with food</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/habit1/activity/c2.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/k2/nutrition/activity/c2.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="list-disc panel-ul w-[25vw]">
-                        <li>To understand the importance of
-                            concentrating and putting in effort
-                            when doing things.</li>
-                        <li>To nurture the desire in learning
-                            different skills through understanding
-                            some methods which animals use to
-                            hunt for food.</li>
+                        <li>To know the 5 food groups</li>
+                        <li>To understand the nutrients in the various types of food</li>
+                        <li>To understand the harmful effects of germs</li>
                     </ul>
                 </div>
             </div>
@@ -104,51 +100,52 @@
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Computer Activities: Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Story</h3>
 
-            <p class="panel-ul">Mummy Cat decides to take Candy Cat to the river to teach her to fish.
-                Candy is happy that she is going to learn a new skill. <br>
-                At the river, Candy learns to fish from her mother. However, she soon gets
-                quite distracted while fishing and ends up dancing and playing with her
-                new found friends. Mummy Cat has already caught two fishes when Candy
-                returns. Candy wants to catch a big fish like her mother but gets distracted
-                again when a beautiful butterfly flies by. She chases the butterfly and then
-                falls into the river. Fortunately, she is saved by Mama Duck. Candy's mother
-                tells Candy that she has to learn to concentrate on one thing at a time and
-                not do things half-heartedly. <br>
-                Candy finally decides to concentrate on catching a fish and eventually
-                catches a big one!</p>
+            <p class="panel-ul w-[50vw]">One day, Sue and her mother go to the supermarket to buy food. They buy many kinds of food.
+                Sue comes home feeling tired and rests her head on the table. Just then, the food jumps out and invites her
+                for an adventure in the food land. During the journey, Clever Carrot tells Sue that eating more vegetables
+                can give her bright eyes; Molly Milk tells her that drinking more milk will make her bones and teeth
+                stronger; Patty Papaya tells Sue that eating more fruit can make wounds heal faster; Richie Rice tells Sue
+                that eating more grains will give her energy; Fred Fish tells Sue that germs will make food go bad and make
+                everyone sick. <br>
+                <br>
+                Finally, they reach the food land and find a treasure box. Fred Fish is very
+                strong. He is able to lift the box with little effort. Fred Fish tells Sue that eating
+                more fish, meat and beans will make the muscles stronger. Just when
+                everyone is about to open the treasure box, Sue wakes up. Alas, it is only a
+                dream.
+            </p>
+
         </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 2: Dance</h3>
+            <h3 class="ptitle">Activity 2: Perry Potato Face</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/habit1/activity/c3.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/k2/nutrition/activity/c3.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="panel-ul w-[30vw]">
-                        <li>To choreograph a dance with given dance steps.</li>
-                        <li>To develop music appreciation and
-                            rhythm awareness.</li>
+                        <li>To use food to create a face mask, thus enhancing spatial imagination</li>
                     </ul>
                     <h3 class="ptitle">Porcess</h3>
-                    <ul class="list-decimal panel-ul w-[27vw]">
-                        <li>Click on the 4 dance buttons to
-                            create a sequence of dance steps.</li>
-                        <li>Choose and click on 1 of the 2
-                            dance partners.</li>
-                        <li>Choose and click on 1 of the 2
-                            music.</li>
+                    <ul class="panel-ul w-[27vw]">
+                        <li>Referring to the picture on the left, the
+                            children place the various types of
+                            food at the correct position to create
+                            a face mask. When the mask is
+                            complete, the computer will play the
+                            "Vegetable Song".</li>
                     </ul>
                 </div>
             </div>
@@ -158,26 +155,110 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 3: Fishing Game</h3>
+            <h3 class="ptitle">Activity 3: Yummy Noodles</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/habit1/activity/c4.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/k2/nutrition/activity/c4.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="panel-ul w-[30vw]">
-                        <li>To develop visual discrimination and
-                            eye-hand coordination skills</li>
-                        <li>To count up to 8.</li>
+                        <li>To practise using the computer mouse, thus enhancing eye and hand coordination skill</li>
+                        <li>To choose one's favourite food</li>
                     </ul>
                     <h3 class="ptitle">Porcess</h3>
-                    <ul class="list-decimal panel-ul w-[27vw]">
-                        <li>Choose and click on 1 of the 2
-                            levels.</li>
-                        <li>Click on the fish that matches the
-                            sample given.</li>
+                    <ul class="panel-ul w-[27vw]">
+                        <li>Children click their favourite foods with
+                            the mouse and place them in the pot.
+                            After the selection, the children click
+                            the "OK" button. A pot of delicious soup
+                            is ready.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- Panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
+
+        <div class="text-start space-y-[1vw]">
+            <h3 class="ptitle">Activity 4: Shoot The Germs</h3>
+
+            <div class="flex justify-center items-start gap-[3vw]">
+                <img src="{{ asset('assets/images/micet/k2/nutrition/activity/c5.png') }}" class="w-[25vw]" />
+                <div>
+                    <h3 class="ptitle">Objectives</h3>
+                    <ul class="panel-ul w-[30vw]">
+                        <li>To practise using the computer mouse, thus enhancing eye and hand coordination skill</li>
+                        <li>To understand that germs are harmful to us</li>
+                        <li>To cultivate good hygiene practices</li>
+                    </ul>
+                    <h3 class="ptitle">Porcess</h3>
+                    <ul class="panel-ul w-[27vw]">
+                        <li>Children move the canon using the
+                            computer mouse, aim at the germ
+                            and then click and bomb the germ to
+                            destroy it.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- Panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
+
+        <div class="text-start space-y-[1vw]">
+            <h3 class="ptitle">Activity 5: Caterpillar Snack</h3>
+
+            <div class="flex justify-center items-start gap-[3vw]">
+                <img src="{{ asset('assets/images/micet/k2/nutrition/activity/c6.png') }}" class="w-[25vw]" />
+                <div>
+                    <h3 class="ptitle">Objectives</h3>
+                    <ul class="panel-ul w-[30vw]">
+                        <li>To recognise numbers</li>
+                        <li>To learn to count by matching the correct number to the number of items</li>
+                    </ul>
+                    <h3 class="ptitle">Porcess</h3>
+                    <ul class="panel-ul w-[30vw]">
+                        <li>Children will count the ingredients on the recipe. They will then select the correct number
+                            button on the left-hand side of the screen and place it on the corresponding ingredient. When
+                            the procedure is completed, children will click "OK". If all the answers are
+                            correct, the screen will show an
+                            interesting worm dessert.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- Panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
+
+        <div class="text-start space-y-[1vw]">
+            <h3 class="ptitle">Activity 6: Addition</h3>
+
+            <div class="flex justify-center items-start gap-[3vw]">
+                <img src="{{ asset('assets/images/micet/k2/nutrition/activity/c7.png') }}" class="w-[25vw]" />
+                <div>
+                    <h3 class="ptitle">Objectives</h3>
+                    <ul class="panel-ul w-[30vw]">
+                        <li>To learn to add within 20</li>
+                    </ul>
+                    <h3 class="ptitle">Porcess</h3>
+                    <ul class="panel-ul w-[27vw]">
+                        <li>With the help of the pictures, children
+                            count the objects and then click on
+                            the correct number.</li>
                     </ul>
                 </div>
             </div>
@@ -187,22 +268,22 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Computer Activities: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Computer Activities: Fun with Food</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children explain why Candy was able to catch a
-                    fish in the end.</li>
+                <li>When the activity is completed, encourage the children to answer the questions posed at the beginning of
+                    the lesson.</li>
+                <li>Invite the children to describe the advantages of the various types of food.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to understand the importance of concentrating and
-                    putting in effort when doing things.</li>
-                <li>Able to complete the various activities in the courseware.</li>
+                <li>Children are able to complete the activities in the courseware independently.</li>
+                <li>Children are able to identify the five main food groups and understand their nutritional values.</li>
             </ul>
         </div>
     </div>
@@ -261,8 +342,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

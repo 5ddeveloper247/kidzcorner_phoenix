@@ -38,36 +38,28 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the basic knowledge and process of fishing
-                and experience the fun in fishing.</li>
-            <li>To develop eye-hand coordination skills.</li>
-            <li>To understand the importance of putting in effort to learn
-                new things.</li>
+        <ul class="list-disc panel-ul">
+            <li>Understand what wholegrains are</li>
+            <li>Explore variety of food made from wholegrains</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Fishing rods, fishing baskets and fishes from Activity 6.</li>
-                <li>Fasten a paper clip near the mouth of each fish.</li>
-                <li>Put a few big card boxes or hula hoops on the floor, or draw
-                    a few circles on the floor to form "fish ponds", place the
-                    fishes in different fish ponds.</li>
-                <li>Signs with fish pond names (e.g. Happy Fish Pond, etc).</li>
+                <li>Internet Access</li>
             </ul>
         </div>
     </div>
@@ -75,57 +67,163 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children if they have ever gone fishing. Have the children who have
-                    gone fishing share their experiences. Encourage the children to demonstrate
-                    using the fishing rods from Activity 6.</li>
-                <li>Have the children explain how to catch a fish and ask why Candy initially did
-                    not manage to catch any fish but at the end she did.</li>
+                <li>Ask children: What is this? What is its use? Guide children to share their understanding of My Healthy
+                    Plate.</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c1.png') }}" class="w-[20vw]" />
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Ask children: What kind of food is recommended to be eaten in this part of the My Healthy Plate? What are
+                wholegrains?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c1.png') }}" class="w-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Demonstrate how to fish: toss the fishing line into the pond and move the
-                fishing rod to pull the fishing line until one catches a fish (when a paper clip is
-                attached to the magnet).</li>
-            <li>Explain to the children that there are a few fish ponds available. Each fish
-                pond has a name. Read the names of the ponds. Have the children select a
-                pond and fish in groups using their fishing rods and baskets. Encourage the
-                children to organise themselves in groups. Remind them that there should not
-                be too many children in each group, as it will affect the number of fishes that
-                they will catch.</li>
+            <li>Guide children to understand that wholegrains are grains where only the husk (the outermost covering that
+                cannot be eaten ) is removed. Hence all the nutrients are retained in wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Ask children to name some wholegrains that they know.</li>
         </ol>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Remind the children to concentrate and be patient. Have the children place
-                any fish that they catch into their baskets.</li>
-            <li>Have the children count the number of fishes they have caught. Each group,
-                selects its best fisherman. This person will compete with the selected member
-                of the other groups to see who can catch the most fish.</li>
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c4.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c6.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c7.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c8.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c9.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Introduce a few types of wholegrains to children. Let the children describe the shape and colour of the
+                wholegrains.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/nutrition/class7/c10.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Inform children that most of the wholegrains can be purchased from supermarkets. Some of the wholegrains are
+                grinded into flour and sold.</li>
         </ol>
     </div>
 
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Invite children to form a few groups. Let each group find a variety of food made from a particular type of
+                wholegrain. Guide children to search for the information online.</li>
+        </ol>
+    </div>
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -134,22 +232,20 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: What Are Wholegrains?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the child who caught the most fish to share his/her
-                    knowledge and experiences on fishing.</li>
+                <li>Invite children to take turns to share the information they have found.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to participate actively in the fishing activity.</li>
-                <li>Able to concentrate when fishing.</li>
-                <li>Able to count the number of fishes caught.</li>
+                <li>Able to name some types of wholegrains.</li>
+                <li>Able to cooperate in a group and complete the given task.</li>
             </ul>
         </div>
     </div>
@@ -210,8 +306,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k2/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/k2/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;
