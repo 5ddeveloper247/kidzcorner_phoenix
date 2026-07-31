@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[8vw]" />
@@ -50,24 +50,28 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul ">
-            <li>Explore the relationship between tempo and rhythm of the music</li>
-            <li>Learn to clap to the rhythm of the music with different tempos</li>
-            <li>Develop listening and physical coordination skills</li>
+            <li>To identify a circle.</li>
+            <li>To know that compass is a tool used to draw circles.</li>
+            <li>To find objects shaped like circles in the classroom.</li>
+            <li>To trace circles of different sizes using different objects.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
 
         <div class="space-y-[1vw] text-center">
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Before the lesson, practise clapping to the rhythm of the
-                    music with different tempos. [Note: After prelude, clap
-                    every time you hear the sound of the drum]</li>
+                <li>Thematic Activity Book</li>
+                <li>A circle shaped block</li>
+                <li>A compass</li>
+                <li>Objects that can be used to trace circles of different sizes,
+                    e.g. cup, coaster, bracelet, disk, plate, container cover</li>
+                <li>Crayons</li>
             </ul>
         </div>
     </div>
@@ -75,194 +79,233 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
 
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ul class="list-decimal panel-ul w-[45vw]">
-                <li>Play the music; have children clap to the rhythm of the music.</li>
+                <li>Ask children: "What is this?" "What shape is it?" (circle)</li>
             </ul>
         </div>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c1.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that music has different tempos (speed), sometimes fast and
-                sometimes slow.</li>
-            <li>Invite children to listen to the music with different tempos.</li>
+            <li>Show the circular side of the block, ask children: "What is this?" (block) "Does
+                this look like the little mouse's watermelon house?" "Does it look like the
+                shape below?" "What shape is it?" (circle)</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c2.png') }}" class="w-[20vw]" />
+    </div>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Have children touch the circular side of the block and talk about the
+                characteristic of a circle. Tell children that a circle is round.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c2.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Display the compass, tell children that compass is a tool used to draw circles.
+                Demonstrate using the compass to draw 3 circles of different sizes.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: "Are these circles?" (Yes, circles of different sizes.)</li>
+            <li>Let children know that there are many objects shaped like circles in our
+                surroundings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c4.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c5.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c6.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c7.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c9.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c12.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle. [Note: There are more
+                than one circle in this picture, you can click on it a few times to see the
+                different circles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c13.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the circle. Click on the picture to see the circle. [Note: There are more
+                than one circle in this picture, you can click on it a few times to see the
+                different circles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c14.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Have children find objects shaped like circles in the classroom.</li>
+        </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[4vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Play music one at a time, have children listen to the music carefully.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Display the prepared objects, demonstrate how to trace circles with these
+                objects. Then have children use different coloured crayons to trace the circles
+                with these objects in the Thematic Activity Book.</li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-        </div>
     </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask children: "Which piece of music has a fast tempo?" "Which piece of
-                music has a slow tempo?" (the music in the yellow or red box)</li>
-        </ol>
-
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Play music one at a time, teacher claps to the rhythm of the music and
-                children follow along.</li>
-        </ol>
-
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Repeat playing the music; have children practise clapping to the rhythm of
-                the music with the different tempos.</li>
-        </ol>
-
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Ask children: "When the music has a fast tempo, what is the rhythm like? Is
-                there a difference in the clapping?"</li>
-            <li>Guide children in understanding that when the music has a fast tempo, the
-                rhythm will also be fast and our clapping will be fast too.</li>
-        </ol>
-
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-        </div>
-    </div>
-
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>
-                    <span class="flex items-start">Play music with slow tempo <span class="w-[3vw]">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> , have children clap to the rhythm of the
-                        music together. </span>
-                </li>
-                <li>
-                    <span class="flex items-start">Play music with fast tempo <span class="w-[3vw]">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> , have children clap to the rhythm of the
-                        music together. </span>
-                </li>
-                <li>Ask children: When the music has a fast tempo, what is
-                    the rhythm like? Is there a difference in the clapping?</li>
+                <li>Have children display their circles.</li>
+                <li>Get children to talk about the characteristic of a circle: It is
+                    round.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that when the music has a fast tempo, the rhythm will also
-                    be fast and the clapping will be fast too.</li>
-                <li>Able to clap to the rhythm of the music with different tempos.</li>
+                <li>Able to find at least one object shaped like a circle in the classroom.</li>
+                <li>Able to use objects to trace circles of different sizes.</li>
             </ul>
         </div>
     </div>
@@ -276,8 +319,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music with different tempos, have children listen and say
-                    whether the music has a fast or slow tempo.</li>
+                <li>Get children to find an object shaped like a circle from home, then bring
+                    and show it in class.</li>
             </ul>
         </div>
     </div>
@@ -337,8 +380,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -597,6 +640,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

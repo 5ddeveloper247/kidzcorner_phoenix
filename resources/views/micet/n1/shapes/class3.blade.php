@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[10vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b3.png') }}" class="h-[10vw]" />
@@ -48,25 +48,29 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul ">
-            <li>Know that we can move to the rhythm of the music</li>
-            <li>Learn to do actions according to the rhythm of the music</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>To identify a square.</li>
+            <li>To confirm the characteristic of a square by using a rope to
+                measure each of its sides.</li>
+            <li>To form a square with ice-cream sticks.</li>
+            <li>To find objects shaped like squares in the classroom.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-decimal panel-ul w-[50vw]">
+            <ul class="list-decimal panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Before lesson, practise doing actions according to the
-                    rhythm of the music. [Note: After prelude, do an action
-                    every time you hear the sound of the drum]</li>
+                <li>A square shaped block</li>
+                <li>A rope</li>
+                <li>4 ice-cream sticks per child</li>
+                <li>White glue</li>
             </ul>
         </div>
     </div>
@@ -74,194 +78,302 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ul class="list-decimal panel-ul w-[50vw]">
-                <li>Play music, have children clap to the rhythm of the music.</li>
+                <li>Ask children: "What is this?" "What shape is it?" (square)</li>
             </ul>
         </div>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that besides clapping, we can also move to the rhythm of the
-                music.</li>
-            <li>Invite children to first look at the demonstrations, then learn to do the
-                actions.</li>
+            <li>Display the square shaped block, ask children: "Does it look like the window
+                of little mouse's watermelon house?" "Does it look like the shape below?"
+                "What shape is it?" (square)</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/square.png') }}" class="h-[19vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Have children touch the sides of the square shaped block and talk about the
+                characteristic of a square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/square.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Have children touch the sides of the square shaped block and talk about the
+                characteristic of a square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children touch the sides of the square shaped block and talk about the
+                characteristic of a square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children touch the sides of the square shaped block and talk about the
+                characteristic of a square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children touch the sides of the square shaped block and talk about the
+                characteristic of a square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children touch the sides of the square shaped block and talk about the
+                characteristic of a square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Example 1: Play music, teacher taps her thigh according to the rhythm of
-                the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Have children observe how the teacher uses a rope to measure one side of a
+                square, then cuts the rope according to the length of the square. Have 2 or 3
+                children the use the rope to measure each side of the square, while the other
+                children observe them. Guide children in concluding the characteristic of a
+                square: It has 4 equal sides.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Repeat playing music, have children follow teacher and tap their thighs
-                according to the rhythm of the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Display an ice-cream stick, ask children: "What is this?"</li>
+            <li>Tell children that we can use 4 ice-cream sticks of the same length to form a
+                square. Stack up 4 ice-cream sticks to proof that they are of the same length,
+                then demonstrate how to use them to form a square.</li>
+            <li>Distribute 4 ice-cream sticks to each child. Get each child to stack up the 4
+                ice-cream sticks to confirm that they are of the same length.
+                [Note: Teacher moves around the classroom, guiding and assisting each
+                child.]</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Example 2: Play music, teacher pats her buttock according to the rhythm
-                of the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: "Are these squares?" (Yes, squares of different sizes.)</li>
+            <li>Let children know that there are many objects shaped like squares in our
+                surroundings.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[18vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the square. Click on the picture to see the square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c3.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">biscuits</h5>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the square. Click on the picture to see the square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c4.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">biscuits</h5>
+    </div>
+
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the square. Click on the picture to see the square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c5.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">post-it note</h5>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the square. Click on the picture to see the square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c6.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">blocks</h5>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the square. Click on the picture to see the square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c7.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">dice</h5>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the square. Click on the picture to see the square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c8.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">gift box</h5>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the square. Click on the picture to see the square.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c9.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">plate</h5>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Repeat playing music, have children follow teacher and pat their buttocks
-                according to the rhythm of the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Have children find objects shaped like squares in the classroom.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Example 3: Play music, teacher stamps her feet according to the rhythm of
-                the music.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>"Repeat playing music, have children follow teacher and stamp their feet
-                according to the rhythm of the music.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Example 4: Play music, teacher jumps according to the rhythm of the
-                music.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Repeat playing music, have children follow teacher and jump according
-                to the rhythm of the music.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Have children use 4 ice-cream sticks and white glue to form a square in the
+                Thematic Activity Book. (Teacher to assist if help is needed.)</li>
         </ol>
     </div>
-
 
 
     {{-- panel 16 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask children: Besides clapping, what other actions can we
-                    do to follow the rhythm of the music?</li>
-                <li>Play music , have children do actions according to the rhythm of
-                    the music.</li>
+                <li>Have children display their squares.</li>
+                <li>Get children to talk about the characteristic of a square: It
+                    has 4 equal sides.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that besides clapping, we can also move to
-                    the rhythm of the music.</li>
-                <li>Able to do actions according to the rhythm of the music.</li>
+                <li>Able to find at least one object shaped like a square in the classroom.</li>
+                <li>Able to form a square with the ice-cream sticks.</li>
             </ul>
         </div>
     </div>
 
 
-
     {{-- panel 17 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Body Percussion</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music that children are familiar with, lead them in doing
-                    actions according to the rhythm of the music.</li>
+                <li>Get children to find an object shaped like a square from home, then
+                    bring and show it in class.</li>
             </ul>
         </div>
     </div>
@@ -321,8 +433,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -581,6 +693,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

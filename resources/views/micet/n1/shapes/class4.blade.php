@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/animals/class4/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[8vw]" />
@@ -47,204 +47,441 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Know that we can also sing to the rhythm of the music</li>
-            <li>Learn to sing the song "Ten Little Ducklings"</li>
-            <li>Sing and imitate walking actions of a duckling according
-                to the rhythm of the music</li>
+            <li>To identify a rectangle.</li>
+            <li>To confirm the characteristic of a rectangle by using a rope to
+                measure each of its sides.</li>
+            <li>To look at rectangles of different sizes.</li>
+            <li>To find objects shaped like rectangles in the classroom.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
         <div class="text-center space-y-[2vw]">
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Before the lesson, practise singing and imitate the walking
-                    actions of a duckling according to the rhythm of the music</li>
+                <li>A square shaped block and a rectangle shaped block</li>
+                <li>A rope</li>
+                <li>1 "extendable rectangle" per child (refer to next page)</li>
+                <li>White glue</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <div class="text-center space-y-[2vw]">
+            <h3 class="ptitle">Refernces</h3>
+
+            <ul class="list-disc panel-ul">
+                <li>Materials to make an "extendable rectangle":</li>
+                <ul class="pl-[1vw]">
+                    <li> i. 2 A4 papers</li>
+                    <li> ii. Crayons</li>
+                </ul>
             </ul>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
 
-        <div class="text-start">
+        <div class="text-center">
+            <h3 class="ptitle">Refernces</h3>
+
+            <ol class="list-disc panel-ul w-[45vw]">
+                <li>Steps to make an "extendable rectangle":
+                    <ul>
+                        <li> i. Stack up 2 sheets of A4 paper, fold approximately 5 cm from the
+                            top and bottom of paper.</li>
+                        <li> ii. Pull the bottom paper out from the right side (leave approximately
+                            3 cm), draw a rectangle on both sheets of paper. Then push the paper
+                            back and stop a little before the edge of the drawn rectangle.</li>
+                        <li> iii. The outcome is shown below.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c1.png') }}" class="h-[10vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <div class="text-center">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Play the music, let children practise clapping to the rhythm of the music.</li>
+                <li>Ask children: "What is this?" "What shape is it?" (rectangle)</li>
             </ol>
         </div>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that today they are going to learn to sing the song "Ten Little
-                Ducklings", according to the rhythm of the music.</li>
+            <li>Display the rectangle shaped block, ask children: "Does it look like the door
+                of little mouse's watermelon house?" "Does it look like the shape below?"
+                "What shape is it?" (rectangle)</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c3.png') }}" class="h-[18vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Have children touch the sides of the rectangle shaped block and talk about
+                the characteristic of a rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c3.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
+                the different sides, guide children in counting (next page onwards).</li>
+        </ol>
+        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
+                the different sides, guide children in counting (next page onwards).</li>
+        </ol>
+        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
+                the different sides, guide children in counting (next page onwards).</li>
+        </ol>
+        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
+                the different sides, guide children in counting (next page onwards).</li>
+        </ol>
+        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
+                the different sides, guide children in counting (next page onwards).</li>
+        </ol>
+        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
+                the different sides, guide children in counting (next page onwards).</li>
+        </ol>
+        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What is this?" "What colour is it?" "Can you describe it?"
-                (physical features) "How many legs does it have?"</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Have children observe how the teacher uses a rope to measure one side of a
+                rectangle, then cuts the rope according to the length of the rectangle. Have 2
+                or 3 children then use the rope to measure each side of the rectangle, while
+                the other children observe them. Guide children in concluding the
+                characteristic of a rectangle: It has 4 sides, 2 are long and 2 are short.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/music/class4/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
 
-        <ol class="list-decimal panel-ul" start="4">
-            <li>Have children look at the actions of the duckling, then imitate the actions. </li>
+        <ol class="list-decimal panel-ul w-[47vw]" start="6">
+            <li>Display an "extendable rectangle", tell children that they can use it to
+                "make" rectangles of different sizes. </li>
+            <li>Demonstrate how to "make" rectangles of different sizes with the "extendable
+                rectangle": Each hand holds a side of the paper, right hand pulls the paper
+                out at different levels.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c4.png') }}" class="h-[17vw]" />
+    </div>
 
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class4/v1.mp4') }}" type="video/mp4">
-        </video>
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="8">
+            <li>Distribute an "extendable rectangle" to each child. Get each child to look at
+                the different sizes of rectangles made by him/her. <br>
+                [Note: Teacher moves around the classroom, guiding and assisting each child.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c4.png') }}" class="h-[17vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="9">
+            <li>Ask children: "Are these rectangles?" (Yes, rectangles of different sizes.)</li>
+            <li>Let children know that there are many objects shaped like rectangles in our
+                surroundings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c5.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c6.png') }}" class="h-[10vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">ruler</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c7.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">book</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c8.png') }}" class="h-[15vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">envelop</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c9.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">stamp</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c10.png') }}" class="h-[15vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">cassette</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c11.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">photo frame</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c12.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">television</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle. [Note: There
+                are more than one rectangle in this picture, you can click on it a few times to
+                see the different rectangles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c13.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">chocolate</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle. [Note: There
+                are more than one rectangle in this picture, you can click on it a few times to
+                see the different rectangles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c14.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">refrigerator</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <ol class="list-decimal panel-ul w-[47vw]" start="11">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the rectangle. Click on the picture to see the rectangle. [Note: There
+                are more than one rectangle in this picture, you can click on it a few times to
+                see the different rectangles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class4/c15.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">keyboard</h5>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Play music, teacher sings and imitates the walking actions of a duckling
-                according to the rhythm of the music.</li>
+        <ol class="list-decimal panel-ul w-[47vw]" start="12">
+            <li>Have children find objects shaped like rectangles in the classroom.</li>
         </ol>
-
-        <div class="flex items-start gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class=" text-start text-[1.7vw] text-[#f7b94a]">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Teacher explains the meaning of the lyrics to children.</li>
-        </ol>
-
-        <div class="flex items-start gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class=" text-start text-[1.7vw] text-[#f7b94a]">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Repeat playing the music. Let children sing along with the teacher and
-                imitate the walking actions of a duckling according to the rhythm of the
-                music. Remind children to move only a step when they hear the sound of
-                the drum.</li>
-        </ol>
-
-        <div class="flex items-start gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class=" text-start text-[1.7vw] text-[#f7b94a]">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Divide children into a few groups. Have children in each group practise
-                singing and imitating the walking actions of a duckling according to the
-                rhythm of the music.</li>
-            <li>After that, have the groups take turns to perform the song. Applaud
-                everyone for their perfomance .</li>
+        <ol class="list-decimal panel-ul w-[47vw]" start="13">
+            <li>Have children paste the "extendable rectangle" with white glue in the
+                Thematic Activity Book. Encourage children to pull the paper out from the
+                right to look at the different sizes of rectangles at anytime. [Note: Remind
+                children to put glue only at the back of the paper on the left.]</li>
         </ol>
     </div>
 
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Let's Sing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the groups to perform the song together.</li>
+                <li>Get children to talk about the characteristic of a rectangle:
+                    It has 4 sides, 2 are long and 2 are short.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Ten Little Ducklings".</li>
-                <li>Able to sing according to the rhythm of the music.</li>
-                <li>Able to imitate walking actions of a duckling according to
-                    the rhythm of the music.</li>
+                <li>Able to know that there are rectangles of different sizes.</li>
+                <li>Able to find at least one object shaped like a rectangle in
+                    the classroom.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Get children to find an object shaped like a rectangle from home, then
+                    bring and show it in class.</li>
             </ul>
         </div>
     </div>
@@ -303,8 +540,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -563,6 +800,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

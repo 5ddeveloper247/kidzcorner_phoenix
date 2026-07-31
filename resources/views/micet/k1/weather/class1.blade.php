@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Days</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -58,15 +58,15 @@
         <h3 class="title">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>Enjoy listening to a story</li>
-            <li>Understand and recite the riddle in the story</li>
+            <li>To recognise the different weather conditions and identity their characteristics.</li>
+            <li>To understand the different activities that people engage in under different weather conditions.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Days</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -79,10 +79,10 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Days</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -95,23 +95,24 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Happy Days</h1>
 
-        <h3 class="p-title">Theme: Nursery Rhymes</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: Weather</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary had a lovely little lamb. Do you know how Mary got the lamb? <br>
-            Let me tell you!</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Sue is a weather reporter at Ednoland. Every moming, she informs her <br>
+            friends of the weather : sunny, rainy, cloudy, windy or snowy.</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c2.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Have you seen lambs before? What do they look like?<br>
-                <span class="text-[#f7b94a]">Help the children name some characte ristics of lambs.</span>
+                What other types of weather do you know?<br>
+                <span class="text-[#f7b94a]">Guide the children in understanding about the different types of weather, <br>
+                    e.g. tomadoes, fogs, rainbows, thunder and lightning.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -120,15 +121,15 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">One day, Mary saw a lovely little lamb in the park. She loved it very <br>
-            much. The little lamb's owner, an old grandpa, told Mary that she <br>
-            could have the lamb if she guessed the answerto a riddle correctly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Duffy likes sunny days as he can play hopscotch with his friends. He <br>
+            feels happy playing under the warm sun.</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c3.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                What riddle did old grandpa come up with? Can you guess the answer?<br>
-                <span class="text-[#f7b94a]">Read the riddle to the children and help them to guess the answer.</span>
+                Do you know the different weather conditions that are represented by <br>
+                each of the symbols above?<br>
+                <span class="text-[#f7b94a]">Guide the children in identifying the different weather symbols.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -137,15 +138,17 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary came to a farm. She asked the farmer and his lamb to help guess <br>
-            the riddle. However, they could not answer the riddle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Jojo likes sunny days too. Look! She is getting ready to go to the beach. <br>
+            She likes to swim at the beach and build sand castles with her parents.</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c4.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What is the difference betwe en this lamb and old grandpa's lamb?<br>
-                <span class="text-[#f7b94a]">Help the children to observe the two lambs and differentiate <br>
-                    between the two lambs ( on the basis of their colour).</span>
+                What are the things in Jojo's ro om? Find the things that she needs at the <br>
+                beach.<br>
+                <span class="text-[#f7b94a]">Invite the children to name the things in the room and explain to them that
+                    <br>
+                    people need different things for different seasons.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -154,15 +157,15 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary came to a market. She asked the baker to guess the riddle. But <br>
-            he also did not know the answer to the riddle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c5.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Jojo also likes cloudy days. She often lies on the grass and look up at <br>
+            the clouds in the sky. The clouds are rather amazing, one moment it <br>
+            looks like a horse and the next moment, it looks like a sled.</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c5.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What bread did the baker sell? <br>
-                Why did he say "It is definitely not bread"?<br>
-                <span class="text-[#f7b94a]">Help the children to observe and infer.</span>
+                Do you like to lo ok at the clouds in the sky? What do they look like?<br>
+                <span class="text-[#f7b94a]">Guide the children in using their imagination to express their ideas.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -171,14 +174,15 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary then came to a garden. She asked a lady, who was looking after <br>
-            a child, to help guess the riddle. She too could not guess the answer.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Bobo likes windy days as he can fly his kite when the wind blows gently. <br>
+            He wishes that he can fly like the kites.</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What do you say if you want to ask for help? <br>
-                <span class="text-[#f7b94a]">Help the children to leam some polite expressions.</span>
+                How many kites is Bobo holding? Name the shapes and colours of <br>
+                each kite.<br>
+                <span class="text-[#f7b94a]">Encourage the children to identify the different shapes and colours.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -187,14 +191,16 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">It was getting dark as Mary walked past a funfair. She heard a little boy
-            singing and the answer suddenly struck her mind.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Bobo likes snowy days too. It is beautiful when the snowflakes fall from <br>
+            the sky. He can play with snowballs, build a snowman and even ski!</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c7.png') }}" class="w-[29vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you know how Mary guessed the answerto the riddle?<br>
-                <span class="text-[#f7b94a]">Help the children infer by singing the lyrics of the song.</span>
+                Have you built a snowman before? What kind of snowman would you build? <br>
+                Draw it.<br>
+                <span class="text-[#f7b94a]">Encourage the children to use their imagination in designing the
+                    snowman.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -203,14 +209,14 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary ran to the park and told old grandpa the answer to the riddle.
-            Old grandpa praised Mary and gave her the little lamb.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Candy loves rainy days. She feels that the pitter-patter of the rain and <br>
+            the rumbling sound of the thunder make a beautiful symphony.</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c8.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Can you guess the answerto the riddle? What is the answer?<br>
-                <span class="text-[#f7b94a]">Sing "Twinkle twinkle little star" with the children.</span>
+                Do you like rainy days? What do you do on rainy days?<br>
+                <span class="text-[#f7b94a]">Guide the children in expressing their preferences.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -219,68 +225,42 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary led the lamb and sang all the way home. From then onwards, the <br>
-            little lamb became Mary's best friend.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c9.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">In fact, experiencing different kinds of weather conditions like sunny, <br>
+            rainy, cloudy, snowy or windy can be interesting. What kind of weather <br>
+            do you like?</h3>
+        <img src="{{ asset('assets/images/micet/k1/weather/class1/c9.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                How would you feel if you were Mary? Why?<br>
-                <span class="text-[#f7b94a]">Help the children to reflect and experience how Mary felt in the story.</span>
+                What kind of weather do you like?<br>
+                <span class="text-[#f7b94a]">Encourage the children in identifying their preferred weather and <br>
+                    describing its characteristics.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Days</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let the children recite the riddle in the story and guess the
-                    answer to the riddle.</li>
+                <li>Have the children identify the different types of weather conditions and describe their characteristics.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to guess the answer to the riddle.</li>
-                <li>Able to recite the riddle.</li>
-                <li>Able to enjoy listening to the story.</li>
+                <li>Able to name the different types of weather.</li>
+                <li>Able to state the different activities that people engage in under different weather conditions.</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to read the riddle to their parents at
-                    home and have them guess the answer.</li>
-            </ul>
-        </div>
-    </div>
-
 
 
 
@@ -336,8 +316,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k1/weather/index') }}";
+            const doneURL = "{{ url('/micet/k1/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

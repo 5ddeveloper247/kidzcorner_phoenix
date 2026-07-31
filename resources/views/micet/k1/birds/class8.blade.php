@@ -38,32 +38,31 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To make a story character headgear through colouring,
-                cutting and pasting.</li>
-            <li>To develop fine motor skills.</li>
+            <li>Understand the life cycle of a duck</li>
+            <li>Understand the differences between the life cycle of birds and the life cycle of humans</li>
+            <li>Develop logical thinking skills and language expression skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Crayons and glue.</li>
-                <li>Strips of cardboard (3 x 30 cm) /vanguard sheet (one per
-                    child).</li>
-                <li>One headgear (made prior to this activity).</li>
+                <li>Colour pencils</li>
+                <li>Print out Daisy Duckling's life cycle pictures (refer to samples in lesson development); one set for
+                    each child</li>
             </ul>
         </div>
     </div>
@@ -71,20 +70,17 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>The teacher wears the headgear which was made prior to this activity. Have
-                    the children explain which story character this headgear represents, what the
-                    character did in the story and what is special about it. Have the children
-                    name the other characters in the story (Candy Cat, Mummy Cat, Mama Duck,
-                    Mary Mantis, butterfly and dragonfly), their characteristics, which is their
-                    favourite character and the reasons.</li>
-                <li>Have the children know that they will select their favourite character in the
-                    story to make a headgear.</li>
+                <li>Let the children recall the storyline of "Daisy Duckling's Learning Adventure". Invite them to name the
+                    characteristics and traits of Daisy Duckling (e.g. broad and flat beak, webbed-feet, can swim, cannot
+                    fly).</li>
+                <li>Ask the children: How do you think Daisy Duckling looked when she was a baby? How will she look when she
+                    grows up? How will she look when she is old? Encourage children to think and discuss.</li>
             </ol>
         </div>
     </div>
@@ -92,59 +88,130 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children choose their favourite story character in the Thematic
-                Activity Book activity 8. Organise the children into groups of six, each
-                member of the group selects one of the 6 characters. If there is more than one
-                child who selects the same character in a group, have them resolve the
-                conflict through negotiation.</li>
+            <li>Distribute the Daisy Duckling life cycle pictures (or use the Thematic Activity Book).</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c1.png') }}" class="h-[15vw]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k1/birds/class8/c1.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/micet/k1/birds/class8/c2.png') }}" class="w-[20vw]" />
+        </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have the children colour their characters and paste them onto the cardboard
-                strips. Then, have them form the strips into circles, adjust the two ends to fit
-                their heads and glue the ends together to complete the headgears. Teacher
-                assists the children in making the headgears when necessary.</li>
+            <li>Based on the sequence of Daisy Duckling's Life Cycle, let the children point at the correct picture one by
+                one and talk about the life cycle. Help the children describe the duckling's life cycle according to the
+                correct sequence: Mother duck lays egg > Daisy Duckling grows inside the egg > Daisy Duckling completely
+                develops as a duckling and emerges from the egg > Daisy Duckling learns how to walk > It grows to into its
+                current stage > It will grow up into a duck and can lays eggs.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class8/c1.png') }}" class="h-[12vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Invite the children to colour the pictures of Daisy Duckling's Life Cycle and cut them out.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class8/c1.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Let the children paste the pictures of Daisy Duckling's Life Cycle according to the correct sequence.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class8/c2.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Guide children to understand that Daisy Duck's life cycle is the life cycle of all ducks.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class8/c3.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Help children talk about the life cycle of a duck: mother duck lays egg> mother duck incubates the egg so
+                that the duckling can grow inside the egg > duckling hatches from the egg-> duckling learns to walk->
+                duckling grows up slowly> duckling becomes an adult duck and lays eggs. Thus, the whole life cycle starts
+                aaain.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class8/c3.png') }}" class="w-[17vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Guide children to understand that though each bird looks different from the other, all birds lay eggs and go
+                through a similar life cycle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class8/c3.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Let the children think and discuss the differences between the life cycles of birds and humans. Guide
+                children to understand that birds lay eggs and hatch them to have young birds, whereas humans are mammals
+                that is they give birth to their young ones alive ( baby).</li>
+        </ol>
     </div>
 
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Daisy Duckling’s Life Cycle</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children wear and display their story character
-                    headgears.</li>
+                <li>Display the completed works of the children. Invite some children to talk about the life cycle of a
+                    duck.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the characters and their characteristics in the
-                    story.</li>
-                <li>Able to make a story character headgear.</li>
+                <li>Able to complete the picture sequence of the life cycle of a duck.</li>
+                <li>Know the life cycle of a duck.</li>
+                <li>Know the differences between the life cycles of birds and humans.</li>
             </ul>
         </div>
     </div>
 
 
-   
+
 
 
 
@@ -199,8 +266,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,149 +38,144 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To develop interest in role play.</li>
-            <li>To develop different aspects of role playing skills such as
-                language, singing and movements.</li>
+            <li>Know what a bird sanctuary is and what its function is</li>
+            <li>Cooperate with classmates to create a bird sanctuary</li>
+            <li>Use recycled and art/craft materials to make birds and set up a bird sanctuary</li>
+            <li>Develop an awareness of the need to protect birds and their living environment</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Together with the children, create the backdrop scenery of
-                    a riverbank as in the story.</li>
-                <li>Headgear from Activity 8.</li>
-                <li>Fishing rods, fishing baskets and fishes from Activity 6.</li>
-                <li>"Fish pond" from Activity 7 (formed with the big card box or
-                    hula hoops or draw circles on the floor), place "fishes" in the
-                    "fish pond".</li>
+                <li>Thematic Activity Book</li>
+                <li>Books, pictures and information of some bird sanctuaries (also known as bird reserves)</li>
+                <li>Sound files of bird calls in nature</li>
+                <li>Colour pencils, papers, feathers, glue, thread, scissors, Blu tack, adhesive tape, different recycled
+                    materials, art and craft materials, etc</li>
+                <li>Use recycled materials and art and craft materials to make some bird samples beforehand</li>
             </ol>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal text-white text-[1.3vw] w-[55vw]">
-                <li>Review the story with the children. Have them retell the story and prompt them
-                    when necessary.</li>
-                <li>
-                    Segment the story into the following parts:
-                    <ul class="pl-[1vw]">
-                        <li>-Candy Cat wanted to learn fishing from Mummy Cat at the river bank.</li>
-                        <li>-Candy danced with Mary Mantis.</li>
-                        <li>-Candy played with the dragonfly.</li>
-                        <li>-Candy saw that her mother had caught a big fish.</li>
-                        <li>-Candy put down the fishing rod again to chase the butterfly but fell into the river.</li>
-                        <li>-Candy decided to concentrate and put in effort when fishing. She caught a big fish in the end.
-                        </li>
-                    </ul>
-                </li>
-                <li>Ask the children questions as they retell the story, e.g. "What did Candy say?",
-                    "What did Candy's mother do?".</li>
+            <ol class="list-decimal text-white text-[1.3vw] w-[45vw]">
+                <li>Let the children look at the books, pictures and information about some bird sanctuaries and say what a
+                    bird sanctuary is.</li>
+                <li> Guide children to know that a bird sanctuary is also known as a bird reserve. It is an area reserved to
+                    protect birds. Hunting and destruction of trees is not allowed here. It is a place where people can
+                    watch birds in their natural environment. </li>
+                <li>Based on the information gathered, let the children suggest the birds and things present in a bird
+                    sanctuary.</li>
+                <li>Invite children to set up a bird sanctuary. Let them know that they will need to cooperate with their
+                    classmates to set up the bird sanctuary.</li>
             </ol>
         </div>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Organise the children into 6 groups. Each group to role play one segment of
-                the story. Allocate the roles (Candy Cat, Mummy Cat, Mary Mantis, Mama
-                Duck, butterfly, dragonfly etc) according to children's wishes and abilities</li>
-            <li>The children wear the corresponding headgears. The teacher circulates
-                around to rehearse with each group. Have the children participate in
-                discussion, e.g. what should Candy do now? What should she say? The
-                teacher acts as an observer and provide hints during the rehearsal.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Display all the materials and bird samples. Invite children to use these materials to make birds and set up
+                a bird sanctuary.</li>
+            <li>First guide children to use paper and recycled material to make a tree trunk and branches. Encourage them to
+                paint and paste paper leaves onto the tree.</li>
+            <li>Next, let the children suggest suitable things to place in the bird sanctuary and make a list (e.g. bird
+                house, bird feeder, bird bath).</li>
+            <li>Organize children into few groups and let each group be in charge of making one thing from the suggestion
+                list. Teacher facilitates their group work.</li>
+            <li>After that, let each group of children discuss what bird they want to make for the bird sanctuary. Help the
+                children recall the birds they have learnt about from books, pictures and information provided.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>
-                Upon completion, have each group role play according to the sequence of the story. If the actor/actress
-                cannot remember his/her line, have the other children prompt him/her.
-                <ul class="pl-[1vw]">
-                    <li>-Play the accompanying music when the children are role playing the part where Candy Cat and Mary
-                        Mantis are dancing.</li>
-                    <li>-Guide all the children in singing the song <span class="italic">"Little Dragonflies"</span> when
-                        the
-                        dragonfly appears.</li>
-                    <li>-Guide all the children in singing the song <span class="italic">"Beautiful Butterflies"</span> when
-                        Candy is chasing the butterfly.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Guide the groups to make the bird they have chosen. While they are making the birds, play the sound files of
+                the bird calls in nature.</li>
+
+            <li>Remind the children to take note of the following steps while making the birds:
+                <ul class="list-disc">
+                    <li>Make a bird's body: use paper, or other recycled materials such as bottles, can, box, etc.</li>
+                    <li>Add in the different body parts such as eyes, a beak, ,wings and legs: use paper to draw and cut out
+                        the body parts and paste onto the bird's body. Natural materials such as seeds, petals, leaves,
+                        twigs, cloth scraps can also be used to make the body parts.</li>
+                    <li>Add the bird's feathers: choose suitable feathers to paste onto the bird's body.</li>
                 </ul>
             </li>
+            <li>Upon completion, let each group place their bird in the bird sanctuary ( for e.g. place it on the tree, fix
+                it with adhesive or Blu tack on the bird feeder, bird house, or bird bath, etc).</li>
+        </ol>
+    </div>
 
-            <li>
-                If time permits, have the children in each group exchange roles, or have the groups exchange their segment
-                of the story and perform again.
-            </li>
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Encourage all children to cooperate and make a big bird (that is around their height ,e.g. pelican, peacock,
+                flamingo, stork, etc) and place in the bird sanctuary.</li>
+            <li>Invite the children to look at the bird sanctuary they have built together. Encourage them to take turns and
+                imitate the calls and actions of the different birds in the sanctuary.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Bird Sanctuary</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children share their experiences in role playing.</li>
+                <li>Let the children say what a bird sanctuary is.</li>
+                <li>Let the children explain how he/she can help to protect birds.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to participate actively in this activity.</li>
-                <li>Able to use suitable language when role playing.</li>
-                <li>Able to imitate the character's actions according to one's role.</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
-
-        <div class="text-start flex flex-col h-full">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the other teachers and parents to watch the
-                    performance. Record the performance if possible.</li>
+                <li>Able to cooperate with group mates to make birds and set up a bird sanctuary.</li>
+                <li>Know what a bird sanctuary is.</li>
+                <li>Know that we should protect birds and their living environment.</li>
             </ul>
         </div>
     </div>
@@ -240,8 +235,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;

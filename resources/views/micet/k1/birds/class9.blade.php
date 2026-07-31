@@ -38,22 +38,22 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the sequence of the story "Candy Cat's
-                Fishing Adventure".</li>
-            <li>To learn to retell the story "Candy Cat's Fishing Adventure".</li>
+        <ul class="list-disc panel-ul">
+            <li>Understand the characteristics of crows</li>
+            <li>Learn the concept of filial piety</li>
+            <li>Inculcate the value of filial piety</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -66,107 +66,215 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children cut out all 6 story cards from the Thematic Activity Book,
-                    activity 9.</li>
+                <li>Invite the children to name the bird, describe its characteristics and imitate its calls.</li>
+                <li>Let the children express whether they like crows and give reasons for their like or dislike.</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c1.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Have the children recall the story "Candy Cat's Fishing Adventure" and pick
-                up the card which shows the beginning of the story. Invite a few children to
-                retell the beginning of the story using their own words. </li>
-            <li>Have the children recall the story and pick up the card that shows the ending
-                of the story. Invite a few children to retell the ending of the story using their
-                own words.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Inform the children that although the whole body of a crow is black and they are not pretty or attractive,
+                and their calls are awful, crows are smart and filial in nature. Help the children understand the meaning of
+                filial piety (respecting parents and listening to them, treating them well and looking after them). Let the
+                children explain how a filial child would treat his/her parents. </li>
+            <li>Read the story of "Little Crow" to the children (starting from the next slide).</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Have the children know that every story is made up of a beginning, a middle
-                (which may consists of several events) and an ending.</li>
-            <li>Have the children sequence the story cards in the order of the events.</li>
+        <ol class="panel-ul w-[50vw]">
+            <li>Yaya is a baby crow that has just hatched. Its parents love it a lot.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c2.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>Everyday before dawn, Yaya's parents go out to look for food for Yaya. Whenever Yaya's parents find a yummy
+                piece of meat, they cannot bear to eat it alone and bring it home for Yaya to eat first. Mama is afraid that
+                Yaya cannot bite the meat, so she chews the meat first before feeding it to Yaya.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>Soon, Yaya grows black feathers on its body and is eager to learn to fly! Everyday in the morning, Papa
+                brings Yaya out to learn to fly. He teaches him the steps: flap the wings, take off, increase speed and
+                land. In the beginning, though it tries very hard, Yaya cannot fly . Yaya cries each time it fails.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>However, Papa does not blame Yaya. Papa demonstrates how to fly over and
+                over again! Finally, Yaya learns to fly! It happily flaps its small wings and flies in the
+                sky.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>Time goes by quickly, Yaya grows from a small crow to a big crow. It does not
+                need its parents to help it look for food. It flies leisurely in the sky everyday.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>One day, when Yaya reaches home, it finds its parents lying in the nest, looking
+                weak and hungry.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>"Papa, Mama, why don't you go out to look for food? Are you not feeling
+                hungry?" <br>
+                "Yaya, Papa and Mama are old. We are too weak to fly out and look for food."</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>""Yaya, you have grown up and should leave the nest. You don't have to bother about us."
+                "No, I will not leave Papa and Mama! It is alright if you can't fly, I will fly out and
+                look for food to feed you."</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>From that day onwards, Yaya looks after its parents just as they did when Yaya was young. Everyday before
+                dawn, Yaya flies out to look for food. When it finds yummy food, Yaya brings the food home to feed its
+                parents. Yaya only eats after its parents are full.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>Some other birds say that Yaya is silly, but Yaya does not mind. Yaya says, "My parents doted on me and
+                looked after me when I was young. They fed me with yummy food everyday. Now that I have grown up, I must
+                repay their kindness!"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
+
+        <ol class="panel-ul w-[50vw]">
+            <li>From then on, the story of Yaya spreads far and wide. Everyone calls Yaya "The
+                Filial Little Crow".</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class9/c6.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Next, invite a few children retell the story in sequence as the teacher guides
-                them along.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class9/c1.png') }}" class="w-[35vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Organise the children into 6 groups. Have the children in each group take
-                turns to retell the story in sequence to their group members.</li>
-            <li>Upon completion, group members help the storyteller determine if the
-                sequence of the story is correct by providing feedback.</li>
-            <li>The teacher circulates among the groups to provide guidance.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Replay the story pages and encourage children to retell the story.</li>
+            <li>Let the children describe how the little crow showed filial piety towards its parents.</li>
+            <li>Have the children take turns to state how they treat their parents at home, whether they show filial piety
+                to them. Encourage the children to describe their experiences. Praise those children who are filial or
+                express a desire to be filial.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Have the children draw the scenes into the blank story cards on the last
-                activity page of the Thematic Activity Book, if they show interest in modifying
-                the story or adding in more scenes. Have the children cut out and combine
-                the new story cards with the original story cards to create a new story</li>
-            <li>Each group will then choose a representative with the best new story to
-                narrate to the class.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Little Crow</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children judge who the best storyteller is and
-                    explain the reasons.</li>
-                <li>Display the children's version of the story (original story
-                    cards plus new story cards that children drew) for all to view
-                    and share.</li>
+                <li>Organise the children into groups and let them discuss what actions indicate being filial towards
+                    parents and how they will want to show filial piety towards their parents.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to retell the story in sequence.</li>
-                <li>Able to use imagination in modifying the story.</li>
+                <li>Able to state the characteristics of crows and imitate their calls.</li>
+                <li>Able to retell the story of "Little Crow".</li>
+                <li>Know what it means to be filial.</li>
             </ul>
         </div>
     </div>
@@ -229,8 +337,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;
