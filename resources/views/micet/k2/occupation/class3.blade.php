@@ -55,15 +55,15 @@ $showMascot = true;
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start space-y-[1vw] h-full items-center">
+<div class="phonics-panel flex flex-col justify-between h-full">
     <h1 class="panel-title stroke">Classroom Activity 3: In the Hospital</h1>
 
-    <h3 class="ptitle mt-[5vw]">Preparations</h3>
+    <h3 class="ptitle">Preparations</h3>
 
-    <ul class="list-disc panel-ul w-[45vw]">
+    <ul class="list-disc panel-ul w-[55vw]">
         <li>Thematic Activity Book</li>
         <li>Hospital props box (recommended materials):
-            <ul>
+            <ul class="w-[53vw] text-xs">
                 <li>-white gown, nurse's cap, clinical masks, rubber gloves.</li>
                 <li>-bandages, tongue depressors.</li>
                 <li>-eye chart, empty medicine bottles (different shapes and capacity), height chart and weighing machine, dolls, blankets, eye droppers.</li>
@@ -88,7 +88,7 @@ $showMascot = true;
             <li>As the lesson proceeds, teacher introduces related vocabulary.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c2.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c2.png') }}" class="w-[30vw]" />
 </div>
 
 
@@ -147,7 +147,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="8">
         <li>Explain that an x-ray machine can photograph the bones inside the body to help the doctor to make a diagnosis.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c4.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c4.png') }}" class="w-[25vw] h-[20vw]" />
 </div>
 
 
@@ -196,7 +196,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="13">
         <li>When a broken bone is rejoined, that particular part of the body is placed in a cast. This gives support and allows the bone to heal.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c7.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c7.png') }}" class="w-[25vw] h-[20vw]" />
 </div>
 
 
@@ -208,7 +208,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="14">
         <li>Ask the children how a patient will move about with a cast.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c7.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c7.png') }}" class="w-[25vw] h-[20vw]" />
 </div>
 
 
@@ -221,8 +221,8 @@ $showMascot = true;
         <li>The patient needs to use a crutch or crutches.</li>
     </ol>
     <div class="flex gap-2">
-        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c8.png') }}" class="w-[25vw] h-[17vw]" />
-        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c9.png') }}" class="w-[25vw] h-[17vw]" />
+        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c8.png') }}" class="w-[20vw] h-[17vw]" />
+        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c9.png') }}" class="w-[20vw] h-[17vw]" />
     </div>
 </div>
 
@@ -382,8 +382,8 @@ $showMascot = true;
         <li>An operation is usually done by a team of doctors and nurses.</li>
     </ol>
     <div class="flex gap-2">
-        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c18.png') }}" class="w-[25vw] h-[17vw]" />
-        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c19.png') }}" class="w-[25vw] h-[17vw]" />
+        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c18.png') }}" class="w-[20vw] h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/occupation/class3/c19.png') }}" class="w-[20vw] h-[20vw]" />
     </div>
 </div>
 
@@ -633,7 +633,6 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="56">
         <li>Get the children to share their experiences of going to a hospital which ranges from how the doctor can diagnose the sickness to the kind of medication that was prescribed. Help the children to understand that bad habits can also make us sick, e.g. the use of dirty hands to eat food thus causing stomach pains; sleeping without sufficient coverings causes a chill; being picky at food causes malnutrition. Thus, encourage children to cultivate good healthy habits.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k2/occupation/class3/c5.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -672,7 +671,7 @@ $showMascot = true;
 
 {{-- panel 6 --}}
 <div class="phonics-panel flex flex-col items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 2: A the Construction Site</h1>
+    <h1 class="panel-title stroke">Classroom Activity 3: In the Hospital</h1>
 
     <div class="text-start flex flex-col">
         <h3 class="ptitle">Extension</h3>
@@ -737,8 +736,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/playtime/index') }}";
-        const doneURL = "{{ url('/micet/k1/playtime/index') }}";
+        const returnURL = "{{ url('/micet/k2/occupation/index') }}";
+        const doneURL = "{{ url('/micet/k2/occupation/index') }}";
 
         // Track current position
         let currentSlide = 0;
