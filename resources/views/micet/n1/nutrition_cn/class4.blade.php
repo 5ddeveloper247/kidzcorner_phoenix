@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,31 +38,29 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
         </div>
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Know that we need to eat from the 3 main food groups
-                daily in order to have a balanced diet</li>
-            <li>Know that a balanced diet will help us stay healthy and
-                not fall sick easily</li>
+            <li>了解我们需要每天从三大类食物中摄取食物，才能均衡饮食</li>
+            <li>了解均衡饮食能帮助我们保持健康，不容易生病</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
         <div class="text-center space-y-[2vw]">
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Thematic Activity Book</li>
+                <li>主题活动书</li>
             </ul>
         </div>
     </div>
@@ -70,23 +68,20 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[4vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children:
+                <li>问孩子们：
                     <ul class="list-disc">
-                        <li>What 3 main food groups did we learn previously? [1) rice and noodles group, 2) meat and seafood
-                            group, 3) vegetables and fruits group]
-                        <li> What are the benefits of eating from each food group? <br>
-                            [Food from: <br>
-                            1) rice and noodles group gives us energy to carry out daily activities; <br>
-                            2) meat and seafood group helps to build and strengthen our muscles <br>
-                            for growing; <br>
-                            3) vegetables and fruits group promotes good digestive system and
-                            regular bowel movement]</li>
+                        <li>我们之前学过哪三大类食物？[1）米饭和面条类，2）肉类和海鲜类，3）蔬菜和水果类]
+                        <li>从每类食物中摄取食物有什么好处？ <br>
+                            [来自以下食物： <br>
+                            1）米饭和面条类的食物为我们提供能量，进行日常活动； <br>
+                            2）肉类和海鲜类的食物帮助建立和增强我们的肌肉，促进成长； <br>
+                            3）蔬菜和水果类的食物促进良好的消化系统，保持正常的排便]</li>
                     </ul>
                 </li>
             </ol>
@@ -96,12 +91,10 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Tell children that each food group has something (nutrients) that we need
-                for our body, so we need to eat them daily to have a balanced diet to
-                keep us healthy..</li>
+            <li>告诉孩子们，每类食物都含有我们身体所需的营养素，因此我们需要每天摄取它们，才能均衡饮食，保持健康。</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c1.png') }}" class="w-[30vw]" />
@@ -110,11 +103,10 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Tell children that this is Ling's breakfast. Have children look at the food
-                items and answer the following questions.</li>
+            <li>告诉孩子们，这是玲的早餐。让孩子们观察食物，并回答以下问题。</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
@@ -123,11 +115,10 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Ask children: “”Has Ling eaten food from the rice and noodles group?””
-                “”What are they?””</li>
+            <li>问孩子们："玲有没有吃过米饭和面条类的食物？""是什么？"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
     </div>
@@ -135,10 +126,10 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ling has taken bread and biscuits from the rice and noodles group.</li>
+            <li>玲吃了面包和饼干，来自米饭和面条类。</li>
         </ol>
         <div class="w-fit h-fit relative">
             <div class="w-[11vw] h-[11vw] border-2 border-[#f7b94a] rounded-[2vw] absolute"></div>
@@ -150,11 +141,10 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Ask children: "What are the benefits of eating food from the rice and
-                noodles group?" (they provide energy for Ling to carry out daily activities)</li>
+            <li>问孩子们："吃米饭和面条类的食物有什么好处？"（它们为玲提供能量，进行日常活动）</li>
         </ol>
         <div class="w-fit h-fit relative">
             <div class="w-[11vw] h-[11vw] border-2 border-[#f7b94a] rounded-[2vw] absolute"></div>
@@ -166,11 +156,10 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Ask children: "Has Ling eaten food from the vegetables and fruits group?"
-                "What are they?"</li>
+            <li>问孩子们："玲有没有吃过蔬菜和水果类的食物？""是什么？"</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
@@ -179,11 +168,10 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Ling has taken an orange, an apple, a banana, an orange juice, some
-                strawberry jam and a salad from the vegetables and fruits group.</li>
+            <li>玲吃了橙子、苹果、香蕉、橙汁、草莓酱和沙拉，来自蔬菜和水果类。</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -198,12 +186,10 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children: "What are the benefits of eating food from the vegetables
-                and fruits group?" (they help Ling digest her food more easily and have
-                regular bowel movement)</li>
+            <li>问孩子们："吃蔬菜和水果类的食物有什么好处？"（它们帮助玲更容易消化食物，保持正常的排便）</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -218,11 +204,10 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: "Has Ling eaten food from the meat and seafood group?"
-                (no) "Does she have a balanced diet?" (no)</li>
+            <li>问孩子们："玲有没有吃过肉类和海鲜类的食物？"（没有）"她的饮食均衡吗？"（没有）</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
@@ -231,11 +216,10 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Tell children that this is Mike's breakfast. Have children look at the food
-                items and answer the following questions.</li>
+            <li>告诉孩子们，这是迈克的早餐。让孩子们观察食物，并回答以下问题。</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
@@ -244,11 +228,10 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Ask children: “”Has Mike eaten food from the rice and noodles group?””
-                “”What are they?””</li>
+            <li>问孩子们："迈克有没有吃过米饭和面条类的食物？""是什么？"</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
@@ -257,10 +240,10 @@
 
     {{-- panel 14 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Mike has taken porridge and bun from the rice and noodles group.</li>
+            <li>迈克吃了粥和包子，来自米饭和面条类。</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -273,11 +256,10 @@
 
     {{-- panel 15 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Ask children: "What are the benefits of eating food from the rice and
-                noodles group?" (they provide energy for Mike to carry out daily activities)</li>
+            <li>问孩子们："吃米饭和面条类的食物有什么好处？"（它们为迈克提供能量，进行日常活动）</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -290,11 +272,10 @@
 
     {{-- panel 16 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Ask children: "Has Mike eaten food from the meat and seafood group?"
-                "What are they?"</li>
+            <li>问孩子们："迈克有没有吃过肉类和海鲜类的食物？""是什么？"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
     </div>
@@ -302,11 +283,10 @@
 
     {{-- panel 17 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="16">
-            <li>Ask children: "Has Mike eaten food from the meat and seafood group?"
-                "What are they?"</li>
+            <li>问孩子们："迈克有没有吃过肉类和海鲜类的食物？""是什么？"</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -320,12 +300,10 @@
 
     {{-- panel 18 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="17">
-            <li>Ask children: "What are the benefits of eating food from the meat and
-                seafood group?" (they help Mike build and strengthen his muscles for
-                growing)</li>
+            <li>问孩子们："吃肉类和海鲜类的食物有什么好处？"（它们帮助迈克建立和增强肌肉，促进成长）</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -339,11 +317,10 @@
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="18">
-            <li>Ask children: "Has Mike eaten food from the vegetables and fruits group?"
-                (no) "Does he have a balanced diet?" (no).</li>
+            <li>问孩子们："迈克有没有吃过蔬菜和水果类的食物？"（没有）"他的饮食均衡吗？"（没有）。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
     </div>
@@ -351,11 +328,10 @@
 
     {{-- panel 20 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="19">
-            <li>Tell children that this is Danny's breakfast. Have children look at the food
-                items and answer the following questions.</li>
+            <li>告诉孩子们，这是丹尼的早餐。让孩子们观察食物，并回答以下问题。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
     </div>
@@ -363,11 +339,10 @@
 
     {{-- panel 21 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="20">
-            <li>Ask children: "Has Danny eaten food from the meat and seafood group?"
-                "What are they?"</li>
+            <li>问孩子们："丹尼有没有吃过肉类和海鲜类的食物？""是什么？"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
     </div>
@@ -375,11 +350,10 @@
 
     {{-- panel 22 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="21">
-            <li>Danny has taken steamed fish, fried steaks and fried prawns from the meat
-                and seafood group.</li>
+            <li>丹尼吃了蒸鱼、煎牛排和炸虾，来自肉类和海鲜类。</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -394,11 +368,10 @@
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="22">
-            <li>Ask children: "What are the benefits of eating food from the meat and
-                seafood group?" (they help Danny build and strengthen his muscles for growing)</li>
+            <li>问孩子们："吃肉类和海鲜类的食物有什么好处？"（它们帮助丹尼建立和增强肌肉，促进成长）</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -413,11 +386,10 @@
 
     {{-- panel 24 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="23">
-            <li>Ask children: "Has Danny eaten food from the vegetables and fruits
-                group?" "What are they?"</li>
+            <li>问孩子们："丹尼有没有吃过蔬菜和水果类的食物？""是什么？"</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -432,11 +404,10 @@
 
     {{-- panel 25 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="24">
-            <li>Danny has taken watermelon, grapes and stir-fried vegetables from the
-                vegetables and fruits group.</li>
+            <li>丹尼吃了西瓜、葡萄和炒蔬菜，来自蔬菜和水果类。</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -449,12 +420,10 @@
 
     {{-- panel 26 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="25">
-            <li>Ask children: "What are the benefits of eating food from the vegetables
-                and fruits group?" (they help Danny digest his food more easily and have
-                regular bowel movement)</li>
+            <li>问孩子们："吃蔬菜和水果类的食物有什么好处？"（它们帮助丹尼更容易消化食物，保持正常的排便）</li>
         </ol>
 
         <div class="w-fit h-fit relative">
@@ -467,11 +436,10 @@
 
     {{-- panel 27 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="26">
-            <li>Ask children: "Has Danny eaten food from the rice and noodles group?"
-                (no) "Does he have a balanced diet?" (no)</li>
+            <li>问孩子们："丹尼有没有吃过米饭和面条类的食物？"（没有）"他的饮食均衡吗？"（没有）</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
     </div>
@@ -479,12 +447,10 @@
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="27">
-            <li>Click on the picture to open the Software Magnetic Board. Guide children
-                to prepare a balanced breakfast, lunch or dinner by selecting food from
-                the 3 main groups.</li>
+            <li>点击图片打开软件磁贴板。引导孩子们从三大类中选择食物，准备一份均衡的早餐、午餐或晚餐。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c5.png') }}" class="w-[30vw]" />
     </div>
@@ -492,34 +458,30 @@
 
     {{-- panel 29 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="28">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+            <li>引导孩子们在主题活动书中完成相应的活动。</li>
         </ol>
     </div>
 
     {{-- panel 30 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">课堂活动 4：均衡饮食</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to talk about their balanced meals and let others
-                    check whether it's a balanced meal.</li>
+                <li>让孩子们轮流介绍他们的均衡饮食，并让其他孩子检查是否均衡。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>.Able to know that we need to eat from the 3 main food groups daily in order
-                    to have balanced diet.</li>
+                <li>能够了解我们需要每天从三大类食物中摄取食物，才能均衡饮食。</li>
                 <li>
-                    Able to know that eating a balanced diet will help us stay healthy and not
-                    fall sick easily.</li>
+                    能够了解均衡饮食能帮助我们保持健康，不容易生病。</li>
             </ul>
         </div>
     </div>

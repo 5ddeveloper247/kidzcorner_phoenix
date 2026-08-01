@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,32 +38,32 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class7/c1.png') }}" class="h-[12vw]" />
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Use imagination to make interesting vegetable prints</li>
-            <li>Learn to sing a song about vegetables</li>
+            <li>发挥想象力制作有趣的蔬菜拓印</li>
+            <li>学习唱一首关于蔬菜的歌</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <div>
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Thematic Activity Book</li>
-                <li>Cut vegetables and use them as stamps for making prints
-                    (e.g .: cucumber, loofah, onion, potato, celery, capsicum, carrot,
-                    okra) [Note: Cut into a size that is easy for children to hold.]
-                    Watercolour and watercolour brushes</li>
-                <li>Each a drawing paper</li>
-                <li>A printmaking artwork</li>
+                <li>主题活动书</li>
+                <li>切开的蔬菜用作拓印印章
+                    （例如：黄瓜、丝瓜、洋葱、土豆、芹菜、彩椒、胡萝卜、
+                    秋葵）[注意：切成便于孩子握持的大小。]
+                    水彩颜料和水彩笔刷</li>
+                <li>每人一张画纸</li>
+                <li>一件拓印作品</li>
             </ul>
         </div>
     </div>
@@ -71,41 +71,41 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What are these?"</li>
-                <li> Have children name some common vegetables and talk about the
-                    benefits of eating vegetables.</li>
-                <li> Tell children that they are going to learn to sing a song about vegetables.</li>
+                <li>问孩子们："这些是什么？"</li>
+                <li> 让孩子们说出一些常见蔬菜的名称，并讨论
+                    吃蔬菜的好处。</li>
+                <li> 告诉孩子们，他们将学习唱一首关于蔬菜的歌。</li>
             </ol>
         </div>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class7/c2.png') }}" class="w-[25vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">vegatables</h5>
+        <h5 class="text-[#f7b94a] text-[1.7vw]">蔬菜</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Play music and sing the song, then explain the meaning of the lyrics to
-                children.</li>
-            <li>Replay the music and let children sing along. Encourage them to learn to
-                sing the song.</li>
+            <li>播放音乐并唱歌，然后向孩子们
+                解释歌词的含义。</li>
+            <li>再次播放音乐，让孩子们跟唱。鼓励他们学习
+                唱这首歌。</li>
         </ol>
         <div class="flex flex-col items-center">
-            <h3 class="text-[1.7vw] text-[#f7b94a]">Vegetables are good for me. <br>
-                Keep me healthy, not fall sick. <br>
-                Help me digest and pass motion. <br>
-                They are really good to eat. <br>
-                Vegetables are good for me. <br>
-                Keep me healthy, not fall sick.</h3>
+            <h3 class="text-[1.7vw] text-[#f7b94a]">蔬菜对我有好处。<br>
+                让我健康，不易生病。<br>
+                帮助我消化和排便。<br>
+                它们真的很好吃。<br>
+                蔬菜对我有好处。<br>
+                让我健康，不易生病。</h3>
 
             <button class="w-[3vw]" id="soundButton">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -116,48 +116,47 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Display the vegetables, guide children to name each of them.</li>
-            <li>Tell children that besides eating them, we can also use vegetables to
-                make prints.</li>
+            <li>展示蔬菜，引导孩子们说出每种蔬菜的名称。</li>
+            <li>告诉孩子们，除了吃蔬菜，我们还可以用蔬菜
+                做拓印。</li>
         </ol>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Display the printmaking artwork, ask children: "Is this artwork beautiful?"
-                Tell children that it is made of different vegetable prints.</li>
-            <li>Demonstrate using the different vegetables to create a printmaking
-                artwork: use a brush to colour the desired vegetable part, then press it onto
-                a drawing paper.</li>
+            <li>展示拓印作品，问孩子们："这件作品漂亮吗？"
+                告诉孩子们，它是由不同的蔬菜拓印组成的。</li>
+            <li>演示用不同的蔬菜创作拓印作品：用画笔给所需的蔬菜部分
+                上色，然后按压在画纸上。</li>
         </ol>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Distribute the drawing papers. Have children freely choose the vegetables
-                and colours, then use their imagination to make an interesting printmaking
-                artwork.</li>
-            <li>Encourage children to sing along while they are working.</li>
+            <li>分发画纸。让孩子们自由选择蔬菜和
+                颜色，发挥想象力创作有趣的拓印
+                作品。</li>
+            <li>鼓励孩子们在创作时跟唱歌曲。</li>
         </ol>
 
         <div class="flex flex-col items-center">
-            <h3 class="text-[1.7vw] text-[#f7b94a]">Vegetables are good for me. <br>
-                Keep me healthy, not fall sick. <br>
-                Help me digest and pass motion. <br>
-                They are really good to eat. <br>
-                Vegetables are good for me. <br>
-                Keep me healthy, not fall sick.</h3>
+            <h3 class="text-[1.7vw] text-[#f7b94a]">蔬菜对我有好处。<br>
+                让我健康，不易生病。<br>
+                帮助我消化和排便。<br>
+                它们真的很好吃。<br>
+                蔬菜对我有好处。<br>
+                让我健康，不易生病。</h3>
 
             <button class="w-[3vw]" id="soundButton">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -168,33 +167,32 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Guide children to complete the corresponding activities in the
-                Thematic Activity Book.</li>
+            <li>引导孩子们在主题活动书中完成相应的活动。</li>
         </ol>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <h1 class="panel-title stroke">课堂活动 7：蔬菜拓印</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to display their artwork and talk about the
-                    vegetables used to make the prints.</li>
-                <li>Display all the artworks in class.</li>
+                <li>让孩子们轮流展示他们的作品，并介绍
+                    用来制作拓印的蔬菜。</li>
+                <li>在班上展示所有作品。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to use imagination to make interesting vegetable prints.</li>
-                <li>Able to sing the song.</li>
+                <li>能够发挥想象力制作有趣的蔬菜拓印。</li>
+                <li>能够唱这首歌。</li>
             </ul>
         </div>
     </div>
@@ -254,8 +252,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
-            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
 
             // Track current position
             let currentSlide = 0;

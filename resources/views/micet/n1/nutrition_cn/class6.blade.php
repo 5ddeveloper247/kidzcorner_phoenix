@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,18 +38,16 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class6/c1.png') }}" class="h-[12vw]" />
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to make fruits into juices</li>
-            <li>Know that when two juices are mixed together, the colour
-                and taste will change</li>
-            <li> Learn to share with group members</li>
-            <li>Practise self-help skills (pour juices from bigger containers
-                into cups)</li>
+            <li>学习将水果制成果汁</li>
+            <li>了解两种果汁混合后，颜色和味道会发生变化</li>
+            <li>学习与小组成员分享</li>
+            <li>练习自理技能（将果汁从大容器倒入杯中）</li>
         </ul>
 
     </div>
@@ -57,18 +55,18 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <div>
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-disc panel-ul w-[42vw]">
-                <li>Thematic Activity Book</li>
-                <li>4 types of common fruits (e.g., orange, apple, watermelon, and grapes)</li>
-                <li>Before the lesson, cut the fruits in half</li>
-                <li>4 fruit juices in 4 transparent containers (bought from the supermarket or prepared using a juicer)</li>
-                <li>Each group: 4 medium-sized transparent containers</li>
-                <li>Each child: 1 small cup</li>
+                <li>主题活动书</li>
+                <li>4种常见水果（例如：橙子、苹果、西瓜和葡萄）</li>
+                <li>课前，将水果切成两半</li>
+                <li>4种果汁，分别装在4个透明容器中（从超市购买或用榨汁机制作）</li>
+                <li>每组：4个中等大小的透明容器</li>
+                <li>每个孩子：1个小杯</li>
             </ul>
         </div>
     </div>
@@ -76,41 +74,37 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>AskAsk children: "What are these?" "Have you ever eaten them?" "Do you like
-                    them?"</li>
+                <li>问孩子们："这是什么？""你以前吃过吗？""你喜欢吗？"</li>
             </ol>
         </div>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class6/c2.png') }}" class="w-[30vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">oranges</h5>
+        <h5 class="text-[#f7b94a] text-[1.7vw]">橙子</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Display the container with orange juice, pour the juice into a cup. Ask
-                children: "What is this?" "Have you ever drank it?" "What does it taste like?"</li>
-            <li>Ask children: "How do we get the orange juice?" Encourage children to
-                guess boldly and accept all logical answers.</li>
+            <li>展示装有橙汁的容器，将果汁倒入杯中。问孩子们："这是什么？""你以前喝过吗？""味道怎么样？"</li>
+            <li>问孩子们："我们怎样得到橙汁？"鼓励孩子们大胆猜测，接受所有合理的答案。</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the video, have children look at one of the ways to get orange
-                juice (use blender to squeeze orange juice).</li>
+            <li>点击视频，让孩子们观看获取橙汁的一种方法（用搅拌机榨橙汁）。</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/n1/nutrition/class6/v1.mp4') }}" type="video/mp4">
@@ -120,68 +114,54 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the 4 types of fruits in half, have children name them and talk about
-                the colour of the flesh.</li>
-            <li>Display the 4 transparent containers with different fruit juices, have children
-                match each fruit to the correct juice.</li>
-            <li>Have children talk about the logic used for their matching.</li>
+            <li>展示4种切半的水果，让孩子们说出名称并讨论果肉的颜色。</li>
+            <li>展示4个装有不同果汁的透明容器，让孩子们将每种水果与对应的果汁配对。</li>
+            <li>让孩子们说明配对所用的逻辑。</li>
         </ol>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Give each child a cup. Based on the sequence of containers, pour a bit of
-                each fruit juice for children to taste. After children taste a juice, have them
-                check whether they have matched them correctly. If there is any mistake,
-                have them correct it immediately.</li>
+            <li>给每个孩子一个杯子。按照容器的顺序，为每个孩子倒一点果汁品尝。孩子们品尝后，检查配对是否正确。如有错误，立即纠正。</li>
         </ol>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Ask children: "Have you ever drank mixed fruit juice?" "What fruits were
-                used to make the mixed juice that you drank?" "Was the taste of the
-                different mixed fruit juice nice?" Guide children in sharing their own
-                experiences.</li>
+            <li>问孩子们："你以前喝过混合果汁吗？""你喝过的混合果汁用了哪些水果？""不同混合果汁的味道好吗？"引导孩子们分享自己的经历。</li>
         </ol>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Mix 2 types of fruit juices, have children observe the process. Ask children:
-                "When two fruit juices are mixed together, are there changes in colour and
-                taste?"</li>
-            <li>Tell children that we are going to make mixed fruit juice in groups, have
-                them observe the change in colour and taste the juice.</li>
+            <li>混合两种果汁，让孩子们观察过程。问孩子们："两种果汁混合后，颜色和味道有变化吗？"</li>
+            <li>告诉孩子们，我们将分组制作混合果汁，让他们观察颜色变化并品尝果汁。</li>
         </ol>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Divide children into 4 groups, give each group 4 medium size transparent
-                containers (each with different juices).</li>
-            <li>Have children share the ingredients, have them freely choose 2 types of
-                juices and mix them (pour the juice into own cup), have them observe the
-                change in colour and taste the juice.
+            <li>将孩子们分成4组，给每组4个中等大小的透明容器（各装不同果汁）。</li>
+            <li>让孩子们分享材料，自由选择2种果汁进行混合（将果汁倒入自己的杯中），观察颜色变化并品尝果汁。
             </li>
         </ol>
     </div>
@@ -189,36 +169,32 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="14">
-            <li>Guide children to complete the corresponding activities in the
-                Thematic Activity Book.</li>
+            <li>引导孩子们在主题活动书中完成相应的活动。</li>
         </ol>
     </div>
 
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">课堂活动 6：混合果汁</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to talk about the 2 fruits that were used to make
-                    their favourite juice, then find out which is the most popular mixed fruit
-                    juice in the class.</li>
+                <li>让孩子们轮流介绍他们最喜欢的混合果汁用了哪两种水果，然后找出班上最受欢迎的混合果汁。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to pour juice from bigger container into own cup.</li>
-                <li>Able to know that when two juices are mixed together, the colour and
-                    taste will change.</li>
-                <li>Able to share with group members.</li>
-                <li>Able to choose a favourite mixed fruit juice.</li>
+                <li>能够将果汁从大容器倒入自己的杯中。</li>
+                <li>能够了解两种果汁混合后，颜色和味道会发生变化。</li>
+                <li>能够与小组成员分享。</li>
+                <li>能够选择一种最喜欢的混合果汁。</li>
             </ul>
         </div>
     </div>

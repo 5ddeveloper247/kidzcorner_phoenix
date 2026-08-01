@@ -139,7 +139,7 @@
                 play it so that the sound can be heard?"</li>
         </ol>
         <div class="flex flex-col items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/music/class7/c1.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c1.png') }}" class="h-[20vw]" />
             <h4 class="text-[#f7b94a] text-[2vw]">drum</h4>
         </div>
     </div>
@@ -153,9 +153,7 @@
             <li>Tell children that we'll hear the sound of the drum only when we hit it.</li>
             <li>Click on the video, have children see how to hit the drum.</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class7/v1.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -176,16 +174,89 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Tell children that there are 4 differences between these two pictures.</li>
-            <li>Click to open the Software Magnetic Board. Guide children to observe and
-                spot the differences, then circle them in picture 2.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: "What musical percussion instrument is this?" "How do you
+                play it so that the sound can be heard?"</li>
         </ol>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/games/class7/c4.png') }}" class="w-[25vw]" />
-            <h4 class="text-[#f7b94a] text-[2vw]">spot the <br>
-                differences</h4>
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="w-[25vw]" />
+            <h4 class="text-[#f7b94a] text-[2vw]">triangle</h4>
         </div>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Tell children that we'll hear the sound of the triangle only when we hit it.</li>
+            <li>Click on the video, have children see how to hit the triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Play the sound, have children listen to the sound when the drum is hit.</li>
+        </ol>
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Ask children: "What musical percussion instrument is this?" "How do you
+                play it so that the sound can be heard?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="w-[25vw]" />
+        <h4 class="text-[#f7b94a] text-[2vw]">cymbals</h4>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Tell children that we'll hear the sound of the cymbals only when we strike
+                them.</li>
+            <li>Click on the video, have children see how to strike the cymbals.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/music/class7/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Play the sound, have children listen to the sound when the cymbals are
+                struck.</li>
+        </ol>
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Invite children to play a guessing game.</li>
+        </ol>
     </div>
 
 
@@ -221,15 +292,17 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children answer the following questions: Do you like the games we
-                    played? What are the names of these games? How many people does it
-                    take to play each game?</li>
+                <li>Have children use their imagination to imitate the sound of
+                    the four musical percussion instruments.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to play the games.</li>
+                <li>Able to name the four musical percussion instruments and
+                    know how to play them.</li>
+                <li>Able to match musical percussion instruments to their
+                    sounds.</li>
             </ul>
         </div>
     </div>
@@ -243,8 +316,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Prepare simple mazes, hidden images and spot the differences games at the
-                    activity corner, encourage children to play them during free time.</li>
+                <li>Set up a musical percussion instruments corner and
+                    encourage children to play the instruments.</li>
             </ul>
         </div>
     </div>
@@ -303,8 +376,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/games/index') }}";
-            const doneURL = "{{ url('/micet/n1/games/index') }}";
+            const returnURL = "{{ url('/micet/n1/music/index') }}";
+            const doneURL = "{{ url('/micet/n1/music/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -563,6 +636,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

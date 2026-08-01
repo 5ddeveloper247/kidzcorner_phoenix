@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,40 +38,36 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
         </div>
 
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Make a sandwich based on individual preference following the balanced diet principle</li>
-            <li>Know that we must wash hands before and after touching food</li>
-            <li>Learn the correct way of washing hands</li>
-            <li>Practice self-help skills (spread butter on the bread) </li>
+            <li>根据个人喜好，按照均衡饮食原则制作三明治</li>
+            <li>了解接触食物前后必须洗手</li>
+            <li>学习正确的洗手方法</li>
+            <li>练习自理技能（在面包上涂黄油）</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <div>
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-disc panel-ul w-[42vw]">
-                <li>Thematic Activity Book</li>
-                <li>Butter, knife</li>
-                <li>Sandwich ingredients (E.g .: rice and noodles group - plain bread,
-                    wholemeal bread; vegetables and fruits group - shredded lettuce,
-                    cucumber slices, tomato slices, strawberry slices; meat and
-                    seafood group - sardine, tuna, salmon, chicken hotdog)
-                    [Note: Categorise all the ingredients and place them at 3
-                    different places.]</li>
+                <li>主题活动书</li>
+                <li>黄油、刀</li>
+                <li>三明治材料（例如：米饭和面条类——白面包、全麦面包；蔬菜和水果类——生菜丝、黄瓜片、番茄片、草莓片；肉类和海鲜类——沙丁鱼、金枪鱼、三文鱼、鸡肉热狗）
+                    [注意：将所有材料分类，放在三个不同的地方。]</li>
             </ul>
         </div>
     </div>
@@ -79,37 +75,37 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What are these?" "Have you ever eaten them?" "Do you like them?"</li>
+                <li>问孩子们："这是什么？""你以前吃过吗？""你喜欢吗？"</li>
             </ol>
         </div>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c1.png') }}" class="w-[30vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">sandwiches</h5>
+        <h5 class="text-[#f7b94a] text-[1.7vw]">三明治</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Ask children: "Do you know how to make sandwiches?"</li>
+            <li>问孩子们："你知道怎么做三明治吗？"</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Click on the video, have children look at the steps in making a sandwich,</li>
+            <li>点击视频，让孩子们观看制作三明治的步骤，</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/n1/nutrition/class5/v1.mp4') }}" type="video/mp4">
@@ -119,11 +115,10 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the picture to open the Software Magnetic Board. Guide children
-                to name and categorise the food.</li>
+            <li>点击图片打开软件磁贴板。引导孩子们说出食物名称并进行分类。</li>
         </ol>
 
         <div class="bg-[#D9D9D9] rounded-[.5vw] p-[1vw]">
@@ -134,12 +129,11 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Click on the picture to open the Software Magnetic Board. Guide children to select food
-                from each category to make a well-balanced sandwich.
-                [Note: Guide children to place the food items apart, so each can be seen.]</li>
+            <li>点击图片打开软件磁贴板。引导孩子们从每个类别中选择食物，制作一份均衡的三明治。
+                [注意：引导孩子们把食物分开摆放，以便看清每一种。]</li>
         </ol>
         <div class="bg-[#D9D9D9] rounded-[.5vw] p-[.5vw]">
             <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c2.png') }}" class="h-[15vw]" />
@@ -149,26 +143,22 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Inform children that they are going to make a healthy and yummy
-                sandwich</li>
-            <li>Tell children that we must wash hands before touching any food because
-                our hands are full of dirt (germs).</li>
-            <li>Ask children: "What will happen if you eat with dirty hands?" Encourage
-                children to guess boldly and accept all logical answers.</li>
+            <li>告诉孩子们，他们将要制作一份健康美味的三明治</li>
+            <li>告诉孩子们，接触任何食物前必须洗手，因为我们的手很脏（有细菌）。</li>
+            <li>问孩子们："用脏手吃东西会怎样？"鼓励孩子们大胆猜测，接受所有合理的答案。</li>
         </ol>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Have children look at the animation, then talk about the consequence of
-                eating with dirty hands. [stomach ache]</li>
+            <li>让孩子们观看动画，然后讨论用脏手吃东西的后果。[肚子疼]</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/n1/nutrition/class5/v2.mp4') }}" type="video/mp4">
@@ -178,11 +168,10 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Have children look at the animation, then talk about why we need to wash
-                our hands with soap. [Soap can wash away dirt (kill germs).]</li>
+            <li>让孩子们观看动画，然后讨论为什么需要用肥皂洗手。[肥皂可以洗掉污垢（杀死细菌）。]</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/n1/nutrition/class5/v3.mp4') }}" type="video/mp4">
@@ -192,11 +181,10 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Demonstrate the correct way to wash hands. After that, have children
-                queue up to wash their hands. Teacher assists when needed.</li>
+            <li>示范正确的洗手方法。之后，让孩子们排队洗手。老师必要时协助。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c3.png') }}" class="w-[30vw]" />
     </div>
@@ -204,20 +192,16 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>After washing hands, display the sandwich ingredients. Have children
-                name each of them.</li>
-            <li>Demonstrate and explain how to make a sandwich:
+            <li>洗手后，展示三明治材料。让孩子们说出每种材料的名称。</li>
+            <li>示范并讲解如何制作三明治：
                 <ul class="list-disc">
-                    <li>First, choose a slice of bread and spread butter on it.</li>
-                    <li>Then choose and place a kind of food from the meat and seafood
-                        group on the bread.</li>
-                    <li>Now choose and place one or two kinds of food from the vegetables
-                        and fruits group on the bread.</li>
-                    <li>Finally, place another slice of bread on top to complete the
-                        sandwich making.</li>
+                    <li>首先，选一片面包，在上面涂黄油。</li>
+                    <li>然后，从肉类和海鲜类中选择一种食物放在面包上。</li>
+                    <li>接着，从蔬菜和水果类中选择一或两种食物放在面包上。</li>
+                    <li>最后，再盖上一片面包，完成三明治制作。</li>
                 </ul>
             </li>
         </ol>
@@ -226,27 +210,21 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="14">
-            <li>Have children choose the ingredients they like to make a sandwich,
-                teacher assists when needed.</li>
-            <li>Allow children to choose freely to make a well-balanced sandwich: one or
-                more kinds of ingredients from the meat and seafood group, as well as the
-                vegetables and fruits group; two or more slices of bread. [Key 1: learn to
-                choose ingredients from the 3 main food groups to make a well-balanced
-                sandwich; Key 2: learn to make things with own hands]</li>
+            <li>让孩子们选择喜欢的材料制作三明治，老师必要时协助。</li>
+            <li>允许孩子们自由选择，制作一份均衡的三明治：从肉类和海鲜类以及蔬菜和水果类中各选一种或多种材料；两片或以上的面包。[要点1：学会从三大类食物中选择材料，制作均衡的三明治；要点2：学会亲手制作东西]</li>
         </ol>
     </div>
 
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="16">
-            <li>Guide children to complete the corresponding activities in the
-                Thematic Activity Book.</li>
+            <li>引导孩子们在主题活动书中完成相应的活动。</li>
         </ol>
     </div>
 
@@ -254,26 +232,22 @@
 
     {{-- panel 14 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to display their sandwiches and talk about the
-                    ingredients used. Have the other children check whether it's a well-balanced
-                    sandwich.</li>
-                <li>Finally, have children eat the sandwiches together. Remind children to wash
-                    their hands after eating.</li>
+                <li>让孩子们轮流展示他们的三明治，并介绍所用的材料。让其他孩子检查是否是均衡的三明治。</li>
+                <li>最后，让孩子们一起享用三明治。提醒孩子们吃完后要洗手。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to choose ingredients from the 3 main food groups to make a
-                    well-balanced sandwich.</li>
-                <li>Able to know that we must wash hands before and after touching food.</li>
-                <li>Able to wash hands correctly.</li>
+                <li>能够从三大类食物中选择材料，制作均衡的三明治。</li>
+                <li>能够了解接触食物前后必须洗手。</li>
+                <li>能够正确洗手。</li>
             </ul>
         </div>
     </div>
@@ -281,18 +255,16 @@
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+        <h1 class="panel-title stroke">课堂活动 5：制作三明治</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Extension</h3>
+            <h3 class="ptitle">延伸活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage children to invite their parents to buy ingredients and
-                    make sandwiches together during their free time.</li>
+                <li>鼓励孩子们在空闲时间邀请父母一起购买材料并制作三明治。</li>
             </ul>
         </div>
     </div>
-
 
 
 

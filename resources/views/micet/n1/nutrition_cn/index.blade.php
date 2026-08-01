@@ -22,35 +22,35 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/n1/nutrition/class1') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class1') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class2') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class2') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class3') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class3') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class4') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class4') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn4.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class5') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class5') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn5.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class6') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class6') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn6.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class7') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class7') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn7.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class8') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class8') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn8.png') }}" />
         </a>
 
@@ -60,15 +60,15 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="first grid grid-cols-3 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{ url('/micet/n1/nutrition/class9') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class9') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn9.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/class10') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/class10') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/cn10.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/nutrition/tables') }}">
+        <a href="{{ url('/micet/n1/nutrition_cn/tables') }}">
             <img src="{{ asset('assets/images/micet/n1/nutrition/t-cn.png') }}" />
         </a>
 

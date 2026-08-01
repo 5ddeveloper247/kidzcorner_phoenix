@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,47 +38,47 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
+        <h1 class="panel-title stroke">课堂活动 10：制作姜饼人</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[12vw]" />
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Use imagination to make a gingerbread man</li>
+            <li>发挥想象力制作一个姜饼人</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
+        <h1 class="panel-title stroke">课堂活动 10：制作姜饼人</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <h3 class="ptitle">准备工作</h3>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Thematic Activity Book</li>
-            <li>An outline picture of a Gingerbread man for each child</li>
-            <li>Colour pencils or crayons</li>
-            <li>Suitable art and craft materials (e.g. yarn, coloured papers, large buttons ,etc)</li>
+            <li>主题活动书</li>
+            <li>每个孩子一张姜饼人轮廓图</li>
+            <li>彩色铅笔或蜡笔</li>
+            <li>合适的手工材料（例如：毛线、彩色纸、大纽扣等）</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
+        <h1 class="panel-title stroke">课堂活动 10：制作姜饼人</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Have children recall the story of "The Gingerbread Man" and answer the
-                    following questions:
+                <li>让孩子们回忆"姜饼人"的故事并回答以下
+                    问题：
                     <ul class="list-disc">
-                        <li>What is this?</li>
-                        <li>Who made it?</li>
-                        <li>What body parts does it have?</li>
-                        <li>Is it cute?</li>
+                        <li>这是什么？</li>
+                        <li>谁做的？</li>
+                        <li>它有哪些身体部位？</li>
+                        <li>它可爱吗？</li>
                     </ul>
                 </li>
             </ol>
@@ -88,45 +88,45 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
+        <h1 class="panel-title stroke">课堂活动 10：制作姜饼人</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children: "Would you like to be the baker in the story and make a
-                gingerbread man?"</li>
-            <li>Tell children that they will be a great baker as they are going to make a
-                special gingerbread man.</li>
+            <li>问孩子们："你想成为故事中的面包师，做一个
+                姜饼人吗？"</li>
+            <li>告诉孩子们，他们将成为一位出色的面包师，因为他们要做一个
+                特别的姜饼人。</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
+        <h1 class="panel-title stroke">课堂活动 10：制作姜饼人</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Ask children to use their imagination to make a unique gingerbread man.
-                They can colour it and use the art and craft materials to make the different
-                body parts as well as clothes for the gingerbread man.( Use the outline picture
-                or the Thematic Activity Book.)</li>
+            <li>让孩子们发挥想象力制作一个独特的姜饼人。
+                他们可以给它上色，并用手工材料制作不同的
+                身体部位以及姜饼人的衣服。（使用轮廓图
+                或主题活动书。）</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
+        <h1 class="panel-title stroke">课堂活动 10：制作姜饼人</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to display their gingerbread men.</li>
+                <li>让孩子们轮流展示他们的姜饼人。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to use their imagination to make a gingerbread man.</li>
+                <li>能够发挥想象力制作一个姜饼人。</li>
             </ul>
         </div>
     </div>
@@ -186,8 +186,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
 
             // Track current position
             let currentSlide = 0;

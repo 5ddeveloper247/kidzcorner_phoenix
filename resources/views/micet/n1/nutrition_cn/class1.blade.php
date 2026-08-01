@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -43,57 +43,53 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
 
 
-        <h3 class="title">Objectives:</h3>
+        <h3 class="title">学习目标：</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>Identify some food from the rice and noodles group</li>
-            <li>Know that food from the rice and noodles group gives us
-                energy to carry out daily activities</li>
+            <li>认识米饭和面条类的一些食物</li>
+            <li>了解米饭和面条类的食物能为我们提供进行日常活动所需的能量</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <div class="space-y-[3vw]">
-            <h3 class="title">Preparations</h3>
+            <h3 class="title">准备工作</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
-                <li>Rice, flour (let children touch them while looking at
-                    the pictures)</li>
+                <li>主题活动书</li>
+                <li>大米、面粉（让孩子们在看图片的同时触摸它们）</li>
             </ul>
         </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul">
-                <li>Ask children: "Do you like eating?" "What do you eat everyday?"</li>
-                <li>Tell children that they are going to identify some food items that we eat
-                    everyday.</li>
+                <li>问孩子们："你喜欢吃东西吗？""你每天都吃什么？"</li>
+                <li>告诉孩子们，他们将认识一些我们每天都吃的食物。</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
-                and shape?" "What food can it be made into?"</li>
+            <li>问孩子们："这是什么？""你以前见过吗？""它是什么颜色和形状？""它可以做成什么食物？"</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
@@ -101,10 +97,10 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Yes, rice can be cooked! Have you ever eaten rice? Do you like to ea rice?</li>
+            <li>是的，大米可以煮！你吃过米饭吗？你喜欢吃米饭吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[25vw]" />
@@ -112,10 +108,10 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask children: “”How is rice cooked?””</li>
+            <li>问孩子们："大米是怎么煮的？"</li>
         </ol>
 
         <div class="flex items-center gap-[1vw]">
@@ -127,11 +123,10 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Click on the video, have children look at the process of cooking rice and
-                talk about it,</li>
+            <li>点击视频，让孩子们观看煮米饭的过程并进行讨论，</li>
         </ol>
 
         <video class="w-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
@@ -141,10 +136,10 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Ask children: “”What other food can rice be made into?””</li>
+            <li>问孩子们："大米还可以做成什么其他食物？"</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
@@ -152,11 +147,10 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Yes, rice can be cooked as porridge! Have you ever eaten porridge? Do
-                you like to ear porridge?</li>
+            <li>是的，大米可以煮成粥！你吃过粥吗？你喜欢吃粥吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c4.png') }}" class="w-[25vw]" />
@@ -164,11 +158,10 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Rice can be also be cooked, then fried, such as fried rice. Have you ever
-                eaten fried rice? Do you like to eat fried rice?</li>
+            <li>大米还可以先煮后炒，比如炒饭。你吃过炒饭吗？你喜欢吃炒饭吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c5.png') }}" class="w-[25vw]" />
@@ -176,11 +169,10 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
-                and shape?" "What food can it be made into?"</li>
+            <li>问孩子们："这是什么？""你以前见过吗？""它是什么颜色和形状？""它可以做成什么食物？"</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
@@ -188,11 +180,10 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Flour can be used to make bread. Have you ever eaten bread? Do you like
-                to eat bread?</li>
+            <li>面粉可以用来做面包。你吃过面包吗？你喜欢吃面包吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[25vw]" />
@@ -200,10 +191,10 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Ask children: “”How is bread made?””</li>
+            <li>问孩子们："面包是怎么做的？"</li>
         </ol>
 
         <div class="flex items-center gap-[2vw]">
@@ -215,11 +206,10 @@
 
     {{-- panel 14 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>Click on the video, have children look at the bread making process and talk
-                about it.</li>
+            <li>点击视频，让孩子们观看做面包的过程并进行讨论。</li>
         </ol>
 
         <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
@@ -229,10 +219,10 @@
 
     {{-- panel 15 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="14">
-            <li>Ask children: “”Beside bread, what food can flour be made into?””</li>
+            <li>问孩子们："除了面包，面粉还可以做成什么食物？"</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
@@ -240,11 +230,10 @@
 
     {{-- panel 16 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="15">
-            <li>Flour can also be used to make a variety of biscuits. Have you ever eaten
-                biscuits? Do you like to eat biscuits?</li>
+            <li>面粉还可以用来制作各种饼干。你吃过饼干吗？你喜欢吃饼干吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c9.png') }}" class="w-[25vw]" />
@@ -252,11 +241,10 @@
 
     {{-- panel 17 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="16">
-            <li>Flour can also be used to make cakes too. Have you ever eaten
-                cakes? Do you like to eat cakes?</li>
+            <li>面粉还可以用来做蛋糕。你吃过蛋糕吗？你喜欢吃蛋糕吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c13.png') }}" class="w-[20vw]" />
@@ -264,11 +252,10 @@
 
     {{-- panel 18 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="17">
-            <li>Flour can also be used to make noodles. Have you ever eaten
-                noodles? Do you like to eat noodles?</li>
+            <li>面粉还可以用来做面条。你吃过面条吗？你喜欢吃面条吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[25vw]" />
@@ -276,11 +263,10 @@
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="18">
-            <li>Click on the video, have children look at the noodle cooking process and talk
-                about it.</li>
+            <li>点击视频，让孩子们观看煮面条的过程并进行讨论。</li>
         </ol>
 
         <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
@@ -290,11 +276,10 @@
 
     {{-- panel 20 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="19">
-            <li>Flour can be used to make buns as well. Have you ever eaten buns? Do
-                you like to eat buns?</li>
+            <li>面粉还可以用来做包子。你吃过包子吗？你喜欢吃包子吗？</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[25vw]" />
@@ -302,11 +287,10 @@
 
     {{-- panel 21 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="20">
-            <li>Tell children that these food are made of rice and flour, so we call them the
-                rice and noodles group.</li>
+            <li>告诉孩子们，这些食物是由大米和面粉制成的，所以我们称它们为米饭和面条类。</li>
         </ol>
 
         <div class="grid grid-cols-2 gap-[2vw]">
@@ -319,10 +303,10 @@
 
     {{-- panel 22 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="21">
-            <li>Ask children: “”Among these, which food do you eat most frequently?””</li>
+            <li>问孩子们："在这些食物中，你经常吃哪一种？"</li>
         </ol>
 
         <div class="grid grid-cols-2 gap-[2vw]">
@@ -335,13 +319,11 @@
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="22">
-            <li>Ask children: "Do you know why we need to eat from the rice and noodles group
-                everyday?" Encourage children to guess boldly, teacher assists when needed.</li>
-            <li>Tell children that food from the rice and noodles group gives us energy to
-                carry out daily activities like running, jumping and playing ball.</li>
+            <li>问孩子们："你知道为什么我们需要每天吃米饭和面条类的食物吗？"鼓励孩子们大胆猜测，教师在需要时给予帮助。</li>
+            <li>告诉孩子们，米饭和面条类的食物能为我们提供进行跑步、跳跃和打球等日常活动所需的能量。</li>
         </ol>
 
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c14.png') }}" class="w-[25vw]" />
@@ -349,35 +331,30 @@
 
     {{-- panel 24 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="24">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book,</li>
+            <li>引导孩子们在主题活动书中完成相应的活动，</li>
         </ol>
     </div>
 
 
     {{-- panel 25 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类 </h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Refer to the page showing food from the rice and noodles group (3rd page
-                    from the end). Point to the food, one by one, have children raise hands to
-                    the food that they frequently eat. Record the numbers to find out which
-                    food is most frequently eaten by the class.</li>
+                <li>参考展示米饭和面条类食物的页面（倒数第三页）。逐一指向每种食物，让孩子们举手表示他们经常吃的食物。记录人数，找出全班最常吃的食物。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name some food from the rice and noodles group.</li>
-                <li>Able to know that food from the rice and noodles group gives us energy
-                    to carry out daily activities.</li>
+                <li>能够说出米饭和面条类的一些食物名称。</li>
+                <li>能够了解米饭和面条类的食物能为我们提供进行日常活动所需的能量。</li>
             </ul>
         </div>
     </div>
@@ -385,16 +362,13 @@
 
     {{-- panel 30 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
+        <h1 class="panel-title stroke">课堂活动 1：米饭和面条类 </h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Extension</h3>
+            <h3 class="ptitle">延伸活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>At home, have children spot food from the rice and noodles group
-                    when having dinner and tell their parents about the benefit of
-                    eating them. Back in the class, have children take turns to share
-                    what food they had from the rice and noodles group.</li>
+                <li>在家里，让孩子们在晚餐时找出米饭和面条类的食物，并告诉父母吃这些食物的好处。回到课堂后，让孩子们轮流分享他们吃过的米饭和面条类的食物。</li>
             </ul>
         </div>
     </div>
@@ -454,8 +428,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
-            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
 
             // Track current position
             let currentSlide = 0;

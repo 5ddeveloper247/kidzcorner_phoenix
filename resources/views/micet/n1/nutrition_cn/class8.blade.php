@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,41 +38,41 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">课堂活动 8：身体部位歌</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[12vw]" />
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to sing the body parts song</li>
-            <li>Identify different body parts</li>
-            <li>Learn to do actions when singing</li>
+            <li>学习唱身体部位歌</li>
+            <li>认识不同的身体部位</li>
+            <li>学习唱歌时做动作</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">课堂活动 8：身体部位歌</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <h3 class="ptitle">准备工作</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
+            <li>主题活动书</li>
         </ul>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">课堂活动 8：身体部位歌</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: “”Where is the nose of the gingerbread man?”” Have the children
-                    point to the nose.</li>
+                <li>问孩子们："姜饼人的鼻子在哪里？"让孩子们
+                    指向鼻子。</li>
             </ol>
         </div>
     </div>
@@ -80,13 +80,13 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">课堂活动 8：身体部位歌</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Play music and sing the song.</li>
-            <li>Explain the meaning of the lyrics to children, then let children point at the
-                different body parts mentioned in the song.</li>
-            <li>Replay music and invite the children to sing the song.</li>
+            <li>播放音乐并唱歌。</li>
+            <li>向孩子们解释歌词的含义，然后让孩子们指向歌曲中
+                提到的不同身体部位。</li>
+            <li>再次播放音乐，邀请孩子们唱歌。</li>
         </ol>
 
         <div class="flex items-center">
@@ -95,10 +95,10 @@
             </button>
 
             <h4 class="text-[#f7b94a] text-[2vw]">
-                Head, body, hands and legs, hands and legs. <br>
-                Head, body, hands and legs, hands and legs. <br>
-                And eyes, and ears, and mouth, and nose. <br>
-                Head, body, hands and legs, hands and legs. <br>
+                头、身体、手和脚，手和脚。<br>
+                头、身体、手和脚，手和脚。<br>
+                还有眼睛、耳朵、嘴巴和鼻子。<br>
+                头、身体、手和脚，手和脚。<br>
             </h4>
         </div>
     </div>
@@ -106,16 +106,16 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">课堂活动 8：身体部位歌</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>After children are familiar with the song, guide them in learning how to do the
-                actions according to the lyrics:
+            <li>孩子们熟悉歌曲后，引导他们学习如何根据歌词
+                做动作：
                 <ul class="list-disc">
-                    <li>For the 1st, 2nd and 4th line: hands touch head, hug body, swing hands,
-                        then jump with both legs.</li>
-                    <li>For the 3rd line: hands point to eyes, pull ears, touch mouth, then touch
-                        nose.</li>
+                    <li>第1、2和4行：手摸头、抱身体、摆动手臂，
+                        然后双脚跳跃。</li>
+                    <li>第3行：手指眼睛、拉耳朵、摸嘴巴，然后摸
+                        鼻子。</li>
                 </ul>
             </li>
         </ol>
@@ -126,10 +126,10 @@
             </button>
 
             <h4 class="text-[#f7b94a] text-[2vw]">
-                Head, body, hands and legs, hands and legs. <br>
-                Head, body, hands and legs, hands and legs. <br>
-                And eyes, and ears, and mouth, and nose. <br>
-                Head, body, hands and legs, hands and legs. <br>
+                头、身体、手和脚，手和脚。<br>
+                头、身体、手和脚，手和脚。<br>
+                还有眼睛、耳朵、嘴巴和鼻子。<br>
+                头、身体、手和脚，手和脚。<br>
             </h4>
         </div>
     </div>
@@ -137,10 +137,10 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">课堂活动 8：身体部位歌</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Invite children to do the actions when singing the song.</li>
+            <li>邀请孩子们在唱歌时做动作。</li>
         </ol>
 
         <div class="flex items-center">
@@ -149,10 +149,10 @@
             </button>
 
             <h4 class="text-[#f7b94a] text-[2vw]">
-                Head, body, hands and legs, hands and legs. <br>
-                Head, body, hands and legs, hands and legs. <br>
-                And eyes, and ears, and mouth, and nose. <br>
-                Head, body, hands and legs, hands and legs. <br>
+                头、身体、手和脚，手和脚。<br>
+                头、身体、手和脚，手和脚。<br>
+                还有眼睛、耳朵、嘴巴和鼻子。<br>
+                头、身体、手和脚，手和脚。<br>
             </h4>
         </div>
     </div>
@@ -160,22 +160,22 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">课堂活动 8：身体部位歌</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to make a facial expression and
-                    let the others guess whether it is a happy or an unhappy
-                    face (guide children in naming some common expressions).</li>
+                <li>让孩子们轮流做一种面部表情，
+                    让其他人猜猜是开心还是不开心
+                    的表情（引导孩子们说出一些常见的表情名称）。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate between happy and unhappy facial expressions.</li>
-                <li>Able to make a few facial expressions.</li>
+                <li>能够区分开心和不开心的面部表情。</li>
+                <li>能够做几种面部表情。</li>
             </ul>
         </div>
     </div>
@@ -235,8 +235,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
 
             // Track current position
             let currentSlide = 0;

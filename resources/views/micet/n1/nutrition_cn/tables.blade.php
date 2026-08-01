@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,21 +38,21 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+        <h1 class="panel-title stroke">表 1：主题目标</h1>
 
         <ol class="list-decimal panel-ul">
-            <li>To name the 5 senses</li>
-            <li>To identify the 5 senses</li>
-            <li>To understand the functions of the 5 senses</li>
-            <li>To name the different facial expressions</li>
-            <li>To understand the relationship between facial expressions and emotions</li>
+            <li>说出5种感官</li>
+            <li>识别5种感官</li>
+            <li>了解5种感官的功能</li>
+            <li>说出不同的面部表情</li>
+            <li>了解面部表情与情绪之间的关系</li>
         </ol>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
+        <h1 class="panel-title stroke">表 2：多元智能学习网</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
@@ -60,11 +60,10 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
+        <h1 class="panel-title stroke">表 2：多元智能活动</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
-
 
 
 
@@ -121,8 +120,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
 
             // Track current position
             let currentSlide = 0;

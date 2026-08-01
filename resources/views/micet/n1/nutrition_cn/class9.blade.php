@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,40 +38,40 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Action Game</h1>
+        <h1 class="panel-title stroke">课堂活动 9：动作游戏</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[12vw]" />
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to play an action game</li>
-            <li>Act according to the instruction given</li>
-            <li>Identify different body parts</li>
-            <li>Identify different body parts</li>
+            <li>学习玩动作游戏</li>
+            <li>根据指令做动作</li>
+            <li>认识不同的身体部位</li>
+            <li>认识不同的身体部位</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Action Game</h1>
+        <h1 class="panel-title stroke">课堂活动 9：动作游戏</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Tell children that today they will learn to play an action game.</li>
-                <li>Demonstrate how to play the game:
+                <li>告诉孩子们，今天他们将学习玩一个动作游戏。</li>
+                <li>演示如何玩游戏：
                     <ul class="list-disc">
-                        <li>First, teacher gives an action instruction such as, "Listen, use your hands
-                            to touch your head."</li>
-                        <li>Children then act according to the instructions given. The fastest child
-                            that is able to do the action correctly is the winner of the game.</li>
-                        <li>Repeat the game. <br>
-                            [Note: the body parts mentioned in the instructions must have been
-                            learnt by children; sample instructions: blink your eyes, pull your ears,
-                            point to your nose, touch your mouth, shake your head, sway your body,
-                            stretch your legs]
+                        <li>首先，老师给出动作指令，例如："听好，用你的手
+                            摸你的头。"</li>
+                        <li>孩子们然后根据指令做动作。最快且
+                            正确完成动作的孩子是游戏的赢家。</li>
+                        <li>重复游戏。<br>
+                            [注意：指令中提到的身体部位必须是孩子们
+                            已经学过的；示例指令：眨眼睛、拉耳朵、
+                            指鼻子、摸嘴巴、摇头、摆身体、
+                            伸腿]
                         </li>
                     </ul>
                 </li>
@@ -83,35 +83,35 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Action Game</h1>
+        <h1 class="panel-title stroke">课堂活动 9：动作游戏</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Divide children into 2 groups for a competition: each group listens to the
-                teacher's instruction and then acts accordingly. The fastest child that is
-                able to do the action correctly will earn a point. The group with the highest
-                points wins the game.</li>
+            <li>将孩子们分成2组进行比赛：每组听
+                老师的指令然后做动作。最快且
+                正确完成动作的孩子得一分。得分最高的
+                组获胜。</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Action Game</h1>
+        <h1 class="panel-title stroke">课堂活动 9：动作游戏</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Teacher can give more challenging instructions (such as
-                    point to your nose while you sway your body) and ask
-                    children to do the actions.</li>
+                <li>老师可以给出更有挑战性的指令（例如
+                    指鼻子同时摆身体），让孩子们
+                    做动作。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to follow instructions.</li>
-                <li>Able to actively participate in the game.</li>
+                <li>能够听从指令。</li>
+                <li>能够积极参与游戏。</li>
             </ul>
         </div>
     </div>
@@ -119,21 +119,21 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Action Game</h1>
+        <h1 class="panel-title stroke">课堂活动 9：动作游戏</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Divide the children into two groups. Let each group take
-                    turns to do the actions when singing the song.</li>
+                <li>将孩子们分成两组。让每组
+                    轮流在唱歌时做动作。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song.</li>
-                <li>Able to do the actions when singing.</li>
+                <li>能够唱这首歌。</li>
+                <li>能够在唱歌时做动作。</li>
             </ul>
         </div>
     </div>
@@ -193,8 +193,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition_cn/index') }}";
 
             // Track current position
             let currentSlide = 0;
