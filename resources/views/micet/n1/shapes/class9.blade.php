@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[8vw]" />
@@ -47,211 +47,990 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Use different types of performing arts (e.g. dance, music)
-                in a concert</li>
-            <li>Co-operate with group members in a concert</li>
-            <li>Express whether they like or dislike a concert</li>
+            <li>To know that different shapes can be combined to form a
+                variety of objects.</li>
+            <li>To identify the shapes of a few objects.</li>
+            <li>To combine different shapes to form some objects.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Different percussion instruments</li>
-                <li>Divide children into 3 performing groups based on their
-                    ability to sing, dance and play percussion instruments</li>
+                <li>Thematic Activity Book</li>
+                <li>Blocks of different shapes</li>
             </ul>
         </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Play music. Let children follow the teacher and sing to the rhythm of the
-                    music.</li>
+                <li>Ask children: "Do you know that we can combine different shapes to form a
+                    variety of things?"</li>
+                <li>Let's see some examples below.</li>
             </ol>
         </div>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
+
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c1.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Inform children that they are going to perform in a concert.</li>
-            <li>Ask children: "Have you ever seen a concert?" "How was it?" "Did you like
-                it?"</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
         </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c1.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[1vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c2.png') }}" class="h-[15vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c2.png') }}" class="h-[15vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[1vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c3.png') }}" class="h-[15vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c3.png') }}" class="h-[15vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[8vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c4.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c4.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[12vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c5.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c5.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[1vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c6.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c6.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-0" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[6vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c7.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c7.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[8vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c8.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c8.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[8vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[1vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c9.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c9.png') }}" class="w-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[8vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[1vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c10.png') }}" class="h-[17vw]" />
+
+            <div class="flex flex-col items-center">
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children:
+                <ul class="list-disc">
+                    <li>What is this? [Accept all logical answers and let children talk about it.] </li>
+                    <li>What shapes are used to form it? </li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex w-full justify-between items-center">
+
+            <img src="{{ asset('assets/images/micet/n1/shapes/class9/c10.png') }}" class="h-[17vw]" />
+
+            <div class="flex flex-col items-center relative">
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[1vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] top-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[8vw]" />
+                <img src="{{ asset('assets/images/micet/n1/shapes/class9/tick.png') }}"
+                    class="w-[3vw] absolute left-[-3vw] bottom-[1vw]" />
+
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center rounded-full text-white text-[1vw]">
+                    circle
+                </div>
+                <div class="w-[5vw] h-[5vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    square
+                </div>
+                <div class="w-[8vw] h-[4vw] border-[.25vw] border-white flex items-center justify-center text-white text-[1vw]">
+                    rectangle
+                </div>
+                <div class="relative w-36 h-28">
+                    <svg viewBox="0 0 100 90" class="absolute inset-0 w-full h-full">
+
+                        <polygon points="50,5 5,85 95,85" fill="none" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2">
+                        <span class="text-white text-[1vw]">triangle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that today they are going to perform in a concert in different
-                ways. Some of them will sing, some will dance and some will play different
-                percussion instruments.</li>
+            <li>Have children use their creativity and imagination to combine different shape
+                stickers to form an object in the Thematic Activity Book.</li>
         </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Organise the children into three groups. Let each group of children gather
-                at different corners of the classroom.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Repeat playing the music. Let the singer's group practise singing, the
-                dancer's group practise dancing and the percussionist's group practise
-                playing the different percussion instruments.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Teacher walks around the class to assist the different groups. Remind
-                children to co-operate with their group members in order for their
-                performance to go well.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>After the practice, have each group take turns to perform.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Let's start the concert! Have the different groups co-operate in performing
-                the concert.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Combining Shapes</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to share their thoughts about the
-                    concert and say whether they like or dislike the concert.</li>
+                <li>Have children take turns to show the objects that they
+                    created. Have them name the object as well as the shapes
+                    used to form it.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to co-operate with group members in a concert.</li>
-                <li>Able to co-operate with group members in a concert.</li>
+                <li>Able to know that different shapes can be combined to
+                    form a variety of objects.</li>
+                <li>Able to identify the shapes of a few objects.</li>
+                <li>Able to combine different shapes to form some objects.</li>
             </ul>
         </div>
     </div>
@@ -312,8 +1091,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -572,6 +1351,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

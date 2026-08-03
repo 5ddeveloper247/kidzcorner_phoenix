@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Shape Dance</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/colours/class6/b1.png') }}" class="h-[9vw]" />
             <img src="{{ asset('assets/images/micet/n1/drama/class7/b1.png') }}" class="h-[9vw]" />
@@ -47,208 +47,155 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[42vw]">
-            <li>Identify four musical percussion instruments and describe
-                the way to play them</li>
-            <li>Match musical percussion instruments to their sounds</li>
+        <ul class="list-disc panel-ul">
+            <li>To develop gross and fine motor skills through dancing.</li>
+            <li>To enjoy playing with friends.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Shape Dance</h1>
 
-        <div>
+        <div class="flex flex-col items-center">
             <h3 class="ptitle">Preparations</h3>
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Thematic Activity Book</li>
-                <li>A few sets of musical percussion instruments (e.g. maraca,
-                    drum, triangle, cymbals; can be replaced with other
-                    percussion instruments), have children share the
-                    resources</li>
+                <li>Before the activity starts, use 4 coloured tapes to form the 4 basic
+                    shapes - circle, square, rectangle, triangle (size depends on the number
+                    of children in class). <br>
+                    [Note: If activity is conducted in class, then form the 4 shapes in the
+                    following manner, so as to fully utilise space within classroom.</li>
             </ul>
+            <img src="{{ asset('assets/images/micet/n1/shapes/class7/c1.png') }}" class="w-[15vw]" />
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Shape Dance</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What musical percussion instrument is this?" "How do you
-                    play it so that the sound can be heard?"</li>
+                <li>Invite children to sing the different shape songs again.</li>
             </ol>
         </div>
-        <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="w-[25vw]" />
-            <h4 class="text-[#f7b94a] text-[2vw]">maraca</h4>
+
+        <button class="w-[3vw] mt-[1vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <div class="flex items-start justify-between w-full mt-[1vw]">
+            <!-- Left Column -->
+
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Circle"<br>
+                I can see a circle. <br>
+                Circle, circle. <br>
+                I can see a circle. <br>
+                How about you?
+            </h4>
+
+            <!-- Middle Border -->
+            <div class=" h-[12vw] border-l-[.25vw] border-white"></div>
+
+            <!-- Right Column -->
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Square" <br>
+                I can see a square. <br>
+                Square, square. <br>
+                I can see a square. <br>
+                How about you?
+            </h4>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Shape Dance</h1>
+
+
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Invite children to sing the different shape songs again.</li>
+        </ol>
+
+        <button class="w-[3vw] mt-[1vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <div class="flex items-start justify-between w-full mt-[1vw]">
+            <!-- Left Column -->
+
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Rectangle" <br>
+                I can see a rectangle. <br>
+                Rectangle, rectangle. <br>
+                I can see a rectangle. <br>
+                How about you?
+            </h4>
+
+            <!-- Middle Border -->
+            <div class=" h-[12vw] border-l-[.25vw] border-white"></div>
+
+            <!-- Right Column -->
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Triangle" <br>
+                I can see a triangle. <br>
+                Triangle, triangle. <br>
+                I can see a triangle. <br>
+                How about you?
+            </h4>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Shape Dance</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that we'll hear the sound of the maraca only when we shake it.</li>
-            <li>Click on the video, have children see how to shake the maraca.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class6/v1.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Play the sound, have children listen to the sound when the maraca is
-                shaken.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Invite children to listen to the sounds of other musical percussion
-                instruments.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask children: "What musical percussion instrument is this?" "How do you
-                play it so that the sound can be heard?"</li>
-        </ol>
-        <div class="flex flex-col items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/music/class7/c1.png') }}" class="w-[25vw]" />
-            <h4 class="text-[#f7b94a] text-[2vw]">drum</h4>
-        </div>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Tell children that we'll hear the sound of the drum only when we hit it.</li>
-            <li>Click on the video, have children see how to hit the drum.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class7/v1.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Play the sound, have children listen to the sound when the drum is hit.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Tell children that there are 4 differences between these two pictures.</li>
-            <li>Click to open the Software Magnetic Board. Guide children to observe and
-                spot the differences, then circle them in picture 2.</li>
-        </ol>
-        <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/games/class7/c4.png') }}" class="w-[25vw]" />
-            <h4 class="text-[#f7b94a] text-[2vw]">spot the <br>
-                differences</h4>
-        </div>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-
-        <img src="{{ asset('assets/images/micet/n1/games/class7/c5.png') }}" class="h-[20vw]" />
-        <div class="flex items-center justify-between w-[40vw]">
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-        </div>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Point to the shapes on the floor, have children name each of the shape.</li>
+            <li>Tell children that they are going to learn a fun activity called Shape Dance.</li>
+            <li>Guide children in learning how to do this activity:
+                <ul class="list-disc">
+                    <li>Teacher names a shape.</li>
+                    <li>Children find the correct shape on the floor, stand on its outline and sing
+                        the respective shape song. While singing, children have to dance along
+                        the outline (at the start, teacher may lead children in learning some
+                        basic "dance" steps like running forward, side walking, jumping,
+                        crawling, etc. When children are familiar with the activity, encourage
+                        them to create other dance steps and get everybody to do it together)</li>
+                    <li>Repeat the steps.</li>
+                </ul>
+            </li>
         </ol>
     </div>
 
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Shape Dance</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children answer the following questions: Do you like the games we
-                    played? What are the names of these games? How many people does it
-                    take to play each game?</li>
+                <li>Suggest to children to use different dance steps for the
+                    different shape songs, then perform them for the teacher.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to play the games.</li>
+                <li>Able to follow instructions.</li>
+                <li>Able to sing and dance along a shape.</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Prepare simple mazes, hidden images and spot the differences games at the
-                    activity corner, encourage children to play them during free time.</li>
-            </ul>
-        </div>
-    </div>
-
 
 
 
@@ -563,6 +510,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

@@ -164,7 +164,7 @@
             <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
                 the different sides, guide children in counting (next page onwards).</li>
         </ol>
-        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <div class="h-[18vw] w-[11vw] border-[.5vw] border-white"> </div>
         <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
     </div>
 
@@ -177,7 +177,7 @@
             <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
                 the different sides, guide children in counting (next page onwards).</li>
         </ol>
-        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <div class="h-[18vw] w-[11vw] border-[.5vw] border-white"> </div>
         <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
     </div>
 
@@ -190,7 +190,10 @@
             <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
                 the different sides, guide children in counting (next page onwards).</li>
         </ol>
-        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <div class="flex items-center gap-[1vw]">
+            <div class="text-red-500 text-[1vw]">1</div>
+            <div class="h-[18vw] w-[11vw] border-[.5vw] border-white border-l-red-500"> </div>
+        </div>
         <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
     </div>
 
@@ -203,7 +206,11 @@
             <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
                 the different sides, guide children in counting (next page onwards).</li>
         </ol>
-        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <div class="flex flex-col">
+            <div class="text-red-500 text-[1vw]">2</div>
+            <div class="h-[18vw] w-[11vw] border-[.5vw] border-white border-t-red-500"> </div>
+        </div>
+
         <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
     </div>
 
@@ -216,7 +223,10 @@
             <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
                 the different sides, guide children in counting (next page onwards).</li>
         </ol>
-        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <div class="flex items-center gap-[1vw]">
+            <div class="h-[18vw] w-[11vw] border-[.5vw] border-white border-r-red-500"> </div>
+            <div class="text-red-500 text-[1vw]">3</div>
+        </div>
         <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
     </div>
 
@@ -229,7 +239,10 @@
             <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
                 the different sides, guide children in counting (next page onwards).</li>
         </ol>
-        <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
+        <div class="flex flex-col">
+            <div class="h-[18vw] w-[11vw] border-[.5vw] border-white border-b-red-500"> </div>
+            <div class="text-red-500 text-[1vw]">4</div>
+        </div>
         <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
     </div>
 

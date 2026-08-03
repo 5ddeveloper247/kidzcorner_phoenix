@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/animals/class6/b1.png') }}" class="h-[9vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[9vw]" />
@@ -47,8 +47,9 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Know that we can shake the maraca to the rhythm of the music</li>
-            <li>Learn to shake the maraca to the rhythm of the music</li>
+            <li>To learn to sing the shape song.</li>
+            <li>To identify four basic shapes - circle, square, rectangle,
+                triangle.</li>
         </ul>
 
     </div>
@@ -56,15 +57,15 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Provide each child with a maraca (maracas made in
-                    Activity 6 of Toy theme; can be replaced with other
-                    musical percussion instruments or toys).</li>
+                <li>Thematic Activity Book</li>
+                <li>A circle shaped block, a square shaped block, a rectangle
+                    shaped block, a triangle shaped block</li>
             </ul>
         </div>
     </div>
@@ -72,129 +73,133 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What is this?" "What colour is it?" "Can you describe it?"
-                    (physical characteristics) "What do we use it for?"</li>
+                <li>Display the 4 blocks, have children name the shape one at a time.</li>
+                <li>Tell children that today they will learn to sing the shape song.</li>
             </ol>
-        </div>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="w-[25vw]" />
-            <h3 class="text-[1.5vw] text-[#f7b94a]">maraca</h3>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that a maraca is a kind of musical percussion instrument.
-                When you shake it, you'll hear a sound.</li>
-            <li>Play the sound, have children listen to the sound when the maraca is
-                shaken.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display the circle shaped block, play music and sing.</li>
+            <li>Explain the meaning of the lyrics to children.</li>
+            <li>Replay music, have children sing along.</li>
         </ol>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Circle" <br>
+                I can see a circle. <br>
+                Circle, circle. <br>
+                I can see a circle. <br>
+                How about you?
+            </h4>
+        </div>
     </div>
 
 
-    {{-- panel 6 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that besides clapping, doing actions, singing and dancing, we
-                can also shake the maraca to the rhythm of the music.</li>
-            <li>Invite children to look at the following demonstration.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Click on the video, have children see how to shake the maraca to the
-                rhythm of the music.</li>
+            <li>Display the circle shaped block, play music and sing.</li>
+            <li>Explain the meaning of the lyrics to children.</li>
+            <li>Replay music, have children sing along.</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class6/v1.mp4') }}" type="video/mp4">
-        </video>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Square" <br>
+                I can see a square. <br>
+                Square, square. <br>
+                I can see a square. <br>
+                How about you?
+            </h4>
+        </div>
     </div>
 
 
-
-    {{-- panel 9 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Play music, teacher demonstrates how to shake the maraca to the rhythm
-                of the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Display the circle shaped block, play music and sing.</li>
+            <li>Explain the meaning of the lyrics to children.</li>
+            <li>Replay music, have children sing along.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Rectangle" <br>
+                I can see a rectangle. <br>
+                Rectangle, rectangle. <br>
+                I can see a rectangle. <br>
+                How about you?
+            </h4>
+        </div>
     </div>
 
 
-    {{-- panel 10 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Give each child a maraca. Repeat playing the music. Let children imitate
-                the teacher and shake the maraca to the rhythm of the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Display the circle shaped block, play music and sing.</li>
+            <li>Explain the meaning of the lyrics to children.</li>
+            <li>Replay music, have children sing along.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "I Can See A Triangle" <br>
+                I can see a triangle. <br>
+                Triangle, triangle. <br>
+                I can see a triangle. <br>
+                How about you?
+            </h4>
+        </div>
     </div>
 
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Shape Song</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask children: Besides clapping, doing actions, singing and dancing, what else
-                    can we do to follow to the rhythm of the music?</li>
-                <li>Play music , have children shake the maraca to the rhythm of the music.</li>
+                <li>Have children sing the respective song when teacher
+                    displays the block.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that we can shake the maraca to the rhythm
-                    of the music.</li>
-                <li>Able to shake the maraca to the rhythm of the music.</li>
+                <li>Able to sing the song.</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- Panel 11 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music that children are familiar with, lead them
-                    in shaking the maraca to the rhythm of the music.</li>
-            </ul>
-        </div>
-    </div>
-
-
 
 
 
@@ -251,8 +256,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -511,6 +516,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

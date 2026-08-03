@@ -41,11 +41,11 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To develop music and rhythmic sense</li>
-            <li>To know that all music has rhythm</li>
-            <li>To know that we can use different actions to follow the rhythm of the music</li>
-            <li>To learn to use different types of performing arts in a concert</li>
-            <li>To learn to cooperate with friends in a concert</li>
+            <li>Identify the four basic shapes: circle, square, rectangle, and triangle.</li>
+            <li>Understand that different shapes can be combined to form a variety of objects.</li>
+            <li>Find partners based on shapes.</li>
+            <li>Learn to work with friends.</li>
+            <li>Enjoy playing with friends.</li>
         </ol>
     </div>
 
@@ -53,7 +53,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/toys/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/n1/shapes/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -61,7 +61,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/toys/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/shapes/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 
@@ -121,8 +121,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -381,6 +381,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

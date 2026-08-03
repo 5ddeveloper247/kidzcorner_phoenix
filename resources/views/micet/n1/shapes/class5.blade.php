@@ -49,26 +49,67 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Know that we can dance to the rhythm of the music</li>
-            <li>Learn four simple dance steps</li>
-            <li>Dance to the rhythm of the music</li>
-            <li>Express like or dislike for dancing</li>
+            <li>To identify a triangle.</li>
+            <li>To look at different triangles.</li>
+            <li>To find objects shaped like triangles in the classroom.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Before lesson, practise the dance steps as shown in this
-                    lesson (steps 6-9)</li>
+                <li>A triangle shaped block</li>
+                <li>Transparent tape</li>
+                <li>1 "flexible triangle" per child (refer to next page)</li>
             </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <div>
+            <h3 class="ptitle">Reference</h3>
+
+            <ul class="list-disc panel-ul">
+                <li>Materials to make an "flexible triangle":
+                    <ul>
+                        <li> i. 1 chopsticks </li>
+                        <li> ii. Transparent tape </li>
+                        <li> iii. 40 cm rope</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <div class="flex flex-col items-center">
+            <h3 class="ptitle">Reference</h3>
+
+            <ul class="list-disc panel-ul">
+                <li>Steps to make a "flexible triangle":
+                    <ul>
+                        <li>i. Fold the rope in half and make a knot. </li>
+                        <li>ii. Use tape to attach the rope tightly to the chopstick. </li>
+                        <li>iii. The outcome is shown below.</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="{{ asset('assets/images/micet/n1/shapes/class5/c1.png') }}" class="w-[15vw]" />
         </div>
     </div>
 
@@ -81,13 +122,10 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Play video, have children say what the child is doing (dancing).</li>
+                <li>Ask children: "What is this?" "What shape is it?" (triangle)</li>
             </ol>
         </div>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class5/v1.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c2.png') }}" class="w-[22vw]" />
     </div>
 
 
@@ -95,9 +133,268 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
 
-        <ol class="list-decimal panel-ul" start="2">
-            <li>Ask children: "Have you ever danced?" "Where do you dance?" "Who do
-                you dance with?" "Do you like to dance?"</li>
+        <ol class="list-decimal panel-ul w-[48vw]" start="2">
+            <li>Display the triangle shaped block, ask children: "Does it look like the little
+                mouse's favourite cheese?" "Does it look like the shape below?" "What shape
+                is it?" (triangle)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c3.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="3">
+            <li>Have children touch the sides of the triangle shaped block and talk about the
+                characteristic of a triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c3.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="4">
+            <li>Tell children that a triangle has 3 sides. Point to the different sides, guide
+                children in counting (next page onwards).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c4.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="4">
+            <li>Tell children that a triangle has 3 sides. Point to the different sides, guide
+                children in counting (next page onwards).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c5.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="4">
+            <li>Tell children that a triangle has 3 sides. Point to the different sides, guide
+                children in counting (next page onwards).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c6.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="4">
+            <li>Tell children that a triangle has 3 sides. Point to the different sides, guide
+                children in counting (next page onwards).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c7.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="5">
+            <li>Display a "flexible triangle", tell children that they can use it to "make"
+                different triangles.</li>
+            <li>Demonstrate how to "make" different triangles with the "flexible triangle":
+                Hold the chopstick with a hand, use the finger of another hand to pull the rope
+                away from the chopstick at different angles.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c8.png') }}" class="h-[17vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="7">
+            <li>Distribute a "flexible triangle" to each child. Get each child to observe the
+                different triangles he/she makes. <br>
+                [Note: Teacher moves around the classroom, guiding and assisting each child.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c8.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="8">
+            <li>Ask children: "Are these triangles?" (Yes, triangles of different sizes.)</li>
+            <li>Let children know that there are many objects shaped like triangles in our
+                surroundings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c9.png') }}" class="h-[18vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c10.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">pizza</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c11.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">triangle</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c12.png') }}" class="h-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">hanger</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c13.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">cheese</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c13.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">cheese</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c14.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">window</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle.</li>
+        </ol>
+        <div class="flex gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/shapes/class5/c15.png') }}" class="w-[16vw]" />
+            <img src="{{ asset('assets/images/micet/n1/shapes/class5/c16.png') }}" class="w-[16vw]" />
+        </div>
+        <h5 class="text-[2vw] text-[#f7b94a]">window</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle. [Note: There are
+                more than one rectangle in this picture, you can click on it a few times to see
+                the different rectangles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c17.png') }}" class="w-[28vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">flags</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle. [Note: There are
+                more than one rectangle in this picture, you can click on it a few times to see
+                the different rectangles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c18.png') }}" class="w-[28vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">tiles</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="10">
+            <li>Display picture. Have children name the item and talk about its use, then
+                point to the triangle. Click on the picture to see the triangle. [Note: There are
+                more than one rectangle in this picture, you can click on it a few times to see
+                the different rectangles.]</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class5/c19.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">sailboat</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="11">
+            <li>Have children find objects shaped like triangles in the classroom.</li>
         </ol>
     </div>
 
@@ -106,128 +403,10 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
 
-        <ol class="list-decimal panel-ul" start="3">
-            <li>Tell children that today they are going to learn how to dance to the rhythm
-                of the music.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul" start="4">
-            <li>Play music, teacher demonstrates dancing to the rhythm of the music.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Invite children to learn four simple dance steps together.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Step 1: Guide children to learn and practise the following dance step.</li>
-        </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class5/v2.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Step 2: Guide children to learn and practise the following dance step.</li>
-        </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class5/v3.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Step 3: Guide children to learn and practise the following dance step.</li>
-        </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class5/v4.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Step 4: Guide children to learn and practise the following dance step.</li>
-        </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class5/v5.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Now, teacher leads children to do the four dance steps and repeats them
-                to form a complete dance.</li>
-        </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class5/v6.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Repeat playing music, have children follow the teacher to dance to the
-                rhythm of the music together.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Triangle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[48vw]" start="12">
+            <li>Have children attach the chopstick part of the "flexible triangle" with tape in
+                the Thematic Activity Book. Encourage children to pull the rope away from the
+                chopstick to look at the different triangles at anytime.</li>
         </ol>
     </div>
 
@@ -240,17 +419,15 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play music , have children dance to the rhythm of
-                    the music.</li>
-                <li>Have children say whether they like or dislike dancing.</li>
+                <li>Have children take turns to use their own "flexible triangle"to show a triangle.</li>
+                <li>Get children to talk about the characteristic of a triangle: It has 3 sides.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to dance four simple dance steps.</li>
-                <li>Able to dance to the rhythm of the music.</li>
-                <li>Able to express like or dislike for dancing.</li>
+                <li>Able to know that there are different triangles.</li>
+                <li>Able to find at least one object shaped like a triangle in the classroom.</li>
             </ul>
         </div>
     </div>
@@ -264,8 +441,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Create another four simple dance steps. Teacher guides
-                    children to dance to the rhythm of the music.</li>
+                <li>Get children to find an object shaped like a triangle from home, then
+                    bring and show it in class.</li>
             </ul>
         </div>
     </div>
@@ -323,8 +500,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -583,6 +760,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

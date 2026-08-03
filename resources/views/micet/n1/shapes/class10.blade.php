@@ -43,7 +43,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-around h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Like Music</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Shape Partners</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[8vw]" />
@@ -53,22 +53,23 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify the different performing arts (e.g. dance, music) in
-                a concert</li>
-            <li>Enjoy listening to a story</li>
+            <li>To find partners based on shapes.</li>
+            <li>To work together with a partner in completing a task.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Like Music</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Shape Partners</h1>
 
         <div class="space-y-[2vw]">
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-decimal panel-ul">
+            <ol class="list-decimal panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
+                <li>Shape cards - 1 card per child (4 shapes that child learnt,
+                    each shape must be in pair).</li>
             </ol>
         </div>
     </div>
@@ -76,128 +77,48 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Like Music</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Shape Partners</h1>
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
 
-        <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Tell the story using suggested questions and activities to reinforce the
-                teaching points of the story.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">I Like Music</h1>
-
-        <h3 class="p-title">Theme: Music</h3>
-        <img src="{{ asset('assets/images/micet/n1/music/class10/c1.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Jingle loves music!</h3>
-        <img src="{{ asset('assets/images/micet/n1/music/class10/c2.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Do you like music? Why?<br>
-                <span class="text-[#f7b94a]">Guide children to express their like or dislike of music.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Point to the different shapes, guide children to name each shape.</li>
+            </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/n1/shapes/class10/c1.png') }}" class="w-[25vw]" />
     </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she and her friends hold hands and move around in a <br>
-            circle while singing.</h3>
-        <img src="{{ asset('assets/images/micet/n1/music/class10/c3.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Have you ever held hands with your friends and moved around in a <br>
-                circle while singing? <br>
-                <span class="text-[#f7b94a]">Guide children to talk about their experience..</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she and her friends sing together and clap their hands.</h3>
-        <img src="{{ asset('assets/images/micet/n1/music/class10/c4.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Can you sing and clap your hands? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she dances to the rhythm of the music with her friends.</h3>
-        <img src="{{ asset('assets/images/micet/n1/music/class10/c5.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Can you dance? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she and her friends also play percussion instruments to <br>
-            the rhythm of the music.</h3>
-        <img src="{{ asset('assets/images/micet/n1/music/class10/c6.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Can you play any percussion instruments? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Look, Jingle is performing in a concert with her friends! There are 2 <br>
-            children singing, 2 children dancing and 4 children playing <br>
-            different percussion instruments. Their performance is really good!</h3>
-        <img src="{{ asset('assets/images/micet/n1/music/class10/c7.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                What did Jingle and her friends do in the concert? What percussion <br>
-                instruments were used?<br>
-                <span class="text-[#f7b94a]">Guide children to answer based on their observations.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
 
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Like Music</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Shape Partners</h1>
 
-        <ol class="list-decimal panel-ul" start="2">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Display shape cards, tell children that they are going to play a game with
+                these cards.</li>
+            <li>Demonstrate how to play Find The Partner game:
+                <ul>
+                    <li>i. Place all cards in a bag and jumble them up.</li>
+                    <li>ii. Have children take turns to pick a card.</li>
+                    <li>iii. When everyone gets a card, have them find a partner based on the
+                        shape on their card.</li>
+                    <li>iv. For each shape (circle, square, rectangle, triangle), children must find
+                        each other, hold hands and return cards to teacher. The fastest pair to
+                        do this are the winners of the game.</li>
+                    <li>v. Repeat games.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Shape Partners</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children paste stickers of matching shapes in the correct boxes in the
+                Thematic Activity Book.</li>
         </ol>
     </div>
 
@@ -205,21 +126,21 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Like Music</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Shape Partners</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask children: What types of performances were used in
-                    Jingle's concert?</li>
+                <li>Have children share their experience and views in playing
+                    this game (how to find partner in shortest time).</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the different types of performing arts in
-                    Jingle's concert.</li>
+                <li>Able to find partners based on shapes.</li>
+                <li>Able to work together with a partner in completing a task.</li>
             </ul>
         </div>
     </div>
@@ -279,8 +200,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -539,6 +460,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush
