@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[10vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b3.png') }}" class="h-[10vw]" />
@@ -60,7 +60,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Preparations</h3>
@@ -78,7 +78,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Lesson Development</h3>
@@ -93,7 +93,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Display the square shaped block, ask children: "Does it look like the window
@@ -107,7 +107,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Have children touch the sides of the square shaped block and talk about the
@@ -120,7 +120,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Have children touch the sides of the square shaped block and talk about the
@@ -133,7 +133,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Have children touch the sides of the square shaped block and talk about the
@@ -146,7 +146,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Have children touch the sides of the square shaped block and talk about the
@@ -159,7 +159,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Have children touch the sides of the square shaped block and talk about the
@@ -172,7 +172,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Have children touch the sides of the square shaped block and talk about the
@@ -185,7 +185,7 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children observe how the teacher uses a rope to measure one side of a
@@ -199,7 +199,7 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>Display an ice-cream stick, ask children: "What is this?"</li>
@@ -216,7 +216,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Ask children: "Are these squares?" (Yes, squares of different sizes.)</li>
@@ -230,7 +230,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display picture. Have children name the item and talk about its use, then
@@ -243,7 +243,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display picture. Have children name the item and talk about its use, then
@@ -257,7 +257,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display picture. Have children name the item and talk about its use, then
@@ -270,7 +270,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display picture. Have children name the item and talk about its use, then
@@ -283,7 +283,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display picture. Have children name the item and talk about its use, then
@@ -296,7 +296,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display picture. Have children name the item and talk about its use, then
@@ -309,7 +309,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display picture. Have children name the item and talk about its use, then
@@ -322,7 +322,7 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
             <li>Have children find objects shaped like squares in the classroom.</li>
@@ -332,7 +332,7 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>Have children use 4 ice-cream sticks and white glue to form a square in the
@@ -343,7 +343,7 @@
 
     {{-- panel 16 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -366,7 +366,7 @@
 
     {{-- panel 17 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
@@ -433,8 +433,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
-            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
+            const returnURL = "{{ url('/micet/n1/arts/index') }}";
+            const doneURL = "{{ url('/micet/n1/arts/index') }}";
 
             // Track current position
             let currentSlide = 0;

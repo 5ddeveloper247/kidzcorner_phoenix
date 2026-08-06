@@ -72,7 +72,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <div>
+        <div class="text-center">
             <h3 class="title">Preparations</h3>
 
             <ol class="list-disc panel-ul">
@@ -84,107 +84,170 @@
     </div>
 
 
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">The Happy Little Mouse</h1>
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <h3 class="p-title">Theme: Shapes</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c1.png') }}" class="w-[30vw]" />
+        <div class="text-start">
+            <h3 class="title">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul">
+                <li>Ask children: "What are these?" "Have you ever seen them?" "Have you
+                    ever used them?" "What do you use them for?"</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c1.png') }}" class="w-[22vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">caryons</h5>
     </div>
 
 
-    {{-- panel 5 --}}
+    {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">A happy little mouse lives in a round watermelon house.</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c2.png') }}" class="w-[30vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                A happy little mouse lives in a round watermelon house.<br>
-                <span class="text-[#f7b94a]">Help children to develop observation skills.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask children: "What are these?" "Have you ever seen them?" "Have you
+                ever used them?" "What do you use them for?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c1.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">caryons</h5>
     </div>
 
 
-    {{-- panel 6 --}}
+    {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">The watermelon house has a door and two windows.</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c3.png') }}" class="w-[30vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Have you ever held hands with your friends and moved around in a <br>
-                circle while singing? <br>
-                <span class="text-[#f7b94a]">Guide children to talk about their experience..</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Tell children that crayons can be used for drawing.</li>
+            <li>Ask children: "Have you ever used crayons to draw?" "What did you
+                draw?"</li>
+        </ol>
     </div>
 
 
-    {{-- panel 7 --}}
+    {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she and her friends sing together and clap their hands.</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c4.png') }}" class="w-[30vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Can you sing and clap your hands? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Invite children to look at the following art works.</li>
+        </ol>
     </div>
 
 
-    {{-- panel 8 --}}
+    {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she dances to the rhythm of the music with her friends.</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c5.png') }}" class="w-[30vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Can you dance? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Invite children to look at the following art works.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
-    {{-- panel 9 --}}
+    {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she and her friends also play percussion instruments to <br>
-            the rhythm of the music.</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c6.png') }}" class="w-[30vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Can you play any percussion instruments? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
-    {{-- panel 10 --}}
+    {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Look, Jingle is performing in a concert with her friends! There are 2 <br>
-            children singing, 2 children dancing and 4 children playing <br>
-            different percussion instruments. Their performance is really good!</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c7.png') }}" class="w-[25vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
 
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                What did Jingle and her friends do in the concert? What percussion <br>
-                instruments were used?<br>
-                <span class="text-[#f7b94a]">Guide children to answer based on their observations.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c4.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Have children name the things that were used to draw these art works.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Tell children that these art works were drawn with crayons, so they are
+                called crayon drawings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class1/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Give each child a drawing paper. Have children use their imagination and
+                creativity to create a crayon drawing.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Crayon Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Have children use crayons to draw a picture in the Thematic Activity Book.</li>
+        </ol>
     </div>
 
 
@@ -196,19 +259,19 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>
-                    <span class="flex items-end">Play music <span class="w-[3vw]">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> , have children clap to the rhythm of the
-                        music together. </span>
-                </li>
+                <li>Have children take turns to show and talk about their drawings. </li>
+                <li>Ask children: Why are your art works called crayon
+                    drawings? </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that all music has rhythm.</li>
-                <li>Able to clap to the rhythm of the music.</li>
+                <li>Able to express like or dislike of an art work.</li>
+                <li>Able to say that a crayon drawing is a picture drawn and
+                    coloured with crayons.</li>
+                <li>Able to use imagination and creativity to create a crayon
+                    drawing.</li>
             </ul>
         </div>
     </div>
@@ -222,8 +285,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music that children are familiar with, lead them in clapping to
-                    the rhythm of the music.</li>
+                <li>Set up a drawing corner where children are encouraged to use crayons
+                    to draw pictures when they are free.</li>
             </ul>
         </div>
     </div>
@@ -282,8 +345,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
-            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
+            const returnURL = "{{ url('/micet/n1/arts/index') }}";
+            const doneURL = "{{ url('/micet/n1/arts/index') }}";
 
             // Track current position
             let currentSlide = 0;

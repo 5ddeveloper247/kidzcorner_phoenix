@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[8vw]" />
@@ -49,29 +49,30 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul ">
-            <li>To identify a circle.</li>
-            <li>To know that compass is a tool used to draw circles.</li>
-            <li>To find objects shaped like circles in the classroom.</li>
-            <li>To trace circles of different sizes using different objects.</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>To identify watercolour and its use.</li>
+            <li>To know that a watercolour drawing is a picture drawn
+                and painted with watercolours.</li>
+            <li>To express like or dislike of an art work.</li>
+            <li>To use imagination and creativity to create a watercolour
+                drawing.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <div class="space-y-[1vw] text-center">
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>A circle shaped block</li>
-                <li>A compass</li>
-                <li>Objects that can be used to trace circles of different sizes,
-                    e.g. cup, coaster, bracelet, disk, plate, container cover</li>
-                <li>Crayons</li>
+                <li>Water colours, brushes, palettes</li>
+                <li>Drawing papers <br>
+                    [Note: For purpose of cleanliness, have children wear
+                    aprons and place old newspaper on the activity area.]</li>
             </ul>
         </div>
     </div>
@@ -79,233 +80,223 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ul class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What is this?" "What shape is it?" (circle)</li>
+                <li>Ask children: "What are these?" "Have you ever seen them?" "Have you
+                    ever used them?" "What do you use them for?"</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c1.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c1.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">watercolours</h5>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Show the circular side of the block, ask children: "What is this?" (block) "Does
-                this look like the little mouse's watermelon house?" "Does it look like the
-                shape below?" "What shape is it?" (circle)</li>
+            <li>Click on the video, have children say why there's no colour when the
+                paintbrush touches the paper.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c2.png') }}" class="w-[20vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/arts/class2/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have children touch the circular side of the block and talk about the
-                characteristic of a circle. Tell children that a circle is round.</li>
+            <li>Click on the video, have children say why there's no colour when the
+                paintbrush touches the paper.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c2.png') }}" class="w-[20vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/arts/class2/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Display the compass, tell children that compass is a tool used to draw circles.
-                Demonstrate using the compass to draw 3 circles of different sizes.</li>
+            <li>Guide children to understand that watercolour is a kind of paint that can
+                only be used when it is mixed with water, that's why it is called watercolour.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask children: "Are these circles?" (Yes, circles of different sizes.)</li>
-            <li>Let children know that there are many objects shaped like circles in our
-                surroundings.</li>
+            <li>Tell children that watercolours can be used for drawing.</li>
+            <li>Tell children that watercolours can be used for drawing.
+                Ask children: "Have you ever used watercolours to draw?" "What did you
+                draw?"</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c4.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c1.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">watercolours</h5>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>Invite children to look at the following art works.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c5.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c6.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c7.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c8.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c9.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c10.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c11.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c12.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle. [Note: There are more
-                than one circle in this picture, you can click on it a few times to see the
-                different circles.]</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c13.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle. [Note: There are more
-                than one circle in this picture, you can click on it a few times to see the
-                different circles.]</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class2/c14.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Have children find objects shaped like circles in the classroom.</li>
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask children: "What has been drawn?" "What colours have been used in
+                this art work?" "Do you like it?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Have children name the things that were used to draw these art works.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/arts/class2/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Give each child a drawing paper. Have children use their imagination and
+                creativity to create a watercolour drawing.</li>
         </ol>
     </div>
 
 
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[4vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Display the prepared objects, demonstrate how to trace circles with these
-                objects. Then have children use different coloured crayons to trace the circles
-                with these objects in the Thematic Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Have children use watercolours to draw a picture in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children display their circles.</li>
-                <li>Get children to talk about the characteristic of a circle: It is
-                    round.</li>
+                <li>Have children take turns to show and talk about their drawings.</li>
+                <li>Ask children: Why are your art works called watercolour
+                    drawings? </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to find at least one object shaped like a circle in the classroom.</li>
-                <li>Able to use objects to trace circles of different sizes.</li>
+                <li>Able to express like or dislike of an art work.</li>
+                <li>Able to say that a crayon drawing is a picture drawn and
+                    coloured with watercolours.</li>
+                <li>Able to use imagination and creativity to create a watercolour
+                    drawing.</li>
             </ul>
         </div>
     </div>
@@ -319,8 +310,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get children to find an object shaped like a circle from home, then bring
-                    and show it in class.</li>
+                <li>Set up a drawing corner where children are encouraged to use watercolours
+      to draw pictures when they are free.</li>
             </ul>
         </div>
     </div>
@@ -380,8 +371,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
-            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
+            const returnURL = "{{ url('/micet/n1/arts/index') }}";
+            const doneURL = "{{ url('/micet/n1/arts/index') }}";
 
             // Track current position
             let currentSlide = 0;
