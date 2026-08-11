@@ -304,14 +304,14 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music </h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Watercolour Drawing</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Set up a drawing corner where children are encouraged to use watercolours
-      to draw pictures when they are free.</li>
+                    to draw pictures when they are free.</li>
             </ul>
         </div>
     </div>

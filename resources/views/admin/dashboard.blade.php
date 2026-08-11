@@ -111,6 +111,7 @@
                 <div class="page-content-wrapper">
                     <div class="page-content">
                         <div class="row">
+                            {{-- isteam --}}
                             <div class="col-12 col-lg-3 position-relative">
                                 <a href="{{ route('isteam') }}">
                                     <div class="card radius-15 overflow-hidden"
@@ -145,41 +146,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-12 col-lg-3">
-                                <a href="{{ url('/micet') }}">
-                                    <div class="card radius-15 overflow-hidden"
-                                        style="min-height: 170px; background:#f2e9cc;">
-                                        <div
-                                            class="card-body d-flex justify-content-center align-items-center mascot-container2">
-                                            <img src="{{ asset('assets/images/pptimages/micet-gif.gif') }}"
-                                                style="width: 16vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
-                                                class="position-absolute top-0 " style="width: 2.5vw; right:4.5vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
-                                                class="position-absolute top-0 end-0 right-tilt"
-                                                style="width: 3vw; z-index:10;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
-                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
-                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
-                                                class="position-absolute top-0 start-0" style="width: 3vw;">
-                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
-                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
-                                                class="position-absolute bottom-0"
-                                                style="width: 2.5vw; transform:rotate(180deg);">
-                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
-                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
-                                                class="position-absolute end-0 left-tilt"
-                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
-                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
-                                                class="position-absolute mascot-img2"
-                                                style="width: 3.5vw; top:-50px; right:0px; transform:rotate(180deg)">
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
+                            {{-- phonics --}}
                             <div class="col-12 col-lg-3">
                                 <a href="{{ url('/phonics/l1') }}">
                                     <div class="card radius-15 overflow-hidden"
@@ -246,13 +213,46 @@
                                 </a>
                             </div>
 
+                            {{-- Micet --}}
+                            <div class="col-12 col-lg-3">
+                                <a href="{{ url('/micet') }}">
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background:#f2e9cc;">
+                                        <div
+                                            class="card-body d-flex justify-content-center align-items-center mascot-container2">
+                                            <img src="{{ asset('assets/images/pptimages/micet-gif.gif') }}"
+                                                style="width: 16vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0 right-tilt"
+                                                style="width: 3vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 left-tilt"
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img2"
+                                                style="width: 3.5vw; top:-50px; right:0px; transform:rotate(180deg)">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
 
                             <div class="col-12 col-lg-3">
-                                <a>
+                                <a href="{{ url('/applet') }}">
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc; ">
-                                        <div class="upper-blur">
-                                        </div>
                                         <div
                                             class="card-body d-flex justify-content-center align-items-center mascot-container">
                                             {{-- <div class="w-50 h-50" style="background: url('{{ asset('assets/images/pptimages/stoneboard.png') }}')"> --}}

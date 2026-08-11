@@ -49,28 +49,33 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To identify a square.</li>
-            <li>To confirm the characteristic of a square by using a rope to
-                measure each of its sides.</li>
-            <li>To form a square with ice-cream sticks.</li>
-            <li>To find objects shaped like squares in the classroom.</li>
+            <li>To know that an object prints art work is a picture formed
+                by printing objects with paint.</li>
+            <li>To guess the object used in an object prints art work.</li>
+            <li>To use imagination and creativity to create object prints.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
-        <div class="text-start space-y-[1vw]">
+        <div class="text-start">
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-decimal panel-ul">
+            <ul class="list-decimal panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>A square shaped block</li>
-                <li>A rope</li>
-                <li>4 ice-cream sticks per child</li>
-                <li>White glue</li>
+                <li>Drawing papers</li>
+                <li>Sponges that absorb different colour paints (a few sets for
+                    children to share)</li>
+                <li>A variety of objects that can make different prints (e.g .:
+                    bottle caps, toys like blocks, stones, cut vegetables and
+                    fruits like lotus root, capsicum, cabbage and starfruit) -
+                    objects with sizes that children can easily hold in their
+                    hand <br>
+                    [Note: For purpose of cleanliness, have children wear
+                    aprons and place old newspaper on the activity area.]</li>
             </ul>
         </div>
     </div>
@@ -83,11 +88,12 @@
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ul class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: "What is this?" "What shape is it?" (square)</li>
+            <ul class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: "Have you ever seen this kind of art work?" "Do you like it?"
+                    "How do you make this kind of art work?"</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c1.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/arts/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -96,12 +102,12 @@
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Display the square shaped block, ask children: "Does it look like the window
-                of little mouse's watermelon house?" "Does it look like the shape below?"
-                "What shape is it?" (square)</li>
+            <li>Click on the video, have children look at the process of making this art
+                work and talk about it.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/square.png') }}" class="h-[19vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/arts/class3/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
@@ -110,24 +116,10 @@
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>Tell children that this art work was formed by printing objects with paint,
+                that's why it is called object prints.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/square.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <img src="{{ asset('assets/images/micet/n1/arts/class3/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -136,11 +128,8 @@
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>Invite children to look at the following object prints.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
     </div>
 
 
@@ -148,12 +137,14 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Have children guess the object used in this object prints art work
+                (capsicum, bottle cap, crumpled newspaper ball).</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c2.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
     </div>
 
 
@@ -161,12 +152,13 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Did you guess correctly? Do you like this object prints art work?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c2.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
     </div>
 
 
@@ -174,12 +166,28 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Have children guess the object used in this object prints art work
+                (capsicum, bottle cap, crumpled newspaper ball).</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c3.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Did you guess correctly? Do you like this object prints art work?</li>
+        </ol>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c3.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
     </div>
 
 
@@ -187,13 +195,14 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Have children observe how the teacher uses a rope to measure one side of a
-                square, then cuts the rope according to the length of the square. Have 2 or 3
-                children the use the rope to measure each side of the square, while the other
-                children observe them. Guide children in concluding the characteristic of a
-                square: It has 4 equal sides.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Have children guess the object used in this object prints art work
+                (capsicum, bottle cap, crumpled newspaper ball).</li>
         </ol>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c4.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
     </div>
 
 
@@ -201,30 +210,13 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Display an ice-cream stick, ask children: "What is this?"</li>
-            <li>Tell children that we can use 4 ice-cream sticks of the same length to form a
-                square. Stack up 4 ice-cream sticks to proof that they are of the same length,
-                then demonstrate how to use them to form a square.</li>
-            <li>Distribute 4 ice-cream sticks to each child. Get each child to stack up the 4
-                ice-cream sticks to confirm that they are of the same length.
-                [Note: Teacher moves around the classroom, guiding and assisting each
-                child.]</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Did you guess correctly? Do you like this object prints art work?</li>
         </ol>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Ask children: "Are these squares?" (Yes, squares of different sizes.)</li>
-            <li>Let children know that there are many objects shaped like squares in our
-                surroundings.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[18vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c4.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
     </div>
 
 
@@ -233,110 +225,95 @@
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>Have children guess the object used in this object prints art work
+                (capsicum, bottle cap, crumpled newspaper ball).</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c3.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">biscuits</h5>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c5.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c4.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">biscuits</h5>
-    </div>
-
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c5.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">post-it note</h5>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c6.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">blocks</h5>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c7.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">dice</h5>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c8.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">gift box</h5>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class3/c9.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">plate</h5>
-    </div>
-
-
-    {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Have children find objects shaped like squares in the classroom.</li>
+            <li>Did you guess correctly? Do you like this object prints art work?</li>
         </ol>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c2.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/arts/class3/c6.png') }}" class="h-[18vw]" />
+        </div>
     </div>
 
 
-    {{-- panel 10 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>Have children use 4 ice-cream sticks and white glue to form a square in the
-                Thematic Activity Book. (Teacher to assist if help is needed.)</li>
+            <li>Have children say (explain) why these art works are called object prints.</li>
+        </ol>
+        <div class="flex flex-col items-center gap-[.5vw]">
+            <div class="flex items-center gap-[.5vw]">
+                <img src="{{ asset('assets/images/micet/n1/arts/class3/c1.png') }}" class="w-[16vw]" />
+                <img src="{{ asset('assets/images/micet/n1/arts/class3/c2.png') }}" class="w-[16vw]" />
+            </div>
+            <div class="flex items-baseline gap-[.5vw]">
+                <img src="{{ asset('assets/images/micet/n1/arts/class3/c3.png') }}" class="w-[16vw]" />
+                <img src="{{ asset('assets/images/micet/n1/arts/class3/c4.png') }}" class="w-[16vw]" />
+                <img src="{{ asset('assets/images/micet/n1/arts/class3/c5.png') }}" class="w-[16vw]" />
+            </div>
+        </div>
+    </div>
+
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Tell children that today they are going to create their own object prints.</li>
+            <li>Display sponges and objects (that have been prepared ahead), have
+                children name and talk about each of them.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Teacher demonstrates: place the surface of an object on a coloured
+                sponge, press to ensure that the surface is thoroughly coloured, then place
+                it on a drawing paper.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Give each child a drawing paper. Have children choose the objects and
+                colours they like, then encourage them to use their imagination and
+                creativity to create an interesting object prints art work.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Object Prints</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Have children use their imagination to make interesting prints with various
+                objects in the Thematic Activity Book.</li>
         </ol>
     </div>
 
@@ -349,16 +326,19 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children display their squares.</li>
-                <li>Get children to talk about the characteristic of a square: It
-                    has 4 equal sides.</li>
+                <li>Have children take turns to show and talk about their object
+                    prints. Have other children guess the objects used
+                    in each object prints art work.</li>
+                <li>Ask children: Why are your art works called object prints?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to find at least one object shaped like a square in the classroom.</li>
-                <li>Able to form a square with the ice-cream sticks.</li>
+                <li>Able to guess the object used in an object prints art work.</li>
+                <li>Able to say that an object prints art work is a picture
+                    formed by printing object with paint.</li>
+                <li>Able to use imagination and creativity to create object prints.</li>
             </ul>
         </div>
     </div>
@@ -372,8 +352,12 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get children to find an object shaped like a square from home, then
-                    bring and show it in class.</li>
+                <li>Set up a "printing corner" where children are encouraged
+                    to create object prints when they are free.</li>
+                <li>At home, have children collect objects that can make
+                    different prints and invite their parents to create an
+                    interesting object prints art work together with them. After
+                    that, have them bring the art work to class and share.</li>
             </ul>
         </div>
     </div>

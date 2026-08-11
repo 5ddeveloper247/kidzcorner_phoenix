@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 require __DIR__ . '/phonics/l1.php';
 require __DIR__ . '/phonics/l2.php';
 require __DIR__ . '/micet/micet.php';
+require __DIR__ . '/micet/applet.php';
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::get('/signin', [AuthController::class, 'showLoginForm']);
