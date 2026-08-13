@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Clean and Healthy</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -57,16 +57,18 @@
 
         <h3 class="title">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[40vw]">
-            <li>To understand the importance of putting effort in the things we do.</li>
-            <li>To enhance expression and inferential skills.</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Know some ways of staying healthy</li>
+            <li>Understand the importance of sleeping and waking up early,
+                maintaining personal hygiene, eating healthily and
+                exercising regularly</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Clean and Healthy</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -79,8 +81,8 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Clean and Healthy</h1>
 
         <div>
             <h3 class="title">Lesson Development</h3>
@@ -95,23 +97,24 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Clean and Healthy</h1>
 
-        <h3 class="p-title">Theme: Good Habits 1</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: Good Habits 2</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">It is a sunny day, Mummy Cat decides to take Candy Cat to the river to <br>
-            teach herto fish. Candy is happy that she is going to learn a new skill.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Tina loves to watch television. She stays up late just to watch television <br>
+            and usually wakes up late in the momning. One day, Tina's good friend, <br>
+            the frog, wakes her up as she is sleeping late into the momning.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c2.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What equipment is needed for fishing?<br>
-                <span class="text-[#f7b94a]">Guide the children in identifying the equipment needed for fishing.</span>
+                What time do you go to bed? Do you stay up late at night to watch television?<br>
+                <span class="text-[#f7b94a]">Guide children to develop the good habit of sleeping and waking up eary.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -120,15 +123,15 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">On the way, Candy meets Robbie Rooster and Rosie Rabbit. Candy <br>
-            invites them to go fishing but they say they have to finish their work first.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Tina goes out to play without having breakfast. She and Daisy Duckling <br>
+            play hopscotch in the garden. After a while, Tina starts to feel sick. She <br>
+            feels giddy and has a stomach ache.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c3.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                Would you go fishing with Candy if she invites you?<br>
-                <span class="text-[#f7b94a]">Encourage the children to decide and explain the reasons for their
-                    choice.</span>
+                Why do you think Tina is feeling sick?<br>
+                <span class="text-[#f7b94a]">Encourage children to express their views confidently.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -137,17 +140,15 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">At the river, Candy leamns to fish from her mother. Not long after, Mary <br>
-            Mantis comes by. Candy puts down the fishing rod and dances with <br>
-            Mary Mantis.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Daisy Duckling explains that Tina feels sick because she did not have <br>
+            breakfast. Just then, a mouse comes along and invites them to his house <br>
+            for breakfast.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c4.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think what Candy did is right?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they will not do things well if they
-                    <br>
-                    do it half-heartedly.</span>
+                Do you eat breakfast everyday? What will happen if you skip breakfast?<br>
+                <span class="text-[#f7b94a]">Explain the importance of eating breakfast.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -156,14 +157,16 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just as Candy is about to sit down after dancing, a dragonfly flies <br>
-            around it. Candy then plays with the dragonfly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">There is a lot of delicious food for breakfast. There are fruits, bread, <br>
+            cheese and milk on the table. Doctor Owl reminds them to wash their <br>
+            hands before eating.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c5.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                What is special about dragonflies?<br>
-                <span class="text-[#f7b94a]">Explain the characteristics of dragonflies to the children.</span>
+                What do you usually have for breakfast? <br>
+                What did you have for breakfast today?<br>
+                <span class="text-[#f7b94a]">Guide children to identify different healthy food items for breakfast.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -172,15 +175,15 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mummy Cat has already caught two fishes when Candy returns. Candy <br>
-            wants to catch a big fish like her mother.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Tina still does not feel well. So Doctor Owl takes Tina to his clinic. Doctor <br>
+            Owl tells Tina that she is feeling sick because she skipped her breakfast. <br>
+            He also tells Tina that she needs to go to bed early.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why could Mummy Cat catch two fishes while Candy had none?<br>
-                <span class="text-[#f7b94a]">Explain and teach the children the importance of putting effort
-                    in the things we do.</span>
+                What do you tell the doctorwhen you are sick?<br>
+                <span class="text-[#f7b94a]">Guide children to leam how to communicate with a doctor.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -189,16 +192,17 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just then, a beautiful butterfly flies by. Candy puts down the fishing rod <br>
-            again and starts to chase the butterfly. Candy accidentally falls into the <br>
-            river while running.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Doctor Owl prescribes some medicine for Tina and tells herto have 10 to <br>
+            12 hours of sleep every day. Tina follows Doctor Owl's instructions, she <br>
+            stays at home to rest and takes her medicine on time.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c7.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why did Candy fall into the river?<br>
-                <span class="text-[#f7b94a]">Explain to the children the dangers of not been observant
-                    when running.</span>
+                Do you take medicine when you are sick? <br>
+                Count the number of pills in the picture.<br>
+                <span class="text-[#f7b94a]">Guide children to understand the effects of medicine. <br>
+                    Encourage them to practise counting.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -207,15 +211,16 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Fortunately, Mama Duck rushes over in time and saves Candy. Mummy <br>
-            Cat tells Candy that she has to leam to concentrate and do one thing at <br>
-            a time and not do things half-heartedly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Tina soon recovers. But the frog has been eating too many sweets and <br>
+            chocolates and has grown too fat. The frog is now stuck in a glass <br>
+            bottle. Everyone pulls hard and finally frees him.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c8.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think Candy will concentrate on fishing on the next trip?<br>
-                <span class="text-[#f7b94a]">Guide the children in predicting the ending of the story.</span>
+                Do you eat a lot of junk food? Do you know your weight?<br>
+                <span class="text-[#f7b94a]">Have children weigh themselves. Guide them to understand what <br>
+                    Unk food is and how it affects our body.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -224,16 +229,15 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Candy decides to concentrate on catching a fish. She does not play <br>
-            with the dragonfly or butterfly when they fly by again. Finally, Candy <br>
-            manages to catch a big fish!</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c9.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Doctor Owl reminds them to sleep and wake up early, cut down on junk <br>
+            food and exercise regularly. From then on, they exercise regularly in the <br>
+            moming to stay strong and healthy.</h3>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c9.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why do you think Candy is able to catch a fish in the end?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they have concentrate and <br>
-                    put in effort in orderto leam a skill.</span>
+                Why do we need to exercise regularty?<br>
+                <span class="text-[#f7b94a]">Guide children to understand the importance of regular exercise.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -242,21 +246,25 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Clean and Healthy</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children explain why Candy is able to catch a fish
-                    in the end.</li>
+                <li>Ask children: What do you do to stay healthy? Guide
+                    children to understand the importance of sleeping and
+                    waking up early, maintaining personal hygiene, eating
+                    healthily and exercising regularly.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to determine if Candy's behaviour is correct.</li>
-                <li>Able to explain why Candy is able to catch a fish in the end.</li>
+                <li>Able to name some ways of staying healthy.</li>
+                <li>Able to understand the importance of sleeping and
+                    waking up early, maintaining personal hygiene, eating
+                    healthily and exercising regularly.</li>
             </ul>
         </div>
     </div>
@@ -316,8 +324,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;

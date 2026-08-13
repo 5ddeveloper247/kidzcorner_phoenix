@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,25 +47,25 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>To learn to draw a fish.</li>
-            <li>To differentiate sizes.</li>
-            <li>To learn to count up to 7.</li>
-            <li>To imitate the movements of a fish swimming.</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Understand the importance of sleeping early and waking up
+                early</li>
+            <li>Understand the rationale of why certain things should be
+                done only in the morning or only at night and certain other
+                things should be done both in the morning and at night</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Crayons.</li>
             </ul>
         </div>
     </div>
@@ -73,7 +73,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
@@ -89,7 +89,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Click on the video. Have the children observe and describe how a fish swims
@@ -104,7 +104,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Display the drawing of a fish. Have the children know that they are going to
@@ -116,7 +116,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Guide the children to complete the corresponding activity 2 in the Thematic
@@ -131,7 +131,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Display the picture. Have the children explain the differences between the
@@ -143,7 +143,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>Guide the children to complete the corresponding activity 2 in the Thematic
@@ -158,7 +158,7 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -181,7 +181,7 @@
 
     {{-- panel 37 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>

@@ -108,11 +108,11 @@
 
 
         <div class="col-span-3 flex justify-center items-center gap-[2vw]">
-        <a href="{{ url('/micet/n2/music/index') }}">
+        <a href="{{ url('/micet/n2/habit2/index') }}">
                 <img src="{{ asset('assets/images/micet/global/n2/mi19.png') }}" class="mx-auto d-block" />
             </a>
 
-        <a href="{{ url('/micet/n2/music/index') }}">
+        <a href="{{ url('/micet/n2/habit2/index') }}">
                 <img src="{{ asset('assets/images/micet/global/n2/mi20.png') }}" class="mx-auto d-block" />
             </a>
         </div>
