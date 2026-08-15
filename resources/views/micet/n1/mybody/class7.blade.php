@@ -39,7 +39,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[12vw]" />
+        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[10vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 

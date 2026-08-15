@@ -37,7 +37,7 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
@@ -61,7 +61,7 @@
         <div class="text-center space-y-[2vw]">
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
             </ul>
         </div>
@@ -95,7 +95,7 @@
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
@@ -109,7 +109,7 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
@@ -197,7 +197,7 @@
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
@@ -486,7 +486,7 @@
                 to prepare a balanced breakfast, lunch or dinner by selecting food from
                 the 3 main groups.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c5.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c5.png') }}" class="h-[18vw]" />
     </div>
 
 
@@ -502,7 +502,7 @@
 
     {{-- panel 30 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -838,6 +838,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

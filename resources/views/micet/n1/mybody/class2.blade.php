@@ -62,8 +62,8 @@
         <div class="text-start">
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-decimal panel-ul">
-                <li>Ask children: “”What is this?”” “”Where are the eyes?”” Have children pont <br>
+            <ul class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: “”What is this?”” “”Where are the eyes?”” Have children pont 
                     to the eyes.</li>
             </ul>
         </div>
@@ -76,7 +76,7 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="2">
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Ask children: "Where are your eyes?" "How many eyes do you have?" Have
                 children point to their own eyes. Tell them that everyone has two eyes. Point to
                 the eyes and guide children in counting.</li>
@@ -90,7 +90,7 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="3">
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Ask children: "What will happen if we have no eyes?"</li>
             <li>Have children do an experiment to confirm the functions of the eyes.</li>
         </ol>
@@ -100,10 +100,10 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -114,16 +114,14 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
                 understand that our eyes enable us to see the colours and shapes of objects.
                 Without our eyes, we will not be able to see anything.</li>
@@ -134,10 +132,10 @@
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -148,16 +146,14 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
                 understand that our eyes enable us to see the colours and shapes of objects.
                 Without our eyes, we will not be able to see anything.</li>
@@ -168,10 +164,10 @@
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -182,16 +178,14 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
                 understand that our eyes enable us to see the colours and shapes of objects.
                 Without our eyes, we will not be able to see anything.</li>
@@ -202,10 +196,10 @@
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -216,16 +210,14 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
                 understand that our eyes enable us to see the colours and shapes of objects.
                 Without our eyes, we will not be able to see anything.</li>
@@ -236,10 +228,10 @@
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -250,16 +242,14 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -270,16 +260,14 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -290,15 +278,13 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
     {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Have children close their eyes.</li>
             <li>Click to display picture, ask children whether they know what picture has
                 been displayed.</li>
@@ -309,30 +295,26 @@
                 </ul>
             </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="9">
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Tell children that our eyes enable us to see the colours and shapes of objetcs.
                 Ask them what the benefits of seeing are?
                 Let children find out together.</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
     </div>
 
 
     {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1.5vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Ask children: “”What do you see?”” (a clock)</li>
             <li>“”Hose does looking at a clock help us?”” (give us information - know what time
                 to do what thing) </li>
@@ -343,10 +325,10 @@
 
 
     {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Ask children: “”What do you see?”” (toilet signs)</li>
             <li>“”Hose does looking at a clock help us?”” (give us information - know which toilet
                 should we use)</li>
@@ -357,10 +339,10 @@
 
 
     {{-- panel 20 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Ask children: “”What do you see?”” (a wet floor sign)</li>
             <li>"Hose does looking at a clock help us?”” (give us information - know that the
                 floor is wet, we need to be careful in walking to avoid slipping and falling)</li>
@@ -371,10 +353,10 @@
 
 
     {{-- panel 21 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="12">
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
             <li>Ask children: “”Do you like all the things that you see?””
                 Let’s find out together!</li>
         </ol>
@@ -384,10 +366,10 @@
 
 
     {{-- panel 22 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
             <li>Guide children in understanding: Sometimes we like the things that we see and
                 sometimes we dislike the things we see.</li>
@@ -398,10 +380,10 @@
 
 
     {{-- panel 23 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
             <li>Guide children in understanding: Sometimes we like the things that we see and
                 sometimes we dislike the things we see.</li>
@@ -412,10 +394,10 @@
 
 
     {{-- panel 24 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
             <li>Guide children in understanding: Sometimes we like the things that we see and
                 sometimes we dislike the things we see.</li>
@@ -426,10 +408,10 @@
 
 
     {{-- panel 25 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
             <li>Guide children in understanding: Sometimes we like the things that we see and
                 sometimes we dislike the things we see.</li>
@@ -439,10 +421,10 @@
     </div>
 
     {{-- panel 26 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
             <li>Guide children in understanding: Sometimes we like the things that we see and
                 sometimes we dislike the things we see.</li>
@@ -453,10 +435,10 @@
 
 
     {{-- panel 27 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="15">
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
             <li>Teacher concludes: Our eyes do not just enable us to see the colours and
                 shapes of objects, but also give us useful information. Sometimes we like the
                 things we see and sometimes we dislike the things we see.</li>
@@ -471,10 +453,10 @@
 
 
     {{-- panel 28 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="17">
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
             <li>Guide children to complete the corresponding activity ni the
                 Thematic Activity Book.</li>
         </ol>
@@ -490,14 +472,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Guide children to complete the corresponding activity ni the
                     Thematic Activity Book.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Able to understand that our eyes enable us to see the
                     colours and shapes of objects.</li>
                 <li>Able to express what they like to see and what they dislike
@@ -514,7 +496,7 @@
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Get children to find out from their parents at home on how
                     to take care of their eyes, then share the information with
                     the class.</li>

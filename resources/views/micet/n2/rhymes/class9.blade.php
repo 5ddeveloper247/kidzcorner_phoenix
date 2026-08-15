@@ -76,7 +76,7 @@
                 <li>Ask them: What are the strange things mentioned in the rhyme?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class9/c1.png') }}" class="w-[25vw]" />
     </div>
 
 

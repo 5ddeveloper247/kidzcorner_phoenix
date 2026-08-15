@@ -39,7 +39,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: Action Game</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[12vw]" />
+        <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[9vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 

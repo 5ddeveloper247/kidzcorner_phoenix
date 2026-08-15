@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,17 +48,16 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the differences among cats, fishes, butterflies,
-                dragonflies, praying mantises and ducks.</li>
-            <li>To learn to distinguish the characteristics of different animals
-                according to the table.</li>
+            <li>Know what causes tooth decay</li>
+            <li>Understand the importance of brushing teeth</li>
+            <li>Develop observation skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -73,7 +72,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
@@ -88,7 +87,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Display the table chart on the whiteboard. Show the pictures of the animals
@@ -103,7 +102,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Display the pictures of cats. Have the children name the animal and describe
@@ -120,7 +119,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Display the pictures of fishes. Have the children name the animal and
@@ -137,7 +136,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Display the pictures of ducks. Have the children name the animal and
@@ -154,7 +153,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Click on the video to observe the duck paddling with its web feet and
@@ -169,7 +168,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Ducks have 2 wings (a pair of wings) which help them fly, they flap their wings
@@ -184,7 +183,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
             <li>Click on the video to observe that ducks can live on land, in the water and in
@@ -198,7 +197,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Display the pictures of butterflies. Have the children name the animal and
@@ -211,7 +210,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Butterflies have 6 legs and they feed mainly on nectar; etc.</li>
@@ -222,7 +221,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="12">
             <li>Display the picture of a dragonfly. Have the children name the animal and
@@ -235,7 +234,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="13">
             <li>Dragonflies have 6 legs and they feed mainly on insects such as mosquitoes,
@@ -247,7 +246,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="14">
             <li>Display the picture of a praying mantis. Have the children name the animal
@@ -259,7 +258,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="15">
             <li>Praying mantis feeds on insects such as the houseflies; etc.</li>
@@ -270,7 +269,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="16">
             <li>Click on the video to observe a praying mantis.</li>
@@ -283,7 +282,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="17">
             <li>Upon completion, have the children look at the table and explain the
@@ -300,7 +299,7 @@
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

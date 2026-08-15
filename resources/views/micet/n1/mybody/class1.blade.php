@@ -53,12 +53,12 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between items-center">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
-            
+
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
             </ul>
@@ -164,17 +164,17 @@
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center space-y-[1vw]">
         <p class="text-white text-[1.5vw]">The baker draws clothes on the gingerbread man! Great! The <br>
             cute gingerbread man is finally done!</p>
         <img src="{{ asset('assets/images/micet/n1/mybody/class1/c9.png') }}" class="w-[25vw]" />
 
         <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">Have you ever eaten a gingerbread man? Do you like it? Why? <br>
+            <p class="text-[1.5vw] text-white text-start">Have you ever eaten a gingerbread man? Do you like it? Why? <br>
                 <span class="text-[#f7b94a]">Encourage children to answer according to their own experience and
                     preference.</span>
             </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c10.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
         </div>
     </div>
 
@@ -183,30 +183,31 @@
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
 
-        <ol class="list-decimal panel-ul" start="2">
-            <li>Guide children to complete the corresponding activity int he <br>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Guide children to complete the corresponding activity int he
                 Thematic Activity Book.</li>
         </ol>
     </div>
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
 
-        <h3 class="title">Closure</h3>
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="title">Closure</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Have children recall what are the things drawn by the <br>
-                baker on the gingerbread man.</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children recall what are the things drawn by the <br>
+                    baker on the gingerbread man.</li>
+            </ul>
 
-        <h3 class="title">Evaluation</h3>
+            <h3 class="title">Evaluation</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Able to answer questions based on observation.</li>
-            <li>Able to enjoy listening to the story.</li>
-        </ul>
-
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to answer questions based on observation.</li>
+                <li>Able to enjoy listening to the story.</li>
+            </ul>
+        </div>
 
     </div>
 
@@ -521,6 +522,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush
