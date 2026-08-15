@@ -38,144 +38,185 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[12vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class8/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Learn to sing the body parts song</li>
-            <li>Identify different body parts</li>
-            <li>Learn to do actions when singing</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Develop fine motor skills - use a spoon to pass the beans
+                and a cup to pass the water</li>
+            <li>Learn to be patient</li>
+            <li>Enjoy playing with friends</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <div class="text-center space-y-[2vw]">
+            <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
-        </ul>
+            <ul class="list-disc panel-ul">
+                <li>Red, green or other beans, water</li>
+                <li>4 transparent containers (use to hold beans and water)</li>
+                <li>Each child a soup spoon</li>
+                <li>Each child a cup</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: “”Where is the nose of the gingerbread man?”” Have the children
-                    point to the nose.</li>
+                <li>Tell children that they are going to learn how to play the "Food Relay Race"
+                    game today.</li>
+                <li>Display the items needed for the game, have children name each of them.</li>
+                <li>Inform children that the game will be divided into 2 parts and they are
+                    going to start the first part by using the beans and spoon.</li>
             </ol>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Play music and sing the song.</li>
-            <li>Explain the meaning of the lyrics to children, then let children point at the
-                different body parts mentioned in the song.</li>
-            <li>Replay music and invite the children to sing the song.</li>
+            <li>Guide children through the following steps to carry out first part of the
+                game:
+                <ul class="list-disc">
+                    <li>Divide children into 2 groups. Have each group sit in a row.</li>
+                    <li>Place the container with beans at the beginning of each row and an
+                        empty container at the end.</li>
+                    <li>Distribute a spoon to each child (like picture below).</li>
+                </ul>
+            </li>
         </ol>
-
-        <div class="flex items-center">
-            <button id="sound-btn" class="w-[5vw]">
-                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-            </button>
-
-            <h4 class="text-[#f7b94a] text-[2vw]">
-                Head, body, hands and legs, hands and legs. <br>
-                Head, body, hands and legs, hands and legs. <br>
-                And eyes, and ears, and mouth, and nose. <br>
-                Head, body, hands and legs, hands and legs. <br>
-            </h4>
-        </div>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class8/c2.png') }}" class="h-[15vw]" />
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>After children are familiar with the song, guide them in learning how to do the
-                actions according to the lyrics:
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>
+                Guide children through the following steps to carry out first part of the game:
                 <ul class="list-disc">
-                    <li>For the 1st, 2nd and 4th line: hands touch head, hug body, swing hands,
-                        then jump with both legs.</li>
-                    <li>For the 3rd line: hands point to eyes, pull ears, touch mouth, then touch
-                        nose.</li>
+                    <li>When the game starts, first child of the row uses the spoon to scoop beans and pass them to the
+                        second child (pour the beans onto the spoon of the second child); the second child will then pass
+                        the beans to the third child; repeat this until the last child pours the beans into the container at
+                        the end.</li>
+
+                    <li>The game continues and only ends when teacher announces "time's up" (teacher decides based on the
+                        beans collected by each group).</li>
+
+                    <li>Teacher guides children in comparing the beans in the containers to find out who is the winning
+                        group. <br>
+                        Note:Remind children that they are not allowed to pick up beans that fall on the
+                        floor.</li>
                 </ul>
             </li>
         </ol>
-
-        <div class="flex items-center">
-            <button id="sound-btn" class="w-[5vw]">
-                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-            </button>
-
-            <h4 class="text-[#f7b94a] text-[2vw]">
-                Head, body, hands and legs, hands and legs. <br>
-                Head, body, hands and legs, hands and legs. <br>
-                And eyes, and ears, and mouth, and nose. <br>
-                Head, body, hands and legs, hands and legs. <br>
-            </h4>
-        </div>
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Invite children to do the actions when singing the song.</li>
+            <li>After that, guide children to carry out second part of the game using the
+                water and cup.</li>
         </ol>
+    </div>
 
-        <div class="flex items-center">
-            <button id="sound-btn" class="w-[5vw]">
-                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-            </button>
 
-            <h4 class="text-[#f7b94a] text-[2vw]">
-                Head, body, hands and legs, hands and legs. <br>
-                Head, body, hands and legs, hands and legs. <br>
-                And eyes, and ears, and mouth, and nose. <br>
-                Head, body, hands and legs, hands and legs. <br>
-            </h4>
-        </div>
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Guide children through the following steps to carry out the second part of
+                the game:
+                <ul class="list-disc">
+                    <li>Divide children into 2 groups. Have each group sit in a row.</li>
+                    <li>Place the container with water at the beginning of each row and an
+                        empty container at the end.</li>
+                    <li>Distribute a cup to each child (like picture below).</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class8/c3.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center ">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Guide children through the following steps to carry out the second part of
+                the game:
+                <ul class="list-disc">
+                    <li>When the game starts, first child of the row fills the cup with water and
+                        passes it to the second child (pour the water into the cup of the
+                        second child); the second child will then pass the water to the third
+                        child; repeat this until the last child pours the water into the container
+                        at the end.</li>
+                    <li>The game continues and only ends when teacher announces "time's
+                        up" (teacher decides based on the water collected by each group).</li>
+                    <li>Teacher guides children in comparing the water in the containers to
+                        find out who is the winning group.</li>
+                </ul>
+            </li>
+        </ol>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to make a facial expression and
-                    let the others guess whether it is a happy or an unhappy
-                    face (guide children in naming some common expressions).</li>
+                <li>Have children take turns to share whether the game was fun or not and
+                    how they could prevent beans and water from falling to the floor.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate between happy and unhappy facial expressions.</li>
-                <li>Able to make a few facial expressions.</li>
+                <li>Able to pass beans and water patiently to a friend.</li>
+                <li>Able to play games happily with friends.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Food Relay Race</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>During free time, have children replace the food items with other
+                    items and play the game again.</li>
             </ul>
         </div>
     </div>
@@ -235,8 +276,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -495,6 +536,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

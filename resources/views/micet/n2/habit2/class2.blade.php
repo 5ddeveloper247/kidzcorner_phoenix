@@ -79,11 +79,13 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the picture of a fish. Have the children name it and describe where it
-                    lives.</li>
+                <li>Let children recall the storyline of "Clean And Healthy". Ask them: Why was
+                    Tina feeling sick? What sleeping habit did she have? Guide children to
+                    understand that staying up late and waking up late will make us feel tired the
+                    entire day. Whereas sleeping early and waking up early will ensure adequate
+                    rest and will give us better health.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -92,13 +94,10 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Click on the video. Have the children observe and describe how a fish swims
-                in the water. Guide the children in imitating the movements of the fish by
-                swinging their arms left and right.</li>
+            <li>Ask children: What is the child in the picture doing? When do you do the same
+                thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class2/v1.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -107,10 +106,10 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Display the drawing of a fish. Have the children know that they are going to
-                learn to draw a fish.</li>
+            <li>Ask children: What is the child in the picture doing? When do you do the same
+                thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -119,13 +118,10 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children refer to the example provided to draw a fish.
-                Demonstrate how to draw a fish on the whiteboard, then walk around to assist
-                children in drawing. Encourage the children to draw in the fish scales, fins, etc
-                and colour it with their favourite colours.</li>
+            <li>Ask children: What is the child in the picture doing? When do you do the same
+                thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c3.png') }}" class="w-[40vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -134,10 +130,10 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the picture. Have the children explain the differences between the
-                two fish. (one big and one small)</li>
+            <li>Ask children: What is the child in the picture doing? When do you do the same
+                thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c4.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -146,13 +142,48 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children count the number of fishes that Candy
-                caught and differentiate the number of big and small fishes.</li>
-            <li>Have the children state if there are more big fishes or more small fishes.</li>
-            <li>Have the children colour the big fishes.</li>
+            <li>Ask children: What is the child in the picture doing? When do you do the same
+                thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: What is the child in the picture doing? When do you do the same
+                thing? What time of the day should we do this activity? Why?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c6.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Ask children: What are the things that should be done only in the morning?
+                Why? What are the things that should be done only at night? Why? What are
+                the things that should be done both in the morning and at night? Why?
+                Guide children to understand the rationale of why certain things should be
+                done only in the morning or only at night and certain other things should be
+                done both in the morning and at night.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
     </div>
 
 
@@ -164,33 +195,24 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their works and explain the
-                    characteristics of their fish.</li>
+                <li>Ask children : Why should we sleep early and wake up early?
+                    What are the things that we should do only in the morning?
+                    Why? What are the things that we should do only at night?
+                    Why? What are the things that we should do both in the
+                    morning and at night? Why?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate sizes and count correctly.</li>
-                <li>Able to imitate the movements of a fish swimming.</li>
-                <li>Able to draw a fish by referring to the example.</li>
+                <li>Able to state why certain things should be done only in the
+                    morning or only at night and certain other things should be
+                    done both in the morning and at night.</li>
+                <li>Able to state the importance of sleeping early and waking up early.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage the children to draw different types of fishes.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -245,8 +267,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;

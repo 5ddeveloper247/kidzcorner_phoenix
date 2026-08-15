@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -371,7 +371,7 @@
             <li>Ask children: “””Have you ever eaten an apple?”” “”What does it taste like?””
                 “”How do you eat it?””</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c14.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c14.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -383,8 +383,10 @@
             <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
                 and shape?" "What food can it be made into?"</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[20vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">oranges</h5>
+        <div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[18vw]" />
+            <h5 class="text-[#f7b94a] text-[1.7vw]">oranges</h5>
+        </div>
     </div>
 
 
@@ -433,8 +435,10 @@
             <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
                 and shape?" "What food can it be made into?"</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c19.png') }}" class="h-[20vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">watermelon</h5>
+        <div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c19.png') }}" class="h-[18vw]" />
+            <h5 class="text-[#f7b94a] text-[1.7vw]">watermelon</h5>
+        </div>
     </div>
 
 
@@ -482,33 +486,36 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="30">
             <li>Have the children name the fruits.</li>
         </ol>
-        <div class="grid grid-cols-6 gap-4 justify-items-center">
+        <div class="flex flex-col gap-[1vw] items-center">
 
-            <div class="col-span-3">
-                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c19.png') }}" class="h-[8vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">watermelon</h5>
+            <div class="flex items-center gap-[3vw]">
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c19.png') }}" class="h-[8vw]" />
+                    <h5 class="text-[#f7b94a] text-[1.7vw] text-center">watermelon</h5>
+                </div>
+
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c22.png') }}" class="w-[10vw]" />
+                    <h5 class="text-[#f7b94a] text-[1.7vw] text-center">bananas</h5>
+                </div>
             </div>
 
-            <div class="col-span-3">
-                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c22.png') }}" class="w-[10vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">bananas</h5>
-            </div>
+            <div class="flex items-center gap-[1.5vw]">
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c13.png') }}" class="w-[10vw]" />
+                    <h5 class="text-[#f7b94a] text-[1.7vw] text-center">apples</h5>
+                </div>
 
-            <div class="col-span-2">
-                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c13.png') }}" class="w-[10vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">apples</h5>
-            </div>
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[8vw]" />
+                    <h5 class="text-[#f7b94a] text-[1.7vw] text-center">orange</h5>
+                </div>
 
-            <div class="col-span-2">
-                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[8vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">orange</h5>
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c17.png') }}" class="h-[8vw]" />
+                    <h5 class="text-[#f7b94a] text-[1.7vw] text-center">grapes</h5>
+                </div>
             </div>
-
-            <div class="col-span-2">
-                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c17.png') }}" class="h-[8vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">grapes</h5>
-            </div>
-
         </div>
     </div>
 
@@ -673,7 +680,7 @@
                 our food more easily and have regular bowel movement.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c23.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c23.png') }}" class="h-[15vw]" />
     </div>
 
 
@@ -695,14 +702,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Have children take turns to talk about the fruits and vegetables that they
                     have eaten and the benefits of eating them.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Able to know that most fruits are sweet and can be eaten raw.</li>
                 <li>Able to know that food from the vegetables and fruits group promotes
                     good digestive system and regular bowel movement.</li>
@@ -718,7 +725,7 @@
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>At home, have children spot food from the vegetables and fruits
                     group when having dinner and tell their parents about the benefit
                     of eating them. Back in the class, have children take turns to share
@@ -1040,6 +1047,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

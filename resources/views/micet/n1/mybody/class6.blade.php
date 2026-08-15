@@ -154,7 +154,7 @@
                 certain things and sometimes we dislike the feeling of touching certain things.</li>
         </ol>
 
-        <div class="flex justify-between items-center w-full">
+        <div class="flex justify-between items-center w-[35vw]">
             <div>
                 <img src="{{ asset('assets/images/micet/n1/mybody/class6/c3.png') }}" class="w-[20vw]" />
                 <h5 class="text-[#f7b94a] text-[1.7vw]">blocks</h5>
@@ -206,12 +206,12 @@
 
         <div class="flex justify-between items-center w-full">
             <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class4/c2.png') }}" class="w-[20vw]" />
+                <img src="{{ asset('assets/images/micet/n1/mybody/class4/c2.png') }}" class="w-[18vw]" />
                 <h5 class="text-[#f7b94a] text-[1.7vw]">hot chocolate</h5>
             </div>
 
             <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c7.png') }}" class="w-[20vw]" />
+                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c7.png') }}" class="w-[18vw]" />
                 <h5 class="text-[#f7b94a] text-[1.7vw]">ice cubes</h5>
             </div>
         </div>
@@ -231,7 +231,7 @@
 
         <div class="flex justify-between items-center w-full">
             <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class4/c8.png') }}" class="w-[20vw]" />
+                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c8.png') }}" class="w-[20vw]" />
                 <h5 class="text-[#f7b94a] text-[1.7vw]">water</h5>
             </div>
 
@@ -276,14 +276,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[47vw]">
                 <li>Let the children take turns to say what things they like and
                     dislike to touch.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[47vw]">
                 <li>Able to understand that our hands enables us to hold, touch and feel objects.</li>
                 <li>Able to express likes and dislikes of touching certain things.</li>
             </ul>
@@ -298,7 +298,7 @@
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[47vw]">
                 <li>Get children to move around and touch different objects at
                     home. Have them identify things that they like and dislike
                     touching, then share the experience with their parents.</li>

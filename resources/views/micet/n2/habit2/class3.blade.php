@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,25 +47,32 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>To understand the concept of length.</li>
-            <li>To learn to compare the lengths of two or three objects.</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Understand the importance of having three meals a day</li>
+            <li>Understand that eating too much junk food is bad for our
+                health as we will become overweight</li>
+            <li>Experience the inconveniences of being overweight</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
         <div>
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Two pencils of different lengths.</li>
-                <li>Three different lengths of fishing rods made in advance.</li>
-                <li>Crayons</li>
+                <li>1 kg bag of sand or rice (one bag per group)</li>
+                <li>250 grams bags of sand or rice (four bags per group)</li>
+                <li>One big towel (preferably with nylon fastener, easier for
+                    children to put on) for tying the 1 kg bag of sand around the
+                    child's waist</li>
+                <li>Four small towels (preferably with nylon fastener, easier for
+                    children to put on) for tying the 250 grams bags of sand
+                    around the child's wrists and ankles</li>
             </ul>
         </div>
     </div>
@@ -73,100 +80,90 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the two pencils of different lengths. Have the children state which
-                    pencil is longer and which is shorter. Guide the children in understanding the
-                    concept of length.</li>
-                <li>Have the children look for things in the classroom that are long and short.</li>
+                <li>Ask children: Why do we eat? What will happen if we stopped eating? Guide
+                    children to understand that food gives us all the nutrients that our body needs
+                    to live and grow. If we stopped eating, we will be hungry; we will have no
+                    energy to work or play; we will not grow strong and healthy, etc.</li>
+                <li>Ask children: How many meals do you have everyday? Guide children to
+                    state- breakfast, lunch and dinner.</li>
             </ol>
-        </div>
-        <div class="flex">
-            <div class=" flex flex-col justify-between">
-                <h2 class="text-white text-[2vw]">long</h2>
-                <h2 class="text-white text-[2vw]">short</h2>
-            </div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c1.png') }}" class="h-[12vw]" />
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Display the first 2 fishing rods (exclude the shortest fishing rod). Have the
-                children state which rod is longer and which is shorter.</li>
+            <li>Ask children: What is junk food? Guide children to understand that food such
+                as sweets, potato chips and ice cream are junk food. We usually eat them in
+                between meals.</li>
+            <li>Ask children: Do you like to eat junk food? Why? Guide children to understand
+                that most people like to eat junk food as it is delicious. However, junk food
+                contains large amounts of sugars and fats which are unhealthy and will make
+                us gain more weight.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Display the shorter two of the three fishing rods. Have the children state which
-                rod is longer and which is shorter.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Inform children that they are going to experience being overweight.</li>
+            <li>Guide children to understand that when people put on weight, most of the
+                weight gained is added around their waists, arms and thighs.</li>
+            <li>Tie the 1 kg bag of sand around a child's waist and the four 250 grams bags of
+                sand around his/her wrists and ankles to let child experience a "gain in
+                weight".</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[20vw]" />
-
     </div>
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the three fishing rods. Have the children observe that when the middle
-                rod is compared with the first rod, it is shorter; but when it is compared with the
-                last rod, it is longer. Guide the children in understanding relativity of length,
-                that is, they can only tell whether an object is longer or shorter by comparison.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Let children walk around with the weights and describe the feeling of being
+                overweight. Ask the following questions to help children express how they feel:
+                <ul>
+                    <li> a. Can you walk as fast as you usually do? </li>
+                    <li>b. Can you play ball and skip rope as well as you usually do? </li>
+                    <li>c. Do you feel as if you have become more clumsy? </li>
+                    <li>d. Do you like the feeling of becoming overweight? </li>
+                    <li> e. (After removing the weights) How do you feel when your weight is
+                        reduced? Do you feel more relaxed?</li>
+                </ul>
+            </li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[11vw]" />
-        </div>
     </div>
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask the children: "Which is the longest fishing rod?"; "Which is the shortest
-                fishing rod?". Guide the children in understanding the use of superlatives in
-                comparing more than two objects.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Organise children into groups and distribute the sand bags and towels. Have
+                children take turns experiencing being overweight.</li>
+            <li>Let children discuss if they should eat junk food and why. Explain that junk
+                food should only be eaten in small amounts and that eating large amounts of
+                them is unhealthy and will cause one to gain weight. <br>
+                (Note: During the lesson, remind children to be sensitive to the feelings of their
+                friends who are overweight.)</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[11vw]" />
-        </div>
     </div>
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Click on the picture below to open the Software Magnetic Board. Randomly
-                select 2 of the 3 fishing rods and have the children state which rod is longer
-                and which rod is shorter. Have the children arrange the three rods in order of
-                their length, then have the children state which rod is the longest and which
-                rod is the shortest.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c4.png') }}" class="w-[20vw]" />
-    </div>
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -175,42 +172,26 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children compare the lengths of objects found in
-                    the classroom.</li>
+                <li>Ask children to suggest ways to help them reduce their
+                    intake of junk food.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate long and short.</li>
-                <li>Able to compare the lengths of two or three objects.</li>
-                <li>Able to arrange objects according to length.</li>
+                <li>Know the importance of having three meals a day.</li>
+                <li>Know that eating too much junk food is bad for our health
+                    as we will become overweight.</li>
+                <li>Able to state the inconveniences of being overweight.</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children compare the lengths of things found at
-                    home and then invite them to share their findings with their
-                    classmates.</li>
-            </ul>
-        </div>
-    </div>
-
 
 
 
@@ -266,8 +247,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;

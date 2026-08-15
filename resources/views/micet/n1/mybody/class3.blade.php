@@ -542,14 +542,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Let the children take turns and share what sounds they like and
                     dislike to hear.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Able to understand that our ears enable us to hear sounds.</li>
                 <li>Able to express what sounds they like and don't like to
                     hear.</li>
@@ -565,7 +565,7 @@
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Get children to find out from their parents at home on how
                     to take care of their ears, then share the information with
                     the class.</li>

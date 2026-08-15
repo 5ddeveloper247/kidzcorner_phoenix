@@ -282,7 +282,7 @@
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Let the children find things with a distinct smell at home, and
                     then bring and show them to the class.</li>
             </ul>

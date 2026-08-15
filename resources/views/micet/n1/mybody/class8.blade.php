@@ -39,7 +39,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[12vw]" />
+        <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[9vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
@@ -136,14 +136,14 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Invite children to do the actions when singing the song.</li>
         </ol>
 
-        <div class="flex items-center">
+        <div class="flex items-center mt-[3vw]">
             <button id="sound-btn" class="w-[5vw]">
                 <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
             </button>

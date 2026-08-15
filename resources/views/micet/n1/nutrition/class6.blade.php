@@ -43,7 +43,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[45vw]">
             <li>Learn to make fruits into juices</li>
             <li>Know that when two juices are mixed together, the colour
                 and taste will change</li>

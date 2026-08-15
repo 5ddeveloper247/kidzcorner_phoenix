@@ -37,25 +37,27 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[12vw]" />
+        <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[9vw]" />
 
-        <h3 class="ptitle">Objectives:</h3>
+        <div class="space-y-[1vw]">
+            <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Use imagination to make a gingerbread man</li>
-        </ul>
+            <ul class="list-disc panel-ul">
+                <li>Use imagination to make a gingerbread man</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
 
         <h3 class="ptitle">Preparations</h3>
 
-        <ol class="list-decimal panel-ul w-[50vw]">
+        <ol class="list-decimal panel-ul">
             <li>Thematic Activity Book</li>
             <li>An outline picture of a Gingerbread man for each child</li>
             <li>Colour pencils or crayons</li>
@@ -446,6 +448,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

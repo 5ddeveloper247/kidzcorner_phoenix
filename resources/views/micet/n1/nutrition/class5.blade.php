@@ -47,7 +47,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[45vw]">
             <li>Make a sandwich based on individual preference following the balanced diet principle</li>
             <li>Know that we must wash hands before and after touching food</li>
             <li>Learn the correct way of washing hands</li>
@@ -136,13 +136,13 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[47vw]" start="5">
             <li>Click on the picture to open the Software Magnetic Board. Guide children to select food
                 from each category to make a well-balanced sandwich.
                 [Note: Guide children to place the food items apart, so each can be seen.]</li>
         </ol>
         <div class="bg-[#D9D9D9] rounded-[.5vw] p-[.5vw]">
-            <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c2.png') }}" class="h-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c2.png') }}" class="h-[18vw]" />
         </div>
     </div>
 
@@ -151,7 +151,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[48vw]" start="6">
             <li>Inform children that they are going to make a healthy and yummy
                 sandwich</li>
             <li>Tell children that we must wash hands before touching any food because
