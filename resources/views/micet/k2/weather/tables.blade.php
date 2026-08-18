@@ -41,11 +41,12 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Learn some well-known children's songs and nursery rhymes.</li>
-            <li>Use imagination to modify songs and nursery rhymes by substituting some words in them.</li>
-            <li>Learn to sing and move to the rhythm of the song.</li>
-            <li>Identify three basic shapes: triangle, square, and circle.</li>
-            <li>Understand the characteristics and uses of wool.</li>
+            <li>Understand the characteristics of different types of weather and their effects on people's lives.</li>
+            <li>Learn about animals, plants, and insects that can forecast the weather.</li>
+            <li>Understand the causes of some weather phenomena.</li>
+            <li>Develop safety awareness during certain weather conditions.</li>
+            <li>Conduct experiments on measuring wind speed, rainfall, and simulating a tornado.</li>
+            <li>Enhance interest in weather observation by understanding the basic operation of a weather station.</li>
         </ol>
     </div>
 
@@ -53,7 +54,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/k1/weather/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -61,7 +62,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/weather/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 
@@ -121,8 +122,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

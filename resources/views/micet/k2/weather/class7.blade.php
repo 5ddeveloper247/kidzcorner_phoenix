@@ -38,30 +38,33 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[12vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[9vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Learn to sing the song "Rock-A-Bye, Baby"</li>
-            <li>Learn to sing and move to the rhythm of the song</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>To make an anemometer and enhance hands-on skills.</li>
+            <li>To learn to measure wind speed and develop an interest in scientific exploration.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
-            
-            <ul class="list-disc panel-ul w-[45vw]">
-            <li>Thematic Activity Book</li>
-            <li>Create some simple movements to accompany the song
-                (e.g. place both hands in front of the body in rocking
-                position, sway the body, bend over, lie on the floor, etc.)</li>
+
+            <ul class="list-disc panel-ul">
+                <li>Thematic Activity Book</li>
+                <li>An anemometer made in advance.</li>
+                <li>5 small paper cups (per child).</li>
+                <li>2 soda straws (hard type) (per child).</li>
+                <li>Pins, scissors, hole punchers, staplers.</li>
+                <li>Pencils with eraser on one end.</li>
+                <li>Electric Fan.</li>
             </ul>
         </div>
     </div>
@@ -69,200 +72,197 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Click to play the animation. Let the children listen to the song "Rock-A-Bye,
-                    Baby". Discuss what the song is about.</li>
+                <li>Display the anemometer and ask the children what will happen to it when the wind blows. Guide the
+                    children in explaining that it will rotate. Ask the children what will happen if the wind gets stronger.
+                    Conduct the experiment using a fan. Guide the children in concluding: the stronger the wind, the faster
+                    the anemometer rotates. Thus, drawing forth the concept of wind speed.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class7/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children: What is a cradle? What is its use? Guide children to understand
-                that a cradle is a baby bed which can be rocked back and forth gently and
-                this rocking motion helps the baby to sleep. </li>
-            <li>Ask children: Have you seen a cradle? Where did you see it? What does it
-                look like? How does it move?</li>
+            <li>Inform children they are going to make an anemometer to measure wind speed.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class7/c2.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
-    {{-- panel 5 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate making an anemometer:
+                <ul>
+                    <li> a. Punch holes on the sides of four cups around 1.2 cm below the rim.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate making an anemometer:
+                <ul>
+                    <li>b. Punch four equally spaced holes on the sides of the fifth cup around 0.6
+                        cm below the rim. Punch a hole at the bottom of the cup.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate making an anemometer:
+                <ul>
+                    <li>c. Push one straw through the hole of one cup, folding it at the opening of
+                        the cup and staple. Repeat likewise with another cup and a straw.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate making an anemometer:
+                <ul>
+                    <li>d. Push one straw through the two corresponding holes on the 5th cup.
+                        Push the other straw through the other two holes.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate making an anemometer:
+                <ul>
+                    <li>e. Push the remaining two cups through the respective ends of the straw,
+                        fold the straws at the opening of the cups and staple (note: the opening
+                        of each cup to face the bottom of the cup in front).</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate making an anemometer:
+                <ul>
+                    <li>f. Fix the two straws with a pin at the intersecting point.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate making an anemometer:
+                <ul>
+                    <li>g. Pierce the eraser end of the pencil through the hole on the bottom of
+                        the 5th cup. Pierce the pin (where the intersecting point of the straw is)
+                        through the eraser to complete making the anemometer.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class7/c1.png') }}" class="h-[18vw]" />
+    </div>
+
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Read out and explain the lyrics to the children. Invite the children to recite the
-                lyrics together.</li>
+            <li>Upon completion, lead children to an open space in the outdoors. Have the children take out their
+                anemometers and observe the speed of rotation and encourage them to explain how to determine the speed of
+                the wind.</li>
+            <li>If there is no wind, conduct the experiment with a fan.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            Rock-a-bye, baby, <br>
-            On the treetop, <br>
-            When the wind blows <br>
-            The cradle will rock; <br>
-            When the bough breaks <br>
-            The cradle will fall, <br>
-            And down comes the baby, <br>
-            Cradle and all.
-        </h4>
     </div>
 
 
-    {{-- panel 5 --}}
+    {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ask children: Why did the cradle in the song fall? What would happen to the
-                baby if the cradle fell to the ground? Guide children to understand that we
-                have to be very careful when looking after a baby. </li>
-        </ol>
-        <h4 class="text-white text-[1.8vw] text-start">
-            Rock-a-bye, baby, <br>
-            On the treetop, <br>
-            When the wind blows <br>
-            The cradle will rock; <br>
-            When the bough breaks <br>
-            The cradle will fall, <br>
-            And down comes the baby, <br>
-            Cradle and all.
-        </h4>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li> When children are familiar with the lyrics, let them learn to sing the song. </li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                Rock-a-bye, baby, <br>
-                On the treetop, <br>
-                When the wind blows <br>
-                The cradle will rock; <br>
-                When the bough breaks <br>
-                The cradle will fall, <br>
-                And down comes the baby, <br>
-                Cradle and all.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate how to sing and move to the rhythm of the song with the simple
-                movements planned beforehand.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                Rock-a-bye, baby, <br>
-                On the treetop, <br>
-                When the wind blows <br>
-                The cradle will rock; <br>
-                When the bough breaks <br>
-                The cradle will fall, <br>
-                And down comes the baby, <br>
-                Cradle and all.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Guide children to sing the song and move to the rhythm of the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                Rock-a-bye, baby, <br>
-                On the treetop, <br>
-                When the wind blows <br>
-                The cradle will rock; <br>
-                When the bough breaks <br>
-                The cradle will fall, <br>
-                And down comes the baby, <br>
-                Cradle and all.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+            <li>Guide children to complete the corresponding activities in the Thematic Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Measure Wind Speed</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite some children to perform the song with the
-                    movements.</li>
+                <li>Have the children discuss their observations. Guide the children in understanding that although the
+                    speed of rotation of their anemometers may be different, the anemometers have something in common, the
+                    stronger the wind, the faster the rotation.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Rock-A-Bye, Baby".</li>
-                <li>Able to sing and move to the rhythm of the song.</li>
+                <li>Able to state the use of an anemometer.</li>
+                <li>Able to make an anemometer.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Provide the song in the activity corner for the children to
-                    sing and perform the song on their own.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -319,8 +319,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

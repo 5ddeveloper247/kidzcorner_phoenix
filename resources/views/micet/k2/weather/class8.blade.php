@@ -38,197 +38,184 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Learn to sing the song "I'm A Little Teapot"</li>
-            <li>Learn to sing and move to the rhythm of the song</li>
+        <ul class="list-disc panel-ul w-[30vw]">
+            <li>To explore the different methods of creating rainbows.</li>
+            <li>To appreciate the beauty of colours.</li>
+            <li>To experience the joys of success.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Create some simple movements to accompany the song
-                    (e.g. place one hand at the waist to form the handle, the
-                    other hand at the side of the body to form the spout, bend
-                    knees, tiptoe, jump, tilt the body to the spout side)</li>
+                <li>Soapy water (one basin per group).</li>
+                <li>Straws (one per child).</li>
+                <li>Transparent cups (one per group).</li>
+                <li>Containers (one per group).</li>
+                <li>Mirrors (one per group).</li>
             </ul>
+            <div class="mt-[2vw]">
+                <h3 class="panel-ul" >For Optional Activity:</h3>
+                <ul class="list-disc panel-ul">
+                    <li>Sprinkler.</li>
+                </ul>
+            </div>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Click to play the animation. Let the children listen to the song "I'm A Little
-                    Teapot". Discuss what the song is about.</li>
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Have the children name what they see in the picture. Have them explain when a rainbow appears and what
+                    the colours are. Guide the children to understand that a rainbow will appear when the sun shines at an
+                    angle after the rain and that it has seven colours.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class8/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Ask children: What is this? What is its use? Have you seen it before?</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Click on the video to observe a rainbow in the mist of the sky after the rain.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c2.png') }}" class="w-[30vw]" />
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class8/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Guide children to understand that a teapot is a vessel used to make tea.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Click on the video to observe a rainbow in the mist of the waterfall.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c3.png') }}" class="h-[20vw]" />
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class8/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Read out and explain the lyrics to the children. Invite the children to recite the
-                lyrics together.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Click on the video to observe a rainbow in the mist of the fountain spray.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            I'm a little teapot <br>
-            Short and stout <br>
-            Here is my handle <br>
-            Here is my spout <br>
-            When I get all steamed up <br>
-            Hear me shout: <br>
-            Just tip me over and pour me out!
-        </h4>
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class8/v3.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>When children are familiar with the lyrics, let them learn to sing the song.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Guide children in exploring other methods of creating a rainbow: Dip one end of a straw in the basin of soap
+                water, then use the straw to blow the bubbles into the air to see the rainbow colours of the bubbles under
+                the sun. (Warn children never to look directly at the sun.)</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                I'm a little teapot <br>
-                Short and stout <br>
-                Here is my handle <br>
-                Here is my spout <br>
-                When I get all steamed up <br>
-                Hear me shout: <br>
-                Just tip me over and pour me out!
-            </h4>
-        </div>
+        <img src="{{ asset('assets/images/micet/k2/weather/class8/c2.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Demonstrate how to sing and move to the rhythm of the song with the simple
-                movements planned beforehand.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Click on the video to first demonstrate the experiment. Then guide the children to place a transparent
+                container filled with water at an angle to the sun and observe the formation of a rainbow on the ground.
+                (Warn children never to look directly at the sun.)</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                I'm a little teapot <br>
-                Short and stout <br>
-                Here is my handle <br>
-                Here is my spout <br>
-                When I get all steamed up <br>
-                Hear me shout: <br>
-                Just tip me over and pour me out!
-            </h4>
-        </div>
+        <video class="h-[19vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class8/v4.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Guide children to sing the song and move to the rhythm of the song.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Click on the video to first demonstrate the experiment. Then guide the children to place a mirror at an
+                angle in a container filled with water and observe the formation of a rainbow reflected on the wall. (Warn
+                children never to look directly at the sun).</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                I'm a little teapot <br>
-                Short and stout <br>
-                Here is my handle <br>
-                Here is my spout <br>
-                When I get all steamed up <br>
-                Hear me shout: <br>
-                Just tip me over and pour me out!
-            </h4>
-        </div>
+        <video class="h-[19vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class8/v5.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>(Optional activity) Use the sprinkler to spray water into the air for the children to see the rainbow in the
+                mist. (Warn children never to look directly at the sun).</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite some children to perform the song with the
-                    movements.</li>
+                <li>Have the children explain a few methods of creating rainbow colours.</li>
+                <li>Have the children name the colours and shape of the rainbow.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "I'm A Little Teapot".</li>
-                <li>Able to sing and move to the rhythm of the song.</li>
+                <li>Able to create a rainbow.</li>
+                <li>Able to explain various methods of creating a rainbow.</li>
+                <li>Able to name the colours and shape of a rainbow.</li>
             </ul>
         </div>
     </div>
@@ -236,14 +223,14 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Where is the Rainbow?</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Provide the song in the activity corner for the children to
-                    sing and perform the song on their own.</li>
+                <li>Have the children be magicians and create their own rainbows at home for their family members to see.
+                </li>
             </ul>
         </div>
     </div>
@@ -303,8 +290,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -368,6 +355,15 @@
                     currentAudio.currentTime = 0;
                 }
             }
+            
+            function stopAllVideos() {
+                document.querySelectorAll('.phonics-panel video').forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                    video.currentTime = 0;
+                });
+            }
 
             function playSlideAudio(slideIndex) {
                 // Stop any currently playing audio
@@ -400,6 +396,9 @@
             function showSlide(slideIndex) {
                 // Stop audio from previous slide
                 stopCurrentAudio();
+
+                // Stop any playing panel videos too (fixes video-not-pausing bug)
+                stopAllVideos();
 
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
@@ -464,6 +463,7 @@
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
                     stopCurrentAudio();
+                    stopAllVideos();
                     window.location.href = returnURL;
                     return;
                 }
@@ -503,6 +503,7 @@
 
             function handleDone() {
                 stopCurrentAudio();
+                stopAllVideos();
 
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;

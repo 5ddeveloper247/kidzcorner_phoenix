@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,73 +47,46 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Understand the characteristics and uses of wool</li>
-            <li>Develop fine motor skills through a drawing activity</li>
+        <ul class="list-disc panel-ul w-[35vw]">
+            <li>To learn about animals, plants and insects that can forecast the weather.</li>
+            <li>To develop an interest for nature.</li>
+            <li>To enhance observation skills.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Drawing papers</li>
-                <li>Crayons/coloured pencils</li>
-            </ul>
-
-            <h3 class="text-white text-[1.7vw] text-start mt-[2vw]">For Optional Activity:</h3>
-            <ul class="panel-ul list-disc">
-                <li>A small ball of wool</li>
-                <li>Some items made from wool</li>
-                <li>Letter to parents (on the next slide)</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <div class="w-[40vw] text-start">
-            <h3 class="text-white text-[1.7vw]">Dear Parents,</h3>
-
-            <p class="panel-ul">We are conducting a lesson on wool. We would appreciate if you
-                could prepare some items made from wool to be brought to
-                school on (date) so that the children understand the uses of
-                wool through their senses. Please label the items with your
-                child's name. The items will be returned after the lesson.
-                <br><br>
-                Thank you for your support and understanding.
-                <br> <br>
-                Regards <br>
-                (school) <br>
-                (date)
-            </p>
-
-        </div>
-    </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children recall the story "Mary had a little lamb". Ask the children
-                    what Mary's lamb looked like? Guide the children to express that a lamb's
-                    wool is white and long.</li>
-                <li>Ask the children: Have you ever seen a lamb? Have you ever touched a
-                    lamb? Invite the children to share their experiences.</li>
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Have the children describe today's weather and ask if they know what the weather will be like
+                    tomorrow. Discuss how people can predict the weather in advance. Explain to the children that the
+                    weather forecast on the television, the radio and the newspapers, etc. help to inform people about the
+                    weather in advance.</li>
+                <li>Review the story with the children and focus on the scene where Tina and Daisy Duckling saw the ants
+                    moving house and the dragonflies flying low. Ask the children why the ants were moving house. What kind
+                    of weather forecast can we expect when we see ants moving house? Guide the children to understand that
+                    some insects can predict the coming weather conditions and respond accordingly (e.g. before it rains).
+                </li>
             </ol>
         </div>
     </div>
@@ -121,185 +94,185 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Invite the children to explain why lambs have thick wool. Guide the children
-                to understand that the thick wool of a lamb is just like a jacket that we wear in
-                winter. It protects the lamb from the cold.</li>
+            <li>Ask the children what other insects display different behaviours before the weather changes. Guide the
+                children to understand that before it rains, there are more houseflies, mosquitoes and other insects and
+                they get more annoying.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c1.png') }}" class="h-[20vw]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/weather/class2/c1.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/micet/k2/weather/class2/c2.png') }}" class="h-[20vw]" />
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask children: What is the person in the picture doing?</li>
+            <li>Bees navigate by the sun and will stay in the hive or linger near the honeycomb on days that are likely to
+                be cloudy.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Let the children discuss why people need to shear lambs' wool. Help the
-                children understand that people shear the wool of the lambs when the
-                weather turns warm because the lambs will feel uncomfortable just as we do if
-                we wear thick jackets during summer.</li>
+            <li>Spiders will leave their webs before a rainfall. They do not spin webs at all if the weather is wet.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c4.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Explain to the children that sheared wool can be spun into yarn. Ask the
-                children to guess what is the colour of the yarn.</li>
+            <li>Tell the children that some other animals, beside insects, also display different behaviours before the
+                weather changes.</li>
         </ol>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Guide the children to know that yarn is made from wool and so is of the same
-                colour as wool (white).</li>
+            <li>Ask the children who keep pets at home if there is any relationship between a pet's behaviour and the
+                changes in the weather. Ask if they can forecast the weather from the behaviour of a pet. Guide the children
+                to understand that when they see cats licking themselves, it means that the weather is fine and it is
+                unlikely to rain. (Explanation: During fair weather and winter, when the humidity is low, cat's hair becomes
+                a better insulator and static electricity builds up on a cat as it touches other objects. Many cats don't
+                like to be petted during these period because sufficient charge builds up and can cause small sparks when
+                petted which irritate them. So during fair weather and winter, a cat licks itself, the moisture makes its
+                fur more conductive so the charge can "leak" off the cat.)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c3.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask the children who keep pets at home if there is any relationship between a pet's behaviour and the
+                changes in the weather. Ask if we can forecast the weather from the behaviour of a pet. Guide the children
+                to understand that when they see cats licking themselves, it means the weather is fine and it is unlikely to
+                rain.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c5.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Explain to the children that yarn can be dyed into many colours.</li>
+            <li>When the cows feel that it is about to rain, they lie down first to keep the grass below them dry before the
+                rain comes.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c6.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Explain to the children that yarn can be knitted into all sorts of woollen
-                clothing.</li>
+            <li>Furthermore, birds tend to fly lower before it rains; many birds will halt and perch before a hurricane.
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c7.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Ask the children: What are these? What is their use?</li>
+            <li>Have the children know that besides some insects, animals and birds, some plants can also forecast the
+                weather.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c6.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Ask the children: What are these? What is their use?</li>
+            <li>Have the children name the plants. Guide the children to understand that the petals of the morning glory,
+                tulips, dandelions and clovers spread out on sunny days and close up during rainy or cloudy days;</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c8.png') }}" class="h-[15vw]" />
     </div>
 
 
     {{-- panel 14 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Ask the children: What are these? What is their use?</li>
+            <li>Mushrooms and mosses abound (there are very large numbers of them) when the weather is moist.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c8.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c9.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 15 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Mushrooms and mosses abound when the weather is moist.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>Ask the children: What are the people in the picture wearing? What are the
-                uses of the different clothing? Guide children to understand that clothing
-                made from wool can keep us warm in cold weather.</li>
+            <li>Have the children refer to classroom activity 2 of the Thematic Activity Book to determine the weather
+                forecast through the behaviours of animals, plants and insects (and spiders) based on their newly acquired
+                knowledge.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c9.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="14">
-            <li>(Optional Activity) Let the children display and introduce the woollen clothing
-                that they brought from home.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="15">
-            <li>Distribute drawing papers. Let the children use their imagination to draw an
-                item made from wool. After that have the children take turns to display and
-                talk about their drawing.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="16">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class2/c11.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children talk about the characteristics and uses
-                    of wool.</li>
+                <li>The children exchange their activity sheets and explain how they can predict the weather from the
+                    behaviours of some animals, plants and insects.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to state the characteristics and uses of wool.</li>
-                <li>Able to draw an item made from wool.</li>
+                <li>Able to identify some animals, plants and insects that can forecast the weather.</li>
+                <li>Able to predict the weather conditions based on the behaviours of some animals, plants or insects.</li>
+                <li>Able to describe the behaviours of some animals, plants or insects in forecasting the weather.</li>
             </ul>
         </div>
     </div>
@@ -307,13 +280,14 @@
 
     {{-- panel 37 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Nature’s Weather Reporter</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to draw Mary’s lamb.</li>
+                <li>Have the children gather information at home on other animals, plants or insects that can forecast
+                    weather and share the information with their classmates in school.</li>
             </ul>
         </div>
     </div>
@@ -371,8 +345,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

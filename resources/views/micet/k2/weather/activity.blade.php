@@ -38,15 +38,15 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Freddy’s Fun Fair</h1>
+        <h1 class="panel-title stroke">Computer Activities: Weather Homepage</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
-        <img src="{{ asset('assets/images/micet/n2/rhymes/activity/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/activity/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Freddy’s Fun Fair</h1>
+        <h1 class="panel-title stroke">Computer Activities: Weather Homepage</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Tuning-in</h3>
@@ -56,9 +56,9 @@
                     To begin the lesson, ask the following questions to arouse the children's
                     curiosity and interest.
                     <ol class="list-[lower-alpha] pl-[2vw]">
-                        <li>Have you seen lambs before? What do they look like?</li>
-                        <li>What are the uses of wool?</li>
-                        <li>Can you sing "Mary had a little lamb"?</li>
+                        <li>Name the different types of weather. </li>
+                        <li>What do people do in different types of weather? </li>
+                        <li>Which is your favourite weather?</li>
                     </ol>
                 </li>
 
@@ -66,9 +66,10 @@
                     Elicit answers from the children and then continue with the following questions
                     to focus their attention on the key points of the courseware.
                     <ol class="list-[lower-alpha] pl-[2vw]">
-                        <li>How did Mary get the little lamb?</li>
-                        <li>What riddle did old grandpa come out with? What is the answer to the riddle?</li>
-                        <li>What are the children's songs in the musical jukebox?</li>
+                        <li>What is the importance of the sun?</li>
+                        <li>What are the different types of weather that Tina and Daisy Duckling
+                            experienced?</li>
+                        <li>Why didn't Tina allow Daisy Duckling to hide under the tree when it rained?</li>
                     </ol>
                 </li>
             </ol>
@@ -76,20 +77,37 @@
     </div>
 
 
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Web Content</h3>
+
+            <p class="panel-ul">This courseware is presented as simulated web pages. There are four sections on weather to
+                help the children understand the changes in the weather and to teach them the safety precautions during
+                certain weather conditions. The children may choose any icons on the left side of the screen to enter the
+                corresponding section. Children can click on the spider button at any time to reveal a question. The
+                children can then answer the question by placing a ribbon on the correct item on the webpage. If placed
+                correctly, the ribbon will turn into a medal.</p>
+        </div>
+    </div>
+
+
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Freddy’s Fun Fair</h1>
+        <h1 class="panel-title stroke">Computer Activities: Weather Homepage</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 1: Story - A Lamb for Many</h3>
+            <h3 class="ptitle">Activity 1: Webpage - Sunny Day</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/rhymes/activity/c2.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/k2/weather/activity/c2.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="list-disc panel-ul w-[25vw]">
-                        <li>To guess the riddle after listening to the story</li>
-                        <li>To appreciate the music in the story</li>
+                        <li>To understand the importance of sunlight to people and plants.</li>
+                        <li>To gain some general knowledge on sunlight.</li>
                     </ul>
                 </div>
             </div>
@@ -102,77 +120,68 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="ptitle">Story</h3>
 
-            <p class="panel-ul">Mary saw a little lamb in the park. She wanted the little lamb. The little
-                lamb's owner, an old grandpa, told Mary that if she could guess the answer
-                to a riddle, he would give her the little lamb. Mary asked people in the farm,
-                market and garden for the answer, but no one could guess it correctly. She
-                heard a little boy singing at the funfair and the answer to the riddle
-                suddenly came to her. Because she knew the answer to the riddle, Mary
-                was given the lovely little lamb.</p>
+            <p class="panel-ul">Teacher Cow is conducting a lesson in class. The warm sun shines into the classroom. Teacher
+                Cow informs everyone that sunlight not only provides light to people but also promotes plant growth. The
+                sunlight can also produce heat which keeps us warm. Everyone goes to the garden to conduct an experiment.
+                They discover that by placing a magnifying glass directly under the sunlight, the heat produced is strong
+                enough to burn a piece of paper. They also discover that sunlight is composed of seven colours.</p>
         </div>
     </div>
 
+
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Freddy’s Fun Fair</h1>
+        <h1 class="panel-title stroke">Computer Activities: Weather Homepage</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 2: Magic music maker</h3>
+            <h3 class="ptitle">Activity 2: Webpage - Cloudy day</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/rhymes/activity/c3.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/k2/weather/activity/c3.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="panel-ul w-[30vw]">
-                        <li>To learn about colours</li>
-                        <li>To learn to pair musical notes and
-                            keys according to their colours</li>
-                        <li>To appreciate popular children's tune</li>
-                    </ul>
-                    <h3 class="ptitle">Porcess</h3>
-                    <ul class="panel-ul w-[27vw]">
-                        <li>This activity is divided into two parts:
-                            Listen to children's songs: To listen to
-                            the music, choose a song, a singer and
-                            a musical instrument.
-                            Let's play: Select the key which has the
-                            same colour as the note. If correct, the
-                            musical note will be played.
-
-                        </li>
+                        <li>To understand how clouds are formed.</li>
+                        <li>To understand that animals possess some instinctive abilities which people do not have.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Story</h3>
+
+            <p class="panel-ul">Tina and Daisy Duckling discover that the sun is nowhere in sight on their way home from
+                school. It is hiding behind the clouds. The white clouds tell them that they are made up of a large number
+                of very tiny water droplets. When more and more water droplets are added, they will then turn into thick
+                dark clouds. The ants under the trees are busy moving house. They tell Tina and Daisy Duckling that it is
+                going to rain soon.</p>
+        </div>
+    </div>
+
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Freddy’s Fun Fair</h1>
+        <h1 class="panel-title stroke">Computer Activities: Weather Homepage</h1>
 
         <div class="text-start space-y-[2vw]">
-            <h3 class="ptitle">Activity 3: Puppet theatre</h3>
+            <h3 class="ptitle">Activity 3: Webpage- Rainy Day</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/rhymes/activity/c4.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/k2/weather/activity/c4.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="list-disc panel-ul w-[25vw]">
-                        <li>To carry out activities by following instructions</li>
-                        <li>To appreciate children's songs</li>
-                    </ul>
-                    <h3 class="ptitle">Process</h3>
-                    <ul class="panel-ul w-[25vw]">
-                        <li>This activity is divided into two parts:
-                            To listen to children's songs, click
-                            on the twinkling stars.
-                            To listen to "Hey Diddle Diddle",
-                            select the correct pictures by
-                            following instructions.</li>
+                        <li>To understand some natural phenomenon and their contributing factors on rainy days.</li>
+                        <li>To gain some general knowledge on safety on rainy days.</li>
                     </ul>
                 </div>
             </div>
@@ -181,22 +190,74 @@
 
 
     {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Story</h3>
+
+            <p class="panel-ul">It begins to rain. Tina and Daisy Duckling discover that the flowers and plants by the
+                roadside are growing well in the rain. The rain promotes growth in plants. Next, they experience a
+                thunderstorm and begin to understand the relationship between lightning and thunder. They also realize that
+                they should not hide under the trees during a thunderstorm. It is best to stay indoors. When the sun shines
+                after the rain, a rainbow appears in the sky and the air is fresh.</p>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Computer Activities: Weather Homepage</h1>
+
+        <div class="text-start space-y-[2vw]">
+            <h3 class="ptitle">Activity 4: Webpage- Windy Day</h3>
+
+            <div class="flex justify-center items-start gap-[3vw]">
+                <img src="{{ asset('assets/images/micet/k2/weather/activity/c5.png') }}" class="w-[25vw]" />
+                <div>
+                    <h3 class="ptitle">Objectives</h3>
+                    <ul class="list-disc panel-ul w-[25vw]">
+                        <li>To have a basic understanding of the different types of wind.</li>
+                        <li>To understand the benefits and harms that the wind may bring to people.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Story</h3>
+
+            <p class="panel-ul">Tina, Daisy Duckling and Duffy set sail on a sailing boat to visit Teacher Cow. They meet a
+                scary tornado. After the tornado dies down, the gentle breeze dries their bodies and pushes their sailing
+                boat along. They realize that there are different types of wind. Wind can help people in many ways but at
+                times can also create disasters.</p>
+        </div>
+    </div>
+
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Computer Activities: Freddy’s Fun Fair</h1>
+        <h1 class="panel-title stroke">Computer Activities: Weather Homepage</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to perform the songs and rhymes from
-                    the courseware.</li>
+                <li>At the end of the lesson, review the questions asked at the beginning of the lesson.</li>
+                <li>Have the children name other types of weather that are not covered in the courseware.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to recite the riddle in the story.</li>
                 <li>Able to complete the various activities in the courseware.</li>
+                <li>Able to differentiate sunny, cloudy, rainy and windy days.</li>
+                <li>Able to understand natural phenomenon like rainbows, dark clouds, thunder and lightning, etc.</li>
             </ul>
         </div>
     </div>
@@ -256,8 +317,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

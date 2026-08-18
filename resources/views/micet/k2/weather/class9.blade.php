@@ -38,135 +38,291 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Learn to recite the nursery rhyme "Hey Diddle Diddle"</li>
-            <li>Learn to work with friends and create a new rhyme by
-                substituting words in the rhyme</li>
+        <ul class="list-disc panel-ul w-[50vw]">
+            <li>To understand what a tornado is and the damage that it causes.</li>
+            <li>To know that the strong wind in a tornado forms a funnel shaped swirl.</li>
+            <li>To conduct an experiment to simulate a tornado.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul">
+            <ol class="list-disc panel-ul w-[50vw]">
                 <li>Thematic Activity Book</li>
+                <li>Water (add a little dye, but not too much because it makes it difficult to see the tornado effect).</li>
+                <li>Two 2-litre bottles without labels.</li>
+                <li>Paper towels.</li>
+                <li>A flat, metal washer with the same circumference as the mouth of the bottles (Alternatively, you can
+                    make holes in the bottle lids or buy a ready-made plastic bottle neck joiner) and strong water proof
+                    duct tape.</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul">
-                <li>Click to play the animation. Let children listen to the rhyme "Hey Diddle Diddle".</li>
-                <li>Ask them: What are the strange things mentioned in the rhyme?</li>
+                <li>Have the children share their experiences of windy days.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Lead the children to recite the rhyme together.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Click on the video to observe a windy day.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            Hey Diddle Diddle, <br>
-            The cat and the fiddle, <br>
-            The cow jumped over the moon, <br>
-            The little dog laughed to see such sport, <br>
-            And the dish ran away with the spoon.
-        </h4>
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class9/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have the children discuss why the nursery rhyme is called "Hey Diddle Diddle".
-                Guide children to understand that the special thing about this rhyme is that all
-                the things mentioned in the rhyme do not happen in real life.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Explain to the children that there is a kind of wind which is much stronger than the one we usually
+                experience. Have the children try to identify and name it. Guide the children in reviewing the story in the
+                courseware: Tina, Daisy Duckling and Daffy experience a tornado. The tornado was powerful. It tossed people
+                through the air.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Recite the following rhyme. Ask children: What are the strange things
-                mentioned in this rhyme?</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Display the picture and have the children observe and explain what is happening. Guide the children in
+                understanding that a tornado is a violent rotating column of air. Tornadoes destroy things in its path such
+                as people, houses, vehicles, livestock, trees, etc.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            Stranger than strange, <br>
-            The bee dances with the plane, <br>
-            The fish feeds the chicken, <br>
-            The ant carries a bag of rice, <br>
-            The hippo sleeps in the cradle.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Lead the children to recite the rhyme together.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Display the picture and have the children observe and explain what is happening. Guide the children in
+                understanding that a tornado is a violent rotating column of air. Tornadoes destroy things in its path such
+                as people, houses, vehicles, livestock, trees, etc.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            Stranger than strange, <br>
-            The bee dances with the plane, <br>
-            The fish feeds the chicken, <br>
-            The ant carries a bag of rice, <br>
-            The hippo sleeps in the cradle.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c2.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Organise children into groups. Let them work together in groups to create a
-                new rhyme by substituting the words in the rhyme. For example:</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Display the picture and have the children observe and explain what is happening. Guide the children in
+                understanding that a tornado is a violent rotating column of air. Tornadoes destroy things in its path such
+                as people, houses, vehicles, livestock, trees, etc.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            Stranger than strange, <br>
-            The bee dances with the plane, <br>
-            The fish feeds the chicken, <br>
-            The ant carries a bag of rice, <br>
-            The hippo sleeps in the cradle.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c3.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Display the picture and have the children observe and explain what is happening. Guide the children in
+                understanding that a tornado is a violent rotating column of air. Tornadoes destroy things in its path such
+                as people, houses, vehicles, livestock, trees, etc.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c4.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Display the picture and have the children observe and explain what is happening. Guide the children in
+                understanding that a tornado is a violent rotating column of air. Tornadoes destroy things in its path such
+                as people, houses, vehicles, livestock, trees, etc.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c5.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Display the picture and have the children observe and explain what is happening. Guide the children in
+                understanding that a tornado is a violent rotating column of air. Tornadoes destroy things in its path such
+                as people, houses, vehicles, livestock, trees, etc.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c6.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Display the picture and have the children observe and explain what is happening. Guide the children in
+                understanding that a tornado is a violent rotating column of air. Tornadoes destroy things in its path such
+                as people, houses, vehicles, livestock, trees, etc.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c7.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Click on the video and have the children observe a typhoon (also called a hurricane, a cyclone).</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class9/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Explain to the children that scientists conduct experiments by simulating tornadoes. Let them know that they
+                will be conducting a tornado experiment today.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Demonstrate the following:
+                <ul>
+                    <li>a. Remove the labels and plastic rings on the bottles.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Demonstrate the following:
+                <ul>
+                    <li>b. Fill half a bottle with water, dry the mouth of the bottle and place a
+                        washer over the mouth of the bottle.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c8.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Demonstrate the following:
+                <ul>
+                    <li>c. Invert the other bottle and place it onto the washer and secure them with
+                        tape.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c9.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Demonstrate the following:
+                <ul>
+                    <li>d. Flip the two bottles and have the children observe what happens. (water
+                        in the top bottle flows down)</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c10.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Demonstrate the following:
+                <ul>
+                    <li> e. When the water is done flowing, flip the bottles again. This time, turn the
+                        bottles quickly counter-clockwise and then let the bottle stand. Have the
+                        children observe what happens (water inside the top bottle swirls,
+                        forming a funnel shape).</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class9/c11.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Explain to children that the funnel shaped swirl in the water is the same shape as that produced by a
+                tornado.</li>
+            <li>Have the children carry out the experiment by flipping and turning the bottles. Have the children observe
+                and describe their observations.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -175,41 +331,25 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Scary Tornadoes</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have each group of children take turns to recite the new
-                    rhymes. Teacher to write down the new rhymes to display in
-                    the class.</li>
+                <li>Have the children explain the tornadoes they simulated and imitate the characteristics of a tornado (e.g. turn their bodies and move forward).</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to recite the nursery rhyme "Hey Diddle Diddle".</li>
-                <li>Able to work with friends to create a new rhyme by
-                    substituting the words in the rhyme.</li>
+                <li>Able to explain what a tornado is and the damage that it can cause.</li>
+                <li>Able to carry out the experiment of simulating a tornado.</li>
+                <li>Able to imitate the movement of a tornado using one's body.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage children to draw what their rhyme means at home and share
-                    the drawings with their classmates the following day.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -267,8 +407,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -333,6 +473,18 @@
                 }
             }
 
+            // Stop every panel <video> on the page (not just narration audio).
+            // This is the missing piece: hiding a slide with CSS never pauses
+            // media inside it, so a clicked video keeps playing after Next/Back.
+            function stopAllVideos() {
+                document.querySelectorAll('.phonics-panel video').forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                    video.currentTime = 0;
+                });
+            }
+
             function playSlideAudio(slideIndex) {
                 // Stop any currently playing audio
                 stopCurrentAudio();
@@ -364,6 +516,9 @@
             function showSlide(slideIndex) {
                 // Stop audio from previous slide
                 stopCurrentAudio();
+
+                // Stop any playing panel videos too (fixes video-not-pausing bug)
+                stopAllVideos();
 
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
@@ -428,6 +583,7 @@
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
                     stopCurrentAudio();
+                    stopAllVideos();
                     window.location.href = returnURL;
                     return;
                 }
@@ -467,6 +623,7 @@
 
             function handleDone() {
                 stopCurrentAudio();
+                stopAllVideos();
 
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;

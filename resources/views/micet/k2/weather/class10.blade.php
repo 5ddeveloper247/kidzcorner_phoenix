@@ -38,28 +38,29 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Know more songs and rhymes through a competition</li>
-            <li>Work with friends in the competition</li>
-            <li>Practise counting</li>
+            <li>To understand the basic functions of a weather station.</li>
+            <li>To learn to apply knowledge learned.</li>
+            <li>To enhance interest in observing the weather.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Whiteboard and markers</li>
+                <li>Colour pencils, markers.</li>
+                <li>Various measuring tools that are made in previous activities.</li>
             </ol>
         </div>
     </div>
@@ -67,17 +68,14 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Let children share the songs and rhymes they know.</li>
-                <li>Inform children that they are going to participate in a song and nursery rhyme
-                    competition.</li>
-                <li>Organise children into groups. Let each group decide on a name for their
-                    group( teacher may help if needed).</li>
+                <li>Guide the children in reviewing the methods of measuring temperature, wind speed, wind direction and
+                    rainfall. Have the children explain the methods using the tools they have made.</li>
             </ol>
         </div>
     </div>
@@ -85,79 +83,118 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Draw a record table on the whiteboard:</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask what a weather station is. What do the people in the weather station do everyday? Guide the children to
+                understand the function of a weather station and the jobs of the people working there.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class10/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>State the rules of the competition:
-                <ol class="list-[lower-alpha] pl-[1vw] panel-ul">
-                    <li>Every group will take turns to perform a song or a nursery rhyme.</li>
-                    <li>Children need to create movements for their song or nursery rhyme.</li>
-                    <li>Songs or nursery rhymes that have already been performed should not be repeated (modified versions
-                        are not considered as repetition).</li>
-                    <li>A group will lose a turn if it does not perform within a stipulated time (e.g. 1 minute), and the
-                        next group will then continue.</li>
-                    <li>When the groups are unable to come up with any more songs or rhymes, the competition ends.</li>
-                    <li>The winner of the competition will be the group that has performed the most number of songs and
-                        rhymes.</li>
-                </ol>
-            </li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask: "What instruments are there at this weather station?"</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class10/c1.png') }}" class="h-[20vw]" />
+
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Click on the video to observed the workings of the wind vane and the anemometer.</li>
+        </ol>
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class10/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Inform the children that they are going to work in a weather station.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Before the competition starts, provide enough time for the groups to prepare
-                for the competition: stating songs and rhymes they know, choosing and
-                agreeing on movements for each rhyme or song.</li>
-            <li>During the competition, note down the title of the nursery rhyme or song
-                performed by each group in the record table.</li>
+            <li>Have the children refer to activity 10 of the Thematic Activity Book. Have the children understand that this
+                is a weather reporting table. If available, have the children look at a similar weather reports in the
+                newspaper.</li>
+
         </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class10/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Explain to the children each column of the table. Have them recall the relevant measurements in the previous
+                activities.</li>
+
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class10/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>After the competition, applaud all the children for their effort and
-                participation.</li>
-            <li>Let the children then count the number of songs and nursery rhymes
-                performed by each group to determine the winner of the competition.</li>
+            <li>Tell the children that weather stations usually use symbols to represent the weather. Have the children
+                identify these symbols in activity 10 of the Thematic Activity Book.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class10/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Organise the children into groups of five. Have the children record the weather of the day by measuring and
+                filling in the table.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+            <li>Have the children within each group allocate tasks among themselves. Each child will be responsible for
+                observing one item daily over a period of a week. They are to measure and record their observations and
+                share with the group. Suggest that the children rotate their roles daily in order to try out different
+                tasks.</li>
+            <li>Set the activity period as a week or a month. Have the children make daily observations. At the same time,
+                prepare a big record table and display it for the children to verify their recordings.</li>
         </ol>
     </div>
-
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -170,11 +207,23 @@
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to work with friends in the competition.</li>
-                <li>Able to count the number of songs and rhymes performed
-                    by each group.</li>
-                <li>Able to sing or recite songs and nursery rhymes that they
-                    are not familiar with.</li>
+                <li>Able to apply what has been learned to complete this activity.</li>
+                <li>Able to complete the activity with group mates.</li>
+                <li>Able to explain the basic functions of a weather station.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Weather Station</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>If possible, arrange a visit to a weather station.</li>
             </ul>
         </div>
     </div>
@@ -234,8 +283,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -300,6 +349,18 @@
                 }
             }
 
+            // Stop every panel <video> on the page (not just narration audio).
+            // This is the missing piece: hiding a slide with CSS never pauses
+            // media inside it, so a clicked video keeps playing after Next/Back.
+            function stopAllVideos() {
+                document.querySelectorAll('.phonics-panel video').forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                    video.currentTime = 0;
+                });
+            }
+
             function playSlideAudio(slideIndex) {
                 // Stop any currently playing audio
                 stopCurrentAudio();
@@ -331,6 +392,9 @@
             function showSlide(slideIndex) {
                 // Stop audio from previous slide
                 stopCurrentAudio();
+
+                // Stop any playing panel videos too (fixes video-not-pausing bug)
+                stopAllVideos();
 
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
@@ -395,6 +459,7 @@
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
                     stopCurrentAudio();
+                    stopAllVideos();
                     window.location.href = returnURL;
                     return;
                 }
@@ -434,6 +499,7 @@
 
             function handleDone() {
                 stopCurrentAudio();
+                stopAllVideos();
 
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;

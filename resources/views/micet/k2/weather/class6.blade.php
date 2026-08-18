@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,25 +48,28 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to sing the song "Twinkle, Twinkle, Little Star"</li>
-            <li>Learn to sing and move to the rhythm of the song</li>
+            <li>To develop fine motor skills by make a wind vane.</li>
+            <li>To learn to measure wind direction.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Create some simple movements to accompany the song
-                    (e.g. rotating wrists, shaking hands, turning in a circle,
-                    raising one's head, finger pointing as if counting the stars,
-                    etc.)</li>
+                <li>A wind vane made in advance.</li>
+                <li>Pencils with eraser on one end, pins and straws.</li>
+                <li>Cardboard (one piece per child).</li>
+                <li>Paper plate (one per child).</li>
+                <li>Scissors, scotch tapes, plasticine.</li>
+                <li>Compass.</li>
+                <li>Electric fan.</li>
             </ul>
         </div>
     </div>
@@ -74,189 +77,145 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Click to play the animation. Let the children listen to the song "Twinkle, Twinkle,
-                    Little Star". Discuss what the song is about.</li>
+                <li>Display the wind vane. Have the children name it and explain its uses. Ask the children where the
+                    arrowhead will point to if the wind blows from the left. Where will the arrowhead point to if the wind
+                    blows from the right? Demonstrate and guide the children in recognising the directions of wind.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class6/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children: What do stars look like? When do you see stars?</li>
+            <li>Inform the children that they are going to make a simple wind vane.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Guide the children to understand that stars can only be seen in the sky at
-                night.</li>
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate how to make a wind vane:
+                <ul>
+                    <li> a. Cut out the arrow head and tail from activity 6 worksheet of the Thematic
+                        Activity Book and paste them onto the cardboard. Next, cut according
+                        to the outlines of the pictures.</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class6/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Read out and explain the lyrics to the children. Invite the children to recite the
-                lyrics together.</li>
-        </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!</h4>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ask children: What are these? Do they look like the stars mentioned in the
-                song?</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate how to make a wind vane:
+                <ul>
+                    <li> b. Cut an opening about 2-3 cm long on both ends of the straw, then insert
+                        the arrowhead and tail in the openings and secure with scotch tape.</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class6/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate how to make a wind vane:
+                <ul>
+                    <li> c. Place the wind vane on a finger to locate the equilibrium point. Pierce
+                        the pin at that point. Ensure that the arrow head, tail and straws form a
+                        straight line.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display and let the children identify the materials needed for this activity.
+                Demonstrate how to make a wind vane:
+                <ul>
+                    <li> d. Pierce the pin into the eraser on the pencil to complete making the
+                        wind vane. (Have the children take note of safety.)</li>
+                </ul>
+            </li>
+        </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>When children are familiar with the lyrics, let them learn to sing the song.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Cut out "North", "East", "South" and "West" from activity 6 of the Thematic Activity Book and paste them on
+                the paper plate according to the diagram below. Draw a line to link the North and South and an arrow
+                pointing to North. Next, pierce the pointed side of the pencil in the plasticine and place it on the paper
+                plate as shown.</li>
         </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
+        <img src="{{ asset('assets/images/micet/k2/weather/class6/c1.png') }}" class="h-[17vw]" />
     </div>
 
 
-    {{-- panel 5 --}}
+    {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate how to sing and move to the rhythm of the song with the simple
-                movements planned beforehand.</li>
-        </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
-
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Guide children to sing the song and move to the rhythm of the song.</li>
-        </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
-
-        <ol class="list-decimal panel-ul" start="9">
-            <li>Encourage children to create new movements for the song. Let them perform
-                the song with new movements.</li>
-        </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
-
-        <ol class="list-decimal panel-ul" start="10">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Upon completion, lead children to conduct the experiment.</li>
+            <li>Bring the children outdoors. Use the compass to locate the North. Have the children rotate their paper
+                plates such that their "North" are aligned with the compass North. Have the children watch the wind vane's
+                arrow and read off the wind direction. (If there is no wind, turn on the fan in the classroom to simulate
+                the wind.)</li>
+            <li>Guide the children in understanding that the wind direction is the direction which the arrowhead is pointing
+                to, and that is where the wind is blowing from.</li>
         </ol>
     </div>
+
 
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Measure Wind Direction </h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Invite some children to perform the song with the new
-                    movements.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have the children record their observations and share their findings to confirm if their measurement is
+                    correct.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Able to sing the song "Twinkle Twinkle Little Star".</li>
-                <li>Able to sing and move to the rhythm of the song.</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 28 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul">
-                <li>Provide the song in the activity corner for the children to try
-                    new movements and perform the song.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to explain what is wind direction.</li>
+                <li>Able to make a simple wind vane.</li>
+                <li>Able to measure correctly the wind direction.</li>
             </ul>
         </div>
     </div>
@@ -316,8 +275,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -576,6 +535,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,163 +47,431 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Learn to sing the song "Mary Had A Little Lamb"</li>
-            <li>Learn to substitute words in the lyrics to create a new song</li>
-            <li>Enhance rhythmic sense</li>
+        <ul class="list-disc panel-ul w-[35vw]">
+            <li>To understand how thunder and lightning are formed and their relation.</li>
+            <li>To understand the safety precautions to be taken during thunder and lightning.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
 
-        <div>
+        <div class="space-y-[2vw]">
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>Inflated Balloons (or small paper bags)</li>
             </ul>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Click on the animation. Let the children listen to the song "Mary Had A Little
-                    Lamb". Encourage them to describe the lamb.</li>
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Ask: "What is this?" (lightning)</li>
+                <li>Ask: "What comes after lightning?" (thunder)</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class3/c1.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Lead the children in reading the lyrics with rhythm.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask if one always hears the sound of thunder immediately after seeing lightning. Have the children share
+                their experiences.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
     </div>
 
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li><span class="flex items-end">Let the children learn to sing the song.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
-        </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
-    </div>
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li><span class="flex items-end">Guide children to sing the song and clap to the beat of the music.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Click on the video. Ask why lightning is seen first before hearing the roaring thunder. (Light travels
+                faster than sound)</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class3/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask the children: If you too had a little lamb what colour would you like the
-                lamb's wool to be?</li>
-            <li>Guide children to substitute words in the lyrics with their own names and the
-                colour of their lamb's wool, to create a new song. For e.g.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Ask the children which of two explanations is correct: (1) lightning and thunder occur at the same time, (2)
+                lightning comes before thunder. Have the children explain why.</li>
+            <li>Explain to the children that because light (from lightning) travels much faster than sound (from the
+                thunder) and that is the reason why we always see lightning before we hear the thunder. The longer the time
+                delay between seeing the lightning and hearing the thunder, the further away the thunderstorm is. (In fact,
+                we can tell how far away the thunderstorm is by counting the seconds between the lightning and the thunder.
+                Every 3 seconds equals to 1 kilometre.)</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
     </div>
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Invite children to sing the new song together.</li>
-            <li>Ask children to sing the song and clap to the beat of the music.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Distribute the inflated balloons (or paper bags) to a few children and get them to burst the balloons to see
+                what will happen (a loud explosive sound will be heard). Have the children know that when they burst the
+                balloons, the air in the balloons expand rapidly, resulting in a loud bang. This principle also applies to
+                the formation of thunder. The lightning heats up the air along its path, causing the air to expand rapidly,
+                resulting in a loud bang, the thunder. (Instead of distributing inflated balloons, have the children inflate
+                the balloons if they are able to.)</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
     </div>
 
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ask: "What's the difference between the three lightning shown (circled red and yellow)?". Explain that there
+                are two types of lightning: (1) between clouds, and (2) from the cloud to the ground.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c2.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ask: "What's the difference between the three lightning shown (circled red and yellow)?". Explain that there
+                are two types of lightning: (1) between clouds, and (2) from the cloud to the ground.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>An example of a cloud-to-ground lightning strike.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c4.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Click on the video to observe lightning between clouds.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class3/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Review the story with the children. Have the children recall that Tina stopped Daisy Duckling from hiding
+                under the tree. Ask the children why it is dangerous to hide under a tree when it rains. Guide the children
+                to understand that lightning takes the shortest path and that lightning from the clouds may strike the
+                tallest object on the ground.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>If there are highlands beneath the clouds, lightning will strike the highlands.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c6.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>If there are highlands beneath the clouds, lightning will strike the highlands.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c7.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>If there are no highlands but high rise buildings, lightning will strike the buildings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>If there are no highlands but high rise buildings, lightning will strike the buildings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c9.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>If there are no highlands but high rise buildings, lightning will strike the buildings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Here is a roof that was struck and damaged by lightning.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>If there are no high rise buildings but tall trees, the lightning will strike the trees; the taller the
+                tree, the higher the chances of being struck by lightning.</li>
+        </ol>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/weather/class3/c12.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/micet/k2/weather/class3/c13.png') }}" class="h-[20vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="16">
+            <li>.Here is a tree which has been struck by lightning. The bark of the tree is burnt.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c14.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="17">
+            <li>Have the children know that because lightning strikes at the tallest object, thus, they should not stand
+                under or near tall trees or electrical poles.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="18">
+            <li>If we stand in an open space and there are no trees or structure taller than us, then we will be the tallest
+                object in that place. Hence, there is a possibility of being struck by lightning.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="19">
+            <li>These are dairy cattle that were struck by lightning as they stood in the open grassland and so lightning
+                can be very dangerous.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c15.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="20">
+            <li>Ask the children should they be in the open area during a thunderstorm. Inform them that if there are no
+                trees or structures taller than us, then we should crouch into a ball on the ground.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="21">
+            <li>Explain that lightning also do have a tendency to strike metals and water (since they are good conductors of
+                electricity). Hence, they must not: stay near any metallic objects like iron railings or pipes; carry
+                umbrellas with metal tips or other things made of metal; ride on bicycles, motorcycles or push metal carts.
+                If they are swimming or rowing a boat, they must return to shore immediately.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c16.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="22">
+            <li>Since lightning has a tendency to strike metals, buildings are installed with metal lightning rods which are
+                wired to the ground. If lightning strikes, it will then strike the lightning rods which will then conduct
+                the electricity to the ground and this keeps the people inside the building safe.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c17.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="22">
+            <li>Since lightning has a tendency to strike metals, buildings are installed with metal lightning rods which are
+                wired to the ground. If lightning strikes, it will then strike the lightning rods which will then conduct
+                the electricity to the ground and this keeps the people inside the building safe.</li>
+        </ol>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/weather/class3/c18.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/micet/k2/weather/class3/c19.png') }}" class="h-[20vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="22">
+            <li>Since lightning has a tendency to strike metals, buildings are installed with metal lightning rods which are
+                wired to the ground. If lightning strikes, it will then strike the lightning rods which will then conduct
+                the electricity to the ground and this keeps the people inside the building safe.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c20.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="22">
+            <li>Since lightning has a tendency to strike metals, buildings are installed with metal lightning rods which are
+                wired to the ground. If lightning strikes, it will then strike the lightning rods which will then conduct
+                the electricity to the ground and this keeps the people inside the building safe.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c21.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="23">
+            <li>Lightning rods are also installed on top of tall electrical poles.</li>
+        </ol>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/k2/weather/class3/c22.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/micet/k2/weather/class3/c23.png') }}" class="h-[20vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="24">
+            <li>Guide the children to understand that during a thunderstorm, if possible, they should go indoors or get
+                inside a car. Although cars are made of metal, the body of a car acts just like a lightning rod which keeps
+                the people safe by conducting the electricity to the ground.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class3/c24.png') }}" class="h-[15vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="25">
+            <li>Ask the children what they should do to keep safe in a thunderstorm even when they are indoors. Guide the
+                children to understand that they should stay away from windows, electrical equipments (such as telephone,
+                TV, computer and air conditioners) and water (such as washing and bathing).</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="26">
+            <li>Guide children to complete the corresponding activities in the Thematic Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Thunder and Lightning</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to take turns to sing their new song.</li>
+                <li>Have the children explain the safety precautions to be taken when there is thunder and lightning based
+                    on their drawings.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Mary Had A Little Lamb".</li>
-                <li>Able to create a new song by substituting some words in
-                    the lyrics.</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to sing the song to their parents at home
-                    and to edit the lyrics with their parents; e.g. Mummy had a little lamb ...</li>
+                <li>Able to explain how thunder and lightning are formed and their relationship.</li>
+                <li>Able to name some safety precautions to be taken during thunder and lightning.</li>
             </ul>
         </div>
     </div>
@@ -260,8 +528,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

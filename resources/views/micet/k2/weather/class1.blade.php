@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Interesting Weather</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -57,7 +57,7 @@
 
         <h3 class="title">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[40vw]">
+        <ul class="list-disc panel-ul">
             <li>Enjoy listening to a story</li>
             <li>Understand and recite the riddle in the story</li>
         </ul>
@@ -66,7 +66,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Interesting Weather</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -80,9 +80,9 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Interesting Weather</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -95,23 +95,24 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Weather Homepage</h1>
 
-        <h3 class="p-title">Theme: Nursery Rhymes</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: Weather</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary had a lovely little lamb. Do you know how Mary got the lamb? <br>
-            Let me tell you!</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">The children are leamning about the weather. The sun shines into the <br>
+            classroom, making it bright and warm. Teacher Cow informs the children <br>
+            that the sun brings light and warmth to people.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c2.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Have you seen lambs before? What do they look like?<br>
-                <span class="text-[#f7b94a]">Help the children name some characte ristics of lambs.</span>
+                What would happen to the world if there is no sun?<br>
+                <span class="text-[#f7b94a]">Encourage children to predict and express their thoughts.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -120,15 +121,15 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">One day, Mary saw a lovely little lamb in the park. She loved it very <br>
-            much. The little lamb's owner, an old grandpa, told Mary that she <br>
-            could have the lamb if she guessed the answerto a riddle correctly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">During break time, Teacher Cow brings everyone to the garden. The <br>
+            flowers are beautiful because of the sun. The animals and plants also <br>
+            need the sun to help them grow. We cannot live without the sun.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c3.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                What riddle did old grandpa come up with? Can you guess the answer?<br>
-                <span class="text-[#f7b94a]">Read the riddle to the children and help them to guess the answer.</span>
+                Why do the living things on earth need the sun?<br>
+                <span class="text-[#f7b94a]">Guide the children in understanding the important uses of sunlight.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -137,15 +138,15 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary came to a farm. She asked the farmer and his lamb to help guess <br>
-            the riddle. However, they could not answer the riddle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">After school, Tina and Daisy Duckling discover that the sun is nowhere to <br>
+            be seen. It is covered by clouds. The white clouds in the sky are <br>
+            increasing and slowly turning dark.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c4.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What is the difference betwe en this lamb and old grandpa's lamb?<br>
-                <span class="text-[#f7b94a]">Help the children to observe the two lambs and differentiate <br>
-                    between the two lambs ( on the basis of their colour).</span>
+                When do dark clouds appear in the sky?<br>
+                <span class="text-[#f7b94a]">Guide the children in understanding how clouds are formed.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -154,15 +155,15 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary came to a market. She asked the baker to guess the riddle. But <br>
-            he also did not know the answer to the riddle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c5.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">The ants under the trees are busy moving house and the dragonflies are <br>
+            flying low. They tell Tina and Daisy Duckling that it will rain soon.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c5.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What bread did the baker sell? <br>
-                Why did he say "It is definitely not bread"?<br>
-                <span class="text-[#f7b94a]">Help the children to observe and infer.</span>
+                What other animals can fore cast the rain?<br>
+                <span class="text-[#f7b94a]">Help the children enhance their observation skills by identifying some <br>
+                    waming signs in nature to help predict if it's going to rain.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -171,14 +172,15 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary then came to a garden. She asked a lady, who was looking after <br>
-            a child, to help guess the riddle. She too could not guess the answer.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Soon after, it begins to rain. The plants by the side of the road absorb the <br>
+            rainwater and are singing merrily. The rainwater helps them to grow.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What do you say if you want to ask for help? <br>
-                <span class="text-[#f7b94a]">Help the children to leam some polite expressions.</span>
+                What other benefits rain brings? <br>
+                <span class="text-[#f7b94a]">Guide the children in understanding how the rain affects the <br>
+                    lives of people.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -187,14 +189,16 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">It was getting dark as Mary walked past a funfair. She heard a little boy
-            singing and the answer suddenly struck her mind.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">However, the rain gets heavier. There is a terrifying bolt of lightning in the <br>
+            sky. Daisy Duckling wants to hide under a big tree but Tina stops her, She explains to <br>
+            Tina that tall trees can also get struck by lightning during a thunderstorm.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c7.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you know how Mary guessed the answerto the riddle?<br>
-                <span class="text-[#f7b94a]">Help the children infer by singing the lyrics of the song.</span>
+                What else do we need to take note of during a thunderstorm.<br>
+                <span class="text-[#f7b94a]">Help the children to understand the various safety precautions to <br>
+                    be taken during a thunderstorm.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -203,14 +207,16 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary ran to the park and told old grandpa the answer to the riddle.
-            Old grandpa praised Mary and gave her the little lamb.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Finally, the rain stops. A rainbow appears in the sky. Tina and Daisy <br>
+            Duckling count and name each colour, red, orange, yellow, green, blue, <br>
+            indigo, violet. These are the seven colours of the rainbow.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c8.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Can you guess the answerto the riddle? What is the answer?<br>
-                <span class="text-[#f7b94a]">Sing "Twinkle twinkle little star" with the children.</span>
+                Have you seen a rainbow before? Where do the colours of the <br>
+                rainbow come from?<br>
+                <span class="text-[#f7b94a]">Help the children to understand how rainbows are formed.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -219,14 +225,15 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary led the lamb and sang all the way home. From then onwards, the <br>
-            little lamb became Mary's best friend.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c9.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Just then, the cool wind blows and dries the rainwater on Tina's and <br>
+            Daisy Duckling's body. It feels so comfortable! They sit in the sailboat. <br>
+            The wind blows the sail and takes them home.</h3>
+        <img src="{{ asset('assets/images/micet/k2/weather/class1/c9.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                How would you feel if you were Mary? Why?<br>
-                <span class="text-[#f7b94a]">Help the children to reflect and experience how Mary felt in the story.</span>
+                What do sailboats rely on to sail?<br>
+                <span class="text-[#f7b94a]">Guide the children in understanding the uses of wind power.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -234,49 +241,17 @@
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
-
-        <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let the children recite the riddle in the story and guess the
-                    answer to the riddle.</li>
-            </ul>
-
-            <h3 class="ptitle">Evaluation</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to guess the answer to the riddle.</li>
-                <li>Able to recite the riddle.</li>
-                <li>Able to enjoy listening to the story.</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Interesting Weather</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to read the riddle to their parents at
-                    home and have them guess the answer.</li>
+                <li>Able to describe the characteristics of the following weather conditions: sunny, cloudy, rainy and windy
+                    day.
+                    Able to identify the natural phenomena (such as rainbow, dark clouds, thunder and lighting) that are
+                    associated with the various weather conditions.</li>
             </ul>
         </div>
     </div>
@@ -336,8 +311,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

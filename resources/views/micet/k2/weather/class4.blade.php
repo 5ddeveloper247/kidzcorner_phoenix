@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,27 +47,29 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Understand the characteristics of lambs</li>
-            <li>Develop fine motor skills through pasting activity</li>
+        <ul class="list-disc panel-ul w-[40vw]">
+            <li>To identify a thermometer as a temperature measuring instrument.</li>
+            <li>To make a simple thermometer.</li>
+            <li>To understand some basic knowledge about temperature.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[35vw]">
                 <li>Thematic Activity Book</li>
-                <li>Print the outline picture of a sheep (refer to lesson
-                    development) beforehand</li>
-                <li>Cotton wool (or tissue paper) in different colours (dye the
-                    material in different colours beforehand)</li>
-                <li>Glue</li>
+                <li>Commonly used thermometers.</li>
+                <li>Ice cubes, warm water.</li>
+                <li>Thin clear hard plastic tubes about 30 cm long (the smaller the inner diameter the better).</li>
+                <li>Small bottles with long neck or narrow opening (e.g. medicine bottle).</li>
+                <li>Rubber stoppers with a hole.</li>
+                <li>Red dye.</li>
             </ul>
         </div>
     </div>
@@ -75,58 +77,181 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Let the children state some of the characteristics of lamb's wool (such as its
-                    colour, and length; Guide them to know that the fleece or wool is long and
-                    thick. Help them understand that when wool is cut close to the skin of the
-                    sheep, the whole lot tends to hang together in one piece and is called
-                    'fleece'.)</li>
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Display the thermometer for measuring air temperature. Have the children name it and describe its uses.
+                    Guide the children to understand that we can use it to measure daily temperature. Demonstrate how to
+                    read the readings on the thermometer.</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c1.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Distribute an outline picture of a sheep to each child (or use the thematic
-                activity book). Let the children choose the coloured wool/ tissue that they like
-                and paste it onto the body of the sheep.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Have the children refer to classroom activity 4 of the Thematic Activity Book. Have them take the
+                temperature readings using a thermometer and record them on the table. Ask the children what is the normal
+                temperature at noon and at night, during summer and winter.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class4/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c2.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Demonstrate how to paste the wool: Tear cotton wool (or tissue paper) into
-                small strips, place some glue on one end of each strip and paste them onto
-                the body of the sheep.</li>
-            <li>As the children do the pasting, remind the children to use very little glue to
-                prevent pasting the whole strip of wool onto the body of the sheep.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display the thermometer for measuring body temperature. Have the children name it and describe its uses.
+                Invite one or two of the children to demonstrate how to measure body temperature correctly and record their
+                readings. Guide the children in understanding the normal human temperature is around 36.8 degree Celsius.
+                The temperature will rise when a person has a fever thus doctors use thermometers to check if patients have
+                fever.</li>
         </ol>
-
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c3.png') }}" class="h-[15vw]" />
     </div>
 
 
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Have the children observe and record the readings of body temperature.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Measure the temperature of ice cubes using a thermometer. Have the children observe and record the readings.
+                Ask about the temperature of the ice cubes. Guide the children to understand that zero degree is the
+                freezing temperature that turns water into ice.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c2.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Measure the temperature of warm water using a thermometer. Have the children observe and record the
+                readings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Measure the temperature of boiling water (adults assistance will be needed). Have the children observe and
+                record the readings. Guide the children to understand that the temperature at which water boils is 100
+                degrees Celsius. Warn the children not to touch the boiling water and explain the dangers of scalding.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c2.png') }}" class="h-[18vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Inform the children that they are going to make a thermometer today.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Organise the children in groups of five. Have the children make the thermometer following the procedures
+                given (along with the teacher's guidance).
+                <ul class="list-disc">
+                    <li>Fill the bottle with warm water and add a few drops of red dye.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c4.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Organise the children in groups of five. Have the children make the thermometer following the procedures
+                given (along with the teacher's guidance).
+                <ul class="list-disc">
+                    <li>Next, push the plastic tube through the rubber stopper. Squeeze the rubber stopper tightly into the
+                        mouth of the bottle. Water in the bottle will rise up into the plastic tube. Adjust until the water
+                        level is about half way up the plastic tube.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c4.png') }}" class="h-[16vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Organise the children in groups of five. Have the children make the thermometer following the procedures
+                given (along with the teacher's guidance).
+                <ul class="list-disc">
+                    <li>Cut out the thermometer card from activity 4 of the Thematic Activity Book. Cut slits along the
+                        fours dotted lines. Slip the card onto the plastic tube and tape it onto the tube.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c4.png') }}" class="h-[17vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>About an hour later, the temperature of the water in the bottle will drop to room temperature. Take the
+                readings on the commercial thermometer, mark and write on the card at the water level of the tube.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Make A Thermometer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Over the next few days, take the readings on the commercial thermometer. If the room temperature changes,
+                mark and write on the card at the water level of the tube. When there are enough markings on the card, the
+                thermometer is now ready for use.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class4/c5.png') }}" class="w-[27vw]" />
     </div>
 
 
@@ -138,15 +263,15 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Display all the artworks. Encourage children to look at
-                    each other's artwork and appreciate it.</li>
+                <li>Have the children explain the uses of thermometers for measuring body and air temperature.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to paste the wool and make their own sheep
-                    independently.</li>
+                <li>Able to name the basic uses of thermometers.</li>
+                <li>Able to read and record temperature readings accurately from a thermometer.</li>
+                <li>Able to make a thermometer with group mates.</li>
             </ul>
         </div>
     </div>
@@ -160,10 +285,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to refer to their artwork and sing a new
-                    song. For e.g. "Johnny has a rainbow lamb, rainbow lamb,
-                    rainbow lamb; Johnny has a rainbow lamb, its fleece is
-                    thick and long".</li>
+                <li>Have the children compare the day and night temperatures daily using the commercial thermometer and the
+                    thermometer that they have made.</li>
             </ul>
         </div>
     </div>
@@ -224,8 +347,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,23 +48,26 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify three basic shapes: triangle, square and circle</li>
-            <li>Learn to draw stars using different basic shapes</li>
+            <li>To develop mathematical skills by learning to read the rain gauge.</li>
+            <li>To learn to measure rainfall.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[30vw]">
                 <li>Thematic Activity Book</li>
-                <li>Triangle, Square and Circle shapes( some for each child)</li>
-                <li>Drawing papers and crayons</li>
+                <li>Measuring glass around 25 cm tall (or cylindrical glass).</li>
+                <li>Ruler or measuring tape.</li>
+                <li>Water-proof marker.</li>
+                <li>Pencils.</li>
+                <li>2 watering cans.</li>
             </ul>
         </div>
     </div>
@@ -72,17 +75,14 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Guide children to recall the story "Mary had a little lamb". Say the riddle in
-                    the story once more and ask the children to give an answer to the riddle.</li>
-                <li>Ask children: How do stars look like? Have you seen stars? Encourage them
-                    to describe stars. Do you know how to draw a star? Invite volunteers to
-                    demonstrate. Let children know that they are going to learn to draw stars.</li>
+                <li>Have the children share their experiences about rainy days and to tell the differences between a heavy
+                    rain and a drizzle.</li>
             </ol>
         </div>
     </div>
@@ -90,214 +90,97 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Ask children: What shape is this?</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Click on the video. Have the children distinguish if it is a heavy rain or a drizzle. (Heavy rain)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c1.png') }}" class="w-[20vw]" />
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class5/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Guide children to understand that a triangle has three sides and three corners.
-                That's why it is called a triangle (tri means three).</li>
-            <li>Display a triangle shape. Let the children touch its sides and corners. Get
-                them to count its sides and corners together.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Click on the video. Have the children distinguish if it is a heavy rain or a drizzle. (A drizzle)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c1.png') }}" class="w-[20vw]" />
+        <video class="h-[23vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k2/weather/class5/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Demonstrate how to draw a triangle. Let children learn to draw triangles on
-                paper.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Ask about the methods that can be used to measure the amount of rain. Accept any reasonable answers. Guide
+                children in understanding the term "rainfall" which is the amount of rain collected in an area over a period
+                of time.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate how to put two triangle shapes together to form a star (place
-                one inverted triangle over the other triangle). Invite children try it out.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Have the children turn to activity 5 in the Thematic Activity Book. Inform the children that they are going
+                to learn to measure rainfall.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c4.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/weather/class5/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Demonstrate how to draw a star using two triangles. Invite children to practise
-                drawing a star.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Before the rain, place the measuring glass (or cylindrical glass) in an open space without any overhead
+                obstructions such as buildings, walls or trees. Place the glass in a flowerpot or dig a hole of a suitable
+                size in the ground to prevent the wind from toppling the glass.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children: What shape is this? How many sides and corners does it have?</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>After the rain (If there is no rain or it is not the rainy season, use the watering cans to simulate rain.),
+                measure the rainwater in the glass immediately: read out the readings on the glass (or measure it with a
+                ruler) and record the results in the correct column on the table.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c3.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Guide children to understand that a square has four equal sides and four
-                corners.</li>
-            <li>Display a square shape. Let the children touch its sides and corners and count
-                them together. Use a thread to measure each side and show the children that
-                a square has four equal sides.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c3.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Demonstrate how to draw a square. Invite children learn to practise drawing
-                squares on paper.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Encourage children to think about how to use two squares to form a star.
-                Invite volunteers to demonstrate to the class.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Demonstrate how to put two square shapes together to form a star ( place two
-                squares on top of each other, with one square placed at an angle). Let
-                children try it out.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c3.png') }}" class="w-[17vw]" />
-    </div>
-
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Demonstrate how to draw a star using two squares. Let children try it out.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="16">
-            <li>Ask children: What shape is this? How many sides and corners does it have?</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c4.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="17">
-            <li>Guide children to understand that a circle has no sides and corners. Ask them
-                what does a circle look like? (sun, earth, full moon etc.)</li>
-            <li>Display a circle shape. Let children touch it.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c4.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="19">
-            <li>Demonstrate how to draw a star using two squares. Let children try it out.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="20">
-            <li>Distribute drawing papers. Let children use their imagination to draw a
-                beautiful night sky. Remind them to draw the moon using a circle and stars
-                using different combinations of basic shapes.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="21">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
-        </ol>
+        <img src="{{ asset('assets/images/micet/k2/weather/class5/c1.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let the children take turns to display their drawing and talk
-                    about the shapes used to draw a moon and the different
-                    stars.</li>
+                <li>Have the children measure the rainfall over a week (or longer), then tabulate the rainfall for the week.
+                </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to draw a triangle, square and circle.</li>
-                <li>Able to draw stars using different basic shapes.</li>
+                <li>Able to understand the amount of rainfall.</li>
+                <li>Able to learn the basic method of measuring rainfall.</li>
+                <li>Able to measure rainfall correctly.</li>
             </ul>
         </div>
     </div>
@@ -305,14 +188,15 @@
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Star Shapes</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Measure Rainfall</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to decorate a classroom wall with paper
-                    stars to show a beautiful night sky.</li>
+                <li>If it is snowing (or hail, rain with snow), use the same measuring glass for the experiment but measure
+                    the rainfall after the snow or when the hail has melted.</li>
+                <li>To measure the depth of snow, use a measuring tape to and measure on a flat surface.</li>
             </ul>
         </div>
     </div>
@@ -370,8 +254,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k2/weather/index') }}";
+            const doneURL = "{{ url('/micet/k2/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -436,17 +320,23 @@
                 }
             }
 
+          
+            function stopAllVideos() {
+                document.querySelectorAll('.phonics-panel video').forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                    video.currentTime = 0;
+                });
+            }
+
             function playSlideAudio(slideIndex) {
-                // Stop any currently playing audio
                 stopCurrentAudio();
 
-                // Get the slide element
                 const slide = slides[slideIndex];
 
-                // Check if the slide itself has data-slide-audio attribute
                 let audioSrc = slide.getAttribute('data-slide-audio');
 
-                // If not, look for element inside the slide with data-slide-audio attribute
                 if (!audioSrc) {
                     const audioElement = slide.querySelector('[data-slide-audio]');
                     if (audioElement) {
@@ -467,6 +357,9 @@
             function showSlide(slideIndex) {
                 // Stop audio from previous slide
                 stopCurrentAudio();
+
+                // Stop any playing panel videos too (fixes video-not-pausing bug)
+                stopAllVideos();
 
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
@@ -494,7 +387,6 @@
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
 
-                    // Get audio source from data-slide-audio attribute
                     const audioSrc = btn.getAttribute('data-slide-audio');
 
                     if (audioSrc) {
@@ -531,6 +423,7 @@
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
                     stopCurrentAudio();
+                    stopAllVideos();
                     window.location.href = returnURL;
                     return;
                 }
@@ -570,6 +463,7 @@
 
             function handleDone() {
                 stopCurrentAudio();
+                stopAllVideos();
 
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
