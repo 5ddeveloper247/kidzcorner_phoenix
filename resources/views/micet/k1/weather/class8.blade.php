@@ -38,31 +38,29 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
+        <img src="{{ asset('assets/images/micet/k1/weather/class8/b1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Learn to sing the song "I'm A Little Teapot"</li>
-            <li>Learn to sing and move to the rhythm of the song</li>
+            <li>To enjoy playing with "snowballs".</li>
+            <li>Improve body reaction time through throwing and dodging "snowballs".</li>
+            <li>Develop arm muscles through throwing "snowballs".</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Create some simple movements to accompany the song
-                    (e.g. place one hand at the waist to form the handle, the
-                    other hand at the side of the body to form the spout, bend
-                    knees, tiptoe, jump, tilt the body to the spout side)</li>
+                <li>If there is no snow, prepare some old newspapers and get children to squash them up into balls or other items that will not cause any injury.</li>
             </ul>
         </div>
     </div>
@@ -70,140 +68,98 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Click to play the animation. Let the children listen to the song "I'm A Little
-                    Teapot". Discuss what the song is about.</li>
+                <li>Display the pictures of snowy days and have the children name the weather. Have the children describe activities that we can do during snowy days.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/weather/class8/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="1">
+            <li>Display the pictures of snowy days and have the children name the weather. Have the children describe activities that we can do during snowy days.</li>
+        </ol>
+        <div class="flex gap-2">
+            <img src="{{ asset('assets/images/micet/k1/weather/class8/c2.png') }}" class="h-[17vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class8/c3.png') }}" class="h-[17vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Ask children: What is this? What is its use? Have you seen it before?</li>
+            <li>Display the pictures of snowball game and have the children explain what the people in the pictures are doing.</li>
         </ol>
+        <div class="flex gap-2">
+            <img src="{{ asset('assets/images/micet/k1/weather/class8/c4.png') }}" class="h-[17vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class8/c5.png') }}" class="h-[17vw]" />
+        </div>
+    </div>
 
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c2.png') }}" class="w-[30vw]" />
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Click on the video to watch a snowball game. Ask if the children would like to play a snowball game.</li>
+        </ol>
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k1/weather/class8/v1.mp4') }}" type="video/mp4">
+    </video>
     </div>
 
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Guide children to understand that a teapot is a vessel used to make tea.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c3.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Read out and explain the lyrics to the children. Invite the children to recite the
-                lyrics together.</li>
+            <li>Organise the children into two groups (organise them into four or six groups if there are too many children; 2 groups in a game). Let the children know that they will be disqualified if their snowballs hit their own group members (if possible, have the two groups wear different coloured clothes).</li>
+            <li>If it is snowy day, have the children make three snowballs. Once they finish throwing the three snowballs, they cannot make new ones. If they are using squashed up newspaper balls then each child can only throw once. They are not allowed to pick up the thrown squashed up newspaper balls and will be disqualified if they do so.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            I'm a little teapot <br>
-            Short and stout <br>
-            Here is my handle <br>
-            Here is my spout <br>
-            When I get all steamed up <br>
-            Hear me shout: <br>
-            Just tip me over and pour me out!
-        </h4>
     </div>
 
 
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>When children are familiar with the lyrics, let them learn to sing the song.</li>
+            <li>Organise the children into two groups (organise them into four or six groups if there are too many children; 2 groups in a game). Let the children know that they will be disqualified if their snowballs hit their own group members (if possible, have the two groups wear different coloured clothes).</li>
+            <li>If it is snowy day, have the children make three snowballs. Once they finish throwing the three snowballs, they cannot make new ones. If they are using squashed up newspaper balls then each child can only throw once. They are not allowed to pick up the thrown squashed up newspaper balls and will be disqualified if they do so.</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                I'm a little teapot <br>
-                Short and stout <br>
-                Here is my handle <br>
-                Here is my spout <br>
-                When I get all steamed up <br>
-                Hear me shout: <br>
-                Just tip me over and pour me out!
-            </h4>
-        </div>
     </div>
 
 
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+     {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Demonstrate how to sing and move to the rhythm of the song with the simple
-                movements planned beforehand.</li>
+            <li>During the snowball game, have the children try to avoid being hit by the "enemy" and think of ways to attack the "enemy". The child will be disqualified once he/she is hit.</li>
+            <li>The game will end when all the snowballs are used up (or once every child has had a turn at throwing the squashed up newspaper ball). The group with the most remaining children is the winning team.</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                I'm a little teapot <br>
-                Short and stout <br>
-                Here is my handle <br>
-                Here is my spout <br>
-                When I get all steamed up <br>
-                Hear me shout: <br>
-                Just tip me over and pour me out!
-            </h4>
-        </div>
     </div>
-
-
+    
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Guide children to sing the song and move to the rhythm of the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[2vw] text-start">
-                I'm a little teapot <br>
-                Short and stout <br>
-                Here is my handle <br>
-                Here is my spout <br>
-                When I get all steamed up <br>
-                Hear me shout: <br>
-                Just tip me over and pour me out!
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
@@ -214,21 +170,20 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite some children to perform the song with the
-                    movements.</li>
+                <li>Have the children from the winning team share their experiences and explain how to throw the snowballs accurately from a distance.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "I'm A Little Teapot".</li>
-                <li>Able to sing and move to the rhythm of the song.</li>
+                <li>Able to use snowballs or squashed up newspaper balls to hit one or two targets.</li>
+                <li>Able to avoid being hit by snowballs or squashed up newspaper balls thrown from the opposite side.</li>
             </ul>
         </div>
     </div>
@@ -236,14 +191,13 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Provide the song in the activity corner for the children to
-                    sing and perform the song on their own.</li>
+                <li>If there is snow, organise activities for the children to build snowmen or make snowballs to experience the fun in playing with snow.</li>
             </ul>
         </div>
     </div>
@@ -303,8 +257,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k1/weather/index') }}";
+            const doneURL = "{{ url('/micet/k1/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

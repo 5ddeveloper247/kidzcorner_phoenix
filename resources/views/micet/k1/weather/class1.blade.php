@@ -50,7 +50,9 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Happy Days</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/k1/weather/class1/c1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b4.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b6.png') }}" class="h-[8vw]" />
         </div>
 
 
@@ -113,7 +115,7 @@
                 <span class="text-[#f7b94a]">Guide the children in understanding about the different types of weather, <br>
                     e.g. tomadoes, fogs, rainbows, thunder and lightning.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
@@ -130,7 +132,7 @@
                 each of the symbols above?<br>
                 <span class="text-[#f7b94a]">Guide the children in identifying the different weather symbols.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
@@ -149,13 +151,13 @@
                     <br>
                     people need different things for different seasons.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b2.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start items-center">
         <h3 class="p-title">Jojo also likes cloudy days. She often lies on the grass and look up at <br>
             the clouds in the sky. The clouds are rather amazing, one moment it <br>
             looks like a horse and the next moment, it looks like a sled.</h3>
@@ -166,7 +168,7 @@
                 Do you like to lo ok at the clouds in the sky? What do they look like?<br>
                 <span class="text-[#f7b94a]">Guide the children in using their imagination to express their ideas.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b4.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
@@ -183,7 +185,10 @@
                 each kite.<br>
                 <span class="text-[#f7b94a]">Encourage the children to identify the different shapes and colours.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b2.png') }}" class="h-[4.5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b8.png') }}" class="h-[4.5vw]" />
+        </div>
         </div>
     </div>
 
@@ -201,7 +206,7 @@
                 <span class="text-[#f7b94a]">Encourage the children to use their imagination in designing the
                     snowman.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b8.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
@@ -217,7 +222,7 @@
                 Do you like rainy days? What do you do on rainy days?<br>
                 <span class="text-[#f7b94a]">Guide the children in expressing their preferences.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b6.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
@@ -235,7 +240,7 @@
                 <span class="text-[#f7b94a]">Encourage the children in identifying their preferred weather and <br>
                     describing its characteristics.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class1/b6.png') }}" class="w-[5vw]" />
         </div>
     </div>
 

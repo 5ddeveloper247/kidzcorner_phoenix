@@ -2,523 +2,543 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-    $showBackground = false;
-    $showVector1 = true;
-    $showVector5 = false;
-    $showMascot = true;
+$showBackground = false;
+$showVector1 = true;
+$showVector5 = false;
+$showMascot = true;
 @endphp
 
 
 @push('styles')
-    <style>
-        .p-note {
-            font-size: 1.2vw;
-            color: white !important;
-        }
+<style>
+    .p-note {
+        font-size: 1.2vw;
+        color: white !important;
+    }
 
-        .panel-title {
-            color: #F7B94A;
-            font-size: 2.2vw;
-        }
+    .panel-title {
+        color: #F7B94A;
+        font-size: 2.2vw;
+    }
 
-        .ptitle {
-            color: #F7B94A;
-            font-size: 1.7vw;
-        }
+    .ptitle {
+        color: #F7B94A;
+        font-size: 1.7vw;
+    }
 
-        .panel-ul {
-            color: white;
-            font-size: 1.4vw;
-            text-align: left;
-        }
-    </style>
+    .panel-ul {
+        color: white;
+        font-size: 1.4vw;
+        text-align: left;
+    }
+</style>
 @endpush
 
 @section('content')
 
-    {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-        <div class="flex ">
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-            <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
-        </div>
+{{-- panel 1 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+    <div class="flex ">
+        <img src="{{ asset('assets/images/micet/k1/weather/class3/b1.png') }}" class="h-[8vw]" />
+    </div>
 
 
-        <h3 class="ptitle">Objectives:</h3>
+    <h3 class="ptitle">Objectives:</h3>
+
+    <ul class="list-disc panel-ul">
+        <li>To understand the characteristics of different types of weather.</li>
+        <li>To understand the things needed in different types of weather.</li>
+    </ul>
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+
+    <div>
+        <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to sing the song "Mary Had A Little Lamb"</li>
-            <li>Learn to substitute words in the lyrics to create a new song</li>
-            <li>Enhance rhythmic sense</li>
+            <li>Thematic Activity Book</li>
+            <li>Umbrella, raincoat, rubber boots, sun hat, sunglasses, gloves, cap, etc.</li>
+            <li>Pictures of different types of weather.</li>
         </ul>
     </div>
+</div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
 
-        <div>
-            <h3 class="ptitle mt-[5vw]">Preparations</h3>
-
-            <ul class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
-            </ul>
-        </div>
+    <div class="text-start">
+        <h3 class="ptitle">Lesson Development</h3>
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Have the children name the items. Ask the children to identify the types of weather conditions in which we would use these items. Guide the children in understanding that some special items are used for different types of weather.</li>
+        </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c1.png') }}" class="h-[20vw]" />
+</div>
 
 
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
 
-        <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Click on the animation. Let the children listen to the song "Mary Had A Little
-                    Lamb". Encourage them to describe the lamb.</li>
-            </ol>
-        </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class3/c1.png') }}" class="h-[20vw]" />
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="1">
+            <li>Have the children name the items. Ask the children to identify the types of weather conditions in which we would use these items. Guide the children in understanding that some special items are used for different types of weather.</li>
+        </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c2.png') }}" class="h-[20vw]" />
+</div>
 
 
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
 
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="1">
+            <li>Have the children name the items. Ask the children to identify the types of weather conditions in which we would use these items. Guide the children in understanding that some special items are used for different types of weather.</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c3.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="1">
+            <li>Have the children name the items. Ask the children to identify the types of weather conditions in which we would use these items. Guide the children in understanding that some special items are used for different types of weather.</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c4.png') }}" class="h-[20vw]" />
+</div>
+
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+
+    <div class="text-start">
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Lead the children in reading the lyrics with rhythm.</li>
-        </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
-    </div>
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li><span class="flex items-end">Let the children learn to sing the song.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
-        </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
-    </div>
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li><span class="flex items-end">Guide children to sing the song and clap to the beat of the music.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
-        </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
-    </div>
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask the children: If you too had a little lamb what colour would you like the
-                lamb's wool to be?</li>
-            <li>Guide children to substitute words in the lyrics with their own names and the
-                colour of their lamb's wool, to create a new song. For e.g.</li>
-        </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
-    </div>
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Invite children to sing the new song together.</li>
-            <li>Ask children to sing the song and clap to the beat of the music.</li>
-        </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
-    </div>
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+            <li>Have the children look at the pictures of different types of weather: sunny, rainy, snowy days, etc. Encourage the children to name some items that are associated with these weather conditions. Have the children consider from different angles, in terms of clothing, food, activities, etc.</li>
         </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c5.png') }}" class="h-[20vw]" />
+</div>
 
 
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
 
-        <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to take turns to sing their new song.</li>
-            </ul>
-
-            <h3 class="ptitle">Evaluation</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Mary Had A Little Lamb".</li>
-                <li>Able to create a new song by substituting some words in
-                    the lyrics.</li>
-            </ul>
-        </div>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Have the children look at the pictures of different types of weather: sunny, rainy, snowy days, etc. Encourage the children to name some items that are associated with these weather conditions. Have the children consider from different angles, in terms of clothing, food, activities, etc.</li>
+        </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c6.png') }}" class="h-[20vw]" />
+</div>
 
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
 
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to sing the song to their parents at home
-                    and to edit the lyrics with their parents; e.g. Mummy had a little lamb ...</li>
-            </ul>
-        </div>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Have the children look at the pictures of different types of weather: sunny, rainy, snowy days, etc. Encourage the children to name some items that are associated with these weather conditions. Have the children consider from different angles, in terms of clothing, food, activities, etc.</li>
+        </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c7.png') }}" class="h-[20vw]" />
+</div>
 
 
-    {{-- =============================================== --}}
-    {{-- All Buttons --}}
-    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
 
-        <!-- Home Button -->
-        <button id="returnButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-        </button>
-
-        <!-- return Button -->
-        <button id="homeButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-        </button>
-
-        <!-- Close Button -->
-        <button id="closeButton">
-
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-        </button>
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Have the children look at the pictures of different types of weather: sunny, rainy, snowy days, etc. Encourage the children to name some items that are associated with these weather conditions. Have the children consider from different angles, in terms of clothing, food, activities, etc.</li>
+        </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c8.png') }}" class="h-[20vw]" />
+</div>
 
-    {{-- Next and Done Buttons --}}
-    <div class="down-btn-container">
-        <button class="nextButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-        </button>
-    </div>
 
-    <div class="down-btn-container">
-        <button class="doneButton hidden">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-        </button>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Have the children look at the pictures of different types of weather: sunny, rainy, snowy days, etc. Encourage the children to name some items that are associated with these weather conditions. Have the children consider from different angles, in terms of clothing, food, activities, etc.</li>
+        </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c9.png') }}" class="h-[20vw]" />
+</div>
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <li>Have the children refer to activity 3 of the Thematic Activity Book. Help Candy choose the best items that would keep her dry during heavy rain.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/k1/weather/class3/c10.png') }}" class="h-[20vw]" />
+</div>
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <li>Have the children identify and describe what is their favourite weather and the items that are associated with this weather condition. Have the children draw their favourite weather condition and the items that are associated with it in activity 3 of the Thematic Activity Book.</li>
+        <li>Have the children share their work with the person/s sitting next to them.</li>
+    </ol>
+</div>
+
+
+{{-- panel 10 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 3: Weather and Things</h1>
+
+    <div class="text-start flex flex-col justify-between h-full">
+        <h3 class="ptitle">Clousre</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Invite a few children to display and share their work. Encourage them to explain how these items are used.</li>
+        </ul>
+
+        <h3 class="ptitle">Evaluation</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Able to name things related to different types of weather.</li>
+            <li>Able to choose the best items that can keep one dry.</li>
+            <li>Able to draw one's favourite weather and the items associated with it.</li>
+        </ul>
+    </div>
+</div>
+
+
+{{-- =============================================== --}}
+{{-- All Buttons --}}
+<div id="buttons" class="absolute flex flex-row gap-6 z-90">
+
+    <!-- Home Button -->
+    <button id="returnButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+    </button>
+
+    <!-- return Button -->
+    <button id="homeButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+    </button>
+
+    <!-- Close Button -->
+    <button id="closeButton">
+
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+    </button>
+</div>
+
+{{-- Next and Done Buttons --}}
+<div class="down-btn-container">
+    <button class="nextButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+    </button>
+</div>
+
+<div class="down-btn-container">
+    <button class="doneButton hidden">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+    </button>
+</div>
 @endsection
 
 @push('script')
-    <script>
-        // SLIDE NAVIGATION SYSTEM
-        document.body.dataset.homeRoute = "{{ url('/micet') }}";
+<script>
+    // SLIDE NAVIGATION SYSTEM
+    document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-        document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
 
-            // Get all elements
-            const slides = document.querySelectorAll(".phonics-panel");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn']");
-            const soundButtons = document.querySelectorAll("[id^='soundButton']");
+        // Get all elements
+        const slides = document.querySelectorAll(".phonics-panel");
+        const nextButtons = document.querySelectorAll(".nextButton");
+        const returnButton = document.getElementById("returnButton");
+        const doneButton = document.querySelector(".doneButton");
+        const infoButtons = document.querySelectorAll("[class*='info-btn']");
+        const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+        // URLs for navigation
+        const returnURL = "{{ url('/micet/k1/weather/index') }}";
+        const doneURL = "{{ url('/micet/k1/weather/index') }}";
 
-            // Track current position
-            let currentSlide = 0;
-            let isInSpecialMode = false;
-            let returnToSlide = null;
-            let specialSlideClass = null;
+        // Track current position
+        let currentSlide = 0;
+        let isInSpecialMode = false;
+        let returnToSlide = null;
+        let specialSlideClass = null;
 
-            // Audio management
-            let currentAudio = null;
+        // Audio management
+        let currentAudio = null;
 
-            // HELPER FUNCTIONS
+        // HELPER FUNCTIONS
 
-            function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
-            }
+        function isSpecialSlide(slide) {
+            const classList = Array.from(slide.classList);
+            return classList.some(cls => /^info-panel-\d+$/.test(cls));
+        }
 
-            function getSlideTypeFromButton(button) {
-                const classList = Array.from(button.classList);
+        function getSlideTypeFromButton(button) {
+            const classList = Array.from(button.classList);
 
-                for (let className of classList) {
-                    if (className.startsWith('info-btn')) {
-                        const number = className.replace('info-btn', '');
-                        return 'info-panel-' + number;
-                    }
+            for (let className of classList) {
+                if (className.startsWith('info-btn')) {
+                    const number = className.replace('info-btn', '');
+                    return 'info-panel-' + number;
                 }
-                return null;
             }
+            return null;
+        }
 
-            function hasMoreSpecialSlides(fromIndex) {
-                if (!specialSlideClass) return false;
+        function hasMoreSpecialSlides(fromIndex) {
+            if (!specialSlideClass) return false;
 
-                for (let i = fromIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function isLastSlide(slideIndex) {
-                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-
-                if (!isInSpecialMode) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) {
-                            return false;
-                        }
-                    }
+            for (let i = fromIndex + 1; i < slides.length; i++) {
+                if (slides[i].classList.contains(specialSlideClass)) {
                     return true;
                 }
-
-                return false;
             }
+            return false;
+        }
 
-            // AUDIO FUNCTIONS
+        function isLastSlide(slideIndex) {
+            if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-            function stopCurrentAudio() {
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                }
-            }
-
-            function playSlideAudio(slideIndex) {
-                // Stop any currently playing audio
-                stopCurrentAudio();
-
-                // Get the slide element
-                const slide = slides[slideIndex];
-
-                // Check if the slide itself has data-slide-audio attribute
-                let audioSrc = slide.getAttribute('data-slide-audio');
-
-                // If not, look for element inside the slide with data-slide-audio attribute
-                if (!audioSrc) {
-                    const audioElement = slide.querySelector('[data-slide-audio]');
-                    if (audioElement) {
-                        audioSrc = audioElement.getAttribute('data-slide-audio');
+            if (!isInSpecialMode) {
+                for (let i = slideIndex + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) {
+                        return false;
                     }
                 }
+                return true;
+            }
 
-                // Play the audio if we found a source
+            return false;
+        }
+
+        // AUDIO FUNCTIONS
+
+        function stopCurrentAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+            }
+        }
+
+        function playSlideAudio(slideIndex) {
+            // Stop any currently playing audio
+            stopCurrentAudio();
+
+            // Get the slide element
+            const slide = slides[slideIndex];
+
+            // Check if the slide itself has data-slide-audio attribute
+            let audioSrc = slide.getAttribute('data-slide-audio');
+
+            // If not, look for element inside the slide with data-slide-audio attribute
+            if (!audioSrc) {
+                const audioElement = slide.querySelector('[data-slide-audio]');
+                if (audioElement) {
+                    audioSrc = audioElement.getAttribute('data-slide-audio');
+                }
+            }
+
+            // Play the audio if we found a source
+            if (audioSrc) {
+                currentAudio = new Audio(audioSrc);
+                currentAudio.play().catch(err => console.log('Audio play failed:', err));
+            }
+        }
+
+
+        // DISPLAY FUNCTIONS
+
+        function showSlide(slideIndex) {
+            // Stop audio from previous slide
+            stopCurrentAudio();
+
+            // Hide all slides, show only current one
+            slides.forEach((slide, index) => {
+                if (index === slideIndex) {
+                    slide.classList.remove("hidden");
+                } else {
+                    slide.classList.add("hidden");
+                }
+            });
+
+            // Play audio for current slide (if it has one)
+            playSlideAudio(slideIndex);
+
+            // Show "Done" button on last slide, otherwise show "Next"
+            if (isLastSlide(slideIndex)) {
+                nextButtons.forEach(btn => btn.classList.add("hidden"));
+                if (doneButton) doneButton.classList.remove("hidden");
+            } else {
+                nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                if (doneButton) doneButton.classList.add("hidden");
+            }
+        }
+
+        soundButtons.forEach(btn => {
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+
+                // Get audio source from data-slide-audio attribute
+                const audioSrc = btn.getAttribute('data-slide-audio');
+
                 if (audioSrc) {
+                    stopCurrentAudio();
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
-            }
-
-
-            // DISPLAY FUNCTIONS
-
-            function showSlide(slideIndex) {
-                // Stop audio from previous slide
-                stopCurrentAudio();
-
-                // Hide all slides, show only current one
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
-                });
-
-                // Play audio for current slide (if it has one)
-                playSlideAudio(slideIndex);
-
-                // Show "Done" button on last slide, otherwise show "Next"
-                if (isLastSlide(slideIndex)) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
-                }
-            }
-
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-
-                    // Get audio source from data-slide-audio attribute
-                    const audioSrc = btn.getAttribute('data-slide-audio');
-
-                    if (audioSrc) {
-                        stopCurrentAudio();
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                    }
-                });
             });
-            // NAVIGATION FUNCTIONS
+        });
+        // NAVIGATION FUNCTIONS
 
-            function goNext() {
-                if (currentSlide >= slides.length - 1) return;
+        function goNext() {
+            if (currentSlide >= slides.length - 1) return;
 
-                currentSlide++;
+            currentSlide++;
 
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-
-                    if (isInSpecialMode) {
-                        if (slide.classList.contains(specialSlideClass)) break;
-                    } else {
-                        if (!isSpecialSlide(slide)) break;
-                    }
-
-                    currentSlide++;
-                }
-
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
-            }
-
-            function goBack() {
-                if (currentSlide === 0 && !isInSpecialMode) {
-                    stopCurrentAudio();
-                    window.location.href = returnURL;
-                    return;
-                }
+            while (currentSlide < slides.length) {
+                const slide = slides[currentSlide];
 
                 if (isInSpecialMode) {
-                    let previousIndex = currentSlide - 1;
-
-                    while (previousIndex >= 0) {
-                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                            break;
-                        }
-                        previousIndex--;
-                    }
-
-                    if (previousIndex >= 0) {
-                        currentSlide = previousIndex;
-                        showSlide(currentSlide);
-                    } else {
-                        currentSlide = returnToSlide;
-                        isInSpecialMode = false;
-                        specialSlideClass = null;
-                        returnToSlide = null;
-                        showSlide(currentSlide);
-                    }
+                    if (slide.classList.contains(specialSlideClass)) break;
                 } else {
-                    if (currentSlide > 0) {
-                        currentSlide--;
-
-                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                            currentSlide--;
-                        }
-
-                        showSlide(currentSlide);
-                    }
+                    if (!isSpecialSlide(slide)) break;
                 }
+
+                currentSlide++;
             }
 
-            function handleDone() {
-                stopCurrentAudio();
+            if (currentSlide < slides.length) {
+                showSlide(currentSlide);
+            }
+        }
 
-                if (isInSpecialMode && returnToSlide !== null) {
+        function goBack() {
+            if (currentSlide === 0 && !isInSpecialMode) {
+                stopCurrentAudio();
+                window.location.href = returnURL;
+                return;
+            }
+
+            if (isInSpecialMode) {
+                let previousIndex = currentSlide - 1;
+
+                while (previousIndex >= 0) {
+                    if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                        break;
+                    }
+                    previousIndex--;
+                }
+
+                if (previousIndex >= 0) {
+                    currentSlide = previousIndex;
+                    showSlide(currentSlide);
+                } else {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                } else {
-                    window.location.href = doneURL;
+                }
+            } else {
+                if (currentSlide > 0) {
+                    currentSlide--;
+
+                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
+                    showSlide(currentSlide);
                 }
             }
+        }
 
-            // EVENT LISTENERS
+        function handleDone() {
+            stopCurrentAudio();
 
-            infoButtons.forEach(button => {
-                button.addEventListener("click", function(e) {
-                    e.preventDefault();
+            if (isInSpecialMode && returnToSlide !== null) {
+                currentSlide = returnToSlide;
+                isInSpecialMode = false;
+                specialSlideClass = null;
+                returnToSlide = null;
+                showSlide(currentSlide);
+            } else {
+                window.location.href = doneURL;
+            }
+        }
 
-                    returnToSlide = currentSlide;
-                    isInSpecialMode = true;
-                    specialSlideClass = getSlideTypeFromButton(button);
+        // EVENT LISTENERS
 
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(specialSlideClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
+        infoButtons.forEach(button => {
+            button.addEventListener("click", function(e) {
+                e.preventDefault();
+
+                returnToSlide = currentSlide;
+                isInSpecialMode = true;
+                specialSlideClass = getSlideTypeFromButton(button);
+
+                for (let i = 0; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        currentSlide = i;
+                        showSlide(currentSlide);
+                        break;
                     }
-                });
+                }
             });
-
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
-            });
-
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
-
-            if (doneButton) {
-                doneButton.addEventListener("click", handleDone);
-            }
-
-            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-            letterLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const letter = link.getAttribute('data-letter') || 'a';
-                    speakLetter(letter);
-                });
-            });
-
-            window.speechSynthesis.onvoiceschanged = () => {
-                window.speechSynthesis.getVoices();
-            };
-
-            // INITIALIZE - Show first slide and play its audio automatically
-            showSlide(currentSlide);
         });
-    </script>
+
+        nextButtons.forEach(btn => {
+            btn.addEventListener("click", goNext);
+        });
+
+        if (returnButton) {
+            returnButton.addEventListener("click", goBack);
+        }
+
+        if (doneButton) {
+            doneButton.addEventListener("click", handleDone);
+        }
+
+        const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+        letterLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const letter = link.getAttribute('data-letter') || 'a';
+                speakLetter(letter);
+            });
+        });
+
+        window.speechSynthesis.onvoiceschanged = () => {
+            window.speechSynthesis.getVoices();
+        };
+
+        // INITIALIZE - Show first slide and play its audio automatically
+        showSlide(currentSlide);
+    });
+</script>
 @endpush

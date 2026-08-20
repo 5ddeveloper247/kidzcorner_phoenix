@@ -38,82 +38,46 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
         <div class="flex ">
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-            <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/k1/weather/class2/b1.png') }}" class="h-[8vw]" />
         </div>
 
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Understand the characteristics and uses of wool</li>
-            <li>Develop fine motor skills through a drawing activity</li>
+            <li>To identify different shapes.</li>
+            <li>To practise counting.</li>
+            <li>To use imagination in designing a kite.</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Drawing papers</li>
-                <li>Crayons/coloured pencils</li>
+                <li>A few kites</li>    
             </ul>
-
-            <h3 class="text-white text-[1.7vw] text-start mt-[2vw]">For Optional Activity:</h3>
-            <ul class="panel-ul list-disc">
-                <li>A small ball of wool</li>
-                <li>Some items made from wool</li>
-                <li>Letter to parents (on the next slide)</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <div class="w-[40vw] text-start">
-            <h3 class="text-white text-[1.7vw]">Dear Parents,</h3>
-
-            <p class="panel-ul">We are conducting a lesson on wool. We would appreciate if you
-                could prepare some items made from wool to be brought to
-                school on (date) so that the children understand the uses of
-                wool through their senses. Please label the items with your
-                child's name. The items will be returned after the lesson.
-                <br><br>
-                Thank you for your support and understanding.
-                <br> <br>
-                Regards <br>
-                (school) <br>
-                (date)
-            </p>
-
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children recall the story "Mary had a little lamb". Ask the children
-                    what Mary's lamb looked like? Guide the children to express that a lamb's
-                    wool is white and long.</li>
-                <li>Ask the children: Have you ever seen a lamb? Have you ever touched a
-                    lamb? Invite the children to share their experiences.</li>
+                <li>Ask the children: "What is this?" (kite) Ask the children if they have ever flown a kite. Discuss with them how a kite is flown and what type of weather conditions are most suitable for flying kites.</li>
             </ol>
         </div>
     </div>
@@ -121,185 +85,266 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Invite the children to explain why lambs have thick wool. Guide the children
-                to understand that the thick wool of a lamb is just like a jacket that we wear in
-                winter. It protects the lamb from the cold.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Click on the video to watch a kite fly. Have the children observe how the kite is flying and what weather condition is most suitable for flying a kite.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c1.png') }}" class="h-[20vw]" />
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k1/weather/class2/v1.mp4') }}" type="video/mp4">
+    </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask children: What is the person in the picture doing?</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask the children: "What is this?" (strings for kite flying)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Let the children discuss why people need to shear lambs' wool. Help the
-                children understand that people shear the wool of the lambs when the
-                weather turns warm because the lambs will feel uncomfortable just as we do if
-                we wear thick jackets during summer.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Click on the video to watch how the strings are used in kite flying.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[20vw]" />
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k1/weather/class2/v2.mp4') }}" type="video/mp4">
+    </video>
     </div>
 
 
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Explain to the children that sheared wool can be spun into yarn. Ask the
-                children to guess what is the colour of the yarn.</li>
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c4.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c6.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c7.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c9.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c12.png') }}" class="w-[30vw]" />
+    </div>
+
+
+     {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c13.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Click on the video to watch the different shapes of kites.</li>
+        </ol>
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k1/weather/class2/v3.mp4') }}" type="video/mp4">
+    </video>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Guide the children to know that yarn is made from wool and so is of the same
-                colour as wool (white).</li>
+            <li>Have the children identify the shape. (square)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c14.png') }}" class="w-[25vw]" />
     </div>
+
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Have the children identify the shape. (rectangle)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c15.png') }}" class="w-[25vw]" />
+    </div>
+
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Have the children identify the shape. (circle)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c16.png') }}" class="w-[25vw]" />
+    </div>
+
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Have the children identify the shape. (triangle)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c17.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Have the children identify the shape. (rhombus)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c18.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Guide the children to complete the corresponding activity in the Thematic Activity Book. Have the children look at the kites and identify the shapes used in making each kite, then count each shape and write in the numbers to complete the table.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/weather/class2/c19.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    
+
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Explain to the children that yarn can be dyed into many colours.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c4.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Explain to the children that yarn can be knitted into all sorts of woollen
-                clothing.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c5.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Ask the children: What are these? What is their use?</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c6.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Ask the children: What are these? What is their use?</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c7.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Ask the children: What are these? What is their use?</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c8.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>Ask the children: What are the people in the picture wearing? What are the
-                uses of the different clothing? Guide children to understand that clothing
-                made from wool can keep us warm in cold weather.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c9.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="14">
-            <li>(Optional Activity) Let the children display and introduce the woollen clothing
-                that they brought from home.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="15">
-            <li>Distribute drawing papers. Let the children use their imagination to draw an
-                item made from wool. After that have the children take turns to display and
-                talk about their drawing.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="16">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+            <li>Have the children share their stories about kite flying and describe the kite that they would like to design.</li>
+            <li>Have the children use their creativity to design a special kite in activity 2 of the Thematic Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children talk about the characteristics and uses
-                    of wool.</li>
+                <li>Have the children display and introduce their work.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to state the characteristics and uses of wool.</li>
-                <li>Able to draw an item made from wool.</li>
+                <li>Able to name the different shapes.</li>
+                <li>Able to count the number of shapes on each kite.</li>
+                <li>Able to express one's creativity through drawing.</li>
             </ul>
         </div>
     </div>
@@ -307,13 +352,13 @@
 
     {{-- panel 37 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to draw Mary’s lamb.</li>
+                <li>Organise a kite flying session.</li>
             </ul>
         </div>
     </div>
@@ -371,8 +416,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k1/weather/index') }}";
+            const doneURL = "{{ url('/micet/k1/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;
