@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Just Like Big Brother</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: The Earth</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -67,7 +67,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Just Like Big Brother</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: The Earth</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -81,7 +81,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Just Like Big Brother</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: The Earth</h1>
 
         <div>
             <h3 class="title">Lesson Development</h3>
@@ -246,7 +246,7 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Just Like Big Brother</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: The Earth</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

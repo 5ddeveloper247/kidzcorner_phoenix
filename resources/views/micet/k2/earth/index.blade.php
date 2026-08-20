@@ -22,36 +22,36 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/k1/myself/class1') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class1.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class1') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1/myself/class2') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class2.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class2') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1/myself/class3') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class3.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class3') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1/myself/class4') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class4.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class4') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class4.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1/myself/class5') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class5.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class5') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class5.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1/myself/class6') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class6.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class6') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class6.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1/myself/class7') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class7.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class7') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class7.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1/myself/class8') }}">
-            <img src="{{ asset('assets/images/micet/k1/myself/class8.png') }}" />
+        <a href="{{ url('/micet/k2/earth/class8') }}">
+            <img src="{{ asset('assets/images/micet/k2/earth/class8.png') }}" />
         </a>
 
     </div>
@@ -61,27 +61,27 @@
 
         <div class="grid grid-cols-2 gap-[2vw] mb-[2vw]">
 
-            <a href="{{ url('/micet/k1/myself/class9') }}">
-                <img src="{{ asset('assets/images/micet/k1/myself/class9.png') }}" />
+            <a href="{{ url('/micet/k2/earth/class9') }}">
+                <img src="{{ asset('assets/images/micet/k2/earth/class9.png') }}" />
             </a>
 
-            <a href="{{ url('/micet/k1/myself/class10') }}">
-                <img src="{{ asset('assets/images/micet/k1/myself/class10.png') }}" />
+            <a href="{{ url('/micet/k2/earth/class10') }}">
+                <img src="{{ asset('assets/images/micet/k2/earth/class10.png') }}" />
             </a>
         </div>
         
         <div class="col-span-2 grid grid-cols-3 gap-[2vw]">
 
-            <a href="{{ url('/micet/k1/myself/cards') }}">
-                <img src="{{ asset('assets/images/micet/k1/myself/cards.png') }}" />
+            <a href="{{ url('/micet/k2/earth/cards') }}">
+                <img src="{{ asset('assets/images/micet/k2/earth/cards.png') }}" />
             </a>
 
-            <a href="{{ url('/micet/k1/myself/activity') }}">
-                <img src="{{ asset('assets/images/micet/k1/myself/activity.png') }}" />
+            <a href="{{ url('/micet/k2/earth/activity') }}">
+                <img src="{{ asset('assets/images/micet/k2/earth/activity.png') }}" />
             </a>
 
-            <a href="{{ url('/micet/k1/myself/tables') }}">
-                <img src="{{ asset('assets/images/micet/k1/myself/tables.png') }}" />
+            <a href="{{ url('/micet/k2/earth/tables') }}">
+                <img src="{{ asset('assets/images/micet/k2/earth/tables.png') }}" />
             </a>
 
         </div>
@@ -122,7 +122,7 @@
 @push('script')
     <script>
         document.body.dataset.homeRoute = "{{ url('/micet') }}";
-        document.body.dataset.parentRoute = "{{ url('/micet/k1/index') }}";
+        document.body.dataset.parentRoute = "{{ url('/micet/k2/index') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
@@ -132,16 +132,16 @@
 
             let currentSlide = 0;
 
-            const savedSlide = sessionStorage.getItem("micet_n2_myself_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_n2_myself_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_n2_earth_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_n2_earth_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_n2_myself_slide");
-            sessionStorage.removeItem("micet_n2_myself_from_lesson");
+            sessionStorage.removeItem("micet_n2_earth_slide");
+            sessionStorage.removeItem("micet_n2_earth_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -164,8 +164,8 @@
             // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_n2_myself_slide", currentSlide);
-                    sessionStorage.setItem("micet_n2_myself_from_lesson", "1");
+                    sessionStorage.setItem("micet_n2_earth_slide", currentSlide);
+                    sessionStorage.setItem("micet_n2_earth_from_lesson", "1");
                 });
             });
 
