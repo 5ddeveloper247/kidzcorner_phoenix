@@ -39,9 +39,10 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/animals/class2/b1.png') }}" class="h-[10vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class2/b2.png') }}" class="h-[8vw]" />
+        <div class="flex items-center gap-2">
+            <img src="{{ asset('assets/images/micet/n1/drama/class2/b1.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class2/b2.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class2/b3.png') }}" class="h-[6vw]" />
         </div>
 
 
