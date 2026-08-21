@@ -40,8 +40,8 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/animals/class2/b1.png') }}" class="h-[10vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class2/b2.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
         </div>
 
 

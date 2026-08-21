@@ -75,20 +75,20 @@ $showMascot = true;
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
+<div class="phonics-panel flex flex-col justify-start items-center">
     <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
+        <ol class="list-decimal panel-ul w-[50vw]">
             <li>Ask children: "Has anyone ever told you stories before?" "What stories
                 have you heard?" "What is your favourite story?" Guide children in sharing
                 their experiences and thoughts."</li>
         </ol>
     </div>
 
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center gap-[1vw]">
         <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[15vw]" />
         <div class="flex gap-[1vw]">
             <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[15vw]" />
@@ -179,25 +179,325 @@ $showMascot = true;
     <button id="sound-btn" type="button"
         class="absolute left-[2.7%] top-[46%] w-[7.1vw] z-20">
         <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}"
-             alt="Play" class="w-full">
+            alt="Play" class="w-full">
     </button>
 
 </div>
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <li>Tell children that we can tell a story by either speaking or singing.</li>
+        <li>Invite children to watch the story told by singing.</li>
+    </ol>
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <li>Teacher sings, have children listen.</li>
+    </ol>
+    <div class="flex items-start gap-[1vw]">
+
+        <button class="w-[4vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+        <div class="flex flex-col">
+            <div class=" text-white text-[2vw]">Song 1</div>
+            <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, <br>
+                please lock the door. <br>
+                Mummy's going out <br>
+                to pick some carrots. <br>
+                Before mummy comes home, <br>
+                Don't open the door <br>
+                to let anyone in.</h5>
+        </div>
+    </div>
+</div>
+
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <li>Ask children: Who should sing song 1? (Mother Rabbit)</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <li>Have children use their imagination to act out the scene of Mother Rabbit
+            going out.</li>
+        <li>Ask questions that help children to think and recall the story (e.g. What did
+            Mother Rabbit bring when going out? What did she do before going out?).</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="10">
+        <li>Guide children to sing and act out the scene of Mother Rabbit going out.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="11">
+        <li>Song 2: Play music, teacher sings to the rhythm of the music.</li>
+    </ol>
+    <div class="flex items-start gap-[1vw]">
+
+        <button class="w-[4vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+        <div class="flex flex-col">
+            <div class=" text-white text-[2vw]">Song 2</div>
+            <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, </br>
+                please open the door. </br>
+                Mummy is home, </br>
+                do open the door. </br>
+                Mummy has now come home, </br>
+                Please open the door </br>
+                and let mummy in.</h5>
+        </div>
+    </div>
+</div>
+
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
 
     <div class="text-start">
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Ask children: "Has anyone ever told you stories before?" "What stories
-                have you heard?" "What is your favourite story?" Guide children in sharing
-                their experiences and thoughts."</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask children: When should song 2 be sung? At the beginning, middle or the
+                end of the story? (middle and ending parts)</li>
         </ol>
     </div>
 
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center gap-[1vw]">
+        <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[15vw]" />
+        <div class="flex gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[15vw]" />
+        </div>
+    </div>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask children: Who should sing song 2 in the different parts of the story?
+                (middle part: The Wolf; ending part: Mother Rabbit)</li>
+        </ol>
+    </div>
+    <div class="flex gap-5 items-center">
+        <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[25vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="14">
+        <li>Have children use their imagination to act out the scene of Mother Rabbit
+            going out.</li>
+        <li>Ask questions that help children to think and recall the story (e.g. What did
+            the wolf wear when it knocked at the door? What was its expression?).</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="16">
+        <li>Guide children to sing and act out the scene of the wolf knocking at the
+            door.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="17">
+        <li>Have children use their imagination to act out the scene of Mother Rabbit
+            back at home.</li>
+        <li>Ask questions that help children to think and recall the story (e.g. What did
+            Mother Rabbit bring home? Did she hug the baby rabbits?).</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c3.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="19">
+        <li>Guide children to sing and act out the scene of Mother Rabbit back at
+            home.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c3.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="20">
+        <li>Teacher sings, have children listen.</li>
+    </ol>
+    <div class="flex items-start gap-[1vw]">
+
+        <button class="w-[4vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+        <div class="flex flex-col">
+            <div class=" text-white text-[2vw]">Song 3</div>
+            <h5 class="text-[2vw] text-[#f7b94a]"> We are good children,<br>
+                can't open the door.<br>
+                You're not our mummy,<br>
+                can't open the door.<br>
+                Before mummy comes home,<br>
+                Can't open the door<br>
+                to let anyone in.
+        </div>
+    </div>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Ask children: When should song 3 be sung? At the beginning, middle or the
+                end of the story? (middle part)</li>
+        </ol>
+    </div>
+
+    <div class="flex flex-col items-center gap-[1vw]">
+        <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[15vw]" />
+        <div class="flex gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[15vw]" />
+        </div>
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="22">
+        <li>Ask children: Who should sing song 3? (Baby Rabbits)</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="23">
+        <li>Have children use their imagination to act out the scene of the baby
+            rabbits hearing the knocking at the door.</li>
+        <li>Ask questions that help children think and recall the story (e.g. What did
+            the baby rabbits do after mummy left? How did they react when they
+            heard the knocking sound?).</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[50vw]" start="25">
+        <li>Guide children to sing and act out the scene of baby rabbits hearing the
+            knocking at the door.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="26">
+        <li>Teacher sings, have children listen.</li>
+    </ol>
+    <div class="flex items-start gap-[1vw]">
+
+        <button class="w-[4vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+        <div class="flex flex-col">
+            <div class=" text-white text-[2vw]">Song 4</div>
+            <h5 class="text-[1.7vw] text-[#f7b94a]"> We are good children,<br>
+                We are good children,<br>
+                we'll open the door.<br>
+                You are our mummy,<br>
+                we'll open the door.<br>
+                Mummy has now come home,<br>
+                Please open the door<br>
+                and let mummy in.
+        </div>
+    </div>
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="27">
+            <li>Ask children: When should song 4 be sung? At the beginning, middle or the
+                end of the story? (ending part)</li>
+        </ol>
+    </div>
+
+    <div class="flex flex-col items-center gap-[1vw]">
         <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[15vw]" />
         <div class="flex gap-[1vw]">
             <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[15vw]" />
@@ -211,61 +511,8 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="4">
-        <li>Have children use their imagination to tell and act out the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="5">
-        <li>Have children look at the picture and tell the teacher the middle part of the
-            story.</li>
-        <li>Ask questions that help children to think and recall the story (e.g. What did
-            the baby rabbits do after mummy left? How did they feel? How did they
-            react when they heard the knocking at the door? What did the wolf do?).</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[23vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="7">
-        <li>Have children use their imagination to tell and act out the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="8">
-        <li>Have children look at the picture and tell the teacher the ending part of the
-            story.</li>
-        <li>Ask questions that help children to think and recall the story (e.g. Did
-            Mother Rabbit knock at the door when she came home? What did she say?
-            How did the baby rabbits react? What did the baby rabbits tell their
-            mummy about the wolf?).</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/drama/class5/c3.png') }}" class="w-[22vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="10">
-        <li>Have children use their imagination to tell and act out the scene.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="28">
+        <li>Ask children: Who should sing song 4? (Baby Rabbits)</li>
     </ol>
     <img src="{{ asset('assets/images/micet/n1/drama/class5/c3.png') }}" class="w-[25vw]" />
 </div>
@@ -275,32 +522,11 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="11">
-        <li>Display the story pictures one by one, guide children to tell the complete
-            story.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="11">
-        <li>Display the story pictures one by one, guide children to tell the complete
-            story.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="11">
-        <li>Display the story pictures one by one, guide children to tell the complete
-            story.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="29">
+        <li>Have children use their imagination to act out the scene of the baby
+            rabbits opening the door for their mummy.</li>
+        <li>Ask questions that help children to think and recall the story (e.g. Were the
+            baby rabbits happy to see their mummy at home? Did they hug her?).</li>
     </ol>
     <img src="{{ asset('assets/images/micet/n1/drama/class5/c3.png') }}" class="w-[25vw]" />
 </div>
@@ -310,12 +536,24 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="12">
-        <li>Guide children to complete the corresponding activity in the Thematic
-            Activity Book.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="31">
+        <li>Guide children to sing and act out the scene of the baby rabbits opening
+            the door for their mummy.</li>
     </ol>
+    <img src="{{ asset('assets/images/micet/n1/drama/class5/c3.png') }}" class="w-[25vw]" />
 </div>
 
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 4: Sing the Story</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="32">
+        <li>Have children play the role of the baby rabbits, while the teacher plays the
+            roles of the Mother Rabbit and the wolf. Let the children sing and act out
+            the story.</li>
+    </ol>
+</div>
 
 {{-- panel 14 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
@@ -325,15 +563,15 @@ $showMascot = true;
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Display the story pictures, invite children to take turns to tell the different
-                parts of the story.</li>
+            <li>Ask children: How did you tell the story today? Do you like to tell stories
+                this way?</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to tell a story based on pictures and questions asked.</li>
-            <li>Able to tell and act out a story.</li>
+            <li>Able to say that we can tell a story by singing.</li>
+            <li>Able to use imagination in acting out a story.</li>
         </ul>
     </div>
 </div>

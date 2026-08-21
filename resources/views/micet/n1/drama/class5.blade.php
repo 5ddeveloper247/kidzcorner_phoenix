@@ -40,9 +40,8 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Story Telling</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/animals/class5/b1.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class5/b2.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class5/b1.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[7vw]" />
         </div>
 
 

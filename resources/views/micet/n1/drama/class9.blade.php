@@ -39,7 +39,14 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
-        <img src="{{ asset('assets/images/micet/n1/colours/c9.1.png') }}" class="h-[8vw]" />
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/colours/class8/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class6/b3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class7/b2.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class6/b4.png') }}" class="h-[7vw]" />
+            
+            
+        </div>
 
         <h3 class="ptitle">Objectives:</h3>
 
