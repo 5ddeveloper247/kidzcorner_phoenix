@@ -49,9 +49,10 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Happy Toy's Day</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
+        <div class="flex items-center gap-0.5">
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[7vw]" />
         </div>
 
 

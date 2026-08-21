@@ -40,9 +40,9 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[10vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/class2/b3.png') }}" class="h-[10vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/class2/b4.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[7vw]" />
         </div>
 
 

@@ -39,10 +39,10 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/colours/class6/b1.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/drama/class7/b1.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[10vw]" />
+        <div class="flex items-center gap-0.5">
+            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[7vw]" />
         </div>
 
         <h3 class="ptitle">Objectives:</h3>
