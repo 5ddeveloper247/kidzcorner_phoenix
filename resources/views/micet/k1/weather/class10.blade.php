@@ -39,14 +39,14 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/k1/weather/class10/b1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Know more songs and rhymes through a competition</li>
-            <li>Work with friends in the competition</li>
-            <li>Practise counting</li>
+            <li>To understand changes in one's mood.</li>
+            <li>To understand the different activities suitable for different types of weather.</li>
+            <li>To learn to appreciate the different types of weather.</li>
         </ul>
     </div>
 
@@ -59,7 +59,6 @@
 
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Whiteboard and markers</li>
             </ol>
         </div>
     </div>
@@ -73,11 +72,9 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Let children share the songs and rhymes they know.</li>
-                <li>Inform children that they are going to participate in a song and nursery rhyme
-                    competition.</li>
-                <li>Organise children into groups. Let each group decide on a name for their
-                    group( teacher may help if needed).</li>
+                <li>Ask the children: "What is your favourite weather?"; "What is your least favourite weather?"; "Why?".</li>
+                <li>Explain that everyone has their favourite and least favourite weather. But we have to learn to appreciate the different types of weather so that we can be happy even during our least favourite weather. We can do so by engaging ourselves in different activities during different types of weather.</li>
+                <li>Have the children recall the activities on weather that they were engaged in for the past few days (for the different types of weather). Encourage them to explain if they liked these activities. Guide the children in understanding and</li>
             </ol>
         </div>
     </div>
@@ -88,71 +85,23 @@
         <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Draw a record table on the whiteboard:</li>
+            <li>Have the children turn to activity 10 in the Thematic Activity Book and draw their favourite activity for each weather from page 1 to 5 of the weather book (e.g. watch television at home on a rainy day, eating ice cream on a sunny day, etc).</li>
+            <li>Have the children draw their favourite weather symbol on page 6.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class10/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/weather/class10/c1.png') }}" class="h-[17vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>State the rules of the competition:
-                <ol class="list-[lower-alpha] pl-[1vw] panel-ul">
-                    <li>Every group will take turns to perform a song or a nursery rhyme.</li>
-                    <li>Children need to create movements for their song or nursery rhyme.</li>
-                    <li>Songs or nursery rhymes that have already been performed should not be repeated (modified versions
-                        are not considered as repetition).</li>
-                    <li>A group will lose a turn if it does not perform within a stipulated time (e.g. 1 minute), and the
-                        next group will then continue.</li>
-                    <li>When the groups are unable to come up with any more songs or rhymes, the competition ends.</li>
-                    <li>The winner of the competition will be the group that has performed the most number of songs and
-                        rhymes.</li>
-                </ol>
-            </li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Before the competition starts, provide enough time for the groups to prepare
-                for the competition: stating songs and rhymes they know, choosing and
-                agreeing on movements for each rhyme or song.</li>
-            <li>During the competition, note down the title of the nursery rhyme or song
-                performed by each group in the record table.</li>
+                    <li>Finally, have the children draw suitable pictures on the cover and the back of their weather books. Assist the children if they require some writing.</li>
+                    <li>Group the children and have them share their work among group members.</li>
+            </li>
         </ol>
     </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>After the competition, applaud all the children for their effort and
-                participation.</li>
-            <li>Let the children then count the number of songs and nursery rhymes
-                performed by each group to determine the winner of the competition.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
 
 
     {{-- panel 4 --}}
@@ -163,18 +112,15 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage children to perform new songs and nursery
-                    rhymes that they have seen other groups perform in the competition.</li>
+                <li>Create and decorate a small weather station corner with the help of the children using their weather books, weather records from Activity 9 and pinwheels from Activity 5, etc.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to work with friends in the competition.</li>
-                <li>Able to count the number of songs and rhymes performed
-                    by each group.</li>
-                <li>Able to sing or recite songs and nursery rhymes that they
-                    are not familiar with.</li>
+                <li>Able to make a folded weather book.</li>
+                <li>Able to describe one's favourite and least favourite weather and provide reasons.</li>
+                <li>Able to draw activities reflecting the different types of weather.</li>
             </ul>
         </div>
     </div>
@@ -234,8 +180,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/k1/weather/index') }}";
+            const doneURL = "{{ url('/micet/k1/weather/index') }}";
 
             // Track current position
             let currentSlide = 0;

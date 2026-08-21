@@ -38,10 +38,11 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/animals/class2/b1.png') }}" class="h-[10vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class2/b2.png') }}" class="h-[8vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
+        <div class="flex items-center gap-2">
+            <img src="{{ asset('assets/images/micet/n1/drama/class2/b1.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class2/b2.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class2/b3.png') }}" class="h-[6vw]" />
         </div>
 
 
@@ -56,7 +57,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <div class="space-y-[1vw] text-center">
             <h3 class="ptitle">Preparations</h3>
@@ -73,7 +74,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Lesson Development</h3>
@@ -92,7 +93,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Song 3: Play music, teacher sings to the rhythm of the music.</li>
@@ -115,7 +116,7 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>Song 3: Teacher explains the meaning of the lyrics to children.</li>
@@ -138,7 +139,7 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Song 3: Repeat playing music, have children sing along with teacher to the
@@ -162,7 +163,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Song 3: After children are familiar with the song, play music, have children
@@ -186,7 +187,7 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Song 4: Play music, teacher sings to the rhythm of the music.</li>
@@ -209,7 +210,7 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Song 4: Teacher explains the meaning of the lyrics to children.</li>
@@ -232,7 +233,7 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Song 4: Repeat playing music, have children sing along with teacher to the
@@ -256,7 +257,7 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
             <li>Song 4: After children are familiar with the song, play music, have children
@@ -280,7 +281,7 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
@@ -294,7 +295,7 @@
 
     {{-- panel 14 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Songs of the Story (1)</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Songs of the Story (2)</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

@@ -2,591 +2,591 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-    $showBackground = false;
-    $showVector1 = true;
-    $showVector5 = false;
-    $showMascot = true;
+$showBackground = false;
+$showVector1 = true;
+$showVector5 = false;
+$showMascot = true;
 @endphp
 
 
 @push('styles')
-    <style>
-        .p-note {
-            font-size: 1.2vw;
-            color: white !important;
-        }
+<style>
+    .p-note {
+        font-size: 1.2vw;
+        color: white !important;
+    }
 
-        .panel-title {
-            color: #F7B94A;
-            font-size: 2.2vw;
-        }
+    .panel-title {
+        color: #F7B94A;
+        font-size: 2.2vw;
+    }
 
-        title {
-            color: #F7B94A;
-            font-size: 2vw;
-        }
+    title {
+        color: #F7B94A;
+        font-size: 2vw;
+    }
 
-        .ptitle {
-            color: #f7b94a;
-            font-size: 1.7vw;
-        }
+    .ptitle {
+        color: #f7b94a;
+        font-size: 1.7vw;
+    }
 
-        .p-title {
-            color: #ffffff;
-            font-size: 1.4vw;
-        }
+    .p-title {
+        color: #ffffff;
+        font-size: 1.4vw;
+    }
 
-        .panel-ul {
-            color: white;
-            font-size: 1.4vw;
-            text-align: left !important;
-        }
-    </style>
+    .panel-ul {
+        color: white;
+        font-size: 1.4vw;
+        text-align: left !important;
+    }
+</style>
 @endpush
 
 @section('content')
 
-    {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
-        </div>
-
-
-        <h3 class="title">Objectives:</h3>
-
-        <ul class="list-disc panel-ul w-[40vw]">
-            <li>Understand what school life is all about and be willing to
-                participate in school activities</li>
-            <li>Learn to express emotions in words</li>
-        </ul>
+{{-- panel 1 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 1: Adventures of Drip and Drop</h1>
+    <div class="flex items-center">
+        <img src="{{ asset('assets/images/micet/k1/water/class1/b1.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/k1/water/class1/b8.png') }}" class="h-[8vw]" />
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
+    <h3 class="title">Objectives:</h3>
 
-        <div>
-            <h3 class="title">Preparations</h3>
-
-            <ol class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
-            </ol>
-        </div>
-    </div>
+    <ul class="list-disc panel-ul w-[40vw]">
+        <li>To understand the importance of water.</li>
+        <li>To develop analysing skills.</li>
+        <li>To reinforce the joy of helping others.</li>
+        <li>To expand vocabulary and promote self-expression.</li>
+    </ul>
+</div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 1: Adventures of Drip and Drop</h1>
 
-        <div>
-            <h3 class="title">Lesson Development</h3>
+    <div>
+        <h3 class="title">Preparations</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Tell the story using suggested questions and activities to reinforce the
-                    teaching points of the story.</li>
-            </ol>
-        </div>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">First Day at School</h1>
-
-        <h3 class="p-title">Theme: My School</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c1.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">All the animals are excited about the first day of school. <br>
-            Only Patchy, the little panda, does not want to go to school. <br>
-            He clings on to his mother, crying loudly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c2.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Why is Patchy unwilling to go to school? How was your first day of school?<br>
-                <span class="text-[#f7b94a]">Help the children to overcome their fear of school. Help the children <br>
-                    to express their thoughts and feelings by using complefe sentences.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Patchy's mother leaves him at the school and goes to work. Teacher <br>
-            Mrs. Moo takes Patchy to the classroom. The other animals hear <br>
-            Patchy's wails and hurry over. They invite himto play and soon Patchy is playing happily with them.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c3.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-around w-full">
-            <h3 class="p-title text-left">
-                If you see another child crying, what would you do? <br>
-                <span class="text-[#f7b94a]">Help the children to understand the emotions felt by others <br>
-                    and to learn to console those who are sad.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Patchy and his friends build a skyscraper and take turns to drive a toy <br>
-            car. Patchy also plays with a ball. There are many toys in school!</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c4.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                What do you like to play in school? <br>
-                <span class="text-[#f7b94a]">Encourage the children to name their favourite toys.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Soon it is tea time. Teacher Mrs. Moo gets the class in line to take <br>
-            tums to wash their hands. We have to wash our hands before we eat.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c5.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Why do we wash our hands before we eat? Why do we need to queue up?<br>
-                <span class="text-[#f7b94a]">Help the children to cultivate the habit of washing hands before <br>
-                    eating and queuing up while waiting for their tum.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Aftertea, the children learnt to sing and play musical instruments <br>
-            from Mrs. Moo. Listen! The music produced was lovely!</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c6.png') }}" class="w-[30vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                What kinds of musical instruments are the children holding? <br>
-                <span class="text-[#f7b94a]">Help the children to identify the common musical instruments as well <br>
-                    as the sounds they produce.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">After that, Mrs. Moo teaches the children how to dance. They form a <br>
-            circle and sing and dance. Everyone dances very well.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                What dance can you do? Demonstrate it to the class.<br>
-                <span class="text-[#f7b94a]">Encourage the children to dance according to the rhythm of music.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mrs. Moo then takes everyone to the playground. Patchy and his <br>
-            friends play on the see-saw and slide. Patchy has a great time!</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Name the things that you can find in your school playground. <br>
-                What is your favourite game there?<br>
-                <span class="text-[#f7b94a]">Help the children to identity the various toys in school and <br>
-                    show them how each should be handled.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Time flies! Soon it is time for the mothers to fetch their children. <br>
-            Patchy tells his mother that school is fun, and that he will not cry <br>
-            again when he has to go to school.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Who usually takes you to school and fetches you from school?<br>
-                <span class="text-[#f7b94a]">Help the children to appreciate the effort put in by their family <br>
-                    members and encourage them to show their appreciation.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+        <ol class="list-disc panel-ul">
+            <li>Thematic Activity Book</li>
         </ol>
     </div>
+</div>
 
 
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School </h1>
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 1: Adventures of Drip and Drop</h1>
 
-        <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+    <div class="text-start">
+        <h3 class="title">Lesson Development</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get the children to name their favourite activity in school. </li>
-            </ul>
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Tell the story using suggested questions and activities to reinforce the
+                teaching points of the story.</li>
+        </ol>
+    </div>
+</div>
 
-            <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to describe a day in school.</li>
-                <li>Be willing to go to school.</li>
-                <li>Able to express one's emotion in words.</li>
-            </ul>
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Adventures of Drip and Drop</h1>
+
+    <h3 class="p-title">Theme: Precious Water</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c1.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">The water droplets, Drip and Drop, are good friends. They live in the sky.
+        One day, a dark cloud passes by. They get into the cloud. They want to
+        tum into rain and come down to the land to play.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c2.png') }}" class="w-[30vw]" />
+
+    <div class="flex items-center w-[45vw] justify-between">
+        <h3 class="p-title text-left">
+            Where does rain come from?<br>
+            <span class="text-[#f7b94a]">Discuss some of the underlying causes of rain.</span>
+        </h3>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k1/water/class1/b2.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/water/class1/b6.png') }}" class="h-[5vw]" />
         </div>
     </div>
+</div>
 
 
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">It is raining. Drip and Drop land on a lotus leaf in a pond. The pond
+        belongs to a friendly frog. It invites them to play in the pond.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c3.png') }}" class="w-[30vw]" />
 
-
-    {{-- ================================ --}}
-    {{-- All Buttons --}}
-    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
-
-        <!-- Home Button -->
-        <button id="returnButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-        </button>
-
-        <!-- return Button -->
-        <button id="homeButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-        </button>
-
-        <!-- Close Button -->
-        <button id="closeButton">
-
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-        </button>
+    <div class="flex items-center justify-around w-[45vw]">
+        <h3 class="p-title text-left">
+            Name the things that are commonly found in ponds.<br>
+            <span class="text-[#f7b94a]">Have the children identify the animals and plants that are commonly
+                found in ponds.</span>
+        </h3>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k1/water/class1/b2.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/water/class1/b6.png') }}" class="h-[5vw]" />
+        </div>
     </div>
+</div>
 
-    {{-- Next and Done Buttons --}}
-    <div class="down-btn-container">
-        <button class="nextButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-        </button>
-    </div>
 
-    <div class="down-btn-container">
-        <button class="doneButton hidden">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-        </button>
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Drip and Drop are tired of playing in the pond. They then flow into a
+        river. Drip and Drop want to see who can run faster so they race into a
+        water pipe.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c4.png') }}" class="w-[27vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            Where will the water pipe lead them to?<br>
+            <span class="text-[#f7b94a]">Develop children's deductive reasoning skills.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/k1/water/class1/b2.png') }}" class="w-[5vw]" />
     </div>
+</div>
+
+
+{{-- panel 8 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">They go through the water pipe and anive at Mrs. Moo's house. Little Moo is
+        having a bubble bath. They quickly jump into the tub. Just then, Mrs. Moo
+        drains the waste water from the tub along with Drip and Drop.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c5.png') }}" class="w-[27vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            Where does dirty water flow to?<br>
+            <span class="text-[#f7b94a]">Develop children's observation and inference skills.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/k1/water/class1/b3.png') }}" class="w-[5vw]" />
+    </div>
+</div>
+
+
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Poor Drip and Drop are now dirty. They are then flushed into a sewage
+        treatment plant and soon they became clean water droplets again.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c6.png') }}" class="w-[30vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            How do the water droplets become clean?<br>
+            <span class="text-[#f7b94a]">Guide the children in understanding the principle of water <br>
+                purification. Conduct a small expe rimenf with the children.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/k1/water/class1/b2.png') }}" class="w-[5vw]" />
+    </div>
+</div>
+
+
+{{-- panel 10 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Next, they end up in a water tank in a fire engine. They are very brave.
+        They help the firemen put out a big fire.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c7.png') }}" class="w-[29vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            Why are fire engines red in colour? How are they different from police
+            cars and ambulances?<br>
+            <span class="text-[#f7b94a]">Develop children's analysing skills and encourage self-expression.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/k1/water/class1/b4.png') }}" class="w-[8vw]" />
+    </div>
+</div>
+
+
+{{-- panel 11 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Drip and Drop are very tired and they lie on the ground to rest. Slowly
+        they seep into the ground. The plant is very thirsty. Drip and Drop try to
+        get the roots to drink from them.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c8.png') }}" class="w-[27vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            Why do plants need water? What will happen if plants do not
+            have water? How do roots drink water?<br>
+            <span class="text-[#f7b94a]">Guide the children in understanding the importance of waterto
+                plants.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/k1/water/class1/b5.png') }}" class="w-[8vw]" />
+    </div>
+</div>
+
+
+{{-- panel 12 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">After playing for so long, Drip and Drop start to miss home. The kind sun
+        uses the warmth of its sunlight and tum them into water vapour. The
+        water droplets are going back to the sky.</h3>
+    <img src="{{ asset('assets/images/micet/k1/water/class1/c9.png') }}" class="w-[27vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+           What other methods can help Drip and Drop return home?<br>
+            <span class="text-[#f7b94a]">Guide the children in understanding the concept of evaporation.</span>
+        </h3>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k1/water/class1/b8.png') }}" class="h-[4.5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/water/class1/b2.png') }}" class="h-[4.5vw]" />
+        </div>
+    </div>
+</div>
+
+
+
+{{-- panel 13 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 1: Adventures of Drip and Drop</h1>
+
+    <div class="text-start flex flex-col justify-between h-full">
+        <h3 class="ptitle">Clousre</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Help the children describe the water cycle.</li>
+        </ul>
+
+        <h3 class="ptitle">Evaluation</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Able to name some uses of water.</li>
+            <li>Able to state the importance of water to all living things.</li>
+            <li>Able to describe that rain is made up of water droplets.</li>
+            <li>Able to share their experiences of helping others.</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+{{-- ================================ --}}
+{{-- All Buttons --}}
+<div id="buttons" class="absolute flex flex-row gap-6 z-90">
+
+    <!-- Home Button -->
+    <button id="returnButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+    </button>
+
+    <!-- return Button -->
+    <button id="homeButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+    </button>
+
+    <!-- Close Button -->
+    <button id="closeButton">
+
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+    </button>
+</div>
+
+{{-- Next and Done Buttons --}}
+<div class="down-btn-container">
+    <button class="nextButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+    </button>
+</div>
+
+<div class="down-btn-container">
+    <button class="doneButton hidden">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+    </button>
+</div>
 @endsection
 
 @push('script')
-    <script>
-        // SLIDE NAVIGATION SYSTEM
-        document.body.dataset.homeRoute = "{{ url('/micet') }}";
+<script>
+    // SLIDE NAVIGATION SYSTEM
+    document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-        document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
 
-            // Get all elements
-            const slides = document.querySelectorAll(".phonics-panel");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn']");
-            const soundButtons = document.querySelectorAll("[id^='soundButton']");
+        // Get all elements
+        const slides = document.querySelectorAll(".phonics-panel");
+        const nextButtons = document.querySelectorAll(".nextButton");
+        const returnButton = document.getElementById("returnButton");
+        const doneButton = document.querySelector(".doneButton");
+        const infoButtons = document.querySelectorAll("[class*='info-btn']");
+        const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+        // URLs for navigation
+        const returnURL = "{{ url('/micet/k1/water/index') }}";
+        const doneURL = "{{ url('/micet/k1/water/index') }}";
 
-            // Track current position
-            let currentSlide = 0;
-            let isInSpecialMode = false;
-            let returnToSlide = null;
-            let specialSlideClass = null;
+        // Track current position
+        let currentSlide = 0;
+        let isInSpecialMode = false;
+        let returnToSlide = null;
+        let specialSlideClass = null;
 
-            // Audio management
-            let currentAudio = null;
+        // Audio management
+        let currentAudio = null;
 
-            // HELPER FUNCTIONS
+        // HELPER FUNCTIONS
 
-            function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
-            }
+        function isSpecialSlide(slide) {
+            const classList = Array.from(slide.classList);
+            return classList.some(cls => /^info-panel-\d+$/.test(cls));
+        }
 
-            function getSlideTypeFromButton(button) {
-                const classList = Array.from(button.classList);
+        function getSlideTypeFromButton(button) {
+            const classList = Array.from(button.classList);
 
-                for (let className of classList) {
-                    if (className.startsWith('info-btn')) {
-                        const number = className.replace('info-btn', '');
-                        return 'info-panel-' + number;
-                    }
+            for (let className of classList) {
+                if (className.startsWith('info-btn')) {
+                    const number = className.replace('info-btn', '');
+                    return 'info-panel-' + number;
                 }
-                return null;
             }
+            return null;
+        }
 
-            function hasMoreSpecialSlides(fromIndex) {
-                if (!specialSlideClass) return false;
+        function hasMoreSpecialSlides(fromIndex) {
+            if (!specialSlideClass) return false;
 
-                for (let i = fromIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function isLastSlide(slideIndex) {
-                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-
-                if (!isInSpecialMode) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) {
-                            return false;
-                        }
-                    }
+            for (let i = fromIndex + 1; i < slides.length; i++) {
+                if (slides[i].classList.contains(specialSlideClass)) {
                     return true;
                 }
-
-                return false;
             }
+            return false;
+        }
 
-            // AUDIO FUNCTIONS
+        function isLastSlide(slideIndex) {
+            if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-            function stopCurrentAudio() {
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                }
-            }
-
-            function playSlideAudio(slideIndex) {
-                // Stop any currently playing audio
-                stopCurrentAudio();
-
-                // Get the slide element
-                const slide = slides[slideIndex];
-
-                // Check if the slide itself has data-slide-audio attribute
-                let audioSrc = slide.getAttribute('data-slide-audio');
-
-                // If not, look for element inside the slide with data-slide-audio attribute
-                if (!audioSrc) {
-                    const audioElement = slide.querySelector('[data-slide-audio]');
-                    if (audioElement) {
-                        audioSrc = audioElement.getAttribute('data-slide-audio');
+            if (!isInSpecialMode) {
+                for (let i = slideIndex + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) {
+                        return false;
                     }
                 }
+                return true;
+            }
 
-                // Play the audio if we found a source
+            return false;
+        }
+
+        // AUDIO FUNCTIONS
+
+        function stopCurrentAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+            }
+        }
+
+        function playSlideAudio(slideIndex) {
+            // Stop any currently playing audio
+            stopCurrentAudio();
+
+            // Get the slide element
+            const slide = slides[slideIndex];
+
+            // Check if the slide itself has data-slide-audio attribute
+            let audioSrc = slide.getAttribute('data-slide-audio');
+
+            // If not, look for element inside the slide with data-slide-audio attribute
+            if (!audioSrc) {
+                const audioElement = slide.querySelector('[data-slide-audio]');
+                if (audioElement) {
+                    audioSrc = audioElement.getAttribute('data-slide-audio');
+                }
+            }
+
+            // Play the audio if we found a source
+            if (audioSrc) {
+                currentAudio = new Audio(audioSrc);
+                currentAudio.play().catch(err => console.log('Audio play failed:', err));
+            }
+        }
+
+
+        // DISPLAY FUNCTIONS
+
+        function showSlide(slideIndex) {
+            // Stop audio from previous slide
+            stopCurrentAudio();
+
+            // Hide all slides, show only current one
+            slides.forEach((slide, index) => {
+                if (index === slideIndex) {
+                    slide.classList.remove("hidden");
+                } else {
+                    slide.classList.add("hidden");
+                }
+            });
+
+            // Play audio for current slide (if it has one)
+            playSlideAudio(slideIndex);
+
+            // Show "Done" button on last slide, otherwise show "Next"
+            if (isLastSlide(slideIndex)) {
+                nextButtons.forEach(btn => btn.classList.add("hidden"));
+                if (doneButton) doneButton.classList.remove("hidden");
+            } else {
+                nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                if (doneButton) doneButton.classList.add("hidden");
+            }
+        }
+
+        soundButtons.forEach(btn => {
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+
+                // Get audio source from data-slide-audio attribute
+                const audioSrc = btn.getAttribute('data-slide-audio');
+
                 if (audioSrc) {
+                    stopCurrentAudio();
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
-            }
-
-
-            // DISPLAY FUNCTIONS
-
-            function showSlide(slideIndex) {
-                // Stop audio from previous slide
-                stopCurrentAudio();
-
-                // Hide all slides, show only current one
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
-                });
-
-                // Play audio for current slide (if it has one)
-                playSlideAudio(slideIndex);
-
-                // Show "Done" button on last slide, otherwise show "Next"
-                if (isLastSlide(slideIndex)) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
-                }
-            }
-
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-
-                    // Get audio source from data-slide-audio attribute
-                    const audioSrc = btn.getAttribute('data-slide-audio');
-
-                    if (audioSrc) {
-                        stopCurrentAudio();
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                    }
-                });
             });
-            // NAVIGATION FUNCTIONS
+        });
+        // NAVIGATION FUNCTIONS
 
-            function goNext() {
-                if (currentSlide >= slides.length - 1) return;
+        function goNext() {
+            if (currentSlide >= slides.length - 1) return;
 
-                currentSlide++;
+            currentSlide++;
 
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-
-                    if (isInSpecialMode) {
-                        if (slide.classList.contains(specialSlideClass)) break;
-                    } else {
-                        if (!isSpecialSlide(slide)) break;
-                    }
-
-                    currentSlide++;
-                }
-
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
-            }
-
-            function goBack() {
-                if (currentSlide === 0 && !isInSpecialMode) {
-                    stopCurrentAudio();
-                    window.location.href = returnURL;
-                    return;
-                }
+            while (currentSlide < slides.length) {
+                const slide = slides[currentSlide];
 
                 if (isInSpecialMode) {
-                    let previousIndex = currentSlide - 1;
-
-                    while (previousIndex >= 0) {
-                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                            break;
-                        }
-                        previousIndex--;
-                    }
-
-                    if (previousIndex >= 0) {
-                        currentSlide = previousIndex;
-                        showSlide(currentSlide);
-                    } else {
-                        currentSlide = returnToSlide;
-                        isInSpecialMode = false;
-                        specialSlideClass = null;
-                        returnToSlide = null;
-                        showSlide(currentSlide);
-                    }
+                    if (slide.classList.contains(specialSlideClass)) break;
                 } else {
-                    if (currentSlide > 0) {
-                        currentSlide--;
-
-                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                            currentSlide--;
-                        }
-
-                        showSlide(currentSlide);
-                    }
+                    if (!isSpecialSlide(slide)) break;
                 }
+
+                currentSlide++;
             }
 
-            function handleDone() {
-                stopCurrentAudio();
+            if (currentSlide < slides.length) {
+                showSlide(currentSlide);
+            }
+        }
 
-                if (isInSpecialMode && returnToSlide !== null) {
+        function goBack() {
+            if (currentSlide === 0 && !isInSpecialMode) {
+                stopCurrentAudio();
+                window.location.href = returnURL;
+                return;
+            }
+
+            if (isInSpecialMode) {
+                let previousIndex = currentSlide - 1;
+
+                while (previousIndex >= 0) {
+                    if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                        break;
+                    }
+                    previousIndex--;
+                }
+
+                if (previousIndex >= 0) {
+                    currentSlide = previousIndex;
+                    showSlide(currentSlide);
+                } else {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                } else {
-                    window.location.href = doneURL;
+                }
+            } else {
+                if (currentSlide > 0) {
+                    currentSlide--;
+
+                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
+                    showSlide(currentSlide);
                 }
             }
+        }
 
-            // EVENT LISTENERS
+        function handleDone() {
+            stopCurrentAudio();
 
-            infoButtons.forEach(button => {
-                button.addEventListener("click", function(e) {
-                    e.preventDefault();
+            if (isInSpecialMode && returnToSlide !== null) {
+                currentSlide = returnToSlide;
+                isInSpecialMode = false;
+                specialSlideClass = null;
+                returnToSlide = null;
+                showSlide(currentSlide);
+            } else {
+                window.location.href = doneURL;
+            }
+        }
 
-                    returnToSlide = currentSlide;
-                    isInSpecialMode = true;
-                    specialSlideClass = getSlideTypeFromButton(button);
+        // EVENT LISTENERS
 
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(specialSlideClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
+        infoButtons.forEach(button => {
+            button.addEventListener("click", function(e) {
+                e.preventDefault();
+
+                returnToSlide = currentSlide;
+                isInSpecialMode = true;
+                specialSlideClass = getSlideTypeFromButton(button);
+
+                for (let i = 0; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        currentSlide = i;
+                        showSlide(currentSlide);
+                        break;
                     }
-                });
+                }
             });
-
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
-            });
-
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
-
-            if (doneButton) {
-                doneButton.addEventListener("click", handleDone);
-            }
-
-            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-            letterLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const letter = link.getAttribute('data-letter') || 'a';
-                    speakLetter(letter);
-                });
-            });
-
-            window.speechSynthesis.onvoiceschanged = () => {
-                window.speechSynthesis.getVoices();
-            };
-
-            // INITIALIZE - Show first slide and play its audio automatically
-            showSlide(currentSlide);
         });
 
-    </script>
+        nextButtons.forEach(btn => {
+            btn.addEventListener("click", goNext);
+        });
+
+        if (returnButton) {
+            returnButton.addEventListener("click", goBack);
+        }
+
+        if (doneButton) {
+            doneButton.addEventListener("click", handleDone);
+        }
+
+        const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+        letterLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const letter = link.getAttribute('data-letter') || 'a';
+                speakLetter(letter);
+            });
+        });
+
+        window.speechSynthesis.onvoiceschanged = () => {
+            window.speechSynthesis.getVoices();
+        };
+
+        // INITIALIZE - Show first slide and play its audio automatically
+        showSlide(currentSlide);
+    });
+</script>
 @endpush

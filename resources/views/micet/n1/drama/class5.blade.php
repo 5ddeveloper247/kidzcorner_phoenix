@@ -87,10 +87,10 @@
         </div>
 
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[15vw]" />
             <div class="flex gap-[1vw]">
                 <img src="{{ asset('assets/images/micet/n1/drama/class5/c2.png') }}" class="w-[15vw]" />
-                <img src="{{ asset('assets/images/micet/n1/drama/class5/c3.png') }}" class="w-[15vw]" />
+                <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[15vw]" />
             </div>
         </div>
     </div>
@@ -108,7 +108,7 @@
                 goodbye to the baby rabbits? How did the baby rabbits react?).</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[23vw]" />
+        <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[23vw]" />
     </div>
 
 
@@ -119,7 +119,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Have children use their imagination to tell and act out the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -184,7 +184,7 @@
             <li>Display the story pictures one by one, guide children to tell the complete
                 story.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/drama/class5/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/drama/class5/c4.png') }}" class="w-[25vw]" />
     </div>
 
 

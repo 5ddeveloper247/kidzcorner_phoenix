@@ -50,8 +50,8 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: The Rabbits and the Wolf</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class1/b1.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class1/b2.png') }}" class="h-[8vw]" />
         </div>
 
 
@@ -230,7 +230,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: The Rabbits and the Wolf</h1>
 
-        <ol class="list-decimal panel-ul" start="24">
+        <ol class="list-decimal panel-ul" start="2">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

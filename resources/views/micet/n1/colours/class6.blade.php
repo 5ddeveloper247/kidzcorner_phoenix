@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/colours/class6/b1.png') }}" class="h-[9vw]" />
             <img src="{{ asset('assets/images/micet/n1/colours/class6/b2.png') }}" class="h-[9vw]" />
@@ -58,7 +58,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -84,7 +84,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
@@ -103,7 +103,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Ask children: "Have you ever played with dough?" "What things did you
@@ -116,7 +116,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Inform children that they are going to make their own dough.</li>
@@ -129,7 +129,7 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Demonstrate how to make dough and ask children to follow the steps closely:
@@ -149,7 +149,7 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Guide children to complete the corresponding activities in the
@@ -160,7 +160,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Make Dough</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

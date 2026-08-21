@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Colour Partner</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/colours/class8/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/colours/class8/b2.png') }}" class="h-[8vw]" />
@@ -55,7 +55,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Colour Partner</h1>
 
         <h3 class="ptitle">Preparations</h3>
 
@@ -70,7 +70,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Colour Partner</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
@@ -85,7 +85,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Colour Partner</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Ask children:
@@ -100,7 +100,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Colour Partner</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Display colour cards, tell children that we are going to play a game with these cards.</li>
@@ -119,7 +119,7 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Colour Partner</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Guide children to complete the corresponding activity in the Thematic Activity Book.</li>
@@ -129,7 +129,7 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Colour Partner</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
