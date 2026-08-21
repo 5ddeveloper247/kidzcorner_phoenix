@@ -74,7 +74,7 @@
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 8: Percussions Performance</h1>
 
         <div class="text-start">
@@ -88,10 +88,10 @@
         </div>
 
         <div class="grid grid-cols-2">
-            <img src="{{ asset('assets/images/micet/n1/music/class7/c1.png') }}" class="w-[15vw]" />
-            <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="w-[15vw]" />
-            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="h-[10vw]" />
-            <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="w-[10vw] h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="w-[13vw] h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="w-[10vw] h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="w-[10vw] h-[10vw]" />
 
         </div>
     </div>

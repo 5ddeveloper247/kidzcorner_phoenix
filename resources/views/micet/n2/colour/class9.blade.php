@@ -179,7 +179,7 @@ $showMascot = true;
 
         <ul class="list-disc panel-ul w-[45vw]">
             <li>Divide children into groups of seven. Let each group
-      take turns to perform the song.</li>
+                take turns to perform the song.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
@@ -310,6 +310,16 @@ $showMascot = true;
             }
         }
 
+        // VIDEO FUNCTIONS
+
+        function stopAllVideos() {
+            document.querySelectorAll(".phonics-panel video").forEach(video => {
+                video.pause();
+                video.currentTime = 0;
+            });
+        }
+
+
         function playSlideAudio(slideIndex) {
             // Stop any currently playing audio
             stopCurrentAudio();
@@ -341,6 +351,8 @@ $showMascot = true;
         function showSlide(slideIndex) {
             // Stop audio from previous slide
             stopCurrentAudio();
+
+            stopAllVideos();
 
             // Hide all slides, show only current one
             slides.forEach((slide, index) => {

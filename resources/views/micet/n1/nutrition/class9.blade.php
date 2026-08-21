@@ -305,7 +305,7 @@ $showMascot = true;
 
         <ul class="list-disc panel-ul w-[45vw]">
             <li>Have children demonstrate the correct way of brushing teeth
-      to parents at home.</li>
+                to parents at home.</li>
         </ul>
     </div>
 </div>
@@ -431,6 +431,16 @@ $showMascot = true;
             }
         }
 
+        // VIDEO FUNCTIONS
+
+        function stopAllVideos() {
+            document.querySelectorAll(".phonics-panel video").forEach(video => {
+                video.pause();
+                video.currentTime = 0;
+            });
+        }
+
+
         function playSlideAudio(slideIndex) {
             // Stop any currently playing audio
             stopCurrentAudio();
@@ -462,6 +472,8 @@ $showMascot = true;
         function showSlide(slideIndex) {
             // Stop audio from previous slide
             stopCurrentAudio();
+
+            stopAllVideos();
 
             // Hide all slides, show only current one
             slides.forEach((slide, index) => {
