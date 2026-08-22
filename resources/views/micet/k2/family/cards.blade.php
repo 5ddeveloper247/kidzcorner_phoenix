@@ -73,7 +73,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">grandfather</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">grandfather</p>
 </div>
 
 
@@ -85,7 +85,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">grandmother</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">grandmother</p>
 </div>
 
 
@@ -96,7 +96,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">mother</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">mother</p>
 </div>
 
 {{-- panel 4 --}}
@@ -107,7 +107,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">father</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">father</p>
 </div>
 
 
@@ -119,7 +119,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">aunt</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">aunt</p>
 </div>
 
 
@@ -131,7 +131,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">uncle</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">uncle</p>
 </div>
 
 
@@ -143,7 +143,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">sister</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">sister</p>
 </div>
 
 
@@ -155,7 +155,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">cousin</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">cousin</p>
 </div>
 
 

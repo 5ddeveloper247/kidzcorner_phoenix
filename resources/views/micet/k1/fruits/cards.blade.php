@@ -73,7 +73,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">seeds</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">seeds</p>
 </div>
 
 
@@ -85,7 +85,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">fruits</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">fruits</p>
 </div>
 
 
@@ -96,7 +96,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">banana</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">banana</p>
 </div>
 
 {{-- panel 4 --}}
@@ -107,7 +107,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">watermelon</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">watermelon</p>
 </div>
 
 
@@ -119,7 +119,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">cherries</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">cherries</p>
 </div>
 
 
@@ -131,7 +131,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">orange</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">orange</p>
 </div>
 
 

@@ -78,7 +78,7 @@ $showMascot = true;
             <li>Ask children to name these household items and state their uses.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class6/c2.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class6/c2.png') }}" class="w-[35vw]" />
 </div>
 
 
@@ -90,7 +90,7 @@ $showMascot = true;
             <li>Ask children to name these household items and state their uses.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class6/c3.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class6/c3.png') }}" class="w-[35vw]" />
 </div>
 
 
@@ -102,7 +102,7 @@ $showMascot = true;
             <li>Ask children to name these household items and state their uses.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class6/c4.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class6/c4.png') }}" class="w-[35vw]" />
 </div>
 
 
@@ -114,7 +114,7 @@ $showMascot = true;
             <li>Ask children to name these household items and state their uses.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class6/c5.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class6/c5.png') }}" class="w-[35vw]" />
 </div>
 
 
@@ -126,7 +126,7 @@ $showMascot = true;
             <li>Ask children to name these household items and state their uses.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class6/c6.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class6/c6.png') }}" class="w-[35vw]" />
 </div>
 
 
@@ -138,7 +138,7 @@ $showMascot = true;
             <li>Ask children to name these household items and state their uses.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class6/c7.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class6/c7.png') }}" class="w-[35vw]" />
 </div>
 
 

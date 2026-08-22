@@ -111,11 +111,11 @@ $showMascot = true;
     <div class="flex gap-5">
         <div class="flex flex-col">
             <img src="{{ asset('assets/images/micet/k1/water/class4/c1.png') }}" class="h-[15vw]" />
-            <h2 class="text-[#f7b94a]">in a cool corner</h2>
+            <h2 class="text-[1.5vw] text-[#f7b94a]">in a cool corner</h2>
         </div>
         <div class="flex flex-col">
             <img src="{{ asset('assets/images/micet/k1/water/class4/c1.png') }}" class="h-[15vw]" />
-            <h2 class="text-[#f7b94a]">under the sun</h2>
+            <h2 class="text-[1.5vw] text-[#f7b94a]">under the sun</h2>
         </div>
     </div>
 </div>
@@ -131,11 +131,11 @@ $showMascot = true;
     <div class="flex gap-5">
         <div class="flex flex-col">
             <img src="{{ asset('assets/images/micet/k1/water/class4/c1.png') }}" class="h-[15vw]" />
-            <h2 class="text-[#f7b94a]">in a cool corner</h2>
+            <h2 class="text-[1.5vw] text-[#f7b94a]">in a cool corner</h2>
         </div>
         <div class="flex flex-col">
             <img src="{{ asset('assets/images/micet/k1/water/class4/c3.png') }}" class="h-[15vw]" />
-            <h2 class="text-[#f7b94a]">under the sun</h2>
+            <h2 class="text-[1.5vw] text-[#f7b94a]">under the sun</h2>
         </div>
     </div>
 </div>
@@ -152,11 +152,11 @@ $showMascot = true;
     <div class="flex gap-5">
         <div class="flex flex-col">
             <img src="{{ asset('assets/images/micet/k1/water/class4/c1.png') }}" class="h-[15vw]" />
-            <h2 class="text-[#f7b94a]">in a cool corner</h2>
+            <h2 class="text-[1.5vw] text-[#f7b94a]">in a cool corner</h2>
         </div>
         <div class="flex flex-col">
             <img src="{{ asset('assets/images/micet/k1/water/class4/c3.png') }}" class="h-[15vw]" />
-            <h2 class="text-[#f7b94a]">under the sun</h2>
+            <h2 class="text-[1.5vw] text-[#f7b94a]">under the sun</h2>
         </div>
     </div>
 </div>

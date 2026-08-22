@@ -337,7 +337,8 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children explain the tornadoes they simulated and imitate the characteristics of a tornado (e.g. turn their bodies and move forward).</li>
+                <li>Have the children explain the tornadoes they simulated and imitate the characteristics of a tornado
+                    (e.g. turn their bodies and move forward).</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
@@ -683,6 +684,23 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush

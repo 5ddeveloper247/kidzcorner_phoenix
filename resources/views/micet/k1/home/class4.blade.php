@@ -84,7 +84,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c2.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">condominium</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">condominium</h2>
     </div>
 </div>
 
@@ -103,7 +103,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c3.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">flats</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">flats</h2>
     </div>
 </div>
 
@@ -122,7 +122,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c4.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">bungalow</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">bungalow</h2>
     </div>
 </div>
 
@@ -141,7 +141,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c5.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">bungalow</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">bungalow</h2>
     </div>
 </div>
 
@@ -160,7 +160,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c6.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">semi-detached</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">semi-detached</h2>
     </div>
 </div>
 
@@ -179,7 +179,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c7.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">semi-detached</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">semi-detached</h2>
     </div>
 </div>
 
@@ -198,7 +198,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c8.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">terrace house</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">terrace house</h2>
     </div>
 </div>
 
@@ -217,7 +217,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c9.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">terrace house</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">terrace house</h2>
     </div>
 </div>
 
@@ -236,7 +236,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c10.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">terrace house</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">terrace house</h2>
     </div>
 </div>
 
@@ -255,7 +255,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c11.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">shophouse</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">shophouse</h2>
     </div>
 </div>
 
@@ -274,7 +274,7 @@ $showMascot = true;
     </div>
     <div>
         <img src="{{ asset('assets/images/micet/k1/home/class4/c12.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">shophouse</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">shophouse</h2>
     </div>
 </div>
 

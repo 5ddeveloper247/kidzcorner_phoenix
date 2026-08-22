@@ -73,7 +73,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">fruits</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">fruits</p>
 </div>
 
 
@@ -85,7 +85,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">apple</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">apple</p>
 </div>
 
 
@@ -96,7 +96,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">apple tree</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">apple tree</p>
 </div>
 
 {{-- panel 4 --}}
@@ -107,7 +107,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">leaf</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">leaf</p>
 </div>
 
 
@@ -119,7 +119,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">tree trunk</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">tree trunk</p>
 </div>
 
 
@@ -131,7 +131,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">root</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">root</p>
 </div>
 
 
@@ -143,7 +143,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">sunlight</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">sunlight</p>
 </div>
 
 
@@ -156,7 +156,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">bee</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">bee</p>
 </div>
 
 

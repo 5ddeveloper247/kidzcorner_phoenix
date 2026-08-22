@@ -60,7 +60,8 @@
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>If there is no snow, prepare some old newspapers and get children to squash them up into balls or other items that will not cause any injury.</li>
+                <li>If there is no snow, prepare some old newspapers and get children to squash them up into balls or other
+                    items that will not cause any injury.</li>
             </ul>
         </div>
     </div>
@@ -74,7 +75,8 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the pictures of snowy days and have the children name the weather. Have the children describe activities that we can do during snowy days.</li>
+                <li>Display the pictures of snowy days and have the children name the weather. Have the children describe
+                    activities that we can do during snowy days.</li>
             </ol>
         </div>
         <img src="{{ asset('assets/images/micet/k1/weather/class8/c1.png') }}" class="w-[25vw]" />
@@ -86,7 +88,8 @@
         <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="1">
-            <li>Display the pictures of snowy days and have the children name the weather. Have the children describe activities that we can do during snowy days.</li>
+            <li>Display the pictures of snowy days and have the children name the weather. Have the children describe
+                activities that we can do during snowy days.</li>
         </ol>
         <div class="flex gap-2">
             <img src="{{ asset('assets/images/micet/k1/weather/class8/c2.png') }}" class="h-[17vw]" />
@@ -100,7 +103,8 @@
         <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Display the pictures of snowball game and have the children explain what the people in the pictures are doing.</li>
+            <li>Display the pictures of snowball game and have the children explain what the people in the pictures are
+                doing.</li>
         </ol>
         <div class="flex gap-2">
             <img src="{{ asset('assets/images/micet/k1/weather/class8/c4.png') }}" class="h-[17vw]" />
@@ -118,8 +122,8 @@
             <li>Click on the video to watch a snowball game. Ask if the children would like to play a snowball game.</li>
         </ol>
         <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k1/weather/class8/v1.mp4') }}" type="video/mp4">
-    </video>
+            <source src="{{ asset('assets/images/micet/k1/weather/class8/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
@@ -129,8 +133,13 @@
         <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Organise the children into two groups (organise them into four or six groups if there are too many children; 2 groups in a game). Let the children know that they will be disqualified if their snowballs hit their own group members (if possible, have the two groups wear different coloured clothes).</li>
-            <li>If it is snowy day, have the children make three snowballs. Once they finish throwing the three snowballs, they cannot make new ones. If they are using squashed up newspaper balls then each child can only throw once. They are not allowed to pick up the thrown squashed up newspaper balls and will be disqualified if they do so.</li>
+            <li>Organise the children into two groups (organise them into four or six groups if there are too many children;
+                2 groups in a game). Let the children know that they will be disqualified if their snowballs hit their own
+                group members (if possible, have the two groups wear different coloured clothes).</li>
+            <li>If it is snowy day, have the children make three snowballs. Once they finish throwing the three snowballs,
+                they cannot make new ones. If they are using squashed up newspaper balls then each child can only throw
+                once. They are not allowed to pick up the thrown squashed up newspaper balls and will be disqualified if
+                they do so.</li>
         </ol>
     </div>
 
@@ -141,22 +150,29 @@
         <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Organise the children into two groups (organise them into four or six groups if there are too many children; 2 groups in a game). Let the children know that they will be disqualified if their snowballs hit their own group members (if possible, have the two groups wear different coloured clothes).</li>
-            <li>If it is snowy day, have the children make three snowballs. Once they finish throwing the three snowballs, they cannot make new ones. If they are using squashed up newspaper balls then each child can only throw once. They are not allowed to pick up the thrown squashed up newspaper balls and will be disqualified if they do so.</li>
+            <li>Organise the children into two groups (organise them into four or six groups if there are too many children;
+                2 groups in a game). Let the children know that they will be disqualified if their snowballs hit their own
+                group members (if possible, have the two groups wear different coloured clothes).</li>
+            <li>If it is snowy day, have the children make three snowballs. Once they finish throwing the three snowballs,
+                they cannot make new ones. If they are using squashed up newspaper balls then each child can only throw
+                once. They are not allowed to pick up the thrown squashed up newspaper balls and will be disqualified if
+                they do so.</li>
         </ol>
     </div>
 
 
-     {{-- panel 4 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>During the snowball game, have the children try to avoid being hit by the "enemy" and think of ways to attack the "enemy". The child will be disqualified once he/she is hit.</li>
-            <li>The game will end when all the snowballs are used up (or once every child has had a turn at throwing the squashed up newspaper ball). The group with the most remaining children is the winning team.</li>
+            <li>During the snowball game, have the children try to avoid being hit by the "enemy" and think of ways to
+                attack the "enemy". The child will be disqualified once he/she is hit.</li>
+            <li>The game will end when all the snowballs are used up (or once every child has had a turn at throwing the
+                squashed up newspaper ball). The group with the most remaining children is the winning team.</li>
         </ol>
     </div>
-    
+
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: Making Snowballs</h1>
@@ -176,7 +192,8 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children from the winning team share their experiences and explain how to throw the snowballs accurately from a distance.</li>
+                <li>Have the children from the winning team share their experiences and explain how to throw the snowballs
+                    accurately from a distance.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
@@ -197,7 +214,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>If there is snow, organise activities for the children to build snowmen or make snowballs to experience the fun in playing with snow.</li>
+                <li>If there is snow, organise activities for the children to build snowmen or make snowballs to experience
+                    the fun in playing with snow.</li>
             </ul>
         </div>
     </div>
@@ -516,6 +534,23 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush

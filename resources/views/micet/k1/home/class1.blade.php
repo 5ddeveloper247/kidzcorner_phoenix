@@ -56,7 +56,7 @@ $showMascot = true;
 
     <h3 class="title">Objectives:</h3>
 
-    <ul class="list-disc panel-ul w-[40vw]">
+    <ul class="list-disc panel-ul">
         <li>Understand the uses of different rooms in a house</li>
         <li>Understand the uses of different things in a house</li>
     </ul>
@@ -81,7 +81,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
     <h1 class="panel-title stroke">Classroom Activity 1: Sue’s Home</h1>
 
-    <div>
+    <div class="text-start">
         <h3 class="title">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
@@ -103,9 +103,9 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Bobo is going to Sue's house to play. Sue lives in a terrace house.
+    <h3 class="p-title">Bobo is going to Sue's house to play. Sue lives in a terrace house. <br>
         There is a beautiful garden in front of her house.</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c3.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c3.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
@@ -122,10 +122,10 @@ $showMascot = true;
 
 {{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Bobo finally reaches Sue's house after passing the playground,
-        supermarket and kindergarten. Sue shows Bobo to the living room
+    <h3 class="p-title">Bobo finally reaches Sue's house after passing the playground, <br>
+        supermarket and kindergarten. Sue shows Bobo to the living room <br>
         and introduces her best friend to her parents.</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c4.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c4.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center justify-around w-[45vw]">
         <h3 class="p-title text-left">
@@ -143,10 +143,10 @@ $showMascot = true;
 
 {{-- panel 7 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Sue takes Bobo to her bedroom. There is a small and comfortable bed
-        in her room. Both Sue and Bobo start to play. They play on the bed.
+    <h3 class="p-title">Sue takes Bobo to her bedroom. There is a small and comfortable bed <br>
+        in her room. Both Sue and Bobo start to play. They play on the bed. <br>
         They throw pillows at each other..</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c5.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c5.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
@@ -160,10 +160,10 @@ $showMascot = true;
 
 {{-- panel 8 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Sue and Bobo go to the garden to play. There is a kitten in the garden.
-        The playful kitten joins them in the game. It rolls on the ground and
+    <h3 class="p-title">Sue and Bobo go to the garden to play. There is a kitten in the garden. <br>
+        The playful kitten joins them in the game. It rolls on the ground and <br>
         gets itself dirty.</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c6.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c6.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center justify-around w-[45vw]">
         <h3 class="p-title text-left">
@@ -178,10 +178,10 @@ $showMascot = true;
 
 {{-- panel 9 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Sue and Bobo want to bathe the kitten. They carry the kitten to the
-        bathroom. Sue's father sees them and helps them to give the kitten a
+    <h3 class="p-title">Sue and Bobo want to bathe the kitten. They carry the kitten to the <br>
+        bathroom. Sue's father sees them and helps them to give the kitten a <br>
         bath. The kitten is clean again.</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c7.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c7.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
@@ -196,9 +196,9 @@ $showMascot = true;
 
 {{-- panel 10 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">"Ding dong!" goes the doorbell. Who is it? Sue looks through the
+    <h3 class="p-title">"Ding dong!" goes the doorbell. Who is it? Sue looks through the <br>
         peephole. It is her father's friend, Uncle Lee.</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c8.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c8.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
@@ -213,10 +213,10 @@ $showMascot = true;
 
 {{-- panel 11 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Sue invites Uncle Lee into the house and serves him drinks. Then she
-        goes into the kitchen. Wow! That smells very good! Father has finished
+    <h3 class="p-title">Sue invites Uncle Lee into the house and serves him drinks. Then she <br>
+        goes into the kitchen. Wow! That smells very good! Father has finished <br>
         preparing lunch.</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c9.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c9.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
@@ -231,9 +231,9 @@ $showMascot = true;
 
 {{-- panel 12 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Sue invites the guests into the dining room. They chat happily and
-        enjoy their lunch. Bobo is very happy to spend the day at Sue's home.</h3>
-    <img src="{{ asset('assets/images/micet/k1/home/class1/c10.png') }}" class="w-[30vw]" />
+    <h3 class="p-title">Sue invites the guests into the dining room. They chat happily and <br>
+        enjoy their lunch. Bobo is very happy to spend the day at Sue's home.</h3> 
+    <img src="{{ asset('assets/images/micet/k1/home/class1/c10.png') }}" class="w-[27vw]" />
 
     <div class="flex items-center w-[45vw]">
         <h3 class="p-title text-left">

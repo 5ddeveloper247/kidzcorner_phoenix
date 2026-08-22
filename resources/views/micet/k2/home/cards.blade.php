@@ -73,7 +73,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">giant</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">giant</p>
 </div>
 
 
@@ -85,7 +85,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">wooden house</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">wooden house</p>
 </div>
 
 
@@ -96,7 +96,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">tree house</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">tree house</p>
 </div>
 
 {{-- panel 4 --}}
@@ -107,7 +107,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">boat house</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">boat house</p>
 </div>
 
 
@@ -119,7 +119,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">igloo</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">igloo</p>
 </div>
 
 
@@ -131,7 +131,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">friends</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">friends</p>
 </div>
 
 
@@ -143,7 +143,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">quiet</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">quiet</p>
 </div>
 
 
@@ -155,7 +155,7 @@ $showMascot = true;
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-center h-full items-center">
-    <p class="text-[#f7b94a] text-[5vw]">noisy</p>
+    <p class="text-[#f7b94a] text-[3.5vw]">noisy</p>
 </div>
 
 

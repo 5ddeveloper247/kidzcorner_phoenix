@@ -43,7 +43,7 @@ $showMascot = true;
 
     <h3 class="ptitle">Objectives:</h3>
 
-    <ul class="list-disc panel-ul">
+    <ul class="list-disc panel-ul w-[40vw]">
         <li>Describe the buildings, facilities and services around one's
             neighbourhood</li>
         <li>Use imagination to design an ideal residential estate</li>
@@ -53,13 +53,13 @@ $showMascot = true;
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start w-[45vw] items-center space-y-[2vw]">
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
     <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
 
     <div>
         <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[40vw]">
             <li>Thematic Activity Book</li>
             <li>A street map for each group (handmade, may refer to map on the next slide)</li>
             <li>Square or rectangular small papers ( sizes that are suitable for the map), scissors, colour pencils and blu-tack</li>
@@ -134,7 +134,7 @@ $showMascot = true;
     </div>
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c4.png') }}" class="w-[30vw]" />
-        <h2 class="text-[#f7b94a]">school</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">school</h2>
     </div>
 </div>
 
@@ -152,7 +152,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c5.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">school</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">school</h2>
     </div>
 </div>
 
@@ -169,7 +169,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c6.png') }}" class="w-[25vw]" />
-        <h2 class="text-[#f7b94a]">shop</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">shop</h2>
     </div>
 </div>
 
@@ -184,7 +184,7 @@ $showMascot = true;
     </div>
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c7.png') }}" class="w-[25vw]" />
-        <h2 class="text-[#f7b94a]">pet shop</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">pet shop</h2>
     </div>
 
 </div>
@@ -200,7 +200,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c8.png') }}" class="w-[25vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">restaurant</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">restaurant</h2>
     </div>
 </div>
 
@@ -216,7 +216,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c9.png') }}" class="w-[25vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">hospital</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">hospital</h2>
     </div>
 </div>
 
@@ -232,7 +232,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c10.png') }}" class="w-[25vw]" />
-        <h2 class="text-[#f7b94a]">police station</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">police station</h2>
     </div>
 </div>
 
@@ -249,7 +249,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c11.png') }}" class="w-[25vw]" />
-        <h2 class="text-[#f7b94a]">fire station</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">fire station</h2>
     </div>
 </div>
 
@@ -266,7 +266,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c12.png') }}" class="w-[25vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">post office</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">post office</h2>
     </div>
 </div>
 
@@ -282,7 +282,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c13.png') }}" class="w-[20vw] h-[17vw]" />
-        <h2 class="text-[#f7b94a]">library</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">library</h2>
     </div>
 </div>
 
@@ -299,7 +299,7 @@ $showMascot = true;
 
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c14.png') }}" class="w-[30vw]" />
-        <h2 class="text-[#f7b94a]">park</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">park</h2>
     </div>
 
 </div>
@@ -316,7 +316,7 @@ $showMascot = true;
     </div>
     <div class="flex flex-col">
         <img src="{{ asset('assets/images/micet/k1/home/class8/c15.png') }}" class="w-[30vw]" />
-        <h2 class="text-[#f7b94a]">playground</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">playground</h2>
     </div>
 </div>
 

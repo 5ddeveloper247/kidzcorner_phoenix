@@ -727,8 +727,8 @@ $showMascot = true;
         <h3 class="ptitle">Extension</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>In the activity area, place items like wooden blocks, <br>
-                cardboard boxes and empty cans to encourage children <br>
+            <li>In the activity area, place items like wooden blocks, 
+                cardboard boxes and empty cans to encourage children 
                 to explore these materials and build a house.</li>
         </ul>
     </div>
