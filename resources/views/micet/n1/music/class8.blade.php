@@ -277,8 +277,8 @@
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Play other music that children are familiar with, lead them
-      in playing the different percussion instruments to the
-      rhythm of the music.</li>
+                    in playing the different percussion instruments to the
+                    rhythm of the music.</li>
             </ul>
 
         </div>
@@ -599,5 +599,22 @@
             showSlide(currentSlide);
         });
 
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
+        });
     </script>
 @endpush

@@ -71,7 +71,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">food</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">food</p>
     </div>
 
 
@@ -83,7 +83,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">fruits</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">fruits</p>
     </div>
 
 
@@ -94,7 +94,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">papaya</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">papaya</p>
     </div>
 
     {{-- panel 4 --}}
@@ -105,7 +105,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">vegatables</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">vegatables</p>
     </div>
 
 
@@ -117,7 +117,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">carrots</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">carrots</p>
     </div>
 
 
@@ -129,7 +129,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">rice</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">rice</p>
     </div>
 
 
@@ -141,7 +141,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">fish</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">fish</p>
     </div>
 
 
@@ -153,7 +153,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center h-full items-center">
-        <p class="text-[#f7b94a] text-[5vw]">milk</p>
+        <p class="text-[#f7b94a] text-[3.5vw]">milk</p>
     </div>
 
 

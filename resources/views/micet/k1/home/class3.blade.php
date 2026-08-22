@@ -46,7 +46,7 @@ $showMascot = true;
 
     <h3 class="ptitle">Objectives:</h3>
 
-    <ul class="list-disc panel-ul">
+    <ul class="list-disc panel-ul w-[45vw]">
         <li>Learn to use directional words to describe routes</li>
         <li>Understand the surrounding environment and facilities
             around one's neighbourhood</li>

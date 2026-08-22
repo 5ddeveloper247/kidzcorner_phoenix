@@ -56,15 +56,16 @@
         <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
         <div>
-
-            <h3 class="ptitle">Preparations</h3>
-
-            <ol class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
-            </ol>
-            <div class="mt-[2vw]">
+            <div class="text-center">
+                <h3 class="ptitle">Preparations</h3>
+                
+                <ol class="list-disc panel-ul">
+                    <li>Thematic Activity Book</li>
+                </ol>
+            </div>
+            <div class="mt-[2vw] w-[35vw]">
                 <h3 class="panel-ul">For Optional Activity:</h3>
-                <ol class="list-disc panel-ul w-[45vw]">
+                <ol class="list-disc panel-ul">
                     <li>Invite some parents to come and share their thoughts about
                         admitting our mistakes.</li>
                 </ol>
@@ -105,7 +106,7 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
@@ -118,7 +119,7 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
@@ -131,7 +132,7 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">

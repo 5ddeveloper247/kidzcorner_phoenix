@@ -63,7 +63,7 @@
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>A few kites</li>    
+                <li>A few kites</li>
             </ul>
         </div>
     </div>
@@ -77,7 +77,8 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask the children: "What is this?" (kite) Ask the children if they have ever flown a kite. Discuss with them how a kite is flown and what type of weather conditions are most suitable for flying kites.</li>
+                <li>Ask the children: "What is this?" (kite) Ask the children if they have ever flown a kite. Discuss with
+                    them how a kite is flown and what type of weather conditions are most suitable for flying kites.</li>
             </ol>
         </div>
     </div>
@@ -88,11 +89,12 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Click on the video to watch a kite fly. Have the children observe how the kite is flying and what weather condition is most suitable for flying a kite.</li>
+            <li>Click on the video to watch a kite fly. Have the children observe how the kite is flying and what weather
+                condition is most suitable for flying a kite.</li>
         </ol>
         <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k1/weather/class2/v1.mp4') }}" type="video/mp4">
-    </video>
+            <source src="{{ asset('assets/images/micet/k1/weather/class2/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
@@ -115,8 +117,8 @@
             <li>Click on the video to watch how the strings are used in kite flying.</li>
         </ol>
         <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k1/weather/class2/v2.mp4') }}" type="video/mp4">
-    </video>
+            <source src="{{ asset('assets/images/micet/k1/weather/class2/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
@@ -143,7 +145,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -154,7 +156,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -165,7 +167,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -176,7 +178,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -187,7 +189,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -198,7 +200,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -209,7 +211,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -220,7 +222,7 @@
     </div>
 
 
-     {{-- panel 8 --}}
+    {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
@@ -239,8 +241,8 @@
             <li>Click on the video to watch the different shapes of kites.</li>
         </ol>
         <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/k1/weather/class2/v3.mp4') }}" type="video/mp4">
-    </video>
+            <source src="{{ asset('assets/images/micet/k1/weather/class2/v3.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
@@ -307,13 +309,15 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Guide the children to complete the corresponding activity in the Thematic Activity Book. Have the children look at the kites and identify the shapes used in making each kite, then count each shape and write in the numbers to complete the table.</li>
+            <li>Guide the children to complete the corresponding activity in the Thematic Activity Book. Have the children
+                look at the kites and identify the shapes used in making each kite, then count each shape and write in the
+                numbers to complete the table.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/k1/weather/class2/c19.png') }}" class="w-[30vw]" />
     </div>
 
 
-    
+
 
 
 
@@ -322,8 +326,10 @@
         <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Have the children share their stories about kite flying and describe the kite that they would like to design.</li>
-            <li>Have the children use their creativity to design a special kite in activity 2 of the Thematic Activity Book.</li>
+            <li>Have the children share their stories about kite flying and describe the kite that they would like to
+                design.</li>
+            <li>Have the children use their creativity to design a special kite in activity 2 of the Thematic Activity Book.
+            </li>
         </ol>
     </div>
 
@@ -675,6 +681,23 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush

@@ -83,7 +83,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Just Like Big Brother</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -99,7 +99,7 @@
         <h1 class="panel-title stroke">Just Like Big Brother</h1>
 
         <h3 class="p-title">Theme: Myself</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c1.png') }}" class="w-[27vw]" />
     </div>
 
 
@@ -108,7 +108,7 @@
         <h3 class="p-title">The little dinosaur, Danny, feels that he has grown and he wants to sleep <br>
             by himself. When he wakes up in the middle of the night, he sees a big <br>
             monster. He is so frightened that he screams out loud.</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c2.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -121,11 +121,11 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-4vw]">
         <h3 class="p-title">Daddy and Mummy rush to his room. There is no monster in the room. <br>
             Daddy draws the curtains and the "monster" disappears. It is actually a <br>
             shadow of the big tree outside. Danny is no longer afraid.</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c3.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -144,7 +144,7 @@
         <h3 class="p-title">In the momning, when Danny wakes up, he does not need Mummy to <br>
             hurry him up to get dressed. When he sees Grandmother and little sister, <br>
             Denise, he tells them excitedly about what happened last night.</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c4.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -162,7 +162,7 @@
         <h3 class="p-title">Danny immediately measures his height when he steps into the <br>
             bathroom. Grandfather says that Danny has grown taller. Danny wishes <br>
             that he can grow as tall as Grandfather soon.</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c5.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -180,7 +180,7 @@
         <h3 class="p-title">Now that Danny has grown, he wants to do everything himself, like <br>
             brushing his teeth and washing his face. His little sister imitates his <br>
             actions. Grandfather and Grandmother are very happy to see this.</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c6.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c6.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -196,7 +196,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">Big brother Danny can even look after his little sister now. After changing <br>
             his own clothes, he helps Denise change her clothes.</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c7.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c7.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -214,7 +214,7 @@
         <h3 class="p-title">After that, Danny leads Denise in doing some momning exercises. Both of <br>
             them are very energetic. They clap their hands, tap their feet, flex their <br>
             bodies, tum their heads ...</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c7.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c7.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -231,7 +231,7 @@
         <h3 class="p-title">After the momning exercise, Danny helps Mummy in the kitchen. He <br>
             brings out the jam and bread. He even pours a cup of fruit juice for his <br>
             little sister. He is really a big brother now.</h3>
-        <img src="{{ asset('assets/images/micet/k1/myself/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/myself/class1/c7.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">

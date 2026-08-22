@@ -320,7 +320,7 @@
                 }
             }
 
-          
+
             function stopAllVideos() {
                 document.querySelectorAll('.phonics-panel video').forEach(video => {
                     if (!video.paused) {
@@ -523,6 +523,23 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush

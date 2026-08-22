@@ -266,14 +266,14 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Have the children sing the songs "Brush Our Teeth" and
-                    "Wash Our Face" with the corresponding actions./li>
+                    "Wash Our Face" with the corresponding actions.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
@@ -290,7 +290,7 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
@@ -617,6 +617,23 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush

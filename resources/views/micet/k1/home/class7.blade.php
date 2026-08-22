@@ -79,7 +79,7 @@ $showMascot = true;
         </ol>
     </div>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">living room</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">living room</h2>
         <img src="{{ asset('assets/images/micet/k1/home/class7/c2.png') }}" class="w-[25vw]" />
     </div>
 </div>
@@ -94,8 +94,8 @@ $showMascot = true;
             room? Guide children to form simple sentences.</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a television in the living room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a television in the living room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c2.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c8.png') }}" class="w-[17vw]" />
         </div>
@@ -112,8 +112,8 @@ $showMascot = true;
             and 'watching television' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My sister is watching television in the living room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My sister is watching television in the living room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c2.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c9.png') }}" class="w-[17vw]" />
         </div>
@@ -129,8 +129,8 @@ $showMascot = true;
             'living room' and 'video game console' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a video game console in the living room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a video game console in the living room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c2.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c27.png') }}" class="w-[17vw]" />
         </div>
@@ -146,8 +146,8 @@ $showMascot = true;
             'living room' and 'playing video game' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My sister is playing video game in the living room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My sister is playing video game in the living room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c2.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c10.png') }}" class="w-[17vw]" />
         </div>
@@ -163,8 +163,8 @@ $showMascot = true;
             Ask children to use 'living room' and 'guests' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There are guests in the living room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There are guests in the living room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c2.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c11.png') }}" class="w-[17vw]" />
         </div>
@@ -180,8 +180,8 @@ $showMascot = true;
             'living room' and entertaining guests' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My brother is entertaining guests in the living room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My brother is entertaining guests in the living room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c2.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c11.png') }}" class="w-[17vw]" />
         </div>
@@ -199,7 +199,7 @@ $showMascot = true;
             to form simple sentences.</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">kitchen</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">kitchen</h2>
 
         <img src="{{ asset('assets/images/micet/k1/home/class7/c3.png') }}" class="w-[25vw]" />
     </div>
@@ -214,8 +214,8 @@ $showMascot = true;
             'kitchen' and 'gas stove' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a gas stove in the kitchen.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a gas stove in the kitchen.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c3.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c13.png') }}" class="w-[17vw]" />
         </div>
@@ -232,8 +232,8 @@ $showMascot = true;
             'kitchen' and 'cooking' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My mother is cooking in the kitchen.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My mother is cooking in the kitchen.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c3.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c14.png') }}" class="w-[17vw]" />
         </div>
@@ -249,8 +249,8 @@ $showMascot = true;
             to use 'kitchen' and 'tap' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a tap in the kitchen.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a tap in the kitchen.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c3.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c15.png') }}" class="w-[15vw] h-[20vw]" />
         </div>
@@ -267,8 +267,8 @@ $showMascot = true;
             'kitchen' and 'washing dishes' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My sister is washing dishes in the kitchen.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My sister is washing dishes in the kitchen.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c3.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c16.png') }}" class="w-[17vw]" />
         </div>
@@ -285,7 +285,7 @@ $showMascot = true;
             room? Guide children to form simple sentences.</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">dining room</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">dining room</h2>
         <img src="{{ asset('assets/images/micet/k1/home/class7/c4.png') }}" class="w-[25vw]" />
     </div>
 </div>
@@ -300,8 +300,8 @@ $showMascot = true;
             'dining room' and 'cutlery' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There are cutlery in the dining room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There are cutlery in the dining room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c4.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c28.png') }}" class="w-[17vw]" />
         </div>
@@ -318,8 +318,8 @@ $showMascot = true;
             'dining room' and 'eating' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My mother is eating in the dining room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My mother is eating in the dining room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c4.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c17.png') }}" class="w-[17vw]" />
         </div>
@@ -336,8 +336,8 @@ $showMascot = true;
             use 'dining room' and 'glasses' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There are glasses in the dining room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There are glasses in the dining room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c4.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c18.png') }}" class="w-[17vw]" />
         </div>
@@ -355,8 +355,8 @@ $showMascot = true;
             form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My sister is drinking in the dining room.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My sister is drinking in the dining room.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c4.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c23.png') }}" class="w-[17vw] h-[20vw]" />
         </div>
@@ -374,7 +374,7 @@ $showMascot = true;
             Guide children to form simple sentences.</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">bathroom</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">bathroom</h2>
         <img src="{{ asset('assets/images/micet/k1/home/class7/c5.png') }}" class="w-[25vw]" />
     </div>
 </div>
@@ -389,8 +389,8 @@ $showMascot = true;
             use 'bathroom' and 'toothbrush' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a toothbrush in the bathroom.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a toothbrush in the bathroom.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c5.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c19.png') }}" class="w-[17vw]" />
         </div>
@@ -408,8 +408,8 @@ $showMascot = true;
             to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My sister is brushing teeth in the bathroom.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My sister is brushing teeth in the bathroom.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c5.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c20.png') }}" class="w-[17vw]" />
         </div>
@@ -427,8 +427,8 @@ $showMascot = true;
             form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a bathtub in the bathroom.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a bathtub in the bathroom.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c29.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c21.png') }}" class="w-[17vw]" />
         </div>
@@ -445,8 +445,8 @@ $showMascot = true;
             form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My brother is bathing in the bathroom.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My brother is bathing in the bathroom.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c29.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c22.png') }}" class="w-[17vw]" />
         </div>
@@ -463,7 +463,7 @@ $showMascot = true;
             to form simple sentences.</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">bedroom</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">bedroom</h2>
         <img src="{{ asset('assets/images/micet/k1/home/class7/c6.png') }}" class="w-[25vw]" />
     </div>
 </div>
@@ -478,8 +478,8 @@ $showMascot = true;
             form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a wardrobe in the bedroom.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a wardrobe in the bedroom.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c6.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c24.png') }}" class="w-[17vw]" />
         </div>
@@ -495,8 +495,8 @@ $showMascot = true;
             'bedroom' and 'changing clothes' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My brother is changing clothes in the bedroom.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My brother is changing clothes in the bedroom.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c6.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c25.png') }}" class="w-[17vw]" />
         </div>
@@ -513,7 +513,7 @@ $showMascot = true;
             a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">There is a bed in the bedroom.</h2>
+        <h2 class="text-[1.5vw] text-[#f7b94a]">There is a bed in the bedroom.</h2>
         <img src="{{ asset('assets/images/micet/k1/home/class7/c7.png') }}" class="w-[25vw]" />
     </div>
 </div>
@@ -527,8 +527,8 @@ $showMascot = true;
             to use 'bedroom' and 'sleeping' to form a sentence. For example:</li>
     </ol>
     <div class="flex flex-col">
-        <h2 class="text-[#f7b94a]">My sister is sleeping in the bedroom.</h2>
-        <div class="grid grid-cols-2 gap-4">
+        <h2 class="text-[1.5vw] text-[#f7b94a]">My sister is sleeping in the bedroom.</h2>
+        <div class="flex items-center gap-[2vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class7/c7.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class7/c26.png') }}" class="w-[17vw]" />
         </div>
