@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,116 +48,216 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To know the uses of a fishing rod and a fishing basket.</li>
-            <li>To make a fishing rod and a fishing basket.</li>
-            <li>To develop fine motor skills through practising tying knots on strings.</li>
+            <li>Learn the correct steps of brushing teeth</li>
+            <li>Learn to sing the "Brushing Teeth" song</li>
+            <li>Learn to sing the song and do actions</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Letter to parents (next slide).</li>
-                <li>A fishing rod and a fishing basket made beforehand.</li>
-                <li>One 20- 30 cm coloured yarn or thin string per child.</li>
-                <li>One small magnet per child.</li>
-                <li>Crayons.</li>
+                <li>Inform children to bring their toothbrushes to school</li>
             </ul>
+
+            <div>
+                <h3 class="panel-ul">For Optional Activity:</h3>
+                <ul class="panel-ul list-disc">
+                    <li>A big teeth brushing model and brush set</li>
+                </ul>
+            </div>
         </div>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
-
-        <img src="{{ asset('assets/images/micet/n2/habit1/class6/c1.png') }}" class="w-[40vw]" />
-    </div>
-
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Display the prior made fishing rod and fishing basket. Have the children state
-                    their names and uses. Guide the children in explaining that these are the
-                    equipment needed for fishing.</li>
-                <li>Inform the children that they will learn to make fishing rods and fishing baskets.
-                    Have the children decide by voting which craft to make first, the fishing rods
-                    or fishing baskets. Guide the children in making the items.</li>
+                <li>Ask children: Why do we brush our teeth? What will happen if we do not brush
+                    our teeth? When should we brush our teeth? How many times a day should we
+                    brush our teeth?</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class6/c1.png') }}" class="w-[27vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Use the following animation to demonstrate the correct steps of brushing teeth:
+                <ul>
+                    <li>a. First, squeeze some toothpaste onto the toothbrush. Explain to the
+                        children that fluoride toothpaste can prevent tooth decay.</li>
+                    <li>b. Place the toothbrush against the outer teeth gum line, then brush
+                        downwards and outwards. Brush gently so as not to hurt the gum. Repeat
+                        process until all teeth have been brushed.</li>
+                </ul>
+            </li>
+        </ol>
+        <video class="h-[15vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class6/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Use the following animation to demonstrate the correct steps of brushing teeth:
+                <ul>
+                    <li> c. Repeat step b to brush the inner teeth.</li>
+                </ul>
+            </li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class6/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Use the following animation to demonstrate the correct steps of brushing teeth:
+                <ul>
+                    <li>d. Then, place the toothbrush on the chewing surface and brush gently.</li>
+                    <li>e. Lastly, don't forget to brush the tongue.</li>
+                </ul>
+            </li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class6/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Have the children look at the fishing rod and name the parts that is needed to
-                make it (rod, fishing line and hook). Have the children take out their own rod
-                (wooden or plastic) and tie the fishing line (a string) onto one end, then tie the
-                hook (small magnet) on the other end of the line. Assist the children in tying
-                when necessary.</li>
+            <li>(Optional Activity) Use the big teeth model and brush set to demonstrate the
+                correct steps of brushing teeth:
+                <ul>
+                    <li>a. First, squeeze some toothpaste onto the toothbrush. Explain to the
+                        children that fluoride toothpaste can prevent tooth decay.</li>
+                    <li>b. Place the toothbrush against the outer teeth gum line, then brush
+                        downwards and outwards. Brush gently so as not to hurt the gum. Repeat
+                        process until all teeth have been brushed.</li>
+                    <li>c. Repeat step b to brush the inner teeth.</li>
+                    <li>d. Then, place the toothbrush on the chewing surface and brush gently.</li>
+                    <li>e. Lastly, don't forget to brush the tongue.</li>
+                </ul>
+            </li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Gather the boxes that the children brought. Guide the children in naming the
-                shapes of the boxes.</li>
-            <li>Have the children decorate their baskets by drawing beautiful patterns.</li>
+            <li>Have children bring their mugs and toothbrushes to the washroom and stand
+                in a row to practise the proper way of brushing their teeth. Guide them to use
+                the correct steps.</li>
+            <li>After brushing, have the children state when we should brush our teeth. Guide
+                them to understand that we should brush our teeth at least twice a day, once
+                in the morning and once at night especially before sleeping. It would also be
+                ideal to brush our teeth after meals.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center justify-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Guide the children to complete the corresponding activity in the Thematic
-                Activity Book. Have the children colour the fish, cut it out and keep it for the
-                next classroom activity "Let's go fishing".</li>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class6/c2.png') }}" class="w-[30vw]" />
+            <li>Play the "Brushing Teeth" song and teach the children to sing the song.
+                Encourage them to imitate the actions as they sing the song.</li>
+            <li>When children are familiar with the song, they can change the lyrics by
+                replacing the timing of brushing teeth (e.g. before going to bed, after every
+                meal). <span class="flex flex-end">Let them then sing the modified song and do actions.
+                    <button class="w-[3vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button></span>
+            </li>
+        </ol>
+        <h4 class="text-white text-[2vw] text-start">
+            This is the way we brush our teeth, <br>
+            Brush our teeth, brush our teeth. <br>
+            This is the way we brush our teeth, <br>
+            So early in the morning.</h4>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their fishing rods, fishing baskets
-                    and fishes. Encourage the children to appreciate each
-                    others' work.</li>
+                <li>Have children sing the "Brushing teeth" song and imitate the
+                    actions of brushing teeth.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to state the names and uses of a fishing rod and a fishing basket.</li>
-                <li>Able to make a fishing rod and a fishing basket.</li>
+                <li>Able to use the correct steps of brushing teeth.</li>
+                <li>Able to state when we should brush our teeth.</li>
+                <li>Able to sing the "Brushing Teeth" song and do the actions.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 28 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Ask children to practise the correct steps of brushing teeth
+                    at home.</li>
+                <li>Have children brush their teeth in school every morning for
+                    the week.</li>
             </ul>
         </div>
     </div>
@@ -218,8 +318,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -477,6 +577,24 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush

@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
@@ -53,7 +53,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -71,7 +71,7 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
@@ -92,7 +92,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Have the children choose their favourite story character in the Thematic
@@ -108,7 +108,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Have the children colour their characters and paste them onto the cardboard
@@ -123,7 +123,7 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

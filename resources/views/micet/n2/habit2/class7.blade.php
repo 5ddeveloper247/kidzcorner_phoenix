@@ -38,36 +38,35 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the basic knowledge and process of fishing
-                and experience the fun in fishing.</li>
-            <li>To develop eye-hand coordination skills.</li>
-            <li>To understand the importance of putting in effort to learn
-                new things.</li>
+        <ul class="list-disc panel-ul">
+            <li>Know some symptoms of common sickness</li>
+            <li>Understand what germs are</li>
+            <li>Understand how germs enter our body and make us sick</li>
+            <li>Understand that different types of germs cause different sickness</li>
+            <li>Know what to do when one falls sick</li>
+            <li>Identify some common medical instruments</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Fishing rods, fishing baskets and fishes from Activity 6.</li>
-                <li>Fasten a paper clip near the mouth of each fish.</li>
-                <li>Put a few big card boxes or hula hoops on the floor, or draw
-                    a few circles on the floor to form "fish ponds", place the
-                    fishes in different fish ponds.</li>
-                <li>Signs with fish pond names (e.g. Happy Fish Pond, etc).</li>
+                <li>One doll</li>
+                <li>Toy medical instruments such as thermometer, stethoscope, blood pressure meter, tongue depressor,
+                    syringe, etc</li>
+                <li>Various empty plastic medicine bottles (wash and clean first)</li>
             </ul>
         </div>
     </div>
@@ -75,57 +74,218 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children if they have ever gone fishing. Have the children who have
-                    gone fishing share their experiences. Encourage the children to demonstrate
-                    using the fishing rods from Activity 6.</li>
-                <li>Have the children explain how to catch a fish and ask why Candy initially did
-                    not manage to catch any fish but at the end she did.</li>
+                <li>Display the doll. Inform children that the doll is sick. Ask children: Where do
+                    you think the doll feels unwell? Guide children to describe symptoms of
+                    common sickness like headache, tired eyes, stomach ache, diarrhoea, fever
+                    and tiredness.</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Demonstrate how to fish: toss the fishing line into the pond and move the
-                fishing rod to pull the fishing line until one catches a fish (when a paper clip is
-                attached to the magnet).</li>
-            <li>Explain to the children that there are a few fish ponds available. Each fish
-                pond has a name. Read the names of the ponds. Have the children select a
-                pond and fish in groups using their fishing rods and baskets. Encourage the
-                children to organise themselves in groups. Remind them that there should not
-                be too many children in each group, as it will affect the number of fishes that
-                they will catch.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Have children describe each picture and then point out the pictures which
+                have the girl showing signs of being sick.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c1.png') }}" class="h-[20vw]" />
     </div>
+
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Remind the children to concentrate and be patient. Have the children place
-                any fish that they catch into their baskets.</li>
-            <li>Have the children count the number of fishes they have caught. Each group,
-                selects its best fisherman. This person will compete with the selected member
-                of the other groups to see who can catch the most fish.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask children: What are germs? Guide children to understand that germs are
+                very tiny organisms that cause disease and make us sick. We need a special
+                instrument called microscope to see them.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Inform children that different types of germs cause different sickness.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Ask children to discuss how germs can enter our body and make us sick.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Explain to children: Dirty hands have germs on them. When we touch food with
+                dirty hands, these germs get on the food. They enter our body through our
+                mouths when we eat such food and make us sick.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class7/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Explain to children: Dirty air has germs. When we breathe in dirty air, germs get
+                into our body and make us sick. Germs can also enter the body through
+                wounds or skin cuts.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Let children describe what their parents would do if they were sick. Guide
+                them in stating that their parents would take them to see the doctor.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Ask children: If you are sick and go to see the doctor, what would the doctor
+                do? Guide children to understand that the doctor will examine the patient
+                through a physical check up (e.g. take temperature, look at the tongue, listen
+                to the heartbeat using a stethoscope). The physical check-up helps the
+                doctor to determine their sickness and prescribe the appropriate medicine.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c4.png') }}" class="w-[22vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Ask children: If you are sick and go to see the doctor, what would the doctor
+                do? Guide children to understand that the doctor will examine the patient
+                through a physical check up (e.g. take temperature, look at the tongue, listen
+                to the heartbeat using a stethoscope). The physical check-up helps the
+                doctor to determine their sickness and prescribe the appropriate medicine.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c5.png') }}" class="w-[22vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Ask children: If you are sick and go to see the doctor, what would the doctor
+                do? Guide children to understand that the doctor will examine the patient
+                through a physical check up (e.g. take temperature, look at the tongue, listen
+                to the heartbeat using a stethoscope). The physical check-up helps the
+                doctor to determine their sickness and prescribe the appropriate medicine.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c6.png') }}" class="w-[22vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Display the toy medical instruments. Introduce names and uses of each
+                instrument to children to prepare them for role play in Activity 10.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Ask children: What should you do when you are sick? Should you take
+                medicine on your own without your parents' knowledge? Why?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Guide children to understand that they should inform their parents and not
+                take any medicine without adult supervision as different types of germs cause
+                different sickness which require different medications. The condition of your
+                sickness might worsen if the wrong medication is taken.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Remind children that medicines are not sweets. They should not take any
+                medicine on their own unless they were given to them by their parents,
+                doctors or nurses.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Have children discuss why doctors ask patients to rest at home when they are
+                sick. Guide children to understand that when we are sick, our bodies require
+                large amounts of energy to fight the germs, thus with more rest, our bodies will
+                recover faster.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c8.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -134,26 +294,26 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the child who caught the most fish to share his/her
-                    knowledge and experiences on fishing.</li>
+                <li>Ask children: Why do people fall sick? What can we do to
+                    prevent us from falling sick?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to participate actively in the fishing activity.</li>
-                <li>Able to concentrate when fishing.</li>
-                <li>Able to count the number of fishes caught.</li>
+                <li>Able to state some symptoms of common sickness.</li>
+                <li>Able to state why people fall sick and suggest ways to
+                    prevent one from falling sick.</li>
+                <li>Know what to do when one falls sick.</li>
             </ul>
         </div>
     </div>
-
 
 
 
@@ -469,6 +629,24 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush

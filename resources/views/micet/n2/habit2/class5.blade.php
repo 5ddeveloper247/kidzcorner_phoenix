@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.3vw;
         }
 
         .ptitle {
@@ -47,7 +47,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Know what causes tooth decay</li>
             <li>Understand the importance of brushing teeth</li>
             <li>Develop observation skills</li>
@@ -63,9 +63,11 @@
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Table written on a big piece of paper (refer below).</li>
+                <li>Thematic Activity Book</li>
+                <li>2 transparent glass jars with covers</li>
+                <li>Pieces of white egg shells</li>
+                <li>Water, vinegar, a small amount of cola, sweets and biscuits</li>
             </ul>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c1.png') }}" class="h-[15vw]" />
         </div>
     </div>
 
@@ -78,8 +80,13 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Review the story with the children. Have the children recall the animals that
-                    appeared in the story (cat, fish, butterfly, praying mantis, dragonfly and duck).</li>
+                <li>Ask children: Have you ever had a toothache? Encourage those who have
+                    had a toothache before to describe their experience. Explain to the children
+                    that a person having a toothache feels unwell and loses his appetite just like a
+                    person who is sick.</li>
+                <li>Encourage children to explain why some people have toothache. Guide them
+                    to understand that if we do not brush our teeth properly, our teeth will decay,
+                    causing toothache.</li>
             </ol>
         </div>
     </div>
@@ -89,14 +96,12 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Display the table chart on the whiteboard. Show the pictures of the animals
-                (next slide onwards). Have the children name them and describe their
-                characteristics.</li>
-            <li>After the children has described an animal, the teacher will then write or draw
-                in the appropriate column of the table.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Invite children to conduct an experiment to observe what happens if we do
+                not brush our teeth properly.</li>
+            <li>Inform children that egg shells will be used in place of teeth in the experiment
+                as both of them are made of calcium.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c1.png') }}" class="h-[15vw]" />
     </div>
 
 
@@ -104,80 +109,42 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Display the pictures of cats. Have the children name the animal and describe
-                their characteristics. For example, cats have fur on their bodies, whiskers on
-                their cheeks and a long tail; cats have 4 legs and live on land, they eat fish
-                and mice, they meow; etc.</li>
+        <ol class="list-decimal panel-ul w-[55vw]" start="5">
+            <li>Click to play the video. Guide children to conduct the experiment: Pour clean water into one
+                jar and vinegar into the other jar; add a small portion of cola, sweets and biscuits into the
+                jar with vinegar. Place an egg shell in each of the jar. Inform children that the egg shell in
+                the jar with clean water represents teeth that are brushed properly, while the egg shell in
+                the jar with vinegar represents teeth that are not brushed properly. Cover the jars and
+                put themaside for observation.</li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c2.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c3.png') }}" class="w-[20vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Display the pictures of fishes. Have the children name the animal and
-                describe their characteristics. For example, fishes have scales on their bodies,
-                they have no legs but have fins which move left and right when they swim; fish
-                can only live in the water, they eat worms; etc.</li>
-        </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c4.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c5.png') }}" class="w-[20vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Display the pictures of ducks. Have the children name the animal and
-                describe their characteristics. For example, ducks have feathers on their
-                bodies, they have a beak and 2 legs; they have webbed feet which helps
-                them paddle in the water. Ducks eat fish, they quack; etc.</li>
-        </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c6.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c7.png') }}" class="w-[20vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Click on the video to observe the duck paddling with its web feet and
-                dunking its head into the waterto catch fish.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v1.mp4') }}" type="video/mp4">
+        <video class="h-[15vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class5/v1.mp4') }}" type="video/mp4">
         </video>
     </div>
 
 
-
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Ducks have 2 wings (a pair of wings) which help them fly, they flap their wings
-                to take off in flight.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Explain to children that the vinegar in the experiment represents the acid
+                produced by bacteria from food remains in our mouth, when we do not brush
+                our teeth properly. The acid is the cause of the tooth decay.</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c8.png') }}" class="h-[10vw]" />
-            <p class="panel-ul">A wild duck takes off in flight by flapping its wings, lifts off and accelerates.</p>
-        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Let children predict what will happen to the egg shells in the two jars after
+                one day.</li>
+            <li>After one day, let children observe the two shells and see if their predictions
+                are correct.</li>
+        </ol>
     </div>
 
 
@@ -186,11 +153,12 @@
         <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Click on the video to observe that ducks can live on land, in the water and in
-                the air.</li>
+            <li>Click to play the video. Let children observe the result of the experiment: the
+                egg shell in the jar with vinegar has corroded, while there is no change to the
+                egg shell in the jar with clean water.</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v2.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class5/v2.mp4') }}" type="video/mp4">
         </video>
     </div>
 
@@ -200,11 +168,10 @@
         <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Display the pictures of butterflies. Have the children name the animal and
-                describe their characteristics. For example, butterflies have 4 wings (2 pairs of
-                wings), they flutter their wings when they fly.</li>
+            <li>Guide children to understand that if we do not brush our teeth properly, our
+                teeth will be like the egg shell in the jar with vinegar, corroded by acid leading
+                to tooth decay.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c9.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -213,86 +180,8 @@
         <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Butterflies have 6 legs and they feed mainly on nectar; etc.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c10.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Display the picture of a dragonfly. Have the children name the animal and
-                describe its characteristics. For example, dragonflies have 4 wings (2 pairs of
-                wings), they flutter their wings when they fly.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c11.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Dragonflies have 6 legs and they feed mainly on insects such as mosquitoes,
-                etc.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c12.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Display the picture of a praying mantis. Have the children name the animal
-                and describe its characteristics. For example, praying mantises have 6 legs .</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c13.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Praying mantis feeds on insects such as the houseflies; etc.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c14.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="16">
-            <li>Click on the video to observe a praying mantis.</li>
-        </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v3.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="17">
-            <li>Upon completion, have the children look at the table and explain the
-                differences between the cat and the fish. For example, cats have soft fur on
-                their bodies, while fish have scales on their bodies; cats have four legs but
-                fishes have no legs; cats live on land and fishes live in the water; etc.</li>
-            <li>Choose another two animals to compare. Have the children look at the table
-                and explain the differences between the two.</li>
-            <li>Repeat the activity and allow the children to familiarise themselves in reading
-                the table, discovering and describing the differences among the animals.</li>
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
@@ -305,18 +194,29 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children choose an animal from the table, then
-                    compare that animal with themselves and describe the
-                    differences.</li>
+                <li>Let children state why brushing teeth properly is important.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the animals and describe their characteristics
-                    based on what they have seen from the pictures.</li>
-                <li>Able to describe the differences between cats, fishes,
-                    butterflies, dragonflies, praying mantises and ducks.</li>
+                <li>Know what causes tooth decay.</li>
+                <li>Able to state why brushing teeth properly is important.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: Brushing Teeth is Important</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Let children go home and explain to their parents the
+                    importance of brushing teeth properly.</li>
             </ul>
         </div>
     </div>
@@ -377,8 +277,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -636,6 +536,23 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
         });
     </script>
 @endpush
