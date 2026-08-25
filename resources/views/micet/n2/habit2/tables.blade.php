@@ -41,12 +41,11 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Understand the importance of concentrating and putting effort into the things we do.</li>
-            <li>Know some methods that animals use to hunt for food.</li>
-            <li>Learn to compare the lengths of three objects.</li>
-            <li>Learn to compare the differences among animals.</li>
-            <li>Make a fishing rod, a fishing basket, and an animal headgear.</li>
-            <li>Learn the basics of fishing and experience the joy of fishing through role playing.</li>
+            <li>Understand the importance of sleeping and waking up early, maintaining personal hygiene, eating healthily,
+                and exercising regularly.</li>
+            <li>Understand what causes tooth decay and learn the correct steps of brushing teeth.</li>
+            <li>Understand what germs are and know that different kinds of germs can cause different sicknesses.</li>
+            <li>Identify the five important times for washing hands and learn the correct steps of washing hands.</li>
         </ol>
     </div>
 
@@ -54,7 +53,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -62,7 +61,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/tables/t2.png') }}" class="h-[23vw]" />
 
     </div>
 
@@ -122,8 +121,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;

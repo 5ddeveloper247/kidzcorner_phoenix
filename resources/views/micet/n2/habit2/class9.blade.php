@@ -38,42 +38,58 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the sequence of the story "Candy Cat's
-                Fishing Adventure".</li>
-            <li>To learn to retell the story "Candy Cat's Fishing Adventure".</li>
+        <ul class="list-disc panel-ul">
+            <li>Identify five important times to wash hands</li>
+            <li>Learn the correct steps of washing hands</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul">
+            <ol class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
+                <li>Scraps of coloured paper, moisturizer, liquid soap and
+                    paper towels</li>
+                <li>Letter to parents (Next slide)</li>
             </ol>
         </div>
     </div>
 
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
+
+        <img src="{{ asset('assets/images/micet/n2/habit2/class9/c1.png') }}" class="h-[25vw]" />
+    </div>
+
+
+
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children cut out all 6 story cards from the Thematic Activity Book,
-                    activity 9.</li>
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Put some moisturizer on children's hands and stick scraps of coloured paper
+                    that represent germs on their hands. Let children walk around the classroom
+                    and touch things ( toys, tables, chairs, shelves, doors, etc.) Finally, have them
+                    look around the classroom and check what things in the classroom have been
+                    "contaminated" with germs (have papers on them).</li>
             </ol>
         </div>
     </div>
@@ -81,98 +97,161 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Have the children recall the story "Candy Cat's Fishing Adventure" and pick
-                up the card which shows the beginning of the story. Invite a few children to
-                retell the beginning of the story using their own words. </li>
-            <li>Have the children recall the story and pick up the card that shows the ending
-                of the story. Invite a few children to retell the ending of the story using their
-                own words.</li>
+            <li>Explain to children: Hands that are not washed have germs. These germs will
+                enter our body through our mouth, when we eat. That is how we get diarrhoea.</li>
+        </ol>
+        <video class="h-[22vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class9/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask children: When do we need to wash our hands?</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Have the children know that every story is made up of a beginning, a middle
-                (which may consists of several events) and an ending.</li>
-            <li>Have the children sequence the story cards in the order of the events.</li>
+            <li>HLet children look at the pictures below and state the five important times to
+                wash hands:
+                <ul class="list-disc">
+                    <li>Before a meal</li>
+                    <li>After sneezing, coughing or blowing our nose</li>
+                    <li>After outdoor play</li>
+                    <li>After playing with pets</li>
+                    <li>After going to the toilet</li>
+                </ul>
+            </li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit2/class9/c2.png') }}" class="h-[10vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Next, invite a few children retell the story in sequence as the teacher guides
-                them along.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Play the music and sing the "Washing Hands" song. Explain to children the
+                lyrics of the song.</li>
+            <li>Encourage children to chant the lyrics together and then learn to sing the
+                song.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class9/c1.png') }}" class="w-[35vw]" />
+
+        <div class="flex gap-[2vw] items-start">
+
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <h4 class="text-start text-white text-[2vw]">
+                Wash, wash, wash my hands <br>
+                Make them nice and clean <br>
+                Rub the bottoms and the tops <br>
+                And fingers in between
+            </h4>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Organise the children into 6 groups. Have the children in each group take
-                turns to retell the story in sequence to their group members.</li>
-            <li>Upon completion, group members help the storyteller determine if the
-                sequence of the story is correct by providing feedback.</li>
-            <li>The teacher circulates among the groups to provide guidance.</li>
+            <li>Explain to children that washing hands with soap can kill germs.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/habit2/class9/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Bring children to wash hands. Help children learn the correct steps of washing
+                hands:
+                <ul class="list-disc">
+                    <li>First, wet the hands.</li>
+                    <li>Pour an appropriate amount of liquid soap on the hands.</li>
+                    <li>Scrub hands for 10 - 15 seconds.</li>
+                    <li>Thoroughly rinse hands with clean water.</li>
+                    <li>Wipe with paper towel to dry hands and throw the paper towel in the
+                        dustbin.</li>
+                </ul>
+            </li>
+            <p> Remind children to turn off the tap after washing hands and not share the
+                their paper towel with others.</p>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Have the children draw the scenes into the blank story cards on the last
-                activity page of the Thematic Activity Book, if they show interest in modifying
-                the story or adding in more scenes. Have the children cut out and combine
-                the new story cards with the original story cards to create a new story</li>
-            <li>Each group will then choose a representative with the best new story to
-                narrate to the class.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children judge who the best storyteller is and
-                    explain the reasons.</li>
-                <li>Display the children's version of the story (original story
-                    cards plus new story cards that children drew) for all to view
-                    and share.</li>
+                <li>Let the children form pairs. Encourage them to sing the
+                    "Washing Hands" song while they wash their hands. Have
+                    each child check if the other child in the pair uses the
+                    correct steps to wash hands.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to retell the story in sequence.</li>
-                <li>Able to use imagination in modifying the story.</li>
+                <li>Know five important times to wash hands.</li>
+                <li>Able to use the correct steps to wash hands.</li>
             </ul>
         </div>
     </div>
 
 
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Set washing hands as a routine for children. Have them
+                    wash their hands at the five important times every day</li>
+                <li>Ask children to pass the letter to their parents. Let parents
+                    remind their children to use the correct way of washing
+                    hands at the five important times every day.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -229,8 +308,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;

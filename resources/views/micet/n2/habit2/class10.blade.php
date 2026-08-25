@@ -38,35 +38,31 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To develop interest in role play.</li>
-            <li>To develop different aspects of role playing skills such as
-                language, singing and movements.</li>
+        <ul class="list-disc panel-ul">
+            <li>Develop speech and language skills</li>
+            <li>Practise role play</li>
+            <li>Develop observation and counting skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Together with the children, create the backdrop scenery of
-                    a riverbank as in the story.</li>
-                <li>Headgear from Activity 8.</li>
-                <li>Fishing rods, fishing baskets and fishes from Activity 6.</li>
-                <li>"Fish pond" from Activity 7 (formed with the big card box or
-                    hula hoops or draw circles on the floor), place "fishes" in the
-                    "fish pond".</li>
+            <ol class="list-decimal panel-ul w-[40vw]">
+                <li>Thematic Activity Book</li>
+                <li>Animal head gears (prepare with children beforehand)</li>
+                <li>Different types of pills (make them with pieces of paper)</li>
+                <li>Toy medical instruments such as thermometer, stethoscope, blood
+                    pressure meter, tongue depressor, syringe, etc</li>
             </ol>
         </div>
     </div>
@@ -74,29 +70,17 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal text-white text-[1.3vw] w-[55vw]">
-                <li>Review the story with the children. Have them retell the story and prompt them
-                    when necessary.</li>
-                <li>
-                    Segment the story into the following parts:
-                    <ul class="pl-[1vw]">
-                        <li>-Candy Cat wanted to learn fishing from Mummy Cat at the river bank.</li>
-                        <li>-Candy danced with Mary Mantis.</li>
-                        <li>-Candy played with the dragonfly.</li>
-                        <li>-Candy saw that her mother had caught a big fish.</li>
-                        <li>-Candy put down the fishing rod again to chase the butterfly but fell into the river.</li>
-                        <li>-Candy decided to concentrate and put in effort when fishing. She caught a big fish in the end.
-                        </li>
-                    </ul>
-                </li>
-                <li>Ask the children questions as they retell the story, e.g. "What did Candy say?",
-                    "What did Candy's mother do?".</li>
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Have children recap the storyline of "Clean And Healthy" and state the
+                    characters in the story. Organise children into groups for role playing. Let each
+                    group choose a Doctor Owl and few animals as patients. Let children in each
+                    group take turns to play different roles, wearing the different animal
+                    headgears.</li>
             </ol>
         </div>
     </div>
@@ -104,86 +88,83 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Organise the children into 6 groups. Each group to role play one segment of
-                the story. Allocate the roles (Candy Cat, Mummy Cat, Mary Mantis, Mama
-                Duck, butterfly, dragonfly etc) according to children's wishes and abilities</li>
-            <li>The children wear the corresponding headgears. The teacher circulates
-                around to rehearse with each group. Have the children participate in
-                discussion, e.g. what should Candy do now? What should she say? The
-                teacher acts as an observer and provide hints during the rehearsal.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Have the patients take turns to visit Doctor Owl's clinic for consultation. Doctor
+                Owl will ask the patients some questions (e.g. Where do you feel unwell? Do
+                you feel giddy? Are you coughing?) and do a physical examination of the
+                patient (check heart beat, look at tongue, eyes, etc). Patients will describe
+                the symptoms of their illness (e.g. giddy, vomit, cough, sneeze).</li>
+            <li>Encourage children to use appropriate language, actions and facial
+                expressions as they role play (e.g. put the hands on the head to represent
+                giddiness, put the hands on the stomach to represent stomach ache).</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>
-                Upon completion, have each group role play according to the sequence of the story. If the actor/actress
-                cannot remember his/her line, have the other children prompt him/her.
-                <ul class="pl-[1vw]">
-                    <li>-Play the accompanying music when the children are role playing the part where Candy Cat and Mary
-                        Mantis are dancing.</li>
-                    <li>-Guide all the children in singing the song <span class="italic">"Little Dragonflies"</span> when
-                        the
-                        dragonfly appears.</li>
-                    <li>-Guide all the children in singing the song <span class="italic">"Beautiful Butterflies"</span> when
-                        Candy is chasing the butterfly.</li>
-                </ul>
-            </li>
-
-            <li>
-                If time permits, have the children in each group exchange roles, or have the groups exchange their segment
-                of the story and perform again.
-            </li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>After diagnosis, Doctor Owl will prescribe medicine for each patient and
+                explain the colour, shape and quantity of the pills (e.g. You are having a
+                fever. You need to take a white and round pill three times a day. I will give
+                you pills for three days.). </li>
+            <li>The patients will have to find the correct pill and count the correct number of
+                pills according to the doctor's prescription.</li>
         </ol>
     </div>
 
 
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>If time permits, ask children to exchange their roles and continue their role
+                play.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children share their experiences in role playing.</li>
+                <li>Invite some children who can enact well to perform their
+                    roles for the class.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to participate actively in this activity.</li>
-                <li>Able to use suitable language when role playing.</li>
-                <li>Able to imitate the character's actions according to one's role.</li>
+                <li>Able to participate actively in the role play activity.</li>
+                <li>Able to use appropriate language, actions and facial
+                    expressions during the role play.</li>
+                <li>Able to find the correct pill and the correct number of pills
+                    according to the doctor's prescription.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama - <br>
-            Candy Cat’s Fishing Adventure</h1>
-
-        <div class="text-start flex flex-col h-full">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the other teachers and parents to watch the
-                    performance. Record the performance if possible.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -240,8 +221,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;

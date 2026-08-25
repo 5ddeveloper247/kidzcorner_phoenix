@@ -43,10 +43,10 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To make a story character headgear through colouring,
-                cutting and pasting.</li>
-            <li>To develop fine motor skills.</li>
+        <ul class="list-disc panel-ul w-[40vw]">
+            <li>Understand how germs spread among people</li>
+            <li>Identify at least two methods of preventing germs
+                from spreading</li>
         </ul>
     </div>
 
@@ -60,10 +60,8 @@
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Crayons and glue.</li>
-                <li>Strips of cardboard (3 x 30 cm) /vanguard sheet (one per
-                    child).</li>
-                <li>One headgear (made prior to this activity).</li>
+                <li>Scraps of coloured paper and moisturizer</li>
+                <li>A large sheet of paper</li>
             </ul>
         </div>
     </div>
@@ -76,15 +74,15 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
-                <li>The teacher wears the headgear which was made prior to this activity. Have
-                    the children explain which story character this headgear represents, what the
-                    character did in the story and what is special about it. Have the children
-                    name the other characters in the story (Candy Cat, Mummy Cat, Mama Duck,
-                    Mary Mantis, butterfly and dragonfly), their characteristics, which is their
-                    favourite character and the reasons.</li>
-                <li>Have the children know that they will select their favourite character in the
-                    story to make a headgear.</li>
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Let children recall what germs are (germs are tiny organisms that cause
+                    disease and make us sick. We need a special instrument called microscope
+                    to see them).</li>
+                <li>Display the scraps of coloured paper. Inform children that these scraps of
+                    coloured paper represent germs.</li>
+                <li>Take a handful of these scraps of coloured paper. Pretend to sneeze and
+                    scatter the coloured paper scraps towards the children and say "I am sorry! I
+                    have spread the germs to you!"</li>
             </ol>
         </div>
     </div>
@@ -94,15 +92,17 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children choose their favourite story character in the Thematic
-                Activity Book activity 8. Organise the children into groups of six, each
-                member of the group selects one of the 6 characters. If there is more than one
-                child who selects the same character in a group, have them resolve the
-                conflict through negotiation.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Ask children: What would happen if germs enter our body? (germs will make
+                us sick) What should we do when we sneeze or cough? Guide children to
+                understand that we cannot see germs but every time we sneeze or cough, we
+                blow out millions of them. Therefore, we should use our hands, handkerchiefs
+                or tissue paper to cover our mouths and noses when we sneeze or cough to
+                prevent germs from spreading and infecting people.</li>
+            <li>Let children discuss why we should wash our hands after using them to cover
+                our mouths and noses while sneezing and coughing.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c1.png') }}" class="h-[15vw]" />
     </div>
 
 
@@ -110,13 +110,81 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have the children colour their characters and paste them onto the cardboard
-                strips. Then, have them form the strips into circles, adjust the two ends to fit
-                their heads and glue the ends together to complete the headgears. Teacher
-                assists the children in making the headgears when necessary.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Conduct this activity with children to guide them to see what would happen if
+                they did not wash their hands after using them to cover their nose and mouth
+                while sneezing and coughing:
+                <ul class="pl-[3vw]">
+                    <li>-Let children sit in a circle. Invite a child to pretend to sneeze and then let
+                        the child use his/her hand to cover his/her mouth and nose. Inform
+                        children that every time we sneeze or cough, we blow out millions of
+                        germs. The hand we use to cover our nose and mouth while sneezing
+                        and coughing therefore has germs on it.</li>
+                    <li>-Put some moisturizer on that child's hand and scatter the scraps of
+                        coloured paper that represent germs on the child's hands (ensure that
+                        the papers stay on the child's hand and do not fall off).</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Conduct this activity with children to guide them to see what would happen if
+                they did not wash their hands after using them to cover their nose and mouth
+                while sneezing and coughing:
+                <ul class="pl-[3vw] text-[1.25vw]">
+                    <li>-Put some moisturizer on the hands of the other children. Have the child that has
+                        sneezed shake hands with the friend sitting on his/her right. Have this child shake
+                        hands with the friend sitting on his/her right. Let the children continue with the
+                        same action until all of them have shaken hands with the child sitting on their right.</li>
+                    <li>-Have all the children open their hands and see what has happened (there will be some
+                        coloured paper on each child's hands). Explain to children that as the first child did not
+                        wash his/her hands after using them to cover the nose and mouth while sneezing, the
+                        germs on his/her hand have spread to the other people whom he/she has come into
+                        contact with. Guide children to understand that it is important to prevent germs
+                        from spreading and encourage children to develop frequent hand washing habit.</li>
+                    <li>-After that, bring children to wash their hands. Guide them to use soap
+                        and water to wash off the moisturizer and coloured papers on their hands.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Ask children to state the different methods of preventing germs from
+                spreading. Record the proposed methods on a large sheet of paper (through
+                drawings and writing). </li>
+            <li>Conclude and emphasize the following two ways of preventing germs from
+                spreading:
+                <ul class="list-disc">
+                    <li>Cover our mouth and nose with our hands, a handkerchief or a tissue
+                        paper when we sneeze or cough and then wash our hands.</li>
+                    <li>After we have blown our nose, sneezed or coughed, we should not touch
+                        other people unless we wash our hands.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Preventing the Spread of Germs</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
     </div>
 
 
@@ -129,22 +197,22 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children wear and display their story character
-                    headgears.</li>
+                <li>Display the large sheet of paper in the classroom within
+                    children's eye level to reinforce what has been learnt.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the characters and their characteristics in the
-                    story.</li>
-                <li>Able to make a story character headgear.</li>
+                <li>Know how germs can spread.</li>
+                <li>Able to state at least two ways of preventing germs from
+                    spreading.</li>
             </ul>
         </div>
     </div>
 
 
-   
+
 
 
 
@@ -199,8 +267,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/n2/habit2/index') }}";
+            const doneURL = "{{ url('/micet/n2/habit2/index') }}";
 
             // Track current position
             let currentSlide = 0;
