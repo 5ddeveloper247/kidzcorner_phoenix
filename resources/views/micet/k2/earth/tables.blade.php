@@ -41,11 +41,15 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>To understand and appreciate the process of growing up</li>
-            <li>To perform tasks appropriate to one's age group, develop a sense of
-                responsibility and independence</li>
-            <li>To learn and distinguish the gender differences between boys and girls</li>
-            <li>To share and discuss with parents the tasks that have been performed</li>
+            <li>To learn about the Earth and arouse interest in exploring nature.</li>
+            <li>To understand how day and night occur as a result of the Earth's rotation.</li>
+            <li>To understand the reasons why we get 4 different seasons.</li>
+            <li>To understand the different sources of energy and develop an awareness of the need for energy conservation.</li>
+            <li>To know the eight planets in the Solar System and their characteristics.</li>
+            <li>To develop fine motor skills through making a globe.</li>
+            <li>To identify various natural disasters and their causes.</li>
+            <li>To develop an awareness about the importance of</li>
+            <li>environmental protection.</li>
         </ol>
     </div>
 
@@ -53,7 +57,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/k1/myself/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/k2/earth/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -61,7 +65,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/k1/myself/tables/t2.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k2/earth/tables/t2.png') }}" class="h-[25vw]" />
 
     </div>
 
@@ -121,8 +125,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k2/earth/index') }}";
+            const doneURL = "{{ url('/micet/k2/earth/index') }}";
 
             // Track current position
             let currentSlide = 0;
