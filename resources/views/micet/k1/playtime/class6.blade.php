@@ -101,7 +101,7 @@
     <div class="phonics-panel flex flex-col h-full items-center mt-[-4vw]">
         <h1 class="panel-title stroke">Classroom Activity 6: Throw The Handkerchief</h1>
 
-        <ol class="list-decimal panel-ul" start="3">
+        <ol class="list-decimal panel-ul w-[55vw]" start="3">
             <li>When children are familiar with the song, invite children to play the handkerchief game.</li>
             <li>Demonstrate and explain how to play the game:
                 <ul class="list-disc text-[1.1vw]!">

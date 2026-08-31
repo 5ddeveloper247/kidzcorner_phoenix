@@ -2,729 +2,729 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-$showBackground = false;
-$showVector1 = true;
-$showVector5 = false;
-$showMascot = true;
+    $showBackground = false;
+    $showVector1 = true;
+    $showVector5 = false;
+    $showMascot = true;
 @endphp
 
 
 @push('styles')
-<style>
-    .p-note {
-        font-size: 1.2vw;
-        color: white !important;
-    }
+    <style>
+        .p-note {
+            font-size: 1.2vw;
+            color: white !important;
+        }
 
-    .panel-title {
-        color: #F7B94A;
-        font-size: 2.5vw;
-    }
+        .panel-title {
+            color: #F7B94A;
+            font-size: 2.5vw;
+        }
 
-    title {
-        color: #F7B94A;
-        font-size: 2vw;
-    }
+        title {
+            color: #F7B94A;
+            font-size: 2vw;
+        }
 
-    .ptitle {
-        color: #F7B94A;
-        font-size: 1.7vw;
-    }
+        .ptitle {
+            color: #F7B94A;
+            font-size: 1.7vw;
+        }
 
-    .panel-ul {
-        color: white;
-        font-size: 1.4vw;
-        text-align: left !important;
-    }
-</style>
+        .panel-ul {
+            color: white;
+            font-size: 1.4vw;
+            text-align: left !important;
+        }
+    </style>
 @endpush
 
 @section('content')
 
-{{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-    <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
+    {{-- panel 1 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
 
 
-    <h3 class="title">Objectives:</h3>
+        <h3 class="title">Objectives:</h3>
 
-    <ul class="list-disc panel-ul w-[40vw]">
-        <li>Identify some food from the rice and noodles group</li>
-        <li>Know that food from the rice and noodles group gives us
-            energy to carry out daily activities</li>
-    </ul>
-</div>
-
-
-{{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <div class="space-y-[3vw]">
-        <h3 class="title">Preparations</h3>
-
-        <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
-            <li>Rice, flour (let children touch them while looking at
-                the pictures)</li>
+        <ul class="list-disc panel-ul w-[40vw]">
+            <li>Identify some food from the rice and noodles group</li>
+            <li>Know that food from the rice and noodles group gives us
+                energy to carry out daily activities</li>
         </ul>
     </div>
-</div>
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-        <ol class="list-decimal panel-ul">
-            <li>Ask children: "Do you like eating?" "What do you eat everyday?"</li>
-            <li>Tell children that they are going to identify some food items that we eat
-                everyday.</li>
-        </ol>
+        <div class="space-y-[3vw]">
+            <h3 class="title">Preparations</h3>
+
+            <ul class="list-disc panel-ul">
+                <li>Thematic Activity Book</li>
+                <li>Rice, flour (let children touch them while looking at
+                    the pictures)</li>
+            </ul>
+        </div>
     </div>
-</div>
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="3">
-        <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
-            and shape?" "What food can it be made into?"</li>
-    </ol>
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
-</div>
+            <ol class="list-decimal panel-ul">
+                <li>Ask children: "Do you like eating?" "What do you eat everyday?"</li>
+                <li>Tell children that they are going to identify some food items that we eat
+                    everyday.</li>
+            </ol>
+        </div>
+    </div>
 
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="4">
-        <li>Yes, rice can be cooked! Have you ever eaten rice? Do you like to ea rice?</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: “”How is rice cooked?””</li>
-    </ol>
-
-    <div class="flex items-center gap-[1vw]">
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[2vw]" />
+    </div>
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Yes, rice can be cooked! Have you ever eaten rice? Do you like to ea rice?</li>
+        </ol>
+
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[25vw]" />
     </div>
-</div>
 
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children look at the process of cooking rice and
-            talk about it,</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: “”How is rice cooked?””</li>
+        </ol>
 
-    <video class="w-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v1.mp4') }}" type="video/mp4">
-    </video>
-</div>
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[2vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
 
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="7">
-        <li>Ask children: “”What other food can rice be made into?””</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Click on the video, have children look at the process of cooking rice and
+                talk about it,</li>
+        </ol>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
-</div>
+        <video class="w-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
 
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="8">
-        <li>Yes, rice can be cooked as porridge! Have you ever eaten porridge? Do
-            you like to ear porridge?</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: “”What other food can rice be made into?””</li>
+        </ol>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c4.png') }}" class="w-[25vw]" />
-</div>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
+    </div>
 
-{{-- panel 10 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="9">
-        <li>Rice can be also be cooked, then fried, such as fried rice. Have you ever
-            eaten fried rice? Do you like to eat fried rice?</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Yes, rice can be cooked as porridge! Have you ever eaten porridge? Do
+                you like to ear porridge?</li>
+        </ol>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c5.png') }}" class="w-[25vw]" />
-</div>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c4.png') }}" class="w-[25vw]" />
+    </div>
 
-{{-- panel 11 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="10">
-        <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
-            and shape?" "What food can it be made into?"</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Rice can be also be cooked, then fried, such as fried rice. Have you ever
+                eaten fried rice? Do you like to eat fried rice?</li>
+        </ol>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
-</div>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c5.png') }}" class="w-[25vw]" />
+    </div>
 
-{{-- panel 12 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="11">
-        <li>Flour can be used to make bread. Have you ever eaten bread? Do you like
-            to eat bread?</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 13 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="12">
-        <li>Ask children: “”How is bread made?””</li>
-    </ol>
-
-    <div class="flex items-center gap-[2vw]">
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Flour can be used to make bread. Have you ever eaten bread? Do you like
+                to eat bread?</li>
+        </ol>
+
         <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[25vw]" />
     </div>
-</div>
 
-{{-- panel 14 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="13">
-        <li>Click on the video, have children look at the bread making process and talk
-            about it.</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask children: “”How is bread made?””</li>
+        </ol>
 
-    <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v2.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-{{-- panel 15 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="14">
-        <li>Ask children: “”Beside bread, what food can flour be made into?””</li>
-    </ol>
-
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 16 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="15">
-        <li>Flour can also be used to make a variety of biscuits. Have you ever eaten
-            biscuits? Do you like to eat biscuits?</li>
-    </ol>
-
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c9.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 17 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="16">
-        <li>Flour can also be used to make cakes too. Have you ever eaten
-            cakes? Do you like to eat cakes?</li>
-    </ol>
-
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c13.png') }}" class="w-[20vw]" />
-</div>
-
-{{-- panel 18 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="17">
-        <li>Flour can also be used to make noodles. Have you ever eaten
-            noodles? Do you like to eat noodles?</li>
-    </ol>
-
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 19 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="18">
-        <li>Click on the video, have children look at the noodle cooking process and talk
-            about it.</li>
-    </ol>
-
-    <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-{{-- panel 20 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="19">
-        <li>Flour can be used to make buns as well. Have you ever eaten buns? Do
-            you like to eat buns?</li>
-    </ol>
-
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 21 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="20">
-        <li>Tell children that these food are made of rice and flour, so we call them the
-            rice and noodles group.</li>
-    </ol>
-
-    <div class="grid grid-cols-2 gap-[2vw]">
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[15vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[15vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[15vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[15vw]" />
+        <div class="flex items-center gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[25vw]" />
+        </div>
     </div>
-</div>
 
-{{-- panel 22 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="21">
-        <li>Ask children: “”Among these, which food do you eat most frequently?””</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Click on the video, have children look at the bread making process and talk
+                about it.</li>
+        </ol>
 
-    <div class="grid grid-cols-2 gap-[2vw]">
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[15vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[15vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[15vw]" />
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[15vw]" />
+        <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
-</div>
 
-{{-- panel 23 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="22">
-        <li>Ask children: "Do you know why we need to eat from the rice and noodles group
-            everyday?" Encourage children to guess boldly, teacher assists when needed.</li>
-        <li>Tell children that food from the rice and noodles group gives us energy to
-            carry out daily activities like running, jumping and playing ball.</li>
-    </ol>
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Ask children: “”Beside bread, what food can flour be made into?””</li>
+        </ol>
 
-    <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c14.png') }}" class="w-[25vw]" />
-</div>
-
-{{-- panel 24 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="24">
-        <li>Guide children to complete the corresponding activities in the Thematic
-            Activity Book,</li>
-    </ol>
-</div>
-
-
-{{-- panel 25 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
-
-    <div class="text-start flex flex-col justify-between h-full">
-        <h3 class="ptitle">Clousre</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Refer to the page showing food from the rice and noodles group (3rd page
-                from the end). Point to the food, one by one, have children raise hands to
-                the food that they frequently eat. Record the numbers to find out which
-                food is most frequently eaten by the class.</li>
-        </ul>
-
-        <h3 class="ptitle">Evaluation</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to name some food from the rice and noodles group.</li>
-            <li>Able to know that food from the rice and noodles group gives us energy
-                to carry out daily activities.</li>
-        </ul>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
     </div>
-</div>
 
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-{{-- panel 30 --}}
-<div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Flour can also be used to make a variety of biscuits. Have you ever eaten
+                biscuits? Do you like to eat biscuits?</li>
+        </ol>
 
-    <div class="text-start">
-        <h3 class="ptitle">Extension</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>At home, have children spot food from the rice and noodles group
-                when having dinner and tell their parents about the benefit of
-                eating them. Back in the class, have children take turns to share
-                what food they had from the rice and noodles group.</li>
-        </ul>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c9.png') }}" class="w-[25vw]" />
     </div>
-</div>
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Flour can also be used to make cakes too. Have you ever eaten
+                cakes? Do you like to eat cakes?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c13.png') }}" class="w-[20vw]" />
+    </div>
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Flour can also be used to make noodles. Have you ever eaten
+                noodles? Do you like to eat noodles?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Click on the video, have children look at the noodle cooking process and talk
+                about it.</li>
+        </ol>
+
+        <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+    {{-- panel 20 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Flour can be used to make buns as well. Have you ever eaten buns? Do
+                you like to eat buns?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 21 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Tell children that these food are made of rice and flour, so we call them the
+                rice and noodles group.</li>
+        </ol>
+
+        <div class="grid grid-cols-2 gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[15vw]" />
+        </div>
+    </div>
+
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Ask children: “”Among these, which food do you eat most frequently?””</li>
+        </ol>
+
+        <div class="grid grid-cols-2 gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[15vw]" />
+        </div>
+    </div>
+
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>Ask children: "Do you know why we need to eat from the rice and noodles group
+                everyday?" Encourage children to guess boldly, teacher assists when needed.</li>
+            <li>Tell children that food from the rice and noodles group gives us energy to
+                carry out daily activities like running, jumping and playing ball.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c14.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 24 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="24">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book,</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 25 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Refer to the page showing food from the rice and noodles group (3rd page
+                    from the end). Point to the food, one by one, have children raise hands to
+                    the food that they frequently eat. Record the numbers to find out which
+                    food is most frequently eaten by the class.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to name some food from the rice and noodles group.</li>
+                <li>Able to know that food from the rice and noodles group gives us energy
+                    to carry out daily activities.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 30 --}}
+    <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>At home, have children spot food from the rice and noodles group
+                    when having dinner and tell their parents about the benefit of
+                    eating them. Back in the class, have children take turns to share
+                    what food they had from the rice and noodles group.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
 
 
-{{-- ================================ --}}
-{{-- All Buttons --}}
-<div id="buttons" class="absolute flex flex-row gap-6 z-90">
+    {{-- ================================ --}}
+    {{-- All Buttons --}}
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-    <!-- Home Button -->
-    <button id="returnButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-    </button>
+        <!-- Home Button -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </button>
 
-    <!-- return Button -->
-    <button id="homeButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-    </button>
+        <!-- return Button -->
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
 
-    <!-- Close Button -->
-    <button id="closeButton">
+        <!-- Close Button -->
+        <button id="closeButton">
 
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-    </button>
-</div>
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
+    </div>
 
-{{-- Next and Done Buttons --}}
-<div class="down-btn-container">
-    <button class="nextButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-    </button>
-</div>
+    {{-- Next and Done Buttons --}}
+    <div class="down-btn-container">
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+        </button>
+    </div>
 
-<div class="down-btn-container">
-    <button class="doneButton hidden">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-    </button>
-</div>
+    <div class="down-btn-container">
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+        </button>
+    </div>
 @endsection
 
 @push('script')
-<script>
-    // SLIDE NAVIGATION SYSTEM
-    document.body.dataset.homeRoute = "{{ url('/micet') }}";
+    <script>
+        // SLIDE NAVIGATION SYSTEM
+        document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
 
-        // Get all elements
-        const slides = document.querySelectorAll(".phonics-panel");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton");
-        const infoButtons = document.querySelectorAll("[class*='info-btn']");
-        const soundButtons = document.querySelectorAll("[id^='soundButton']");
+            // Get all elements
+            const slides = document.querySelectorAll(".phonics-panel");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
+            const infoButtons = document.querySelectorAll("[class*='info-btn']");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-        // URLs for navigation
-        const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
-        const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
+            // URLs for navigation
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
-        // Track current position
-        let currentSlide = 0;
-        let isInSpecialMode = false;
-        let returnToSlide = null;
-        let specialSlideClass = null;
+            // Track current position
+            let currentSlide = 0;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
+            let specialSlideClass = null;
 
-        // Audio management
-        let currentAudio = null;
+            // Audio management
+            let currentAudio = null;
 
-        // HELPER FUNCTIONS
+            // HELPER FUNCTIONS
 
-        function isSpecialSlide(slide) {
-            const classList = Array.from(slide.classList);
-            return classList.some(cls => /^info-panel-\d+$/.test(cls));
-        }
-
-        function getSlideTypeFromButton(button) {
-            const classList = Array.from(button.classList);
-
-            for (let className of classList) {
-                if (className.startsWith('info-btn')) {
-                    const number = className.replace('info-btn', '');
-                    return 'info-panel-' + number;
-                }
+            function isSpecialSlide(slide) {
+                const classList = Array.from(slide.classList);
+                return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
-            return null;
-        }
 
-        function hasMoreSpecialSlides(fromIndex) {
-            if (!specialSlideClass) return false;
+            function getSlideTypeFromButton(button) {
+                const classList = Array.from(button.classList);
 
-            for (let i = fromIndex + 1; i < slides.length; i++) {
-                if (slides[i].classList.contains(specialSlideClass)) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        function isLastSlide(slideIndex) {
-            if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-
-            if (!isInSpecialMode) {
-                for (let i = slideIndex + 1; i < slides.length; i++) {
-                    if (!isSpecialSlide(slides[i])) {
-                        return false;
+                for (let className of classList) {
+                    if (className.startsWith('info-btn')) {
+                        const number = className.replace('info-btn', '');
+                        return 'info-panel-' + number;
                     }
                 }
-                return true;
+                return null;
             }
 
-            return false;
-        }
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!specialSlideClass) return false;
 
-        // AUDIO FUNCTIONS
-
-        function stopCurrentAudio() {
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        return true;
+                    }
+                }
+                return false;
             }
-        }
 
-        // VIDEO FUNCTIONS
+            function isLastSlide(slideIndex) {
+                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-        function stopAllVideos() {
-            document.querySelectorAll(".phonics-panel video").forEach(video => {
-                video.pause();
-                video.currentTime = 0;
-            });
-        }
+                if (!isInSpecialMode) {
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
 
+                return false;
+            }
 
-        function playSlideAudio(slideIndex) {
-            // Stop any currently playing audio
-            stopCurrentAudio();
+            // AUDIO FUNCTIONS
 
-            stopAllVideos();
-
-            // Get the slide element
-            const slide = slides[slideIndex];
-
-            // Check if the slide itself has data-slide-audio attribute
-            let audioSrc = slide.getAttribute('data-slide-audio');
-
-            // If not, look for element inside the slide with data-slide-audio attribute
-            if (!audioSrc) {
-                const audioElement = slide.querySelector('[data-slide-audio]');
-                if (audioElement) {
-                    audioSrc = audioElement.getAttribute('data-slide-audio');
+            function stopCurrentAudio() {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
                 }
             }
 
-            // Play the audio if we found a source
-            if (audioSrc) {
-                currentAudio = new Audio(audioSrc);
-                currentAudio.play().catch(err => console.log('Audio play failed:', err));
+            // VIDEO FUNCTIONS
+
+            function stopAllVideos() {
+                document.querySelectorAll(".phonics-panel video").forEach(video => {
+                    video.pause();
+                    video.currentTime = 0;
+                });
             }
-        }
 
 
-        // DISPLAY FUNCTIONS
+            function playSlideAudio(slideIndex) {
+                // Stop any currently playing audio
+                stopCurrentAudio();
 
-        function showSlide(slideIndex) {
-            // Stop audio from previous slide
-            stopCurrentAudio();
+                stopAllVideos();
 
-            // Hide all slides, show only current one
-            slides.forEach((slide, index) => {
-                if (index === slideIndex) {
-                    slide.classList.remove("hidden");
-                } else {
-                    slide.classList.add("hidden");
+                // Get the slide element
+                const slide = slides[slideIndex];
+
+                // Check if the slide itself has data-slide-audio attribute
+                let audioSrc = slide.getAttribute('data-slide-audio');
+
+                // If not, look for element inside the slide with data-slide-audio attribute
+                if (!audioSrc) {
+                    const audioElement = slide.querySelector('[data-slide-audio]');
+                    if (audioElement) {
+                        audioSrc = audioElement.getAttribute('data-slide-audio');
+                    }
                 }
-            });
 
-            // Play audio for current slide (if it has one)
-            playSlideAudio(slideIndex);
-
-            // Show "Done" button on last slide, otherwise show "Next"
-            if (isLastSlide(slideIndex)) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
-            } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
-            }
-        }
-
-        soundButtons.forEach(btn => {
-            btn.addEventListener("click", (e) => {
-                e.preventDefault();
-
-                // Get audio source from data-slide-audio attribute
-                const audioSrc = btn.getAttribute('data-slide-audio');
-
+                // Play the audio if we found a source
                 if (audioSrc) {
-                    stopCurrentAudio();
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
-            });
-        });
-        // NAVIGATION FUNCTIONS
+            }
 
-        function goNext() {
-            if (currentSlide >= slides.length - 1) return;
 
-            currentSlide++;
+            // DISPLAY FUNCTIONS
 
-            while (currentSlide < slides.length) {
-                const slide = slides[currentSlide];
+            function showSlide(slideIndex) {
+                // Stop audio from previous slide
+                stopCurrentAudio();
 
-                if (isInSpecialMode) {
-                    if (slide.classList.contains(specialSlideClass)) break;
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.classList.remove("hidden");
+                    } else {
+                        slide.classList.add("hidden");
+                    }
+                });
+
+                // Play audio for current slide (if it has one)
+                playSlideAudio(slideIndex);
+
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    if (!isSpecialSlide(slide)) break;
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
+            }
+
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Get audio source from data-slide-audio attribute
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+            });
+            // NAVIGATION FUNCTIONS
+
+            function goNext() {
+                if (currentSlide >= slides.length - 1) return;
 
                 currentSlide++;
-            }
 
-            if (currentSlide < slides.length) {
-                showSlide(currentSlide);
-            }
-        }
+                while (currentSlide < slides.length) {
+                    const slide = slides[currentSlide];
 
-        function goBack() {
-            if (currentSlide === 0 && !isInSpecialMode) {
-                stopCurrentAudio();
-                window.location.href = returnURL;
-                return;
-            }
-
-            if (isInSpecialMode) {
-                let previousIndex = currentSlide - 1;
-
-                while (previousIndex >= 0) {
-                    if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                        break;
+                    if (isInSpecialMode) {
+                        if (slide.classList.contains(specialSlideClass)) break;
+                    } else {
+                        if (!isSpecialSlide(slide)) break;
                     }
-                    previousIndex--;
+
+                    currentSlide++;
                 }
 
-                if (previousIndex >= 0) {
-                    currentSlide = previousIndex;
+                if (currentSlide < slides.length) {
                     showSlide(currentSlide);
+                }
+            }
+
+            function goBack() {
+                if (currentSlide === 0 && !isInSpecialMode) {
+                    stopCurrentAudio();
+                    window.location.href = returnURL;
+                    return;
+                }
+
+                if (isInSpecialMode) {
+                    let previousIndex = currentSlide - 1;
+
+                    while (previousIndex >= 0) {
+                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                            break;
+                        }
+                        previousIndex--;
+                    }
+
+                    if (previousIndex >= 0) {
+                        currentSlide = previousIndex;
+                        showSlide(currentSlide);
+                    } else {
+                        currentSlide = returnToSlide;
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        returnToSlide = null;
+                        showSlide(currentSlide);
+                    }
                 } else {
+                    if (currentSlide > 0) {
+                        currentSlide--;
+
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+
+                        showSlide(currentSlide);
+                    }
+                }
+            }
+
+            function handleDone() {
+                stopCurrentAudio();
+
+                if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                }
-            } else {
-                if (currentSlide > 0) {
-                    currentSlide--;
-
-                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
-                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
                 }
             }
-        }
 
-        function handleDone() {
-            stopCurrentAudio();
+            // EVENT LISTENERS
 
-            if (isInSpecialMode && returnToSlide !== null) {
-                currentSlide = returnToSlide;
-                isInSpecialMode = false;
-                specialSlideClass = null;
-                returnToSlide = null;
-                showSlide(currentSlide);
-            } else {
-                window.location.href = doneURL;
-            }
-        }
+            infoButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
 
-        // EVENT LISTENERS
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = getSlideTypeFromButton(button);
 
-        infoButtons.forEach(button => {
-            button.addEventListener("click", function(e) {
-                e.preventDefault();
-
-                returnToSlide = currentSlide;
-                isInSpecialMode = true;
-                specialSlideClass = getSlideTypeFromButton(button);
-
-                for (let i = 0; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        currentSlide = i;
-                        showSlide(currentSlide);
-                        break;
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
-                }
+                });
             });
-        });
 
-        nextButtons.forEach(btn => {
-            btn.addEventListener("click", goNext);
-        });
-
-        if (returnButton) {
-            returnButton.addEventListener("click", goBack);
-        }
-
-        if (doneButton) {
-            doneButton.addEventListener("click", handleDone);
-        }
-
-        const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-        letterLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const letter = link.getAttribute('data-letter') || 'a';
-                speakLetter(letter);
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goNext);
             });
+
+            if (returnButton) {
+                returnButton.addEventListener("click", goBack);
+            }
+
+            if (doneButton) {
+                doneButton.addEventListener("click", handleDone);
+            }
+
+            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+            letterLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const letter = link.getAttribute('data-letter') || 'a';
+                    speakLetter(letter);
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
+
+            // INITIALIZE - Show first slide and play its audio automatically
+            showSlide(currentSlide);
         });
-
-        window.speechSynthesis.onvoiceschanged = () => {
-            window.speechSynthesis.getVoices();
-        };
-
-        // INITIALIZE - Show first slide and play its audio automatically
-        showSlide(currentSlide);
-    });
-</script>
+    </script>
 @endpush
