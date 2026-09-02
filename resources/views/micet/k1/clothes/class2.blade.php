@@ -37,9 +37,14 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
+    <div class="phonics-panel flex flex-col h-full justify-between items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Where Does Cloth Come From?</h1>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class2/c1.png') }}" class="h-[8vw]" />
+        <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
+        </div>
 
         <h3 class="ptitle">Objectives:</h3>
 

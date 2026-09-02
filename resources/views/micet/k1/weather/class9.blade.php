@@ -39,7 +39,10 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: How’s the Weather Today?</h1>
-        <img src="{{ asset('assets/images/micet/k1/weather/class9/b1.png') }}" class="h-[8vw]" />
+        <div class="flex items-center gap-1">
+        <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+    </div>
 
         <h3 class="ptitle">Objectives:</h3>
 
