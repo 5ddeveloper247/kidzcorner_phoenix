@@ -69,7 +69,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
 
-        <div>
+        <div class="space-y-[2vw]">
             <h3 class="title">Preparations</h3>
 
             <ol class="list-disc panel-ul">
