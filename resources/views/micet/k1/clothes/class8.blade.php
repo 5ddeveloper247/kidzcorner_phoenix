@@ -39,9 +39,11 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: How are Clothes Made?</h1>
-        <div class="flex">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class8/c1.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n2/fairy/class8/c2.png') }}" class="h-[8vw]" />
+        <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[6vw]" />
         </div>
 
 

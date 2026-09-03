@@ -39,10 +39,12 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: When Do We Wear Them?</h1>
-        <div class="flex">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class9/c1.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n2/fairy/class9/c2.png') }}" class="h-[7.3vw]" />
+        <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
         </div>
+
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">

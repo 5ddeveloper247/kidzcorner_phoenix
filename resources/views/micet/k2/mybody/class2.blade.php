@@ -37,7 +37,7 @@ $showMascot = true;
 @section('content')
 
 {{-- panel 1 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
+<div class="phonics-panel flex flex-col h-full justify-between items-center">
     <h1 class="panel-title stroke">Classroom Activity 2: Think and Draw</h1>
     <img src="{{ asset('assets/images/micet/k2/mybody/class2/c1.png') }}" class="h-[8vw]" />
 
