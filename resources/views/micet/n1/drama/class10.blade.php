@@ -40,10 +40,10 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/colours/class4/b1.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n1/colours/b10.2.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n1/colours/b10.3.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n1/colours/b10.1.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/colours/class8/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class6/b3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class7/b2.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class6/b4.png') }}" class="h-[7vw]" />          
         </div>
 
         <h3 class="ptitle">Objectives:</h3>
@@ -99,7 +99,7 @@
                 who sing (song 1) and play musical instruments stand at the back of the stage.</li>
         </ol>
         <div class="flex items-start justify-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-white">
@@ -127,7 +127,7 @@
         </ol>
 
         <div class="flex items-start justify-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-white">
@@ -155,7 +155,7 @@
         </ol>
 
         <div class="flex items-start justify-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-white">
@@ -183,7 +183,7 @@
         </ol>
 
         <div class="flex items-start justify-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-white">
@@ -211,7 +211,7 @@
         </ol>
 
         <div class="flex items-start justify-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-white">
@@ -370,6 +370,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

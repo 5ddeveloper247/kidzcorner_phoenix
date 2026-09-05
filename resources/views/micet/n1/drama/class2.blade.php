@@ -85,7 +85,7 @@
                 <li>Invite children to clap to the rhythm of the music.</li>
             </ul>
         </div>
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}" >
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -100,7 +100,7 @@
             <li>Tell children that today they are going to use this piece of music to learn to
                 sing two songs from to the story "The Rabbits And The Wolf".</li>
         </ol>
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -115,7 +115,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, <br>
@@ -138,7 +138,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, <br>
@@ -162,7 +162,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, <br>
@@ -186,7 +186,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, <br>
@@ -209,7 +209,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, </br>
@@ -232,7 +232,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
             
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, </br>
@@ -256,7 +256,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, </br>
@@ -280,7 +280,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">Oh my dear children, </br>
@@ -445,6 +445,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

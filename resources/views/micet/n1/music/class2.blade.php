@@ -2,600 +2,642 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-    $showBackground = false;
-    $showVector1 = true;
-    $showVector5 = false;
-    $showMascot = true;
+$showBackground = false;
+$showVector1 = true;
+$showVector5 = false;
+$showMascot = true;
 @endphp
 
 
 @push('styles')
-    <style>
-        .p-note {
-            font-size: 1.2vw;
-            color: white !important;
-        }
+<style>
+    .p-note {
+        font-size: 1.2vw;
+        color: white !important;
+    }
 
-        .panel-title {
-            color: #F7B94A;
-            font-size: 2.3vw;
-        }
+    .panel-title {
+        color: #F7B94A;
+        font-size: 2.3vw;
+    }
 
-        .ptitle {
-            color: #F7B94A;
-            font-size: 1.7vw;
-        }
+    .ptitle {
+        color: #F7B94A;
+        font-size: 1.7vw;
+    }
 
-        .panel-ul {
-            color: white;
-            font-size: 1.4vw;
-            text-align: left
-        }
-    </style>
+    .panel-ul {
+        color: white;
+        font-size: 1.4vw;
+        text-align: left
+    }
+</style>
 @endpush
 
 @section('content')
 
-    {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-        <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
-        </div>
+{{-- panel 1 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+    <div class="flex items-center gap-1">
+        <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
+    </div>
 
 
-        <h3 class="ptitle">Objectives:</h3>
+    <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul ">
-            <li>Explore the relationship between tempo and rhythm of the music</li>
-            <li>Learn to clap to the rhythm of the music with different tempos</li>
-            <li>Develop listening and physical coordination skills</li>
+    <ul class="list-disc panel-ul ">
+        <li>Explore the relationship between tempo and rhythm of the music</li>
+        <li>Learn to clap to the rhythm of the music with different tempos</li>
+        <li>Develop listening and physical coordination skills</li>
+    </ul>
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+
+    <div class="space-y-[1vw] text-center">
+        <h3 class="ptitle">Preparations</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Before the lesson, practise clapping to the rhythm of the
+                music with different tempos. [Note: After prelude, clap
+                every time you hear the sound of the drum]</li>
         </ul>
     </div>
+</div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
 
-        <div class="space-y-[1vw] text-center">
-            <h3 class="ptitle">Preparations</h3>
+    <div class="text-start space-y-[1vw]">
+        <h3 class="ptitle">Lesson Development</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Before the lesson, practise clapping to the rhythm of the
-                    music with different tempos. [Note: After prelude, clap
-                    every time you hear the sound of the drum]</li>
-            </ul>
+        <ul class="list-decimal panel-ul w-[45vw]">
+            <li>Play the music; have children clap to the rhythm of the music.</li>
+        </ul>
+    </div>
+    <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+    </button>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <li>Tell children that music has different tempos (speed), sometimes fast and
+            sometimes slow.</li>
+        <li>Invite children to listen to the music with different tempos.</li>
+    </ol>
+
+    <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+    </button>
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[4vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <li>Play music one at a time, have children listen to the music carefully.</li>
+    </ol>
+    <div class="flex gap-[1vw]">
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
+
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
+
+    </div>
+</div>
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <li>Ask children: "Which piece of music has a fast tempo?" "Which piece of
+            music has a slow tempo?" (the music in the yellow or red box)</li>
+    </ol>
+
+    <div class="flex gap-[1vw]">
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
+
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
         </div>
     </div>
+</div>
 
 
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
 
-        <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Lesson Development</h3>
+    <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <li>Play music one at a time, teacher claps to the rhythm of the music and
+            children follow along.</li>
+    </ol>
 
-            <ul class="list-decimal panel-ul w-[45vw]">
-                <li>Play the music; have children clap to the rhythm of the music.</li>
-            </ul>
+    <div class="flex gap-[1vw]">
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
         </div>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
 
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that music has different tempos (speed), sometimes fast and
-                sometimes slow.</li>
-            <li>Invite children to listen to the music with different tempos.</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[4vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Play music one at a time, have children listen to the music carefully.</li>
-        </ol>
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
         </div>
     </div>
+</div>
 
 
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+{{-- panel 8 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask children: "Which piece of music has a fast tempo?" "Which piece of
-                music has a slow tempo?" (the music in the yellow or red box)</li>
-        </ol>
+    <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <li>Repeat playing the music; have children practise clapping to the rhythm of
+            the music with the different tempos.</li>
+    </ol>
 
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
+    <div class="flex gap-[1vw]">
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
 
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
         </div>
     </div>
+</div>
 
 
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Play music one at a time, teacher claps to the rhythm of the music and
-                children follow along.</li>
-        </ol>
+    <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <li>Ask children: "When the music has a fast tempo, what is the rhythm like? Is
+            there a difference in the clapping?"</li>
+        <li>Guide children in understanding that when the music has a fast tempo, the
+            rhythm will also be fast and our clapping will be fast too.</li>
+    </ol>
 
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
+    <div class="flex gap-[1vw]">
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
 
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
+        <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
         </div>
     </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Repeat playing the music; have children practise clapping to the rhythm of
-                the music with the different tempos.</li>
-        </ol>
-
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Ask children: "When the music has a fast tempo, what is the rhythm like? Is
-                there a difference in the clapping?"</li>
-            <li>Guide children in understanding that when the music has a fast tempo, the
-                rhythm will also be fast and our clapping will be fast too.</li>
-        </ol>
-
-        <div class="flex gap-[1vw]">
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-
-            <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
-        </div>
-    </div>
+</div>
 
 
 
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
+{{-- panel 10 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
 
-        <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+    <div class="text-start flex flex-col justify-between h-full">
+        <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>
-                    <span class="flex items-start">Play music with slow tempo <span class="w-[3vw]">
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>
+                <span>Play music with slow tempo
+                    <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                        <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> , have children clap to the rhythm of the
-                        music together. </span>
-                </li>
-                <li>
-                    <span class="flex items-start">Play music with fast tempo <span class="w-[3vw]">
+                        </button>
+                    </span>
+                    , have children clap to the rhythm of the
+                    music together.
+                </span>
+            </li>
+            <li>
+                <span>Play music with fast tempo
+                    <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                        <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> , have children clap to the rhythm of the
-                        music together. </span>
-                </li>
-                <li>Ask children: When the music has a fast tempo, what is
-                    the rhythm like? Is there a difference in the clapping?</li>
-            </ul>
+                        </button>
+                    </span>
+                    , have children clap to the rhythm of the
+                    music together.
+                </span>
+            </li>
+            <li>Ask children: When the music has a fast tempo, what is
+                the rhythm like? Is there a difference in the clapping?</li>
+        </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+        <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that when the music has a fast tempo, the rhythm will also
-                    be fast and the clapping will be fast too.</li>
-                <li>Able to clap to the rhythm of the music with different tempos.</li>
-            </ul>
-        </div>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Able to say that when the music has a fast tempo, the rhythm will also
+                be fast and the clapping will be fast too.</li>
+            <li>Able to clap to the rhythm of the music with different tempos.</li>
+        </ul>
     </div>
+</div>
 
 
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music </h1>
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music </h1>
 
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
+    <div class="text-start flex flex-col">
+        <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music with different tempos, have children listen and say
-                    whether the music has a fast or slow tempo.</li>
-            </ul>
-        </div>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Play other music with different tempos, have children listen and say
+                whether the music has a fast or slow tempo.</li>
+        </ul>
     </div>
+</div>
 
 
 
 
 
-    {{-- =============================================== --}}
-    {{-- All Buttons --}}
-    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
+{{-- =============================================== --}}
+{{-- All Buttons --}}
+<div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <!-- Home Button -->
-        <button id="returnButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-        </button>
+    <!-- Home Button -->
+    <button id="returnButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+    </button>
 
-        <!-- return Button -->
-        <button id="homeButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-        </button>
+    <!-- return Button -->
+    <button id="homeButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+    </button>
 
-        <!-- Close Button -->
-        <button id="closeButton">
+    <!-- Close Button -->
+    <button id="closeButton">
 
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-        </button>
-    </div>
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+    </button>
+</div>
 
-    {{-- Next and Done Buttons --}}
-    <div class="down-btn-container">
-        <button class="nextButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-        </button>
-    </div>
+{{-- Next and Done Buttons --}}
+<div class="down-btn-container">
+    <button class="nextButton">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+    </button>
+</div>
 
-    <div class="down-btn-container">
-        <button class="doneButton hidden">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-        </button>
-    </div>
+<div class="down-btn-container">
+    <button class="doneButton hidden">
+        <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+    </button>
+</div>
 @endsection
 
 @push('script')
-    <script>
-        // SLIDE NAVIGATION SYSTEM
-        document.body.dataset.homeRoute = "{{ url('/micet') }}";
+<script>
+    // SLIDE NAVIGATION SYSTEM
+    document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-        document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
 
-            // Get all elements
-            const slides = document.querySelectorAll(".phonics-panel");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn']");
-            const soundButtons = document.querySelectorAll("[id^='soundButton']");
+        // Get all elements
+        const slides = document.querySelectorAll(".phonics-panel");
+        const nextButtons = document.querySelectorAll(".nextButton");
+        const returnButton = document.getElementById("returnButton");
+        const doneButton = document.querySelector(".doneButton");
+        const infoButtons = document.querySelectorAll("[class*='info-btn']");
+        const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+        // URLs for navigation
+        const returnURL = "{{ url('/micet/n1/music/index') }}";
+        const doneURL = "{{ url('/micet/n1/music/index') }}";
 
-            // Track current position
-            let currentSlide = 0;
-            let isInSpecialMode = false;
-            let returnToSlide = null;
-            let specialSlideClass = null;
+        // Track current position
+        let currentSlide = 0;
+        let isInSpecialMode = false;
+        let returnToSlide = null;
+        let specialSlideClass = null;
 
-            // Audio management
-            let currentAudio = null;
+        // Audio management
+        let currentAudio = null;
+        // FIX: track which button (if any) is the source of the currently
+        // playing audio, so we know whether a click is "stop this one" or
+        // "switch to a different one".
+        let currentPlayingButton = null;
 
-            // HELPER FUNCTIONS
+        // HELPER FUNCTIONS
 
-            function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
-            }
+        function isSpecialSlide(slide) {
+            const classList = Array.from(slide.classList);
+            return classList.some(cls => /^info-panel-\d+$/.test(cls));
+        }
 
-            function getSlideTypeFromButton(button) {
-                const classList = Array.from(button.classList);
+        function getSlideTypeFromButton(button) {
+            const classList = Array.from(button.classList);
 
-                for (let className of classList) {
-                    if (className.startsWith('info-btn')) {
-                        const number = className.replace('info-btn', '');
-                        return 'info-panel-' + number;
-                    }
+            for (let className of classList) {
+                if (className.startsWith('info-btn')) {
+                    const number = className.replace('info-btn', '');
+                    return 'info-panel-' + number;
                 }
-                return null;
             }
+            return null;
+        }
 
-            function hasMoreSpecialSlides(fromIndex) {
-                if (!specialSlideClass) return false;
+        function hasMoreSpecialSlides(fromIndex) {
+            if (!specialSlideClass) return false;
 
-                for (let i = fromIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function isLastSlide(slideIndex) {
-                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-
-                if (!isInSpecialMode) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) {
-                            return false;
-                        }
-                    }
+            for (let i = fromIndex + 1; i < slides.length; i++) {
+                if (slides[i].classList.contains(specialSlideClass)) {
                     return true;
                 }
-
-                return false;
             }
+            return false;
+        }
 
-            // AUDIO FUNCTIONS
+        function isLastSlide(slideIndex) {
+            if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-            function stopCurrentAudio() {
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                }
-            }
-
-            function playSlideAudio(slideIndex) {
-                // Stop any currently playing audio
-                stopCurrentAudio();
-
-                // Get the slide element
-                const slide = slides[slideIndex];
-
-                // Check if the slide itself has data-slide-audio attribute
-                let audioSrc = slide.getAttribute('data-slide-audio');
-
-                // If not, look for element inside the slide with data-slide-audio attribute
-                if (!audioSrc) {
-                    const audioElement = slide.querySelector('[data-slide-audio]');
-                    if (audioElement) {
-                        audioSrc = audioElement.getAttribute('data-slide-audio');
+            if (!isInSpecialMode) {
+                for (let i = slideIndex + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) {
+                        return false;
                     }
                 }
+                return true;
+            }
 
-                // Play the audio if we found a source
-                if (audioSrc) {
-                    currentAudio = new Audio(audioSrc);
-                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
+            return false;
+        }
+
+        // AUDIO FUNCTIONS
+
+        function stopCurrentAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                currentAudio = null;
+            }
+            // FIX: clear the tracked button whenever audio is stopped,
+            // whatever stopped it (slide change, done/return, etc).
+            currentPlayingButton = null;
+        }
+
+        function playSlideAudio(slideIndex) {
+            // Stop any currently playing audio
+            stopCurrentAudio();
+
+            // Get the slide element
+            const slide = slides[slideIndex];
+
+            // Check if the slide itself has data-slide-audio attribute
+            let audioSrc = slide.getAttribute('data-slide-audio');
+
+            // If not, look for element inside the slide with data-slide-audio attribute
+            if (!audioSrc) {
+                const audioElement = slide.querySelector('[data-slide-audio]');
+                if (audioElement) {
+                    audioSrc = audioElement.getAttribute('data-slide-audio');
                 }
             }
 
+            // Play the audio if we found a source
+            if (audioSrc) {
+                currentAudio = new Audio(audioSrc);
+                currentAudio.play().catch(err => console.log('Audio play failed:', err));
+            }
+        }
 
-            // DISPLAY FUNCTIONS
 
-            function showSlide(slideIndex) {
-                // Stop audio from previous slide
-                stopCurrentAudio();
+        // DISPLAY FUNCTIONS
 
-                // Hide all slides, show only current one
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
-                });
+        function showSlide(slideIndex) {
+            // Stop audio from previous slide
+            stopCurrentAudio();
 
-                // Play audio for current slide (if it has one)
-                playSlideAudio(slideIndex);
-
-                // Show "Done" button on last slide, otherwise show "Next"
-                if (isLastSlide(slideIndex)) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+            // Hide all slides, show only current one
+            slides.forEach((slide, index) => {
+                if (index === slideIndex) {
+                    slide.classList.remove("hidden");
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    slide.classList.add("hidden");
                 }
-            }
-
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-
-                    // Get audio source from data-slide-audio attribute
-                    const audioSrc = btn.getAttribute('data-slide-audio');
-
-                    if (audioSrc) {
-                        stopCurrentAudio();
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                    }
-                });
             });
-            // NAVIGATION FUNCTIONS
 
-            function goNext() {
-                if (currentSlide >= slides.length - 1) return;
+            // Play audio for current slide (if it has one)
+            playSlideAudio(slideIndex);
 
-                currentSlide++;
-
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-
-                    if (isInSpecialMode) {
-                        if (slide.classList.contains(specialSlideClass)) break;
-                    } else {
-                        if (!isSpecialSlide(slide)) break;
-                    }
-
-                    currentSlide++;
-                }
-
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
+            // Show "Done" button on last slide, otherwise show "Next"
+            if (isLastSlide(slideIndex)) {
+                nextButtons.forEach(btn => btn.classList.add("hidden"));
+                if (doneButton) doneButton.classList.remove("hidden");
+            } else {
+                nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                if (doneButton) doneButton.classList.add("hidden");
             }
+        }
 
-            function goBack() {
-                if (currentSlide === 0 && !isInSpecialMode) {
+        // FIX: toggle behavior.
+        // - Clicking the button that is currently playing -> stop it.
+        // - Clicking a different button (or nothing playing) -> stop
+        //   whatever is playing and start this button's audio.
+        // - When a track ends naturally, clear the tracked button so a
+        //   later click on the same button starts it fresh instead of
+        //   being treated as "stop".
+        soundButtons.forEach(btn => {
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const audioSrc = btn.getAttribute('data-slide-audio');
+                if (!audioSrc) return;
+
+                // Same button clicked again while its audio is playing -> stop it
+                if (currentPlayingButton === btn && currentAudio) {
                     stopCurrentAudio();
-                    window.location.href = returnURL;
                     return;
                 }
 
-                if (isInSpecialMode) {
-                    let previousIndex = currentSlide - 1;
-
-                    while (previousIndex >= 0) {
-                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                            break;
-                        }
-                        previousIndex--;
-                    }
-
-                    if (previousIndex >= 0) {
-                        currentSlide = previousIndex;
-                        showSlide(currentSlide);
-                    } else {
-                        currentSlide = returnToSlide;
-                        isInSpecialMode = false;
-                        specialSlideClass = null;
-                        returnToSlide = null;
-                        showSlide(currentSlide);
-                    }
-                } else {
-                    if (currentSlide > 0) {
-                        currentSlide--;
-
-                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                            currentSlide--;
-                        }
-
-                        showSlide(currentSlide);
-                    }
-                }
-            }
-
-            function handleDone() {
+                // Otherwise stop whatever else is playing, then play this one
                 stopCurrentAudio();
 
-                if (isInSpecialMode && returnToSlide !== null) {
+                currentAudio = new Audio(audioSrc);
+                currentPlayingButton = btn;
+
+                currentAudio.addEventListener('ended', () => {
+                    currentAudio = null;
+                    currentPlayingButton = null;
+                });
+
+                currentAudio.play().catch(err => {
+                    console.log('Audio play failed:', err);
+                    currentAudio = null;
+                    currentPlayingButton = null;
+                });
+            });
+        });
+        // NAVIGATION FUNCTIONS
+
+        function goNext() {
+            if (currentSlide >= slides.length - 1) return;
+
+            currentSlide++;
+
+            while (currentSlide < slides.length) {
+                const slide = slides[currentSlide];
+
+                if (isInSpecialMode) {
+                    if (slide.classList.contains(specialSlideClass)) break;
+                } else {
+                    if (!isSpecialSlide(slide)) break;
+                }
+
+                currentSlide++;
+            }
+
+            if (currentSlide < slides.length) {
+                showSlide(currentSlide);
+            }
+        }
+
+        function goBack() {
+            if (currentSlide === 0 && !isInSpecialMode) {
+                stopCurrentAudio();
+                window.location.href = returnURL;
+                return;
+            }
+
+            if (isInSpecialMode) {
+                let previousIndex = currentSlide - 1;
+
+                while (previousIndex >= 0) {
+                    if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                        break;
+                    }
+                    previousIndex--;
+                }
+
+                if (previousIndex >= 0) {
+                    currentSlide = previousIndex;
+                    showSlide(currentSlide);
+                } else {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                } else {
-                    window.location.href = doneURL;
+                }
+            } else {
+                if (currentSlide > 0) {
+                    currentSlide--;
+
+                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
+                    showSlide(currentSlide);
                 }
             }
+        }
 
-            // EVENT LISTENERS
+        function handleDone() {
+            stopCurrentAudio();
 
-            infoButtons.forEach(button => {
-                button.addEventListener("click", function(e) {
-                    e.preventDefault();
+            if (isInSpecialMode && returnToSlide !== null) {
+                currentSlide = returnToSlide;
+                isInSpecialMode = false;
+                specialSlideClass = null;
+                returnToSlide = null;
+                showSlide(currentSlide);
+            } else {
+                window.location.href = doneURL;
+            }
+        }
 
-                    returnToSlide = currentSlide;
-                    isInSpecialMode = true;
-                    specialSlideClass = getSlideTypeFromButton(button);
+        // EVENT LISTENERS
 
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(specialSlideClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
+        infoButtons.forEach(button => {
+            button.addEventListener("click", function(e) {
+                e.preventDefault();
+
+                returnToSlide = currentSlide;
+                isInSpecialMode = true;
+                specialSlideClass = getSlideTypeFromButton(button);
+
+                for (let i = 0; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        currentSlide = i;
+                        showSlide(currentSlide);
+                        break;
                     }
-                });
+                }
             });
-
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
-            });
-
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
-
-            if (doneButton) {
-                doneButton.addEventListener("click", handleDone);
-            }
-
-            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-            letterLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const letter = link.getAttribute('data-letter') || 'a';
-                    speakLetter(letter);
-                });
-            });
-
-            window.speechSynthesis.onvoiceschanged = () => {
-                window.speechSynthesis.getVoices();
-            };
-
-            // INITIALIZE - Show first slide and play its audio automatically
-            showSlide(currentSlide);
         });
 
-    </script>
+        nextButtons.forEach(btn => {
+            btn.addEventListener("click", goNext);
+        });
+
+        if (returnButton) {
+            returnButton.addEventListener("click", goBack);
+        }
+
+        if (doneButton) {
+            doneButton.addEventListener("click", handleDone);
+        }
+
+        const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+        letterLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const letter = link.getAttribute('data-letter') || 'a';
+                speakLetter(letter);
+            });
+        });
+
+        window.speechSynthesis.onvoiceschanged = () => {
+            window.speechSynthesis.getVoices();
+        };
+
+        // INITIALIZE - Show first slide and play its audio automatically
+        showSlide(currentSlide);
+    });
+</script>
 @endpush

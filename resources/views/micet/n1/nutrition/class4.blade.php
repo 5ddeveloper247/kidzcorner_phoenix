@@ -39,10 +39,11 @@ $showMascot = true;
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
-    <div class="flex ">
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
-    </div>
+    <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
+        </div>
 
     <h3 class="ptitle">Objectives:</h3>
 

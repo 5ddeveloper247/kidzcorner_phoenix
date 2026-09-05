@@ -83,7 +83,7 @@
                 <li>Play music, have children clap to the rhythm of the music.</li>
             </ul>
         </div>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -110,7 +110,7 @@
             <li>Example 1: Play music, teacher taps her thigh according to the rhythm of
                 the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -124,7 +124,7 @@
             <li>Repeat playing music, have children follow teacher and tap their thighs
                 according to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -138,7 +138,7 @@
             <li>Example 2: Play music, teacher pats her buttock according to the rhythm
                 of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -152,7 +152,7 @@
             <li>Repeat playing music, have children follow teacher and pat their buttocks
                 according to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -166,7 +166,7 @@
             <li>Example 3: Play music, teacher stamps her feet according to the rhythm of
                 the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -180,7 +180,7 @@
             <li>"Repeat playing music, have children follow teacher and stamp their feet
                 according to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -194,7 +194,7 @@
             <li>Example 4: Play music, teacher jumps according to the rhythm of the
                 music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -208,7 +208,7 @@
             <li>Repeat playing music, have children follow teacher and jump according
                 to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -384,6 +384,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 

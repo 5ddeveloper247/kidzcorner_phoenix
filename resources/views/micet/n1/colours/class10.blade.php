@@ -84,7 +84,7 @@
         </div>
 
         <div class="flex items-center gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/colour/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-[1.5vw] text-[#f7b94a]">

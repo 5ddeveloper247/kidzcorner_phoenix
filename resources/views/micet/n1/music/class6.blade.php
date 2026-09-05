@@ -137,7 +137,7 @@
             <li>Play music, teacher demonstrates how to shake the maraca to the rhythm
                 of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -151,7 +151,7 @@
             <li>Give each child a maraca. Repeat playing the music. Let children imitate
                 the teacher and shake the maraca to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -167,7 +167,11 @@
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Ask children: Besides clapping, doing actions, singing and dancing, what else
                     can we do to follow to the rhythm of the music?</li>
-                <li>Play music , have children shake the maraca to the rhythm of the music.</li>
+                <li>Play music <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                        <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                        </button>
+                    </span> , have children shake the maraca to the rhythm of the music.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
@@ -315,6 +319,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 

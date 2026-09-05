@@ -39,7 +39,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: Body Parts Song</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[9vw]" />
+        <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
@@ -90,7 +90,7 @@
         </ol>
 
         <div class="flex items-center">
-            <button id="sound-btn" class="w-[5vw]">
+            <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/class8/m1.mp3') }}">
                 <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
             </button>
 
@@ -121,7 +121,7 @@
         </ol>
 
         <div class="flex items-center">
-            <button id="sound-btn" class="w-[5vw]">
+            <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/class8/m1.mp3') }}">
                 <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
             </button>
 
@@ -144,7 +144,7 @@
         </ol>
 
         <div class="flex items-center mt-[3vw]">
-            <button id="sound-btn" class="w-[5vw]">
+            <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/class8/m1.mp3') }}">
                 <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
             </button>
 

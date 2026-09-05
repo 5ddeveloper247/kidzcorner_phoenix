@@ -114,7 +114,7 @@
             </li>
         </ol>
         <div class="flex gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/games/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -141,7 +141,7 @@
         </ul>
 
         <div class="flex gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/games/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -196,7 +196,7 @@
                 <li>Lyrics:</li>
             </ul>
             <div class="flex gap-[1vw]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/games/m1.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
                 <h5 class="text-white text-[1.5vw]">
@@ -329,6 +329,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

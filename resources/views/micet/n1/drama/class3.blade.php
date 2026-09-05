@@ -85,7 +85,7 @@
                     another two songs from to the story "The Rabbits And The Wolf".</li>
             </ul>
         </div>
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -100,7 +100,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children, </br>
@@ -123,7 +123,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children, </br>
@@ -147,7 +147,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children, </br>
@@ -171,7 +171,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children, </br>
@@ -194,7 +194,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children,</br>
@@ -217,7 +217,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children,</br>
@@ -241,7 +241,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children,</br>
@@ -265,7 +265,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">We are good children,</br>
@@ -430,6 +430,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

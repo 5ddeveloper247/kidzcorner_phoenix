@@ -196,7 +196,7 @@
             <li>Have children sit in a circle. Play music, have children practise clapping
                 along with teacher to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -211,7 +211,7 @@
                 along with teacher, then play the percussion instrument to the rhythm of
                 the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -225,7 +225,7 @@
             <li>Repeat playing music, have children practise playing the percussion
                 instruments to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -240,7 +240,7 @@
                 Repeat playing music, have them play the percussion instruments to the
                 rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -403,6 +403,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 

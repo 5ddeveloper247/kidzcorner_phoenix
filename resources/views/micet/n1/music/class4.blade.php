@@ -82,7 +82,7 @@
                 <li>Play the music, let children practise clapping to the rhythm of the music.</li>
             </ol>
         </div>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -367,6 +367,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 
