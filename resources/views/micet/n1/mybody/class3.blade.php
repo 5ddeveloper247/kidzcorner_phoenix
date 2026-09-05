@@ -146,7 +146,7 @@
                 children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m1.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -175,7 +175,7 @@
                 children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m2.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -205,7 +205,7 @@
                 children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m3.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -232,7 +232,7 @@
                 Have children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m4.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -247,7 +247,7 @@
                 Have children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m5.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -262,7 +262,7 @@
                 Have children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m6.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -277,7 +277,7 @@
                 Have children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m7.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -292,7 +292,7 @@
                 Have children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m8.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -307,7 +307,7 @@
                 Have children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m9.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -322,7 +322,7 @@
                 Have children guess what the sound is.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m10.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -349,7 +349,7 @@
                 - know that it's time to wake up)</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m11.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -365,7 +365,7 @@
                 - know that it's time to wake up)</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m12.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -381,7 +381,7 @@
                 - know that it's time to wake up)</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m13.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -397,7 +397,7 @@
                 - know that it's time to wake up)</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m14.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -413,7 +413,7 @@
                 - know that it's time to wake up)</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m15.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -440,7 +440,7 @@
                 sometimes we dislike the sounds we hear.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m16.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -456,7 +456,7 @@
                 sometimes we dislike the sounds we hear.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m17.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -472,7 +472,7 @@
                 sometimes we dislike the sounds we hear.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m18.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -488,7 +488,7 @@
                 sometimes we dislike the sounds we hear.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m19.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -504,7 +504,7 @@
                 sometimes we dislike the sounds we hear.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
+        <button id="sound-btn" class="w-[5vw]" data-slide-audio="{{ asset('assets/audio/micet/n1/mybody/m20.mp3') }}">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
         </button>
     </div>
@@ -626,7 +626,7 @@
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
-            const soundButtons = document.querySelectorAll("[id^='soundButton']");
+            const soundButtons = document.querySelectorAll("[id^='soundButton'], [id^='sound-btn']");
 
             // URLs for navigation
             const returnURL = "{{ url('/micet/n1/mybody/index') }}";
@@ -687,20 +687,35 @@
             }
 
             // AUDIO FUNCTIONS
+            // FIX: stopCurrentAudio now nulls out currentAudio so the next play()
+            // always starts from a clean state, whether triggered by slide change
+            // or by a manual button click.
 
             function stopCurrentAudio() {
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 
-            function playSlideAudio(slideIndex) {
-                // Stop any currently playing audio
+            // FIX: single shared function for playing a given audio src, used by
+            // both auto-play-on-slide-render AND the manual button click handler,
+            // so there's only one code path to keep in sync.
+            function playAudioSource(audioSrc) {
+                if (!audioSrc) return;
+
                 stopCurrentAudio();
 
-                // Get the slide element
+                currentAudio = new Audio(audioSrc);
+                currentAudio.play().catch(err => {
+                    console.log('Audio play failed:', err.name, err.message);
+                });
+            }
+
+            function playSlideAudio(slideIndex) {
                 const slide = slides[slideIndex];
+                if (!slide) return;
 
                 // Check if the slide itself has data-slide-audio attribute
                 let audioSrc = slide.getAttribute('data-slide-audio');
@@ -713,11 +728,7 @@
                     }
                 }
 
-                // Play the audio if we found a source
-                if (audioSrc) {
-                    currentAudio = new Audio(audioSrc);
-                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                }
+                playAudioSource(audioSrc);
             }
 
 
@@ -749,20 +760,35 @@
                 }
             }
 
+            // FIX: click handler now uses the shared playAudioSource() helper,
+            // and falls back to the parent .phonics-panel's data-slide-audio
+            // if the button itself doesn't have one set directly. This way,
+            // for the other buttons you still need to wire up, you can add
+            // data-slide-audio either on the <button> itself or on its
+            // parent .phonics-panel div — whichever is easier per panel.
             soundButtons.forEach(btn => {
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
+                    e.stopPropagation();
 
-                    // Get audio source from data-slide-audio attribute
-                    const audioSrc = btn.getAttribute('data-slide-audio');
+                    let audioSrc = btn.getAttribute('data-slide-audio');
 
-                    if (audioSrc) {
-                        stopCurrentAudio();
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    if (!audioSrc) {
+                        const panel = btn.closest('.phonics-panel');
+                        if (panel) {
+                            audioSrc = panel.getAttribute('data-slide-audio');
+                        }
                     }
+
+                    if (!audioSrc) {
+                        console.warn('No data-slide-audio set for this sound button.');
+                        return;
+                    }
+
+                    playAudioSource(audioSrc);
                 });
             });
+
             // NAVIGATION FUNCTIONS
 
             function goNext() {
@@ -878,13 +904,17 @@
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     const letter = link.getAttribute('data-letter') || 'a';
-                    speakLetter(letter);
+                    if (typeof speakLetter === 'function') {
+                        speakLetter(letter);
+                    }
                 });
             });
 
-            window.speechSynthesis.onvoiceschanged = () => {
-                window.speechSynthesis.getVoices();
-            };
+            if (window.speechSynthesis) {
+                window.speechSynthesis.onvoiceschanged = () => {
+                    window.speechSynthesis.getVoices();
+                };
+            }
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);

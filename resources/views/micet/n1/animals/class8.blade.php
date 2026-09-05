@@ -91,7 +91,7 @@
                 animal have legs, fins or wings?" </li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
 
@@ -121,7 +121,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m2.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -150,7 +150,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m3.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -179,7 +179,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m4.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -208,7 +208,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m5.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -237,7 +237,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m6.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -266,7 +266,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m7.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -295,7 +295,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m8.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -324,7 +324,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m9.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -353,7 +353,7 @@
                 animal have legs, fins or wings?"</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m10.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -385,7 +385,7 @@
 
         <div class="flex items-center gap-[1vw]">
 
-            <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m11.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -414,7 +414,7 @@
 
         <div class="flex items-center gap-[1vw]">
 
-            <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m11.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -442,7 +442,7 @@
 
         <div class="flex items-center gap-[1vw]">
 
-            <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/animals/class8/m11.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -614,6 +614,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

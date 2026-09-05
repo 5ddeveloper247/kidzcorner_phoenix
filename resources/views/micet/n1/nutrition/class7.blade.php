@@ -107,7 +107,7 @@
                 Vegetables are good for me. <br>
                 Keep me healthy, not fall sick.</h3>
 
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/nutrition/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -159,7 +159,7 @@
                 Vegetables are good for me. <br>
                 Keep me healthy, not fall sick.</h3>
 
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/nutrition/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -317,6 +317,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

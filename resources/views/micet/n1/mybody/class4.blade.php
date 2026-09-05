@@ -48,8 +48,8 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Understand that our ears enable us to hear sounds</li>
-            <li>Express what sounds they like and dislike to hear</li>
+            <li>Understand that our nose enables us smell</li>
+            <li>Express what smells they like and dislike</li>
         </ul>
     </div>
 
@@ -255,7 +255,7 @@
 
     {{-- panel 16 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -277,7 +277,7 @@
 
     {{-- panel 17 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>

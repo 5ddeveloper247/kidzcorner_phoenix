@@ -204,7 +204,7 @@ $showMascot = true;
     </ol>
     <div class="flex items-start gap-[1vw]">
 
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
         <div class="flex flex-col">
@@ -267,7 +267,7 @@ $showMascot = true;
     </ol>
     <div class="flex items-start gap-[1vw]">
 
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
         <div class="flex flex-col">
@@ -383,7 +383,7 @@ $showMascot = true;
     </ol>
     <div class="flex items-start gap-[1vw]">
 
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
         <div class="flex flex-col">
@@ -468,7 +468,7 @@ $showMascot = true;
     </ol>
     <div class="flex items-start gap-[1vw]">
 
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
         <div class="flex flex-col">
@@ -694,6 +694,7 @@ $showMascot = true;
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
+                currentAudio = null;
             }
         }
 

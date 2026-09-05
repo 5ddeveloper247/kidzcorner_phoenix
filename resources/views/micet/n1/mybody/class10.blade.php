@@ -39,7 +39,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col h-full items-center space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: Let's Make A Gingerbread Man</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[9vw]" />
+        <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <div class="space-y-[1vw]">
             <h3 class="ptitle">Objectives:</h3>
@@ -72,7 +72,7 @@
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-
+            <div class="flex">
             <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Have children recall the story of "The Gingerbread Man" and answer the
                     following questions:
@@ -84,6 +84,8 @@
                     </ul>
                 </li>
             </ol>
+            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c2.png') }}" class="h-[15vw]" />
+            </div>
         </div>
     </div>
 

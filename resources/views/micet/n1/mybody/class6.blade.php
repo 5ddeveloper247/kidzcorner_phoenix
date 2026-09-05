@@ -78,8 +78,8 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: “”Where is the nose of the gingerbread man?”” Have the children
-                    point to the nose.</li>
+                <li>Ask children: “”Where are the hands of the gingerbread man?”” Have the children
+      point to the mouth.</li>
             </ol>
         </div>
 

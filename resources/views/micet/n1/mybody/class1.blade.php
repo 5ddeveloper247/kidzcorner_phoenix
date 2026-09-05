@@ -184,7 +184,7 @@
         <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Guide children to complete the corresponding activity int he
+            <li>Guide children to complete the corresponding activity in the
                 Thematic Activity Book.</li>
         </ol>
     </div>
