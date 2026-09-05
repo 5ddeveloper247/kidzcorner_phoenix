@@ -33,7 +33,7 @@
 
         .p-title {
             color: #ffffff;
-            font-size: 1.4vw;
+            font-size: 1.3vw;
         }
 
         .panel-ul {
@@ -84,7 +84,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -109,7 +109,7 @@
         <h3 class="p-title">All the animals are excited about the first day of school. <br>
             Only Patchy, the little panda, does not want to go to school. <br>
             He clings on to his mother, crying loudly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class1/c2.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -117,7 +117,10 @@
                 <span class="text-[#f7b94a]">Help the children to overcome their fear of school. Help the children <br>
                     to express their thoughts and feelings by using complefe sentences.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[4vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[4vw]" />
+            </div>
         </div>
     </div>
 
@@ -127,7 +130,7 @@
         <h3 class="p-title">Patchy's mother leaves him at the school and goes to work. Teacher <br>
             Mrs. Moo takes Patchy to the classroom. The other animals hear <br>
             Patchy's wails and hurry over. They invite himto play and soon Patchy is playing happily with them.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class1/c3.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -135,7 +138,10 @@
                 <span class="text-[#f7b94a]">Help the children to understand the emotions felt by others <br>
                     and to learn to console those who are sad.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[4vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[4vw]" />
+            </div>
         </div>
     </div>
 
@@ -151,7 +157,7 @@
                 What do you like to play in school? <br>
                 <span class="text-[#f7b94a]">Encourage the children to name their favourite toys.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[4vw]" />
         </div>
     </div>
 
@@ -168,7 +174,10 @@
                 <span class="text-[#f7b94a]">Help the children to cultivate the habit of washing hands before <br>
                     eating and queuing up while waiting for their tum.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[4vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[4vw]" />
+            </div>
         </div>
     </div>
 
@@ -185,7 +194,10 @@
                 <span class="text-[#f7b94a]">Help the children to identify the common musical instruments as well <br>
                     as the sounds they produce.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="w-[4vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[4vw]" />
+            </div>
         </div>
     </div>
 
@@ -194,14 +206,17 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">After that, Mrs. Moo teaches the children how to dance. They form a <br>
             circle and sing and dance. Everyone dances very well.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What dance can you do? Demonstrate it to the class.<br>
                 <span class="text-[#f7b94a]">Encourage the children to dance according to the rhythm of music.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="w-[4vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="w-[4vw]" />
+            </div>
         </div>
     </div>
 
@@ -210,7 +225,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">Mrs. Moo then takes everyone to the playground. Patchy and his <br>
             friends play on the see-saw and slide. Patchy has a great time!</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -219,7 +234,10 @@
                 <span class="text-[#f7b94a]">Help the children to identity the various toys in school and <br>
                     show them how each should be handled.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[4vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[4vw]" />
+            </div>
         </div>
     </div>
 
@@ -237,13 +255,16 @@
                 <span class="text-[#f7b94a]">Help the children to appreciate the effort put in by their family <br>
                     members and encourage them to show their appreciation.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[4vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[4vw]" />
+            </div>
         </div>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
@@ -588,6 +609,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

@@ -76,7 +76,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Ask the children to count the number of big balls and small balls. Introduce
                     the concept of "more" and "less" by guiding the children to compare the
                     number of big balls to the small balls.</li>
@@ -90,13 +90,13 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Animal Acrobats</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Ask the children to name the colours of the wooden blocks.</li>
             <li>Ask the children to count the red wooden blocks and the yellow wooden blocks.</li>
             <li>Ask the children to compare the number of wooden blocks of each colour and
                 say which are more and which are less.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class2/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class2/c2.png') }}" class="h-[18vw]" />
     </div>
 
 
@@ -104,7 +104,7 @@
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 2: Animal Acrobats</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Organise the children into groups. Invite them to count the number of boys and
                 girls in their group. Let them say if there are more boys or girls in their group.</li>
         </ol>
@@ -115,14 +115,14 @@
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 2: Animal Acrobats</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Get the children to look at the pictures below and say what the animals are
                 performing. Guide the children in using complete sentences to describe. e.g.
                 "There are two bears riding the unicycles. Three bears are wearing skirts and
                 dancing."</li>
             <li>Invite the children to say which group has more animals.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class2/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class2/c3.png') }}" class="h-[18vw]" />
     </div>
 
 
@@ -130,7 +130,7 @@
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 2: Animal Acrobats</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Let the children look at the pictures below, count and say how many big and
                 small dolphins are there. Invite them to compare and say which set has more
                 dolphins.</li>
@@ -164,7 +164,7 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: Animal Acrobats</h1>
 
         <div class="text-start flex flex-col">

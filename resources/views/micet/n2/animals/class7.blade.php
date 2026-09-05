@@ -74,7 +74,7 @@ $showMascot = true;
 
         <ol class="list-decimal panel-ul w-[50vw]">
             <li>Let the children listen to the song once and discuss the lyrics.
-                <button class="w-[3.5vw]" id="soundButton">
+                <button class=" inline-flex align-middle items-center w-[3vw]" id="soundButton">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </li>
@@ -82,19 +82,21 @@ $showMascot = true;
             <li>Lead children in singing the song.</li>
         </ol>
     </div>
-    <h4 class="text-white text-[1.7vw] text-start">
-        Quack quack quack, <br>
-        Quack quack quack. <br>
-        Quack quack quack, <br>
-        Quack quack quack. <br>
-        I'm a happy little duckling. <br>
-        I'm a happy little duckling.
-    </h4>
+    <div class="w-[40vw]">
+        <h4 class="text-white text-[2.2vw] text-start">
+            Quack quack quack, <br>
+            Quack quack quack. <br>
+            Quack quack quack, <br>
+            Quack quack quack. <br>
+            I'm a happy little duckling. <br>
+            I'm a happy little duckling.
+        </h4>
+    </div>
 </div>
 
 
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="3">
@@ -102,14 +104,14 @@ $showMascot = true;
             walking movements of a duckling.</li>
         <li>Let the children sing the song and do the actions.</li>
     </ol>
-    <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+    <video class="h-[19vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
         <source src="{{ asset('assets/images/micet/n2/animals/class6/v1.mp4') }}" type="video/mp4">
     </video>
 </div>
 
 
 {{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="5">
@@ -117,11 +119,11 @@ $showMascot = true;
         <li>Guide the children to compose a new song by substituting the lyrics of the song
             with the sounds and description of their favourite animal. For example:</li>
     </ol>
-    <div class="flex items-start gap-[1vw]">
+    <div class="flex items-start gap-[1vw] w-[40vw]">
         <button class="w-[3.5vw]" id="soundButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
-        <h4 class="text-white text-[1.7vw] text-start">
+        <h4 class="text-white text-[2.2vw] text-start">
             Roar roar roar, <br>
             Roar roar roar. <br>
             Roar roar roar, <br>
@@ -134,7 +136,7 @@ $showMascot = true;
 
 
 {{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="5">
@@ -142,11 +144,11 @@ $showMascot = true;
         <li>Guide the children to compose a new song by substituting the lyrics of the song
             with the sounds and description of their favourite animal. For example:</li>
     </ol>
-    <div class="flex items-start gap-[1vw]">
+    <div class="flex items-start gap-[1vw] w-[40vw]">
         <button class="w-[3.5vw]" id="soundButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
-        <h4 class="text-white text-[1.7vw] text-start">
+        <h4 class="text-white text-[2.2vw] text-start">
             Chitter chatter, <br>
             Chitter chat. <br>
             Chitter chatter, <br>
@@ -159,7 +161,7 @@ $showMascot = true;
 
 
 {{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="7">
@@ -176,10 +178,10 @@ $showMascot = true;
 
 
 {{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="9">
+    <ol class="list-decimal panel-ul w-[45vw]" start="9">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>

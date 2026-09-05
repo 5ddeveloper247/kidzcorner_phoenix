@@ -109,7 +109,7 @@
             <li>Let the children look at the animal pictures below and name the environment
                 that the animals live in.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class5/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class5/c2.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -121,7 +121,7 @@
             <li>Let the children look at the animal pictures below and name the environment
                 that the animals live in.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class5/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class5/c3.png') }}" class="w-[35vw]" />
     </div>
 
 

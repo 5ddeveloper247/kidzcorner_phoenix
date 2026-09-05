@@ -364,14 +364,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Ask children to look around the classroom for pairs of
                     objects that would commonly go together.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Able to identify some objects and their uses.</li>
                 <li>Able to pair objects that would commonly go together.</li>
             </ul>
@@ -386,7 +386,7 @@
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Place some pictures of objects that would commonly go
                     together in the activity corner. Encourage children to pair
                     up the object pictures.</li>

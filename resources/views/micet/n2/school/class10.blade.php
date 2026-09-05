@@ -91,7 +91,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
 
-        <ol class="list-decimal panel-ul" start="2">
+        <ol class="list-decimal panel-ul w-[55vw]" start="2">
             <li>Click on the picture below to open the Soflware Magnetic Board. Tell the children that Mrs. Moo
                 takes care of these children at school. Mrs. Moo is like a mother, who takes care of her children
                 at home. School is like a home. Then place the picture of Mrs. Moo inside the "home".</li>

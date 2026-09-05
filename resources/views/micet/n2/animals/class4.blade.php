@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[35vw]">
             <li>Understand one's own feelings about going to school</li>
             <li>Learn to draw a picture to express one's feelings or
                 emotions</li>
@@ -77,7 +77,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Ask the children : What are the animals that can be seen in water? What are
                     the animals that can be seen on land? What are the animals that can be seen
                     in the sky?</li>
@@ -90,7 +90,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Let the children name the animals and talk about their characteristics. Let
                 them say whether the animal lives in water, on land or in the sky.</li>
         </ol>
@@ -102,7 +102,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Let the children name the animals and talk about their characteristics. Let
                 them say whether the animal lives in water, on land or in the sky.</li>
         </ol>
@@ -112,30 +112,30 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Guide the children in comparing the characteristics of these six animals. Guide
                 them to conclude that some animals live in water; some animals live on land;
                 some animals live in the sky. Animals can be categorized into three big
                 families: animals that live in water, animals that live on land and animals that
                 live in the sky.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c3.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c3.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Click to open the Software Magnetic Board. Ask children to name the animals
                 and compare their characteristics. Then let the children categorize the animals
                 into the three big families.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c4.png') }}" class="h-[21vw]" />
 
     </div>
 
@@ -144,7 +144,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Let children observe the animals that live in water and talk about their
                 distinguishing characteristics. For example, most animals that live in water
                 have fins.</li>
@@ -158,7 +158,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Let children observe the animals that live on land and talk about their
                 distinguishing characteristics. For example, most animals that live on land
                 have legs.</li>
@@ -171,7 +171,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Let children observe the animals that live in the sky and talk about their
                 distinguishing characteristics. For example, animals that live in the sky have
                 wings.</li>
@@ -184,7 +184,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -193,7 +193,7 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -216,7 +216,7 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
@@ -545,6 +545,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

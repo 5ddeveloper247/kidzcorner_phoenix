@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[35vw]">
             <li>Know that some things can be shared and others cannot
                 be shared</li>
             <li>Understand that personal labels can be used to mark
@@ -65,10 +65,10 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul w-[45vw]">
-                <li>Tell children that today they will learn to play an action game.</li>
+            <ol class="list-disc panel-ul w-[30vw]">
+                <li>Thematic Activity Book</li>
                 <li>For each child, 2-3 pieces of personal labels
-                    (half of an A-4 size paper) </li>
+                    (half of an A-4 size paper)</li>
             </ol>
         </div>
     </div>
@@ -80,7 +80,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Let the children list some things that they share and some that they do not
                     share in school. Focus the discussion on things that should be shared and
                     things that should not be. Give some examples: crayons can be shared,
@@ -95,7 +95,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Let the children name the things that can be shared and that cannot be
                 shared. Ask them to explain why.</li>
         </ol>
@@ -107,7 +107,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Let the children name the things that can be shared and that cannot be
                 shared. Ask them to explain why.</li>
         </ol>
@@ -119,7 +119,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Let the children name the things that can be shared and that cannot be
                 shared. Ask them to explain why.</li>
         </ol>
@@ -131,7 +131,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Let the children name the things that can be shared and that cannot be
                 shared. Ask them to explain why.</li>
         </ol>
@@ -143,7 +143,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Explain to the children that we need to use our own cups for drinking and use
                 our own towels for cleaning our hands and body. Tell them that we should
                 keep our belongings in our own cabinets.</li>
@@ -157,7 +157,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Display a sample personal label. Explain its use.</li>
             <LI>Distribute some labels. Ask the children to use their creativity to design
                 personal labels for themselves (or do the same in the Thematic Activity Book).</LI>
@@ -170,7 +170,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Encourage the children to write their names on their labels (Help them, if
                 needed).</li>
         </ol>
@@ -182,7 +182,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -196,14 +196,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Ask children to mark their belongings like their cabinet
                     and bag with the personal labels they have designed.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Know that some things can be shared and others cannot
                     be shared.</li>
                 <li>Able to design personal labels.</li>
@@ -219,7 +219,7 @@
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Ask parents to help their child design and duplicate their
                     own personal labels at home. Have their child bring their
                     personal labels to school and paste them on their personal
@@ -545,6 +545,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

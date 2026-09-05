@@ -83,10 +83,10 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -118,7 +118,10 @@
                 <span class="text-[#f7b94a]">Guide the children in naming their favourite animal and its
                     characteristics.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -134,7 +137,7 @@
                 What are the other uses of the giraffe's long neck? <br>
                 <span class="text-[#f7b94a]">Encourage the children to express their ideas clearly.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -151,7 +154,10 @@
                 How many homs do they have on their heads? <br>
                 <span class="text-[#f7b94a]">Help the children to identify the animals that have homs.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -168,7 +174,10 @@
                 Why are the polar bears not feeling cold?<br>
                 <span class="text-[#f7b94a]">Help the children to express their ideas clearly.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -185,7 +194,7 @@
                 Let's imitate the monkeys' actions. <br>
                 <span class="text-[#f7b94a]">Encourage the children to imitate the various actions of the monkeys.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -202,7 +211,7 @@
                 <span class="text-[#f7b94a]">Guide the children in imitating the sounds made by the tiger and other
                     animals.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -219,13 +228,16 @@
                 What other animals have shells?<br>
                 <span class="text-[#f7b94a]">Help the children to identify other animals that have shells.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h3 class="p-title">The last to perform are the elephants. Although the elephants are big <br>
             and heavy, they are talented danceis! They flap their big ears and swing <br>
             theirlong trunk. Their movements are very agile.</h3>
@@ -234,16 +246,19 @@
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What are the uses of the elephant's long trunk?<br>
-                <span class="text-[#f7b94a]">Encourage the children to use their imagination and express their ideas
+                <span class="text-[#f7b94a]">Encourage the children to use their imagination and express <br> their ideas 
                     clearly.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
@@ -277,7 +292,7 @@
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
 
         <div class="text-start flex flex-col">
@@ -604,6 +619,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

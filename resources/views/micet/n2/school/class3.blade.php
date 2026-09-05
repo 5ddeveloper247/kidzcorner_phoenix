@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.2vw;
+            font-size: 2.1vw;
         }
 
         .ptitle {

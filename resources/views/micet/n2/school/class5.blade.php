@@ -82,9 +82,14 @@
                     to school.</li>
                 <li>Get the children to listen to the "Bunny Rabbit" song. Help the children to
                     understand the meaning of the lyrics.</li>
-                <li>Encourage the children to learn to sing the song.</li>
+                <li><span class="felx items-end">Encourage the children to learn to sing the song.
+                        <button class="w-[2.5vw]" id="soundButton">
+                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                        </button>
+                    </span>
+                </li>
             </ol>
-            <h4 class="text-[#f7b94a] text-[1.7vw] text-start">
+            <h4 class="text-[#f7b94a] text-[1.5vw] text-start">
                 Little birdies fly. <br>
                 Little bunnies hop. <br>
                 Flying, hopping on their own. <br>
@@ -96,7 +101,7 @@
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
@@ -105,12 +110,12 @@
             <li>Click on the animation and encourage the children to imitate the animals.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/school/class5/c1.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class5/c1.png') }}" class="w-[27vw]" />
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
@@ -128,7 +133,7 @@
             Without any help.
         </h3>
 
-        <p class="text-white text-[1.2vw]">(If the teacher knows which children are still being carried to school, she can
+        <p class="text-white text-[1.2vw]">(If the teacher knows which children are still being carried to school, she can <br>
             add these children's names to the song to encourage them to be independent. )</p>
     </div>
 
@@ -481,6 +486,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

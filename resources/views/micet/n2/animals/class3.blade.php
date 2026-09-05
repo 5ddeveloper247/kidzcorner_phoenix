@@ -210,7 +210,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="14">
             <li>Ask children to explain how they derived the answer.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class3/c14.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c14.png') }}" class="w-[27vw]" />
     </div>
 
     {{-- panel 17 --}}
@@ -220,7 +220,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="15">
             <li>Ask children to look at this part of an animal and guess what animal it is.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class3/c15.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c15.png') }}" class="w-[35vw]" />
     </div>
 
     {{-- panel 18 --}}
@@ -240,7 +240,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="17">
             <li>Ask children to look at this part of an animal and guess what animal it is.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class3/c17.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c17.png') }}" class="w-[30vw] mt-[5vw]" />
     </div>
 
     {{-- panel 20 --}}
@@ -290,7 +290,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="22">
             <li>Ask children to explain how they derived the answer.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class3/c22.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c22.png') }}" class="w-[35vw]" />
     </div>
 
     {{-- panel 25 --}}

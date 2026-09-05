@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -66,7 +66,7 @@
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
 
         <div class="text-start">
@@ -77,7 +77,7 @@
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/micet/n2/school/class7/c1.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class7/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -90,12 +90,12 @@
                 will enter the body through the mouth when one consumes food. That is how
                 one can suffer from diarrhoea.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class7/c2.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class7/c2.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
@@ -111,13 +111,13 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Explain to the children that washing hands with soap will kill germs.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class7/c3.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/school/class7/c3.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -533,5 +533,22 @@
             showSlide(currentSlide);
         });
 
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.phonics-panel').forEach(panel => {
+                const observer = new MutationObserver(() => {
+                    if (panel.classList.contains('hidden')) {
+                        panel.querySelectorAll('video').forEach(video => {
+                            if (!video.paused) video.pause();
+                            video.currentTime = 0;
+                        });
+                    }
+                });
+
+                observer.observe(panel, {
+                    attributes: true,
+                    attributeFilter: ['class']
+                });
+            });
+        });
     </script>
 @endpush

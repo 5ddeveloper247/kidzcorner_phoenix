@@ -80,7 +80,7 @@ $showMascot = true;
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
+        <ol class="list-decimal panel-ul w-[50vw]">
             <li>Let the children recall the story "First Day At School". Ask them to describe
                 Patchy's feeling on his first day of school and explain why he felt that way.</li>
         </ol>
@@ -94,7 +94,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="2">
+    <ol class="list-decimal panel-ul w-[50vw]" start="2">
         <li>Let the children recall the story "First Day At School". Ask them to describe
             Patchy's feeling on his first day of school and explain why he felt that way.</li>
     </ol>
@@ -110,7 +110,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="3">
+    <ol class="list-decimal panel-ul w-[50vw]" start="3">
         <li>Ask the children: "How did you feel when you stepped in school today?" "How
             are you feeling now?" Guide the children to express their feelings with the
             help of these two pictures which show two different expressions.</li>
@@ -124,7 +124,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="4">
+    <ol class="list-decimal panel-ul w-[50vw]" start="4">
         <li>Encourage children to talk about the things that make them happy at school.</li>
     </ol>
 </div>
@@ -134,7 +134,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
+    <ol class="list-decimal panel-ul w-[50vw]" start="5">
         <li>Let the children recall one happy event and draw their feelings (Guide the
             children in drawing a happy face).</li>
     </ol>
@@ -149,7 +149,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
+    <ol class="list-decimal panel-ul w-[50vw]" start="6">
         <li>Let the children recall one happy event and draw their feelings (Guide the
             children in drawing a sad face).</li>
     </ol>
@@ -160,7 +160,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="7">
+    <ol class="list-decimal panel-ul w-[50vw]" start="7">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>
@@ -169,7 +169,7 @@ $showMascot = true;
 
 {{-- panel 10 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>

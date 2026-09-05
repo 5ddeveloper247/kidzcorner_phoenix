@@ -39,7 +39,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
-       <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1">
             <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
@@ -60,7 +60,7 @@
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>
                     Prior to the lesson, ask the children the following questions to stimulate their interest.
-                    <ol class="list-[lower-alpha]">
+                    <ol class="list-[lower-alpha] pl-[3vw]">
                         <li>Who takes you to school every day?</li>
                         <li>Did you enjoy your first day of school?</li>
                         <li>What sorts of toys can you find in school?</li>
@@ -70,7 +70,7 @@
                 <li>
                     Invite a few children to answer the questions. In addition, ask the following questions and help the
                     children find the answers in the courseware.
-                    <ol class="list-[lower-alpha]">
+                    <ol class="list-[lower-alpha] pl-[3vw]">
                         <li>What kinds of animals can you find in the school for animals?</li>
                         <li>What kinds of games do the animals play in school?</li>
                         <li>What happened on the first day of school?</li>
@@ -111,7 +111,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="ptitle">Story</h3>
 
             <p class="panel-ul">All the animals are excited about the first day of school, except little panda,
@@ -152,29 +152,29 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
-        <div class="text-start space-y-[2vw]">
-            <h3 class="ptitle">Activity 3: Hang the towels</h3>
-
-            <div class="flex justify-center items-center gap-[3vw]">
+        <div class="flex gap-[3vw]">
+            <div>
+                <h3 class="ptitle">Activity 3: Hang the towels</h3>
                 <img src="{{ asset('assets/images/micet/n2/school/activity/c3.png') }}" class="w-[25vw]" />
-                <div>
-                    <h3 class="ptitle">Objectives</h3>
-                    <ul class="list-disc panel-ul w-[20vw]">
-                        <li> Understand the types of food
-                            consumed by different animals</li>
-                        <li>Develop logical thinking skills by
-                            learning how to match object.</li>
-                    </ul>
-                    <h3 class="ptitle">Process</h3>
-                    <ul class="panel-ul w-[20vw]">
-                        <li> In this activity, the children are to help
-                            the animals find the correct hook to
-                            place their towels. This is done
-                            according to the pictures of the
-                            different kinds of food place above the
-                            hooks.</li>
-                    </ul>
-                </div>
+
+            </div>
+            <div class="text-start">
+                <h3 class="ptitle">Objectives</h3>
+                <ul class="list-disc panel-ul w-[20vw]">
+                    <li> Understand the types of food
+                        consumed by different animals</li>
+                    <li>Develop logical thinking skills by
+                        learning how to match object.</li>
+                </ul>
+                <h3 class="ptitle">Process</h3>
+                <ul class="panel-ul w-[20vw]">
+                    <li> In this activity, the children are to help
+                        the animals find the correct hook to
+                        place their towels. This is done
+                        according to the pictures of the
+                        different kinds of food place above the
+                        hooks.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -184,27 +184,27 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
-        <div class="text-start space-y-[2vw]">
-            <h3 class="ptitle">Activity 4: Back to the classroom</h3>
-
-            <div class="flex justify-center items-center gap-[3vw]">
+        <div class="flex gap-[3vw]">
+            <div>
+                <h3 class="ptitle">Activity 4: Back to the classroom</h3>
                 <img src="{{ asset('assets/images/micet/n2/school/activity/c4.png') }}" class="w-[25vw]" />
-                <div>
-                    <h3 class="ptitle">Objectives</h3>
-                    <ul class="list-disc panel-ul w-[20vw]">
-                        <li>Improve spatial abilities through us of maze</li>
-                        <li>Develop muscle control by practising
-                            on the keyboard</li>
-                    </ul>
-                    <h3 class="ptitle">Process</h3>
-                    <ul class="panel-ul w-[20vw]">
-                        <li>In this activity, the children are
-                            required to make use of "up", "down",
-                            "left" and "right" buttons on the
-                            keyboard to help Patchy find his way
-                            back to the classroom.</li>
-                    </ul>
-                </div>
+            </div>
+
+            <div class="text-start">
+                <h3 class="ptitle">Objectives</h3>
+                <ul class="list-disc panel-ul w-[20vw]">
+                    <li>Improve spatial abilities through us of maze</li>
+                    <li>Develop muscle control by practising
+                        on the keyboard</li>
+                </ul>
+                <h3 class="ptitle">Process</h3>
+                <ul class="panel-ul w-[20vw]">
+                    <li>In this activity, the children are
+                        required to make use of "up", "down",
+                        "left" and "right" buttons on the
+                        keyboard to help Patchy find his way
+                        back to the classroom.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -214,25 +214,25 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
-        <div class="text-start space-y-[2vw]">
-            <h3 class="ptitle">Activity 5: Let's save Daisy</h3>
-
-            <div class="flex justify-center items-center gap-[3vw]">
+        <div class="flex gap-[3vw]">
+            <div>
+                <h3 class="ptitle">Activity 5: Let's save Daisy</h3>
                 <img src="{{ asset('assets/images/micet/n2/school/activity/c2.png') }}" class="w-[25vw]" />
-                <div>
-                    <h3 class="ptitle">Objectives</h3>
-                    <ul class="list-disc panel-ul w-[20vw]">
-                        <li> Understand the behaviour of ducks
-                            and ducklings</li>
-                        <li>Develop problem-solving skills</li>
-                    </ul>
-                    <h3 class="ptitle">Process</h3>
-                    <ul class="list-disc panel-ul w-[20vw]">
-                        <li> In this activity, children will choose a
-                            tool to save the yellow duckling who
-                            has fallen into a pit.</li>
-                    </ul>
-                </div>
+            </div>
+
+            <div class="text-start">
+                <h3 class="ptitle">Objectives</h3>
+                <ul class="list-disc panel-ul w-[20vw]">
+                    <li> Understand the behaviour of ducks
+                        and ducklings</li>
+                    <li>Develop problem-solving skills</li>
+                </ul>
+                <h3 class="ptitle">Process</h3>
+                <ul class="list-disc panel-ul w-[20vw]">
+                    <li> In this activity, children will choose a
+                        tool to save the yellow duckling who
+                        has fallen into a pit.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -574,6 +574,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush
