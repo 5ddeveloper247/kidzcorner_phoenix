@@ -121,7 +121,7 @@
         <ol class="list-decimal panel-ul" start="4">
             <li>Play music, teacher demonstrates dancing to the rhythm of the music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -216,7 +216,7 @@
             <li>Repeat playing music, have children follow the teacher to dance to the
                 rhythm of the music together.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -387,6 +387,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 

@@ -109,7 +109,7 @@
         </ol>
 
         <div class="flex gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/games/m2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -129,7 +129,7 @@
                 The last child who sits on the chair is the winner.</li>
         </ol>
         <div class="flex gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
+            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/games/m2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -289,6 +289,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

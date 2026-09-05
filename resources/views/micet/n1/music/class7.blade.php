@@ -113,7 +113,7 @@ $showMascot = true;
         <li>Play the sound, have children listen to the sound when the maraca is
             shaken.</li>
     </ol>
-    <button class="w-[4vw] mt-[7vw]" id="soundButton">
+    <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
     </button>
 </div>
@@ -164,7 +164,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="9">
         <li>Play the sound, have children listen to the sound when the drum is hit.</li>
     </ol>
-    <button class="w-[4vw] mt-[7vw]" id="soundButton">
+    <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
     </button>
 </div>
@@ -202,9 +202,9 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="13">
-        <li>Play the sound, have children listen to the sound when the drum is hit.</li>
+        <li>Play the sound, have children listen to the sound when the triangle is hit.</li>
     </ol>
-    <button class="w-[4vw] mt-[7vw]" id="soundButton">
+    <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
     </button>
 </div>
@@ -244,7 +244,7 @@ $showMascot = true;
         <li>Play the sound, have children listen to the sound when the cymbals are
             struck.</li>
     </ol>
-    <button class="w-[4vw] mt-[7vw]" id="soundButton">
+    <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
     </button>
 </div>
@@ -277,7 +277,7 @@ $showMascot = true;
         <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
 
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m3.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -291,7 +291,7 @@ $showMascot = true;
 
     <div class="w-[45vw] mt-[0.5vw]">
         <ol class="list-decimal panel-ul" start="20">
-            <li>Which musical percussions instrument makes this sound?</li>
+            <li>Did you guess correctly? It’s the sound of maraca.</li>
         </ol>
     </div>
 
@@ -299,7 +299,7 @@ $showMascot = true;
         <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
 
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m3.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -324,7 +324,7 @@ $showMascot = true;
         <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
 
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m4.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -338,7 +338,7 @@ $showMascot = true;
 
     <div class="w-[45vw] mt-[0.5vw]">
         <ol class="list-decimal panel-ul" start="22">
-            <li>Which musical percussions instrument makes this sound?</li>
+            <li>Did you guess correctly? It’s the sound of the drum.</li>
         </ol>
     </div>
 
@@ -346,7 +346,7 @@ $showMascot = true;
         <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="absolute top-[1vw] right-[8vw] w-[10vw] h-[10vw]">
 
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m4.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -371,7 +371,7 @@ $showMascot = true;
         <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
 
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m5.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -385,14 +385,14 @@ $showMascot = true;
 
     <div class="w-[45vw] mt-[0.5vw]">
         <ol class="list-decimal panel-ul" start="24">
-            <li>Which musical percussions instrument makes this sound?</li>
+            <li>Did you guess correctly? It’s the sound of the triangle.</li>
         </ol>
     </div>
 
     <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
         <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="absolute top-[1vw] left-[8vw] w-[12vw]">
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m5.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -417,7 +417,7 @@ $showMascot = true;
         <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
 
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -430,7 +430,7 @@ $showMascot = true;
 
     <div class="w-[45vw] mt-[0.5vw]">
         <ol class="list-decimal panel-ul" start="26">
-            <li>Which musical percussions instrument makes this sound?</li>
+            <li>Did you guess correctly? It’s the sound of the cymbals.</li>
         </ol>
     </div>
 
@@ -438,7 +438,7 @@ $showMascot = true;
         <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="absolute bottom-[0.5vw] left-[8vw] w-[17vw]">
 
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -459,7 +459,7 @@ $showMascot = true;
 
     <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
         <button type="button" id="soundButton"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10">
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
         </button>
     </div>
@@ -621,6 +621,7 @@ $showMascot = true;
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
+                currentAudio = null; 
             }
         }
 

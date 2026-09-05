@@ -84,7 +84,7 @@
             </ol>
         </div>
 
-        <button class="w-[3vw] mt-[1vw]" id="soundButton">
+        <button class="w-[3vw] mt-[1vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
 
@@ -123,7 +123,7 @@
             <li>Invite children to sing the different shape songs again.</li>
         </ol>
 
-        <button class="w-[3vw] mt-[1vw]" id="soundButton">
+        <button class="w-[3vw] mt-[1vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
 
@@ -313,6 +313,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 

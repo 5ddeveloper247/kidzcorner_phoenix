@@ -84,7 +84,7 @@
         </div>
 
         <div class="flex items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/toys/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-[#f7b94a]">
@@ -307,6 +307,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

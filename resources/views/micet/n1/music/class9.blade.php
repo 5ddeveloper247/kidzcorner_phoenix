@@ -86,7 +86,7 @@
             </ol>
         </div>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -147,7 +147,7 @@
                 playing the different percussion instruments.</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -173,7 +173,7 @@
                 performance to go well.</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -197,7 +197,7 @@
             <li>After the practice, have each group take turns to perform.</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -222,7 +222,7 @@
                 the concert.</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -378,6 +378,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 

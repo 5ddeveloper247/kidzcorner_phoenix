@@ -94,7 +94,7 @@
             </ol>
         </div>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -122,7 +122,7 @@
                 the music is a beat.</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -137,7 +137,7 @@
                 of the music.</li>
             <li>Tell children that there are many rhythms in a piece of music.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -152,7 +152,7 @@
             <li>Repeat playing the music. Let children follow the teacher to clap to the
                 rhythm of the music together.</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -315,6 +315,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

@@ -92,7 +92,7 @@
             <li>Replay music, have children sing along.</li>
         </ol>
         <div class="flex">
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/toys/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-[#f7b94a]">
@@ -113,7 +113,7 @@
             <li>Have children take out their maracas and shake them while singing.</li>
         </ol>
         <div class="flex">
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/toys/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-[#f7b94a]">
@@ -135,7 +135,7 @@
                 the song.</li>
         </ol>
         <div class="flex">
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/toys/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-[#f7b94a]">

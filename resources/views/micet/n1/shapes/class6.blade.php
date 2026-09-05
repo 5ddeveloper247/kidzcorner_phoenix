@@ -96,7 +96,7 @@
             <li>Replay music, have children sing along.</li>
         </ol>
         <div class="flex items-start gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-start text-white text-[2vw]">
@@ -120,7 +120,7 @@
             <li>Replay music, have children sing along.</li>
         </ol>
         <div class="flex items-start gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-start text-white text-[2vw]">
@@ -144,7 +144,7 @@
             <li>Replay music, have children sing along.</li>
         </ol>
         <div class="flex items-start gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-start text-white text-[2vw]">
@@ -168,7 +168,7 @@
             <li>Replay music, have children sing along.</li>
         </ol>
         <div class="flex items-start gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-start text-white text-[2vw]">
