@@ -88,9 +88,11 @@
                 <li>Invite the children to listen to the 'Vegetable Song'. Ask the children to name the vegetables that they
                     have heard in the 'Vegetable Song'.</li>
                 <li><span class="flex items-end">Ask the children to talk about other vegetables they know.
-                        <button id="sound-btn" class="w-[2.5vw]">
-                            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                        </button>
+                        <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/nutrition/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span>
                     </span></li>
             </ol>
         </div>
@@ -103,9 +105,11 @@
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li><span class="flex items-end">Let the children learn to sing the 'Vegetable Song'.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button>
+                    <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/nutrition/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span>
                 </span></li>
         </ol>
         <h4 class="text-white text-[2vw] text-start">
@@ -423,6 +427,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

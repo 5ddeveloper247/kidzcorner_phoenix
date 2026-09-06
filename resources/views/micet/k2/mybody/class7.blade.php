@@ -175,7 +175,7 @@
             <li>Click on the video to show the children how to print their thumbprints.</li>
         </ol>
         <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/k2/mybody/class3/v1.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/micet/k2/mybody/class7/v1.mp4') }}" type="video/mp4">
         </video>
     </div>
 

@@ -92,7 +92,7 @@
                     in wild animals.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/k2/animals/class7/c2.png') }}" class="h-[17vw]" />
+        <img src="{{ asset('assets/images/micet/k2/animals/class7/c2.png') }}" class="h-[15vw]" />
     </div>
 
 
@@ -171,7 +171,7 @@
                 homes and may die as they cannot find enough food and water.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/k2/animals/class7/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k2/animals/class7/c3.png') }}" class="w-[27vw]" />
     </div>
 
 
@@ -186,7 +186,7 @@
                 many animals lose their homes which eventually leads to the death of these animals.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/k2/animals/class7/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k2/animals/class7/c4.png') }}" class="h-[15vw]" />
     </div>
 
 

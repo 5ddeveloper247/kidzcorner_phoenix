@@ -84,9 +84,11 @@ $showMascot = true;
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="2">
             <li>Help the children to understand the lyrics.</li>
-            <li>Lead the children to sing the "Little Bees" song together. <span><button class="w-[3vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span></li>
+            <li>Lead the children to sing the "Little Bees" song together. <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/plant/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
         </ol>
     </div>
     <h2 class="text-white text-2xl text-justify">
@@ -107,9 +109,11 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 9: Sing and Chant</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="4">
-            <li>Ask the children to perform as they sing the "Little Bees" song along <br> with the music. Encourage the children to mimic the various movements of bees. <span><button class="w-[3vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span></li>
+            <li>Ask the children to perform as they sing the "Little Bees" song along <br> with the music. Encourage the children to mimic the various movements of bees. <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/plant/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
         </ol>
     </div>
     <h2 class="text-white text-2xl text-justify">
@@ -131,9 +135,11 @@ $showMascot = true;
     <div class="text-start">
         <ol class="list-decimal panel-ul" start="5">
             <li>Guide the children to change the lyrics to the "Butterflies" song.</li>
-            <li>Lead the children to sing the "Butterflies" song and encourage them <br> to create movements according to the lyrics. <span><button class="w-[3vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span></li>
+            <li>Lead the children to sing the "Butterflies" song and encourage them <br> to create movements according to the lyrics. <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/plant/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
         </ol>
     </div>
     <h2 class="text-white text-xl text-justify">

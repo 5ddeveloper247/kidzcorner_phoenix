@@ -78,9 +78,11 @@
 
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li><span class="flex items-end">Invite the children to sing the 'Happy Family' song.
-                        <button class="w-[2.5vw]" id="soundButton">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button></span></li>
+                        <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/family/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></span></li>
                 <li>Ask the children if they like living with their family, and about the things they do together as a
                     family.</li>
                 <li>The teacher performs the 'Family Song' dance, to stimulate the children's interest in dancing.</li>
@@ -103,9 +105,11 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Invite the children to try out some simple dance movements, like clapping their hands, turning around,
                 folding their hands towards chest, or opening up their <span class="flex items-end">arms.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span></li>
+                   <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/family/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></span></li>
             <li>Divide the children into groups, each group representing a family. First, have all the children do the
                 movements together. Then let each group try new dance movements .</li>
         </ol>
@@ -120,9 +124,11 @@
             <li>Encourage the children to use their imagination, to choreograph dance movements related to family life, and
                 then practise the dance.</li>
             <li>Invite the children to perform their dance. Remind them to dance to the <span class="flex items-end"> rhythm
-                    of the music. <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
+                    of the music. <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/family/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></span>
             </li>
         </ol>
     </div>
@@ -291,6 +297,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

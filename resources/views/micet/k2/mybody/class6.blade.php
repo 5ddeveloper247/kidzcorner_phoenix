@@ -76,19 +76,21 @@ $showMascot = true;
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Invite the children to listen to the 'Functions Of The Body' song. <span><button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button></span></li>
+            <li>Invite the children to listen to the 'Functions Of The Body' song. <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                    <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/mybody/m1.mp3') }}">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
+                </span></li>
         </ol>
     </div>
-    <div class="items-center space-y-5">
-        <h4 class="text-white text-start text-[1.7vw]">
+    <div class="items-center space-y-5 text-2xl">
+        <h4 class="text-white text-start text-[1.8vw]">
             Can you touch your head?<br>
             Can you move your shoulders?<br>
             Can you bend your knee?<br>
             And wiggle your toes?</h4>
 
-        <h4 class="text-white text-start text-[1.7vw] ">
+        <h4 class="text-white text-start text-[1.8vw] ">
             Can you blink your eyes?<br>
             Can you pull your ears?<br>
             Can you open your mouth?<br>
@@ -103,16 +105,20 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: Functions of the Body</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Teacher can demonstrate singing the song. Then let the children follow and recite the lyrics according to the rhythm of the song.</li>
+        <li>Teacher can demonstrate singing the song. Then let the children follow and recite the lyrics according to the rhythm of the song.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/mybody/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
     </ol>
     <div class="items-center space-y-5 text-2xl">
-        <h4 class="text-white text-start text-[2vw]">
+        <h4 class="text-white text-start text-[1.8vw]">
             Can you touch your head?<br>
             Can you move your shoulders?<br>
             Can you bend your knee?<br>
             And wiggle your toes?</h4>
 
-        <h4 class="text-white text-start text-[2vw] ">
+        <h4 class="text-white text-start text-[1.8vw] ">
             Can you blink your eyes?<br>
             Can you pull your ears?<br>
             Can you open your mouth?<br>
@@ -127,16 +133,20 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: Functions of the Body</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>When the children are familiar with the lyrics, let them sing along with the teacher.</li>
+        <li>When the children are familiar with the lyrics, let them sing along with the teacher.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/mybody/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
     </ol>
     <div class="items-center space-y-5 text-2xl">
-        <h4 class="text-white text-start text-[2vw]">
+        <h4 class="text-white text-start text-[1.8vw]">
             Can you touch your head?<br>
             Can you move your shoulders?<br>
             Can you bend your knee?<br>
             And wiggle your toes?</h4>
 
-        <h4 class="text-white text-start text-[2vw] ">
+        <h4 class="text-white text-start text-[1.8vw] ">
             Can you blink your eyes?<br>
             Can you pull your ears?<br>
             Can you open your mouth?<br>
@@ -151,16 +161,20 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: Functions of the Body</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="4">
-        <li>Invite the children to point at the body parts named in the song.</li>
+        <li>Invite the children to point at the body parts named in the song.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/mybody/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
     </ol>
     <div class="items-center space-y-5 text-2xl">
-        <h4 class="text-white text-start text-[2vw]">
+        <h4 class="text-white text-start text-[1.8vw]">
             Can you touch your head?<br>
             Can you move your shoulders?<br>
             Can you bend your knee?<br>
             And wiggle your toes?</h4>
 
-        <h4 class="text-white text-start text-[2vw] ">
+        <h4 class="text-white text-start text-[1.8vw] ">
             Can you blink your eyes?<br>
             Can you pull your ears?<br>
             Can you open your mouth?<br>
@@ -176,16 +190,20 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: Functions of the Body</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="5">
-        <li>Let the children move their body parts according to the song.</li>
+        <li>Let the children move their body parts according to the song.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/mybody/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
     </ol>
     <div class="items-center space-y-5 text-2xl">
-        <h4 class="text-white text-start text-[2vw]">
+        <h4 class="text-white text-start text-[1.8vw]">
             Can you touch your head?<br>
             Can you move your shoulders?<br>
             Can you bend your knee?<br>
             And wiggle your toes?</h4>
 
-        <h4 class="text-white text-start text-[2vw] ">
+        <h4 class="text-white text-start text-[1.8vw] ">
             Can you blink your eyes?<br>
             Can you pull your ears?<br>
             Can you open your mouth?<br>
@@ -210,20 +228,25 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 6: Functions of the Body</h1>
 
     <ol class="list-decimal panel-ul w-[50vw]" start="7">
-        <li>Let the children move their body parts according to the song.</li>
+        <li>Invite the children to substitute the lyrics of the song with other parts of the body (e.g. heart, teeth, and tongue) and do the corresponding actions. Teacher can help the children write the lyrics on a large piece of paper.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/mybody/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
     </ol>
     <div class="items-center space-y-5 text-2xl">
-        <h4 class="text-white text-start text-[2vw] underline">
-            Can you touch your head?<br>
-            Can you move your shoulders?<br>
-            Can you bend your knee?<br>
-            And wiggle your toes?</h4>
+        <h4 class="text-white text-start text-[1.7vw] underline">
+            Can you feel your heartbeat?<br>
+            Can you bite with your teeth?<br>
+            Can you stick out your tongue?<br>
+            And touch your stomach?
+        </h4>
 
-        <h4 class="text-white text-start text-[2vw] underline">
-            Can you blink your eyes?<br>
-            Can you pull your ears?<br>
-            Can you open your mouth?<br>
-            And sniff with your nose?
+        <h4 class="text-white text-start text-[1.7vw] underline">
+            Can you swing your arms?<br>
+            Can you tap your feet?<br>
+            Can you whistle with your lips?<br>
+            And wiggle your nose?
         </h4>
     </div>
 </div>
@@ -280,8 +303,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/clothes/index') }}";
-        const doneURL = "{{ url('/micet/k1/clothes/index') }}";
+        const returnURL = "{{ url('/micet/k2/mybody/index') }}";
+        const doneURL = "{{ url('/micet/k2/mybody/index') }}";
 
         // Track current position
         let currentSlide = 0;
@@ -343,6 +366,7 @@ $showMascot = true;
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
+                currentAudio = null;
             }
         }
 

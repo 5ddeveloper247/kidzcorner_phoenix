@@ -109,17 +109,18 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: Let’s Move</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Play the music. Sing the song and do actions. </li>
             <li>Replay the music. Let children sing and do actions together with the teacher.</li>
         </ol>
 
         <div>
             <div class="flex items-end">
-                <button class="w-[3vw]" id="soundButton">
+                <h4 class="text-white text-[2.2vw] underline"><span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/nutrition/m2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
-                <h4 class="text-white text-[2.2vw] underline">Clap Your Hands</h4>
+            </span>Clap Your Hands</h4>
             </div>
             <h4 class="text-start text-white text-[2vw]">
                 Clap, clap, clap your hands, <br>
@@ -363,6 +364,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

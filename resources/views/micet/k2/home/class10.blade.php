@@ -75,14 +75,18 @@ $showMascot = true;
         <ol class="list-decimal panel-ul w-[50vw]">
             <li>Click to play the recorded noises. Encourage the
                 children to describe their feelings when they hear
-                these noises.<button class="w-[2.5vw]" id="sound-btn">
+                these noises.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/home/m2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button></li>
+                </button>
+            </span></li>
             <li>Click to play the children's favourite song
                 but increase the volume to a very loud level.
-                Have the children describe their feelings.<button class="w-[2.5vw]" id="sound-btn">
+                Have the children describe their feelings.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/home/m3.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button></li>
+                </button>
+            </span></li>
         </ol>
     </div>
 </div>
@@ -297,6 +301,7 @@ $showMascot = true;
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
+                currentAudio = null;
             }
         }
 

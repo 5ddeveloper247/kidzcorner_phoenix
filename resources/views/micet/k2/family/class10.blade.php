@@ -100,10 +100,11 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>The class will give the birthday children the presents they have prepared, and wish them "Happy Birthday".
             </li>
-            <li><span class="flex  items-end">Invite the whole class to sing the birthday song. <button class="w-[2.5vw]"
-                        id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
+            <li><span class="flex  items-end">Invite the whole class to sing the birthday song. <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/family/m2.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span>
                 </span></li>
 
             <li>The birthday children will cut the birthday cake/cakes and share their cake with their friends.</li>
