@@ -40,16 +40,16 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Magical Colours</h1>
     <div class="flex">
-        <img src="{{ asset('assets/images/micet/n2/colour/class5/c1.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/n2/colour/class5/c1.png') }}" class="h-[7vw]" />
         <img src="{{ asset('assets/images/micet/n2/colour/class5/c2.png') }}" class="h-[8vw]" />
         <img src="{{ asset('assets/images/micet/n2/colour/class5/c3.png') }}" class="h-[8vw]" />
-        <img src="{{ asset('assets/images/micet/n2/colour/class5/c4.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/n2/colour/class5/c4.png') }}" class="h-[7vw]" />
     </div>
 
 
     <h3 class="ptitle">Objectives:</h3>
 
-    <ul class="list-disc panel-ul">
+    <ul class="list-disc panel-ul w-[40vw]">
         <li>Learn that mixing two different colours together produces a
             new colour</li>
         <li>Through experiment, inculcate a spirit of inquiry and exploration</li>
@@ -138,7 +138,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Magical Colours</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="6">
+    <ol class="list-decimal panel-ul w-[45vw]" start="6">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>
@@ -170,7 +170,7 @@ $showMascot = true;
 
 
 {{-- panel 9 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+<div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
     <h1 class="panel-title stroke">Classroom Activity 5: Magical Colours</h1>
     <div class="text-start flex flex-col h-full">
         <h3 class="ptitle">Extension</h3>

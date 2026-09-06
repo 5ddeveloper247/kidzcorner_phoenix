@@ -113,7 +113,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Ask children: Which is the shadow of the bear?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class6/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class6/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -141,7 +141,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Ask children: Which is the shadow of the bear?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class6/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class6/c2.png') }}" class="h-[22vw]" />
     </div>
 
 

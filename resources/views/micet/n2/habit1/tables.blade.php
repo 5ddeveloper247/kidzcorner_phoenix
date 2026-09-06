@@ -62,7 +62,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[22vw]" />
 
     </div>
 

@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Learn to sing "Twinkle Twinkle Little Star" with actions</li>
             <li>Cooperate with friends to complete the given task</li>
             <li>Use imagination to make their own star</li>
@@ -63,7 +63,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul w-[45vw]">
+            <ol class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
                 <li>Stars made from cardboard (one per child)</li>
                 <li>Colour pencils</li>
@@ -93,10 +93,12 @@
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Play the song "Twinkle, Twinkle, Little Star". Let children sing along and do
-                    <span class="flex items-end">actions.
-                    <button class="w-[2.5vw]" id="sound-btn">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span></li>
+                actions.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/twinkle.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
         </ol>
 
         <h4 class="text-white text-[2.2vw]">
@@ -116,10 +118,11 @@
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Divide children into small groups. Let each group form a circle and then sing
-                <span class="flex items-end">the song with actions.
-                    <button class="w-[2.5vw]" id="sound-btn">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
+                the song with actions.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/twinkle.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
             </li>
         </ol>
         <h4 class="text-white text-[1.9vw] text-center leading-none">
@@ -157,11 +160,12 @@
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Let children hold their stars and move to the rhythm of the song, as they sing
-                   <span class="flex items-end"> "Twinkle, Twinkle, Little Star".
-                    <button class="w-[2.5vw]" id="sound-btn">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
+                "Twinkle, Twinkle, Little Star".
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/twinkle.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
         </ol>
         <h4 class="text-white text-[2.2vw]">
             Twinkle, twinkle, little star, <br>

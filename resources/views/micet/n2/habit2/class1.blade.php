@@ -23,7 +23,7 @@
 
         title {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
 
         .ptitle {
@@ -85,7 +85,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Clean and Healthy</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -110,14 +110,14 @@
         <h3 class="p-title">Tina loves to watch television. She stays up late just to watch television <br>
             and usually wakes up late in the momning. One day, Tina's good friend, <br>
             the frog, wakes her up as she is sleeping late into the momning.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c2.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What time do you go to bed? Do you stay up late at night to watch television?<br>
                 <span class="text-[#f7b94a]">Guide children to develop the good habit of sleeping and waking up eary.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -127,14 +127,17 @@
         <h3 class="p-title">Tina goes out to play without having breakfast. She and Daisy Duckling <br>
             play hopscotch in the garden. After a while, Tina starts to feel sick. She <br>
             feels giddy and has a stomach ache.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c3.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 Why do you think Tina is feeling sick?<br>
                 <span class="text-[#f7b94a]">Encourage children to express their views confidently.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -144,24 +147,24 @@
         <h3 class="p-title">Daisy Duckling explains that Tina feels sick because she did not have <br>
             breakfast. Just then, a mouse comes along and invites them to his house <br>
             for breakfast.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c4.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 Do you eat breakfast everyday? What will happen if you skip breakfast?<br>
                 <span class="text-[#f7b94a]">Explain the importance of eating breakfast.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h3 class="p-title">There is a lot of delicious food for breakfast. There are fruits, bread, <br>
             cheese and milk on the table. Doctor Owl reminds them to wash their <br>
             hands before eating.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c5.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -169,7 +172,7 @@
                 What did you have for breakfast today?<br>
                 <span class="text-[#f7b94a]">Guide children to identify different healthy food items for breakfast.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -186,17 +189,17 @@
                 What do you tell the doctorwhen you are sick?<br>
                 <span class="text-[#f7b94a]">Guide children to leam how to communicate with a doctor.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h3 class="p-title">Doctor Owl prescribes some medicine for Tina and tells herto have 10 to <br>
             12 hours of sleep every day. Tina follows Doctor Owl's instructions, she <br>
             stays at home to rest and takes her medicine on time.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -205,7 +208,7 @@
                 <span class="text-[#f7b94a]">Guide children to understand the effects of medicine. <br>
                     Encourage them to practise counting.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -223,7 +226,10 @@
                 <span class="text-[#f7b94a]">Have children weigh themselves. Guide them to understand what <br>
                     Unk food is and how it affects our body.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -233,14 +239,14 @@
         <h3 class="p-title">Doctor Owl reminds them to sleep and wake up early, cut down on junk <br>
             food and exercise regularly. From then on, they exercise regularly in the <br>
             moming to stay strong and healthy.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c9.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class1/c9.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 Why do we need to exercise regularty?<br>
                 <span class="text-[#f7b94a]">Guide children to understand the importance of regular exercise.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 

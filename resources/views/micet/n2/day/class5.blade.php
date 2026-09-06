@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[40vw]">
             <li>Learn to recite the rhyme "Morning Exercise"</li>
             <li>Exercise different parts of the body by moving according to the
                 words in the rhyme</li>
@@ -86,8 +86,9 @@
                     them.</li>
             </ol>
         </div>
-        <div class="flex gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+        <div class="flex gap-[1vw] items-start mt-[2vw]">
+            <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/morning.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
@@ -109,8 +110,9 @@
             <li>Once the children are familiar with the rhyme, get them to recite together as
                 a group.</li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+        <div class="flex gap-[1vw] items-start mt-[2vw]">
+            <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/morning.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
@@ -131,8 +133,9 @@
             <li>Ask children to do actions according to the words in the rhyme For example:
                 deep breath, stretch legs, bend at waist and jump up high.</li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <button class="w-[3vw]" id="soundButton">
+        <div class="flex gap-[1vw] items-start mt-[2vw]">
+            <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/morning.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
@@ -165,7 +168,7 @@
             <li>Guide children to modify the rhyme by changing the actions stated in the
                 rhyme. For example:</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2vw] text-start mt-[3vw]">
             In the morning, <br>
             The air is fresh as we exercise. <br>
             We stretch our legs, <br>
@@ -178,7 +181,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

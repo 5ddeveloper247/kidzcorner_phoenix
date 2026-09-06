@@ -23,7 +23,7 @@
 
         title {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
 
         .ptitle {
@@ -83,10 +83,10 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Daytime, Night Time</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -110,14 +110,14 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">It is 7 o'clock in the evening. The sun is setting after a hard day's work. <br>
             However, Little Bear refuses to go home; he wants to find his friends and play.</h3>
-        <img src="{{ asset('assets/images/micet/n2/day/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c2.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What does the sky look like when the sun is setting?<br>
                 <span class="text-[#f7b94a]">Guide children to know how the sky looks like at evening time.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -127,7 +127,7 @@
         <h3 class="p-title">Little Bear sees Susie Swan and invites her to play ball. Susie Swan turns <br>
             down his invitation and says that she needs to get home before it gets <br>
             dark. She advises Little Bearto go home too.</h3>
-        <img src="{{ asset('assets/images/micet/n2/day/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c3.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -135,7 +135,7 @@
                 <span class="text-[#f7b94a]">Guide children to understand that they should go home when the sky begins
                     to tum dark.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -145,14 +145,14 @@
         <h3 class="p-title">Little Bear asks Duffy Dog to play with him. Duffy Dog feels that it is <br>
             getting late and does not want to play outside. He gives Little Bear an <br>
             apple and asks Little Bear to hurry home.</h3>
-        <img src="{{ asset('assets/images/micet/n2/day/class1/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c4.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 Will you give your food and toys to your friends?<br>
                 <span class="text-[#f7b94a]">Reinforce the concept of sharing.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -162,14 +162,14 @@
         <h3 class="p-title">Little Bear refuses to listen to anyone and continues playing outside. <br>
             Suddenly, he finds a black monster following him. He feels scared and <br>
             runs to Candy Cat's house.</h3>
-        <img src="{{ asset('assets/images/micet/n2/day/class1/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c5.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 Do you know what the black monster is?<br>
                 <span class="text-[#f7b94a]">Encourage children to use their imagination and infer.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -187,7 +187,7 @@
                 <span class="text-[#f7b94a]">Guide children to know about shadow, and the relationship between light and
                     shadow.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -197,14 +197,14 @@
         <h3 class="p-title">Candy's mother tells that children should go to bed early to rest, and <br>
             then rise early the next moming. After listening to Candy's mother, Little <br>
             Beartakes her advice and goes home.</h3>
-        <img src="{{ asset('assets/images/micet/n2/day/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What should we do when everyone is sleeping?<br>
                 <span class="text-[#f7b94a]">Tell children that they should keep quiet when everyone else is resting.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -221,7 +221,7 @@
                 What time do you wake up every moming? What do you do when you wake up?<br>
                 <span class="text-[#f7b94a]">Guide children to establish basic concept of time.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -238,13 +238,13 @@
                 What are some of the exercises which you do in the moming? Let's try some of them.<br>
                 <span class="text-[#f7b94a]">Encourage children to rise earty in the moming to exercise.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Daytime, Night Time</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">

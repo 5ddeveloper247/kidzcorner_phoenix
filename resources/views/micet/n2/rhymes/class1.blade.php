@@ -23,7 +23,7 @@
 
         title {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
 
         .ptitle {
@@ -58,7 +58,7 @@
 
         <h3 class="title">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[40vw]">
+        <ul class="list-disc panel-ul">
             <li>Enjoy listening to a story</li>
             <li>Understand and recite the riddle in the story</li>
         </ul>
@@ -83,7 +83,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -107,14 +107,17 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">Mary had a lovely little lamb. Do you know how Mary got the lamb? <br>
             Let me tell you!</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c2.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 Have you seen lambs before? What do they look like?<br>
                 <span class="text-[#f7b94a]">Help the children name some characte ristics of lambs.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -124,14 +127,17 @@
         <h3 class="p-title">One day, Mary saw a lovely little lamb in the park. She loved it very <br>
             much. The little lamb's owner, an old grandpa, told Mary that she <br>
             could have the lamb if she guessed the answerto a riddle correctly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c3.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 What riddle did old grandpa come up with? Can you guess the answer?<br>
                 <span class="text-[#f7b94a]">Read the riddle to the children and help them to guess the answer.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -140,7 +146,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">Mary came to a farm. She asked the farmer and his lamb to help guess <br>
             the riddle. However, they could not answer the riddle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c4.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -148,7 +154,10 @@
                 <span class="text-[#f7b94a]">Help the children to observe the two lambs and differentiate <br>
                     between the two lambs ( on the basis of their colour).</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -165,7 +174,10 @@
                 Why did he say "It is definitely not bread"?<br>
                 <span class="text-[#f7b94a]">Help the children to observe and infer.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -181,30 +193,33 @@
                 What do you say if you want to ask for help? <br>
                 <span class="text-[#f7b94a]">Help the children to leam some polite expressions.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">It was getting dark as Mary walked past a funfair. She heard a little boy
+        <h3 class="p-title">It was getting dark as Mary walked past a funfair. She heard a little boy <br>
             singing and the answer suddenly struck her mind.</h3>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c7.png') }}" class="w-[30vw]" />
 
-        <div class="flex items-center justify-between w-full">
+        <div class="flex items-center justify-center gap-[1vw] w-full">
             <h3 class="p-title text-left">
                 Do you know how Mary guessed the answerto the riddle?<br>
                 <span class="text-[#f7b94a]">Help the children infer by singing the lyrics of the song.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mary ran to the park and told old grandpa the answer to the riddle.
+        <h3 class="p-title">Mary ran to the park and told old grandpa the answer to the riddle. <br>
             Old grandpa praised Mary and gave her the little lamb.</h3>
         <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c8.png') }}" class="w-[30vw]" />
 
@@ -213,7 +228,7 @@
                 Can you guess the answerto the riddle? What is the answer?<br>
                 <span class="text-[#f7b94a]">Sing "Twinkle twinkle little star" with the children.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -224,18 +239,18 @@
             little lamb became Mary's best friend.</h3>
         <img src="{{ asset('assets/images/micet/n2/rhymes/class1/c9.png') }}" class="w-[30vw]" />
 
-        <div class="flex items-center justify-between w-full">
+        <div class="flex items-center justify-center w-full">
             <h3 class="p-title text-left">
                 How would you feel if you were Mary? Why?<br>
                 <span class="text-[#f7b94a]">Help the children to reflect and experience how Mary felt in the story.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Marry Had A Little Lamb</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">

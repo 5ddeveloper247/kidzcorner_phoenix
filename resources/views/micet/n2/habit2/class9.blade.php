@@ -39,13 +39,13 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
-       <div class="flex ">
+        <div class="flex ">
             <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
-        </div>
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
+            </div>
         </div>
         <h3 class="ptitle">Objectives:</h3>
 
@@ -156,9 +156,10 @@
                 song.</li>
         </ol>
 
-        <div class="flex gap-[2vw] items-start">
+        <div class="flex gap-[2vw] items-start mt-[3vw]">
 
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/wash-hands.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -211,7 +212,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: Washing Hands is Fun</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

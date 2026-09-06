@@ -274,7 +274,7 @@
 
 
     {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <div class="text-start flex flex-col">

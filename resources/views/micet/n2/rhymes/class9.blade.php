@@ -88,10 +88,10 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Lead the children to recite the rhyme together.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2vw] text-start mt-[3vw]">
             Hey Diddle Diddle, <br>
             The cat and the fiddle, <br>
             The cow jumped over the moon, <br>
@@ -105,7 +105,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Have the children discuss why the nursery rhyme is called "Hey Diddle Diddle".
                 Guide children to understand that the special thing about this rhyme is that all
                 the things mentioned in the rhyme do not happen in real life.</li>
@@ -117,11 +117,11 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Recite the following rhyme. Ask children: What are the strange things
                 mentioned in this rhyme?</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2.2vw] mt-[2vw] text-start">
             Stranger than strange, <br>
             The bee dances with the plane, <br>
             The fish feeds the chicken, <br>
@@ -135,10 +135,10 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Lead the children to recite the rhyme together.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2.2vw] mt-[2vw] text-start">
             Stranger than strange, <br>
             The bee dances with the plane, <br>
             The fish feeds the chicken, <br>
@@ -152,11 +152,11 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Hey Diddle Diddle</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Organise children into groups. Let them work together in groups to create a
                 new rhyme by substituting the words in the rhyme. For example:</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2.2vw] mt-[2vw] text-start">
             Stranger than strange, <br>
             The bee dances with the plane, <br>
             The fish feeds the chicken, <br>

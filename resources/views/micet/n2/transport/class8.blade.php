@@ -80,7 +80,7 @@
                     windows, a front door and a back door, many seats, etc.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/class8/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -139,7 +139,12 @@
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Let children listen to the song "The wheels on the bus". Have the children sing
-                along with their teacher.</li>
+                along with their teacher.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/wheels.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
             <li>Encourage the children to add actions as they sing the song.</li>
         </ol>
         <h4 class="text-white text-[2vw] text-start">
@@ -160,11 +165,12 @@
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
+            <li>Let children listen to the song again and sing along.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/wheels.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
             <li>Encourage the children to add actions as they sing the song.</li>
         </ol>
         <div class="flex gap-[2vw] items-start">
@@ -188,11 +194,12 @@
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
+            <li>Let children listen to the song again and sing along.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/wheels.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
             <li>Encourage the children to add actions as they sing the song.</li>
         </ol>
         <div class="flex gap-[2vw] items-start">
@@ -216,11 +223,12 @@
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
+            <li>Let children listen to the song again and sing along.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/wheels.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
             <li>Encourage the children to add actions as they sing the song.</li>
         </ol>
         <div class="flex gap-[2vw] items-start">
@@ -244,11 +252,12 @@
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
+            <li>Let children listen to the song again and sing along.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/wheels.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
             <li>Encourage the children to add actions as they sing the song.</li>
         </ol>
         <div class="flex gap-[2vw] items-start">

@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul w-[35vw]">
             <li>To make a story character headgear through colouring,
                 cutting and pasting.</li>
             <li>To develop fine motor skills.</li>
@@ -149,7 +149,7 @@
     </div>
 
 
-   
+
 
 
 

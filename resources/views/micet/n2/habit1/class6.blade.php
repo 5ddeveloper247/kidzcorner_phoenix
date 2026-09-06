@@ -135,8 +135,8 @@
             <li>Guide the children to complete the corresponding activity in the Thematic
                 Activity Book. Have the children colour the fish, cut it out and keep it for the
                 next classroom activity "Let's go fishing".</li>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class6/c2.png') }}" class="w-[30vw]" />
         </ol>
+        <img src="{{ asset('assets/images/micet/n2/habit1/class6/c2.png') }}" class="w-[30vw]" />
     </div>
 
 

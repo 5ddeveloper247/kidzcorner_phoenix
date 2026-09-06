@@ -108,16 +108,18 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="ptitle">Story</h3>
 
-            <p class="panel-ul">Mary saw a little lamb in the park. She wanted the little lamb. The little
+            <p class="panel-ul w-[50vw]">
+                Mary saw a little lamb in the park. She wanted the little lamb. The little
                 lamb's owner, an old grandpa, told Mary that if she could guess the answer
                 to a riddle, he would give her the little lamb. Mary asked people in the farm,
                 market and garden for the answer, but no one could guess it correctly. She
                 heard a little boy singing at the funfair and the answer to the riddle
                 suddenly came to her. Because she knew the answer to the riddle, Mary
-                was given the lovely little lamb.</p>
+                was given the lovely little lamb.
+            </p>
         </div>
     </div>
 
@@ -125,32 +127,32 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Computer Activities: Freddy’s Fun Fair</h1>
 
-        <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 2: Magic music maker</h3>
-
-            <div class="flex justify-center items-start gap-[3vw]">
+        <div class="flex gap-[2vw]">
+            <div>
+                <h3 class="ptitle">Activity 2: Magic music maker</h3>
                 <img src="{{ asset('assets/images/micet/n2/rhymes/activity/c3.png') }}" class="w-[25vw]" />
-                <div>
-                    <h3 class="ptitle">Objectives</h3>
-                    <ul class="panel-ul w-[30vw]">
-                        <li>To learn about colours</li>
-                        <li>To learn to pair musical notes and
-                            keys according to their colours</li>
-                        <li>To appreciate popular children's tune</li>
-                    </ul>
-                    <h3 class="ptitle">Porcess</h3>
-                    <ul class="panel-ul w-[27vw]">
-                        <li>This activity is divided into two parts:
-                            Listen to children's songs: To listen to
-                            the music, choose a song, a singer and
-                            a musical instrument.
-                            Let's play: Select the key which has the
-                            same colour as the note. If correct, the
-                            musical note will be played.
+            </div>
 
-                        </li>
-                    </ul>
-                </div>
+            <div class="text-start">
+                <h3 class="ptitle">Objectives</h3>
+                <ul class="panel-ul w-[30vw]">
+                    <li>To learn about colours</li>
+                    <li>To learn to pair musical notes and
+                        keys according to their colours</li>
+                    <li>To appreciate popular children's tune</li>
+                </ul>
+                <h3 class="ptitle">Porcess</h3>
+                <ul class="panel-ul w-[27vw]">
+                    <li>This activity is divided into two parts:
+                        Listen to children's songs: To listen to
+                        the music, choose a song, a singer and
+                        a musical instrument.
+                        Let's play: Select the key which has the
+                        same colour as the note. If correct, the
+                        musical note will be played.
+
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

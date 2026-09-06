@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul w-[40vw]">
             <li>To develop observation skills.</li>
             <li>To reinforce the concept of shapes: square, rectangle, circle and triangle.</li>
             <li>To develop fine motor skills.</li>
@@ -80,95 +80,357 @@
                 <li>Ask the children: “”What shape is this?””.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class3/c1.png') }}" class="h-[20vw]" />
+
+        <div class="w-[19vw] h-[19vw] border-[.25vw] border-[#F8473A] rounded-full"> </div>
     </div>
 
 
-    {{-- panel 4 --}}
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Ask the children: “”What shape is this?””.</li>
+        </ol>
+
+        <div class="w-[19vw] h-[19vw] border-[.25vw] border-[#F8473A]"> </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Ask the children: “”What shape is this?””.</li>
+        </ol>
+
+        <div class="w-[26vw] h-[19vw] border-[.25vw] border-[#F8473A]"> </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Ask the children: “”What shape is this?””.</li>
+        </ol>
+
+        <div class="w-[22vw] h-[18vw]">
+            <svg viewBox="0 0 200 160" class="w-full h-full" xmlns="http://www.w3.org/40003svg">
+                <polygon points="100,5 195,155 5,155" fill="none" stroke="#F8473A" stroke-width="2" />
+            </svg>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Ask the children: “”What shape is this?””.</li>
+        </ol>
+
+        <div class="w-[23vw] h-[18vw]">
+            <svg viewBox="0 0 190 140" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 0 0 L 0 140 L 190 140 Z" stroke="#F8473A" stroke-width="2" fill="none" />
+            </svg>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Lead the children in reading the lyrics with rhythm.</li>
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li><span class="flex items-end">Let the children learn to sing the song.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
-        </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
-    </div>
-
-    {{-- panel 6 --}}
+    {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li><span class="flex items-end">Guide children to sing the song and clap to the beat of the music.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
-    {{-- panel 7 --}}
+    {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask the children: If you too had a little lamb what colour would you like the
-                lamb's wool to be?</li>
-            <li>Guide children to substitute words in the lyrics with their own names and the
-                colour of their lamb's wool, to create a new song. For e.g.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c1.png') }}" class="h-[20vw]" />
     </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c1.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c1.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c1.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c1.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c7.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c8.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children : "What is this?"; "What shapes make up this picture?".</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c9.png') }}" class="h-[20vw]" />
+    </div>
+
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+    <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Invite children to sing the new song together.</li>
-            <li>Ask children to sing the song and clap to the beat of the music.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask the children to take a close look at the pictures in the Thematic Activity
+                Book Activity 3. Invite them to identify the picture. Ask, "What shape fits the
+                black and white outline? What are the different shapes shown on this page?".
+                Ask the children to select the corresponding shapes from the right-hand
+                column that fit the shapes in the black outline. Encourage them to colour
+                using their favourite colour.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
+        <div class="flex gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n2/transport/class3/c4.png') }}" class="w-[18vw]" />
+            <img src="{{ asset('assets/images/micet/n2/transport/class3/c5.png') }}" class="h-[12vw]" />
+        </div>
     </div>
 
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask the children to take a close look at the pictures in the Thematic Activity
+                Book Activity 3. Invite them to identify the picture. Ask, "What shape fits the
+                black and white outline? What are the different shapes shown on this page?".
+                Ask the children to select the corresponding shapes from the right-hand
+                column that fit the shapes in the black outline. Encourage them to colour
+                using their favourite colour.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n2/transport/class3/c6.png') }}" class="h-[15vw]" />
     </div>
 
 
@@ -180,15 +442,15 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to take turns to sing their new song.</li>
+                <li>Have the children discuss the shapes that make up the two pictures.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Mary Had A Little Lamb".</li>
-                <li>Able to create a new song by substituting some words in
-                    the lyrics.</li>
+                <li>Able to differentiate shapes: square, rectangle, circle and</li>
+                <li>Able to identify some of these shapes in a vehicle.
+                    triangle.</li>
             </ul>
         </div>
     </div>
@@ -202,8 +464,8 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to sing the song to their parents at home
-                    and to edit the lyrics with their parents; e.g. Mummy had a little lamb ...</li>
+                <li>Prepare pictures of other types of vehicles, have the
+                    children identify the shapes they can find in these vehicles.</li>
             </ul>
         </div>
     </div>
@@ -260,8 +522,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/n2/transport/index') }}";
+            const doneURL = "{{ url('/micet/n2/transport/index') }}";
 
             // Track current position
             let currentSlide = 0;

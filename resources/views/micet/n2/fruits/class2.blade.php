@@ -96,7 +96,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Ask children to name the fruit and describe its characteristics.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c2.png') }}" class="h-[22vw]" />
     </div>
 
 
@@ -305,7 +305,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="21">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c21.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c5.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -316,7 +316,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="22">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c22.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -327,7 +327,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="23">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c23.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c21.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -338,7 +338,10 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="24">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c24.png') }}" class="h-[20vw]" />
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n2/fruits/class2/c5.png') }}" class="h-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fruits/class2/c21.png') }}" class="h-[15vw]" />
+        </div>
     </div>
 
 
@@ -349,7 +352,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="25">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c25.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c22.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -360,7 +363,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="26">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c26.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c23.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -371,7 +374,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="27">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c27.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c24.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -382,7 +385,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="28">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c28.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c25.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -393,7 +396,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="29">
             <li>Ask children to count the number of fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c29.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c26.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -405,7 +408,7 @@
             <li>Ask the children to identify big and small fruits. (State which fruit is bigger and
                 which is smaller.)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c30.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c27.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -416,7 +419,21 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="31">
             <li>Ask children to pick out the biggest and the smallest fruit.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c31.png') }}" class="h-[20vw]" />
+        <div class="flex items-end">
+            <img src="{{ asset('assets/images/micet/n2/fruits/class2/c28.png') }}" class="h-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fruits/class2/c28.png') }}" class="h-[20vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 33 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Let’s Compare and Draw</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="32">
+            <li>Ask children to pick out the biggest and the smallest fruit.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/fruits/class2/c25.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -468,7 +485,7 @@
 
 
     {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: Let’s Compare and Draw</h1>
 
         <div class="text-start flex flex-col">

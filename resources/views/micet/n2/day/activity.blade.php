@@ -110,14 +110,16 @@
         <div class="text-start">
             <h3 class="ptitle">Story</h3>
 
-            <p class="panel-ul">It's seven o'clock at night. Little Bear still wants to play outside and does not
+            <p class="panel-ul w-[50vw]">
+                It's seven o'clock at night. Little Bear still wants to play outside and does not
                 want to go home. Just then, he notices a black figure following him. He is
                 very scared and runs to Candy Cat's house. Candy's mother tells him that
                 the black figure is his shadow! <br>
                 It's six o'clock in the morning. All the little animals are ready for their
                 morning exercise, but Little Bear is still sleeping and does not want to get up.
                 All his friends hurry him to join them for the morning exercise. Everyone goes
-                to the big field to do physical exercises and play games.</p>
+                to the big field to do physical exercises and play games.
+            </p>
         </div>
     </div>
 

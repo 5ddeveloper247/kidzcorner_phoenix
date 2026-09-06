@@ -40,7 +40,7 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: Fruits Song</h1>
         <div class="flex items-center gap-1">
-            
+
             <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
@@ -68,34 +68,34 @@
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h1 class="panel-title stroke">Classroom Activity 7: Fruits Song</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li> <span class="flex items-end">Let the children listen to the ””Banana Song””.
-                        <button class="w-[3.5vw]" id="soundButton">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </span>
+                <li> Let the children listen to the ””Banana Song””.
+                    <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                        data-slide-audio="{{ asset('assets/audio/micet/n2/banana-song.mp3') }}">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
                 </li>
-
-                <li>Lead children in singing the song.</li>
             </ol>
         </div>
-        <h4 class="text-white text-[1.7vw] text-start">
-            We are bananas that come in combs. <br>
-            We are packed with vitamins B and C. <br>
-            And we give you lots of energy! <br>
-            So wow wow go bananas! <br>
-            Oh ba, bananas! <br>
-            It's a healthy fruit. <br>
-            Yeah! It's a healthy fruit! <br>
-            So, go bananas! <br>
-            Oh ba, bananas! Go.
-        </h4>
+        <div class="w-[45vw]">
+            <h4 class="text-white text-[1.7vw] text-start">
+                We are bananas that come in combs. <br>
+                We are packed with vitamins B and C. <br>
+                And we give you lots of energy! <br>
+                So wow wow go bananas! <br>
+                Oh ba, bananas! <br>
+                It's a healthy fruit. <br>
+                Yeah! It's a healthy fruit! <br>
+                So, go bananas! <br>
+                Oh ba, bananas! Go.
+            </h4>
+        </div>
     </div>
 
 
@@ -108,7 +108,8 @@
                 their skin is yellow and the flesh is white.)</li>
             <li>Lead the children in singing the "Banana song". Let the children repeat singing the
                 song till they are familiar with it.
-                <button class="w-[3.5vw]" id="soundButton">
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/banana-song.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </li>
@@ -123,12 +124,13 @@
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>4, Let the children listen to the "Watermelon song".
-                <button class="w-[3.5vw]" id="soundButton">
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/watermelon-song.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </li>
         </ol>
-        <h4 class="text-white text-[1.7vw] text-start">
+        <h4 class="text-white text-[2.2vw] text-start mt-[3vw]">
             I'm an enormous watermelon, <br>
             green and big, that's me. <br>
             I'm an enormous watermelon, <br>
@@ -138,7 +140,7 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: Fruits Song</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
@@ -147,7 +149,8 @@
             <li>Get the children to discuss where watermelons grow.</li>
             <li>Lead the children in singing the "watermelon song". Let the children repeat
                 singing the song till they are familiar with it.
-                <button class="w-[3.5vw]" id="soundButton">
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/watermelon-song.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </li>
@@ -162,13 +165,14 @@
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li> <span class="flex">Let the children listen to the "Fruit song".
-                    <button class="w-[3.5vw]" id="soundButton">
+                    <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                        data-slide-audio="{{ asset('assets/audio/micet/n2/fruit-song.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                 </span>
             </li>
         </ol>
-        <h4 class="text-white text-[1.7vw] text-start">
+        <h4 class="text-white text-[2.2vw] text-start mt-[2vw]">
             We are fruits that grow on trees, <br>
             banana, rambutan, jackfruit and <br>
             durian. <br>
@@ -186,7 +190,7 @@
             <li>Guide the children to understand that some fruits grow on trees and some
                 grow on the ground.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -198,7 +202,7 @@
             <li>Guide the children to understand that some fruits grow on trees and some
                 grow on the ground.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c4.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -210,7 +214,7 @@
             <li>Guide the children to understand that some fruits grow on trees and some
                 grow on the ground.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c5.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -222,7 +226,7 @@
             <li>Guide the children to understand that some fruits grow on trees and some
                 grow on the ground.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c6.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class7/c6.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -256,7 +260,12 @@
 
         <ol class="list-decimal panel-ul w-[50vw]" start="15">
             <li>Lead the children in singing the "Fruit song". Let the children repeat singing the
-                song till they are familiar with it.</li>
+                song till they are familiar with it.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/fruit-song.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </li>
         </ol>
     </div>
 

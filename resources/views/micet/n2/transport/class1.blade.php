@@ -23,7 +23,7 @@
 
         title {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
 
         .ptitle {
@@ -86,7 +86,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Toot Toot’s Adventure</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -110,7 +110,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">One moming, Little Bear and his family decide to visit their grandma. <br>
             They place their luggage in their little car, Toot Toot, and set off.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/class1/c2.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -119,7 +119,10 @@
                 <span class="text-[#f7b94a]">Encourage the children to talk about their experiences of travelling on the
                     road.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -128,14 +131,18 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">Toot Toot goes too fast. Suddenly, a pair of trousers flies out of the car. It <br>
             lands on Fast Fox, who is riding a motorcycle just behind Toot Toot.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/class1/c3.png') }}" class="w-[32vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 How many wheels does a motorcycle have?<br>
                 <span class="text-[#f7b94a]">What do you wear on your head when riding a motorcycle?</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -145,7 +152,7 @@
         <h3 class="p-title">Toot Toot does not know that things are falling out from the boot of the <br>
             car. He continues speeding along the road ... "Toot! Toot!". As Toot Toot drives on, <br>
             grandma's present and a hat fly out of the car and land on Mr Monkey's police car.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/class1/c4.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -153,7 +160,10 @@
                 What sound does a police car make?<br>
                 <span class="text-[#f7b94a]">Encourage the children to observe and express about what has happened.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -162,7 +172,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">Toot Toot is not aware of what has happened. He continues to go very fast. Just <br>
             then, a bolster flies out from the car and hits Harry Hippo, who is travelling behind on a bicycle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/class1/c5.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -171,7 +181,10 @@
                 <span class="text-[#f7b94a]">Ask the children to take note of the similarities and differences between <br>
                     a car and a bicycle.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -188,7 +201,7 @@
                 Why are Fast Fox, MrMonkey and Hany Hippo chasing Toot To of? <br>
                 <span class="text-[#f7b94a]">Encourage the children to express thei rviews and anticipate events.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -198,14 +211,18 @@
         <h3 class="p-title">Toot Toot drives too fast. Suddenly, the car comes to a halt. One of the <br>
             tyres is punctured. Finally, Fast Fox, Mr Monkey and Harry Hippo catch <br>
             up with Toot Toot. They retum all the things to Little Bear's family.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/class1/c7.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What would you do if you found things that someone dropped?<br>
                 <span class="text-[#f7b94a]">Teach the children about honesty and helpfulness.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -222,7 +239,10 @@
                 What do you say when some one retums your lost belongings?<br>
                 <span class="text-[#f7b94a]">Teach the children to show appreciation.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -239,13 +259,13 @@
                 <span class="text-[#f7b94a]">Talk to the children about the functions of a tow truck to increase their
                     general <br> knowledge.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Toot Toot’s Adventure</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">

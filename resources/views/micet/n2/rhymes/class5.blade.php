@@ -62,7 +62,7 @@ $showMascot = true;
     <div>
         <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Thematic Activity Book</li>
             <li>Triangle, Square and Circle shapes( some for each child)</li>
             <li>Drawing papers and crayons</li>
@@ -96,7 +96,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[50vw]" start="3">
         <li>Ask children: What shape is this?</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c1.png') }}" class="w-[20vw]" />
+    <img src="{{ asset('assets/images/micet/n2/rhymes/class5/c1.png') }}" class="w-[20vw] mt-[2vw]" />
 </div>
 
 

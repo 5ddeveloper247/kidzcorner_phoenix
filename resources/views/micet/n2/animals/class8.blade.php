@@ -85,7 +85,7 @@
         </div>
 
         <div class="flex gap-[2vw] items-start mt-[2vw]">
-            <button class="w-[3.5vw]" id="soundButton">
+            <button class="w-[3.5vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n2/sealion.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <ul class="list-disc text-white text-[1.7vw] text-start">
@@ -122,7 +122,7 @@
             <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
         </ol>
         <div class="flex gap-[2vw] items-start mt-[2vw]">
-            <button class="w-[3.5vw]" id="soundButton">
+            <button class="w-[3.5vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n2/elephant.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <ul class="list-disc text-white text-[1.7vw] text-start">
@@ -158,7 +158,7 @@
             <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
         </ol>
         <div class="flex gap-[2vw] items-start mt-[2vw]">
-            <button class="w-[3.5vw]" id="soundButton">
+            <button class="w-[3.5vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n2/owl.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <ul class="list-disc text-white text-[1.7vw] text-start">

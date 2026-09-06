@@ -49,7 +49,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[40vw]">
             <li>Explore and describe the characteristics of a watermelon</li>
             <li>Make watermelon balls and watermelon juice</li>
             <li>Develop observation, exploration and inferential skills with
@@ -108,8 +108,8 @@
                 roll when you push them.</li>
         </ol>
         <div class="flex">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class6/c2.png') }}" class="h-[12vw] w-[30vw]" />
-            <img src="{{ asset('assets/images/micet/n2/fruits/class6/c3.png') }}" class="h-[12vw] w-[30vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fruits/class6/c2.png') }}" class="h-[10vw] w-[30vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fruits/class6/c3.png') }}" class="h-[10vw] w-[30vw]" />
         </div>
     </div>
 
@@ -125,7 +125,7 @@
             <li>Cut a watermelon and ask questions that lead the children to compare the
                 similarities and differences between the inside and outside of the watermelon.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class6/c4.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class6/c4.png') }}" class="h-[15vw]" />
     </div>
 
 
@@ -140,7 +140,7 @@
             <li>Cut a watermelon and ask questions that lead the children to compare the
                 similarities and differences between the inside and outside of the watermelon</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class6/c5.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class6/c5.png') }}" class="h-[15vw]" />
     </div>
 
 
@@ -183,10 +183,10 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 6: Watermelon is Delicious</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
             <li>Organise the children into groups. Distribute a set of plates, scoop, forks and
                 half a watermelon to each group. Ask each child to take turns and scoop out
                 one or two watermelon balls and place them in their own cup.</li>
@@ -197,10 +197,10 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 6: Watermelon is Delicious</h1>
 
-        <ol class="list-decimal panel-ul" start="15">
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
             <li>Display the watermelon juice. Ask the children to think and suggest how
                 watermelon juice is made.</li>
             <li>Get the children to attempt making watermelon juice by using their own
@@ -212,10 +212,10 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 6: Watermelon is Delicious</h1>
 
-        <ol class="list-decimal panel-ul" start="17">
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -229,14 +229,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Invite everyone to taste the delicious watermelon balls and
                     watermelon juice.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Able to describe the characteristics of a watermelon.</li>
                 <li>Able to make watermelon balls and watermelon juice.</li>
             </ul>

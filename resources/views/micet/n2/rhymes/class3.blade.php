@@ -71,7 +71,7 @@
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+    <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
 
         <div class="text-start">
@@ -92,7 +92,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Lead the children in reading the lyrics with rhythm.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
+        <h4 class="text-white text-start text-[2.2vw] mt-[3vw]">Mary had a little lamb, <br>
             Little lamb, little lamb. <br>
             Mary had a little lamb, <br>
             Its fleece was white as snow.</h4>
@@ -103,12 +103,15 @@
         <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li><span class="flex items-end">Let the children learn to sing the song.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
+            <li>Let the children learn to sing the song.
+                <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/little-lamb.mp3') }}">
+                    <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
+                </button>
+            </li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
+        <h4 class="text-white text-start text-[2.2vw] mt-[3vw]">
+            Mary had a little lamb, <br>
             Little lamb, little lamb. <br>
             Mary had a little lamb, <br>
             Its fleece was white as snow.</h4>
@@ -119,12 +122,14 @@
         <h1 class="panel-title stroke">Classroom Activity 3: I have Little Lamb</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li><span class="flex items-end">Guide children to sing the song and clap to the beat of the music.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
+            <li>Guide children to sing the song and clap to the beat of the music.
+                <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/little-lamb.mp3') }}">
+                    <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
+                </button>
+            </li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
+        <h4 class="text-white text-start text-[2.2vw] mt-[3vw]">Mary had a little lamb, <br>
             Little lamb, little lamb. <br>
             Mary had a little lamb, <br>
             Its fleece was white as snow.</h4>
@@ -140,7 +145,7 @@
             <li>Guide children to substitute words in the lyrics with their own names and the
                 colour of their lamb's wool, to create a new song. For e.g.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
+        <h4 class="text-white text-start text-[2.2vw] mt-[2vw]">
             Sally had a little lamb, <br>
             Little lamb, little lamb. <br>
             Sally had a little lamb, <br>
@@ -155,7 +160,7 @@
             <li>Invite children to sing the new song together.</li>
             <li>Ask children to sing the song and clap to the beat of the music.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
+        <h4 class="text-white text-start text-[2.2vw] mt-[2vw]">
             Sally had a little lamb, <br>
             Little lamb, little lamb. <br>
             Sally had a little lamb, <br>

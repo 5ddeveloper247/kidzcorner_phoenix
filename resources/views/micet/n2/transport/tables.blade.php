@@ -53,7 +53,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -61,7 +61,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/transport/tables/t2.png') }}" class="h-[25vw]" />
 
     </div>
 

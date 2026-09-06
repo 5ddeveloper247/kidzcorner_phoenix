@@ -41,11 +41,11 @@
         <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
         <div class="flex ">
             <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
-        </div>
+                <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
+            </div>
         </div>
 
         <h3 class="ptitle">Objectives:</h3>
@@ -70,7 +70,7 @@
                 <li>Inform children to bring their toothbrushes to school</li>
             </ul>
 
-            <div>
+            <div class="mt-[2vw]">
                 <h3 class="panel-ul">For Optional Activity:</h3>
                 <ul class="panel-ul list-disc">
                     <li>A big teeth brushing model and brush set</li>
@@ -201,10 +201,11 @@
                 Encourage them to imitate the actions as they sing the song.</li>
             <li>When children are familiar with the song, they can change the lyrics by
                 replacing the timing of brushing teeth (e.g. before going to bed, after every
-                meal). <span class="flex flex-end">Let them then sing the modified song and do actions.
-                    <button class="w-[3vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
+                meal).Let them then sing the modified song and do actions.
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/brush.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
             </li>
         </ol>
         <h4 class="text-white text-[2vw] text-start">
@@ -219,7 +220,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 6: How Should We Brush Our Teeth?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

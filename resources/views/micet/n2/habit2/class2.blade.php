@@ -79,7 +79,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Let children recall the storyline of "Clean And Healthy". Ask them: Why was
                     Tina feeling sick? What sleeping habit did she have? Guide children to
                     understand that staying up late and waking up late will make us feel tired the
@@ -94,11 +94,11 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Ask children: What is the child in the picture doing? When do you do the same
                 thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c1.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c1.png') }}" class="h-[22vw]" />
     </div>
 
 
@@ -106,11 +106,11 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Ask children: What is the child in the picture doing? When do you do the same
                 thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c2.png') }}" class="h-[22vw]" />
     </div>
 
 
@@ -118,11 +118,11 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Ask children: What is the child in the picture doing? When do you do the same
                 thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c3.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c3.png') }}" class="h-[22vw]" />
     </div>
 
 
@@ -130,11 +130,11 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Ask children: What is the child in the picture doing? When do you do the same
                 thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c4.png') }}" class="h-[22vw]" />
     </div>
 
 
@@ -142,11 +142,11 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Ask children: What is the child in the picture doing? When do you do the same
                 thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c5.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c5.png') }}" class="h-[22vw]" />
     </div>
 
 
@@ -154,11 +154,11 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Ask children: What is the child in the picture doing? When do you do the same
                 thing? What time of the day should we do this activity? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c6.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class2/c6.png') }}" class="h-[22vw]" />
     </div>
 
 
@@ -166,7 +166,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 2: Early to Sleep, Early to Rise</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Ask children: What are the things that should be done only in the morning?
                 Why? What are the things that should be done only at night? Why? What are
                 the things that should be done both in the morning and at night? Why?

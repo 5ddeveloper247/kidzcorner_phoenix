@@ -49,7 +49,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[35vw]">
             <li>Taste the different fruits, describe their tastes and state
                 one's preference</li>
             <li>Make simple calculations</li>
@@ -137,7 +137,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: King of Fruits</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

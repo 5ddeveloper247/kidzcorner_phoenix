@@ -61,7 +61,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul">
                 <li>Thematic Activity Book</li>
                 <li>Toy vehicles brought from home (from Activity 4).</li>
                 <li>Toy vehicles within the classroom.</li>

@@ -82,7 +82,8 @@
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>
                     Let the children listen to the "Good Friends" song. Guide them to understand the lyrics.
-                    <button id="sound-btn" class="inline-flex items-center w-[2.5vw] align-middle">
+                    <button id="soundButton" class="inline-flex items-center w-[2.5vw] align-middle"
+                        data-slide-audio="{{ asset('assets/audio/micet/n2/good-friends.mp3') }}">
                         <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto"
                             alt="Sound" />
                     </button>
@@ -110,7 +111,8 @@
             <li>Encourage the children to learn the "Good Friends" song.</li>
             <li> Once the children are familiar with the song, let them form a circle, hold
                 hands and sing the song.
-                <button id="sound-btn" class="inline-flex items-center w-[2.5vw] align-middle">
+                <button id="soundButton" class="inline-flex items-center w-[2.5vw] align-middle"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/good-friends.mp3') }}">
                     <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                 </button>
             </li>
@@ -168,7 +170,8 @@
                 instruments according to the beat of the music. Help them, if needed</li>
             <li>Have each group of children take turns to play the instruments according to
                 the beat of the music.
-                <button id="sound-btn" class="inline-flex items-center w-[2.5vw] align-middle">
+                <button id="soundButton" class="inline-flex items-center w-[2.5vw] align-middle"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/good-friends.mp3') }}">
                     <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                 </button>
             </li>

@@ -23,7 +23,7 @@
 
         title {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
 
         .ptitle {
@@ -83,10 +83,10 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center ">
         <h1 class="panel-title stroke">Classroom Activity 1: Merry Fruit Garden</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -119,7 +119,10 @@
                 <span class="text-[#f7b94a]">Guide the children in using longuage to describe the appearance of a <br>
                     scarecrow and describe the purpose of a scarecrow.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -136,13 +139,16 @@
                 <span class="text-[#f7b94a]">Guide the children in moking inferences from the text description in order <br>
                     to determine the characteristics of a rambutan.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h3 class="p-title">The rambutan and scarecrow come to the banana plantation. <br>
             The banana is very excited and he jumps down from the tree. However, <br>
             he is careless and drops his overcoat. The banana's body is white in colour.</h3>
@@ -156,7 +162,7 @@
                     colour <br>
                     of the flesh and the skin and understand the characteristics of the fruits.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -173,7 +179,10 @@
                 <span class="text-[#f7b94a]">Let the children guess the reason, and then explain to them that it <br>
                     is done to prevent insects and birds from eating the jackfruits.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -185,12 +194,12 @@
             durian. Fortunately, the durian has hard thoms and it is not easily hurt.</h3>
         <img src="{{ asset('assets/images/micet/n2/fruits/class1/c6.png') }}" class="w-[30vw]" />
 
-        <div class="flex items-center justify-between w-full">
+        <div class="flex items-center justify-center w-full">
             <h3 class="p-title text-left">
                 If you knock into some one, what should you say? <br>
                 <span class="text-[#f7b94a]">Teach the children to practice basic courtesy.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -210,7 +219,7 @@
                     <br>
                     concept of big and small.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -221,12 +230,15 @@
             but the clever scarecrow finds them in a short time. Everyone is playing happily.</h3>
         <img src="{{ asset('assets/images/micet/n2/fruits/class1/c8.png') }}" class="w-[30vw]" />
 
-        <div class="flex items-center justify-between w-full">
+        <div class="flex items-center justify-center gap-[2vw] w-full">
             <h3 class="p-title text-left">
                 How did the scare crow manage to find the fruits?<br>
                 <span class="text-[#f7b94a]">Guide the children in discovering how shadows are formed.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -243,13 +255,13 @@
                 What are some interesting games you know? What is your favourite game?<br>
                 <span class="text-[#f7b94a]">Guide the children in expressing their personal preferences.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Merry Fruit Garden</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
@@ -599,6 +611,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

@@ -64,7 +64,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul ">
                 <li>Thematic Activity Book</li>
                 <li>Whiteboard and markers</li>
             </ol>
@@ -97,7 +97,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Draw a record table on the whiteboard:</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class10/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class10/c1.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -154,7 +154,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: I Know Many Nursery Rhymes</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

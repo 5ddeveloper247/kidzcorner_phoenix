@@ -65,7 +65,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
                 <li>Fishing rods, fishing baskets and fishes from Activity 6.</li>
                 <li>Fasten a paper clip near the mouth of each fish.</li>
@@ -130,7 +130,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

@@ -141,7 +141,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Ask children: What is the person in the picture doing?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[23vw]" />
     </div>
 
 
@@ -155,7 +155,7 @@
                 weather turns warm because the lambs will feel uncomfortable just as we do if
                 we wear thick jackets during summer.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c2.png') }}" class="h-[18vw]" />
     </div>
 
 
@@ -178,7 +178,7 @@
             <li>Guide the children to know that yarn is made from wool and so is of the same
                 colour as wool (white).</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c3.png') }}" class="w-[28vw]" />
     </div>
 
 
@@ -189,7 +189,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Explain to the children that yarn can be dyed into many colours.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c4.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -201,7 +201,7 @@
             <li>Explain to the children that yarn can be knitted into all sorts of woollen
                 clothing.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c5.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -212,7 +212,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Ask the children: What are these? What is their use?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c6.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c6.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -223,7 +223,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Ask the children: What are these? What is their use?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c7.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -234,7 +234,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
             <li>Ask the children: What are these? What is their use?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c8.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c8.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -247,7 +247,7 @@
                 uses of the different clothing? Guide children to understand that clothing
                 made from wool can keep us warm in cold weather.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c9.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class2/c9.png') }}" class="w-[28vw]" />
     </div>
 
 
@@ -308,7 +308,7 @@
 
 
     {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: The Uses of Wool</h1>
 
         <div class="text-start flex flex-col">

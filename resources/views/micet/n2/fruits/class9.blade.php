@@ -80,7 +80,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Take the children for a walk in the "orchard". Let them name the fruits in the
                     orchard.</li>
                 <li>Tell the children that they are going to parlicipate in a fruit picking relay race.</li>
@@ -91,10 +91,10 @@
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: The Fruit Relay</h1>
 
-        <ol class="list-decimal text-left text-white text-[1.25vw]" start="4">
+        <ol class="list-decimal text-left text-white text-[1.3vw] w-[50vw]" start="4">
             <li>Organise the children into two groups. Let each group stand in a row behind a starting line.
                 [ Note: about 15-20 metres from the "orchard"]</li>
             <li>Guide children to understand the rules of the race. When the race starts, the first child

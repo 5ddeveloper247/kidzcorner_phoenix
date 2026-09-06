@@ -217,7 +217,7 @@
                         <li>reasoning skills</li>
                     </ul>
                     <h3 class="ptitle">Process</h3>
-                    <ul class="list-disc panel-ul w-[25vw]">
+                    <ul class="panel-ul w-[25vw]">
                         <li>Children are required to match the
                             animals, according to their posture and
                             size, with their corresponding shadows.</li>

@@ -62,7 +62,7 @@
         <div>
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
                 <li>Two pencils of different lengths.</li>
                 <li>Three different lengths of fishing rods made in advance.</li>
@@ -78,7 +78,7 @@
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Display the two pencils of different lengths. Have the children state which
                     pencil is longer and which is shorter. Guide the children in understanding the
                     concept of length.</li>
@@ -99,7 +99,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Display the first 2 fishing rods (exclude the shortest fishing rod). Have the
                 children state which rod is longer and which is shorter.</li>
         </ol>
@@ -110,7 +110,7 @@
     <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Display the shorter two of the three fishing rods. Have the children state which
                 rod is longer and which is shorter.</li>
         </ol>
@@ -122,7 +122,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Display the three fishing rods. Have the children observe that when the middle
                 rod is compared with the first rod, it is shorter; but when it is compared with the
                 last rod, it is longer. Guide the children in understanding relativity of length,
@@ -138,7 +138,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Ask the children: "Which is the longest fishing rod?"; "Which is the shortest
                 fishing rod?". Guide the children in understanding the use of superlatives in
                 comparing more than two objects.</li>
@@ -153,14 +153,14 @@
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Click on the picture below to open the Software Magnetic Board. Randomly
                 select 2 of the 3 fishing rods and have the children state which rod is longer
                 and which rod is shorter. Have the children arrange the three rods in order of
                 their length, then have the children state which rod is the longest and which
                 rod is the shortest.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c4.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c4.png') }}" class="w-[23vw]" />
     </div>
 
     {{-- panel 8 --}}
@@ -204,7 +204,7 @@
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-decimal panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Have the children compare the lengths of things found at
                     home and then invite them to share their findings with their
                     classmates.</li>

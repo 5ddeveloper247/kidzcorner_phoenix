@@ -41,11 +41,11 @@
         <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
         <div class="flex ">
             <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
-        </div>
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
+            </div>
         </div>
 
         <h3 class="ptitle">Objectives:</h3>
@@ -243,7 +243,7 @@
             <li>Ask children: What should you do when you are sick? Should you take
                 medicine on your own without your parents' knowledge? Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[28vw]" />
     </div>
 
 
@@ -257,7 +257,7 @@
                 different sickness which require different medications. The condition of your
                 sickness might worsen if the wrong medication is taken.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[28vw]" />
     </div>
 
 
@@ -270,7 +270,7 @@
                 medicine on their own unless they were given to them by their parents,
                 doctors or nurses.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c7.png') }}" class="w-[28vw]" />
     </div>
 
 
@@ -284,7 +284,7 @@
                 large amounts of energy to fight the germs, thus with more rest, our bodies will
                 recover faster.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c8.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit2/class7/c8.png') }}" class="w-[28vw]" />
     </div>
 
 
@@ -292,7 +292,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: How do we get sick?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

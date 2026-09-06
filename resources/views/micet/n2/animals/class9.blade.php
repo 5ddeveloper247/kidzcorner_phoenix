@@ -49,7 +49,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[35vw]">
             <li>Draw one's favourite animal</li>
             <li>Learn to work with group members to decorate the
                 classroom like a zoo</li>
@@ -85,7 +85,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Inform the class that they are going to construct a zoo in the classroom.</li>
                 <li>Divide the classroom into three regions, one for the animals that live in water,
                     one for the animals that live on land, and one for the animals that live in the
@@ -99,7 +99,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Let the children name the things that can be shared and that cannot be
                 shared. Ask them to explain why.</li>
         </ol>
@@ -110,7 +110,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Have the children name some zoo animals and let them say whether the
                 animal lives on land, in water or in the sky.</li>
             <li>Let the children now name their favourite animal and say where it lives. Then let
@@ -123,7 +123,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Ask children to tear out pictures of different animals from old newspapers,
                 magazines or books. Let them categorize the pictures and their drawings
                 according to the living environment( land, water, sky) that the animal belongs
@@ -154,14 +154,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Let the children enjoy a walk around their classroom zoo and
                     see and name the animals in the different living regions.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Able to draw one's favourite animal.</li>
                 <li>Able to work with group members to decorate the classroom
                     like a zoo.</li>
@@ -485,6 +485,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -62,7 +62,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
                 <li>Create some simple movements to accompany the song
                     (e.g. rotating wrists, shaking hands, turning in a circle,
@@ -148,14 +148,20 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>When children are familiar with the lyrics, let them learn to sing the song.</li>
         </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
+        <div class="flex items-start gap-[2vw] mt-[2vw]">
+            <button id="soundButton" class="w-[3.5vw]" data-slide-audio="{{ asset('assets/audio/micet/n2/twinkle.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
+            </button>
+
+            <h4 class="text-white text-[2.3vw] text-start">
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are. <br>
+                Up above the world so high, <br>
+                Like a diamond in the sky. <br>
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are!
+            </h4>
+        </div>
     </div>
 
 
@@ -167,14 +173,20 @@
             <li>Demonstrate how to sing and move to the rhythm of the song with the simple
                 movements planned beforehand.</li>
         </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
+        <div class="flex items-start gap-[2vw] mt-[2vw]">
+            <button id="soundButton" class="w-[3.5vw]" data-slide-audio="{{ asset('assets/audio/micet/n2/twinkle.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
+            </button>
+
+            <h4 class="text-white text-[2.3vw] text-start">
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are. <br>
+                Up above the world so high, <br>
+                Like a diamond in the sky. <br>
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are!
+            </h4>
+        </div>
     </div>
 
 
@@ -185,14 +197,20 @@
         <ol class="list-decimal panel-ul" start="8">
             <li>Guide children to sing the song and move to the rhythm of the song.</li>
         </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
+        <div class="flex items-start gap-[2vw] mt-[2vw]">
+            <button id="soundButton" class="w-[3.5vw]" data-slide-audio="{{ asset('assets/audio/micet/n2/twinkle.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
+            </button>
+
+            <h4 class="text-white text-[2.3vw] text-start">
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are. <br>
+                Up above the world so high, <br>
+                Like a diamond in the sky. <br>
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are!
+            </h4>
+        </div>
     </div>
 
 
@@ -204,14 +222,20 @@
             <li>Encourage children to create new movements for the song. Let them perform
                 the song with new movements.</li>
         </ol>
-        <h4 class="text-white text-[2.2vw] text-start">
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are. <br>
-            Up above the world so high, <br>
-            Like a diamond in the sky. <br>
-            Twinkle, twinkle, little star, <br>
-            How I wonder what you are!
-        </h4>
+        <div class="flex items-start gap-[2vw] mt-[2vw]">
+            <button id="soundButton" class="w-[3.5vw]" data-slide-audio="{{ asset('assets/audio/micet/n2/twinkle.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
+            </button>
+
+            <h4 class="text-white text-[2.3vw] text-start">
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are. <br>
+                Up above the world so high, <br>
+                Like a diamond in the sky. <br>
+                Twinkle, twinkle, little star, <br>
+                How I wonder what you are!
+            </h4>
+        </div>
     </div>
 
 
@@ -233,14 +257,14 @@
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Invite some children to perform the song with the new
                     movements.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Able to sing the song "Twinkle Twinkle Little Star".</li>
                 <li>Able to sing and move to the rhythm of the song.</li>
             </ul>
@@ -249,13 +273,13 @@
 
 
     {{-- panel 28 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 6: Twinkle, Twinkle, Little Star</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Provide the song in the activity corner for the children to try
                     new movements and perform the song.</li>
             </ul>
@@ -577,6 +601,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

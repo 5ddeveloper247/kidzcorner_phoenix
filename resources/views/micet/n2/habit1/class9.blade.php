@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul w-[40vw]">
             <li>To understand the sequence of the story "Candy Cat's
                 Fishing Adventure".</li>
             <li>To learn to retell the story "Candy Cat's Fishing Adventure".</li>
@@ -141,7 +141,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Have the children draw the scenes into the blank story cards on the last
                 activity page of the Thematic Activity Book, if they show interest in modifying
                 the story or adding in more scenes. Have the children cut out and combine

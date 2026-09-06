@@ -2,483 +2,485 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-$showBackground = false;
-$showVector1 = true;
-$showVector5 = false;
-$showMascot = true;
+    $showBackground = false;
+    $showVector1 = true;
+    $showVector5 = false;
+    $showMascot = true;
 @endphp
 
 
 @push('styles')
-<style>
-    .p-note {
-        font-size: 1.2vw;
-        color: white !important;
-    }
+    <style>
+        .p-note {
+            font-size: 1.2vw;
+            color: white !important;
+        }
 
-    .panel-title {
-        color: #F7B94A;
-        font-size: 2.2vw;
-    }
+        .panel-title {
+            color: #F7B94A;
+            font-size: 2.2vw;
+        }
 
-    .ptitle {
-        color: #F7B94A;
-        font-size: 1.7vw;
-    }
+        .ptitle {
+            color: #F7B94A;
+            font-size: 1.7vw;
+        }
 
-    .panel-ul {
-        color: white;
-        font-size: 1.4vw;
-        text-align: left;
-    }
-</style>
+        .panel-ul {
+            color: white;
+            font-size: 1.4vw;
+            text-align: left;
+        }
+    </style>
 @endpush
 
 @section('content')
 
-{{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: Musical Play - <br>
-        Goldilocks and the Three Bears</h1>
-    <div class="flex">
-        <img src="{{ asset('assets/images/micet/n2/fairy/class10/c1.png') }}" class="h-[7.3vw]" />
-        <img src="{{ asset('assets/images/micet/n2/fairy/class10/c2.png') }}" class="h-[7.3vw]" />
-        <img src="{{ asset('assets/images/micet/n2/fairy/class10/c3.png') }}" class="h-[8vw]" />
+    {{-- panel 1 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Musical Play - <br>
+            Goldilocks and the Three Bears</h1>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/n2/fairy/class10/c1.png') }}" class="h-[7.3vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fairy/class10/c2.png') }}" class="h-[7.3vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fairy/class10/c3.png') }}" class="h-[8vw]" />
+        </div>
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>To perform in a musical play</li>
+        </ul>
     </div>
-    <h3 class="ptitle">Objectives:</h3>
-
-    <ul class="list-disc panel-ul">
-        <li>To perform in a musical play</li>
-    </ul>
-</div>
 
 
-{{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Musical Play -
-        Goldilocks and the Three Bears</h1>
-    <div>
-        <h3 class="ptitle">Preparations</h3>
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Musical Play - <br>
+            Goldilocks and the Three Bears</h1>
+        <div>
+            <h3 class="ptitle">Preparations</h3>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Music from Activity 5</li>
-            <li>Percussion instruments from Activity 6</li>
-            <li>Masks made in Activity 8</li>
-            <li>The modified story from Activity 9</li>
+            <ol class="list-decimal panel-ul">
+                <li>Music from Activity 5</li>
+                <li>Percussion instruments from Activity 6</li>
+                <li>Masks made in Activity 8</li>
+                <li>The modified story from Activity 9</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Musical Play - <br>
+            Goldilocks and the Three Bears</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Display a set of story pictures from Activity 9. Ask children to tell the new
+                    version of the story with reference to the displayed story pictures.</li>
+                <li>Let the children know that they are going to perform a musical play of the
+                    new story.</li>
+                <li>Based on children's abilities and interests, choose four children to play the role
+                    of Goldilocks, Papa Bear, Mama Bear and Baby Bear. Organise the rest of the
+                    children into two groups. Have one group play the percussion instruments to
+                    accompany the play, and have the other group sing and dance to
+                    accompany the play.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Little Musician</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Play the music. Have the children rehearse their parts in groups. Teacher
+                walks around the class to guide each group on their part in the play.</li>
+            <li>After each group has ample rehearsals, have all the groups rehearse
+                together. Guide the children to cooperate in putting up the performance.</li>
         </ol>
+        <button class="w-[3.5vw] mt-[5vw] inline-flex items-center align-middle" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/micet/n2/sing-clap.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
-</div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: Musical Play -
-        Goldilocks and the Three Bears</h1>
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Little Musician</h1>
 
-    <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
-        <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Display a set of story pictures from Activity 9. Ask children to tell the new
-                version of the story with reference to the displayed story pictures.</li>
-            <li>Let the children know that they are going to perform a musical play of the
-                new story.</li>
-            <li>Based on children's abilities and interests, choose four children to play the role
-                of Goldilocks, Papa Bear, Mama Bear and Baby Bear. Organise the rest of the
-                children into two groups. Have one group play the percussion instruments to
-                accompany the play, and have the other group sing and dance to
-                accompany the play.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>When children are familiar with the sequence of their parts, let the
+                performance begin. Teacher can be the narrator and guide the children on
+                their parts. If possible, take some photos or video clips during the
+                performance.</li>
+            <li>If time permits, let children exchange their roles and repeat the performance.</li>
         </ol>
+        <button class="w-[3.5vw] mt-[5vw] inline-flex items-center align-middle" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/micet/n2/sing-clap.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
-</div>
 
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 6: Little Musician</h1>
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 10: Musical Play - <br>
+            Goldilocks and the Three Bears</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="4">
-        <li>Play the music. Have the children rehearse their parts in groups. Teacher
-            walks around the class to guide each group on their part in the play.</li>
-        <li>After each group has ample rehearsals, have all the groups rehearse
-            together. Guide the children to cooperate in putting up the performance.</li>
-    </ol>
-    <button id="sound-btn" class="w-[3vw]">
-        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-    </button>
-</div>
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
 
+            <ul class="list-disc panel-ul w-[50vw]">
+                <li>Have the children take turns to share their thoughts and experiences
+                    about the musical performance. Ask them whether they liked to take part
+                    in the performance or whether they would like to be the audience. Let them
+                    explain their preference.</li>
+                <li>Display the photos and play the video clips to help children
+                    revisit the learning experience.</li>
+            </ul>
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 6: Little Musician</h1>
+            <h3 class="ptitle">Evaluation</h3>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="4">
-        <li>When children are familiar with the sequence of their parts, let the
-            performance begin. Teacher can be the narrator and guide the children on
-            their parts. If possible, take some photos or video clips during the
-            performance.</li>
-        <li>If time permits, let children exchange their roles and repeat the performance.</li>
-    </ol>
-    <button id="sound-btn" class="w-[3vw]">
-        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-    </button>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[0.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Musical Play -
-        Goldilocks and the Three Bears</h1>
-
-    <div class="text-start flex flex-col justify-between h-full">
-        <h3 class="ptitle">Clousre</h3>
-
-        <ul class="list-disc panel-ul w-[50vw]">
-            <li>Have the children take turns to share their thoughts and experiences
-                about the musical performance. Ask them whether they liked to take part
-                in the performance or whether they would like to be the audience. Let them
-                explain their preference.</li>
-            <li>Display the photos and play the video clips to help children
-                revisit the learning experience.</li>
-        </ul>
-
-        <h3 class="ptitle">Evaluation</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to cooperate with classmates and participate actively in the
-                musical performance.</li>
-            <li>Able to try one's best to perform the given role.</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to cooperate with classmates and participate actively in the
+                    musical performance.</li>
+                <li>Able to try one's best to perform the given role.</li>
+            </ul>
+        </div>
     </div>
-</div>
 
 
-{{-- panel 28 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: Musical Play -
-        Goldilocks and the Three Bears</h1>
+    {{-- panel 28 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Musical Play - <br>
+            Goldilocks and the Three Bears</h1>
 
-    <div class="text-start flex flex-col">
-        <h3 class="ptitle">Extension</h3>
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite parents to watch their children perform the musical play.</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Invite parents to watch their children perform the musical play.</li>
+            </ul>
+        </div>
     </div>
-</div>
 
 
-{{-- =============================================== --}}
-{{-- All Buttons --}}
-<div id="buttons" class="absolute flex flex-row gap-6 z-90">
+    {{-- =============================================== --}}
+    {{-- All Buttons --}}
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-    <!-- Home Button -->
-    <button id="returnButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-    </button>
+        <!-- Home Button -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </button>
 
-    <!-- return Button -->
-    <button id="homeButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-    </button>
+        <!-- return Button -->
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
 
-    <!-- Close Button -->
-    <button id="closeButton">
+        <!-- Close Button -->
+        <button id="closeButton">
 
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-    </button>
-</div>
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
+    </div>
 
-{{-- Next and Done Buttons --}}
-<div class="down-btn-container">
-    <button class="nextButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-    </button>
-</div>
+    {{-- Next and Done Buttons --}}
+    <div class="down-btn-container">
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+        </button>
+    </div>
 
-<div class="down-btn-container">
-    <button class="doneButton hidden">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-    </button>
-</div>
+    <div class="down-btn-container">
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+        </button>
+    </div>
 @endsection
 
 @push('script')
-<script>
-    // SLIDE NAVIGATION SYSTEM
-    document.body.dataset.homeRoute = "{{ url('/micet') }}";
+    <script>
+        // SLIDE NAVIGATION SYSTEM
+        document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
 
-        // Get all elements
-        const slides = document.querySelectorAll(".phonics-panel");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton");
-        const infoButtons = document.querySelectorAll("[class*='info-btn']");
-        const soundButtons = document.querySelectorAll("[id^='soundButton']");
+            // Get all elements
+            const slides = document.querySelectorAll(".phonics-panel");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
+            const infoButtons = document.querySelectorAll("[class*='info-btn']");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-        // URLs for navigation
-        const returnURL = "{{ url('/micet/n2/fairy/index') }}";
-        const doneURL = "{{ url('/micet/n2/fairy/index') }}";
+            // URLs for navigation
+            const returnURL = "{{ url('/micet/n2/fairy/index') }}";
+            const doneURL = "{{ url('/micet/n2/fairy/index') }}";
 
-        // Track current position
-        let currentSlide = 0;
-        let isInSpecialMode = false;
-        let returnToSlide = null;
-        let specialSlideClass = null;
+            // Track current position
+            let currentSlide = 0;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
+            let specialSlideClass = null;
 
-        // Audio management
-        let currentAudio = null;
+            // Audio management
+            let currentAudio = null;
 
-        // HELPER FUNCTIONS
+            // HELPER FUNCTIONS
 
-        function isSpecialSlide(slide) {
-            const classList = Array.from(slide.classList);
-            return classList.some(cls => /^info-panel-\d+$/.test(cls));
-        }
-
-        function getSlideTypeFromButton(button) {
-            const classList = Array.from(button.classList);
-
-            for (let className of classList) {
-                if (className.startsWith('info-btn')) {
-                    const number = className.replace('info-btn', '');
-                    return 'info-panel-' + number;
-                }
+            function isSpecialSlide(slide) {
+                const classList = Array.from(slide.classList);
+                return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
-            return null;
-        }
 
-        function hasMoreSpecialSlides(fromIndex) {
-            if (!specialSlideClass) return false;
+            function getSlideTypeFromButton(button) {
+                const classList = Array.from(button.classList);
 
-            for (let i = fromIndex + 1; i < slides.length; i++) {
-                if (slides[i].classList.contains(specialSlideClass)) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        function isLastSlide(slideIndex) {
-            if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-
-            if (!isInSpecialMode) {
-                for (let i = slideIndex + 1; i < slides.length; i++) {
-                    if (!isSpecialSlide(slides[i])) {
-                        return false;
+                for (let className of classList) {
+                    if (className.startsWith('info-btn')) {
+                        const number = className.replace('info-btn', '');
+                        return 'info-panel-' + number;
                     }
                 }
-                return true;
+                return null;
             }
 
-            return false;
-        }
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!specialSlideClass) return false;
 
-        // AUDIO FUNCTIONS
-
-        function stopCurrentAudio() {
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        return true;
+                    }
+                }
+                return false;
             }
-        }
 
-        function playSlideAudio(slideIndex) {
-            // Stop any currently playing audio
-            stopCurrentAudio();
+            function isLastSlide(slideIndex) {
+                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-            // Get the slide element
-            const slide = slides[slideIndex];
+                if (!isInSpecialMode) {
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
 
-            // Check if the slide itself has data-slide-audio attribute
-            let audioSrc = slide.getAttribute('data-slide-audio');
+                return false;
+            }
 
-            // If not, look for element inside the slide with data-slide-audio attribute
-            if (!audioSrc) {
-                const audioElement = slide.querySelector('[data-slide-audio]');
-                if (audioElement) {
-                    audioSrc = audioElement.getAttribute('data-slide-audio');
+            // AUDIO FUNCTIONS
+
+            function stopCurrentAudio() {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
                 }
             }
 
-            // Play the audio if we found a source
-            if (audioSrc) {
-                currentAudio = new Audio(audioSrc);
-                currentAudio.play().catch(err => console.log('Audio play failed:', err));
-            }
-        }
+            function playSlideAudio(slideIndex) {
+                // Stop any currently playing audio
+                stopCurrentAudio();
 
+                // Get the slide element
+                const slide = slides[slideIndex];
 
-        // DISPLAY FUNCTIONS
+                // Check if the slide itself has data-slide-audio attribute
+                let audioSrc = slide.getAttribute('data-slide-audio');
 
-        function showSlide(slideIndex) {
-            // Stop audio from previous slide
-            stopCurrentAudio();
-
-            // Hide all slides, show only current one
-            slides.forEach((slide, index) => {
-                if (index === slideIndex) {
-                    slide.classList.remove("hidden");
-                } else {
-                    slide.classList.add("hidden");
+                // If not, look for element inside the slide with data-slide-audio attribute
+                if (!audioSrc) {
+                    const audioElement = slide.querySelector('[data-slide-audio]');
+                    if (audioElement) {
+                        audioSrc = audioElement.getAttribute('data-slide-audio');
+                    }
                 }
-            });
 
-            // Play audio for current slide (if it has one)
-            playSlideAudio(slideIndex);
-
-            // Show "Done" button on last slide, otherwise show "Next"
-            if (isLastSlide(slideIndex)) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
-            } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
-            }
-        }
-
-        soundButtons.forEach(btn => {
-            btn.addEventListener("click", (e) => {
-                e.preventDefault();
-
-                // Get audio source from data-slide-audio attribute
-                const audioSrc = btn.getAttribute('data-slide-audio');
-
+                // Play the audio if we found a source
                 if (audioSrc) {
-                    stopCurrentAudio();
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
-            });
-        });
-        // NAVIGATION FUNCTIONS
+            }
 
-        function goNext() {
-            if (currentSlide >= slides.length - 1) return;
 
-            currentSlide++;
+            // DISPLAY FUNCTIONS
 
-            while (currentSlide < slides.length) {
-                const slide = slides[currentSlide];
+            function showSlide(slideIndex) {
+                // Stop audio from previous slide
+                stopCurrentAudio();
 
-                if (isInSpecialMode) {
-                    if (slide.classList.contains(specialSlideClass)) break;
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.classList.remove("hidden");
+                    } else {
+                        slide.classList.add("hidden");
+                    }
+                });
+
+                // Play audio for current slide (if it has one)
+                playSlideAudio(slideIndex);
+
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    if (!isSpecialSlide(slide)) break;
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
+            }
+
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Get audio source from data-slide-audio attribute
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+            });
+            // NAVIGATION FUNCTIONS
+
+            function goNext() {
+                if (currentSlide >= slides.length - 1) return;
 
                 currentSlide++;
-            }
 
-            if (currentSlide < slides.length) {
-                showSlide(currentSlide);
-            }
-        }
+                while (currentSlide < slides.length) {
+                    const slide = slides[currentSlide];
 
-        function goBack() {
-            if (currentSlide === 0 && !isInSpecialMode) {
-                stopCurrentAudio();
-                window.location.href = returnURL;
-                return;
-            }
-
-            if (isInSpecialMode) {
-                let previousIndex = currentSlide - 1;
-
-                while (previousIndex >= 0) {
-                    if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                        break;
+                    if (isInSpecialMode) {
+                        if (slide.classList.contains(specialSlideClass)) break;
+                    } else {
+                        if (!isSpecialSlide(slide)) break;
                     }
-                    previousIndex--;
+
+                    currentSlide++;
                 }
 
-                if (previousIndex >= 0) {
-                    currentSlide = previousIndex;
+                if (currentSlide < slides.length) {
                     showSlide(currentSlide);
+                }
+            }
+
+            function goBack() {
+                if (currentSlide === 0 && !isInSpecialMode) {
+                    stopCurrentAudio();
+                    window.location.href = returnURL;
+                    return;
+                }
+
+                if (isInSpecialMode) {
+                    let previousIndex = currentSlide - 1;
+
+                    while (previousIndex >= 0) {
+                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                            break;
+                        }
+                        previousIndex--;
+                    }
+
+                    if (previousIndex >= 0) {
+                        currentSlide = previousIndex;
+                        showSlide(currentSlide);
+                    } else {
+                        currentSlide = returnToSlide;
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        returnToSlide = null;
+                        showSlide(currentSlide);
+                    }
                 } else {
+                    if (currentSlide > 0) {
+                        currentSlide--;
+
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+
+                        showSlide(currentSlide);
+                    }
+                }
+            }
+
+            function handleDone() {
+                stopCurrentAudio();
+
+                if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                }
-            } else {
-                if (currentSlide > 0) {
-                    currentSlide--;
-
-                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
-                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
                 }
             }
-        }
 
-        function handleDone() {
-            stopCurrentAudio();
+            // EVENT LISTENERS
 
-            if (isInSpecialMode && returnToSlide !== null) {
-                currentSlide = returnToSlide;
-                isInSpecialMode = false;
-                specialSlideClass = null;
-                returnToSlide = null;
-                showSlide(currentSlide);
-            } else {
-                window.location.href = doneURL;
-            }
-        }
+            infoButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
 
-        // EVENT LISTENERS
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = getSlideTypeFromButton(button);
 
-        infoButtons.forEach(button => {
-            button.addEventListener("click", function(e) {
-                e.preventDefault();
-
-                returnToSlide = currentSlide;
-                isInSpecialMode = true;
-                specialSlideClass = getSlideTypeFromButton(button);
-
-                for (let i = 0; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        currentSlide = i;
-                        showSlide(currentSlide);
-                        break;
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
-                }
+                });
             });
-        });
 
-        nextButtons.forEach(btn => {
-            btn.addEventListener("click", goNext);
-        });
-
-        if (returnButton) {
-            returnButton.addEventListener("click", goBack);
-        }
-
-        if (doneButton) {
-            doneButton.addEventListener("click", handleDone);
-        }
-
-        const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-        letterLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const letter = link.getAttribute('data-letter') || 'a';
-                speakLetter(letter);
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goNext);
             });
+
+            if (returnButton) {
+                returnButton.addEventListener("click", goBack);
+            }
+
+            if (doneButton) {
+                doneButton.addEventListener("click", handleDone);
+            }
+
+            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+            letterLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const letter = link.getAttribute('data-letter') || 'a';
+                    speakLetter(letter);
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
+
+            // INITIALIZE - Show first slide and play its audio automatically
+            showSlide(currentSlide);
         });
-
-        window.speechSynthesis.onvoiceschanged = () => {
-            window.speechSynthesis.getVoices();
-        };
-
-        // INITIALIZE - Show first slide and play its audio automatically
-        showSlide(currentSlide);
-    });
-</script>
+    </script>
 @endpush

@@ -60,12 +60,12 @@
 
         <div>
             <h3 class="ptitle">Preparations</h3>
-            
-            <ul class="list-disc panel-ul w-[45vw]">
-            <li>Thematic Activity Book</li>
-            <li>Create some simple movements to accompany the song
-                (e.g. place both hands in front of the body in rocking
-                position, sway the body, bend over, lie on the floor, etc.)</li>
+
+            <ul class="list-disc panel-ul w-[40vw]">
+                <li>Thematic Activity Book</li>
+                <li>Create some simple movements to accompany the song
+                    (e.g. place both hands in front of the body in rocking
+                    position, sway the body, bend over, lie on the floor, etc.)</li>
             </ul>
         </div>
     </div>
@@ -83,7 +83,7 @@
                     Baby". Discuss what the song is about.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class7/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class7/c1.png') }}" class="w-[27vw]" />
     </div>
 
 
@@ -98,7 +98,7 @@
             <li>Ask children: Have you seen a cradle? Where did you see it? What does it
                 look like? How does it move?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class7/c2.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n2/rhymes/class7/c2.png') }}" class="h-[17vw]" />
     </div>
 
 
@@ -153,8 +153,9 @@
             <li> When children are familiar with the lyrics, let them learn to sing the song. </li>
         </ol>
         <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/rock.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
                 Rock-a-bye, baby, <br>
@@ -171,7 +172,7 @@
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
@@ -179,8 +180,9 @@
                 movements planned beforehand.</li>
         </ol>
         <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/rock.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
                 Rock-a-bye, baby, <br>
@@ -204,8 +206,9 @@
             <li>Guide children to sing the song and move to the rhythm of the song.</li>
         </ol>
         <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/rock.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
                 Rock-a-bye, baby, <br>
@@ -225,7 +228,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -255,7 +258,7 @@
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 7: Rock-A-Bye, Baby</h1>
 
         <div class="text-start flex flex-col">

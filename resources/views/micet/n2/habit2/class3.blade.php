@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.2vw;
+            font-size: 2vw;
         }
 
         .ptitle {
@@ -41,10 +41,10 @@
         <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
         <div class="flex ">
             <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
-        </div>
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
+            </div>
         </div>
 
 
@@ -87,7 +87,7 @@
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Ask children: Why do we eat? What will happen if we stopped eating? Guide
                     children to understand that food gives us all the nutrients that our body needs
                     to live and grow. If we stopped eating, we will be hungry; we will have no
@@ -103,7 +103,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Ask children: What is junk food? Guide children to understand that food such
                 as sweets, potato chips and ice cream are junk food. We usually eat them in
                 between meals.</li>
@@ -118,7 +118,7 @@
     <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Inform children that they are going to experience being overweight.</li>
             <li>Guide children to understand that when people put on weight, most of the
                 weight gained is added around their waists, arms and thighs.</li>
@@ -132,7 +132,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Let children walk around with the weights and describe the feeling of being
                 overweight. Ask the following questions to help children express how they feel:
                 <ul>
@@ -151,7 +151,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Three Meals a Day and Less Junk Food</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
             <li>Organise children into groups and distribute the sand bags and towels. Have
                 children take turns experiencing being overweight.</li>
             <li>Let children discuss if they should eat junk food and why. Explain that junk

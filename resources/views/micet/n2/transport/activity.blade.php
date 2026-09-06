@@ -313,7 +313,7 @@
             <h3 class="ptitle">Activity 5: Submarine game</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/transport/activity/c5.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/n2/transport/activity/c6.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="panel-ul w-[30vw]">

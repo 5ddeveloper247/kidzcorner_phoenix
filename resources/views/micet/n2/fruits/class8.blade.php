@@ -49,7 +49,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Learn to make a fruit headband</li>
             <li>Develop fine and gross motor skills</li>
             <li>Improve communication and interaction with others</li>

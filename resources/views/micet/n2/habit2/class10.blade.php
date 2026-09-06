@@ -130,7 +130,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>If time permits, ask children to exchange their roles and continue their role
                 play.</li>
         </ol>
@@ -141,7 +141,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: Doctor Owl’s Clinic</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

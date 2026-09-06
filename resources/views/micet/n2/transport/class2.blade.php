@@ -209,7 +209,7 @@
 
 
     {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
 
         <div class="text-start flex flex-col">

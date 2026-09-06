@@ -47,7 +47,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Learn to sing the song "I'm A Little Teapot"</li>
             <li>Learn to sing and move to the rhythm of the song</li>
         </ul>
@@ -61,7 +61,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
                 <li>Create some simple movements to accompany the song
                     (e.g. place one hand at the waist to form the handle, the
@@ -79,7 +79,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Click to play the animation. Let the children listen to the song "I'm A Little
                     Teapot". Discuss what the song is about.</li>
             </ol>
@@ -92,7 +92,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Ask children: What is this? What is its use? Have you seen it before?</li>
         </ol>
 
@@ -105,7 +105,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Guide children to understand that a teapot is a vessel used to make tea.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/rhymes/class8/c3.png') }}" class="h-[20vw]" />
@@ -116,7 +116,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Read out and explain the lyrics to the children. Invite the children to recite the
                 lyrics together.</li>
         </ol>
@@ -136,12 +136,13 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>When children are familiar with the lyrics, let them learn to sing the song.</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        <div class="flex gap-[2vw] items-start mt-[2vw]">
+            <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/little-teapot.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
                 I'm a little teapot <br>
@@ -160,13 +161,14 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Demonstrate how to sing and move to the rhythm of the song with the simple
                 movements planned beforehand.</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        <div class="flex gap-[2vw] items-start mt-[2vw]">
+            <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/little-teapot.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
                 I'm a little teapot <br>
@@ -185,12 +187,13 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Guide children to sing the song and move to the rhythm of the song.</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        <div class="flex gap-[2vw] items-start mt-[2vw]">
+            <button id="soundButton" class="inline-flex items-center w-[3.5vw] align-middle"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/little-teapot.mp3') }}">
+                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="w-full h-auto" alt="Sound" />
             </button>
             <h4 class="text-white text-[2vw] text-start">
                 I'm a little teapot <br>
@@ -239,7 +242,7 @@
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
         <h1 class="panel-title stroke">Classroom Activity 8: I’m a Little Teapot</h1>
 
         <div class="text-start flex flex-col">

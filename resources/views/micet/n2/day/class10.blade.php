@@ -96,7 +96,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c1.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -107,7 +107,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c2.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -118,7 +118,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c3.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -129,7 +129,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c4.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -140,7 +140,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c5.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c5.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -151,7 +151,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c6.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c6.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -162,7 +162,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c7.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c7.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -173,7 +173,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/day/class10/c8.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c8.png') }}" class="w-[35vw]" />
     </div>
 
 

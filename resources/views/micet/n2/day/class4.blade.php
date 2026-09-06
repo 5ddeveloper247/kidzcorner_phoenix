@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Understand time in sequence, develop concept of time</li>
             <li>Develop body co-ordination skills and responsiveness</li>
             <li>Learn to follow the rules of the game</li>
@@ -80,7 +80,7 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Display a clock. Set the time to 6 o'clock. Ask children: What time is it? What
                     would you do at 6 o'clock in the morning?</li>
                 <li>Set the time to 10 o'clock. Ask children: What time is it? What would you do
@@ -96,7 +96,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Next, set the time in sequence from day to night, start from 6 o'clock in the
                 morning, and have children tell the time. Guide children to understand time
                 in sequence.</li>
@@ -108,7 +108,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Bring children to the field to play the game "What's the time, Mr Wolf?". Tell
                 children that all the little animals are out to play during the day but have to
                 go home at night, or else they will be eaten by Mr Wolf.</li>
@@ -159,7 +159,7 @@
 
     {{-- panel 42 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

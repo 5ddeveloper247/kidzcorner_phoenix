@@ -84,7 +84,8 @@
                 <li>Let the children describe the movements of this animal.</li>
             </ol>
         </div>
-        <button class="w-[5vw] mt-[7vw]" id="soundButton">
+        <button class="w-[5vw] mt-[7vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/micet/n2/duck.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -118,7 +119,8 @@
             <li>Let the children describe the movements of this animal.</li>
         </ol>
 
-        <button class="w-[5vw] mt-[7vw]" id="soundButton">
+        <button class="w-[5vw] mt-[7vw]" id="soundButton"
+        data-slide-audio="{{ asset('assets/audio/micet/n2/sealion.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -152,7 +154,8 @@
             <li>Let the children describe the movements of this animal.</li>
         </ol>
 
-        <button class="w-[5vw] mt-[7vw]" id="soundButton">
+        <button class="w-[5vw] mt-[7vw]" id="soundButton"
+        data-slide-audio="{{ asset('assets/audio/micet/n2/elephant.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

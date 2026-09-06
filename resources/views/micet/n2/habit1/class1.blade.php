@@ -23,7 +23,7 @@
 
         title {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
 
         .ptitle {
@@ -83,7 +83,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -107,14 +107,14 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">It is a sunny day, Mummy Cat decides to take Candy Cat to the river to <br>
             teach herto fish. Candy is happy that she is going to learn a new skill.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c2.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What equipment is needed for fishing?<br>
                 <span class="text-[#f7b94a]">Guide the children in identifying the equipment needed for fishing.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -123,7 +123,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">On the way, Candy meets Robbie Rooster and Rosie Rabbit. Candy <br>
             invites them to go fishing but they say they have to finish their work first.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c3.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -131,7 +131,7 @@
                 <span class="text-[#f7b94a]">Encourage the children to decide and explain the reasons for their
                     choice.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -141,7 +141,7 @@
         <h3 class="p-title">At the river, Candy leamns to fish from her mother. Not long after, Mary <br>
             Mantis comes by. Candy puts down the fishing rod and dances with <br>
             Mary Mantis.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c4.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -150,7 +150,7 @@
                     <br>
                     do it half-heartedly.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -159,14 +159,14 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h3 class="p-title">Just as Candy is about to sit down after dancing, a dragonfly flies <br>
             around it. Candy then plays with the dragonfly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c5.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 What is special about dragonflies?<br>
                 <span class="text-[#f7b94a]">Explain the characteristics of dragonflies to the children.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -183,7 +183,7 @@
                 <span class="text-[#f7b94a]">Explain and teach the children the importance of putting effort
                     in the things we do.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -193,7 +193,7 @@
         <h3 class="p-title">Just then, a beautiful butterfly flies by. Candy puts down the fishing rod <br>
             again and starts to chase the butterfly. Candy accidentally falls into the <br>
             river while running.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -201,7 +201,7 @@
                 <span class="text-[#f7b94a]">Explain to the children the dangers of not been observant
                     when running.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -218,17 +218,17 @@
                 Do you think Candy will concentrate on fishing on the next trip?<br>
                 <span class="text-[#f7b94a]">Guide the children in predicting the ending of the story.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-3vw]">
         <h3 class="p-title">Candy decides to concentrate on catching a fish. She does not play <br>
             with the dragonfly or butterfly when they fly by again. Finally, Candy <br>
             manages to catch a big fish!</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c9.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c9.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -236,7 +236,10 @@
                 <span class="text-[#f7b94a]">Guide the children in understanding that they have concentrate and <br>
                     put in effort in orderto leam a skill.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 

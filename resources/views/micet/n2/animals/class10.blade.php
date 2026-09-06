@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.2vw;
+            font-size: 2.1vw;
         }
 
         .ptitle {
@@ -64,7 +64,7 @@
 
         <h3 class="ptitle">Preparations</h3>
 
-        <ol class="list-decimal panel-ul">
+        <ol class="list-disc panel-ul">
             <li>Thematic Activity Book</li>
         </ol>
     </div>
@@ -92,7 +92,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Divide the children into few groups. Have each group discuss and decide
                 what animal they want to be. Let them inform the teacher of their decision. The
                 teacher can make sure that each group represents a different animal.</li>
@@ -114,6 +114,10 @@
                 performance to the tune of the song.</li>
             <li>Let each group take turns to perform for the class.</li>
         </ol>
+
+        <button class="w-[3.5vw] mt-[6vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n2/star-singer.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
@@ -121,7 +125,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -484,6 +488,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

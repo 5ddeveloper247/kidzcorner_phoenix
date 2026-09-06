@@ -61,7 +61,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
                 <li>Print the outline picture of a sheep (refer to lesson
                     development) beforehand</li>
@@ -80,12 +80,13 @@
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Let the children state some of the characteristics of lamb's wool (such as its
                     colour, and length; Guide them to know that the fleece or wool is long and
                     thick. Help them understand that when wool is cut close to the skin of the
                     sheep, the whole lot tends to hang together in one piece and is called
-                    'fleece'.)</li>
+                    'fleece'.)
+                </li>
             </ol>
         </div>
     </div>
@@ -95,7 +96,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Distribute an outline picture of a sheep to each child (or use the thematic
                 activity book). Let the children choose the coloured wool/ tissue that they like
                 and paste it onto the body of the sheep.</li>
@@ -108,7 +109,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Demonstrate how to paste the wool: Tear cotton wool (or tissue paper) into
                 small strips, place some glue on one end of each strip and paste them onto
                 the body of the sheep.</li>
@@ -123,7 +124,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -132,19 +133,19 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Display all the artworks. Encourage children to look at
                     each other's artwork and appreciate it.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Able to paste the wool and make their own sheep
                     independently.</li>
             </ul>
@@ -153,13 +154,13 @@
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Lambs Have Long Wool</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Invite the children to refer to their artwork and sing a new
                     song. For e.g. "Johnny has a rainbow lamb, rainbow lamb,
                     rainbow lamb; Johnny has a rainbow lamb, its fleece is

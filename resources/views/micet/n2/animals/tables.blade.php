@@ -40,7 +40,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
-        <ol class="list-decimal panel-ul">
+        <ol class="list-decimal panel-ul w-[50vw]">
             <li>Identify some animals and know their characteristics</li>
             <li>Explore the concept of "more" and "less"</li>
             <li>Understand the characteristics of animals that live on land, in
@@ -55,7 +55,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -63,7 +63,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/tables/t2.png') }}" class="h-[25vw]" />
 
     </div>
 

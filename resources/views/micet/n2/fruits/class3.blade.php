@@ -49,7 +49,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[35vw]">
             <li>Make connections between the shapes of objects and their shadows</li>
             <li>Identify the fruit based on its shadow</li>
         </ul>
@@ -63,7 +63,7 @@
         <div>
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
                 <li>A variety of fruits or fruits toys</li>
                 <li>A table lamp ( Experiment beforehand to find out the best
@@ -81,7 +81,7 @@
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Review with the children what happened when the scarecrow and his friends
                     were playing hide-and-seek. Ask children to explain how the scarecrow
                     managed to find his friends. Guide children to understand that by looking at
@@ -96,7 +96,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Let the children observe the shape of the shadow. Ask them to guess the fruit.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c1.png') }}" class="h-[20vw]" />
@@ -106,7 +106,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Ask the children: "Did you guess the fruit right?"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c2.png') }}" class="w-[30vw]" />
@@ -116,7 +116,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Let the children observe the shape of the shadow. Ask them to guess the fruit.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c3.png') }}" class="h-[20vw]" />
@@ -126,7 +126,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Ask the children: "Did you guess the fruit right?"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c4.png') }}" class="h-[20vw]" />
@@ -136,7 +136,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Let the children observe the shape of the shadow. Ask them to guess the fruit.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c5.png') }}" class="h-[20vw]" />
@@ -146,7 +146,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Ask the children: "Did you guess the fruit right?"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c6.png') }}" class="w-[30vw]" />
@@ -156,7 +156,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Let the children observe the shape of the shadow. Ask them to guess the fruit.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c7.png') }}" class="h-[20vw]" />
@@ -166,7 +166,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
             <li>Ask the children: "Did you guess the fruit right?"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c8.png') }}" class="w-[30vw]" />
@@ -176,7 +176,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Let the children observe the shape of the shadow. Ask them to guess the fruit.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c9.png') }}" class="h-[20vw]" />
@@ -186,7 +186,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Ask the children: "Did you guess the fruit right?"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c10.png') }}" class="w-[30vw]" />
@@ -196,7 +196,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
             <li>Let the children observe the shape of the shadow. Ask them to guess the fruit.</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c11.png') }}" class="h-[20vw]" />
@@ -206,7 +206,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
             <li>Ask the children: "Did you guess the fruit right?"</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n2/fruits/class3/c12.png') }}" class="w-[30vw]" />
@@ -216,7 +216,7 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Let’s Find and Colour</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
             <li>Use the table lamp to shine at different fruits one at a time and get the children
                 to observe the shadows formed.</li>
             <li>Ask children to draw any fruit shadow based on their observations on a A4 size

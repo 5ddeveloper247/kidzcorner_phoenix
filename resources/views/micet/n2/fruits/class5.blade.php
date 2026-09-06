@@ -48,7 +48,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[40vw]">
             <li>Learn that most fruits are sweet</li>
             <li>Learn that most fruits are juicy and have three parts: skin,
                 flesh and seed</li>
@@ -64,7 +64,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
                 <li>One set of different types of fruits for each group (Choose fruits with
                     some obvious differences in skin, flesh and seed e.g. apples, oranges,
@@ -88,7 +88,7 @@
                     eaten after meals)</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c1.png') }}" class="w-[27vw]" />
     </div>
 
 
@@ -103,7 +103,7 @@
                 fruits that are sweet in the box on the left and fruits that have other tastes in the
                 box on the right.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c2.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c2.png') }}" class="h-[17vw]" />
 
     </div>
 
@@ -115,7 +115,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Ask children to describe what is inside most of the fruits.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c1.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -258,7 +258,7 @@
                 the fruit such as skin, flesh and seed and describe them in terms of the colour,
                 size, taste, etc.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c13.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c13.png') }}" class="h-[17vw]" />
     </div>
 
 
@@ -272,7 +272,7 @@
                 the fruit such as skin, flesh and seed and describe them in terms of the colour,
                 size, taste, etc.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c14.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fruits/class5/c14.png') }}" class="h-[17vw]" />
     </div>
 
 

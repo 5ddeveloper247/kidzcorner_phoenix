@@ -60,7 +60,7 @@
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>
                     Before the lesson, ask the class:
-                    <ol class="list-disc">
+                    <ol class="list-[lower-alpha] pl-[2vw]">
                         <li>What is your favourite fruit? What do you like about it?</li>
                         <li>Name the fruits that you know. How do they look like? How do they taste?</li>
                         <li>What is a tropical fruit?</li>
@@ -70,7 +70,7 @@
                 <li>
                     Invite children to answer the questions posed. Guide the class in the use of the
                     courseware to locate answers to the following questions:
-                    <ol class="list-disc">
+                    <ol class="list-[lower-alpha] pl-[2vw]">
                         <li>Who did the scarecrow make friends with?</li>
                         <li>What game did the scarecrow and his fruit friends play?</li>
                         <li>Do you know how rambutans look like?</li>
@@ -88,7 +88,7 @@
         <div class="text-start space-y-[1vw]">
             <h3 class="ptitle">Activity 1: Story - Uncle Lee’s fruit trees</h3>
 
-            <div class="flex justify-center items-center gap-[3vw]">
+            <div class="flex justify-center gap-[3vw]">
                 <img src="{{ asset('assets/images/micet/n2/fruits/activity/c2.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
@@ -109,16 +109,18 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Computer Activities: First Day at School</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="ptitle">Story</h3>
 
-            <p class="panel-ul">Uncle Lee has brought his dog to the vet. He had instructed the workers in
+            <p class="panel-ul w-[50vw]">
+                Uncle Lee has brought his dog to the vet. He had instructed the workers in
                 the orchard to pluck the fruits. The workers are lazy and fall asleep. The
                 scarecrow seizes the chance to look for the fruits: rambutan, banana,
                 jackfruit, durian and watermelon to play hide-and-seek with. The workers
                 wake up just as the game finishes. Uncle Lee is coming back soon, but none
                 of the fruits have been plucked. The story includes three "finding friends"
-                games; selecting ladders, counting watermelons and looking at shadows.</p>
+                games; selecting ladders, counting watermelons and looking at shadows.
+            </p>
         </div>
     </div>
 
@@ -129,7 +131,7 @@
         <div class="text-start space-y-[2vw]">
             <h3 class="ptitle">Activity 2: Children’s number song</h3>
 
-            <div class="flex justify-center items-center gap-[3vw]">
+            <div class="flex justify-center gap-[3vw]">
                 <img src="{{ asset('assets/images/micet/n2/fruits/activity/c3.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
@@ -157,7 +159,7 @@
         <div class="text-start space-y-[2vw]">
             <h3 class="ptitle">Activity 3: Let's join them together</h3>
 
-            <div class="flex justify-center items-center gap-[3vw]">
+            <div class="flex justify-center gap-[3vw]">
                 <img src="{{ asset('assets/images/micet/n2/fruits/activity/c4.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
@@ -181,29 +183,29 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Computer Activities: Uncle Lee’s Fruit Trees</h1>
 
-        <div class="text-start">
-            <h3 class="ptitle">Activity 4: Let’s match them</h3>
+        <div class="flex gap-[3vw]">
+            <div>
+                <h3 class="ptitle">Activity 4: Let’s match them</h3>
+                <img src="{{ asset('assets/images/micet/n2/fruits/activity/c5.png') }}" class="w-[25vw]" />
+            </div>
 
-            <div class="flex justify-center items-center gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/fruits/activity/c5.png') }}" class="w-[20vw]" />
-                <div>
-                    <h3 class="ptitle">Objectives</h3>
-                    <ul class="list-disc panel-ul w-[25vw]">
-                        <li>Recognise the relationship between interior and
-                            exterior of fruits through matching games</li>
-                        <li>Develop short-term memory skills</li>
-                    </ul>
-                    <h3 class="ptitle">Process</h3>
-                    <ul class="panel-ul w-[30vw]">
-                        <li>First, the children look at pictures
-                            showing the exterior and cross sections
-                            of the fruits, or the pictures of the fruits
-                            and their names. Then, the pictures will
-                            be turned, face-down. Children are
-                            required to find the matching pairs for
-                            each fruit, by playing a memory game.</li>
-                    </ul>
-                </div>
+            <div class="text-start">
+                <h3 class="ptitle">Objectives</h3>
+                <ul class="list-disc panel-ul w-[25vw]">
+                    <li>Recognise the relationship between interior and
+                        exterior of fruits through matching games</li>
+                    <li>Develop short-term memory skills</li>
+                </ul>
+                <h3 class="ptitle">Process</h3>
+                <ul class="panel-ul w-[30vw]">
+                    <li>First, the children look at pictures
+                        showing the exterior and cross sections
+                        of the fruits, or the pictures of the fruits
+                        and their names. Then, the pictures will
+                        be turned, face-down. Children are
+                        required to find the matching pairs for
+                        each fruit, by playing a memory game.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -216,7 +218,7 @@
         <div class="text-start space-y-[2vw]">
             <h3 class="ptitle">Activity 5: Spot the differences</h3>
 
-            <div class="flex justify-center items-center gap-[3vw]">
+            <div class="flex justify-center gap-[3vw]">
                 <img src="{{ asset('assets/images/micet/n2/fruits/activity/c6.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
