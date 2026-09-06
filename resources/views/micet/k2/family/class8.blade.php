@@ -75,7 +75,11 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li><span>Let the children listen to the 'Happy family' song.</span></li>
+                <li><span>Let the children listen to the 'Happy family' song.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/family/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></span></li>
                 <li>Guide the children to recite the lyrics according to the rhythm of the song.</li>
             </ol>
         </div>
@@ -95,7 +99,11 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Ask the children to explain the meaning of the lyrics. Encourage them to talk about their feelings for their
                 family.</li>
-            <li><span>Invite the children to sing along with the teacher.</span></li>
+            <li><span>Invite the children to sing along with the teacher.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/family/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></span></li>
         </ol>
 
         <h4 class="text-white text-[2.2vw] text-start">
@@ -290,6 +298,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

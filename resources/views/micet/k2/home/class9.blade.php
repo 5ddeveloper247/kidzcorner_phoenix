@@ -77,9 +77,11 @@ $showMascot = true;
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Play recording of the "Mr Giant" song.<button class="w-[2.5vw]" id="sound-btn">
+            <li>Play recording of the "Mr Giant" song.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/home/m1.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button></li>
+                </button>
+            </span></li>
         </ol>
     </div>
 </div>
@@ -91,9 +93,11 @@ $showMascot = true;
 
     <ol class="list-decimal panel-ul w-[45vw]" start="3">
         <li>Ask the children to describe Fairy Tale Land that Mr Giant lives in.</li>
-        <li>Teach the children to sing "Mr Giant" song and do the corresponding movements.<button class="w-[2.5vw]" id="sound-btn">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button></li>
+        <li>Teach the children to sing "Mr Giant" song and do the corresponding movements.<span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/k2/home/m1.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </span></li>
     </ol>
 
     <h4 class="text-white text-[2vw] text-justify">
@@ -126,7 +130,7 @@ $showMascot = true;
         <li>Encourage each group of children to discuss how to substitute words in the lyrics with the various living environments. Teacher helps the groups to write the lyrics on big papers. For example,</li>
     </ol>
     <div>
-        <h4 class="text-white text-[1.5vw] text-justify">
+        <h4 class="text-white text-[1.8vw] text-justify">
             I'm an Eskimo, I am. <br>
             Living here in the Artic land.<br>
             Let me tell you where I live.<br>
@@ -312,6 +316,7 @@ $showMascot = true;
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
+                currentAudio = null;
             }
         }
 
