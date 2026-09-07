@@ -49,7 +49,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: A Happy Yellow Duckling</h1>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-[1vw]">
             <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
@@ -100,7 +100,7 @@
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">A Happy Yellow Duckling</h1>
 
         <h3 class="p-title">Theme: The Word Of Insects</h3>
@@ -109,7 +109,7 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">Yellow Duckling likes to help people. One day, Yellow Duckling decides <br>
             to visit sick Grandma Bear and bring her a basket of duck eggs. <br>
             She invites Candy to join her.</h3>
@@ -120,13 +120,13 @@
                 Have you visited any sick people before? Were they happy to see you?<br>
                 <span class="text-[#f7b94a]">Introduce the concept of helping others.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[4vw]" />
         </div>
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">On the way, they see many beautiful butterflies in the vegetable plot. <br>
             The butterflies are busy pollinating the flowers.</h3>
         <img src="{{ asset('assets/images/micet/k1/insects/class1/c3.png') }}" class="w-[30vw]" />
@@ -136,13 +136,13 @@
                 Why do butterflies pollinate flowers? Which other insects pollinate ?<br>
                 <span class="text-[#f7b94a]">Help children to be aware of pollination and the ways of pollination.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[4vw]" />
         </div>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">Soon, they come to a paddy field. They see grasshoppers eating the <br>
             grains. Luckily, the rooster is quick in catching the greedy pests.</h3>
         <img src="{{ asset('assets/images/micet/k1/insects/class1/c4.png') }}" class="w-[30vw]" />
@@ -153,13 +153,13 @@
                 <span class="text-[#f7b94a]">Help children to understand the concept of "useful inse cts" and
                     "pests".</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[4vw]" />
         </div>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">As they pass by the cotton field, they see many aphids eating the <br>
             cotton. However, the seven-spot ladybugs scurry over in time and eat <br>
             the aphids.</h3>
@@ -173,13 +173,16 @@
                 <span class="text-[#f7b94a]">Help children to observe the number of dots on seven-spot ladybug's
                     back.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex items-center gap-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[4vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[4vw]" />
+        </div>
         </div>
     </div>
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">When they reach Grandpa Goat's house, they find out that the <br>
             cabbages are being attacked by the aphids. Yellow Duckling <br>
             immediately thinks of asking the seven-spot ladybugs for help!</h3>
@@ -192,13 +195,16 @@
                 <span class="text-[#f7b94a]">Help children to reflect whether they are helpful . Encourage them to <br>
                     develop a helpful attitude.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex items-center gap-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[4vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[4vw]" />
+        </div>
         </div>
     </div>
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">Yellow Duckling and Candy then see a praying mantis beside the river. <br>
             It seems very capable as it is able to catch the houseflies and <br>
             mosquitoes that are flying rather fast.</h3>
@@ -210,13 +216,16 @@
                 insects or pests?<br>
                 <span class="text-[#f7b94a]">Encourage children to deduce and explain their views.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex items-center gap-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[4vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[4vw]" />
+        </div>
         </div>
     </div>
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">As they are passing by the rabbit's house, they hear rabbit crying. The <br>
             detestable ten-spot ladybugs are eating the carrots. Yellow Duckling <br>
             thinks of a way to get rid of the pests. The rabbit is very grateful.</h3>
@@ -228,13 +237,16 @@
                 ladybug? Do you know of any other ladybug species?<br>
                 <span class="text-[#f7b94a]">Help children to be aware of the different types of ladybugs.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex items-center gap-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[4vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[4vw]" />
+        </div>
         </div>
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h3 class="p-title">Yellow Duckling and Candy finally reach Grandma Bear's home. They <br>
             give Grandma Bear the gifts and tell her about their adventure. <br>
             Grandma Bear praises them.</h3>
@@ -246,7 +258,10 @@
                 insects? Which are pests?<br>
                 <span class="text-[#f7b94a]">Help children to re call the events in the story.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex items-center gap-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[4vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[4vw]" />
+        </div>
         </div>
     </div>
 

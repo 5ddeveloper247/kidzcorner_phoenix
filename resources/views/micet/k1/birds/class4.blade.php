@@ -39,7 +39,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-[1vw]">
             <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
