@@ -57,7 +57,7 @@
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Changes in Water</h1>
 
-        <div>
+        <div class="space-y-[5vw]">
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
             <ul class="list-disc panel-ul">

@@ -72,7 +72,7 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Sing "The water cycle" song.<span><button id="sound-btn" class="w-[3vw]">
+                <li>Sing "The water cycle" song.<span><button id="sound-btn" class="w-[3vw]" data-slide-audio="{{ asset('assets/audio/micet/k1/m1.mp3') }}" data-slide-audio="{{ asset('assets/audio/micet/k1/m1.mp3') }}">
                             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                         </button></span></li>
             </ol>
@@ -96,7 +96,7 @@
                 <li>Ask the children what the song is about.</li>
                 <li>Have the children explain the water cycle.</li>
                 <li>Teacher explains the lyrics, sentence by sentence. Then teach the children to sing the
-                    song.<span><button id="sound-btn" class="w-[3vw]">
+                    song.<span><button id="sound-btn" class="w-[3vw]" data-slide-audio="{{ asset('assets/audio/micet/k1/m1.mp3') }}">
                             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                         </button></span></li>
             </ol>
@@ -126,7 +126,7 @@
                     using actions and movement to accompany the lyrics of the song.
                     For example:
 
-                    <button id="sound-btn" class="inline-block align-middle w-[3vw] ml-2" type="button">
+                    <button id="sound-btn" class="inline-block align-middle w-[3vw] ml-2" type="button" data-slide-audio="{{ asset('assets/audio/micet/k1/m1.mp3') }}">
                         <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" alt="Play song"
                             class="w-full h-auto" />
                     </button>
@@ -201,7 +201,7 @@
             <ol class="list-decimal panel-ul w-[45vw]" start="6">
                 <li>Have the children perform "The water cycle" song and dance together.</li>
                 <li>Organise the children into groups. Have each group use their imagination to come up with new actions to
-                    go with the song and then practice performing. <span><button id="sound-btn" class="w-[3vw]">
+                    go with the song and then practice performing. <span><button id="sound-btn" class="w-[3vw]" data-slide-audio="{{ asset('assets/audio/micet/k1/m1.mp3') }}">
                             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                         </button></span></li>
             </ol>
@@ -346,6 +346,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio=null;
                 }
             }
 

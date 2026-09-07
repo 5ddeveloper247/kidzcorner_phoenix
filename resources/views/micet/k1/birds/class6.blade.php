@@ -310,7 +310,7 @@
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
+    <div class="phonics-panel flex flex-col items-center">
         <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="20">

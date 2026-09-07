@@ -153,7 +153,7 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
+    <div class="phonics-panel flex flex-col items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
         <ol class="list-decimal panel-ul w-[48vw]" start="8">
@@ -189,7 +189,7 @@
 
     {{-- panel 42 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

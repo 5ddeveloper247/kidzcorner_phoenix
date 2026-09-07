@@ -112,7 +112,7 @@ $showMascot = true;
 
     <ol class="list-decimal panel-ul w-[50vw]" start="4">
         <li>Play the song "The water cycle" during the following scenes: while water droplets are forming clouds, rain is falling and water droplets are evaporating. Have all the children perform together.
-            <span><button id="sound-btn" class="w-[3vw]">
+            <span><button id="sound-btn" class="w-[3vw]" data-slide-audio="{{ asset('assets/audio/micet/k1/m1.mp3') }}">
                     <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                 </button></span>
         </li>
@@ -273,6 +273,7 @@ $showMascot = true;
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
+                currentAudio=null;
             }
         }
 

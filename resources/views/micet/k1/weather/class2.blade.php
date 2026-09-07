@@ -132,7 +132,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c4.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c4.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -143,7 +143,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c5.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c5.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -154,7 +154,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c6.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c6.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -165,7 +165,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c7.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c7.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -176,7 +176,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c8.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c8.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -187,7 +187,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c9.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c9.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -198,7 +198,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c10.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c10.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -209,7 +209,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c11.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c11.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -220,7 +220,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c12.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c12.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -231,7 +231,7 @@ $showMascot = true;
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
         <li>Ask the children: "What shape is the kite?"; "What other shapes of kites have you seen?"</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c13.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c13.png') }}" class="h-[20vw]" />
 </div>
 
 
@@ -307,7 +307,7 @@ $showMascot = true;
 
 
 {{-- panel 8 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
+<div class="phonics-panel flex flex-col items-center">
     <h1 class="panel-title stroke">Classroom Activity 2: Little Kite</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="8">
@@ -315,7 +315,7 @@ $showMascot = true;
             look at the kites and identify the shapes used in making each kite, then count each shape and write in the
             numbers to complete the table.</li>
     </ol>
-    <img src="{{ asset('assets/images/micet/k1/weather/class2/c19.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/weather/class2/c19.png') }}" class="h-[20vw]" />
 </div>
 
 

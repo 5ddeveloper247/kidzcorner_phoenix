@@ -93,7 +93,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Hopscotch</h1>
     <div class="space-y-10 flex flex-col items-center">
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Teach the children to sing the "Hopscotch" song. <span><button id="sound-btn" class="w-[3vw]">
+            <li>Teach the children to sing the "Hopscotch" song. <span><button id="sound-btn" class="w-[3vw]" data-slide-audio="{{ asset('assets/audio/micet/k1/m2.mp3') }}">
                         <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                     </button></span></li>
         </ol>
@@ -144,7 +144,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Hopscotch</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="9">
-        <li>Signal to start the competition. As a child hops, the rest of the children will sing the song "Hopscotch". <span><button id="sound-btn" class="w-[3vw]">
+        <li>Signal to start the competition. As a child hops, the rest of the children will sing the song "Hopscotch". <span><button id="sound-btn" class="w-[3vw]" data-slide-audio="{{ asset('assets/audio/micet/k1/m2.mp3') }}">
                     <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
                 </button></span></li>
         <li>If time permits, have the children hop in reverse order from 9 to 1.</li>
@@ -299,6 +299,7 @@ $showMascot = true;
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
+                currentAudio = null;
             }
         }
 
