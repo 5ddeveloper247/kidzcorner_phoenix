@@ -39,7 +39,7 @@ $showMascot = true;
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 2: Tempo of Msuic</h1>
-    <div class="flex items-center gap-1">
+    <div class="flex items-center gap-[.5vw]">
         <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
         <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
         <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />

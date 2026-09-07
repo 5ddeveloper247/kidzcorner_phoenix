@@ -36,17 +36,49 @@
 
 @section('content')
 
-    {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
-        <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
-        </div>
-        <img src="{{ asset('assets/images/micet/k1/fruits/activity/c2.png') }}" class="w-[25vw]" />
+{{-- panel 1 --}}
+<div class="phonics-panel flex flex-col justify-between h-full items-center">
+    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
+    <div class="flex items-center gap-[.5vw]">
+        <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
+    </div>
+    <img src="{{ asset('assets/images/micet/k1/fruits/activity/c2.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center hidden">
+    <h1 class="panel-title stroke">Computer Activities: The Secret in the Orchard</h1>
+
+    <div class="text-start">
+        <h3 class="ptitle">Tuning-in</h3>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="1">
+            <li>
+                To begin the lesson, ask the following questions to arouse the children's curiosity and interest.
+                <ol class="list-[lower-alpha] pl-[2vw]">
+                    <li>What are the fruits you can name? </li>
+                    <li>Which is your favourite fruit? Why?</li>
+                    <li>Can you identify the characteristics of some of the common fruits?
+                        (shape, colour, taste, etc)</li>
+                </ol>
+            </li>
+
+            <li>
+                Elicit answers from the children, before proceeding on with the following
+                questions to focus the children's attention on the key points of the courseware.
+                <ol class="list-[lower-alpha] pl-[2vw]">
+                    <li> How many mummies did the Little Seeds meet while they are looking for
+                        their own mummy?</li>
+                    <li>Did the Little Seeds find their own mummy?</li>
+                    <li>Who is the mummy of the Little Seeds?</li>
+                </ol>
+            </li>
+        </ol>
     </div>
 
 
