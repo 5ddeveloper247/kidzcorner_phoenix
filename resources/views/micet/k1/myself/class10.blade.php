@@ -62,13 +62,13 @@
         <div>
             <div class="text-center">
                 <h3 class="ptitle">Preparations</h3>
-                
+
                 <ol class="list-disc panel-ul">
                     <li>Thematic Activity Book</li>
                 </ol>
             </div>
-            <div class="mt-[2vw] w-[35vw]">
-                <h3 class="panel-ul">For Optional Activity:</h3>
+            <div class="mt-[2vw] w-[35vw] text-start">
+                <h3 class="text-white text-[2vw]">For Optional Activity:</h3>
                 <ol class="list-disc panel-ul">
                     <li>Invite some parents to come and share their thoughts about
                         admitting our mistakes.</li>

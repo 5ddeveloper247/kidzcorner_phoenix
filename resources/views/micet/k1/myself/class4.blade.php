@@ -156,7 +156,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>(Optional Activity) Use the plastic model of teeth to demonstrate the correct
                 technique of brushing teeth:
-                <ol type="a" class="pl-[1vw]">
+                <ol class="list-[lower-alpha]  pl-[1vw]">
                     <li>First, squeeze some toothpaste onto the toothbrush. Explain to the children that fluoride toothpaste
                         can protect against tooth decay.</li>
                     <li>Place the toothbrush against the outer teeth gum line, then brush downward and outward. Brush gently
@@ -178,7 +178,7 @@
             <li>Teacher can compose a rhyme to help children rememberthe sequence of
                 brushing teeth. For example:</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2.2vw] mt-[3vw] text-start">
             Brush up, brush down, <br>
             Brush left, brush right, <br>
             Brush outside, brush inside, <br>
@@ -195,11 +195,12 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Help children learn the "Brush Our Teeth" song and let them sing it together.</li>
         </ol>
-        <div class="flex gap-[3vw]">
-            <button class="w-[3vw]" id="soundButton">
+        <div class="flex gap-[3vw] mt-[3vw] items-start">
+            <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/brush.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
-            <h4 class="text-white text-[2vw] text-start">
+            <h4 class="text-white text-[2.2vw] text-start">
                 This is the way we brush our teeth, <br>
                 Brush our teeth, brush our teeth. <br>
                 This is the way we brush our teeth, <br>
@@ -228,7 +229,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Help children learn the "Wash Our Face" song and get them to sing it together.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2.2vw] text-start">
             This is the way we wash our face, <br>
             Wash our face, wash our face. <br>
             This is the way we wash our face, <br>
@@ -246,7 +247,7 @@
                 children not to waste water. Teacher can compose a rhyme to help the
                 children remember the sequence of washing their face. For example:</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
+        <h4 class="text-white text-[2.2vw] text-start">
             This is how I wash my face. <br>
             Rinse and squeeze the cloth dry. <br>
             Then wipe my face, <br>

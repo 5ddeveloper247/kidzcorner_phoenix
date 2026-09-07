@@ -110,14 +110,17 @@
         <h3 class="p-title">There are many toys to play with in the school playground. The Little <br>
             Elephant slide is the children's favourite. At playtime, all the children <br>
             want to play with Little Elephant. Little Elephant is very happy!</h3>
-        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c2.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What sort of recreational facilities or games do you have in your school?<br>
                 <span class="text-[#f7b94a]">Develop children's memory and expression skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -127,14 +130,17 @@
         <h3 class="p-title">However, as new toys are added to the playground, the children begin to <br>
             lose interest in Little Elephant. Time passes, and Little Elephant becomes dirty. Its <br>
             body is covered with scratches. The children do not want to play with it anymore.</h3>
-        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c3.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 What was your favourite toy? What is your favourite toy now?<br>
                 <span class="text-[#f7b94a]">Develop children's reflective skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -144,7 +150,7 @@
         <h3 class="p-title">Little Elephant is very sad. It wants to leave the school with Springy Horse <br>
             but Springy Hoise's legs are tied so Springy Horse is not able to walk. <br>
             Hence, Little Elephant leaves the school on its own.</h3>
-        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c4.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -152,7 +158,10 @@
                 <span class="text-[#f7b94a]">Help children understand Little Elephant's feelings and anticipate <br>
                     where it wants to go.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -170,7 +179,10 @@
                 out? What should you do when you are separated from them?<br>
                 <span class="text-[#f7b94a]">Help children develop problem solving skills independently.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -187,7 +199,10 @@
                 What is paint? What is it used for? When is it used? <br>
                 <span class="text-[#f7b94a]">Help children understand the uses of paint.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -197,7 +212,7 @@
         <h3 class="p-title">Little Elephant looks smart in its new clothes. Everyone likes him, but <br>
             soon, Little Elephant begins to miss home. It decides to go back to <br>
             school to play with the children.</h3>
-        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c7.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c7.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -205,7 +220,7 @@
                 and in the present?<br>
                 <span class="text-[#f7b94a]">Enhance children's observation skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -222,7 +237,7 @@
                 Count the number of toys in school.<br>
                 <span class="text-[#f7b94a]">Enhance children's observation and counting skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -240,7 +255,10 @@
                 How would you take care of the toys?<br>
                 <span class="text-[#f7b94a]">Help children understand how they should treasure theirtoys.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 

@@ -180,7 +180,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
             <li>让幼儿围坐成圈。播放音乐，让幼儿跟随老师练习随音乐节奏拍手。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -193,7 +193,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>给每个幼儿一件打击乐器。播放音乐，让幼儿跟随老师拍手，然后随音乐节奏演奏打击乐器。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -206,7 +206,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>重复播放音乐，让幼儿练习随音乐节奏演奏打击乐器。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -219,7 +219,7 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="12">
             <li>现在，让幼儿互相交换打击乐器。重复播放音乐，让幼儿随音乐节奏演奏打击乐器。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

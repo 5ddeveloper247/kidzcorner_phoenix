@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -48,32 +48,31 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Happy Little Mouse</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
+        <h1 class="panel-title stroke">课堂活动 1：快乐的小老鼠</h1>
+        <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
         </div>
 
 
-        <h3 class="title">Objectives:</h3>
+        <h3 class="title">学习目标：</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>To identify four basic shapes - circle, square, rectangle,
-                triangle.</li>
-            <li>To enjoy listening to story.</li>
+            <li>认识四种基本形状——圆形、正方形、长方形、三角形。</li>
+            <li>享受听故事的乐趣。</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Happy Little Mouse</h1>
+        <h1 class="panel-title stroke">课堂活动 1：快乐的小老鼠</h1>
 
         <div>
-            <h3 class="title">Preparations</h3>
+            <h3 class="title">准备工作</h3>
 
             <ol class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
+                <li>主题活动书</li>
             </ol>
         </div>
     </div>
@@ -81,22 +80,22 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">The Happy Little Mouse</h1>
+        <h1 class="panel-title stroke">快乐的小老鼠</h1>
 
-        <h3 class="p-title">Theme: Shapes</h3>
+        <h3 class="p-title">主题：形状</h3>
         <img src="{{ asset('assets/images/micet/n1/shapes/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">A happy little mouse lives in a round watermelon house.</h3>
+        <h3 class="p-title">一只快乐的小老鼠住在圆形的西瓜房子里。</h3>
         <img src="{{ asset('assets/images/micet/n1/shapes/class1/c2.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                A happy little mouse lives in a round watermelon house.<br>
-                <span class="text-[#f7b94a]">Help children to develop observation skills.</span>
+                一只快乐的小老鼠住在圆形的西瓜房子里。<br>
+                <span class="text-[#f7b94a]">帮助孩子们培养观察能力。</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -105,14 +104,14 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">The watermelon house has a door and two windows.</h3>
+        <h3 class="p-title">西瓜房子有一扇门和两扇窗户。</h3>
         <img src="{{ asset('assets/images/micet/n1/shapes/class1/c3.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Have you ever held hands with your friends and moved around in a <br>
-                circle while singing? <br>
-                <span class="text-[#f7b94a]">Guide children to talk about their experience..</span>
+                你们有没有和朋友手拉手，一边唱歌一边<br>
+                围成圆圈转？<br>
+                <span class="text-[#f7b94a]">引导孩子们谈论他们的经历。</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -121,13 +120,13 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she and her friends sing together and clap their hands.</h3>
+        <h3 class="p-title">有时，她和朋友们一起唱歌、拍手。</h3>
         <img src="{{ asset('assets/images/micet/n1/shapes/class1/c4.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Can you sing and clap your hands? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
+                你会唱歌拍手吗？示范给大家看。<br>
+                <span class="text-[#f7b94a]">帮助孩子们培养音乐和节奏感。</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -136,13 +135,13 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she dances to the rhythm of the music with her friends.</h3>
+        <h3 class="p-title">有时，她和朋友们随着音乐的节奏跳舞。</h3>
         <img src="{{ asset('assets/images/micet/n1/shapes/class1/c5.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Can you dance? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
+                你会跳舞吗？示范给大家看。<br>
+                <span class="text-[#f7b94a]">帮助孩子们培养音乐和节奏感。</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -151,14 +150,14 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Sometimes, she and her friends also play percussion instruments to <br>
-            the rhythm of the music.</h3>
+        <h3 class="p-title">有时，她和朋友们还会随着音乐的<br>
+            节奏演奏打击乐器。</h3>
         <img src="{{ asset('assets/images/micet/n1/shapes/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Can you play any percussion instruments? Show how you do it. <br>
-                <span class="text-[#f7b94a]">Help children to develop music and rhythmic sense.</span>
+                你会演奏打击乐器吗？示范给大家看。<br>
+                <span class="text-[#f7b94a]">帮助孩子们培养音乐和节奏感。</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -167,16 +166,16 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Look, Jingle is performing in a concert with her friends! There are 2 <br>
-            children singing, 2 children dancing and 4 children playing <br>
-            different percussion instruments. Their performance is really good!</h3>
+        <h3 class="p-title">看，Jingle 正在和朋友们一起表演音乐会！有 2 个<br>
+            孩子在唱歌，2 个孩子在跳舞，4 个孩子在演奏<br>
+            不同的打击乐器。他们的表演真的很棒！</h3>
         <img src="{{ asset('assets/images/micet/n1/shapes/class1/c7.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What did Jingle and her friends do in the concert? What percussion <br>
-                instruments were used?<br>
-                <span class="text-[#f7b94a]">Guide children to answer based on their observations.</span>
+                Jingle 和朋友们在音乐会上做了什么？用了哪些<br>
+                打击乐器？<br>
+                <span class="text-[#f7b94a]">引导孩子们根据观察来回答。</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -185,25 +184,25 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Happy Little Mouse </h1>
+        <h1 class="panel-title stroke">课堂活动 1：快乐的小老鼠 </h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>
-                    <span class="flex items-end">Play music <span class="w-[3vw]">
+                    <span class="flex items-end">播放音乐 <span class="w-[3vw]">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> , have children clap to the rhythm of the
-                        music together. </span>
+                        </span> ，让孩子们一起随着音乐的
+                        节奏拍手。 </span>
                 </li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that all music has rhythm.</li>
-                <li>Able to clap to the rhythm of the music.</li>
+                <li>能够说出所有音乐都有节奏。</li>
+                <li>能够随着音乐的节奏拍手。</li>
             </ul>
         </div>
     </div>
@@ -211,14 +210,14 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Happy Little Mouse </h1>
+        <h1 class="panel-title stroke">课堂活动 1：快乐的小老鼠 </h1>
 
         <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
+            <h3 class="ptitle">延伸活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music that children are familiar with, lead them in clapping to
-                    the rhythm of the music.</li>
+                <li>播放孩子们熟悉的其他音乐，引导他们随着
+                    音乐的节奏拍手。</li>
             </ul>
         </div>
     </div>

@@ -2,557 +2,619 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-$showBackground = false;
-$showVector1 = true;
-$showVector5 = false;
-$showMascot = true;
+    $showBackground = false;
+    $showVector1 = true;
+    $showVector5 = false;
+    $showMascot = true;
 @endphp
 
 
 @push('styles')
-<style>
-    .p-note {
-        font-size: 1.2vw;
-        color: white !important;
-    }
+    <style>
+        .p-note {
+            font-size: 1.2vw;
+            color: white !important;
+        }
 
-    .panel-title {
-        color: #F7B94A;
-        font-size: 2.2vw;
-    }
+        .panel-title {
+            color: #F7B94A;
+            font-size: 2.2vw;
+        }
 
-    .ptitle {
-        color: #F7B94A;
-        font-size: 1.7vw;
-    }
+        .ptitle {
+            color: #F7B94A;
+            font-size: 1.7vw;
+        }
 
-    .panel-ul {
-        color: white;
-        font-size: 1.4vw;
-        text-align: left;
-    }
-</style>
+        .panel-ul {
+            color: white;
+            font-size: 1.4vw;
+            text-align: left;
+        }
+    </style>
 @endpush
 
 @section('content')
 
-{{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c1.png') }}" class="h-[8vw]" />
+    {{-- panel 1 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+        <img src="{{ asset('assets/images/micet/k1/home/class10/c1.png') }}" class="h-[8vw]" />
 
-    <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">Objectives:</h3>
 
-    <ul class="list-disc panel-ul">
-        <li>Understand what an address is and know its uses</li>
-        <li>Learn to state and write one's home address</li>
-    </ul>
-</div>
+        <ul class="list-disc panel-ul">
+            <li>Understand what an address is and know its uses</li>
+            <li>Learn to state and write one's home address</li>
+        </ul>
+    </div>
 
 
-{{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-    <div>
-        <h3 class="ptitle">Preparations</h3>
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+        <div>
+            <h3 class="ptitle">Preparations</h3>
 
-        <ol class="list-decimal panel-ul">
-            <li>Thematic Activity Book</li>
-            <li>A post box made from a cardboard box</li>
-            <li>An envelope with a stamp, name, address and letter</li>
-            <li>Papers and colour pencils</li>
-            <li>One week before the activity, inform parents to help their</li>
-            <li>child prepare and bring to class a stamped envelope with</li>
-            <li>the child's name and home address written on it</li>
+            <ol class="list-decimal panel-ul">
+                <li>Thematic Activity Book</li>
+                <li>A post box made from a cardboard box</li>
+                <li>An envelope with a stamp, name, address and letter</li>
+                <li>Papers and colour pencils</li>
+                <li>One week before the activity, inform parents to help their</li>
+                <li>child prepare and bring to class a stamped envelope with</li>
+                <li>the child's name and home address written on it</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Display an envelope with a stamp, name and address on it and a letter in it.
+                    Ask children: What is there on the envelope? What is in the envelope? Guide
+                    children to understand what a stamp, envelope and a letter are. Let them
+                    point out the name, address and the stamp on the envelope.</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/k1/home/class10/c2.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Ask children: What are the uses of an address? (one of the uses is to make it
+                easier for the postman to deliver letters to the correct person.)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/home/class10/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Guide children to understand that every address has a postal code. A postal
+                code is a series of numbers assigned to different areas of a place.</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c8.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c4.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Ask children: Which area should this letter be delivered to?</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c8.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c4.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Guide children to understand that every address has a postal code. A postal
+                code is a series of numbers assigned to different areas of a place.</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c9.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c5.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Ask children: Which area should this letter be delivered to?</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c9.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c5.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Guide children to understand that every address has a postal code. A postal
+                code is a series of numbers assigned to different areas of a place.</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c10.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c6.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ask children: Which area should this letter be delivered to?</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c10.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c6.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Guide children to understand that every address has a postal code. A postal
+                code is a series of numbers assigned to different areas of a place.</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c11.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c7.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Ask children: Which area should this letter be delivered to?</li>
+        </ol>
+        <div class="flex relative w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c11.png') }}"
+                class="h-[9vw] absolute left-[-35%] top-0" />
+            <img src="{{ asset('assets/images/micet/k1/home/class10/c7.png') }}" class="w-[30vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Have children display the envelope that they have brought from home. Guide them to take turns to read out
+                their home address.</li>
+            <li>Ask children: Are your home addresses same? Guide children to understand that every address is unique as
+                everyone has a different home address.</li>
         </ol>
     </div>
-</div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
 
-    <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
-        <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Display an envelope with a stamp, name and address on it and a letter in it.
-                Ask children: What is there on the envelope? What is in the envelope? Guide
-                children to understand what a stamp, envelope and a letter are. Let them
-                point out the name, address and the stamp on the envelope.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Encourage children to memorise their home address. Inform children that if they are ever lost, they can tell
+                their home address to the police, who will then be able to take them home.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c2.png') }}" class="w-[30vw]" />
-</div>
 
 
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="2">
-        <li>Ask children: What are the uses of an address? (one of the uses is to make it
-            easier for the postman to deliver letters to the correct person.)</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c3.png') }}" class="w-[30vw]" />
-</div>
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Distribute papers. Invite children to draw their house and write their address beside their drawing. Let
+                children make this drawing as a gift for their parents. After that, ask them to fold their drawing and place
+                it in the envelope that they have brought from home. Let them seal the envelope and then place it into the
+                post box prepared beforehand. Tell children that the teachers will help to post out their letters.
+            </li>
+            <li>Explain to children: Normally letters that are placed in different post boxes will be taken to the post
+                office for sorting according to different areas. After that the postman will deliver the letter according to
+                the address on the envelope. Children will receive their letters after a few days.
+            </li>
+            <li>Remind children to pass their drawing to their parents once they receive their letter.
 
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Guide children to understand that every address has a postal code. A postal
-            code is a series of numbers assigned to different areas of a place.</li>
-    </ol>
-    <div class="flex">
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c8.png') }}" class="w-[10vw]" />
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c4.png') }}" class="w-[30vw]" />
+            </li>
+        </ol>
     </div>
-</div>
 
 
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c3.png') }}" class="w-[30vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c4.png') }}" class="w-[30vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c5.png') }}" class="w-[30vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c6.png') }}" class="w-[30vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c7.png') }}" class="w-[30vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="3">
-        <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/home/class10/c8.png') }}" class="w-[30vw]" />
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="4">
-        <li>Invite children to form small groups. Let children in each group take turns to
-            describe his/her daily schedule. Teacher can move around the groups to
-            facilitate the sharing. Encourage children to use simple and complete
-            sentences to describe their day's schedule.</li>
-    </ol>
-</div>
-
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <ol class="list-decimal panel-ul w-[50vw]" start="5">
-        <li>Guide children to complete the corresponding activities in the Thematic
-            Activity Book.</li>
-    </ol>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
-
-    <div class="text-start flex flex-col justify-between h-full">
-        <h3 class="ptitle">Clousre</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite some children who are able to verbally express
-                themselves well, to describe their day's schedule to the class.</li>
-        </ul>
-
-        <h3 class="ptitle">Evaluation</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to describe one's daily schedule.</li>
-        </ul>
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
     </div>
-</div>
 
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Home Address</h1>
 
-    <div class="text-start flex flex-col h-full">
-        <h3 class="ptitle">Extension</h3>
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Ask children to share their day's schedule with their parents
-                at home.</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Ask children: Besides letters, what other items are you likely to receive in the mail or from the
+                    postman? (greeting cards, birthday cards, postcards, books, magazines, parcels, etc.)</li>
+                <li>Ask children: What are the uses of an address?</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to state and write one's home address.</li>
+                <li>Able to state the uses of an address.</li>
+            </ul>
+        </div>
     </div>
-</div>
 
 
 
 
 
-{{-- =============================================== --}}
-{{-- All Buttons --}}
-<div id="buttons" class="absolute flex flex-row gap-6 z-90">
+    {{-- =============================================== --}}
+    {{-- All Buttons --}}
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-    <!-- Home Button -->
-    <button id="returnButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-    </button>
+        <!-- Home Button -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </button>
 
-    <!-- return Button -->
-    <button id="homeButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-    </button>
+        <!-- return Button -->
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
 
-    <!-- Close Button -->
-    <button id="closeButton">
+        <!-- Close Button -->
+        <button id="closeButton">
 
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-    </button>
-</div>
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
+    </div>
 
-{{-- Next and Done Buttons --}}
-<div class="down-btn-container">
-    <button class="nextButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-    </button>
-</div>
+    {{-- Next and Done Buttons --}}
+    <div class="down-btn-container">
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+        </button>
+    </div>
 
-<div class="down-btn-container">
-    <button class="doneButton hidden">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-    </button>
-</div>
+    <div class="down-btn-container">
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+        </button>
+    </div>
 @endsection
 
 @push('script')
-<script>
-    // SLIDE NAVIGATION SYSTEM
-    document.body.dataset.homeRoute = "{{ url('/micet') }}";
+    <script>
+        // SLIDE NAVIGATION SYSTEM
+        document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
 
-        // Get all elements
-        const slides = document.querySelectorAll(".phonics-panel");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton");
-        const infoButtons = document.querySelectorAll("[class*='info-btn']");
-        const soundButtons = document.querySelectorAll("[id^='soundButton']");
+            // Get all elements
+            const slides = document.querySelectorAll(".phonics-panel");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
+            const infoButtons = document.querySelectorAll("[class*='info-btn']");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-        // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/home/index') }}";
-        const doneURL = "{{ url('/micet/k1/home/index') }}";
+            // URLs for navigation
+            const returnURL = "{{ url('/micet/k1/home/index') }}";
+            const doneURL = "{{ url('/micet/k1/home/index') }}";
 
-        // Track current position
-        let currentSlide = 0;
-        let isInSpecialMode = false;
-        let returnToSlide = null;
-        let specialSlideClass = null;
+            // Track current position
+            let currentSlide = 0;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
+            let specialSlideClass = null;
 
-        // Audio management
-        let currentAudio = null;
+            // Audio management
+            let currentAudio = null;
 
-        // HELPER FUNCTIONS
+            // HELPER FUNCTIONS
 
-        function isSpecialSlide(slide) {
-            const classList = Array.from(slide.classList);
-            return classList.some(cls => /^info-panel-\d+$/.test(cls));
-        }
-
-        function getSlideTypeFromButton(button) {
-            const classList = Array.from(button.classList);
-
-            for (let className of classList) {
-                if (className.startsWith('info-btn')) {
-                    const number = className.replace('info-btn', '');
-                    return 'info-panel-' + number;
-                }
+            function isSpecialSlide(slide) {
+                const classList = Array.from(slide.classList);
+                return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
-            return null;
-        }
 
-        function hasMoreSpecialSlides(fromIndex) {
-            if (!specialSlideClass) return false;
+            function getSlideTypeFromButton(button) {
+                const classList = Array.from(button.classList);
 
-            for (let i = fromIndex + 1; i < slides.length; i++) {
-                if (slides[i].classList.contains(specialSlideClass)) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        function isLastSlide(slideIndex) {
-            if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-
-            if (!isInSpecialMode) {
-                for (let i = slideIndex + 1; i < slides.length; i++) {
-                    if (!isSpecialSlide(slides[i])) {
-                        return false;
+                for (let className of classList) {
+                    if (className.startsWith('info-btn')) {
+                        const number = className.replace('info-btn', '');
+                        return 'info-panel-' + number;
                     }
                 }
-                return true;
+                return null;
             }
 
-            return false;
-        }
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!specialSlideClass) return false;
 
-        // AUDIO FUNCTIONS
-
-        function stopCurrentAudio() {
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        return true;
+                    }
+                }
+                return false;
             }
-        }
 
-        function playSlideAudio(slideIndex) {
-            // Stop any currently playing audio
-            stopCurrentAudio();
+            function isLastSlide(slideIndex) {
+                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-            // Get the slide element
-            const slide = slides[slideIndex];
+                if (!isInSpecialMode) {
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
 
-            // Check if the slide itself has data-slide-audio attribute
-            let audioSrc = slide.getAttribute('data-slide-audio');
+                return false;
+            }
 
-            // If not, look for element inside the slide with data-slide-audio attribute
-            if (!audioSrc) {
-                const audioElement = slide.querySelector('[data-slide-audio]');
-                if (audioElement) {
-                    audioSrc = audioElement.getAttribute('data-slide-audio');
+            // AUDIO FUNCTIONS
+
+            function stopCurrentAudio() {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
                 }
             }
 
-            // Play the audio if we found a source
-            if (audioSrc) {
-                currentAudio = new Audio(audioSrc);
-                currentAudio.play().catch(err => console.log('Audio play failed:', err));
-            }
-        }
+            function playSlideAudio(slideIndex) {
+                // Stop any currently playing audio
+                stopCurrentAudio();
 
+                // Get the slide element
+                const slide = slides[slideIndex];
 
-        // DISPLAY FUNCTIONS
+                // Check if the slide itself has data-slide-audio attribute
+                let audioSrc = slide.getAttribute('data-slide-audio');
 
-        function showSlide(slideIndex) {
-            // Stop audio from previous slide
-            stopCurrentAudio();
-
-            // Hide all slides, show only current one
-            slides.forEach((slide, index) => {
-                if (index === slideIndex) {
-                    slide.classList.remove("hidden");
-                } else {
-                    slide.classList.add("hidden");
+                // If not, look for element inside the slide with data-slide-audio attribute
+                if (!audioSrc) {
+                    const audioElement = slide.querySelector('[data-slide-audio]');
+                    if (audioElement) {
+                        audioSrc = audioElement.getAttribute('data-slide-audio');
+                    }
                 }
-            });
 
-            // Play audio for current slide (if it has one)
-            playSlideAudio(slideIndex);
-
-            // Show "Done" button on last slide, otherwise show "Next"
-            if (isLastSlide(slideIndex)) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
-            } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
-            }
-        }
-
-        soundButtons.forEach(btn => {
-            btn.addEventListener("click", (e) => {
-                e.preventDefault();
-
-                // Get audio source from data-slide-audio attribute
-                const audioSrc = btn.getAttribute('data-slide-audio');
-
+                // Play the audio if we found a source
                 if (audioSrc) {
-                    stopCurrentAudio();
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
-            });
-        });
-        // NAVIGATION FUNCTIONS
+            }
 
-        function goNext() {
-            if (currentSlide >= slides.length - 1) return;
 
-            currentSlide++;
+            // DISPLAY FUNCTIONS
 
-            while (currentSlide < slides.length) {
-                const slide = slides[currentSlide];
+            function showSlide(slideIndex) {
+                // Stop audio from previous slide
+                stopCurrentAudio();
 
-                if (isInSpecialMode) {
-                    if (slide.classList.contains(specialSlideClass)) break;
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.classList.remove("hidden");
+                    } else {
+                        slide.classList.add("hidden");
+                    }
+                });
+
+                // Play audio for current slide (if it has one)
+                playSlideAudio(slideIndex);
+
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    if (!isSpecialSlide(slide)) break;
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
+            }
+
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Get audio source from data-slide-audio attribute
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+            });
+            // NAVIGATION FUNCTIONS
+
+            function goNext() {
+                if (currentSlide >= slides.length - 1) return;
 
                 currentSlide++;
-            }
 
-            if (currentSlide < slides.length) {
-                showSlide(currentSlide);
-            }
-        }
+                while (currentSlide < slides.length) {
+                    const slide = slides[currentSlide];
 
-        function goBack() {
-            if (currentSlide === 0 && !isInSpecialMode) {
-                stopCurrentAudio();
-                window.location.href = returnURL;
-                return;
-            }
-
-            if (isInSpecialMode) {
-                let previousIndex = currentSlide - 1;
-
-                while (previousIndex >= 0) {
-                    if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                        break;
+                    if (isInSpecialMode) {
+                        if (slide.classList.contains(specialSlideClass)) break;
+                    } else {
+                        if (!isSpecialSlide(slide)) break;
                     }
-                    previousIndex--;
+
+                    currentSlide++;
                 }
 
-                if (previousIndex >= 0) {
-                    currentSlide = previousIndex;
+                if (currentSlide < slides.length) {
                     showSlide(currentSlide);
+                }
+            }
+
+            function goBack() {
+                if (currentSlide === 0 && !isInSpecialMode) {
+                    stopCurrentAudio();
+                    window.location.href = returnURL;
+                    return;
+                }
+
+                if (isInSpecialMode) {
+                    let previousIndex = currentSlide - 1;
+
+                    while (previousIndex >= 0) {
+                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                            break;
+                        }
+                        previousIndex--;
+                    }
+
+                    if (previousIndex >= 0) {
+                        currentSlide = previousIndex;
+                        showSlide(currentSlide);
+                    } else {
+                        currentSlide = returnToSlide;
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        returnToSlide = null;
+                        showSlide(currentSlide);
+                    }
                 } else {
+                    if (currentSlide > 0) {
+                        currentSlide--;
+
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+
+                        showSlide(currentSlide);
+                    }
+                }
+            }
+
+            function handleDone() {
+                stopCurrentAudio();
+
+                if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                }
-            } else {
-                if (currentSlide > 0) {
-                    currentSlide--;
-
-                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
-                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
                 }
             }
-        }
 
-        function handleDone() {
-            stopCurrentAudio();
+            // EVENT LISTENERS
 
-            if (isInSpecialMode && returnToSlide !== null) {
-                currentSlide = returnToSlide;
-                isInSpecialMode = false;
-                specialSlideClass = null;
-                returnToSlide = null;
-                showSlide(currentSlide);
-            } else {
-                window.location.href = doneURL;
-            }
-        }
+            infoButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
 
-        // EVENT LISTENERS
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = getSlideTypeFromButton(button);
 
-        infoButtons.forEach(button => {
-            button.addEventListener("click", function(e) {
-                e.preventDefault();
-
-                returnToSlide = currentSlide;
-                isInSpecialMode = true;
-                specialSlideClass = getSlideTypeFromButton(button);
-
-                for (let i = 0; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        currentSlide = i;
-                        showSlide(currentSlide);
-                        break;
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
-                }
+                });
             });
-        });
 
-        nextButtons.forEach(btn => {
-            btn.addEventListener("click", goNext);
-        });
-
-        if (returnButton) {
-            returnButton.addEventListener("click", goBack);
-        }
-
-        if (doneButton) {
-            doneButton.addEventListener("click", handleDone);
-        }
-
-        const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-        letterLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const letter = link.getAttribute('data-letter') || 'a';
-                speakLetter(letter);
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goNext);
             });
+
+            if (returnButton) {
+                returnButton.addEventListener("click", goBack);
+            }
+
+            if (doneButton) {
+                doneButton.addEventListener("click", handleDone);
+            }
+
+            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+            letterLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const letter = link.getAttribute('data-letter') || 'a';
+                    speakLetter(letter);
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
+
+            // INITIALIZE - Show first slide and play its audio automatically
+            showSlide(currentSlide);
         });
-
-        window.speechSynthesis.onvoiceschanged = () => {
-            window.speechSynthesis.getVoices();
-        };
-
-        // INITIALIZE - Show first slide and play its audio automatically
-        showSlide(currentSlide);
-    });
-</script>
+    </script>
 @endpush

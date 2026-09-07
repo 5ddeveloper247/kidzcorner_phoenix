@@ -44,11 +44,11 @@
             <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[6vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
-        </div>  
+        </div>
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Understand the process of how a seed grows into a plant</li>
             <li>Learn to grow a plant from a seed and record its growth</li>
             <li>Develop a sense of responsibility</li>
@@ -66,7 +66,7 @@
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
                 <li>Pencils, colour pencils and erasers</li>
-                <li>Some green beans or seeds of other fast growing plants/li>
+                <li>Some green beans or seeds of other fast growing plants</li>
                 <li>A flower pot for each group (you may reuse plastic soft drink bottles) with soil or cotton wool. Label
                     each pot with the group's name</li>
             </ul>
@@ -86,90 +86,117 @@
                     to grow (e.g. food, water, etc.). Let children share prior knowledge about plant growth.</li>
                 <li>Show the photo of the seed below. Ask the children to predict how it will grow.</li>
             </ol>
-            <div class="flex justify-center w-[45vw] mt-[2vw]">
-                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[8vw]" />
+            <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw] opacity-0" />
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw] opacity-0" />
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw] opacity-0" />
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[11vw] opacity-0" />
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[12vw] opacity-0" />
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[14vw] opacity-0" />
+                <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[15vw] opacity-0" />
             </div>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
         </ol>
-        <div class="flex justify-center">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
+        <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[11vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[12vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[14vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[15vw] opacity-0" />
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
         </ol>
-        <div class="flex justify-center w-[45vw] mt-[2vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
+        <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[11vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[12vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[14vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[15vw] opacity-0" />
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
         </ol>
-        <div class="flex justify-center w-[45vw] mt-[2vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
+        <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[11vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[12vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[14vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[15vw] opacity-0" />
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
         </ol>
-        <div class="flex justify-center w-[45vw] mt-[2vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
+        <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[11vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[12vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[14vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[15vw] opacity-0" />
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
         <ol class="list-decimal panel-ul" start="7">
             <li>Show this photo of seed growth. Let the children discuss how the seed will <br>
                 grow (over 7 slides).</li>
         </ol>
-        <div class="flex justify-center mt-[2vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[15vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="w-[6vw]" />
+        <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw] " />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw] " />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw] " />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[11vw] " />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[12vw] " />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[14vw] opacity-0" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[15vw] opacity-0" />
         </div>
     </div>
 
@@ -181,34 +208,35 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
         </ol>
-        <div class="flex justify-center w-[45vw] mt-[2vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[15vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="w-[6vw]" />
+        <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[11vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[14vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[15vw] opacity-0" />
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 7 slides).</li>
         </ol>
-        <div class="flex justify-center w-[45vw] mt-[2vw]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[15vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="w-[6vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[16.5vw]" />
+        <div class="flex justify-start items-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c2.png') }}" class="w-[6vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c3.png') }}" class="h-[7vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c4.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c5.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c6.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c7.png') }}" class="h-[11vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c8.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8/c9.png') }}" class="h-[13vw]" />
         </div>
     </div>
 
@@ -221,7 +249,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Click on the video. Show the children how a seed grows into a plant.</li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/k1/fruits/class8/v1.mp4') }}" type="video/mp4">
         </video>
     </div>

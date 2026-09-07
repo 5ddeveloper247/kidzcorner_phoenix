@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,228 +38,88 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[8vw]" />
+        <h1 class="panel-title stroke">课堂活动 9：组合形状</h1>
+        <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
         </div>
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Use different types of performing arts (e.g. dance, music)
-                in a concert</li>
-            <li>Co-operate with group members in a concert</li>
-            <li>Express whether they like or dislike a concert</li>
+            <li>了解不同的形状可以组合成各种各样的物体。</li>
+            <li>识别一些物体的形状。</li>
+            <li>组合不同的形状来组成一些物体。</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">课堂活动 9：组合形状</h1>
 
         <div>
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Different percussion instruments</li>
-                <li>Divide children into 3 performing groups based on their
-                    ability to sing, dance and play percussion instruments</li>
+                <li>主题活动书</li>
+                <li>不同形状的积木</li>
             </ul>
         </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
+        <h1 class="panel-title stroke">课堂活动 9：组合形状</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Play music. Let children follow the teacher and sing to the rhythm of the
-                    music.</li>
+                <li>问孩子们："你们知道不同的形状可以组合成各种各样的东西吗？"</li>
+                <li>让我们看看下面的一些例子。</li>
             </ol>
         </div>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
+
     </div>
 
 
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Inform children that they are going to perform in a concert.</li>
-            <li>Ask children: "Have you ever seen a concert?" "How was it?" "Did you like
-                it?"</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that today they are going to perform in a concert in different
-                ways. Some of them will sing, some will dance and some will play different
-                percussion instruments.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Organise the children into three groups. Let each group of children gather
-                at different corners of the classroom.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Repeat playing the music. Let the singer's group practise singing, the
-                dancer's group practise dancing and the percussionist's group practise
-                playing the different percussion instruments.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Teacher walks around the class to assist the different groups. Remind
-                children to co-operate with their group members in order for their
-                performance to go well.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>After the practice, have each group take turns to perform.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Let's start the concert! Have the different groups co-operate in performing
-                the concert.</li>
-        </ol>
-        <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
-                One little, two little, <br>
-                three little ducklings. <br>
-                Four little, five little, <br>
-                six little ducklings. <br>
-                Seven little, eight little, <br>
-                nine little ducklings. <br>
-                Ten little ducklings swim in lake.
-            </h5>
-        </div>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: A Concert</h1>
-
-        <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to share their thoughts about the
-                    concert and say whether they like or dislike the concert.</li>
-            </ul>
-
-            <h3 class="ptitle">Evaluation</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to co-operate with group members in a concert.</li>
-                <li>Able to co-operate with group members in a concert.</li>
-            </ul>
-        </div>
-    </div>
-
-
-
-
-
+    @php
+        $enPath = resource_path('views/micet/n1/shapes/class9.blade.php');
+        $en = file_get_contents($enPath);
+        $start = strpos($en, '{{-- panel 4 --}}');
+        $end = strpos($en, '{{-- =============================================== --}}');
+        $panels = $start !== false && $end !== false ? substr($en, $start, $end - $start) : '';
+        $replacements = [
+            'Classroom Activity 9: Combining Shapes' => '课堂活动 9：组合形状',
+            'Ask children:' => '问孩子们：',
+            'What is this? [Accept all logical answers and let children talk about it.] ' => '这是什么？[接受所有合理的答案，让孩子们讨论。] ',
+            'What shapes are used to form it? ' => '用了哪些形状来组成它？ ',
+            'Have children use their creativity and imagination to combine different shape
+                stickers to form an object in the Thematic Activity Book.' => '让孩子们发挥创造力和想象力，在主题活动书中用不同形状的贴纸组合成一个物体。',
+            'Clousre' => '结束活动',
+            'Evaluation' => '评估',
+            'Have children take turns to show the objects that they
+                    created. Have them name the object as well as the shapes
+                    used to form it.' => '让孩子们轮流展示他们创作的作品，并说出物体的名称以及组成它所用的形状。',
+            'Able to know that different shapes can be combined to
+                    form a variety of objects.' => '能够了解不同的形状可以组合成各种各样的物体。',
+            'Able to identify the shapes of a few objects.' => '能够识别一些物体的形状。',
+            'Able to combine different shapes to form some objects.' => '能够组合不同的形状来组成一些物体。',
+            '>circle<' => '>圆形<',
+            '>square<' => '>正方形<',
+            '>rectangle<' => '>长方形<',
+            '>triangle<' => '>三角形<',
+            "                    circle\n" => "                    圆形\n",
+            "                    square\n" => "                    正方形\n",
+            "                    rectangle\n" => "                    长方形\n",
+        ];
+        foreach ($replacements as $from => $to) {
+            $panels = str_replace($from, $to, $panels);
+        }
+        echo $panels;
+    @endphp
 
     {{-- =============================================== --}}
     {{-- All Buttons --}}
@@ -294,6 +154,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
         </button>
     </div>
+
 @endsection
 
 @push('script')
@@ -312,8 +173,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -379,38 +240,23 @@
             }
 
             function playSlideAudio(slideIndex) {
-                // Stop any currently playing audio
                 stopCurrentAudio();
-
-                // Get the slide element
                 const slide = slides[slideIndex];
-
-                // Check if the slide itself has data-slide-audio attribute
                 let audioSrc = slide.getAttribute('data-slide-audio');
-
-                // If not, look for element inside the slide with data-slide-audio attribute
                 if (!audioSrc) {
                     const audioElement = slide.querySelector('[data-slide-audio]');
                     if (audioElement) {
                         audioSrc = audioElement.getAttribute('data-slide-audio');
                     }
                 }
-
-                // Play the audio if we found a source
                 if (audioSrc) {
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
             }
 
-
-            // DISPLAY FUNCTIONS
-
             function showSlide(slideIndex) {
-                // Stop audio from previous slide
                 stopCurrentAudio();
-
-                // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
                     if (index === slideIndex) {
                         slide.classList.remove("hidden");
@@ -418,11 +264,7 @@
                         slide.classList.add("hidden");
                     }
                 });
-
-                // Play audio for current slide (if it has one)
                 playSlideAudio(slideIndex);
-
-                // Show "Done" button on last slide, otherwise show "Next"
                 if (isLastSlide(slideIndex)) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -435,10 +277,7 @@
             soundButtons.forEach(btn => {
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
-
-                    // Get audio source from data-slide-audio attribute
                     const audioSrc = btn.getAttribute('data-slide-audio');
-
                     if (audioSrc) {
                         stopCurrentAudio();
                         currentAudio = new Audio(audioSrc);
@@ -446,25 +285,19 @@
                     }
                 });
             });
-            // NAVIGATION FUNCTIONS
 
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
-
                 currentSlide++;
-
                 while (currentSlide < slides.length) {
                     const slide = slides[currentSlide];
-
                     if (isInSpecialMode) {
                         if (slide.classList.contains(specialSlideClass)) break;
                     } else {
                         if (!isSpecialSlide(slide)) break;
                     }
-
                     currentSlide++;
                 }
-
                 if (currentSlide < slides.length) {
                     showSlide(currentSlide);
                 }
@@ -476,17 +309,14 @@
                     window.location.href = returnURL;
                     return;
                 }
-
                 if (isInSpecialMode) {
                     let previousIndex = currentSlide - 1;
-
                     while (previousIndex >= 0) {
                         if (slides[previousIndex].classList.contains(specialSlideClass)) {
                             break;
                         }
                         previousIndex--;
                     }
-
                     if (previousIndex >= 0) {
                         currentSlide = previousIndex;
                         showSlide(currentSlide);
@@ -500,11 +330,9 @@
                 } else {
                     if (currentSlide > 0) {
                         currentSlide--;
-
                         while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
                             currentSlide--;
                         }
-
                         showSlide(currentSlide);
                     }
                 }
@@ -512,7 +340,6 @@
 
             function handleDone() {
                 stopCurrentAudio();
-
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
@@ -524,16 +351,12 @@
                 }
             }
 
-            // EVENT LISTENERS
-
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
-
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
-
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains(specialSlideClass)) {
                             currentSlide = i;
@@ -569,9 +392,7 @@
                 window.speechSynthesis.getVoices();
             };
 
-            // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

@@ -58,31 +58,31 @@
 
 
     {{-- Phonics l2 --}}
-<div id="slide-board" class="first flex flex-col gap-[2vw] mb-[2vw] hidden">
-    <div class="flex justify-center gap-[2vw]">
-        <a href="{{ url('/micet/k1/fruits/class9') }}" class="w-[calc(33.333%-1.33vw)]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class9.png') }}" class="w-full" />
-        </a>
+    <div id="slide-board" class="first flex flex-col gap-[2vw] mb-[2vw] hidden">
+        <div class="flex justify-center gap-[2vw]">
+            <a href="{{ url('/micet/k1/fruits/class9') }}" class="w-[calc(33.333%-1.33vw)]">
+                <img src="{{ asset('assets/images/micet/k1/fruits/class9.png') }}" class="w-full" />
+            </a>
 
-        <a href="{{ url('/micet/k1/fruits/class10') }}" class="w-[calc(33.333%-1.33vw)]">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class10.png') }}" class="w-full" />
-        </a>
+            <a href="{{ url('/micet/k1/fruits/class10') }}" class="w-[calc(33.333%-1.33vw)]">
+                <img src="{{ asset('assets/images/micet/k1/fruits/class10.png') }}" class="w-full" />
+            </a>
+        </div>
+        <div class="grid grid-cols-3 gap-[2vw]">
+            <a href="{{ url('/micet/k1/fruits/cards') }}">
+                <img src="{{ asset('assets/images/micet/k1/fruits/cards.png') }}" class="w-full" />
+            </a>
+
+            <a href="{{ url('/micet/k1/fruits/activity') }}">
+                <img src="{{ asset('assets/images/micet/k1/fruits/activity.png') }}" class="w-full" />
+            </a>
+
+            <a href="{{ url('/micet/k1/fruits/tables') }}">
+                <img src="{{ asset('assets/images/micet/k1/fruits/tables.png') }}" class="w-full" />
+            </a>
+        </div>
+
     </div>
-    <div class="grid grid-cols-3 gap-[2vw]">
-        <a href="{{ url('/micet/k1/fruits/cards') }}">
-            <img src="{{ asset('assets/images/micet/k1/fruits/cards.png') }}" class="w-full" />
-        </a>
-
-        <a href="{{ url('/micet/k1/fruits/activity') }}">
-            <img src="{{ asset('assets/images/micet/k1/fruits/activity.png') }}" class="w-full" />
-        </a>
-
-        <a href="{{ url('/micet/k1/fruits/tables') }}">
-            <img src="{{ asset('assets/images/micet/k1/fruits/tables.png') }}" class="w-full" />
-        </a>
-    </div>
-
-</div>
 
     {{-- All Buttons --}}
     <button class="mt-[2vw] absolute bottom-[1vw]" id="next-btn">
@@ -115,7 +115,7 @@
 @push('script')
     <script>
         document.body.dataset.homeRoute = "{{ url('/micet') }}";
-        document.body.dataset.parentRoute = "{{ url('/micet/n2/index') }}";
+        document.body.dataset.parentRoute = "{{ url('/micet/k1/index') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
@@ -125,16 +125,16 @@
 
             let currentSlide = 0;
 
-            const savedSlide = sessionStorage.getItem("micet_n2_fruits_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_n2_fruits_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_k1_fruits_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_k1_fruits_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_n2_fruits_slide");
-            sessionStorage.removeItem("micet_n2_fruits_from_lesson");
+            sessionStorage.removeItem("micet_k1_fruits_slide");
+            sessionStorage.removeItem("micet_k1_fruits_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -157,8 +157,8 @@
             // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_n2_fruits_slide", currentSlide);
-                    sessionStorage.setItem("micet_n2_fruits_from_lesson", "1");
+                    sessionStorage.setItem("micet_k1_fruits_slide", currentSlide);
+                    sessionStorage.setItem("micet_k1_fruits_from_lesson", "1");
                 });
             });
 

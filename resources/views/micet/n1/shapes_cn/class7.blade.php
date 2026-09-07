@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,217 +38,147 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/colours/class6/b1.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/drama/class7/b1.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[10vw]" />
+        <h1 class="panel-title stroke">课堂活动 7：形状舞蹈</h1>
+        <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[6vw]" />
         </div>
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
-        <ul class="list-disc panel-ul w-[42vw]">
-            <li>Identify four musical percussion instruments and describe
-                the way to play them</li>
-            <li>Match musical percussion instruments to their sounds</li>
+        <ul class="list-disc panel-ul">
+            <li>通过跳舞发展大肌肉和小肌肉运动技能</li>
+            <li>享受与同伴一起玩耍</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">课堂活动 7：形状舞蹈</h1>
 
-        <div>
-            <h3 class="ptitle">Preparations</h3>
+        <div class="flex flex-col items-center">
+            <h3 class="ptitle">准备工作</h3>
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Thematic Activity Book</li>
-                <li>A few sets of musical percussion instruments (e.g. maraca,
-                    drum, triangle, cymbals; can be replaced with other
-                    percussion instruments), have children share the
-                    resources</li>
+                <li>活动开始前，用4种颜色的胶带在地上贴出4种基本形状——圆形、正方形、长方形、三角形（大小取决于班级人数）。<br>
+                    [注意：如在课室内进行活动，可按以下方式贴出4种形状，以充分利用课室空间。]</li>
             </ul>
+            <img src="{{ asset('assets/images/micet/n1/shapes/class7/c1.png') }}" class="w-[15vw]" />
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">课堂活动 7：形状舞蹈</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What musical percussion instrument is this?" "How do you
-                    play it so that the sound can be heard?"</li>
+                <li>邀请孩子们再次演唱不同的形状歌曲。</li>
             </ol>
         </div>
-        <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="w-[25vw]" />
-            <h4 class="text-[#f7b94a] text-[2vw]">maraca</h4>
+
+        <button class="w-[3vw] mt-[1vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <div class="flex items-start justify-between w-full mt-[1vw]">
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个圆形"<br>
+                我能看见一个圆形。<br>
+                圆形，圆形。<br>
+                我能看见一个圆形。<br>
+                你呢？
+            </h4>
+
+            <div class=" h-[12vw] border-l-[.25vw] border-white"></div>
+
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个正方形" <br>
+                我能看见一个正方形。<br>
+                正方形，正方形。<br>
+                我能看见一个正方形。<br>
+                你呢？
+            </h4>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：形状舞蹈</h1>
+
+
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>邀请孩子们再次演唱不同的形状歌曲。</li>
+        </ol>
+
+        <button class="w-[3vw] mt-[1vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <div class="flex items-start justify-between w-full mt-[1vw]">
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个长方形" <br>
+                我能看见一个长方形。<br>
+                长方形，长方形。<br>
+                我能看见一个长方形。<br>
+                你呢？
+            </h4>
+
+            <div class=" h-[12vw] border-l-[.25vw] border-white"></div>
+
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个三角形" <br>
+                我能看见一个三角形。<br>
+                三角形，三角形。<br>
+                我能看见一个三角形。<br>
+                你呢？
+            </h4>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">课堂活动 7：形状舞蹈</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that we'll hear the sound of the maraca only when we shake it.</li>
-            <li>Click on the video, have children see how to shake the maraca.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class6/v1.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Play the sound, have children listen to the sound when the maraca is
-                shaken.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Invite children to listen to the sounds of other musical percussion
-                instruments.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask children: "What musical percussion instrument is this?" "How do you
-                play it so that the sound can be heard?"</li>
-        </ol>
-        <div class="flex flex-col items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/music/class7/c1.png') }}" class="w-[25vw]" />
-            <h4 class="text-[#f7b94a] text-[2vw]">drum</h4>
-        </div>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Tell children that we'll hear the sound of the drum only when we hit it.</li>
-            <li>Click on the video, have children see how to hit the drum.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class7/v1.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Play the sound, have children listen to the sound when the drum is hit.</li>
-        </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Tell children that there are 4 differences between these two pictures.</li>
-            <li>Click to open the Software Magnetic Board. Guide children to observe and
-                spot the differences, then circle them in picture 2.</li>
-        </ol>
-        <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/games/class7/c4.png') }}" class="w-[25vw]" />
-            <h4 class="text-[#f7b94a] text-[2vw]">spot the <br>
-                differences</h4>
-        </div>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-
-        <img src="{{ asset('assets/images/micet/n1/games/class7/c5.png') }}" class="h-[20vw]" />
-        <div class="flex items-center justify-between w-[40vw]">
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-        </div>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>指向地上的形状，让孩子们说出每种形状的名称。</li>
+            <li>告诉孩子们，他们将学习一项有趣的活动，叫做形状舞蹈。</li>
+            <li>引导孩子们学习如何进行这项活动：
+                <ul class="list-disc">
+                    <li>老师说出一种形状。</li>
+                    <li>孩子们找到地上正确的形状，站在轮廓上并演唱相应的形状歌曲。演唱时，孩子们要沿着轮廓跳舞（开始时，老师可以带领孩子们学习一些基本的"舞蹈"动作，如向前跑、侧走、跳跃、爬行等。当孩子们熟悉活动后，鼓励他们创造其他舞蹈动作，并大家一起做）。</li>
+                    <li>重复以上步骤。</li>
+                </ul>
+            </li>
         </ol>
     </div>
 
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
+        <h1 class="panel-title stroke">课堂活动 7：形状舞蹈</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children answer the following questions: Do you like the games we
-                    played? What are the names of these games? How many people does it
-                    take to play each game?</li>
+                <li>建议孩子们为不同的形状歌曲使用不同的舞蹈动作，然后表演给老师看。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to play the games.</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Percussions Instruments</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Prepare simple mazes, hidden images and spot the differences games at the
-                    activity corner, encourage children to play them during free time.</li>
+                <li>能够听从指示。</li>
+                <li>能够沿着形状唱歌和跳舞。</li>
             </ul>
         </div>
     </div>
-
 
 
 
@@ -366,6 +296,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null; 
                 }
             }
 
@@ -562,24 +493,6 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
-        });
-
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.phonics-panel').forEach(panel => {
-                const observer = new MutationObserver(() => {
-                    if (panel.classList.contains('hidden')) {
-                        panel.querySelectorAll('video').forEach(video => {
-                            if (!video.paused) video.pause();
-                            video.currentTime = 0;
-                        });
-                    }
-                });
-
-                observer.observe(panel, {
-                    attributes: true,
-                    attributeFilter: ['class']
-                });
-            });
         });
     </script>
 @endpush

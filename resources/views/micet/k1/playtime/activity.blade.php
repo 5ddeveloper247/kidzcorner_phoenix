@@ -184,7 +184,7 @@
                             the movement given</li>
                     </ul>
                     <h3 class="ptitle">Process</h3>
-                    <ul class="panel-ul w-[25vw]">
+                    <ul class="list-decimal panel-ul w-[25vw]">
                         <li>Choose an animal on screen and watch its
                             movements.</li>
                         <li>Guess what game this animal is playing.

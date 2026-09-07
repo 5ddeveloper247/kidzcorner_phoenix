@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[8vw]" />
@@ -47,31 +47,31 @@
         </div>
 
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul ">
-            <li>To identify a circle.</li>
-            <li>To know that compass is a tool used to draw circles.</li>
-            <li>To find objects shaped like circles in the classroom.</li>
-            <li>To trace circles of different sizes using different objects.</li>
+            <li>认识圆形。</li>
+            <li>了解圆规是画圆的工具。</li>
+            <li>在教室里寻找圆形物品。</li>
+            <li>用不同的物品描画不同大小的圆形。</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <div class="space-y-[1vw] text-center">
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Thematic Activity Book</li>
-                <li>A circle shaped block</li>
-                <li>A compass</li>
-                <li>Objects that can be used to trace circles of different sizes,
-                    e.g. cup, coaster, bracelet, disk, plate, container cover</li>
-                <li>Crayons</li>
+                <li>主题活动书</li>
+                <li>圆形积木</li>
+                <li>圆规</li>
+                <li>可用于描画不同大小圆形的物品，
+                    例如：杯子、杯垫、手镯、光盘、盘子、容器盖</li>
+                <li>蜡笔</li>
             </ul>
         </div>
     </div>
@@ -79,13 +79,13 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ul class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What is this?" "What shape is it?" (circle)</li>
+                <li>问孩子们："这是什么？""它是什么形状？"（圆形）</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c1.png') }}" class="w-[20vw]" />
@@ -94,12 +94,10 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Show the circular side of the block, ask children: "What is this?" (block) "Does
-                this look like the little mouse's watermelon house?" "Does it look like the
-                shape below?" "What shape is it?" (circle)</li>
+            <li>展示积木的圆形面，问孩子们："这是什么？"（积木）"它像不像小老鼠的西瓜房子？""它像不像下面的形状？""它是什么形状？"（圆形）</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c2.png') }}" class="w-[20vw]" />
     </div>
@@ -107,11 +105,10 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have children touch the circular side of the block and talk about the
-                characteristic of a circle. Tell children that a circle is round.</li>
+            <li>让孩子们触摸积木的圆形面，谈论圆形的特点。告诉孩子们圆形是圆的。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c2.png') }}" class="w-[20vw]" />
     </div>
@@ -119,11 +116,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Display the compass, tell children that compass is a tool used to draw circles.
-                Demonstrate using the compass to draw 3 circles of different sizes.</li>
+            <li>展示圆规，告诉孩子们圆规是画圆的工具。
+                示范用圆规画 3 个不同大小的圆。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c3.png') }}" class="h-[20vw]" />
     </div>
@@ -131,12 +128,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask children: "Are these circles?" (Yes, circles of different sizes.)</li>
-            <li>Let children know that there are many objects shaped like circles in our
-                surroundings.</li>
+            <li>问孩子们："这些是圆形吗？"（是的，不同大小的圆形。）</li>
+            <li>让孩子们知道我们周围有很多圆形物品。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c4.png') }}" class="w-[20vw]" />
     </div>
@@ -144,11 +140,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c5.png') }}" class="w-[20vw]" />
     </div>
@@ -156,11 +152,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c6.png') }}" class="w-[20vw]" />
     </div>
@@ -168,11 +164,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c7.png') }}" class="h-[20vw]" />
     </div>
@@ -180,11 +176,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c8.png') }}" class="w-[30vw]" />
     </div>
@@ -192,11 +188,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c9.png') }}" class="w-[30vw]" />
     </div>
@@ -204,11 +200,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c10.png') }}" class="w-[30vw]" />
     </div>
@@ -216,11 +212,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c11.png') }}" class="w-[30vw]" />
     </div>
@@ -228,11 +224,11 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c12.png') }}" class="w-[30vw]" />
     </div>
@@ -240,13 +236,12 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle. [Note: There are more
-                than one circle in this picture, you can click on it a few times to see the
-                different circles.]</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。[注意：这张图片中有多个
+                圆形，可以多次点击查看不同的圆形。]</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c13.png') }}" class="w-[20vw]" />
     </div>
@@ -254,13 +249,12 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the circle. Click on the picture to see the circle. [Note: There are more
-                than one circle in this picture, you can click on it a few times to see the
-                different circles.]</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出圆形。点击图片查看圆形。[注意：这张图片中有多个
+                圆形，可以多次点击查看不同的圆形。]</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class2/c14.png') }}" class="w-[20vw]" />
     </div>
@@ -268,44 +262,43 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Have children find objects shaped like circles in the classroom.</li>
+            <li>让孩子们在教室里寻找圆形物品。</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[4vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Display the prepared objects, demonstrate how to trace circles with these
-                objects. Then have children use different coloured crayons to trace the circles
-                with these objects in the Thematic Activity Book.</li>
+            <li>展示准备好的物品，示范如何用笔描画圆形。
+                然后让孩子们用不同颜色的蜡笔在主题活动书中
+                用这些物品描画圆形。</li>
         </ol>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: Circle</h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children display their circles.</li>
-                <li>Get children to talk about the characteristic of a circle: It is
-                    round.</li>
+                <li>让孩子们展示他们描画的圆形。</li>
+                <li>引导孩子们谈论圆形的特点：它是圆的。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to find at least one object shaped like a circle in the classroom.</li>
-                <li>Able to use objects to trace circles of different sizes.</li>
+                <li>能够在教室里找到至少一个圆形物品。</li>
+                <li>能够用物品描画不同大小的圆形。</li>
             </ul>
         </div>
     </div>
@@ -313,14 +306,14 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music </h1>
+        <h1 class="panel-title stroke">课堂活动 2：圆形</h1>
 
         <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
+            <h3 class="ptitle">延伸活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get children to find an object shaped like a circle from home, then bring
-                    and show it in class.</li>
+                <li>让孩子们从家里找一个圆形物品，然后
+                    带到课堂上展示。</li>
             </ul>
         </div>
     </div>

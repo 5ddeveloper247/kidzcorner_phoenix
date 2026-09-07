@@ -66,8 +66,8 @@
                 <li>Thematic Activity Book</li>
             </ul>
 
-            <div>
-                <h3 class="panel-ul">Optional Activity:</h3>
+            <div class="mt-[3vw]">
+                <h3 class="text-white text-[1.7vw]">Optional Activity:</h3>
                 <ul class="list-disc panel-ul pl-[2vw]">
                     <li>Thematic Activity Book</li>
                 </ul>

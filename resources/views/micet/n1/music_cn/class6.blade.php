@@ -129,7 +129,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>播放音乐，老师示范如何随音乐的节奏摇动沙锤。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -142,7 +142,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>给每个孩子一个沙锤。重复播放音乐。让孩子们模仿老师，随音乐的节奏摇动沙锤。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

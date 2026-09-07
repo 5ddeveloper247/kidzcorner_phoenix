@@ -62,7 +62,7 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul w-[45vw]">
+            <ol class="list-disc panel-ul w-[40vw]">
                 <li>Thematic Activity Book</li>
                 <li>Small boxes (e.g. toothpaste, soap or biscuit boxes)</li>
                 <li>Round items (e.g. bottle caps, coaster or marbles)</li>

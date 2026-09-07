@@ -79,7 +79,7 @@
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c1.png') }}" class="h-[24vw]" />
     </div>
 
 
@@ -199,7 +199,7 @@
                 characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c10.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c12.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -212,7 +212,7 @@
                 characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c11.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c13.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -225,7 +225,7 @@
                 characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c12.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c10.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -238,7 +238,7 @@
                 characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c13.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c11.png') }}" class="w-[30vw]" />
     </div>
 
 

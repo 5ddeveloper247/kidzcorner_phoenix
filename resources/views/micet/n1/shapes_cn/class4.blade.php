@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,36 +38,35 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/animals/class4/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[8vw]" />
         </div>
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To identify a rectangle.</li>
-            <li>To confirm the characteristic of a rectangle by using a rope to
-                measure each of its sides.</li>
-            <li>To look at rectangles of different sizes.</li>
-            <li>To find objects shaped like rectangles in the classroom.</li>
+            <li>认识长方形。</li>
+            <li>用绳子测量长方形的每条边，确认其特点。</li>
+            <li>观察不同大小的长方形。</li>
+            <li>在教室里寻找长方形物品。</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
         <div class="text-center space-y-[2vw]">
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
-                <li>A square shaped block and a rectangle shaped block</li>
-                <li>A rope</li>
-                <li>1 "extendable rectangle" per child (refer to next page)</li>
-                <li>White glue</li>
+                <li>主题活动书</li>
+                <li>正方形积木和长方形积木各一个</li>
+                <li>绳子</li>
+                <li>每位孩子 1 个"可伸缩长方形"（参见下一页）</li>
+                <li>白胶</li>
             </ul>
         </div>
     </div>
@@ -75,15 +74,15 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
         <div class="text-center space-y-[2vw]">
-            <h3 class="ptitle">Refernces</h3>
+            <h3 class="ptitle">参考资料</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Materials to make an "extendable rectangle":</li>
+                <li>制作"可伸缩长方形"的材料：</li>
                 <ul class="pl-[1vw]">
-                    <li> i. 2 A4 papers</li>
-                    <li> ii. Crayons</li>
+                    <li> i. 2 张 A4 纸</li>
+                    <li> ii. 蜡笔</li>
                 </ul>
             </ul>
         </div>
@@ -92,20 +91,20 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <div class="text-center">
-            <h3 class="ptitle">Refernces</h3>
+            <h3 class="ptitle">参考资料</h3>
 
             <ol class="list-disc panel-ul w-[45vw]">
-                <li>Steps to make an "extendable rectangle":
+                <li>制作"可伸缩长方形"的步骤：
                     <ul>
-                        <li> i. Stack up 2 sheets of A4 paper, fold approximately 5 cm from the
-                            top and bottom of paper.</li>
-                        <li> ii. Pull the bottom paper out from the right side (leave approximately
-                            3 cm), draw a rectangle on both sheets of paper. Then push the paper
-                            back and stop a little before the edge of the drawn rectangle.</li>
-                        <li> iii. The outcome is shown below.</li>
+                        <li> i. 将 2 张 A4 纸叠在一起，从纸张
+                            上下约 5 厘米处折叠。</li>
+                        <li> ii. 从右侧拉出下面的纸张（留出约
+                            3 厘米），在两张纸上画长方形。然后将纸张
+                            推回，停在所画长方形边缘稍前的位置。</li>
+                        <li> iii. 成品如下所示。</li>
                     </ul>
                 </li>
             </ol>
@@ -116,13 +115,13 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <div class="text-center">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What is this?" "What shape is it?" (rectangle)</li>
+                <li>问孩子们："这是什么？""它是什么形状？"（长方形）</li>
             </ol>
         </div>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c2.png') }}" class="h-[20vw]" />
@@ -131,133 +130,128 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Display the rectangle shaped block, ask children: "Does it look like the door
-                of little mouse's watermelon house?" "Does it look like the shape below?"
-                "What shape is it?" (rectangle)</li>
+            <li>展示长方形积木，问孩子们："它像不像小老鼠西瓜房子的门？""它像不像下面的形状？""它是什么形状？"（长方形）</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c3.png') }}" class="h-[18vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have children touch the sides of the rectangle shaped block and talk about
-                the characteristic of a rectangle.</li>
+            <li>让孩子们触摸长方形积木的边，谈论长方形的特点。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c3.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
-                the different sides, guide children in counting (next page onwards).</li>
+            <li>告诉孩子们长方形有 4 条边，2 条长、2 条短。指着
+                不同的边，引导孩子们数数（从下一页开始）。</li>
         </ol>
         <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
-                the different sides, guide children in counting (next page onwards).</li>
+            <li>告诉孩子们长方形有 4 条边，2 条长、2 条短。指着
+                不同的边，引导孩子们数数（从下一页开始）。</li>
         </ol>
         <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
-                the different sides, guide children in counting (next page onwards).</li>
+            <li>告诉孩子们长方形有 4 条边，2 条长、2 条短。指着
+                不同的边，引导孩子们数数（从下一页开始）。</li>
         </ol>
         <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
-                the different sides, guide children in counting (next page onwards).</li>
+            <li>告诉孩子们长方形有 4 条边，2 条长、2 条短。指着
+                不同的边，引导孩子们数数（从下一页开始）。</li>
         </ol>
         <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
-                the different sides, guide children in counting (next page onwards).</li>
+            <li>告诉孩子们长方形有 4 条边，2 条长、2 条短。指着
+                不同的边，引导孩子们数数（从下一页开始）。</li>
         </ol>
         <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that a rectangle has 4 sides, 2 are long and 2 are short. Point to
-                the different sides, guide children in counting (next page onwards).</li>
+            <li>告诉孩子们长方形有 4 条边，2 条长、2 条短。指着
+                不同的边，引导孩子们数数（从下一页开始）。</li>
         </ol>
         <div class="h-[24vw] w-[11vw] border-[.5vw] border-white"> </div>
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Have children observe how the teacher uses a rope to measure one side of a
-                rectangle, then cuts the rope according to the length of the rectangle. Have 2
-                or 3 children then use the rope to measure each side of the rectangle, while
-                the other children observe them. Guide children in concluding the
-                characteristic of a rectangle: It has 4 sides, 2 are long and 2 are short.</li>
+            <li>让孩子们观察老师如何用绳子测量长方形的一边，然后
+                根据长方形的长度剪绳子。请 2 或 3 个孩子用绳子
+                测量长方形的每条边，其他孩子在一旁观察。引导孩子们
+                总结长方形的特点：它有 4 条边，2 条长、2 条短。</li>
         </ol>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="6">
-            <li>Display an "extendable rectangle", tell children that they can use it to
-                "make" rectangles of different sizes. </li>
-            <li>Demonstrate how to "make" rectangles of different sizes with the "extendable
-                rectangle": Each hand holds a side of the paper, right hand pulls the paper
-                out at different levels.</li>
+            <li>展示"可伸缩长方形"，告诉孩子们可以用它来
+                "制作"不同大小的长方形。 </li>
+            <li>示范如何用"可伸缩长方形""制作"不同大小的长方形：
+                每只手各握纸张一边，右手在不同位置拉出纸张。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c4.png') }}" class="h-[17vw]" />
     </div>
@@ -265,12 +259,12 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="8">
-            <li>Distribute an "extendable rectangle" to each child. Get each child to look at
-                the different sizes of rectangles made by him/her. <br>
-                [Note: Teacher moves around the classroom, guiding and assisting each child.]</li>
+            <li>给每位孩子分发一个"可伸缩长方形"。让每个孩子观察
+                自己制作的不同大小的长方形。<br>
+                [注意：老师在教室里走动，指导和帮助每个孩子。]</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c4.png') }}" class="h-[17vw]" />
     </div>
@@ -278,195 +272,189 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="9">
-            <li>Ask children: "Are these rectangles?" (Yes, rectangles of different sizes.)</li>
-            <li>Let children know that there are many objects shaped like rectangles in our
-                surroundings.</li>
+            <li>问孩子们："这些是长方形吗？"（是的，不同大小的长方形。）</li>
+            <li>让孩子们知道我们周围有很多长方形物品。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c5.png') }}" class="h-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">rectangle</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">长方形</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c6.png') }}" class="h-[10vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">ruler</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">尺子</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c7.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">book</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">书</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c8.png') }}" class="h-[15vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">envelop</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">信封</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c9.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">stamp</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">邮票</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c10.png') }}" class="h-[15vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">cassette</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">磁带</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c11.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">photo frame</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">相框</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c12.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">television</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">电视</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle. [Note: There
-                are more than one rectangle in this picture, you can click on it a few times to
-                see the different rectangles.]</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。[注意：这张图片中有多个
+                长方形，可以多次点击查看不同的长方形。]</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c13.png') }}" class="h-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">chocolate</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">巧克力</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle. [Note: There
-                are more than one rectangle in this picture, you can click on it a few times to
-                see the different rectangles.]</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。[注意：这张图片中有多个
+                长方形，可以多次点击查看不同的长方形。]</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c14.png') }}" class="h-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">refrigerator</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">冰箱</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the rectangle. Click on the picture to see the rectangle. [Note: There
-                are more than one rectangle in this picture, you can click on it a few times to
-                see the different rectangles.]</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出长方形。点击图片查看长方形。[注意：这张图片中有多个
+                长方形，可以多次点击查看不同的长方形。]</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class4/c15.png') }}" class="h-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">keyboard</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">键盘</h5>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="12">
-            <li>Have children find objects shaped like rectangles in the classroom.</li>
+            <li>让孩子们在教室里寻找长方形物品。</li>
         </ol>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <ol class="list-decimal panel-ul w-[47vw]" start="13">
-            <li>Have children paste the "extendable rectangle" with white glue in the
-                Thematic Activity Book. Encourage children to pull the paper out from the
-                right to look at the different sizes of rectangles at anytime. [Note: Remind
-                children to put glue only at the back of the paper on the left.]</li>
+            <li>让孩子们用白胶将"可伸缩长方形"粘贴在主题活动书中。
+                鼓励孩子们随时从右侧拉出纸张，观察不同大小的长方形。
+                [注意：提醒孩子们只在左侧纸张的背面涂胶。]</li>
         </ol>
     </div>
 
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get children to talk about the characteristic of a rectangle:
-                    It has 4 sides, 2 are long and 2 are short.</li>
+                <li>引导孩子们谈论长方形的特点：
+                    它有 4 条边，2 条长、2 条短。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to know that there are rectangles of different sizes.</li>
-                <li>Able to find at least one object shaped like a rectangle in
-                    the classroom.</li>
+                <li>能够了解有不同大小的长方形。</li>
+                <li>能够在教室里找到至少一个长方形物品。</li>
             </ul>
         </div>
     </div>
@@ -474,14 +462,14 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[4vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Rectangle</h1>
+        <h1 class="panel-title stroke">课堂活动 4：长方形</h1>
 
         <div class="text-start flex flex-col h-full">
-            <h3 class="ptitle">Extension</h3>
+            <h3 class="ptitle">延伸活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get children to find an object shaped like a rectangle from home, then
-                    bring and show it in class.</li>
+                <li>让孩子们从家里找一个长方形物品，然后
+                    带到课堂上展示。</li>
             </ul>
         </div>
     </div>

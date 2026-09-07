@@ -82,7 +82,7 @@
                 <li>告诉孩子们，今天他们将用这段音乐来学习演唱故事《兔子和狼》中的另外两首歌曲。</li>
             </ul>
         </div>
-        <button class="w-[4vw]" id="soundButton">
+        <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -97,7 +97,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -120,7 +120,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -143,7 +143,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -166,7 +166,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -189,7 +189,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -212,7 +212,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -235,7 +235,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -258,7 +258,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
 
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[2vw] text-[#f7b94a]">我们是乖孩子，</br>
@@ -422,6 +422,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 

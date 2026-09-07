@@ -107,7 +107,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>播放声音，让孩子们听沙锤摇动时发出的声音。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m3.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -156,7 +156,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>播放声音，让孩子们听敲击鼓时发出的声音。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m4.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -195,7 +195,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="13">
             <li>播放声音，让孩子们听敲击三角铁时发出的声音。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m5.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -232,7 +232,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="17">
             <li>播放声音，让孩子们听撞击钹时发出的声音。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -248,26 +248,201 @@
     </div>
 
 
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
 
-        <img src="{{ asset('assets/images/micet/n1/games/class7/c5.png') }}" class="h-[20vw]" />
-        <div class="flex items-center justify-between w-[40vw]">
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
-            <div class="w-[5vw] h-[5vw] border-[.35vw] border-[#FF2C2C] rounded-full"></div>
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="19">
+                <li>哪种打击乐器会发出这个声音？</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="absolute top-[1vw] left-[8vw] w-[12vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="absolute top-[1vw] right-[8vw] w-[10vw] h-[10vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="absolute bottom-[0.5vw] left-[8vw] w-[17vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
+
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m3.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
         </div>
     </div>
 
 
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>引导孩子们完成主题活动书中相应的活动。</li>
-        </ol>
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="20">
+                <li>你猜对了吗？这是沙锤的声音。</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
+
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m3.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
+
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="21">
+                <li>哪种打击乐器会发出这个声音？</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="absolute top-[1vw] left-[8vw] w-[12vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="absolute top-[1vw] right-[8vw] w-[10vw] h-[10vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="absolute bottom-[0.5vw] left-[8vw] w-[17vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
+
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m4.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
+
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="22">
+                <li>你猜对了吗？这是鼓的声音。</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="absolute top-[1vw] right-[8vw] w-[10vw] h-[10vw]">
+
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m4.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
+
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="23">
+                <li>哪种打击乐器会发出这个声音？</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="absolute top-[1vw] left-[8vw] w-[12vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="absolute top-[1vw] right-[8vw] w-[10vw] h-[10vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="absolute bottom-[0.5vw] left-[8vw] w-[17vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
+
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m5.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
+
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="24">
+                <li>你猜对了吗？这是三角铁的声音。</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="absolute top-[1vw] left-[8vw] w-[12vw]">
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m5.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
+
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="25">
+                <li>哪种打击乐器会发出这个声音？</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c3.png') }}" class="absolute top-[1vw] left-[8vw] w-[12vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c2.png') }}" class="absolute top-[1vw] right-[8vw] w-[10vw] h-[10vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="absolute bottom-[0.5vw] left-[8vw] w-[17vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="absolute bottom-[0.5vw] right-[8vw] w-[15vw]">
+
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
+
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="26">
+                <li>你猜对了吗？这是钹的声音。</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/music/class7/c4.png') }}" class="absolute bottom-[0.5vw] left-[8vw] w-[17vw]">
+
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">课堂活动 7：打击乐器</h1>
+
+        <div class="w-[45vw] mt-[0.5vw]">
+            <ol class="list-decimal panel-ul" start="27">
+                <li>引导孩子们完成主题活动书中相应的活动。</li>
+            </ol>
+        </div>
+
+        <div class="relative w-[70vw] h-[27vw] mt-[0.5vw]">
+            <button type="button" id="soundButton"
+                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[4.5vw] z-10" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m6.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" class="w-full">
+            </button>
+        </div>
     </div>
 
 
@@ -422,6 +597,7 @@
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 
@@ -618,24 +794,6 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
-        });
-
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.phonics-panel').forEach(panel => {
-                const observer = new MutationObserver(() => {
-                    if (panel.classList.contains('hidden')) {
-                        panel.querySelectorAll('video').forEach(video => {
-                            if (!video.paused) video.pause();
-                            video.currentTime = 0;
-                        });
-                    }
-                });
-
-                observer.observe(panel, {
-                    attributes: true,
-                    attributeFilter: ['class']
-                });
-            });
         });
     </script>
 @endpush

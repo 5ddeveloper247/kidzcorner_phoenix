@@ -79,10 +79,12 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li> <span class="flex items-end">Let the children listen to the "Let's Exercise" song.
-                        <button class="w-[2.5vw]" id="soundButton">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button></span></li>
+                <li>Let the children listen to the "Let's Exercise" song.
+                    <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                        data-slide-audio="{{ asset('assets/audio/micet/n2/partner.mp3') }}">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
+                </li>
                 <li>Ask the children to name the parts of the body mentioned in the song and
                     describe their corresponding movements.</li>
             </ol>
@@ -97,10 +99,11 @@
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
             <li>Teach the children lyrics of the song.</li>
             <li>Have the children follow and read out the lyrics according to the rhythm of the
-                <span class="flex items-end">music.<button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span>
+                music. 
+                <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/micet/n2/partner.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
             </li>
         </ol>
         <h4 class="text-white text-[1.7vw] text-start">

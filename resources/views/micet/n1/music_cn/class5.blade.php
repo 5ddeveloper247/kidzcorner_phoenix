@@ -117,7 +117,7 @@
         <ol class="list-decimal panel-ul" start="4">
             <li>播放音乐，老师示范随音乐的节奏跳舞。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -210,7 +210,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>重复播放音乐，让孩子们跟着老师一起随音乐的节奏跳舞。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

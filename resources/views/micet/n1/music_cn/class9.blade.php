@@ -80,7 +80,7 @@
             </ol>
         </div>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -135,7 +135,7 @@
             <li>重复播放音乐。让唱歌组练习唱歌，跳舞组练习跳舞，打击乐组练习演奏不同的打击乐器。</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -159,7 +159,7 @@
             <li>老师在教室走动，协助不同的小组。提醒幼儿与小组成员合作，以便表演顺利进行。</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -183,7 +183,7 @@
             <li>练习结束后，让各组轮流表演。</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">
@@ -207,7 +207,7 @@
             <li>让我们开始音乐会吧！让不同的小组合作完成音乐会表演。</li>
         </ol>
         <div class="flex gap-[1vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.7vw] text-[#f7b94a] text-start">

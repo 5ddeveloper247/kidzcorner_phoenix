@@ -49,7 +49,7 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
+        <ul class="list-disc panel-ul">
             <li>Understand why wheels are round</li>
             <li>Learn to conduct an experiment and record the results</li>
             <li>Develop reasoning skills</li>
@@ -125,7 +125,7 @@
             <li>Demonstrate how to use a large cardboard to set up a 30 degree slope.</li>
             <li>Distribute the large cardboards. Let each group of children cooperate to set up the slope.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/transport/class4/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class4/c3.png') }}" class="w-[35vw]" />
     </div>
 
     {{-- panel 8 --}}
@@ -135,7 +135,7 @@
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Distribute the experiment record sheet to each child.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/transport/class4/c4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class4/c4.png') }}" class="h-[22vw]" />
     </div>
 
     {{-- panel 9 --}}
@@ -174,7 +174,7 @@
 
     {{-- panel 42 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Why Are Wheels Round?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>

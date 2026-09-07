@@ -57,13 +57,13 @@ $showMascot = true;
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
+<div class="phonics-panel flex flex-col h-full items-center space-y-[2vw]">
     <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
 
     <div>
         <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[40vw]">
             <li>Thematic Activity Book</li>
             <li>Set up an orchard in the classroom with different fruit plants such as apple, pear, orange, lychee, mango, banana, jackfruit, pineapple, durian, strawberry, grape and watermelon</li>
             <li>Cut out the different types of paper fruits and hang them on the trees, minimum 6 to 8 fruits per plant. The height of the fruits should be within the children's reach

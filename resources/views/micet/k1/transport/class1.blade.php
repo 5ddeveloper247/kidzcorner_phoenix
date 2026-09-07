@@ -58,7 +58,7 @@
 
         <h3 class="title">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[40vw]">
+        <ul class="list-disc panel-ul">
             <li>Enjoy listening to a story</li>
             <li>Identify wheels of different types of transport</li>
             <li>Inculcate the spirit of helping</li>
@@ -84,7 +84,7 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: A New Rubber Tyre For Billy</h1>
 
-        <div>
+        <div class="text-start">
             <h3 class="title">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
@@ -109,7 +109,7 @@
         <h3 class="p-title">Billy was an old bus. One day as it was travelling on the road, there was <br>
             a loud sound. It had punctured its tyre. The bus driver left Billy by the <br>
             road side as he could not find a suitable tyre.</h3>
-        <img src="{{ asset('assets/images/micet/k1/transport/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c2.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -117,7 +117,11 @@
                 What is the difference between a bus and a car? <br>
                 <span class="text-[#f7b94a]">Guide children to compare a bus to a car based on their prior knowledge.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -127,14 +131,14 @@
         <h3 class="p-title">Just then, Tina passed by. Billy stopped her and asked Tina to help find a <br>
             new tyre. Billy did not want to stop working as there were many old <br>
             customers waiting for Billy to transport them.</h3>
-        <img src="{{ asset('assets/images/micet/k1/transport/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c3.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 If you were Tina, where would you find a new tyre for Billy?<br>
                 <span class="text-[#f7b94a]">Enhance children's thinking skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -144,14 +148,14 @@
         <h3 class="p-title">The kind-hearted Tina immediately left to look for a new tyre. First, she saw a <br>
             motorcycle and a racing car which had big tyres that could travel very fast. <br>
             However, Billy was a bus and these tyres were not suitable.</h3>
-        <img src="{{ asset('assets/images/micet/k1/transport/class1/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c4.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 What is special about a motorcycle and a racing car?<br>
                 <span class="text-[#f7b94a]">Develop children's verbal description skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -161,14 +165,14 @@
         <h3 class="p-title">As Tina continued walking, she saw a steamroller. Its wheels were made <br>
             of steel. They were big and heavy. But these wheels were not what Billy <br>
             needed.</h3>
-        <img src="{{ asset('assets/images/micet/k1/transport/class1/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c5.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
                 What is a steamroller used for?<br>
                 <span class="text-[#f7b94a]">Help children understand the uses of a steamroller.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -178,7 +182,7 @@
         <h3 class="p-title">"Choo choo ... " A train passed by. The train told Tina that its wheels were <br>
             made of steel and could only travel on rails. The train invited Tina to travel <br>
             on it to the beach to look for tyres.</h3>
-        <img src="{{ asset('assets/images/micet/k1/transport/class1/c6.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c6.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -187,7 +191,10 @@
                     Help children understand the characteristics nftrains.
                 </span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -197,14 +204,14 @@
         <h3 class="p-title">At the beach, Tina saw a small boat, motorboat and a big ship. However, <br>
             none of them had tyres so they were unable to help Tina. Tina sat in the <br>
             big ship and continued looking for a tyre.</h3>
-        <img src="{{ asset('assets/images/micet/k1/transport/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c7.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 How do ships travel without tyres?<br>
                 <span class="text-[#f7b94a]">Help children understand how a ship moves and the use of propellers.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -221,7 +228,7 @@
                 <span class="text-[#f7b94a]">Introduce position and use of propellers of a helicopter and an
                     aeroplane.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -238,7 +245,7 @@
                 Count the number of tyres.<br>
                 <span class="text-[#f7b94a]">Enhance children's counting skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 

@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,17 +38,18 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/animals/class6/b1.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[9vw]" />
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
+        <div class="flex items-center gap-1">
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b8.png') }}" class="h-[6vw]" />
         </div>
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Know that we can shake the maraca to the rhythm of the music</li>
-            <li>Learn to shake the maraca to the rhythm of the music</li>
+            <li>学习演唱形状歌曲</li>
+            <li>认识四种基本形状——圆形、正方形、长方形、三角形</li>
         </ul>
 
     </div>
@@ -56,15 +57,14 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
 
         <div>
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Provide each child with a maraca (maracas made in
-                    Activity 6 of Toy theme; can be replaced with other
-                    musical percussion instruments or toys).</li>
+                <li>主题活动书</li>
+                <li>圆形积木、正方形积木、长方形积木、三角形积木各一个</li>
             </ul>
         </div>
     </div>
@@ -72,129 +72,132 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
 
         <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children: "What is this?" "What colour is it?" "Can you describe it?"
-                    (physical characteristics) "What do we use it for?"</li>
+                <li>展示4块积木，让孩子们逐一说出形状名称。</li>
+                <li>告诉孩子们，今天他们将学习演唱形状歌曲。</li>
             </ol>
-        </div>
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/n1/music/class6/c1.png') }}" class="w-[25vw]" />
-            <h3 class="text-[1.5vw] text-[#f7b94a]">maraca</h3>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Tell children that a maraca is a kind of musical percussion instrument.
-                When you shake it, you'll hear a sound.</li>
-            <li>Play the sound, have children listen to the sound when the maraca is
-                shaken.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>展示圆形积木，播放音乐并演唱。</li>
+            <li>向孩子们解释歌词的含义。</li>
+            <li>重复播放音乐，让孩子们跟着一起唱。</li>
         </ol>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个圆形" <br>
+                我能看见一个圆形。<br>
+                圆形，圆形。<br>
+                我能看见一个圆形。<br>
+                你呢？
+            </h4>
+        </div>
     </div>
 
 
-    {{-- panel 6 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Tell children that besides clapping, doing actions, singing and dancing, we
-                can also shake the maraca to the rhythm of the music.</li>
-            <li>Invite children to look at the following demonstration.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Click on the video, have children see how to shake the maraca to the
-                rhythm of the music.</li>
+            <li>展示正方形积木，播放音乐并演唱。</li>
+            <li>向孩子们解释歌词的含义。</li>
+            <li>重复播放音乐，让孩子们跟着一起唱。</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n1/music/class6/v1.mp4') }}" type="video/mp4">
-        </video>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个正方形" <br>
+                我能看见一个正方形。<br>
+                正方形，正方形。<br>
+                我能看见一个正方形。<br>
+                你呢？
+            </h4>
+        </div>
     </div>
 
 
-
-    {{-- panel 9 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Play music, teacher demonstrates how to shake the maraca to the rhythm
-                of the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>展示长方形积木，播放音乐并演唱。</li>
+            <li>向孩子们解释歌词的含义。</li>
+            <li>重复播放音乐，让孩子们跟着一起唱。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个长方形" <br>
+                我能看见一个长方形。<br>
+                长方形，长方形。<br>
+                我能看见一个长方形。<br>
+                你呢？
+            </h4>
+        </div>
     </div>
 
 
-    {{-- panel 10 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Give each child a maraca. Repeat playing the music. Let children imitate
-                the teacher and shake the maraca to the rhythm of the music.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>展示三角形积木，播放音乐并演唱。</li>
+            <li>向孩子们解释歌词的含义。</li>
+            <li>重复播放音乐，让孩子们跟着一起唱。</li>
         </ol>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/shapes/m1.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-start text-white text-[2vw]">
+                "我能看见一个三角形" <br>
+                我能看见一个三角形。<br>
+                三角形，三角形。<br>
+                我能看见一个三角形。<br>
+                你呢？
+            </h4>
+        </div>
     </div>
 
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
+        <h1 class="panel-title stroke">课堂活动 6：形状歌曲</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask children: Besides clapping, doing actions, singing and dancing, what else
-                    can we do to follow to the rhythm of the music?</li>
-                <li>Play music , have children shake the maraca to the rhythm of the music.</li>
+                <li>老师展示积木时，让孩子们演唱相应的歌曲。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that we can shake the maraca to the rhythm
-                    of the music.</li>
-                <li>Able to shake the maraca to the rhythm of the music.</li>
+                <li>能够演唱歌曲。</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- Panel 11 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let's Shake</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music that children are familiar with, lead them
-                    in shaking the maraca to the rhythm of the music.</li>
-            </ul>
-        </div>
-    </div>
-
-
 
 
 
@@ -251,8 +254,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -510,24 +513,6 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
-        });
-
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.phonics-panel').forEach(panel => {
-                const observer = new MutationObserver(() => {
-                    if (panel.classList.contains('hidden')) {
-                        panel.querySelectorAll('video').forEach(video => {
-                            if (!video.paused) video.pause();
-                            video.currentTime = 0;
-                        });
-                    }
-                });
-
-                observer.observe(panel, {
-                    attributes: true,
-                    attributeFilter: ['class']
-                });
-            });
         });
     </script>
 @endpush

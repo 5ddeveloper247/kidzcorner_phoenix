@@ -229,7 +229,7 @@
             <li>Let children discuss: What materials are used to make the walls of this bungalow? Is there any uniqueness in
                 the doors and windows?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/home/class5/c15.png') }}" class="w-[35vw]" />
+        <img src="{{ asset('assets/images/micet/k1/home/class5/c15.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -241,7 +241,7 @@
             <li>Let children discuss: What materials are used to make the walls of these terrace houses? Is there any
                 uniqueness in the doors and windows?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/home/class5/c16.png') }}" class="w-[35vw]" />
+        <img src="{{ asset('assets/images/micet/k1/home/class5/c16.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -253,7 +253,7 @@
             <li>Let children discuss: What materials are used to make the walls of these terrace houses? Is there any
                 uniqueness in the doors and windows?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/home/class5/c17.png') }}" class="w-[35vw]" />
+        <img src="{{ asset('assets/images/micet/k1/home/class5/c17.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -265,7 +265,7 @@
             <li>Let children discuss: What materials are used to make the walls of these terrace houses? Is there any
                 uniqueness in the doors and windows?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/home/class5/c18.png') }}" class="w-[35vw]" />
+        <img src="{{ asset('assets/images/micet/k1/home/class5/c18.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -290,7 +290,7 @@
             <li>Let children discuss: What materials are used to make the walls of this condominium? Is there any uniqueness
                 in the doors and windows?</li>
         </ol>
-        <div class="flex gap-2">
+        <div class="flex gap-[1vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class5/c20.png') }}" class="h-[22vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class5/c21.png') }}" class="h-[22vw]" />
         </div>
@@ -305,7 +305,7 @@
             <li>Let children discuss: What materials are used to make the walls of this condominium? Is there any uniqueness
                 in the doors and windows?</li>
         </ol>
-        <div class="flex gap-2">
+        <div class="flex gap-[1vw]">
             <img src="{{ asset('assets/images/micet/k1/home/class5/c22.png') }}" class="h-[22vw]" />
             <img src="{{ asset('assets/images/micet/k1/home/class5/c23.png') }}" class="h-[22vw]" />
         </div>

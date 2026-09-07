@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,33 +38,32 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+        <h1 class="panel-title stroke">表 1：主题目标</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To develop music and rhythmic sense</li>
-            <li>To know that all music has rhythm</li>
-            <li>To know that we can use different actions to follow the rhythm of the music</li>
-            <li>To learn to use different types of performing arts in a concert</li>
-            <li>To learn to cooperate with friends in a concert</li>
+            <li>认识四种基本形状：圆形、正方形、长方形和三角形。</li>
+            <li>了解不同形状可以组合成各种物品。</li>
+            <li>根据形状找伙伴。</li>
+            <li>学会与朋友合作。</li>
+            <li>享受与朋友一起玩耍的乐趣。</li>
         </ol>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/toys/tables/t1.png') }}" class="w-[28vw]" />
+        <h1 class="panel-title stroke">表 2：多元智能学习网</h1>
+        <img src="{{ asset('assets/images/micet/n1/shapes/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/toys/tables/t2.png') }}" class="h-[20vw]" />
+        <h1 class="panel-title stroke">表 2：多元智能活动</h1>
+        <img src="{{ asset('assets/images/micet/n1/shapes/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
-
 
 
 
@@ -121,8 +120,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/music/index') }}";
-            const doneURL = "{{ url('/micet/n1/music/index') }}";
+            const returnURL = "{{ url('/micet/n1/shapes/index') }}";
+            const doneURL = "{{ url('/micet/n1/shapes/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -381,6 +380,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

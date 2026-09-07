@@ -117,7 +117,7 @@
                 Do you sleep on your own?<br>
                 <span class="text-[#f7b94a]">Encourage the children to be independent by sleeping on their own.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -129,14 +129,14 @@
             shadow of the big tree outside. Danny is no longer afraid.</h3>
         <img src="{{ asset('assets/images/micet/k1/myself/class1/c3.png') }}" class="w-[27vw]" />
 
-        <div class="flex items-center justify-around w-full">
+        <div class="flex items-center justify-center w-full">
             <h3 class="p-title text-left">
                 What are the different shapes of shadows that you have seen? What do <br>
                 they look like? <br>
                 <span class="text-[#f7b94a]">Guide the children in observing the shadows of various objects and explain <br>
                     how shadows are formed.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -154,7 +154,10 @@
                 <span class="text-[#f7b94a]">Reinforce the children's concept of time. Guide the children in leaming
                     to tell time.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" /> 
+            </div>
         </div>
     </div>
 
@@ -172,7 +175,10 @@
                 <span class="text-[#f7b94a]">Help the children measure their height and understand the changes in <br>
                     height as they grow.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" /> 
+            </div>
         </div>
     </div>
 
@@ -189,7 +195,7 @@
                 Do you know how to brush your teeth? <br>
                 <span class="text-[#f7b94a]">Teach the children the correct way to brush their teeth.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" /> 
         </div>
     </div>
 
@@ -206,7 +212,10 @@
                 <span class="text-[#f7b94a]">Help the children distinguish between the inside and outside of clothes, <br>
                     the front and back of pants, and the left and right side of shoes etc.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" /> 
+            </div>
         </div>
     </div>
 
@@ -223,7 +232,7 @@
                 Let's exercise!<br>
                 <span class="text-[#f7b94a]">Go through some exercise movements with the children.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -241,7 +250,10 @@
                 <span class="text-[#f7b94a]">Encourage the children to show care for others and perform tasks that <br>
                     are appropriate to their age.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="w-[3.5vw]" /> 
+            </div>
         </div>
     </div>
 

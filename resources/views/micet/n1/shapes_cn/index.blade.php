@@ -22,35 +22,35 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/n1/shapes/class1') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class1') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class2') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class2') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class3') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class3') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class4') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class4') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn4.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class5') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class5') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn5.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class6') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class6') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn6.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class7') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class7') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn7.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class8') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class8') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn8.png') }}" />
         </a>
 
@@ -60,16 +60,16 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="first grid grid-cols-3 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{ url('/micet/n1/shapes/class9') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class9') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn9.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/class10') }}">
+        <a href="{{ url('/micet/n1/shapes_cn/class10') }}">
             <img src="{{ asset('assets/images/micet/n1/shapes/cn10.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/shapes/tables') }}">
-            <img src="{{ asset('assets/images/micet/n1/shapes/t-cn.png') }}" />
+        <a href="{{ url('/micet/n1/shapes_cn/tables') }}">
+            <img src="{{ asset('assets/images/micet/n1/shapes_cn/t-cn.png') }}" />
         </a>
 
     </div>
@@ -116,16 +116,16 @@
 
             let currentSlide = 0;
 
-            const savedSlide = sessionStorage.getItem("micet_n1_shapes_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_n1_shapes_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_n1_shapes_cn_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_n1_shapes_cn_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_n1_shapes_slide");
-            sessionStorage.removeItem("micet_n1_shapes_from_lesson");
+            sessionStorage.removeItem("micet_n1_shapes_cn_slide");
+            sessionStorage.removeItem("micet_n1_shapes_cn_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -148,8 +148,8 @@
             // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_n1_shapes_slide", currentSlide);
-                    sessionStorage.setItem("micet_n1_shapes_from_lesson", "1");
+                    sessionStorage.setItem("micet_n1_shapes_cn_slide", currentSlide);
+                    sessionStorage.setItem("micet_n1_shapes_cn_from_lesson", "1");
                 });
             });
 

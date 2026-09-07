@@ -170,7 +170,7 @@
         <h3 class="p-title">Look, Jingle is performing in a concert with her friends! There are 2 <br>
             children singing, 2 children dancing and 4 children playing <br>
             different percussion instruments. Their performance is really good!</h3>
-        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/shapes/class1/c1.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -191,38 +191,18 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>
-                    <span class="flex items-end">Play music <span class="w-[3vw]">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> , have children clap to the rhythm of the
-                        music together. </span>
-                </li>
+                <li>Ask children: Who lives in the watermelon house? What can
+                    you find in the watermelon house?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to say that all music has rhythm.</li>
-                <li>Able to clap to the rhythm of the music.</li>
+                <li>Able to answer questions based on observation and listening skills.</li>
+                <li>Able to enjoy listening to the story.</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Happy Little Mouse </h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Play other music that children are familiar with, lead them in clapping to
-                    the rhythm of the music.</li>
-            </ul>
-        </div>
-    </div>
-
 
 
 
@@ -537,6 +517,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

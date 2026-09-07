@@ -195,7 +195,8 @@
 
         <div class="flex gap-[2vw] items-start">
 
-            <button class="w-[3vw]" id="soundButton">
+            <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/micet/n2/wheels-s.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -220,8 +221,9 @@
             <li>When children are familiar with the song, let them modify the song by substituting the lyrics based on their
                 design.</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3vw]" id="soundButton">
+        <div class="flex gap-[2vw] items-start mt-[3vw]">
+            <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/micet/k1/wheels-s.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h4 class="text-white text-[1.8vw] text-start">

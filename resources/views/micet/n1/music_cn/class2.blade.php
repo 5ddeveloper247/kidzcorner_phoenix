@@ -82,7 +82,7 @@
                 <li>播放音乐；让孩子们跟着音乐的节奏拍手。</li>
             </ul>
         </div>
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -97,7 +97,7 @@
             <li>邀请孩子们聆听不同速度的音乐。</li>
         </ol>
 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -112,13 +112,13 @@
         </ol>
         <div class="flex gap-[1vw]">
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
 
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -137,13 +137,13 @@
 
         <div class="flex gap-[1vw]">
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
 
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -161,13 +161,13 @@
 
         <div class="flex gap-[1vw]">
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
 
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -185,13 +185,13 @@
 
         <div class="flex gap-[1vw]">
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
 
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -210,13 +210,13 @@
 
         <div class="flex gap-[1vw]">
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FFF265]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
 
             <div class="w-[15vw] h-[15vw] flex items-center justify-center bg-[#FF6567]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
+                <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -234,14 +234,24 @@
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>
-                    <span class="flex items-start">播放速度慢的音乐 <span class="w-[3vw]">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> ，让孩子们一起跟着音乐的节奏拍手。 </span>
+                    <span>播放速度慢的音乐
+                        <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m1.mp3') }}">
+                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                            </button>
+                        </span>
+                        ，让孩子们一起跟着音乐的节奏拍手。
+                    </span>
                 </li>
                 <li>
-                    <span class="flex items-start">播放速度快的音乐 <span class="w-[3vw]">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </span> ，让孩子们一起跟着音乐的节奏拍手。 </span>
+                    <span>播放速度快的音乐
+                        <span class="inline-flex items-center justify-center align-middle w-[3vw] mx-1">
+                            <button class="w-[4vw]" id="soundButton" data-letter="cat" data-slide-audio="{{ asset('assets/audio/micet/n1/music/m2.mp3') }}">
+                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                            </button>
+                        </span>
+                        ，让孩子们一起跟着音乐的节奏拍手。
+                    </span>
                 </li>
                 <li>问孩子们：当音乐速度快时，节奏是怎样的？拍手有什么不同吗？</li>
             </ul>

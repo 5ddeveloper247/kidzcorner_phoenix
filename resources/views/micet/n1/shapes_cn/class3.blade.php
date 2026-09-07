@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dynamic Presentation')
+@section('title', '动态演示')
 
 @php
     $showBackground = false;
@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[10vw]" />
             <img src="{{ asset('assets/images/micet/n1/toys/class2/b3.png') }}" class="h-[10vw]" />
@@ -46,31 +46,30 @@
         </div>
 
 
-        <h3 class="ptitle">Objectives:</h3>
+        <h3 class="ptitle">学习目标：</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To identify a square.</li>
-            <li>To confirm the characteristic of a square by using a rope to
-                measure each of its sides.</li>
-            <li>To form a square with ice-cream sticks.</li>
-            <li>To find objects shaped like squares in the classroom.</li>
+            <li>认识正方形。</li>
+            <li>用绳子测量正方形的每条边，确认其特点。</li>
+            <li>用冰棒棍拼成正方形。</li>
+            <li>在教室里寻找正方形物品。</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Preparations</h3>
+            <h3 class="ptitle">准备工作</h3>
 
             <ul class="list-decimal panel-ul">
-                <li>Thematic Activity Book</li>
-                <li>A square shaped block</li>
-                <li>A rope</li>
-                <li>4 ice-cream sticks per child</li>
-                <li>White glue</li>
+                <li>主题活动书</li>
+                <li>正方形积木</li>
+                <li>绳子</li>
+                <li>每位孩子 4 根冰棒棍</li>
+                <li>白胶</li>
             </ul>
         </div>
     </div>
@@ -78,13 +77,13 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Lesson Development</h3>
+            <h3 class="ptitle">课程开展</h3>
 
             <ul class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: "What is this?" "What shape is it?" (square)</li>
+                <li>问孩子们："这是什么？""它是什么形状？"（正方形）</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c1.png') }}" class="h-[20vw]" />
@@ -93,272 +92,260 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Display the square shaped block, ask children: "Does it look like the window
-                of little mouse's watermelon house?" "Does it look like the shape below?"
-                "What shape is it?" (square)</li>
+            <li>展示正方形积木，问孩子们："它像不像小老鼠西瓜房子的窗户？""它像不像下面的形状？""它是什么形状？"（正方形）</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/square.png') }}" class="h-[19vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>让孩子们触摸正方形积木的边，谈论正方形的特点。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/square.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>让孩子们触摸正方形积木的边，谈论正方形的特点。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>让孩子们触摸正方形积木的边，谈论正方形的特点。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>让孩子们触摸正方形积木的边，谈论正方形的特点。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>让孩子们触摸正方形积木的边，谈论正方形的特点。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have children touch the sides of the square shaped block and talk about the
-                characteristic of a square.</li>
+            <li>让孩子们触摸正方形积木的边，谈论正方形的特点。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Have children observe how the teacher uses a rope to measure one side of a
-                square, then cuts the rope according to the length of the square. Have 2 or 3
-                children the use the rope to measure each side of the square, while the other
-                children observe them. Guide children in concluding the characteristic of a
-                square: It has 4 equal sides.</li>
+            <li>让孩子们观察老师如何用绳子测量正方形的一边，然后
+                根据正方形的长度剪绳子。请 2 或 3 个孩子用绳子
+                测量正方形的每条边，其他孩子在一旁观察。引导孩子们
+                总结正方形的特点：它有 4 条相等的边。</li>
         </ol>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Display an ice-cream stick, ask children: "What is this?"</li>
-            <li>Tell children that we can use 4 ice-cream sticks of the same length to form a
-                square. Stack up 4 ice-cream sticks to proof that they are of the same length,
-                then demonstrate how to use them to form a square.</li>
-            <li>Distribute 4 ice-cream sticks to each child. Get each child to stack up the 4
-                ice-cream sticks to confirm that they are of the same length.
-                [Note: Teacher moves around the classroom, guiding and assisting each
-                child.]</li>
+            <li>展示冰棒棍，问孩子们："这是什么？"</li>
+            <li>告诉孩子们我们可以用 4 根相同长度的冰棒棍拼成正方形。
+                将 4 根冰棒棍叠在一起证明它们长度相同，
+                然后示范如何用它们拼成正方形。</li>
+            <li>给每位孩子分发 4 根冰棒棍。让每个孩子将 4 根
+                冰棒棍叠在一起，确认它们长度相同。
+                [注意：老师在教室里走动，指导和帮助每个孩子。]</li>
         </ol>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Ask children: "Are these squares?" (Yes, squares of different sizes.)</li>
-            <li>Let children know that there are many objects shaped like squares in our
-                surroundings.</li>
+            <li>问孩子们："这些是正方形吗？"（是的，不同大小的正方形。）</li>
+            <li>让孩子们知道我们周围有很多正方形物品。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c2.png') }}" class="h-[18vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">square</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">正方形</h5>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出正方形。点击图片查看正方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c3.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">biscuits</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">饼干</h5>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出正方形。点击图片查看正方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c4.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">biscuits</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">饼干</h5>
     </div>
 
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出正方形。点击图片查看正方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c5.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">post-it note</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">便利贴</h5>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出正方形。点击图片查看正方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c6.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">blocks</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">积木</h5>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出正方形。点击图片查看正方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c7.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">dice</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">骰子</h5>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出正方形。点击图片查看正方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c8.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">gift box</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">礼品盒</h5>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Display picture. Have children name the item and talk about its use, then
-                point to the square. Click on the picture to see the square.</li>
+            <li>展示图片。让孩子们说出物品名称并谈论其用途，然后
+                指出正方形。点击图片查看正方形。</li>
         </ol>
         <img src="{{ asset('assets/images/micet/n1/shapes/class3/c9.png') }}" class="h-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">plate</h5>
+        <h5 class="text-[2vw] text-[#f7b94a]">盘子</h5>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Have children find objects shaped like squares in the classroom.</li>
+            <li>让孩子们在教室里寻找正方形物品。</li>
         </ol>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>Have children use 4 ice-cream sticks and white glue to form a square in the
-                Thematic Activity Book. (Teacher to assist if help is needed.)</li>
+            <li>让孩子们用 4 根冰棒棍和白胶在主题活动书中
+                拼成正方形。（如需帮助，老师协助。）</li>
         </ol>
     </div>
 
 
     {{-- panel 16 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
-            <h3 class="ptitle">Clousre</h3>
+            <h3 class="ptitle">结束活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children display their squares.</li>
-                <li>Get children to talk about the characteristic of a square: It
-                    has 4 equal sides.</li>
+                <li>让孩子们展示他们拼的正方形。</li>
+                <li>引导孩子们谈论正方形的特点：它有 4 条相等的边。</li>
             </ul>
 
-            <h3 class="ptitle">Evaluation</h3>
+            <h3 class="ptitle">评估</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to find at least one object shaped like a square in the classroom.</li>
-                <li>Able to form a square with the ice-cream sticks.</li>
+                <li>能够在教室里找到至少一个正方形物品。</li>
+                <li>能够用冰棒棍拼成正方形。</li>
             </ul>
         </div>
     </div>
@@ -366,14 +353,14 @@
 
     {{-- panel 17 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Square</h1>
+        <h1 class="panel-title stroke">课堂活动 3：正方形</h1>
 
         <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
+            <h3 class="ptitle">延伸活动</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get children to find an object shaped like a square from home, then
-                    bring and show it in class.</li>
+                <li>让孩子们从家里找一个正方形物品，然后
+                    带到课堂上展示。</li>
             </ul>
         </div>
     </div>

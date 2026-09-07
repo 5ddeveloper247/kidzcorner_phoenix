@@ -130,7 +130,7 @@
                 <img src="{{ asset('assets/images/micet/k1/transport/activity/c3.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
-                    <ul class="panel-ul w-[30vw]">
+                    <ul class="list-disc panel-ul w-[30vw]">
                         <li>To expand vocabulary</li>
                         <li>To be aware of different types of vehicles</li>
                     </ul>
@@ -156,7 +156,7 @@
                 <img src="{{ asset('assets/images/micet/k1/transport/activity/c4.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
-                    <ul class="panel-ul w-[30vw]">
+                    <ul class="list-disc panel-ul w-[30vw]">
                         <li>To expand vocabulary</li>
                         <li>To be aware of phrases related to vehicles</li>
                     </ul>

@@ -81,10 +81,12 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li> <span class="flex items-end">Click to play the song. Let children listen to the "Handkerchief' song.
-                        <button class="w-[2.5vw]" id="soundButton">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button></span></li>
+                <li>Click to play the song. Let children listen to the "Handkerchief' song.
+                    <button class="w-[3vw] inline-flex items-center align-middle" id="soundButton"
+                        data-slide-audio="{{ asset('assets/audio/micet/n2/hadnkerchief.mp3') }}">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
+                </li>
                 <li>Let children learn to sing the song.</li>
             </ol>
         </div>

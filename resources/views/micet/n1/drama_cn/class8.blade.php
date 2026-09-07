@@ -110,7 +110,7 @@
             <li>给每个孩子分配一个在戏剧中扮演的角色（例如：唱歌组、角色扮演组、讲故事组和乐器组）。让每组孩子在教室的不同角落练习自己的角色。</li>
         </ol>
         {{-- 
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/drama/class2/m1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button> --}}
     </div>

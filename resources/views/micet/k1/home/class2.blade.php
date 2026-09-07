@@ -404,7 +404,7 @@ $showMascot = true;
                 How is this room different from the room in your house?</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class2/c26.png') }}" class="w-[30vw] h-[23vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class2/c26.png') }}" class="h-[23vw]" />
 </div>
 
 
@@ -432,7 +432,7 @@ $showMascot = true;
                 How is this room different from the room in your house?</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class2/c28.png') }}" class="w-[30vw] h-[23vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class2/c28.png') }}" class="h-[23vw]" />
 </div>
 
 
@@ -460,7 +460,7 @@ $showMascot = true;
                 How is this room different from the room in your house?</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/home/class2/c30.png') }}" class="w-[30vw] h-[23vw]" />
+    <img src="{{ asset('assets/images/micet/k1/home/class2/c30.png') }}" class="h-[23vw]" />
 </div>
 
 

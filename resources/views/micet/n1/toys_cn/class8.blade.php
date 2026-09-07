@@ -91,7 +91,7 @@
             <li>再次播放音乐，让孩子们跟着唱。</li>
         </ol>
         <div class="flex">
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/toys/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-[#f7b94a]">
@@ -112,7 +112,7 @@
             <li>让孩子们拿出沙锤，一边唱歌一边摇动。</li>
         </ol>
         <div class="flex">
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/toys/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-[#f7b94a]">
@@ -134,7 +134,7 @@
                 这首歌。</li>
         </ol>
         <div class="flex">
-            <button class="w-[4vw]" id="soundButton">
+            <button class="w-[4vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/micet/n1/toys/m1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h5 class="text-[1.5vw] text-[#f7b94a]">

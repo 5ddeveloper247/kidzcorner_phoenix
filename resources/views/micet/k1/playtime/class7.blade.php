@@ -116,7 +116,7 @@
                 colours on the left side and center of the chart, and then paste the paper dipped in the new colour on the
                 right side of the chart.</li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/k1/playtime/class7/v2.mp4') }}" type="video/mp4">
         </video>
     </div>
@@ -130,7 +130,7 @@
             <li>Click to play the video. Let children observe the colour change that occurs when blue and yellow
                 watercolours are mixed.</li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/k1/playtime/class7/v3.mp4') }}" type="video/mp4">
         </video>
     </div>
