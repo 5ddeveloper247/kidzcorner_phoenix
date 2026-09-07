@@ -75,7 +75,7 @@
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul w-[50vw]">
                 <li>Have the children recall the main characteristics of birds. Let them know that birds are the only type
                     of animals with feathers.</li>
             </ol>
@@ -87,7 +87,7 @@
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Ask the children: Why are feathers of most birds beautiful? Encourage the children to discuss and give their
                 own explanations. Accept all logical answers. Help the children understand that:
 
@@ -107,7 +107,7 @@
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Ask the children: Why are feathers of most birds beautiful? Encourage the children to discuss and give their
                 own explanations. Accept all logical answers. Help the children understand that:
 
@@ -139,7 +139,7 @@
         </ol>
         <div class="w-fit h-fit">
             <img src="{{ asset('assets/images/micet/k1/birds/class3/c3.png') }}" class="h-[10vw]" />
-            <div class="w-full flex justify-between items-center">
+            <div class="w-full flex justify-around items-center">
                 <p class="ptitle">rooster</p>
                 <p class="ptitle">hen</p>
             </div>
@@ -148,7 +148,7 @@
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
+    <div class="phonics-panel flex flex-col items-center h-full mt-[-3vw]">
         <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
         <ol class="list-decimal panel-ul" start="3">
@@ -183,7 +183,11 @@
                 environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
                 when they incubate their eggs and take care of their young ones.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/birds/class3/c5.png') }}" class="h-[11vw]" />
+        <div class="flex h-fit">
+            <p class="ptitle pt-[2vw]">drake</p>
+            <img src="{{ asset('assets/images/micet/k1/birds/class3/c5.png') }}" class="h-[11vw]" />
+            <p class="ptitle pt-[5vw]">duck</p>
+        </div>
     </div>
 
     {{-- panel 6 --}}
@@ -199,7 +203,11 @@
                 environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
                 when they incubate their eggs and take care of their young ones.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/birds/class3/c6.png') }}" class="h-[11vw]" />
+        <div class="flex h-fit">
+            <p class="ptitle pt-[6.2vw]">peahen</p>
+            <img src="{{ asset('assets/images/micet/k1/birds/class3/c6.png') }}" class="h-[11vw]" />
+            <p class="ptitle pt-[3.7vw]">peacock</p>
+        </div>
     </div>
 
     {{-- panel 6 --}}
@@ -215,14 +223,20 @@
                 environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
                 when they incubate their eggs and take care of their young ones.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/birds/class3/c7.png') }}" class="h-[11vw]" />
+        <div class="flex items-center">
+            <p class="ptitle">male <br>
+                Cardinal</p>
+            <img src="{{ asset('assets/images/micet/k1/birds/class3/c7.png') }}" class="h-[11vw]" />
+            <p class="ptitle"> female <br>
+                Cardinal</p>
+        </div>
     </div>
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Ask the children: Are all birds' feathers brightly-coloured? Have the children share their knowledge.</li>
         </ol>
     </div>
@@ -231,21 +245,27 @@
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Let the children observe the pictures of a duck and a Tawny frogmouth. Invite them to describe the colours
                 of the birds' feathers and explain why the feathers are dull in colour. Guide the children to say the term
                 'protective colours'. Inform the children that like insects and other animals, birds also use their
                 protective colours to protect themselves from their enemies. The dull coloured feathers of these birds
                 usually blend in the surrounding, enabling them to hide (camouflage) themselves from their enemies.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/birds/class3/c8.png') }}" class="h-[10vw]" />
+        <div class="w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/birds/class3/c8.png') }}" class="h-[12vw]" />
+            <div class="w-full flex justify-around items-center">
+                <p class="ptitle">duck</p>
+                <p class="ptitle">Tawny Frogmouth</p>
+            </div>
+        </div>
     </div>
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>

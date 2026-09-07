@@ -110,7 +110,7 @@
         <h3 class="p-title">Daisy Duckling has grown up. She wants to learn some useful skills. She meets <br>
             Rosie Rabbit. She wants to learn how to hop from Rosie. Rosie tells her since she <br>
             has feathers and wings, she should learn skills from her own kind, the birds.</h3>
-        <img src="{{ asset('assets/images/micet/k1/birds/class1/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c2.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -118,7 +118,10 @@
                 <span class="text-[#f7b94a]">Guide the children to differentiate the animals that lay eggs and <br>
                     those that give birth to their young alive.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -128,7 +131,7 @@
         <h3 class="p-title">Daisy Duckling goes to the forest and sees butterflies flying from flower to <br>
             flower, gathering nectar. She decides to learn to fly from the butterflies. <br>
             However, the butterflies say that although they have wings, they are not birds.</h3>
-        <img src="{{ asset('assets/images/micet/k1/birds/class1/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c3.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -137,7 +140,10 @@
                 <span class="text-[#f7b94a]">Guide the children to understand the differences between insects <br>
                     and birds.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -147,7 +153,7 @@
         <h3 class="p-title">Just then, Percy Peacock comes by. He spreads out his feathers and dances. <br>
             Wow! It is beautiful! Daisy Duckling wants to learn how to dance from Percy but <br>
             Percy says Daisy does not have big feathers on her tail to dance.</h3>
-        <img src="{{ asset('assets/images/micet/k1/birds/class1/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c4.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -155,7 +161,7 @@
                 spread its tail?<br>
                 <span class="text-[#f7b94a]">Guide the children to understand why peacocks spread their tails.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -165,7 +171,7 @@
         <h3 class="p-title">Daisy Duckling comes to a tree and sees Willie Woodpecker checking if the <br>
             tree is ill. It hopes to learn medical skills from Willie. However, Daisy does not <br>
             have a pointed hard beak to peck trees and catch worms.</h3>
-        <img src="{{ asset('assets/images/micet/k1/birds/class1/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c5.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
@@ -174,7 +180,10 @@
                 <span class="text-[#f7b94a]">Guide the children to compare the similarities and differences <br>
                     between the two beaks.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -184,7 +193,7 @@
         <h3 class="p-title">Listen! Who are singing by imitating Daisy Duckling? They are the talkative <br>
             parrots. Daisy wants to learn how to talk from the parrots, but she does not <br>
             have a nimble tongue like the parrots. Thus, she cannot talk.</h3>
-        <img src="{{ asset('assets/images/micet/k1/birds/class1/c6.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c6.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
@@ -193,7 +202,7 @@
                     <br>
                     to further develop their language expression skills.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
         </div>
     </div>
 
@@ -203,14 +212,17 @@
         <h3 class="p-title">Oliver Ostrich is coming from afar. He is running very fast. Since Daisy Duckling <br>
             cannot fly, so she wants to learn how to run from Oliver. However, Daisy does <br>
             not have long legs like Oliver, so she cannot run as fast.</h3>
-        <img src="{{ asset('assets/images/micet/k1/birds/class1/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c7.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
                 Do you know why ostriches cannot fly?<br>
                 <span class="text-[#f7b94a]">Encourage the children to infer and express their views confidently.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
@@ -227,7 +239,10 @@
                 What skills can Daisy Duckling leam from her mother?<br>
                 <span class="text-[#f7b94a]">Guide the children to name some characteristics of ducks.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+            <div class="flex">
+                <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="w-[3.5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="w-[3.5vw]" />
+            </div>
         </div>
     </div>
 
