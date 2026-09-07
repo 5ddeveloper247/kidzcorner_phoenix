@@ -39,7 +39,7 @@ $showMascot = true;
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Computer Activities: Happy Days</h1>
-    <div class="flex items-center gap-1">
+    <div class="flex items-center gap-[.5vw]">
         <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
         <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
         <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[6vw]" />
@@ -178,7 +178,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Computer Activities: Happy Days</h1>
 
     <div class="text-start space-y-[2vw]">
-        <h3 class="ptitle">Activity 4: Story -  Make a kite</h3>
+        <h3 class="ptitle">Activity 4: Story - Make a kite</h3>
 
         <div class="flex justify-center items-start gap-[3vw]">
             <img src="{{ asset('assets/images/micet/k1/weather/activity/c5.png') }}" class="w-[25vw]" />
@@ -204,7 +204,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Computer Activities: Happy Days</h1>
 
     <div class="text-start space-y-[2vw]">
-        <h3 class="ptitle">Activity 5: Story -  Hide and seek</h3>
+        <h3 class="ptitle">Activity 5: Story - Hide and seek</h3>
 
         <div class="flex justify-center items-start gap-[3vw]">
             <img src="{{ asset('assets/images/micet/k1/weather/activity/c6.png') }}" class="w-[25vw]" />

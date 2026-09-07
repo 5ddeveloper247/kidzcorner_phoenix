@@ -39,10 +39,10 @@ $showMascot = true;
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
-    <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
-        </div>
+    <div class="flex items-center gap-[.5vw]">
+        <img src="{{ asset('assets/images/micet/n1/toys/b7.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b5.png') }}" class="h-[6vw]" />
+    </div>
 
 
     <h3 class="ptitle">Objectives:</h3>
@@ -210,7 +210,7 @@ $showMascot = true;
             <li>Invite the children to showcase their artwork.
                 Let each child share how he/she made his/her
                 dolly and the name of the dolly.</li>
-            <li>Display the children's work and encourage them 
+            <li>Display the children's work and encourage them
                 to admire each other's dollies.</li>
         </ul>
 
@@ -232,9 +232,9 @@ $showMascot = true;
 
         <ul class="list-disc panel-ul w-[45vw]">
             <li>Encourage the children to mould a fruit dolly family
-                 consisting of a father, mother, brother and sister,
-                  etc. They can then dramatise a simple story about
-                   their dolly family.</li>
+                consisting of a father, mother, brother and sister,
+                etc. They can then dramatise a simple story about
+                their dolly family.</li>
         </ul>
     </div>
 </div>

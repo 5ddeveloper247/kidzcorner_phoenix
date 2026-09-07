@@ -39,10 +39,10 @@ $showMascot = true;
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 3: Seeds and Fruits</h1>
-    <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
-        </div>
+    <div class="flex items-center gap-[.5vw]">
+        <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+    </div>
     <h3 class="ptitle">Objectives:</h3>
     <ul class="list-disc panel-ul">
         <li>Identify the seeds of some common fruits</li>
