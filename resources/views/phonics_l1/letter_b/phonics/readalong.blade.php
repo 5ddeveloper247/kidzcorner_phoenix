@@ -44,8 +44,7 @@
     <h2 class="top-title stroke"> Read Along</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/read-along.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -53,8 +52,10 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br>
-                with us!</h1>
+            <h1 class="text-white text-[3vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Let’s Read Along
+                <br>
+                with Doodle
+            </h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
@@ -102,7 +103,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-b/bll.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-b/readalong-b.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -132,7 +133,8 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_a/bird.png') }}" class="w-[7vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="bird">
+                            <button class="w-[3vw]" id="soundButton"
+                                data-audio="{{ asset('assets/audio/phonics_audio/letter-b/bird.mp3') }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -144,7 +146,8 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="apple">
+                            <button class="w-[3vw]" id="soundButton"
+                                data-audio="{{ asset('assets/audio/phonics_audio/letter-a/apple.mp3') }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>

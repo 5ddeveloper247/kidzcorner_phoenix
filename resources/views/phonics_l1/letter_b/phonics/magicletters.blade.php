@@ -88,15 +88,24 @@
     </div>
 
     {{-- Side Info Panel --}}
-    <div class="phonics-panel info-panel-2">
+    <div class="phonics-panel info-panel-2" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b1.mp3') }}">
         <h1 class="large-title stroke">b</h1>
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b1.mp3') }}">
+
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-[40%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b2.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <button class="absolute left-[-10vw] top-[60%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-sound.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
-    <div class="phonics-panel info-panel-2">
+    {{-- =========1 --}}
+    <div class="phonics-panel info-panel-2"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-bird.mp3') }}">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
                 <h1 class="large-title stroke h-fit" style="line-height: 66%;">b</h1>
@@ -107,14 +116,19 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b2.mp3') }}">
+        <button class="absolute left-[-10vw] top-[40%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-sound.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <button class="absolute left-[-10vw] top-[60%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bird.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
     {{-- ==== 2 --}}
-    <div class="phonics-panel info-panel-2">
+    <div class="phonics-panel info-panel-2" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-bear.mp3') }}">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
                 <h1 class="large-title stroke h-fit" style="line-height: 66%;">b</h1>
@@ -125,14 +139,19 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b3.mp3') }}">
+        <button class="absolute left-[-10vw] top-[40%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-sound.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <button class="absolute left-[-10vw] top-[60%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bear.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
     {{-- === 3 --}}
-    <div class="phonics-panel info-panel-2">
+    <div class="phonics-panel info-panel-2" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-bee.mp3') }}">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
                 <h1 class="large-title stroke h-fit" style="line-height: 66%;">b</h1>
@@ -143,13 +162,18 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b4.mp3') }}">
+        <button class="absolute left-[-10vw] top-[40%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-sound.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <button class="absolute left-[-10vw] top-[60%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bee.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
-    <div class="phonics-panel info-panel-2">
+    <div class="phonics-panel info-panel-2" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-butterfly.mp3') }}">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
                 <h1 class="large-title stroke h-fit" style="line-height: 66%;">b</h1>
@@ -160,8 +184,13 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b5.mp3') }}">
+        <button class="absolute left-[-10vw] top-[40%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b-sound.mp3') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+        <button class="absolute left-[-10vw] top-[60%] w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/butterfly.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -203,7 +232,7 @@
             children to select the correct letter that makes the sound.</p>
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b1.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/b2.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

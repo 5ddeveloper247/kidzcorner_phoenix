@@ -45,7 +45,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/read-along.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

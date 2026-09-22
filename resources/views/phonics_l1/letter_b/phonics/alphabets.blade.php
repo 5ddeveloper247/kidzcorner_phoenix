@@ -45,7 +45,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel">
-        <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.m4a') }}">
+        <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.mp3') }}">
             <h1 class="text-[#f7b94a] text-[6vw] bottom-[12%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
                 b</h1>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" class="w-[47vw]" />
@@ -85,7 +85,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="bee">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bee.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -99,7 +100,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="bird">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bird.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -113,7 +115,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="butterfly">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/butterfly.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -126,7 +129,8 @@
             <h1 class="text-white text-[5vw]"> <span class="text-[#f7b94a]">b</span>ear</h1>
         </div>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="bear">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bear.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -169,7 +173,8 @@
                             <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
                         </a>
                         {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="apple">
+                        <button class="w-[3vw]" id="soundButton"
+                            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/apple.mp3') }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button>
                     </div>
@@ -181,7 +186,8 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_b/bear.png') }}" class="w-[8vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="bear">
+                            <button class="w-[3vw]" id="soundButton"
+                                data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bear.mp3') }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -526,6 +532,22 @@
             soundButtons.forEach(btn => {
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
+
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.currentTime = 0;
+
+                        currentAudio.play().catch(err => {
+                            console.log('Audio play failed:', err);
+                        });
+
+                        return;
+                    }
+
                     const letter = btn.getAttribute('data-letter') || 'a';
                     speakLetter(letter);
                 });
@@ -607,17 +629,6 @@
                 window.location.href = '{{ url('/phonics_l1/letter_b') }}?view=phonics';
             });
 
-            // Optional: Sound button functionality
-            const soundButtons = document.querySelectorAll('[id="soundButton"]');
-            soundButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const letter = this.getAttribute('data-letter');
-                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
-                        '.mp3');
-                    letterSound.currentTime = 0;
-                    letterSound.play().catch(err => console.log('Audio play failed:', err));
-                });
-            });
         });
     </script>
 @endpush

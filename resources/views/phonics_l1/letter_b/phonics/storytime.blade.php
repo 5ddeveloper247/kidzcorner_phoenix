@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/busy-bees.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">B</span>usy <span class="text-[#f7b94a]">B</span>ees
         </h1>
         <div class="relative h-[28vw] w-[35vw]">
@@ -118,7 +118,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/buzz.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst2.mp3') }}">
 
         <div class="relative h-[28vw] w-[35vw]">
             <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
@@ -159,7 +159,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/birds.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst3.mp3') }}">
         <div class="flex items-end relative">
 
             <div class="relative h-[17vw] w-[22vw] mt-[4vw]">
@@ -200,7 +200,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/looking-for.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst4.mp3') }}">
         <div class="flex items-end relative">
 
             <div class="relative h-[17vw] w-[22vw] mt-[4vw]">
@@ -242,7 +242,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/look-for-bear.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst5.mp3') }}">
         <div class="flex items-end">
 
             <div class="relative h-[17vw] w-[22vw] mt-[4vw]">
@@ -283,7 +283,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bee-sound.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -304,7 +304,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bees-looking.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -321,7 +321,7 @@
     </div>
 
 
-    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bear-looking.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bst8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

@@ -45,7 +45,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel">
-        <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.m4a') }}">
+        <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.mp3') }}">
             <h1 class="text-[#f7b94a] text-[7vw] bottom-[11%] left-[23%] stroke leading-none absolute hover:text-[#757571]">
                 a</h1>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" class="w-[47vw]" />
@@ -85,7 +85,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="apple">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/apple.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -99,7 +100,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="ant">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/ant.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -112,7 +114,8 @@
             <h1 class="text-white text-[5vw]"> <span class="text-[#f7b94a]">a</span>ngry</h1>
         </div>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="angry">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/angry.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -125,7 +128,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="jam">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/jam.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -167,7 +171,8 @@
                             <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
                         </a>
                         {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="apple">
+                        <button class="w-[3vw]" id="soundButton"
+                            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/apple.mp3') }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button>
                     </div>

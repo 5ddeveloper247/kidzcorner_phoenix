@@ -8,15 +8,15 @@
 
 @push('styles')
     <style>
-          .p-note {
-                font-size: 1vw;
-                /* line-height: 100%; */
-                color: white !important;
-            }
+        .p-note {
+            font-size: 1vw;
+            /* line-height: 100%; */
+            color: white !important;
+        }
 
-            .c-btn {
-                color: #F7B94A !important;
-            }
+        .c-btn {
+            color: #F7B94A !important;
+        }
 
         .large-title {
             color: #F7B94A;
@@ -46,12 +46,12 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/writing.mp3') }}">
-         <div class="relative w-fit h-fit">
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" class="w-[60vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/capital.png') }}" id="cap-img"
-                    class="absolute left-[15%] bottom-[9%] w-[9vw] hover:brightness-125 cursor-pointer" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/small.png') }}" id="sam-img"
-                    class="absolute right-[20%] bottom-[8%] w-[6vw] hover:brightness-125 cursor-pointer" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" class="w-[60vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/capital.png') }}" id="cap-img"
+                class="absolute left-[15%] bottom-[9%] w-[9vw] hover:brightness-125 cursor-pointer" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/small.png') }}" id="sam-img"
+                class="absolute right-[20%] bottom-[8%] w-[6vw] hover:brightness-125 cursor-pointer" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-[2vw] right-[18vw] absolute" />
@@ -155,8 +155,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

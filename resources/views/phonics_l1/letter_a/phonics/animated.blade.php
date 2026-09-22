@@ -113,7 +113,7 @@
 
         {{-- Panel 5 --}}
         <div class="phonics-panel info-panel-3 flex flex-col items-center gap-y-[4vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/a2.gif') }}" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/a2.gif') }}" class="w-[16vw]" />
             <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
         </div>
 

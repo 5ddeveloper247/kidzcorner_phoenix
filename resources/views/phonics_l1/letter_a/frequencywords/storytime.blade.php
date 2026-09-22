@@ -52,7 +52,7 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                     class="h-[20vw] bottom-0 right-0 absolute" />
 
-                  <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
+                <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
                 <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find
                     out
@@ -62,20 +62,22 @@
         </div>
 
 
+
         {{-- Panel 2 --}}
         <div class="phonics-panel flex flex-col"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/buddy-lili.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/ast1.mp3') }}">
             <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Buddy and Lili</h2>
+                <h2 class="text-white text-[2.5vw]">Alan and Annie</h2>
                 <img src="{{ asset('assets/images/phonicsl1/letter_a/friends.png') }}" class="w-[25vw]" />
             </div>
         </div>
 
 
         {{-- Panel 3 --}}
-        <div class="phonics-panel flex flex-col" data-slide-audio="{{ asset('assets/audio/phonics_audio/buddy-jam.mp3') }}">
+        <div class="phonics-panel flex flex-col"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/ast2.mp3') }}">
             <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Buddy likes jam.</h2>
+                <h2 class="text-white text-[2.5vw]">Alan likes j<span class="text-[#F7B94A]">a</span>m.</h2>
                 <div class="flex items-start w-fit">
                     <img src="{{ asset('assets/images/phonicsl1/letter_a/jam.png') }}" class="w-[10vw] mt-[2vw]" />
                     <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy2.gif') }}" class="h-[25vw]" />
@@ -86,9 +88,9 @@
 
         {{-- Panel 4 --}}
         <div class="phonics-panel flex flex-col"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/lili=apples.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/ast3.mp3') }}">
             <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Lili likes apples</h2>
+                <h2 class="text-white text-[2.5vw]">Annie likes <span class="text-[#F7B94A]">a</span>pples</h2>
                 <div class="flex items-start w-fit">
                     <img src="{{ asset('assets/images/phonicsl1/letter_a/dualapple.png') }}" class="w-[10vw]" />
                     <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili2.gif') }}" class="h-[25vw]" />
@@ -98,9 +100,11 @@
 
 
         {{-- Panel 5 --}}
-        <div class="phonics-panel flex flex-col" data-slide-audio="{{ asset('assets/audio/phonics_audio/ants.mp3') }}">
+        <div class="phonics-panel flex flex-col"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/ast4.mp3') }}">
             <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Ants like jam and apples too!</h2>
+                <h2 class="text-white text-[2.5vw]"><span class="text-[#F7B94A]">A</span>nts like j<span
+                        class="text-[#F7B94A]">a</span>m and <span class="text-[#F7B94A]">a</span>pples too!</h2>
                 <div class="flex items-end w-fit relative">
                     <img src="{{ asset('assets/images/phonicsl1/letter_a/jam.png') }}" class="h-[20vw]" />
                     <img src="{{ asset('assets/images/phonicsl1/letter_a/dualapple.png') }}" class="w-[14vw]" />
@@ -126,9 +130,11 @@
 
         {{-- Panel 6 --}}
         <div class="phonics-panel flex flex-col"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/ast5.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/ast5.mp3') }}">
             <div class="flex flex-col items-center">
-                <h2 class="text-white text-[2.5vw]">Buddy and Lili are angry with the ants.</h2>
+                <h2 class="text-white text-[2.5vw]">Alan and Annie are <span class="text-[#F7B94A]">a</span>ngry with the
+                    <span class="text-[#F7B94A]">a</span>nts.
+                </h2>
                 <div class="flex items-end w-fit relative">
                     <img src="{{ asset('assets/images/phonicsl1/letter_a/angry.png') }}" class="w-[45vw]" />
 
@@ -151,6 +157,7 @@
                 </div>
             </div>
         </div>
+
 
 
         {{-- All Buttons --}}
