@@ -62,7 +62,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/dog-ducks.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/dst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">D</span>og and <span
                 class="text-[#f7b94a]">D</span>ucks</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_d/dog-duck.png') }}" class="w-[30vw]" />
@@ -71,7 +71,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/getting-dark.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/dst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_d/dark.gif') }}" class="w-[30vw]" />
         <h1 class="text-white text-[3vw]">The <span class="text-[#f7b94a]">d</span>ay is getting <span
                 class="text-[#f7b94a]">d</span>ark.</h1>
@@ -80,7 +80,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/cahse.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/dst3.mp3') }}">
         <div class="relative h-fit w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[30vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}" class="w-[16vw] absolute bottom-0 left-0" />
@@ -90,14 +90,14 @@
                 class="w-[10vw] absolute bottom-[5%] scale-x-[-1] right-[15%]" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">Buddy’s <span class="text-[#f7b94a]">d</span>og chases the <span
+        <h1 class="text-white text-[2.5vw]">Dex’s <span class="text-[#f7b94a]">d</span>og chases the <span
                 class="text-[#f7b94a]">d</span>ucks.</h1>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/dst4.mp3') }}">
         <div class="relative h-fit w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[30vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_d/b-run.gif') }}"
@@ -106,15 +106,15 @@
                 class="w-[16vw] absolute bottom-0 right-0" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">Buddy chases the <span class="text-[#f7b94a]">d</span>og.</h1>
+        <h1 class="text-white text-[2.5vw]">Dex chases the <span class="text-[#f7b94a]">d</span>og.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/dst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_d/table.png') }}" class="h-[20vw]" />
-        <h1 class="text-white text-[2.5vw]">Now Buddy and his <span class="text-[#f7b94a]">d</span>og are late for <span
+        <h1 class="text-white text-[2.5vw]">Now Dex and his <span class="text-[#f7b94a]">d</span>og are late for <span
                 class="text-[#f7b94a]">d</span>inner.</h1>
     </div>
 
