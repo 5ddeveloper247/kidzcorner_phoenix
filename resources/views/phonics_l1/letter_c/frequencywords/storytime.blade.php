@@ -52,36 +52,36 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-              <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
+            <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
                 out why reading words is important.</p>
         </div>
     </div>
 
-   <div class="phonics-panel flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story1.m4a') }}">
-        <h1 class="text-white text-[3vw]">Buddy loves making a <span class="text-[#f7b94a]">C</span>astle</h1>
+    <div class="phonics-panel flex flex-col h-full justify-between items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst1.mp3') }}">
+        <h1 class="text-white text-[3vw]">Colin's <span class="text-[#f7b94a]">C</span>astle</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_c/playing.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst2.mp3') }}">
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_c/castle.gif') }}" class="w-[27vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}" class="w-[6vw] absolute top-[-2vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
                 class="w-[3vw] absolute top-0 !left-[-3vw]" />
         </div>
-        <h1 class="text-white text-[3vw]">Buddy makes a <span class="text-[#f7b94a]">C</span>astle</h1>
+        <h1 class="text-white text-[3vw]">Colin makes a <span class="text-[#f7b94a]">C</span>astle</h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst3.mp3') }}">
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_c/playing.gif') }}" class="w-[30vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
@@ -98,10 +98,11 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst4.mp3') }}">
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.gif') }}" class="w-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}" class="w-[6vw] absolute top-[-4vw] left-[18vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                class="w-[6vw] absolute top-[-4vw] left-[18vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
                 class="w-[3vw] absolute top-[-2vw] left-[14vw]" />
 
@@ -113,10 +114,11 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst5.mp3') }}">
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_c/angry.gif') }}" class="w-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}" class="w-[6vw] absolute top-[-4vw] right-[-3vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                class="w-[6vw] absolute top-[-4vw] right-[-3vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
                 class="w-[3vw] absolute top-[-2vw] right-[4vw]" />
 
@@ -126,7 +128,7 @@
 
 
 
-    
+
 
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
@@ -164,8 +166,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

@@ -137,7 +137,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/letter-c.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/letter-c-song.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -232,7 +232,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/castle.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/castle-song.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

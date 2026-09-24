@@ -60,7 +60,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/flashcard/listen-to-words.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/flashcard/word-hunt.mp3') }}">
         <h2 class="text-white text-[2vw] text-center">Listen to these words:</h2>
 
         <img src="{{ asset('assets/images/phonicsl1/letter_c/wordhunt.png') }}" class="w-[40vw]" />
@@ -70,33 +70,33 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst2.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_c/word-stck.png') }}" class="w-full" />
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_c/castle-p.gif') }}" class="w-[18vw]" />
         </div>
-        <h1 class="text-white text-[2.4vw]">Buddy makes a Castle</h1>
+        <h1 class="text-white text-[2.4vw]">Colin makes a Castle</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_c/stack2.png') }}" class="w-full" />
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_c/castle-p.gif') }}" class="w-[18vw]" />
         </div>
-        <h1 class="text-white text-[2.4vw]">Buddy <span class="text-[#f7b94a]">makes a</span> Castle</h1>
+        <h1 class="text-white text-[2.4vw]">Colin <span class="text-[#f7b94a]">makes a</span> Castle</h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst3.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_c/stack2.png') }}" class="w-full" />
@@ -115,7 +115,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_c/stack3.png') }}" class="w-full" />
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_c/playing.gif') }}" class="w-[18vw]" />
@@ -133,7 +133,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst4.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_c/stack3.png') }}" class="w-full" />
@@ -151,7 +151,7 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_c/stack4.png') }}" class="w-full" />
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.gif') }}" class="w-[18vw]" />
@@ -166,7 +166,7 @@
 
     {{-- Panel 9 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst5.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_c/stack4.png') }}" class="w-full" />
@@ -184,7 +184,7 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cst5.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_c/stack5.png') }}" class="!w-[55vw]" />
         <div class="relative">
@@ -224,7 +224,7 @@
                         </div>
 
                         <h1 class="text-white text-[1.3vw] mt-[0.5vw]">
-                            Buddy <span class="text-[#f7b94a]">makes a</span> Castle
+                            Colin <span class="text-[#f7b94a]">makes a</span> Castle
                         </h1>
                     </div>
                 </a>
@@ -373,10 +373,10 @@
             // 🔊 Function to play audio items sequentially
             function playItemsSequentially() {
                 const itemAudioPaths = [
-                    "{{ asset('assets/audio/phonics_audio/letter-c/story2.m4a') }}",
-                    "{{ asset('assets/audio/phonics_audio/letter-c/story3.m4a') }}",
-                    "{{ asset('assets/audio/phonics_audio/letter-c/story4.m4a') }}",
-                    "{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}"
+                    "{{ asset('assets/audio/phonics_audio/letter-c/cst2.mp3') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-c/cst3.mp3') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-c/cst4.mp3') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-c/cst5.mp3') }}"
                 ];
 
                 let currentIndex = 0;
@@ -599,10 +599,10 @@
 
             // Define audio paths for each item
             const itemAudioPaths = {
-                'item-1': "{{ asset('assets/audio/phonics_audio/letter-c/story2.m4a') }}",
-                'item-2': "{{ asset('assets/audio/phonics_audio/letter-c/story3.m4a') }}",
-                'item-3': "{{ asset('assets/audio/phonics_audio/letter-c/story4.m4a') }}",
-                'item-4': "{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}"
+                'item-1': "{{ asset('assets/audio/phonics_audio/letter-c/cst2.mp3') }}",
+                'item-2': "{{ asset('assets/audio/phonics_audio/letter-c/cst3.mp3') }}",
+                'item-3': "{{ asset('assets/audio/phonics_audio/letter-c/cst4.mp3') }}",
+                'item-4': "{{ asset('assets/audio/phonics_audio/letter-c/cst5.mp3') }}"
             };
 
             items.forEach(item => {
