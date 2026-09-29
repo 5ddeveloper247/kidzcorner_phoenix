@@ -443,6 +443,7 @@
             window.speechSynthesis.onvoiceschanged = () => {
                 window.speechSynthesis.getVoices();
             };
+            
 
             // INITIALIZE
             showSlide(currentSlide);

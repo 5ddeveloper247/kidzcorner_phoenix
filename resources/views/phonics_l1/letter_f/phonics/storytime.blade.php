@@ -80,8 +80,8 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">F</span>ish and <span
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst1.mp3') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">F</span>ish for <span
                 class="text-[#f7b94a]">F</span>ox</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_f/eating.png') }}" class="w-[25vw]" />
     </div>
@@ -89,7 +89,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_f/fishes.gif') }}" class="w-[40vw]" />
         <h1 class="text-white text-[3vw]">one, two , three, <span class="text-[#f7b94a]">f</span>our, <span
                 class="text-[#f7b94a]">f</span>ive.</h1>
@@ -98,7 +98,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_f/fihing.png') }}" class="h-[20vw]" />
 
         <h1 class="text-white text-[2.5vw]">faith cathes <span class="text-[#f7b94a]">f</span>ive fishes. What a <span class="text-[#f7b94a]">f</span>east!</h1>
@@ -107,7 +107,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst4.mp3') }}">
 
         <div class="flex items-end">
             <img src="{{ asset('assets/images/phonicsl1/letter_f/eat.gif') }}" class="h-[25vw]" />
@@ -120,7 +120,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_f/angry.png') }}" class="h-[20vw]" />
         <h1 class="text-white text-[2.5vw]">Now there are only <span class="text-[#f7b94a]">f</span>our <span
                 class="text-[#f7b94a]">f</span>ish for <span class="text-[#f7b94a]">F</span>aith.</h1>
@@ -129,7 +129,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -148,7 +148,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -166,7 +166,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fst8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

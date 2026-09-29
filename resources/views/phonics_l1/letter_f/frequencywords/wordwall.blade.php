@@ -60,7 +60,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/falling.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/falling.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_f/falling.gif') }}" class="w-[40vw]" />
         <p class="p-note">Tip: Answers on the next slide.</p>
@@ -68,7 +68,8 @@
 
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/falling.mp3') }}">
         <h2 class="text-white text-[2vw] text-center">Have you got the correct word wall?</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_f/w-wall.png') }}" class="w-[35vw]" />
     </div>
@@ -112,8 +113,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

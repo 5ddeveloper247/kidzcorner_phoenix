@@ -95,7 +95,7 @@
             <h1 class="text-[2vw] text-[#f7b94a]">The quarrelsome queen walks
                 quickly.</h1>
         </div>
-        <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
+         
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"

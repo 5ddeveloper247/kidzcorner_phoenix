@@ -48,7 +48,7 @@
 
     {{-- Panel 1 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/funfill-words.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/funfill-words.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_f/word-panel.png') }}" class="w-[45vw]">
         <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>
             There are 8 words to be found in the puzzle.</p>

@@ -95,7 +95,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_g/g-goose.png') }}" class="w-[25vw]" />
             <h1 class="text-[2vw] text-[#f7b94a]">Gail gives a goose to Gus!</h1>
         </div>
-        <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
+         
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"

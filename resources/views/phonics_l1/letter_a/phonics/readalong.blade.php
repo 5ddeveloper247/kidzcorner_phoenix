@@ -97,7 +97,7 @@
             </div>
             <h1 class="text-[2vw] text-[#f7b94a]">Annie asks for an apple again.</h1>
         </div>
-        <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
+
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
@@ -121,7 +121,7 @@
 
             <div class="flex flex-col items-center">
                 <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
-                flex justify-center items-end"
+             flex justify-center items-end"
                     style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
                     <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1vw] place-items-center mb-[3vw]">
@@ -131,7 +131,8 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_a/bird.png') }}" class="w-[7vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="bird">
+                            <button class="w-[3vw]" id="soundButton"
+                                data-audio="{{ asset('assets/audio/phonics_audio/letter-b/bird.mp3') }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -157,14 +158,15 @@
                                         class="w-[6vw]" />
                                 </a>
                                 {{-- sound Button --}}
-                                <button class="w-[3vw]" id="soundButton" data-letter="castle">
+                                <button class="w-[3vw]" id="soundButton"
+                                    data-audio="{{ asset('assets/audio/phonics_audio/letter-c/castle.mp3') }}">
                                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h2 class="text-white text-[1.5vw]">Annie has a red _________?</h2>
+                {{-- <h2 class="text-white text-[1.5vw]">Annie has a red _________?</h2> --}}
             </div>
 
         </div>
@@ -353,19 +355,19 @@
                     }
                 });
 
+                // Is this the true final slide of the main flow?
+                const isFinalMainSlide = !isInSpecialMode && isLastSlide(slideIndex);
+
                 // Check if current slide has 'next-hide' class
                 if (currentSlideElement.classList.contains('next-hide')) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                 } else {
                     // Show "Done" button on last slide, otherwise show "Next"
                     if (isLastSlide(slideIndex)) {
-                        // Check if current slide has 'done-hide' class
                         if (currentSlideElement.classList.contains('done-hide')) {
-                            // Hide done button if slide has done-hide class
                             if (doneButton) doneButton.classList.add("hidden");
                             nextButtons.forEach(btn => btn.classList.add("hidden"));
                         } else {
-                            // Show done button normally
                             nextButtons.forEach(btn => btn.classList.add("hidden"));
                             if (doneButton) doneButton.classList.remove("hidden");
                         }
@@ -384,6 +386,11 @@
                     }
                 }
 
+                // 🔇 No auto-play on the last slide (sound buttons still work on click)
+                if (isFinalMainSlide) {
+                    return;
+                }
+
                 // 🔊 AUTO-PLAY LOGIC (Priority order):
                 // 1. Check for data-slide-audio attribute on the slide itself
                 const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
@@ -392,7 +399,7 @@
                         currentAudio = new Audio(slideAudioSrc);
                         currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                     }, 300);
-                    return; // Exit early, don't check for sound button
+                    return;
                 }
 
                 // 2. Check for sound button with data-audio attribute
@@ -418,6 +425,7 @@
                     }
                 }
             }
+
             // NAVIGATION FUNCTIONS
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
@@ -544,11 +552,12 @@
                     // Stop any previous audio first
                     stopAllAudio();
 
-                    // 1️⃣ If data-audio is provided → play audio file
-                    const audioSrc = btn.getAttribute("data-audio");
+                    // 1️⃣ If data-audio or data-slide-audio is provided → play audio file
+                    const audioSrc = btn.getAttribute("data-audio") || btn.getAttribute(
+                        "data-slide-audio");
                     if (audioSrc) {
                         currentAudio = new Audio(audioSrc);
-                        currentAudio.play();
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
                         return;
                     }
 
@@ -633,18 +642,6 @@
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
                 window.location.href = '{{ url('/phonics_l1/letter_a') }}?view=phonics';
-            });
-
-            // Optional: Sound button functionality
-            const soundButtons = document.querySelectorAll('[id="soundButton"]');
-            soundButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const letter = this.getAttribute('data-letter');
-                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
-                        '.mp3');
-                    letterSound.currentTime = 0;
-                    letterSound.play().catch(err => console.log('Audio play failed:', err));
-                });
             });
         });
     </script>

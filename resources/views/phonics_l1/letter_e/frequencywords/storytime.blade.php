@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">E</span>ggs for <span
                 class="text-[#f7b94a]">E</span>ddy</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_e/eddy.png') }}" class="w-[25vw]" />
@@ -89,7 +89,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_e/wake.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">E</span>ddy <span class="text-[#f7b94a]">
                 e</span>lephant g<span class="text-[#f7b94a]">e</span>ts out of bed.</h1>
@@ -98,7 +98,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_e/cluck.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[2.5vw]">Cluck, cluck, cluck!</h1>
     </div>
@@ -106,7 +106,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_e/eggs.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[2.5vw]">Little r<span class="text-[#f7b94a]">e</span>d h<span
                 class="text-[#f7b94a]">e</span>n lays her <span class="text-[#f7b94a]">e</span>ggs.</h1>
@@ -115,7 +115,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-centeR"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_e/happy.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[2.5vw]">S<span class="text-[#f7b94a]">e</span>v<span class="text-[#f7b94a]">e</span>n
             <span class="text-[#f7b94a]">e</span>ggs for <span class="text-[#f7b94a]">E</span>ddy <span

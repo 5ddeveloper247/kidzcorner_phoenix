@@ -139,7 +139,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-e/e-letter.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-e/e-letter-song.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -202,10 +202,10 @@
             </div>
         </div>
         <div class="text-center text-white text-[2.5vw]">
-            <h3>One little, two little, three little canaries.</h3>
-            <h3>Four little, five little, six little canaries.</h3>
-            <h3>Seven little, eight little, nine little canaries</h3>
-            <h3>Ten little canaries.</h3>
+            <h3>One little, two little, three little elephants.</h3>
+            <h3>Four little, five little, six little elephants.</h3>
+            <h3>Seven little, eight little, nine little elephants</h3>
+            <h3>Ten little elephants.</h3>
 
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -299,6 +299,8 @@
 
 @push('script')
     <script>
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+
         document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
