@@ -44,8 +44,7 @@
     <h2 class="top-title stroke"> Read Along</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/read-along.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/read-along.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -53,7 +52,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
+            <h1 class="text-white text-[3vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Let's Read along
+                <br> with doodle</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
@@ -78,7 +78,7 @@
                     Children recognize words automatically by using spelling patterns.</li>
             </ul>
 
-                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
         <div class="down-btn-container">
             <button class="doneButton hidden">
@@ -94,11 +94,11 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_k/k-kangaro.png') }}" class="w-[30vw]" />
             <h1 class="text-[2vw] text-[#f7b94a]">The kangaroo kicks the kitten.</h1>
         </div>
-         
+
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-k/k-kangaro.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-k/readalong-k.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -109,7 +109,8 @@
             <div class="w-fit h-fit">
                 <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                   <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2 text-nowrap">Help me complete <br> the
+                    <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2 text-nowrap">Help me
+                        complete <br> the
                         sentence
                         with <br> a word beginning <br> with ‘k’.</h2>
                 </div>
@@ -126,7 +127,8 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_f/fox.png') }}" class="w-[6vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="fox">
+                            <button class="w-[3vw]" id="soundButton"
+                                data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/fox.mp3') }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -138,7 +140,8 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_k/kitten.png') }}" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="kitten">
+                            <button class="w-[3vw]" id="soundButton"
+                                data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kitten.mp3') }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -150,7 +153,8 @@
                                     <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[6vw] " />
                                 </a>
                                 {{-- sound Button --}}
-                                <button class="w-[3vw]" id="soundButton" data-letter="duck">
+                                <button class="w-[3vw]" id="soundButton"
+                                    data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/duck.mp3') }}">
                                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                                 </button>
                             </div>
@@ -235,8 +239,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -539,11 +543,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     // Stop any previous audio first
                     stopAllAudio();
 
-                    // 1️⃣ If data-audio is provided → play audio file
-                    const audioSrc = btn.getAttribute("data-audio");
+                    // 1️⃣ If data-audio or data-slide-audio is provided → play audio file
+                    const audioSrc = btn.getAttribute("data-audio") || btn.getAttribute("data-slide-audio");
                     if (audioSrc) {
                         currentAudio = new Audio(audioSrc);
-                        currentAudio.play();
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
                         return;
                     }
 
@@ -628,18 +632,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
                 window.location.href = '{{ url('/phonics_l1/letter_k') }}?view=phonics';
-            });
-
-            // Optional: Sound button functionality
-            const soundButtons = document.querySelectorAll('[id="soundButton"]');
-            soundButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const letter = this.getAttribute('data-letter');
-                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
-                        '.mp3');
-                    letterSound.currentTime = 0;
-                    letterSound.play().catch(err => console.log('Audio play failed:', err));
-                });
             });
         });
     </script>

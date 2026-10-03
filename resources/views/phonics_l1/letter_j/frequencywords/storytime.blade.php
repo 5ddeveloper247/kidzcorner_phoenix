@@ -61,7 +61,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">J</span>ingle and <span
                 class="text-[#f7b94a]">J</span>im</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_j/duo.png') }}" class="h-[25vw]" />
@@ -70,7 +70,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst2.mp3') }}">
         <div class="w-fit h-fit relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[35vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
@@ -85,7 +85,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">Jsut to get a <span class="text-[#f7b94a]">j</span>ar of <span
                 class="text-[#f7b94a]">j</span>ellies.</h1>
@@ -94,7 +94,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">J</span>im <span
                 class="text-[#f7b94a]">j</span>umps and jiggles about.</h1>
@@ -103,7 +103,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[25vw] " />
         <h1 class="text-white text-[2.5vw]">And breaks the <span class="text-[#f7b94a]">j</span>ar of jellies.</h1>
     </div>

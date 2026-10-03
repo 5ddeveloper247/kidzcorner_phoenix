@@ -85,7 +85,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kick">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kick.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -99,7 +100,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kitten">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kitten.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -113,7 +115,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kite">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kite.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -126,7 +129,8 @@
             <h1 class="text-white text-[5vw]"> <span class="text-[#f7b94a]">k</span>angaroo</h1>
         </div>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kangaroo">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kangaroo.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -148,6 +152,7 @@
 
             <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kite.mp3') }}"
                 style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
                 <h2 class="text-white text-[2vw] absolute top-[15%]">kite</h2>
                 <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
@@ -157,7 +162,8 @@
                             <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.png') }}" class="w-[6.5vw]" />
                         </a>
                         {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="cat">
+                        <button class="w-[3vw]" id="soundButton"
+                            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/cat.mp3') }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button>
                     </div>
@@ -169,7 +175,8 @@
                             <img src="{{ asset('assets/images/phonicsl1/letter_h/horse.png') }}" />
                         </a>
                         {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="horse">
+                        <button class="w-[3vw]" id="soundButton"
+                            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/horse.mp3') }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button>
                     </div>
@@ -181,7 +188,8 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_k/kite.png') }}" class="w-[9vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="kite">
+                            <button class="w-[3vw]" id="soundButton"
+                                data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kite.mp3') }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -276,7 +284,7 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics_l1/letter_k') }}?view=phonics";
+            const returnURL = "{{ url('/phonics_l1/letter_k') }}?view=phonics-slide";
             const doneURL = "{{ url('/phonics_l1/letter_k') }}?view=phonics";
 
             // Track current position
@@ -527,8 +535,12 @@
             soundButtons.forEach(btn => {
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
-                    const letter = btn.getAttribute('data-letter') || 'a';
-                    speakLetter(letter);
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
                 });
             });
 
@@ -606,18 +618,6 @@
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
                 window.location.href = '{{ url('/phonics_l1/letter_k') }}?view=phonics';
-            });
-
-            // Optional: Sound button functionality
-            const soundButtons = document.querySelectorAll('[id="soundButton"]');
-            soundButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const letter = this.getAttribute('data-letter');
-                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
-                        '.mp3');
-                    letterSound.currentTime = 0;
-                    letterSound.play().catch(err => console.log('Audio play failed:', err));
-                });
             });
         });
     </script>

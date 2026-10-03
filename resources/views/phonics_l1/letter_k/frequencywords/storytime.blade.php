@@ -61,7 +61,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">K</span>im's <span
                 class="text-[#f7b94a]">K</span>itten</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_k/kim.png') }}" class="h-[25vw]" />
@@ -70,7 +70,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_k/missing.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">K</span>im cannot find her <span
                 class="text-[#f7b94a]">k</span>itten.</h1>
@@ -79,7 +79,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_k/sad.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[2.5vw]"> Is it in the <span class="text-[#f7b94a]">k</span>itchen? or is it under the
             <span class="text-[#f7b94a]">k</span>ite.
@@ -89,7 +89,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_k/knocking.gif') }}" class="w-[30vw]" />
         <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">k</span>im hears a <span
                 class="text-[#f7b94a]">k</span>ick on the door.</h1>
@@ -98,7 +98,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_k/kangaro-knock.png') }}" class="w-[30vw] " />
         <h1 class="text-white text-[2.5vw]">A <span class="text-[#f7b94a]">k</span>ind <span
                 class="text-[#f7b94a]">k</span>angaroo has found <span class="text-[#f7b94a]">k</span>itten.</h1>

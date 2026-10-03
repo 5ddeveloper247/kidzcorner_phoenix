@@ -80,25 +80,26 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">I</span>sh is <span
-                class="text-[#f7b94a]">I</span>ll</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist1.mp3') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">I</span>sh is <span class="text-[#f7b94a]">I</span>ll
+        </h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_i/ill.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_i/bites.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[3vw]"> An <span class="text-[#f7b94a]">i</span>nsect bites <span
-                class="text-[#f7b94a]">i</span>sh. <span class="text-[#f7b94a]">i</span>tch! <span class="text-[#f7b94a]">i</span>tch! </h1>
+                class="text-[#f7b94a]">i</span>sh. <span class="text-[#f7b94a]">i</span>tch! <span
+                class="text-[#f7b94a]">i</span>tch! </h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_i/itchy.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">I</span>sh is feeling <span
                 class="text-[#f7b94a]">i</span>tchy and <span class="text-[#f7b94a]">i</span>ll.</h1>
@@ -107,24 +108,23 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_i/doctor.png') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]">She sees Doctor <span
-                class="text-[#f7b94a]">I</span>nk.</h1>
+        <h1 class="text-white text-[2.5vw]">She sees Doctor <span class="text-[#f7b94a]">I</span>nk.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/inj.png') }}" class="w-[20vw] "/>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist5.mp3') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_i/inj.png') }}" class="w-[20vw] " />
         <h1 class="text-white text-[2.5vw]">He gives her an <span class="text-[#f7b94a]">i</span>njection.</h1>
     </div>
 
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -132,8 +132,9 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Who is at <br>
-Doctor Ink’s?</h1>
+            <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Who
+                is at <br>
+                Doctor Ink’s?</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -142,7 +143,7 @@ Doctor Ink’s?</h1>
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -150,8 +151,9 @@ Doctor Ink’s?</h1>
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why is she <br>
-there? </h1>
+            <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why
+                is she <br>
+                there? </h1>
 
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
         </div>
@@ -159,7 +161,7 @@ there? </h1>
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -167,8 +169,9 @@ there? </h1>
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What is he <br>
-giving her?</h1>
+            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What
+                is he <br>
+                giving her?</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
         </div>
