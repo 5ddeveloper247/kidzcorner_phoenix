@@ -47,7 +47,7 @@
 
     {{-- Panel 1 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/wordswall.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/wordswall.mp3') }}">
         <h2 class="text-white text-[1.5vw]">Listen to these words:</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_l/wall.png') }}" class="w-[40vw]">
         <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>

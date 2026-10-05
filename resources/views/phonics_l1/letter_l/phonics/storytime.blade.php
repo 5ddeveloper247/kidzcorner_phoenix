@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">L</span>ick a <span
                 class="text-[#f7b94a]">L</span>ick</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_l/licka.png') }}" class="h-[25vw]" />
@@ -89,7 +89,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_l/lolipops.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">L</span>ingo <span
                 class="text-[#f7b94a]">l</span>ikes <span class="text-[#f7b94a]">l</span>emon and <span
@@ -99,7 +99,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_l/lick.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]"> <span class="text-[#f7b94a]">L</span>ick a <span
                 class="text-[#f7b94a]">l</span>ick. <span class="text-[#f7b94a]">L</span>ick a <span
@@ -109,7 +109,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_l/long.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">She licks it for a long time.</h1>
     </div>
@@ -117,7 +117,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_l/gone.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">No more <span class="text-[#f7b94a]">l</span>ollipop left!</h1>
     </div>
@@ -125,7 +125,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -144,7 +144,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -161,7 +161,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/stl8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/lst8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">O</span>x and <span
                 class="text-[#f7b94a]">O</span>stich</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_o/duo.png') }}" class="w-[30vw]" />
@@ -89,7 +89,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_o/duo.gif') }}" class="w-[35vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">O</span>x and <span
                 class="text-[#f7b94a]">O</span>strich like <span class="text-[#f7b94a]">o</span>ranges.</h1>
@@ -98,7 +98,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_o/eat.gif') }}" class="w-[35vw]" />
         <h1 class="text-white text-[2.5vw]"> Two oranges for ox and ostrich.</h1>
     </div>
@@ -106,7 +106,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_o/sit.gif') }}" class="w-[35vw]" />
         <h1 class="text-white text-[2.5vw]">Ox sits on the oranges.</h1>
     </div>
@@ -114,7 +114,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_o/crushed.gif') }}" class="w-[35vw]" />
         <h1 class="text-white text-[2.5vw]">Oh, look! Orange juice!</h1>
     </div>
@@ -122,7 +122,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -138,7 +138,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -154,7 +154,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-o/ost8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

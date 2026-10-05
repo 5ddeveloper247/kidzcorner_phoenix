@@ -61,7 +61,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">S</span>easide</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_s/seaside.png') }}" class="w-[35vw]" />
     </div>
@@ -69,7 +69,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st2.mp3') }}">
         <div class="relative w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_s/sun.png') }}" class="w-[10vw] absolute right-0 top-0" />
             <img src="{{ asset('assets/images/phonicsl1/letter_s/sally.gif') }}" class="w-[35vw] rounded-[1vw]" />
@@ -81,7 +81,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_s/swiming.gif') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">She likes to swim in the <span class="text-[#f7b94a]">s</span>ea too.</h1>
     </div>
@@ -89,7 +89,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_s/happy.gif') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">She can see a <span class="text-[#f7b94a]">s</span>eahorse.</h1>
     </div>
@@ -97,7 +97,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_s/happy.gif') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">What can you see?</h1>
     </div>

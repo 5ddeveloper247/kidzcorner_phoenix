@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">N</span>ick</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_n/hi.png') }}" class="h-[25vw]" />
     </div>
@@ -88,7 +88,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_n/sad.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">N</span>ick is not happy</h1>
     </div>
@@ -96,15 +96,15 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_n/sad.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[2.5vw]"> <span class="text-[#f7b94a]">N</span>ick feels sick.</h1>
+        <h1 class="text-white text-[2.5vw]">His <span class="text-[#f7b94a]">n</span>ose and <span class="text-[#f7b94a]">n</span>eck hurt.</h1>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_n/nurse.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">The <span class="text-[#f7b94a]">n</span>urse tells <span
                 class="text-[#f7b94a]">N</span>ick to take a <span class="text-[#f7b94a]">n</span>ap.</h1>
@@ -113,7 +113,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_n/happy.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">Now he is <span class="text-[#f7b94a]">n</span>early better!</h1>
     </div>
@@ -121,7 +121,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -137,7 +137,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -153,7 +153,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/nst8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

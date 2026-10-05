@@ -60,7 +60,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/wordhunt.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/wordhunt.mp3') }}">
         <h2 class="text-white text-[2.2vw] text-center">Listen to these words:</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_p/wall.png') }}" class="w-[40vw]" />
         <p class="p-note">Tip: Ask children to refer to the Word Hunt Activity Sheet in the Pupil’s Activity Book.</p>
@@ -69,7 +69,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst2.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack1.png') }}" class="w-[55vw]" />
@@ -83,7 +83,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack2.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_p/sick.gif') }}" class="w-[13vw]" />
@@ -95,7 +95,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst3.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack2.png') }}" class="w-[55vw]" />
@@ -109,7 +109,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack3.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_p/worry.gif') }}" class="w-[13vw]" />
@@ -122,7 +122,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst4.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack3.png') }}" class="w-[55vw]" />
@@ -136,7 +136,7 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack4.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_p/doc.gif') }}" class="w-[13vw] rounded-[1vw]" />
@@ -147,7 +147,7 @@
 
     {{-- Panel 9 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst5.mp3') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack4.png') }}" class="w-[55vw]" />
@@ -162,7 +162,7 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/stack5.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_p/sing.gif') }}" class="w-[13vw]" />
@@ -486,10 +486,10 @@
 
             // Define audio paths for each item
             const itemAudioPaths = {
-                'item-1': "{{ asset('assets/audio/phonics_audio/letter-p/pst2.m4a') }}",
-                'item-2': "{{ asset('assets/audio/phonics_audio/letter-p/pst3.m4a') }}",
-                'item-3': "{{ asset('assets/audio/phonics_audio/letter-p/pst4.m4a') }}",
-                'item-4': "{{ asset('assets/audio/phonics_audio/letter-p/pst5.m4a') }}"
+                'item-1': "{{ asset('assets/audio/phonics_audio/letter-p/pst2.mp3') }}",
+                'item-2': "{{ asset('assets/audio/phonics_audio/letter-p/pst3.mp3') }}",
+                'item-3': "{{ asset('assets/audio/phonics_audio/letter-p/pst4.mp3') }}",
+                'item-4': "{{ asset('assets/audio/phonics_audio/letter-p/pst5.mp3') }}"
             };
 
             items.forEach(item => {

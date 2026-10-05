@@ -61,7 +61,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">P</span>eace's <span
                 class="text-[#f7b94a]">P</span>arrot</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_p/peace.png') }}" class="h-[25vw]" />
@@ -70,7 +70,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/sick.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">P</span>eace’s <span
                 class="text-[#f7b94a]">p</span>et <span class="text-[#f7b94a]">p</span>arrot is sick.</h1>
@@ -79,7 +79,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/worry.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">P</span>eace <span
                 class="text-[#f7b94a]">p</span>icks up the phone. She calls Doctor <span class="text-[#f7b94a]">P</span>at.
@@ -89,7 +89,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/doc.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">He gives it a <span class="text-[#f7b94a]">p</span>ink <span
                 class="text-[#f7b94a]">p</span>ill.</h1>
@@ -98,7 +98,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-p/pst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_p/sing.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">The <span class="text-[#f7b94a]">p</span>arrot can sing again.</h1>
     </div>

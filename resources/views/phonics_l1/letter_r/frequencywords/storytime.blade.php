@@ -52,7 +52,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-              <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
+            <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
                 out why reading words is important.</p>
@@ -61,7 +61,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">R</span>ain, <span class="text-[#f7b94a]">R</span>ain
         </h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[25vw]" />
@@ -70,7 +70,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_r/race.png') }}" class="w-[30vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">R</span>on’s <span
                 class="text-[#f7b94a]">r</span>abbit is <span class="text-[#f7b94a]">r</span>eady for the <span
@@ -80,7 +80,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[25vw]" />
         <h1 class="text-white text-[2.5vw]">It starts to <span class="text-[#f7b94a]">r</span>ain.</h1>
     </div>
@@ -88,7 +88,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst4.mp3') }}">
         <div class="relative w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.gif') }}" class="w-full h-full absolute top-0" />
             <img src="{{ asset('assets/images/phonicsl1/letter_r/run.gif') }}" class="w-[35vw] rounded-[1vw]" />
@@ -101,7 +101,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_r/dizzy.gif') }}" class="w-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">Now the <span class="text-[#f7b94a]">r</span>abbit has a red nose.</h1>
     </div>
@@ -144,8 +144,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
