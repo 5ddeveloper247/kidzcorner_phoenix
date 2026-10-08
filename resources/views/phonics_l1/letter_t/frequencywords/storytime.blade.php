@@ -61,7 +61,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">T</span>en Toads</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_t/toads.png') }}" class="w-[40vw]" />
     </div>
@@ -69,7 +69,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_t/jumping.gif') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[3vw]">Ten toads in the pond.</h1>
     </div>
@@ -77,7 +77,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_t/torto.gif') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">A tortoise tumbles in.</h1>
     </div>
@@ -85,7 +85,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_t/jump.gif') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">One <span class="text-[#f7b94a]">t</span>oad jumps out.</h1>
     </div>
@@ -93,7 +93,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/tst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_t/land.png') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">and lands on Tom’s toes.</h1>
     </div>

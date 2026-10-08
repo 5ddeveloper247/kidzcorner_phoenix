@@ -46,7 +46,7 @@
 
     {{--  Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/would.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/would.mp3') }}">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             would</div>
@@ -56,13 +56,13 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/would.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/would.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word2.png') }}" class="w-[45vw]">
     </div>
 
     {{--  Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/when.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/when.mp3') }}">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             when</div>
@@ -72,13 +72,13 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/when.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/when.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word3.png') }}" class="w-[45vw]">
     </div>
 
     {{--  Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/who.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/who.mp3') }}">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             who</div>
@@ -88,13 +88,13 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/who.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/who.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word4.png') }}" class="w-[45vw]">
     </div>
 
     {{--  Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/which.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/which.mp3') }}">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             which</div>
@@ -104,13 +104,13 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/which.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/which.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word5.png') }}" class="w-[45vw]">
     </div>
 
     {{--  Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/sees.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/sees.mp3') }}">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             sees</div>
@@ -120,14 +120,14 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/sees.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/sees.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word6.png') }}" class="w-[45vw]">
     </div>
 
 
     {{--  Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/is.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/is.mp3') }}">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             is</div>
@@ -137,7 +137,7 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/is.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/is.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word7.png') }}" class="w-[45vw]">
     </div>
@@ -145,7 +145,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/on.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/on.mp3') }}">
 
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
@@ -156,14 +156,14 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/on.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/on.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word8.png') }}" class="w-[45vw]">
     </div>
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/go.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/go.mp3') }}">
 
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
@@ -174,13 +174,13 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/go.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/go.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word9.png') }}" class="w-[45vw]">
     </div>
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wordsearch.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wordsearch.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/word10.png') }}" class="w-[45vw]">
     </div>
 

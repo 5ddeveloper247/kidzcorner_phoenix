@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst1.mp3') }}">
         <h1 class="text-white text-[3vw]">O<span class="text-[#f7b94a]">x</span>'s <span class="text-[#f7b94a]">X</span>-ray
         </h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.png') }}" class="w-[25vw]" />
@@ -89,16 +89,16 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst2.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[3vw]">The ox has and x-ray</h1>
+        <h1 class="text-white text-[3vw]">The ox has an x-ray</h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[2.5vw]">Ma<span class="text-[#f7b94a]">x</span> keeps it safe in a bo<span
                 class="text-[#f7b94a]">x</span></h1>
@@ -107,7 +107,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_x/walking.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">Si<span class="text-[#f7b94a]">x</span> foxes find the bo<span
                 class="text-[#f7b94a]">x</span>.</h1>
@@ -116,7 +116,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst5.mp3') }}">
         <div class="w-fit h-fit relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_x/walking.gif') }}" class="h-[25vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}"
@@ -128,7 +128,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -144,7 +144,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -161,7 +161,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

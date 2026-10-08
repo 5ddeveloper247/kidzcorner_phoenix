@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">U</span>nder the <span
                 class="text-[#f7b94a]">U</span>mbrella</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_u/happy.png') }}" class="h-[25vw]" />
@@ -89,7 +89,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_u/opens.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[3vw]">Uncle opens the big umbrella.</h1>
     </div>
@@ -97,7 +97,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_u/siblings.gif') }}" class="w-[35vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">Uncle and I sit under it away from the sun.</h1>
     </div>
@@ -105,7 +105,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_u/ugly-bug.gif') }}" class="w-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">An ugly bug crawls up. What fun!</h1>
     </div>
@@ -113,7 +113,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_u/terify.png') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">Uncle jumps up and runs!</h1>
     </div>
@@ -121,7 +121,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -138,7 +138,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -154,7 +154,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/ust8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}

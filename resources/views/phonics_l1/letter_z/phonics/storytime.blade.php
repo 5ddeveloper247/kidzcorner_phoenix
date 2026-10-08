@@ -80,15 +80,16 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Z</span>ak likes <span class="text-[#f7b94a]">Z</span>ebras</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst1.mp3') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Z</span>ak likes <span
+                class="text-[#f7b94a]">Z</span>ebras</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_z/caring.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst2.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_z/star.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">Three, two, one, zero</h1>
@@ -97,7 +98,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_z/enter.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">Zak zooms off to the zoo.</h1>
     </div>
@@ -105,7 +106,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_z/monkey.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">He zigzags past the monkeys.</h1>
     </div>
@@ -113,7 +114,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_z/boy.png') }}" class="h-[25vw] rounded-[1vw]" />
 
         <h1 class="text-white text-[2.5vw]">To feed the zebras, Zip and Zap.</h1>
@@ -122,7 +123,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -130,7 +131,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Where is <br>
+            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Where
+                is <br>
                 Zak?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
 
@@ -138,7 +140,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -146,7 +148,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What animal <br>
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What
+                animal <br>
                 does <br>
                 he like?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -155,7 +158,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -163,10 +166,29 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What animals <br>
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What
+                animals <br>
                 do you <br>
                 like?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
+        </div>
+    </div>
+
+
+    <div class="phonics-panel no-bg mb-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst9.mp3') }}">
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
+            {{-- gifs --}}
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
+                class="h-[20vw] bottom-0 right-0 absolute" />
+
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What
+                food do <br>
+                zebras eat?
+            </h1>
+                <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
         </div>
     </div>
 
@@ -219,8 +241,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-           const returnURL = "{{ url('/phonics_l1/letter_z') }}?view=phonics";
-           const doneURL = "{{ url('/phonics_l1/letter_z') }}?view=phonics";
+            const returnURL = "{{ url('/phonics_l1/letter_z') }}?view=phonics";
+            const doneURL = "{{ url('/phonics_l1/letter_z') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

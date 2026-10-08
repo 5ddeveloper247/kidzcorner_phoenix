@@ -33,7 +33,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/in.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/in.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
@@ -52,7 +52,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/a.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/a.mp3') }}">
         <div class="flex items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_t/the.png') }}" class="w-[14vw]" />
@@ -64,7 +64,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/one.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/one.mp3') }}">
         <div class="grid grid-cols-3 items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_t/the.png') }}" class="w-[14vw]" />
@@ -77,7 +77,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/out.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/out.mp3') }}">
         <div class="grid grid-cols-3 items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_t/the.png') }}" class="w-[14vw]" />
@@ -105,7 +105,7 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/on.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/on.mp3') }}">
         <div class="grid grid-cols-3 items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_t/the.png') }}" class="w-[14vw]" />
@@ -120,7 +120,7 @@
 
     {{-- Panel 9 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/i.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/i.mp3') }}">
         <div class="grid grid-cols-3 items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_t/the.png') }}" class="w-[14vw]" />
@@ -137,7 +137,7 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/each.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/each.mp3') }}">
         <div class="grid grid-cols-3 items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_t/the.png') }}" class="w-[14vw]" />
@@ -155,7 +155,7 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/all.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-t/flashcard/all.mp3') }}">
         <div class="grid grid-cols-3 items-start mt-[2vw]">
             <img src="{{ asset('assets/images/phonicsl1/letter_t/in.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_t/the.png') }}" class="w-[14vw]" />

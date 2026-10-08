@@ -61,15 +61,16 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Z</span>ak likes <span class="text-[#f7b94a]">Z</span>ebras</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst1.mp3') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Z</span>ak likes <span
+                class="text-[#f7b94a]">Z</span>ebras</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_z/caring.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst2.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_z/star.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">Three, two, one, zero</h1>
@@ -78,7 +79,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_z/enter.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">Zak zooms off to the zoo.</h1>
     </div>
@@ -86,7 +87,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_z/monkey.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">He zigzags past the monkeys.</h1>
     </div>
@@ -94,7 +95,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_z/boy.png') }}" class="h-[25vw] rounded-[1vw]" />
 
         <h1 class="text-white text-[2.5vw]">To feed the zebras, Zip and Zap.</h1>

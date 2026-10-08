@@ -61,7 +61,7 @@
 
      {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">W</span>orm in Well</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_w/w-well.png') }}" class="h-[25vw]" />
     </div>
@@ -69,7 +69,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst2.mp3') }}">
 
         <img src="{{ asset('assets/images/phonicsl1/letter_w/watering.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">W</span>innie <span
@@ -79,7 +79,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/sees.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">She sees a <span class="text-[#f7b94a]">w</span>orm on the <span
                 class="text-[#f7b94a]">w</span>et <span class="text-[#f7b94a]">w</span>all.</h1>
@@ -88,7 +88,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst4.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/wigling.gif') }}" class="w-[30vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]">It is <span class="text-[#f7b94a]">w</span>iggling.</h1>
     </div>
@@ -96,7 +96,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst5.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_w/crying.gif') }}" class="h-[25vw] rounded-[1vw]" />
         <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">W</span>innie <span
                 class="text-[#f7b94a]">w</span>ishes it would go away.</h1>
