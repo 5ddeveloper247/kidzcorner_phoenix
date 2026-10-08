@@ -80,7 +80,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst1.mp3') }}">
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Q</span>uilt and <span
                 class="text-[#f7b94a]">Q</span>uill</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_q/q-q.png') }}" class="w-[25vw]" />
@@ -89,7 +89,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst2.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[3vw]">A quill pen for Queenie.</h1>
     </div>
@@ -97,7 +97,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst3.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[25vw]" />
         <h1 class="text-white text-[2.5vw]">A quilt for the queen.</h1>
     </div>
@@ -105,7 +105,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst4.mp3') }}">
         <div class="flex items-center">
             <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[30vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[20vw]" />
@@ -116,7 +116,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst5.mp3') }}">
         <div class="flex items-center">
             <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[30vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[20vw]" />
@@ -127,7 +127,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst6.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -143,7 +143,7 @@
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst7.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -159,7 +159,7 @@
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst8.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
