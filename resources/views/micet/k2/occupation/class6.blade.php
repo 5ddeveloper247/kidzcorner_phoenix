@@ -53,7 +53,7 @@ $showMascot = true;
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 5: Our Kindergarten</h1>
+    <h1 class="panel-title stroke">Classroom Activity 6: Our Contruction site</h1>
 
     <div>
         <h3 class="ptitle">Suggested Classroom Setup</h3>
@@ -120,7 +120,7 @@ $showMascot = true;
             <li>Children recall the people working at a construction site, the nature of their jobs and how the construction process flows.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k2/occupation/class6/c2.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/occupation/class6/c2.png') }}" class="w-[25vw] h-[17vw]" />
 </div>
 
 

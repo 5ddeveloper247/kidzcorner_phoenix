@@ -468,8 +468,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/playtime/index') }}";
-        const doneURL = "{{ url('/micet/k1/playtime/index') }}";
+        const returnURL = "{{ url('/micet/k2/occupation/index') }}";
+        const doneURL = "{{ url('/micet/k2/occupation/index') }}";
 
         // Track current position
         let currentSlide = 0;
