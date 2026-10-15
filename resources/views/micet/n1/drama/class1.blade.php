@@ -116,12 +116,12 @@
     </div>
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
         <h3 class="p-title">After Mother Rabbit leaves, the baby rabbits lock the door. They <br>
             play hide and seek happily inside the house.</h3>
 
         <img src="{{ asset('assets/images/micet/n1/drama/class1/c3.png') }}" class="w-[25vw]" />
-        <div class="flex items-center justify-between w-full">
+        <div class="flex items-center justify-between w-[40]">
             <h3 class="p-title">
                 Have you ever played hide and seek? How do you play the game?<br>
                 <span class="text-[#f7b94a]">Guide children to talk about their experiences in playing the hide

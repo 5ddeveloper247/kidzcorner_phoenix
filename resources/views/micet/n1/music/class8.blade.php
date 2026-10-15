@@ -76,7 +76,7 @@ $showMascot = true;
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start items-center">
     <h1 class="panel-title stroke">Classroom Activity 8: Percussions Performance</h1>
 
     <div class="text-start">

@@ -80,10 +80,10 @@ $showMascot = true;
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
     <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
 
-    <div class="text-start">
+    <div class="text-start space-y-[1vw]">
         <h3 class="title">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">

@@ -428,7 +428,6 @@ $showMascot = true;
                 currentAudio.currentTime = 0;
             }
         }
-
         // VIDEO FUNCTIONS
 
         function stopAllVideos() {
@@ -606,16 +605,6 @@ $showMascot = true;
                 }
             });
         });
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.phonics-panel').forEach(panel => {
-                const observer = new MutationObserver(() => {
-                    if (panel.classList.contains('hidden')) {
-                        panel.querySelectorAll('video').forEach(video => {
-                            if (!video.paused) video.pause();
-                            video.currentTime = 0;
-                        });
-                    }
-                });
 
         nextButtons.forEach(btn => {
             btn.addEventListener("click", goNext);

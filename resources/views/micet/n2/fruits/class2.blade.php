@@ -441,7 +441,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 2: Let’s Compare and Draw</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="2">
+    <ol class="list-decimal panel-ul w-[45vw]" start="33">
         <li>Ask children to draw one small fruit and one big fruit (on a plain paper or in the
             Thematic Activity Book).</li>
     </ol>
@@ -452,7 +452,7 @@ $showMascot = true;
 <div class="phonics-panel flex flex-col items-center h-full">
     <h1 class="panel-title stroke">Classroom Activity 2: Let’s Compare and Draw</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
+    <ol class="list-decimal panel-ul w-[45vw]" start="34">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>

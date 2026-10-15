@@ -43,10 +43,11 @@
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 3: Land Animal kingdom</h1>
-        <div class="flex ">
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/colours/class3/b2.png') }}" class="h-[9vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class3/b1.png') }}" class="h-[9vw]" />
+        <div class="flex items-center gap-0.5">
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b6.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[6vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[6vw]" />
         </div>
 
         <h3 class="ptitle">Objectives:</h3>

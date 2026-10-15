@@ -83,14 +83,14 @@ $showMascot = true;
         </ol>
     </div>
     <div class="flex flex-col items-center">
-        <img src="{{ asset('assets/images/micet/n1/games/class6/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c2.png') }}" class="w-[25vw]" />
         <h3 class="text-[1.5vw] text-[#f7b94a]">puzzle</h3>
     </div>
 </div>
 
 
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 6: Thinking Games (1)</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="2">
@@ -99,15 +99,25 @@ $showMascot = true;
             puzzle, then talk about the picture on it.</li>
     </ol>
     <div class="flex flex-col items-center">
-        <img src="{{ asset('assets/images/micet/n1/games/class6/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c2.png') }}" class="w-[25vw]" />
         <h3 class="text-[1.5vw] text-[#f7b94a]">puzzle</h3>
     </div>
 </div>
 
 
 {{-- panel 5 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <img src="{{ asset('assets/images/micet/n1/games/class6/c3.png') }}" class="w-[30vw]" />
+<div class="phonics-panel flex flex-col justify-start h-full items-center gap-[3vw]">
+    <div class="flex gap-[5vw]">
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c3.png') }}" class="w-[25vw] h-[20vw]" />
+        <div class="flex flex-col gap-[5vw]">
+            <img src="{{ asset('assets/images/micet/n1/games/class6/c20.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/games/class6/c19.png') }}" class="w-[8vw]" />
+        </div>
+    </div>
+    <div class="flex gap-[5vw]"><img src="{{ asset('assets/images/micet/n1/games/class6/c1.png') }}" class="w-[5vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c21.png') }}" class="w-full" />
+    </div>
+
 </div>
 
 
@@ -119,14 +129,14 @@ $showMascot = true;
         <li>Ask children: "Guess what is on the puzzle?" "How can we solve the puzzle?"</li>
     </ol>
     <div class="flex flex-col items-center">
-        <img src="{{ asset('assets/images/micet/n1/games/class6/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c4.png') }}" class="w-[25vw]" />
         <h3 class="text-[1.5vw] text-[#f7b94a]">puzzle</h3>
     </div>
 </div>
 
 
 {{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 6: Thinking Games (1)</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="5">
@@ -136,16 +146,24 @@ $showMascot = true;
             puzzle, then talk about the picture on it.</li>
     </ol>
     <div class="flex flex-col items-center">
-        <img src="{{ asset('assets/images/micet/n1/games/class6/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c4.png') }}" class="w-[25vw]" />
         <h3 class="text-[1.5vw] text-[#f7b94a]">puzzle</h3>
     </div>
 </div>
 
 
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 6: Thinking Games (1)</h1>
-    <img src="{{ asset('assets/images/micet/n1/games/class6/c1.png') }}" class="w-[25vw]" />
+<div class="phonics-panel flex flex-col justify-start items-center gap-[1vw]">
+    <div class="flex gap-[5vw]">
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c5.png') }}" class="w-[20vw] h-[17vw]" />
+        <div class="flex flex-col gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/games/class6/c6.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/micet/n1/games/class6/c7.png') }}" class="w-[10vw]" />
+        </div>
+    </div>
+    <div class="flex gap-[5vw]"><img src="{{ asset('assets/images/micet/n1/games/class6/c9.png') }}" class="w-[10vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c8.png') }}" class="w-[10vw]" />
+    </div>
+
 </div>
 
 
@@ -158,14 +176,14 @@ $showMascot = true;
             "How do you play it?"</li>
     </ol>
     <div class="flex flex-col items-center">
-        <img src="{{ asset('assets/images/micet/n1/games/class6/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c10.png') }}" class="w-[25vw]" />
         <h3 class="text-[1.5vw] text-[#f7b94a]">domino</h3>
     </div>
 </div>
 
 
 {{-- panel 10 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+<div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
     <h1 class="panel-title stroke">Classroom Activity 6: Thinking Games (1)</h1>
 
     <ol class="list-decimal panel-ul w-[45vw]" start="8">
@@ -174,9 +192,72 @@ $showMascot = true;
         <li>Click to open the Software Magnetic Board. Guide children to solve the
             dominoes, then talk about the pictures on it.</li>
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/micet/n1/games/class6/c1.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/games/class6/c10.png') }}" class="w-[25vw]" />
             <h3 class="text-[1.5vw] text-[#f7b94a]">domino</h3>
         </div>
+    </ol>
+</div>
+
+<div class="phonics-panel flex flex-col justify-start items-center gap-[1vw]">
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c11.png') }}" class="w-[30vw] h-[17vw]" />
+
+    <div class="flex gap-[5vw]">
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c12.png') }}" class="w-[10vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c13.png') }}" class="w-[10vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c14.png') }}" class="w-[10vw]" />
+    </div>
+
+</div>
+
+
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 6: Thinking Games (1)</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="10">
+        <li>Let’s play another domino game!</li>
+    </ol>
+    <div class="flex flex-col items-center">
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c15.png') }}" class="w-[25vw]" />
+        <h3 class="text-[1.5vw] text-[#f7b94a]">domino</h3>
+    </div>
+</div>
+
+
+{{-- panel 10 --}}
+<div class="phonics-panel flex flex-col justify-start items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 6: Thinking Games (1)</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <li>Tell children that we can solve the dominoes by looking at the pictures on it
+            (especially the colours)</li>
+        <li>Click to open the Software Magnetic Board. Guide children to solve the
+            dominoes, then talk about the pictures on it.</li>
+        <div class="flex flex-col items-center">
+            <img src="{{ asset('assets/images/micet/n1/games/class6/c15.png') }}" class="w-[25vw]" />
+            <h3 class="text-[1.5vw] text-[#f7b94a]">domino</h3>
+        </div>
+    </ol>
+</div>
+
+<div class="phonics-panel flex flex-col justify-start items-center gap-[1vw]">
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c16.png') }}" class="w-[30vw] h-[17vw]" />
+
+    <div class="flex gap-[5vw]">
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c17.png') }}" class="w-[10vw]" />
+        <img src="{{ asset('assets/images/micet/n1/games/class6/c18.png') }}" class="w-[10vw]" />
+    </div>
+
+</div>
+
+
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 6: Thinking Games (1)</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="12">
+        <li>Guide children to complete the corresponding activity in the Thematic
+      Activity Book.</li>
     </ol>
 </div>
 

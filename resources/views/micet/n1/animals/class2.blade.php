@@ -374,7 +374,7 @@ $showMascot = true;
             same way?" Guide children to understand that most animals that move on
             land have legs.</li>
     </ol>
-    <div class="flex items-center flex-wrap">
+    <div class="flex items-center justify-center flex-wrap">
         <img src="{{ asset('assets/images/micet/n1/animals/class2/c9.png') }}" class="h-[8vw]" />
         <img src="{{ asset('assets/images/micet/n1/animals/class2/c4.png') }}" class="h-[8vw]" />
         <img src="{{ asset('assets/images/micet/n1/animals/class2/c10.png') }}" class="w-[15vw]" />
@@ -388,219 +388,16 @@ $showMascot = true;
 </div>
 
 
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
-    </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
-            it?" (physical features) "How does it move on land?" "How many legs does
-            it have?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/animals/class2/c3.png') }}" class="w-[20vw]" />
-    <h5 class="text-[2vw] text-[#f7b94a]">horse</h5>
-</div>
-
 
 {{-- panel 9 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
     <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="24">
+        <li>Guide children to complete the corresponding activities in the Thematic
+            Activity Book.</li>
     </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
 </div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
-            it?" (physical features) "How does it move on land?" "How many legs does
-            it have?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/animals/class2/c3.png') }}" class="w-[20vw]" />
-    <h5 class="text-[2vw] text-[#f7b94a]">horse</h5>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
-    </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
-            it?" (physical features) "How does it move on land?" "How many legs does
-            it have?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/animals/class2/c3.png') }}" class="w-[20vw]" />
-    <h5 class="text-[2vw] text-[#f7b94a]">horse</h5>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
-    </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
-            it?" (physical features) "How does it move on land?" "How many legs does
-            it have?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/animals/class2/c3.png') }}" class="w-[20vw]" />
-    <h5 class="text-[2vw] text-[#f7b94a]">horse</h5>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
-    </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
-            it?" (physical features) "How does it move on land?" "How many legs does
-            it have?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/animals/class2/c3.png') }}" class="w-[20vw]" />
-    <h5 class="text-[2vw] text-[#f7b94a]">horse</h5>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
-    </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
-            it?" (physical features) "How does it move on land?" "How many legs does
-            it have?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/animals/class2/c3.png') }}" class="w-[20vw]" />
-    <h5 class="text-[2vw] text-[#f7b94a]">horse</h5>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
-    </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Ask children: "What animal is this?" "What colour is it?" "Can you describe
-            it?" (physical features) "How does it move on land?" "How many legs does
-            it have?"</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/n1/animals/class2/c3.png') }}" class="w-[20vw]" />
-    <h5 class="text-[2vw] text-[#f7b94a]">horse</h5>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Click on the video, have children talk about the animal in the video, and imitate
-            it’s actions.</li>
-    </ol>
-    <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-        <source src="{{ asset('assets/images/micet/n1/animals/class2/v3.mp4') }}" type="video/mp4">
-    </video>
-</div>
-
-
-
-
-
 
 
 
@@ -622,6 +419,21 @@ $showMascot = true;
         <ul class="list-disc panel-ul w-[45vw]">
             <li>Able to find things based on a given colour.</li>
             <li> Able to choose a favourite colour among the four basic colours.</li>
+        </ul>
+    </div>
+</div>
+
+
+{{-- panel 50 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Animals that Move On Land</h1>
+
+    <div class="text-start flex flex-col justify-between h-full">
+        <h3 class="ptitle">Extension</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>If the school has pets that move on land, encourage children to
+                observe them.</li>
         </ul>
     </div>
 </div>

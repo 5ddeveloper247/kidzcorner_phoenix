@@ -169,12 +169,15 @@
             cute gingerbread man is finally done!</p>
         <img src="{{ asset('assets/images/micet/n1/mybody/class1/c9.png') }}" class="w-[25vw]" />
 
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center w-[50vw]">
             <p class="text-[1.5vw] text-white text-start">Have you ever eaten a gingerbread man? Do you like it? Why? <br>
                 <span class="text-[#f7b94a]">Encourage children to answer according to their own experience and
                     preference.</span>
             </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
+            <div class="flex items-center gap-[0.2vw]">
+            <img src="{{ asset('assets/images/micet/n1/toys/b4.png') }}" class="h-[4vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[4vw]" />
+        </div>
         </div>
     </div>
 
