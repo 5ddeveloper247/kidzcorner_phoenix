@@ -122,7 +122,7 @@
 @section('content')
 
     {{-- ========== SLIDE 1: INTRO ========== --}}
-    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
+    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.mp3') }}">
         <h2 class="top-title stroke">Picture Match</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
