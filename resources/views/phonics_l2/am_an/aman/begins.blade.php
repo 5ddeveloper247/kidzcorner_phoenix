@@ -134,7 +134,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -158,7 +158,7 @@
     @foreach ($questions as $index => $q)
         {{-- Question Panel --}}
         <div class="phonics-panel h-full space-y-[1vw] w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
             <h2 class="title-top stroke">Find the picture that has the same ending <br> sound as the one on the box.</h2>
 
             <div class="w-full flex justify-between items-center px-[2vw]">

@@ -110,7 +110,7 @@
     {{-- ══════════════════════════════ --}}
     {{-- PANEL 1 — Intro               --}}
     {{-- ══════════════════════════════ --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.mp3') }}">
         <h2 class="top-title stroke">Make a Match</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />

@@ -99,7 +99,7 @@
     {{-- ============================================ --}}
     {{-- INTRO PANEL --}}
     {{-- ============================================ --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -133,7 +133,7 @@
 
         {{-- QUESTION SLIDE (with sound buttons) --}}
         <div class="phonics-panel h-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
             <h2 class="title-top stroke">Find the picture that begins with the '{{ $config['sound_to_find'] }}' sound.</h2>
 
             <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -158,7 +158,7 @@
 
         {{-- ANSWER SLIDE (shows correct answer with checkmark) --}}
         <div class="phonics-panel h-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
             <h2 class="title-top stroke">Find the picture that begins with the '{{ $config['sound_to_find'] }}' sound.</h2>
 
             <div class="flex flex-col justify-around h-full space-y-[1vw]">

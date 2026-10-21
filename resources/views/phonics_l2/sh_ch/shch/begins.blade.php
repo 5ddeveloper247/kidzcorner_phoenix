@@ -56,7 +56,7 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -78,7 +78,7 @@
     </div>
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel h-full" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+    <div class="phonics-panel h-full" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -118,7 +118,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -151,7 +151,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -191,7 +191,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -223,7 +223,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -263,7 +263,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -296,7 +296,7 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -335,7 +335,7 @@
 
     {{-- Panel 9 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -367,7 +367,7 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -406,7 +406,7 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -438,7 +438,7 @@
 
     {{-- Panel 12 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">
@@ -478,7 +478,7 @@
 
     {{-- Panel 13 --}}
     <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
         <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
         <div class="flex flex-col justify-around h-full space-y-[1vw]">

@@ -7,7 +7,7 @@
   
     $blend = 'sp';
 
-    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/wordplay.m4a';
+    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/wordplay.mp3';
     $tip = 'Tips: Encourage children to try blending the word parts together to make a whole word.';
 
     $words = [

@@ -138,7 +138,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.mp3') }}">
         <h2 class="top-title stroke">Fun with Digraphs</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -158,7 +158,7 @@
 
         {{-- ── Question panel ── --}}
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.5vw]"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.mp3') }}">
 
             <h2 class="title-top stroke">Find the missing words to complete <br> the sentence.</h2>
 
