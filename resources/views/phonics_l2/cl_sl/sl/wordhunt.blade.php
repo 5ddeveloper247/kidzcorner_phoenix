@@ -50,7 +50,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -59,7 +59,7 @@
             <div class="flex flex-col items-center justify-center gap-5">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/slip.png') }}" class="w-[15vw]" />
                 <button class="w-[4vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slip.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slip.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -72,7 +72,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slip.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slip.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -85,7 +85,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -94,7 +94,7 @@
             <div class="flex flex-col items-center justify-center gap-5">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/sleep.png') }}" class="w-[15vw]" />
                 <button class="w-[4vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sleep.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -105,7 +105,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sleep.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -118,7 +118,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -127,7 +127,7 @@
             <div class="flex flex-col items-center justify-center gap-5 ">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/slide2.png') }}" class="h-[18vw]" />
                 <button class="w-[4vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -138,7 +138,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -151,7 +151,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -160,7 +160,7 @@
             <div class="flex flex-col items-center justify-center gap-5">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/broken.png') }}" class="w-[15vw]" />
                 <button class="w-[4vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sling.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sling.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -171,7 +171,7 @@
 
     {{-- Panel 9 --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sling.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sling.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -183,7 +183,7 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -192,7 +192,7 @@
             <div class="flex flex-col items-center justify-center gap-5">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/ski.png') }}" class="w-[15vw]" />
                 <button class="w-[4vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -203,7 +203,7 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sled.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sled.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -215,7 +215,7 @@
 
     {{-- Panel 12 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -224,7 +224,7 @@
             <div class="flex flex-col items-center justify-center gap-5">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/slime.png') }}" class="h-[15vw]" />
                 <button class="w-[4vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slime.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slime.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -235,7 +235,7 @@
 
     {{-- Panel 13 --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slime.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slime.mp3') }}">
 
         <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

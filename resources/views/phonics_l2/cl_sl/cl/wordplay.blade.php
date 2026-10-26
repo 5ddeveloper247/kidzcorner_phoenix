@@ -67,7 +67,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ose.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ose.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/close.png') }}" class="h-[20vw]" />
@@ -84,7 +84,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-am.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-am.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/shell.png') }}" class="w-[20vw]" />
@@ -102,7 +102,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ips.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ips.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/clips.png') }}" class="w-[20vw]" />
@@ -120,7 +120,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ap.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ap.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/clsl/clap.png') }}" class="w-[20vw]" />

@@ -62,63 +62,63 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st1.mp3') }}">
         <h2 class="title-top stroke">The Sloppy Clown</h2>
         <img src="{{ asset('assets/images/phonics_l2/clsl/happy.png') }}" class="h-[25vw]" />
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/clsl/h-clown.png') }}" class="h-[25vw]" />
         <h2 class="title-top">Sloppy the clown loves to juggle.</h2>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/clsl/t-clown.png') }}" class="h-[25vw]" />
         <h2 class="title-top">He juggles clocks while climbing up a slope.</h2>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/clsl/r-clown.png') }}" class="h-[25vw]" />
         <h2 class="title-top">He juggles clips while sliding down a rope.</h2>
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/clsl/sleepyclown.png') }}" class="h-[25vw]" />
         <h2 class="title-top">He juggles slippers and clogs while sleeping.</h2>
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st6.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/clsl/s-clown.png') }}" class="h-[25vw]" />
         <h2 class="title-top">And juggles them slowly while sweeping.</h2>
     </div>
 
     {{-- Panel 8 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st7.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/clsl/d-clown.png') }}" class="h-[25vw]" />
         <h2 class="title-top">He claps the slippers and throws them in the air.</h2>
     </div>
 
     {{-- Panel 9 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st8.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/clsl/sunday.png') }}" class="h-[25vw]" />
         <h2 class="title-top">Come watch clever Sloppy at the fair.</h2>
     </div>
 
     {{-- Panel 10 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/stq1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/stq1.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -134,7 +134,7 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/stq2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/stq2.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -150,7 +150,7 @@
 
     {{-- Panel 12 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/stq3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/stq3.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -181,7 +181,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -236,7 +236,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -295,7 +295,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -358,7 +358,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st6.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/st6.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">

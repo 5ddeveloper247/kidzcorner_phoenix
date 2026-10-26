@@ -82,28 +82,28 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
@@ -132,28 +132,28 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -179,28 +179,28 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -226,28 +226,28 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
@@ -273,28 +273,28 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -320,21 +320,21 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -401,20 +401,20 @@
                 cheering: "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}",
 
                 // Blends
-                slah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}",
-                clah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}",
-                flah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}",
-                pluh: "{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}",
-                glah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}",
+                slah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}",
+                clah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}",
+                flah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.mp3') }}",
+                pluh: "{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.mp3') }}",
+                glah: "{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.mp3') }}",
                 blah: "{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}",
 
                 // Answer audios (word + blend)
-                sl_ime: "{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ime.m4a') }}",
-                cl_imb: "{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-imb.m4a') }}",
-                sl_ip: "{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ip.m4a') }}",
-                cl_ose: "{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ose.m4a') }}",
-                sl_ug: "{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ug.m4a') }}",
-                cl_ock: "{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ock.m4a') }}",
+                sl_ime: "{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ime.mp3') }}",
+                cl_imb: "{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-imb.mp3') }}",
+                sl_ip: "{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ip.mp3') }}",
+                cl_ose: "{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ose.mp3') }}",
+                sl_ug: "{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ug.mp3') }}",
+                cl_ock: "{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ock.mp3') }}",
             };
 
             /* ══════════════════════════════════════════════
