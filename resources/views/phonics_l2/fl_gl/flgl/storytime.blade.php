@@ -62,63 +62,63 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st1.mp3') }}">
         <h2 class="title-top stroke">Glee the Flea</h2>
         <img src="{{ asset('assets/images/phonics_l2/flgl/glee.png') }}" class="w-[25vw]" />
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/flgl/ant.png') }}" class="h-[25vw]" />
         <h2 class="title-top">There was a flea named Glee.</h2>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/flgl/glee-flute.png') }}" class="w-[25vw]" />
         <h2 class="title-top">Glee loved playing her glass flute.</h2>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/flgl/flute-ant.png') }}" class="w-[25vw]" />
         <h2 class="title-top">She loved playing around flags and flowers.</h2>
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/flgl/flying-ant.png') }}" class="w-[25vw]" />
         <h2 class="title-top">She gladly flew around them for hours.</h2>
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st6.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/flgl/fins.png') }}" class="w-[25vw]" />
         <h2 class="title-top">One day, Glee glanced on some gloves and flippers.</h2>
     </div>
 
     {{-- Panel 8 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st7.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/flgl/slippers.png') }}" class="w-[25vw]" />
         <h2 class="title-top">Before she knew it, down went the people’s slippers.</h2>
     </div>
 
     {{-- Panel 9 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st8.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/flgl/faint.png') }}" class="w-[25vw]" />
         <h2 class="title-top">Splat! Poor Glee the flea is now flat.</h2>
     </div>
 
     {{-- Panel 10 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq1.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -135,7 +135,7 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq2.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -152,7 +152,7 @@
 
     {{-- Panel 12 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq3.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -169,7 +169,7 @@
 
     {{-- Panel 12 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/stq4.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -203,7 +203,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -257,7 +257,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -314,7 +314,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st6.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st6.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -374,7 +374,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st7.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/st7.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">

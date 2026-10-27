@@ -50,7 +50,7 @@
 
     {{-- Panel 2 – Question --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
@@ -58,7 +58,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[6vw]"
                     src="{{ asset('assets/images/phonics_l2/clsl/clock.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clock.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clock.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -67,7 +67,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 h-[7vw]"
                     src="{{ asset('assets/images/phonics_l2/flgl/glow.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glow.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glow.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -76,7 +76,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[6vw]"
                     src="{{ asset('assets/images/phonics_l2/blpl/4.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blinds.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blinds.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -84,7 +84,7 @@
         <div class="box">
             <h2 class="panel-title absolute top-0 right-0 px-[1vw]">gl</h2>
             <button class="absolute top-0 -right-[20%] w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -92,7 +92,7 @@
 
     {{-- Panel 3 – Answer --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glow.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glow.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
@@ -120,7 +120,7 @@
 
     {{-- Panel 4 – Question --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
@@ -129,7 +129,7 @@
                     src="{{ asset('assets/images/phonics_l2/flgl/glum.png') }}">
 
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glum.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glum.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -138,7 +138,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[6vw]"
                     src="{{ asset('assets/images/phonics_l2/flgl/fly.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fly.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fly.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -147,7 +147,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 h-[6vw]"
                     src="{{ asset('assets/images/phonics_l2/blpl/26.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/plant.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/plant.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -155,7 +155,7 @@
         <div class="box">
             <h2 class="panel-title absolute top-0 right-0 px-[1vw]">gl</h2>
             <button class="absolute top-0 -right-[20%] w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -163,7 +163,7 @@
 
     {{-- Panel 5 – Answer --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glum.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glum.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
@@ -191,14 +191,14 @@
 
     {{-- Panel 6 – Question --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[6vw]"src="{{ asset('assets/images/phonics_l2/flgl/glad.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glad.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glad.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -206,7 +206,7 @@
             <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
             <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[6vw]" src="{{ asset('assets/images/phonics_l2/clsl/slide.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -214,7 +214,7 @@
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 rounded-xl w-[6vw]" src="{{ asset('assets/images/phonics_l2/flgl/flute.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flute.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flute.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -222,7 +222,7 @@
         <div class="box">
             <h2 class="panel-title absolute top-0 right-0 px-[1vw]">gl</h2>
             <button class="absolute top-0 -right-[20%] w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -230,7 +230,7 @@
 
     {{-- Panel 7 – Answer --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glad.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glad.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
@@ -258,7 +258,7 @@
 
     {{-- Panel 8 – Question --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
@@ -266,7 +266,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[7vw]"
                     src="{{ asset('assets/images/phonics_l2/flgl/float.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/float.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/float.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -275,7 +275,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 h-[7vw]"
                     src="{{ asset('assets/images/phonics_l2/flgl/glue.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glue.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glue.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -284,7 +284,7 @@
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[7vw]"
                     src="{{ asset('assets/images/phonics_l2/clsl/shell.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clam.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clam.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -292,7 +292,7 @@
         <div class="box">
             <h2 class="panel-title absolute top-0 right-0 px-[1vw]">gl</h2>
             <button class="absolute top-0 -right-[20%] w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -300,7 +300,7 @@
 
     {{-- Panel 9 – Answer --}}
     <div class="phonics-panel answer flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glue.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glue.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
@@ -328,14 +328,14 @@
 
     {{-- Panel 10 – Question --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 h-[7vw]" src="{{ asset('assets/images/phonics_l2/flgl/gloves.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glove.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glove.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -343,7 +343,7 @@
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[7vw]"  src="{{ asset('assets/images/phonics_l2/blpl/25.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/plank.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/plank.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -351,7 +351,7 @@
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
                 <img class="absolute top-1/2 left-1/2 -translate-1/2 w-[7vw]" src="{{ asset('assets/images/phonics_l2/blpl/1.png') }}">
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blow.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blow.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -359,7 +359,7 @@
         <div class="box">
             <h2 class="panel-title absolute top-0 right-0 px-[1vw]">gl</h2>
             <button class="absolute top-0 -right-[20%] w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -367,7 +367,7 @@
 
     {{-- Panel 11 – Answer --}}
     <div class="phonics-panel  answer flex flex-col justify-center space-y-[2vw]! items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glove.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glove.mp3') }}">
         <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
         <div class="flex">
             <div class="relative w-fit h-fit">

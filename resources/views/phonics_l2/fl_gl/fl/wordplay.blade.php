@@ -67,7 +67,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-oss.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-oss.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/flgl/floss.png') }}" class="h-[20vw]" />
@@ -84,7 +84,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-y.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-y.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/flgl/fly.png') }}" class="w-[20vw]" />
@@ -102,7 +102,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-oat.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-oat.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/flgl/float.png') }}" class="w-[20vw]" />
@@ -120,7 +120,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-ag.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/fl-ag.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/flgl/flag.png') }}" class="h-[20vw]" />

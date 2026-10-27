@@ -82,12 +82,12 @@
     </div>
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-flah.m4a') }}">
+    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-flah.mp3') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -99,28 +99,28 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glrah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glrah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -136,7 +136,7 @@
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -148,28 +148,28 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glrah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -179,12 +179,12 @@
     </div>
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-glah.m4a') }}">
+    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-glah.mp3') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -196,21 +196,21 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -244,21 +244,21 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -275,12 +275,12 @@
     </div>
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-flah.m4a') }}">
+    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-flah.mp3') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -292,21 +292,21 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -328,7 +328,7 @@
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -340,21 +340,21 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -371,12 +371,12 @@
     </div>
 
     {{-- Panel 8 --}}
-    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-glah.m4a') }}">
+    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-glah.mp3') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -388,14 +388,14 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -409,7 +409,7 @@
                 </div>
                 <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -436,14 +436,14 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -457,7 +457,7 @@
                 </div>
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -467,12 +467,12 @@
     </div>
 
     {{-- Panel 10 --}}
-    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-flah.m4a') }}">
+    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/spot-flah.mp3') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -484,28 +484,28 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
@@ -520,7 +520,7 @@
             Help the mouse get home. <br>
             Find the blend
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -532,28 +532,28 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fl_gl/glah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pluh.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
