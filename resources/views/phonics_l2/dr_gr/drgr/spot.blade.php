@@ -4,83 +4,70 @@
 @php
     $showBackground = true;
 
-    // ============================================================
-    //  ✏️  EDIT YOUR DATA HERE
-    // ============================================================
-
-    // Each question has:
-    //   'questionAudio'  → audio played when the question slide loads
-    //   'titleAudio'     → audio for the "Find the blend" button in the title
-    //   'ratPosition'    → rat position on the QUESTION slide
-    //   'ratAnswerPos'   → rat position on the ANSWER slide
-    //   'ratImage'       → rat image shown on the QUESTION slide
-    //   'ratAnswerImage' → rat image shown on the ANSWER slide (optional, defaults to ratImage)
-    //   'circles'        → 4 blend options. Set 'correct' => true on the right one.
-
     $questions = [
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-drah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-drah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3',
             'ratPosition' => 'top-[35%] left-[8%]',
             'ratAnswerPos' => 'bottom-[16%] left-[12%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a', 'correct' => true],
-                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/brah.m4a', 'correct' => false],
-                ['label' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/pluh.m4a', 'correct' => false],
+                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3', 'correct' => true],
+                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.mp3', 'correct' => false],
+                ['label' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/pluh.mp3', 'correct' => false],
                 ['label' => 'bl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/blah.mp3', 'correct' => false],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-grah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-grah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3',
             'ratPosition' => 'bottom-[16%] left-[12%]',
             'ratAnswerPos' => 'top-[35%] left-[40%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a', 'correct' => false],
-                ['label' => 'gl', 'audio' => 'assets/audio/phonics_audio-2/fl_gl/glah.m4a', 'correct' => false],
-                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.m4a', 'correct' => true],
-                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_cl/flah.m4a', 'correct' => false],
+                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3', 'correct' => false],
+                ['label' => 'gl', 'audio' => 'assets/audio/phonics_audio-2/fl_gl/glah.mp3', 'correct' => false],
+                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3', 'correct' => true],
+                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_cl/flah.mp3', 'correct' => false],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-drah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/grah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-drah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3',
             'ratPosition' => 'top-[35%] left-[40%]',
             'ratAnswerPos' => 'bottom-[15%] left-[45%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_cl/flah.m4a', 'correct' => false],
-                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a', 'correct' => true],
-                ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', 'correct' => false],
-                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a', 'correct' => false],
+                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_cl/flah.mp3', 'correct' => false],
+                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3', 'correct' => true],
+                ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.mp3', 'correct' => false],
+                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3', 'correct' => false],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-drah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-drah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3',
             'ratPosition' => 'bottom-[15%] left-[45%]',
             'ratAnswerPos' => 'top-[35%] right-[12%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.m4a', 'correct' => false],
-                ['label' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/pluh.m4a', 'correct' => false],
-                ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', 'correct' => false],
-                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a', 'correct' => true],
+                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.mp3', 'correct' => false],
+                ['label' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/pluh.mp3', 'correct' => false],
+                ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.mp3', 'correct' => false],
+                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3', 'correct' => true],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-grah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/grah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/dr_gr/spot-grah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3',
             'ratPosition' => 'top-[35%] right-[12%]',
             'ratAnswerPos' => 'bottom-[15%] right-[12%]',
             'ratImage' => 'rat.png', // ← rat shown on the QUESTION slide
             'ratAnswerImage' => 'trat.png', // ← rat shown on the ANSWER slide
             'circles' => [
-                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.m4a', 'correct' => true],
-                ['label' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slah.m4a', 'correct' => false],
-                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a', 'correct' => false],
+                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3', 'correct' => true],
+                ['label' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slah.mp3', 'correct' => false],
+                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3', 'correct' => false],
                 ['label' => 'bl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/blah.mp3', 'correct' => false],
             ],
         ],

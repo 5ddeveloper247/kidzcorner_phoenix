@@ -36,30 +36,31 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.5vw]"
+    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[2vw]"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/brown-pram.png') }}" class="h-[13vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b1.png') }}" class="h-[13vw]" />
         <div class="flex items-center gap-1 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr1.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
-            <span class="text-white">There is</span>
-            <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}" class="h-[4vw] absolute top-[-85%]! left-[37%]" />
+            <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}" class="h-[3vw] absolute top-[-85%]! left-[50%]" />
+            <span class="text-white">The grasshopper</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span class="text-white">a</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">in the garden.</span>
+            <span class="text-white">truck.</span>
 
         </div>
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0 leading-none">
-            <span>brown</span>
-            <span>pram</span>
-            <span>prick</span>
+            <span>drives</span>
+            <span>grey</span>
+            <span>drips</span>
         </div>
 
 
@@ -70,66 +71,68 @@
 
     {{-- Panel 3 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/drive.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/brown-pram.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b1.png') }}" class="h-[15vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr1.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}"
-                class="h-[4vw] absolute top-[-3vw]! right-[35%]" />
+                class="h-[4vw] absolute top-[-3vw]! right-[23%]" />
 
             {{-- answer --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[31%] text-[#f7b94a] text-[2vw]">brown</span>
+            <span class="h-[4vw] absolute top-[-2vw]! left-[46%] text-[#f7b94a] text-[2vw]">drives</span>
 
-            <span class="text-white">There is</span>
+            <span class="text-white">The grasshopper</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span class="text-white">a</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">in the garden.</span>
+            <span class="text-white">truck.</span>
         </div>
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span class="opacity-0">brown</span>
-            <span>pram</span>
-            <span>prick</span>
+            <span class="opacity-0">drives</span>
+            <span>grey</span>
+            <span>drips</span>
         </div>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pram.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/grey.mp3') }}">
 
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/brown-pram.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b1.png') }}" class="h-[15vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr1.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             {{-- answers --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[31%] text-[#f7b94a] text-[2vw]">brown</span>
-            <span class="h-[4vw] absolute top-[-2vw]! right-[35%] text-[#f7b94a] text-[2vw]">pram</span>
+            <span class="h-[4vw] absolute top-[-2vw]! left-[46%] text-[#f7b94a] text-[2vw]">drives</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[19%] text-[#f7b94a] text-[2vw]">grey</span>
 
-            <span class="text-white">There is</span>
+            <span class="text-white">The grasshopper</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span class="text-white">a</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">in the garden</span>
+            <span class="text-white">truck.</span>
         </div>
 
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span class="opacity-0">brown</span>
-            <span class="opacity-0">pram</span>
-            <span>prick</span>
+            <span class="opacity-0">drives</span>
+            <span class="opacity-0">grey</span>
+            <span>drips</span>
         </div>
     </div>
 
@@ -140,54 +143,52 @@
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/making-prawn.png') }}" class="w-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b2.png') }}" class="w-[15vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr2.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}"
-                class="h-[4vw] absolute top-[-3vw]! left-[53%]" />
+                class="h-[4vw] absolute top-[-3vw]! right-[24%]" />
 
-            <span class="text-white">My brother puts the</span>
+            <span class="text-white">The dragon dreams of wearing a </span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">on the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
             <span class="text-white">.</span>
 
         </div>
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span>braces</span>
-            <span>bread</span>
-            <span>prawns</span>
-            <span>press</span>
+            <span>draw</span>
+            <span>dress</span>
+            <span>green</span>
+            <span>grow</span>
         </div>
     </div>
 
     {{-- Panel 6 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[2.5vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prawns.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/green.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/making-prawn.png') }}" class="w-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b2.png') }}" class="w-[15vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr2.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}"
                 class="h-[4vw] absolute top-[-3vw]! right-[8%]" />
 
             {{-- amswer --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[50%] text-[#f7b94a] text-[2vw]">prawns</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[23%] text-[#f7b94a] text-[2vw]">green</span>
 
-            <span class="text-white">The boy pastes the</span>
+            <span class="text-white">The dragon dreams of wearing a </span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">on the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
             <span class="text-white">.</span>
 
@@ -195,34 +196,33 @@
 
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span>braces</span>
-            <span>bread</span>
-            <span class="opacity-0">prawns</span>
-            <span>press</span>
+            <span>draw</span>
+            <span>dress</span>
+            <span class="opacity-0">green</span>
+            <span>grow</span>
         </div>
     </div>
 
     {{-- Panel 7 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/bread.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/dress.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/making-prawn.png') }}" class="w-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b2.png') }}" class="w-[15vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr2.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             {{-- amswer --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[50%] text-[#f7b94a] text-[2vw]">prawns</span>
-            <span class="h-[4vw] absolute top-[-2vw]! right-[7%] text-[#f7b94a] text-[2vw]">bread</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[23%] text-[#f7b94a] text-[2vw]">green</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[7%] text-[#f7b94a] text-[2vw]">dress</span>
 
-            <span class="text-white">The boy pastes the</span>
+            <span class="text-white">The dragon dreams of wearing a </span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">on the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
             <span class="text-white">.</span>
 
@@ -230,10 +230,10 @@
 
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span>braces</span>
-            <span class="opacity-0">bread</span>
-            <span class="opacity-0">prawns</span>
-            <span>press</span>
+            <span>draw</span>
+            <span class="opacity-0">dress</span>
+            <span class="opacity-0">green</span>
+            <span>grow</span>
         </div>
     </div>
 
@@ -244,45 +244,45 @@
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/brush-present.png') }}" class="w-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b3.png') }}" class="h-[13vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr3.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr3.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}"
-                class="h-[4vw] absolute top-[-3vw]! left-[41%]" />
+                class="h-[4vw] absolute top-[-3vw]! left-[50%]" />
 
-            <span class="text-white">The green</span>
+            <span class="text-white">The girl rolls the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">is on the</span>
+            <span class="text-white">on the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
             <span class="text-white">.</span>
         </div>
 
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span>present</span>
-            <span>bread</span>
-            <span>pram</span>
-            <span>brush</span>
+            <span>grass</span>
+            <span>grapes</span>
+            <span>drag</span>
+            <span>drum</span>
         </div>
-    </div>`
+    </div>
 
 
     {{-- Panel 9 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-between items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clam.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/drum.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/brush-present.png') }}" class="w-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b3.png') }}" class="h-[13vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr3.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr3.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -290,56 +290,56 @@
                 class="h-[4vw] absolute top-[-3vw]! right-[10%]" />
 
             {{-- answer --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[38%]! text-[#f7b94a] text-[2vw]">brush</span>
+            <span class="h-[4vw] absolute top-[-2vw]! left-[47%]! text-[#f7b94a] text-[2vw]">drum</span>
 
-            <span class="text-white">The green</span>
+            <span class="text-white">The girl rolls the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">is on the</span>
+            <span class="text-white">on the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
             <span class="text-white">.</span>
         </div>
 
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span>present</span>
-            <span>bread</span>
-            <span>pram</span>
-            <span class="opacity-0">brush</span>
+            <span>grass</span>
+            <span>grapes</span>
+            <span>drag</span>
+            <span class="opacity-0">drum</span>
         </div>
     </div>
 
     {{-- Panel 10 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-between items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/grass.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/brpr/brush-present.png') }}" class="w-[15vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/drgr/b3.png') }}" class="h-[13vw]" />
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/fb-brpr3.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/fb-drgr3.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             {{-- answer --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[38%] text-[#f7b94a] text-[2vw]">brush</span>
-            <span class="h-[4vw] absolute top-[-2vw]! right-[5%] text-[#f7b94a] text-[2vw]">present</span>
+            <span class="h-[4vw] absolute top-[-2vw]! left-[47%] text-[#f7b94a] text-[2vw]">drum</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[5%] text-[#f7b94a] text-[2vw]">grass</span>
 
 
-            <span class="text-white">The green</span>
+            <span class="text-white">The girl rolls the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span class="text-white">is on the</span>
+            <span class="text-white">on the</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
             <span class="text-white">.</span>
         </div>
 
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
-            <span class="opacity-0">present</span>
-            <span>bread</span>
-            <span>pram</span>
-            <span class="opacity-0">brush</span>
+            <span class="opacity-0">grass</span>
+            <span>grapes</span>
+            <span>drag</span>
+            <span class="opacity-0">drum</span>
         </div>
     </div>
 
@@ -391,8 +391,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/br_pr/brpr') }}";
-            const doneURL = "{{ url('/phonics_l2/br_pr/brpr') }}";
+            const returnURL = "{{ url('/phonics_l2/dr_gr/drgr') }}";
+            const doneURL = "{{ url('/phonics_l2/dr_gr/drgr') }}";
             const AUTO_PLAY_DELAY = 500;
 
             let currentSlide = 0;

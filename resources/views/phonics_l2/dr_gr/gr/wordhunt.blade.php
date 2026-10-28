@@ -11,7 +11,7 @@
         [
             'image' => 'assets/images/phonics_l2/drgr/grapes.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grapes.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grape.mp3',
             'correct' => 'grapes',
             'wrong' => 'anpes',
             'correctSide' => 'right',
@@ -19,7 +19,7 @@
         [
             'image' => 'assets/images/phonics_l2/drgr/green.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/dr_gr/green.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/dr_gr/green.mp3',
             'correct' => 'green',
             'wrong' => 'queen',
             'correctSide' => 'left',
@@ -27,7 +27,7 @@
         [
             'image' => 'assets/images/phonics_l2/drgr/grey.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grey.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grey.mp3',
             'correct' => 'grey',
             'wrong' => 'prey',
             'correctSide' => 'right',
@@ -35,7 +35,7 @@
         [
             'image' => 'assets/images/phonics_l2/drgr/grass.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grass.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grass.mp3',
             'correct' => 'grass',
             'wrong' => 'pass',
             'correctSide' => 'left',
@@ -43,7 +43,7 @@
         [
             'image' => 'assets/images/phonics_l2/drgr/grumpy.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grumpy.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grumpy.mp3',
             'correct' => 'grumpy',
             'wrong' => 'jumpy',
             'correctSide' => 'left',
@@ -51,7 +51,7 @@
         [
             'image' => 'assets/images/phonics_l2/drgr/grind.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grind.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/dr_gr/grind.mp3',
             'correct' => 'grind',
             'wrong' => 'find',
             'correctSide' => 'right',
@@ -74,7 +74,7 @@
         }
 
         .options {
-            width: 12vw;
+            width: 13.5vw;
             height: 6vw;
             font-size: 4vw;
             line-height: 100%;
@@ -112,7 +112,7 @@
 
         {{-- Question Panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

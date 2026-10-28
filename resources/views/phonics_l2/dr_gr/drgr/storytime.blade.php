@@ -45,37 +45,37 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st1.mp3',
                 'image' => 'assets/images/phonics_l2/drgr/st1.png',
                 'text' => 'Dragon and Grasshopper',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st2.mp3',
                 'image' => 'assets/images/phonics_l2/drgr/st1.png',
                 'text' => 'Dragon and Grasshopper are best friends.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st3.mp3',
                 'image' => 'assets/images/phonics_l2/drgr/st2.png',
                 'text' => 'They love driving fast around bends.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st4.mp3',
                 'image' => 'assets/images/phonics_l2/drgr/st3.png',
                 'text' => 'Grasshopper enjoys drawing on the sand.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st5.mp3',
                 'image' => 'assets/images/phonics_l2/drgr/st4.png',
                 'text' => 'While Dragon plays the drum with his band.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st6.mp3',
                 'image' => 'assets/images/phonics_l2/drgr/st5.png',
                 'text' => 'They also like growing green grapes.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st7.mp3',
                 'image' => 'assets/images/phonics_l2/drgr/st6.png',
                 'text' => 'And dreaming of feeding the drooling apes.',
             ],
@@ -83,27 +83,27 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq1.mp3',
                 'question' => "What do Dragon\nand Grasshopper\nlove to do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq2.mp3',
                 'question' => "What does\nGrasshopper enjoy\ndoing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq3.mp3',
                 'question' => "Who plays\nthe drum?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq4.mp3',
                 'question' => "What do Dragon\nand Grasshopper\ndream of?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq5.mp3',
                 'question' => "What do you\ndream about?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -180,7 +180,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
@@ -229,7 +229,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
@@ -282,7 +282,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st6.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st6.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
@@ -341,7 +341,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st7.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st7.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img

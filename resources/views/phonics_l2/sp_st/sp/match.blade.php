@@ -364,6 +364,7 @@
                 stopAudio();
                 window.location.href = document.body.dataset.homeRoute;
             });
+
             doneButtons.forEach(b => b.addEventListener('click', () => {
                 if (infoMode) {
                     infoMode = false;
