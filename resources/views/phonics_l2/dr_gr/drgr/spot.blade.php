@@ -62,8 +62,9 @@
             'titleAudio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3',
             'ratPosition' => 'top-[35%] right-[12%]',
             'ratAnswerPos' => 'bottom-[15%] right-[12%]',
-            'ratImage' => 'rat.png', // ← rat shown on the QUESTION slide
-            'ratAnswerImage' => 'trat.png', // ← rat shown on the ANSWER slide
+            'ratImage' => 'rat.png',
+            'ratAnswerImage' => 'trat.png',
+            'ratAnswerSize' => 'w-[17vw]',
             'circles' => [
                 ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3', 'correct' => true],
                 ['label' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slah.mp3', 'correct' => false],
@@ -195,7 +196,7 @@
                 <img src="{{ asset('assets/images/phonics_l2/global/common/ratbg.png') }}" class="h-[33vw] w-[74vw]" />
                 {{-- Uses ratAnswerImage if provided, otherwise falls back to ratImage --}}
                 <img src="{{ asset('assets/images/phonics_l2/global/common/' . $ratAnswerImage) }}"
-                    class="w-[9vw] absolute {{ $q['ratAnswerPos'] }}" />
+                    class="{{ $q['ratAnswerSize'] ?? 'w-[9vw]' }} absolute {{ $q['ratAnswerPos'] }}" />
                 <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                     @foreach ($q['circles'] as $c)
                         <div class="circle {{ $c['correct'] ? 'marked' : '' }}">

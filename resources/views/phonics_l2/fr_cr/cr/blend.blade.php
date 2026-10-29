@@ -4,100 +4,99 @@
 @php
     $showBackground = true;
 
-   
     $blend = 'cr';
 
-    $blendSound1 = 'assets/audio/phonics_audio-2/fr_cr/cr.m4a'; // letter sound
-    $blendSound2 = 'assets/audio/phonics_audio-2/fr_cr/crah.m4a'; // syllable sound
+    $blendSound1 = 'assets/audio/phonics_audio-2/fr_cr/cr.mp3'; // letter sound
+    $blendSound2 = 'assets/audio/phonics_audio-2/fr_cr/crah.mp3'; // syllable sound
 
-    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/bl1.m4a';
+    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/bl1.mp3';
 
     $wordCards = [
         [
             'image' => 'assets/images/phonics_l2/frcr/crab.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'crab',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ab.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ab.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/crane.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'crane',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ane.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ane.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/cricket.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cricket',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-icket.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-icket.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/crow.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'crow',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ow.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ow.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/crawl.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'crawl',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-awl.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-awl.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/crown.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'crown',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-own.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-own.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/crack.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'crack',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ack.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ack.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/crescent.png',
             'imageSize' => 'h-[25vw]',
             'word' => 'crescent',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-escent.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-escent.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/crayon.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'crayon',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ayon.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-ayon.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/cradle.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'cradle',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-adle.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-adle.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/cry.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cry',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-y.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-y.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/frcr/cross.png',
             'imageSize' => 'h-[25vw]',
             'word' => 'cross',
-            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-oss.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/fr_cr/cr-oss.mp3',
         ],
     ];
 
     $spotWords = [
         // Row 1 (2 words)
-        ['word' => 'fry', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/fr_cy/fry.m4a'],
-        ['word' => 'cry', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/cry.m4a'],
+        ['word' => 'fry', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/fry.mp3'],
+        ['word' => 'cry', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/cry.mp3'],
         // Row 2 (3 words)
-        ['word' => 'crane', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crane.m4a'],
-        ['word' => 'cross', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/cross.m4a'],
-        ['word' => 'cloud', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/cl_sl/cloud.m4a'],
+        ['word' => 'crane', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crane.mp3'],
+        ['word' => 'cross', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/cross.mp3'],
+        ['word' => 'cloud', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/cl_sl/cloud.mp3'],
         // Row 3 (2 words)
-        ['word' => 'climb', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/cl_sl/climb.m4a'],
-        ['word' => 'crab', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crab.m4a'],
+        ['word' => 'climb', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/cl_sl/climb.mp3'],
+        ['word' => 'crab', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crab.mp3'],
     ];
 
     $blendWordsCount = count(array_filter($spotWords, fn($w) => $w['blend']));
@@ -174,7 +173,7 @@
     {{-- PANELS 2–4 — Mascot intro questions --}}
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[20vw]" />
@@ -185,7 +184,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -203,7 +202,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -260,7 +259,7 @@
 
 
     {{-- SPOT THE WORD — transition panel --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr4.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/cr4.mp3') }}">
         <div class="flex justify-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
             <div class="relative w-fit h-fit">
@@ -275,10 +274,6 @@
             then encourage children to sound out the words by parts.</p>
     </div>
 
-
-    {{-- SPOT THE WORD GRID                                             --}}
-    {{-- Step -1 = question (no highlights)                            --}}
-    {{-- Step 0..N-1 = reveal one blend word at a time                 --}}
 
     @php
         function spotCard(array $w, bool $revealed, string $blend): string
@@ -312,6 +307,13 @@
         @php $blendSeen = 0; @endphp
 
         <div class="phonics-panel flex flex-col items-center w-full">
+            <div class="top-title stroke flex items-center">
+                Find the words that begin with
+                <button class="w-[3vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/crah.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </div>
 
             {{-- Row 1: words 0–1 --}}
             <div class="flex justify-between w-[100%] px-10">
@@ -358,7 +360,8 @@
 
     {{-- NAVIGATION BUTTONS --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
-        <button id="returnButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" /></button>
+        <button id="returnButton"><img
+                src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" /></button>
         <button id="homeButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" /></button>
         <button id="closeButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" /></button>
     </div>

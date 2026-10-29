@@ -67,7 +67,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-eeze.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-eeze.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/frcr/freeze.png') }}" class="h-[20vw]" />
@@ -84,7 +84,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-own.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-own.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/frcr/frown.png') }}" class="h-[20vw]" />
@@ -102,7 +102,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-y.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-y.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/frcr/fry.png') }}" class="w-[20vw]" />
@@ -120,7 +120,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-og.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fr-og.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/frcr/frog.png') }}" class="w-[20vw]" />

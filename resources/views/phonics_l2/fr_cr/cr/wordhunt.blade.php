@@ -11,7 +11,7 @@
         [
             'image' => 'assets/images/phonics_l2/frcr/crown.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crown.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crown.mp3',
             'correct' => 'crown',
             'wrong' => 'frown',
             'correctSide' => 'right',
@@ -19,7 +19,7 @@
         [
             'image' => 'assets/images/phonics_l2/frcr/crow.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crow.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crow.mp3',
             'correct' => 'crow',
             'wrong' => 'blow',
             'correctSide' => 'left',
@@ -27,7 +27,7 @@
         [
             'image' => 'assets/images/phonics_l2/frcr/cry.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/fr_cr/cry.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/fr_cr/cry.mp3',
             'correct' => 'cry',
             'wrong' => 'fry',
             'correctSide' => 'right',
@@ -35,7 +35,7 @@
         [
             'image' => 'assets/images/phonics_l2/frcr/crawl.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crawl.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crawl.mp3',
             'correct' => 'crawl',
             'wrong' => 'shawl',
             'correctSide' => 'left',
@@ -43,7 +43,7 @@
         [
             'image' => 'assets/images/phonics_l2/frcr/crack.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crack.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crack.mp3',
             'correct' => 'crack',
             'wrong' => 'sack',
             'correctSide' => 'left',
@@ -51,7 +51,7 @@
         [
             'image' => 'assets/images/phonics_l2/frcr/crab.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crab.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/fr_cr/crab.mp3',
             'correct' => 'crab',
             'wrong' => 'slab',
             'correctSide' => 'right',
@@ -112,7 +112,7 @@
 
         {{-- Question Panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

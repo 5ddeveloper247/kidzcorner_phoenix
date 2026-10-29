@@ -64,7 +64,8 @@
             'ratPosition' => 'top-[35%] right-[12%]',
             'ratAnswerPos' => 'bottom-[15%] right-[12%]',
             'ratImage' => 'rat.png', 
-            'ratAnswerImage' => 'trat.png', 
+            'ratAnswerImage' => 'trat.png',
+            'ratAnswerSize' => 'w-[17vw]', 
             'circles' => [
                 ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.m4a', 'correct' => true],
                 ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', 'correct' => false],
@@ -196,7 +197,7 @@
                 <img src="{{ asset('assets/images/phonics_l2/global/common/ratbg.png') }}" class="h-[33vw] w-[74vw]" />
                 {{-- Uses ratAnswerImage if provided, otherwise falls back to ratImage --}}
                 <img src="{{ asset('assets/images/phonics_l2/global/common/' . $ratAnswerImage) }}"
-                    class="w-[9vw] absolute {{ $q['ratAnswerPos'] }}" />
+    class="{{ $q['ratAnswerSize'] ?? 'w-[9vw]' }} absolute {{ $q['ratAnswerPos'] }}" />
                 <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                     @foreach ($q['circles'] as $c)
                         <div class="circle {{ $c['correct'] ? 'marked' : '' }}">

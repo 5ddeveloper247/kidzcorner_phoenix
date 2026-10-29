@@ -4,72 +4,72 @@
 @php
     $showBackground = true;
 
-
     $questions = [
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-crah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-crah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3',
             'ratPosition' => 'top-[35%] left-[8%]',
             'ratAnswerPos' => 'bottom-[16%] left-[12%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a', 'correct' => true],
-                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.m4a', 'correct' => false],
-                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/blah.mp3', 'correct' => false],
-                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.m4a', 'correct' => false],
+                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3', 'correct' => true],
+                ['label' => 'dr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/drah.mp3', 'correct' => false],
+                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3', 'correct' => false],
+                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.mp3', 'correct' => false],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-frah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/frah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-frah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/frah.mp3',
             'ratPosition' => 'bottom-[16%] left-[12%]',
             'ratAnswerPos' => 'top-[35%] left-[40%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_cl/flah.m4a', 'correct' => false],
-                ['label' => 'cl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/clah.m4a', 'correct' => false],
-                ['label' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.m4a', 'correct' => true],
-                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a', 'correct' => false],
+                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_gl/flah.mp3', 'correct' => false],
+                ['label' => 'cl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/clah.mp3', 'correct' => false],
+                ['label' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.mp3', 'correct' => true],
+                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3', 'correct' => false],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-crah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-crah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3',
             'ratPosition' => 'top-[35%] left-[40%]',
             'ratAnswerPos' => 'bottom-[15%] left-[45%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.m4a', 'correct' => false],
-                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a', 'correct' => true],
+                ['label' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.mp3', 'correct' => false],
+                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3', 'correct' => true],
                 ['label' => 'bl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/blah.mp3', 'correct' => false],
-                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.m4a', 'correct' => false],
+                ['label' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3', 'correct' => false],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-crah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-crah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3',
             'ratPosition' => 'bottom-[15%] left-[45%]',
             'ratAnswerPos' => 'top-[35%] right-[12%]',
             'ratImage' => 'rat.png',
             'circles' => [
-                ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', 'correct' => false],
-                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_cl/flah.m4a', 'correct' => false],
-                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.m4a', 'correct' => false],
-                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a', 'correct' => true],
+                ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.mp3', 'correct' => false],
+                ['label' => 'fl', 'audio' => 'assets/audio/phonics_audio-2/fl_gl/flah.mp3', 'correct' => false],
+                ['label' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.mp3', 'correct' => false],
+                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3', 'correct' => true],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-frah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/frah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/fr_cr/spot-frah.mp3',
+            'titleAudio' => 'assets/audio/phonics_audio-2/fr_cr/frah.mp3',
             'ratPosition' => 'top-[35%] right-[12%]',
             'ratAnswerPos' => 'bottom-[15%] right-[12%]',
-            'ratImage' => 'rat.png', 
-            'ratAnswerImage' => 'trat.png', 
+            'ratImage' => 'rat.png',
+            'ratAnswerImage' => 'trat.png',
+            'ratAnswerSize' => 'w-[17vw]',
             'circles' => [
-                ['label' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.m4a', 'correct' => true],
-                ['label' => 'cl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/clah.m4a', 'correct' => false],
-                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a', 'correct' => false],
-                ['label' => 'gl', 'audio' => 'assets/audio/phonics_audio-2/fl_gl/glah.m4a', 'correct' => false],
+                ['label' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.mp3', 'correct' => true],
+                ['label' => 'cl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/clah.mp3', 'correct' => false],
+                ['label' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3', 'correct' => false],
+                ['label' => 'gl', 'audio' => 'assets/audio/phonics_audio-2/fl_gl/glah.mp3', 'correct' => false],
             ],
         ],
     ];
@@ -196,7 +196,7 @@
                 <img src="{{ asset('assets/images/phonics_l2/global/common/ratbg.png') }}" class="h-[33vw] w-[74vw]" />
                 {{-- Uses ratAnswerImage if provided, otherwise falls back to ratImage --}}
                 <img src="{{ asset('assets/images/phonics_l2/global/common/' . $ratAnswerImage) }}"
-                    class="w-[9vw] absolute {{ $q['ratAnswerPos'] }}" />
+                    class="{{ $q['ratAnswerSize'] ?? 'w-[9vw]' }} absolute {{ $q['ratAnswerPos'] }}" />
                 <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                     @foreach ($q['circles'] as $c)
                         <div class="circle {{ $c['correct'] ? 'marked' : '' }}">
@@ -214,17 +214,26 @@
 
     {{-- Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
-        <button id="returnButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" /></button>
-        <button id="homeButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" /></button>
-        <button id="closeButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" /></button>
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </button>
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
     </div>
 
     <div class="down-btn-container">
-        <button class="nextButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" /></button>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+        </button>
     </div>
     <div class="down-btn-container">
-        <button class="doneButton hidden"><img
-                src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" /></button>
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+        </button>
     </div>
 
 @endsection

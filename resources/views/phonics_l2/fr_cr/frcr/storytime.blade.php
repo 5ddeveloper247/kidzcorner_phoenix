@@ -45,42 +45,42 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st1.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st1.png',
                 'text' => 'Frog and Crab',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st2.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st2.png',
                 'text' => 'Frog and Crab lived under a bridge.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st3.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st3.png',
                 'text' => 'They liked keeping fruits in their fridge.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st4.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st4.png',
                 'text' => 'One day, Frog found Crab with a frown on his face.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st5.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st5.png',
                 'text' => 'Crab cried and said, “”I’ve lost my crate!””',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st6.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st6.png',
                 'text' => 'The crate was filled with cranberries and plates.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st7.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st7.png',
                 'text' => 'He said that he was crawling with Cricket on the beach,',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/st8.mp3',
                 'image' => 'assets/images/phonics_l2/frcr/st8.png',
                 'text' => 'When a wave came and swept his crate out of reach.',
             ],
@@ -88,27 +88,27 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq1.mp3',
                 'question' => "Where do Frog\nand Crab live?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq2.mp3',
                 'question' => "What do they\nlike to keep\nin their\nfridge?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq3.mp3',
                 'question' => "why did Crab have\na frown\n on his face?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq4.mp3',
                 'question' => "What was\n in his crate?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/stq5.mp3',
                 'question' => "What happened\nto the crate?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -138,7 +138,7 @@
     @foreach ($storySlides as $slide)
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
-            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'Dragon and Grasshopper' : '' }}
+            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'Frog and Crab' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'w-[25vw]' : 'h-[25vw]' }}" />
             @if (!$loop->first)
@@ -185,7 +185,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -241,7 +241,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -292,7 +292,8 @@
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question done"><span class="absolute left-0 pl-5">1</span> Frog and Crab lived under a bridge.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> They liked keeping fruits in their fridge.
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> They liked keeping fruits in their
+                fridge.
             </div>
             <div class="question">He said that he was crawling with Cricket on the beach,</div>
             <div class="question">When a wave come and swept his crate out of reach.</div>
@@ -300,7 +301,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st7.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st7.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -319,7 +320,8 @@
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question">Frog and Crab lived under a bridge.</div>
             <div class="question">They liked keeping fruits in their fridge.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">He said that he was crawling with Cricket on the beach,</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">He said that he was crawling with Cricket on the beach,
+            </div>
             <div class="question">When a wave come and swept his crate out of reach.</div>
         </div>
     </div>
@@ -354,16 +356,18 @@
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question done"><span class="absolute left-0 pl-5">1</span> Frog and Crab lived under a bridge.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> They liked keeping fruits in their fridge.
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> They liked keeping fruits in their
+                fridge.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> He said that he was crawling with Cricket on the beach,
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> He said that he was crawling with
+                Cricket on the beach,
             </div>
             <div class="question">When a wave come and swept his crate out of reach.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st8.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/st8.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -420,11 +424,14 @@
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question done"><span class="absolute left-0 pl-5">1</span> Frog and Crab lived under a bridge.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> They liked keeping fruits in their fridge.
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> They liked keeping fruits in their
+                fridge.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> He said that he was crawling with Cricket on the beach,
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> He said that he was crawling with
+                Cricket on the beach,
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> When a wave come and swept his crate out of reach.
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> When a wave come and swept his crate
+                out of reach.
             </div>
         </div>
     </div>

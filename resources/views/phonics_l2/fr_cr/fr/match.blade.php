@@ -4,66 +4,58 @@
 @php
     $showBackground = true;
     $refImage = 'assets/images/phonics_l2/frcr/fry.png';
-    $refAudio = 'assets/audio/phonics_audio-2/fr_cr/fry.m4a';
+    $refAudio = 'assets/audio/phonics_audio-2/fr_cr/fry.mp3';
 
-    $questionAudio = 'assets/audio/phonics_audio-2/br_pr/match-br.m4a';
+    $questionAudio = 'assets/audio/phonics_audio-2/fr_cr/match-fr.mp3';
 
+    // Picture sizes are no longer set per image: every picture sits in the same
+    // fixed-size box (.pic-wrap) so pictures and sound buttons line up.
     $questions = [
         [
             'correctSide' => 'left',
             'correct' => 'assets/images/phonics_l2/frcr/frame.png',
-            'correctSize' => 'h-[17vw]',
-            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/frame.m4a',
+            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/frame.mp3',
             'correctWord' => 'frame',
-            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/frame.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/frame.mp3',
             'wrong' => 'assets/images/phonics_l2/drgr/drink.png',
-            'wrongSize' => 'h-[20vw]',
-            'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drink.m4a',
+            'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drink.mp3',
         ],
         [
             'correctSide' => 'left',
             'correct' => 'assets/images/phonics_l2/frcr/fridge.png',
-            'correctSize' => 'h-[20vw]',
-            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/fridge.m4a',
+            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/fridge.mp3',
             'correctWord' => 'fridge',
-            'answerAudio' => 'assets/audio/phonics_audio-2/dr_gr/fridge.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/fridge.mp3', // was dr_gr/fridge.mp3
             'wrong' => 'assets/images/phonics_l2/drgr/drive.png',
-            'wrongSize' => 'w-[20vw]',
-            'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drive.m4a',
+            'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drive.mp3',
             'wrongClass' => 'rounded-2xl',
         ],
         [
             'correctSide' => 'right',
             'correct' => 'assets/images/phonics_l2/frcr/frighten.png',
-            'correctSize' => 'h-[17vw]',
-            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/frighten.m4a',
+            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/frighten.mp3',
             'correctWord' => 'frighten',
-            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/frighten.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/frighten.mp3',
             'wrong' => 'assets/images/phonics_l2/drgr/drop.png',
-            'wrongSize' => 'h-[17vw]',
-            'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drop.m4a',
+            'wrongAudio' => 'assets/audio/phonics_audio-2/cl_sl/slip.mp3',
         ],
         [
             'correctSide' => 'left',
             'correct' => 'assets/images/phonics_l2/frcr/frog.png',
-            'correctSize' => 'w-[20vw]',
-            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/frog.m4a',
+            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/frog.mp3',
             'correctWord' => 'frog',
-            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/frog.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/frog.mp3',
             'wrong' => 'assets/images/phonics_l2/drgr/drip.png',
-            'wrongSize' => 'w-[20vw]',
             'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drip.m4a',
         ],
         [
             'correctSide' => 'right',
-            'correct' => 'assets/images/phonics_l2/drgr/drum.png',
-            'correctSize' => 'w-[20vw]',
-            'correctAudio' => 'assets/audio/phonics_audio-2/dr_gr/drum.m4a',
-            'correctWord' => 'drum',
-            'answerAudio' => 'assets/audio/phonics_audio-2/br_pr/brush.m4a',
-            'wrong' => 'assets/images/phonics_l2/blpl/17.png',
-            'wrongSize' => 'w-[20vw]',
-            'wrongAudio' => 'assets/audio/phonics_audio-2/bl_pl/blocks.m4a',
+            'correct' => 'assets/images/phonics_l2/frcr/frown.png',
+            'correctAudio' => 'assets/audio/phonics_audio-2/fr_cr/frown.mp3',
+            'correctWord' => 'frown',
+            'answerAudio' => 'assets/audio/phonics_audio-2/fr_cr/frown.mp3',
+            'wrong' => 'assets/images/phonics_l2/drgr/drool.png',
+            'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/dr-ool.mp3',
         ],
     ];
     // ============================================================
@@ -90,16 +82,44 @@
             position: absolute;
             top: 4%;
         }
-.panel-ul {
-            color: white;
-            font-size: 1.1vw;
-            padding-left: 3vw;
-        }
 
         .panel-ul {
             color: white;
             font-size: 1.1vw;
             padding-left: 3vw;
+        }
+
+        /* ── Aligned picture row ──
+               Every picture sits in the same fixed-size box, so pictures share one
+               line and the sound buttons below them share one line too. */
+        .pic-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 12vw;
+        }
+
+        .pic-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5vw;
+        }
+
+        .pic-wrap {
+            width: 22vw;
+            height: 19vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pic-wrap img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
         }
     </style>
 @endpush
@@ -143,20 +163,41 @@
 
 
     {{-- ══════════════════════════════════════════════════════ --}}
-    {{-- QUESTION + ANSWER pairs — auto-generated             --}}
+    {{-- QUESTION + ANSWER pairs         --}}
     {{-- ══════════════════════════════════════════════════════ --}}
     @foreach ($questions as $q)
         {{-- Resolve left/right sides --}}
         @php
-            $leftImage = $q['correctSide'] === 'left' ? $q['correct'] : $q['wrong'];
-            $leftSize = $q['correctSide'] === 'left' ? $q['correctSize'] : $q['wrongSize'];
-            $leftAudio = $q['correctSide'] === 'left' ? $q['correctAudio'] : $q['wrongAudio'];
-            $leftClass = $q['correctSide'] === 'left' ? $q['correctClass'] ?? '' : $q['wrongClass'] ?? '';
-
-            $rightImage = $q['correctSide'] === 'right' ? $q['correct'] : $q['wrong'];
-            $rightSize = $q['correctSide'] === 'right' ? $q['correctSize'] : $q['wrongSize'];
-            $rightAudio = $q['correctSide'] === 'right' ? $q['correctAudio'] : $q['wrongAudio'];
-            $rightClass = $q['correctSide'] === 'right' ? $q['correctClass'] ?? '' : $q['wrongClass'] ?? '';
+            $sides =
+                $q['correctSide'] === 'left'
+                    ? [
+                        [
+                            'image' => $q['correct'],
+                            'audio' => $q['correctAudio'],
+                            'class' => $q['correctClass'] ?? '',
+                            'isCorrect' => true,
+                        ],
+                        [
+                            'image' => $q['wrong'],
+                            'audio' => $q['wrongAudio'],
+                            'class' => $q['wrongClass'] ?? '',
+                            'isCorrect' => false,
+                        ],
+                    ]
+                    : [
+                        [
+                            'image' => $q['wrong'],
+                            'audio' => $q['wrongAudio'],
+                            'class' => $q['wrongClass'] ?? '',
+                            'isCorrect' => false,
+                        ],
+                        [
+                            'image' => $q['correct'],
+                            'audio' => $q['correctAudio'],
+                            'class' => $q['correctClass'] ?? '',
+                            'isCorrect' => true,
+                        ],
+                    ];
         @endphp
 
         {{-- Question slide --}}
@@ -172,27 +213,25 @@
                 </button>
             </div>
 
-            {{-- Two choices --}}
-            <div class="flex items-center justify-between w-[50vw] mt-[3vw]">
-                <div>
-                    <img src="{{ asset($leftImage) }}" class="{{ $leftSize }} {{ $leftClass }}" />
-                    <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset($leftAudio) }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </div>
-                <div>
-                    <img src="{{ asset($rightImage) }}" class="{{ $rightSize }} {{ $rightClass }}" />
-                    <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset($rightAudio) }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </div>
+            {{-- Two choices: pictures and sound buttons each share one line --}}
+            <div class="pic-row mt-[3vw]">
+                @foreach ($sides as $s)
+                    <div class="pic-item">
+                        <div class="pic-wrap">
+                            <img src="{{ asset($s['image']) }}" class="{{ $s['class'] }}" />
+                        </div>
+                        <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset($s['audio']) }}">
+                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                        </button>
+                    </div>
+                @endforeach
             </div>
 
             <p class="p-note">Tips: Encourage children to listen and identify the initial blend sound.</p>
         </div>
 
-        {{-- Answer slide --}}
-        <div class="phonics-panel flex flex-col justify-center items-center"
+        {{-- Answer slide (cheering plays after the answer sound) --}}
+        <div class="phonics-panel answer flex flex-col justify-center gap-[2vw] items-center"
             data-slide-audio="{{ asset($q['answerAudio']) }}">
 
             {{-- Header: title + reference image + sound button --}}
@@ -204,34 +243,25 @@
                 </button>
             </div>
 
-            {{-- Correct image gets tick + word label; wrong image stays plain --}}
-            <div class="flex items-center justify-between w-[40vw]">
-
-                @if ($q['correctSide'] === 'left')
-                    {{-- Correct on LEFT --}}
-                    <div class="flex flex-col items-center mt-[5vw]">
-                        <img src="{{ asset($q['correct']) }}"
-                            class="{{ $q['correctSize'] }} {{ $q['correctClass'] ?? '' }}" />
-                        <div class="flex items-center">
-                            <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[3vw]" />
-                            <h2 class="text-[2vw] text-white">{{ $q['correctWord'] }}</h2>
+            {{-- Same layout as the question slide; correct picture gets tick + word --}}
+            <div class="pic-row mt-[3vw]">
+                @foreach ($sides as $s)
+                    <div class="pic-item">
+                        <div class="pic-wrap">
+                            <img src="{{ asset($s['image']) }}" class="{{ $s['class'] }}" />
                         </div>
+                        @if ($s['isCorrect'])
+                            <div class="flex items-center">
+                                <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[3vw]" />
+                                <h2 class="text-[2vw] text-white">{{ $q['correctWord'] }}</h2>
+                            </div>
+                        @endif
                     </div>
-                    <img src="{{ asset($q['wrong']) }}" class="{{ $q['wrongSize'] }} {{ $q['wrongClass'] ?? '' }}" />
-                @else
-                    {{-- Correct on RIGHT --}}
-                    <img src="{{ asset($q['wrong']) }}" class="{{ $q['wrongSize'] }} {{ $q['wrongClass'] ?? '' }}" />
-                    <div class="flex flex-col items-center">
-                        <img src="{{ asset($q['correct']) }}"
-                            class="{{ $q['correctSize'] }} {{ $q['correctClass'] ?? '' }} mb-0" />
-                        <div class="flex items-center">
-                            <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[3vw]" />
-                            <h2 class="text-[2vw] text-white">{{ $q['correctWord'] }}</h2>
-                        </div>
-                    </div>
-                @endif
-
+                @endforeach
             </div>
+
+            {{-- Invisible copy of the tip so pictures stay in the same place as on the question slide --}}
+            <p class="p-note invisible">Tips: Encourage children to listen and identify the initial blend sound.</p>
         </div>
     @endforeach
 
@@ -259,6 +289,7 @@
 
         const returnURL = "{{ url('/phonics_l2/fr_cr/fr') }}";
         const doneURL = "{{ url('/phonics_l2/fr_cr/fr') }}";
+        const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
         document.addEventListener("DOMContentLoaded", function() {
 
@@ -276,16 +307,24 @@
             // ── Audio ──────────────────────────────────────────────
             function stopAudio() {
                 if (currentAudio) {
+                    currentAudio.onended = null; // cancels any pending cheering
                     currentAudio.pause();
                     currentAudio = null;
                 }
             }
 
-            function playAudio(src) {
+            function playAudio(src, onEnd) {
                 stopAudio();
                 if (!src) return;
-                currentAudio = new Audio(src);
-                currentAudio.play().catch(() => {});
+                const audio = new Audio(src);
+                currentAudio = audio;
+                if (onEnd) {
+                    audio.onended = () => {
+                        if (currentAudio !== audio) return; // slide changed meanwhile
+                        onEnd();
+                    };
+                }
+                audio.play().catch(() => {});
             }
 
             // ── Helpers ────────────────────────────────────────────
@@ -317,8 +356,12 @@
                 nextButtons.forEach(b => b.classList.toggle('hidden', isLast));
                 doneButtons.forEach(b => b.classList.toggle('hidden', !isLast));
 
-                const src = slides[idx].getAttribute('data-slide-audio');
-                playAudio(src);
+                const slide = slides[idx];
+                const src = slide.getAttribute('data-slide-audio');
+                const isAnswer = slide.classList.contains('answer');
+
+                // Answer slide: answer sound first, then the cheering sound
+                playAudio(src, isAnswer ? () => playAudio(CHEERING_AUDIO) : null);
             }
 
             // ── Navigation ─────────────────────────────────────────
@@ -376,15 +419,15 @@
                 window.location.href = document.body.dataset.homeRoute;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                if (infoMode) {
+                    infoMode = false;
+                    infoClass = null;
+                    showSlide(returnToSlide);
+                } else {
+                    stopAudio();
+                    window.location.href = doneURL;
+                }
+            }));
 
             showSlide(0);
         });
