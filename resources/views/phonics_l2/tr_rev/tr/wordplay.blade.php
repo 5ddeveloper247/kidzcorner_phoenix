@@ -67,7 +67,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-ack.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-acks.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/trev/track.png') }}" class="w-[20vw]" />
@@ -84,7 +84,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-uck.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-uck.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/trev/truck.png') }}" class="w-[20vw]" />
@@ -102,7 +102,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-ain.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-ain.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/trev/train.png') }}" class="w-[20vw]" />
@@ -120,7 +120,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-ay.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr-ay.mp3') }}">
         <div class="flex items-end justify-around w-full ">
             <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/trev/tray.png') }}" class="w-[20vw]" />

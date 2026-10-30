@@ -45,47 +45,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st1.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st1.png',
                 'text' => 'The Prince and his Tree',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st2.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st2.png',
                 'text' => 'The prince loves his tree.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st3.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st3.png',
                 'text' => 'Sitting on its branch makes him feel free.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st4.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st4.png',
                 'text' => 'He dreams of riding on a train with his tree,',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st5.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st5.png',
                 'text' => 'While eating bread and green grapes for tea.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st6.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st6.png',
                 'text' => 'He plays the trumpet while his tree plays the drum.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st7.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st7.png',
                 'text' => 'Being with his friend, there’s no need for mum.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st8.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st8.png',
                 'text' => 'Sorry, it’s time to say goodbye.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/st9.mp3',
                 'image' => 'assets/images/phonics_l2/trev/st9.png',
                 'text' => 'The prince and his tree will then start to cry.',
             ],
@@ -93,22 +93,22 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq1.mp3',
                 'question' => "What instrument\ndies the tree\nplay?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq2.mp3',
                 'question' => "What do\nthey eat?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq3.mp3',
                 'question' => "Why do the prince\nand his tree\ncry?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/tr_rev/stq4.mp3',
                 'question' => "What other things\ncan the prince\ndo with his tree?",
                 'tip' => 'Tip: Elicit response from children.',
             ]
@@ -185,7 +185,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -241,7 +241,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -300,7 +300,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">
@@ -363,7 +363,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]">

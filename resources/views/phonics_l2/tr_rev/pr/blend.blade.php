@@ -85,7 +85,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[25vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw] h-[20vw]" />
@@ -99,7 +99,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[25vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw] h-[23vw]" />
@@ -110,7 +110,7 @@
             </h2>
 
             <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -119,7 +119,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[25vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw] h-[23vw]" />
@@ -148,12 +148,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -169,19 +169,19 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
 
         <div class="flex items-center justify-center new">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-awn.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-awn.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">prawn</h1>
@@ -198,12 +198,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -220,19 +220,19 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-am.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-am.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">pram</h1>
@@ -250,12 +250,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -271,19 +271,19 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ick.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ick.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">prick</h1>
@@ -300,12 +300,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -322,19 +322,19 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ince.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ince.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">prince</h1>
@@ -351,12 +351,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -372,12 +372,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -385,7 +385,7 @@
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ize.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ize.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">prize</h1>
@@ -402,12 +402,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -424,19 +424,19 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-unes.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-unes.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">prunes</h1>
@@ -453,12 +453,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -474,12 +474,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -487,7 +487,7 @@
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-oud.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-oud.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">proud</h1>
@@ -505,12 +505,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -526,12 +526,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -539,7 +539,7 @@
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-y.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-y.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">pry</h1>
@@ -556,12 +556,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -577,12 +577,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -590,7 +590,7 @@
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-esent.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-esent.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">present</h1>
@@ -608,12 +608,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -629,12 +629,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -642,7 +642,7 @@
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ice.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ice.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">price</h1>
@@ -659,12 +659,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -680,12 +680,12 @@
         {{-- sound Button --}}
         <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-10vw] top-[40%]">
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             <button class="w-[5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -693,7 +693,7 @@
 
         <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ess.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr-ess.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <h1 class="h-fit text-white text-[3vw]">press</h1>
@@ -702,7 +702,7 @@
 
 
     {{-- Panel 27 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr4.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr4.mp3') }}">
         <div class="flex justify-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[25vw]" />
             <div class="h-fit w-fit relative">
@@ -717,14 +717,22 @@
     </div>
 
     {{-- Panel 28 --}}
-    <div class="phonics-panel flex flex-col items-center w-full">
+    <div class="phonics-panel flex flex-col items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr5.mp3') }}">
+        <div class="top-title stroke flex items-center">
+            Find the words that begin with
+            <button class="w-[3vw]" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
         <div class="flex justify-between w-[100%] px-10">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     pry </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -733,7 +741,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     press </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -745,7 +753,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     brain </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/brain/brain.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brain.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -754,7 +762,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     brown </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -763,7 +771,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     prick </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -775,7 +783,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     prize </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -785,7 +793,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     clip </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -793,7 +801,15 @@
     </div>
 
     {{-- Panel 29 --}}
-    <div class="phonics-panel flex flex-col items-center w-full">
+    <div class="phonics-panel flex flex-col items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr5.mp3') }}">
+        <div class="top-title stroke flex items-center">
+            Find the words that begin with
+            <button class="w-[3vw]" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
         <div class="flex justify-between w-[100%] px-10">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
@@ -801,7 +817,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>y
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -810,7 +826,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     press </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -822,7 +838,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     brain </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brain.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brain.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -831,7 +847,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     brown </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -840,7 +856,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     prick </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -852,7 +868,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     prize </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -862,7 +878,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     clip </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -870,7 +886,15 @@
     </div>
 
     {{-- Panel 30 --}}
-    <div class="phonics-panel flex flex-col items-center w-full">
+    <div class="phonics-panel flex flex-col items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr5.mp3') }}">
+        <div class="top-title stroke flex items-center">
+            Find the words that begin with
+            <button class="w-[3vw]" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
         <div class="flex justify-between w-[100%] px-10">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
@@ -878,7 +902,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>y
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -888,7 +912,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>ess
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -900,7 +924,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     brain </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/brain/brain.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/brain/brain.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -910,7 +934,7 @@
                     brown
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -919,7 +943,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     prick </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -931,7 +955,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     prize </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -941,7 +965,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     clip </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -949,7 +973,15 @@
     </div>
 
     {{-- Panel 31 --}}
-    <div class="phonics-panel flex flex-col items-center w-full">
+    <div class="phonics-panel flex flex-col items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr5.mp3') }}">
+        <div class="top-title stroke flex items-center">
+            Find the words that begin with
+            <button class="w-[3vw]" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
         <div class="flex justify-between w-[100%] px-10">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
@@ -957,7 +989,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>y
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -967,7 +999,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>ess
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -979,7 +1011,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     brain </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/brain/brain.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/brain/brain.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -989,7 +1021,7 @@
                     brown
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -999,7 +1031,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>ick
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1011,7 +1043,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     prize </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1021,7 +1053,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     clip </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1029,7 +1061,15 @@
     </div>
 
     {{-- Panel 32 --}}
-    <div class="phonics-panel flex flex-col items-center w-full">
+    <div class="phonics-panel flex flex-col items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pr5.mp3') }}">
+        <div class="top-title stroke flex items-center">
+            Find the words that begin with
+            <button class="w-[3vw]" id="soundButton"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prah.mp3') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
         <div class="flex justify-between w-[100%] px-10">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
@@ -1037,7 +1077,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>y
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/pry.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1047,7 +1087,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>ess
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/press.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1059,7 +1099,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     brain </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/brain/brain.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/brain/brain.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1069,7 +1109,7 @@
                     brown
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brown.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1079,7 +1119,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>ick
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prick.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1092,7 +1132,7 @@
                     <span class="text-[#2D9CDB] answer">pr</span>ize
                 </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/prize.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -1102,7 +1142,7 @@
                 <h2 class="absolute top-1/2 left-1/2 -translate-1/2  text-[#A15E0D] text-[2vw] text-center">
                     clip </h2>
                 <button class="absolute bottom-[10%] left-[5%] w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clips.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>

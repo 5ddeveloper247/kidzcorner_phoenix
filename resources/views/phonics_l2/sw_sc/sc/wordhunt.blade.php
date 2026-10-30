@@ -11,7 +11,7 @@
         [
             'image' => 'assets/images/phonics_l2/swsc/scold.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scold.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scold.mp3',
             'correct' => 'scold',
             'wrong' => 'fold',
             'correctSide' => 'right',
@@ -19,7 +19,7 @@
         [
             'image' => 'assets/images/phonics_l2/swsc/scout.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scout.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scout.mp3',
             'correct' => 'scout',
             'wrong' => 'pout',
             'correctSide' => 'left',
@@ -27,7 +27,7 @@
         [
             'image' => 'assets/images/phonics_l2/swsc/scarf.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scarf.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scarf.mp3',
             'correct' => 'scarf',
             'wrong' => 'wharf',
             'correctSide' => 'right',
@@ -35,7 +35,7 @@
         [
             'image' => 'assets/images/phonics_l2/swsc/scar.png',
             'imageSize' => 'h-[18vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scar.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scar.mp3',
             'correct' => 'scar',
             'wrong' => 'car',
             'correctSide' => 'left',
@@ -43,7 +43,7 @@
         [
             'image' => 'assets/images/phonics_l2/swsc/scared.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scared.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scared.mp3',
             'correct' => 'scared',
             'wrong' => 'scare',
             'correctSide' => 'left',
@@ -51,7 +51,7 @@
         [
             'image' => 'assets/images/phonics_l2/swsc/scoop.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scoop.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sw_sc/scoop.mp3',
             'correct' => 'scoop',
             'wrong' => 'coop',
             'correctSide' => 'right',
@@ -73,7 +73,7 @@
         }
 
         .options {
-            width: 12vw;
+            width: 13.5vw;
             height: 6vw;
             font-size: 4vw;
             line-height: 100%;
@@ -111,7 +111,7 @@
 
         {{-- Question Panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

@@ -51,37 +51,37 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st1.mp3',
                 'image' => 'assets/images/phonics_l2/swsc/st1.png',
                 'text' => 'Swans on Scooters',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st2.mp3',
                 'image' => 'assets/images/phonics_l2/swsc/st2.png',
                 'text' => 'Swans should only swim gently on water',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st3.mp3',
                 'image' => 'assets/images/phonics_l2/swsc/st1.png',
                 'text' => 'And ride on scooters with a scarf trailing after.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st4.mp3',
                 'image' => 'assets/images/phonics_l2/swsc/st3.png',
                 'text' => 'Scaring children on their way to school.,',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st5.mp3',
                 'image' => 'assets/images/phonics_l2/swsc/st4.png',
                 'text' => 'Switching lanes and avoiding muddy pools.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st6.mp3',
                 'image' => 'assets/images/phonics_l2/swsc/st5.png',
                 'text' => 'Swaying to miss sweaty scouts sweeping sweeps off the streets',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st7.mp3',
                 'image' => 'assets/images/phonics_l2/swsc/st6.png',
                 'text' => 'I think swans should only swim gently on water.',
             ]
@@ -89,22 +89,22 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq1.mp3',
                 'question' => "What should\nswans do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq2.mp3',
                 'question' => "What were\nthe swans\nwearing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq3.mp3',
                 'question' => "What should\nswans not\ndo?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq4.mp3',
                 'question' => "What would you\ndo if you were\na swan?",
                 'tip' => 'Tip: Elicit response from children.',
             ]
@@ -134,7 +134,7 @@
     @foreach ($storySlides as $slide)
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
-            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'The Prince and his Tree' : '' }}
+            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'Swans on Scooters' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)
@@ -181,7 +181,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -237,7 +237,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -296,7 +296,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -359,7 +359,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

@@ -44,7 +44,7 @@
         <img src="{{ asset('assets/images/phonics_l2/trev/trip-d.png') }}" class="w-[15vw]" />
         <div class="flex items-center gap-1 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev1.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -60,7 +60,7 @@
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0 leading-none">
             <span>trips</span>
-            <span>frown</span>
+            <span>brick</span>
             <span>tray</span>
         </div>
 
@@ -72,7 +72,7 @@
 
     {{-- Panel 3 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/trip.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/trip.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -80,7 +80,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev1.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}"
@@ -99,7 +99,7 @@
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span class="opacity-0">trips</span>
-            <span>frown</span>
+            <span>brick</span>
             <span>tray</span>
         </div>
     </div>
@@ -107,7 +107,7 @@
 
     {{-- Panel 4 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brick.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/brick.mp3') }}">
 
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
@@ -116,12 +116,12 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev1.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev1.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             {{-- answers --}}
             <span class="h-[4vw] absolute top-[-2vw]! left-[50%] text-[#f7b94a] text-[2vw]">trips</span>
-            <span class="h-[4vw] absolute top-[-2vw]! right-[6%] text-[#f7b94a] text-[2vw]">frown</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[6%] text-[#f7b94a] text-[2vw]">brick</span>
 
             <span class="text-white">The brown dragon</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
@@ -133,7 +133,7 @@
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span class="opacity-0">trips</span>
-            <span class="opacity-0">frown</span>
+            <span class="opacity-0">brick</span>
             <span>tray</span>
         </div>
     </div>
@@ -149,7 +149,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev2.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}"
@@ -165,7 +165,7 @@
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span>crab</span>
-            <span>grabs</span>
+            <span>train</span>
             <span>crawls</span>
             <span>tree</span>
         </div>
@@ -173,7 +173,7 @@
 
     {{-- Panel 6 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[2.5vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/crawl.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/crawl.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -181,14 +181,14 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev2.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <img src="{{ asset('assets/images/phonics_l2/blpl/q.png') }}"
                 class="h-[4vw] absolute top-[-3vw]! right-[8%]" />
 
             {{-- amswer --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[32%] text-[#f7b94a] text-[2vw]">crawls</span>
+            <span class="h-[4vw] absolute top-[-2vw]! left-[34%] text-[#f7b94a] text-[2vw]">crawls</span>
 
             <span class="text-white">My brother</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
@@ -201,7 +201,7 @@
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span>crab</span>
-            <span>grabs</span>
+            <span>train</span>
             <span class="opacity-0">crawls</span>
             <span>tree</span>
         </div>
@@ -209,7 +209,7 @@
 
     {{-- Panel 7 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/train.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/train.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -217,13 +217,13 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev2.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev2.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
             {{-- amswer --}}
-            <span class="h-[4vw] absolute top-[-2vw]! left-[32%] text-[#f7b94a] text-[2vw]">crawls</span>
-            <span class="h-[4vw] absolute top-[-2vw]! right-[7%] text-[#f7b94a] text-[2vw]">grabs</span>
+            <span class="h-[4vw] absolute top-[-2vw]! left-[34%] text-[#f7b94a] text-[2vw]">crawls</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[5%] text-[#f7b94a] text-[2vw]">train</span>
 
              <span class="text-white">My brother</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
@@ -236,7 +236,7 @@
         {{-- words --}}
         <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span>crab</span>
-            <span class="opacity-0">grabs</span>
+            <span class="opacity-0">train</span>
             <span class="opacity-0">crawls</span>
             <span>tree</span>
         </div>
@@ -253,7 +253,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev3.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev3.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -279,7 +279,7 @@
 
     {{-- Panel 9 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-between items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/crab.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/fridge.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -287,7 +287,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev3.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev3.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
@@ -315,7 +315,7 @@
 
     {{-- Panel 10 --}}
     <div class="answer phonics-panel h-full flex flex-col justify-between items-center space-y-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/fr_cr/freezer.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/grape.mp3') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -323,7 +323,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev3.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/fb-trev3.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
 
