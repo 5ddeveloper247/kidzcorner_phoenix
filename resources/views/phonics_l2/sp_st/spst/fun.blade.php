@@ -17,7 +17,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/girl-s.png',
             'imageSize' => 'w-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/fb-spst1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/fb-spst1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'She chases the'],
                 ['type' => 'blank'],
@@ -33,8 +33,8 @@
                 ['word' => 'stone', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sp_st/spider.m4a',
-                'assets/audio/phonics_audio-2/sp_st/stick.m4a',
+                'assets/audio/phonics_audio-2/sp_st/spider.mp3',
+                'assets/audio/phonics_audio-2/sp_st/stick.mp3',
             ],
         ],
 
@@ -42,7 +42,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/stir-b.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/fb-spst2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/fb-spst2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The boy'],
                 ['type' => 'blank'],
@@ -58,8 +58,8 @@
                 ['word' => 'spin', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sp_st/stir.m4a',
-                'assets/audio/phonics_audio-2/sp_st/spoon.m4a',
+                'assets/audio/phonics_audio-2/sp_st/stir.mp3',
+                'assets/audio/phonics_audio-2/sp_st/spoon.mp3',
             ],
         ],
 
@@ -67,7 +67,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/spot-s.png',
             'imageSize' => 'w-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/fb-spst3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/fb-spst3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'There are'],
                 ['type' => 'blank'],
@@ -83,8 +83,8 @@
                 ['word' => 'spots', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sp_st/spots.m4a',
-                'assets/audio/phonics_audio-2/sp_st/stairs.m4a',
+                'assets/audio/phonics_audio-2/sp_st/spots.mp3',
+                'assets/audio/phonics_audio-2/sp_st/stairs.mp3',
             ],
         ],
     ];

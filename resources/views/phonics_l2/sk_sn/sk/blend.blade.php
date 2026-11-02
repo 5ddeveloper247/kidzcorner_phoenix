@@ -5,78 +5,78 @@
     $showBackground = true;
     $blend = 'sk';
 
-    $blendSound1 = 'assets/audio/phonics_audio-2/sk_sn/sk.m4a'; 
-    $blendSound2 = 'assets/audio/phonics_audio-2/sk_sn/skah.m4a'; 
+    $blendSound1 = 'assets/audio/phonics_audio-2/sk_sn/sk.mp3';
+    $blendSound2 = 'assets/audio/phonics_audio-2/sk_sn/skah.mp3';
 
-    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/bl1.m4a';
+    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/bl1.mp3';
 
     $wordCards = [
         [
             'image' => 'assets/images/phonics_l2/sksn/skip.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'skip',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ip.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ip.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/skates.png',
             'imageSize' => 'h-[25vw]',
             'word' => 'skates',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ates.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ates.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/skirt.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'skirt',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-irt.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-irt.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/ski.png',
             'imageSize' => 'h-[25vw]',
             'word' => 'ski',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-i.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-i.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/sky.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'sky',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-y.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-y.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/skunk.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'skunk',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-unk.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-unk.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/skewer.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'skewer',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ewer.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ewer.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/skull.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'skull',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ull.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ull.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/sksn/skids.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'skids',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ids.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ids.mp3',
         ],
     ];
 
     $spotWords = [
-        ['word' => 'swing', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/sw_sc/swing.m4a'],
-        ['word' => 'skip', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/skip.m4a'],
+        ['word' => 'swing', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/sw_sc/swing.mp3'],
+        ['word' => 'skip', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/skip.mp3'],
         // Row 2 (3 words)
-        ['word' => 'sky', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/sky.m4a'],
-        ['word' => 'skirt', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/skirt.m4a'],
-        ['word' => 'slow', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/sw_sc/slow.m4a'],
+        ['word' => 'sky', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/sky.mp3'],
+        ['word' => 'skirt', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/skirt.mp3'],
+        ['word' => 'slow', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slow.mp3'],
         // Row 3 (2 words)
-        ['word' => 'slip', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slip.m4a'],
-        ['word' => 'ski', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/ski.m4a'],
+        ['word' => 'slip', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slip.mp3'],
+        ['word' => 'ski', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/sk_sn/ski.mp3'],
     ];
 
     $blendWordsCount = count(array_filter($spotWords, fn($w) => $w['blend']));
@@ -152,7 +152,7 @@
     {{-- PANELS 2-4 — Mascot intro questions   --}}
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[20vw]" />
@@ -163,7 +163,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -181,7 +181,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -237,7 +237,7 @@
 
 
     {{-- SPOT THE WORD — transition panel --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk4.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk4.mp3') }}">
         <div class="flex justify-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
             <div class="relative w-fit h-fit">
@@ -290,7 +290,15 @@
             // Track how many blend words we've seen so far in this step
             $blendSeen = 0;
         @endphp
-        <div class="phonics-panel flex flex-col items-center w-full">
+        <div class="phonics-panel flex flex-col items-center w-full"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/sk5.mp3') }}">
+            <div class="top-title stroke flex items-center">
+                Find the words that begin with
+                <button class="w-[3vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/skah.mp3') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </div>
 
             {{-- Row 1: words 0–1 --}}
             <div class="flex justify-between w-[100%] px-10">
