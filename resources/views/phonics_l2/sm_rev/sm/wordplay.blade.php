@@ -15,25 +15,25 @@
             'ending' => 'ile',
             'image' => 'assets/images/phonics_l2/smrev/smile.png',
             'size' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-ile.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-ile.mp3',
         ],
         [
             'ending' => 'ell',
             'image' => 'assets/images/phonics_l2/smrev/smell.png',
             'size' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-ell.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-ell.mp3',
         ],
         [
             'ending' => 'all',
             'image' => 'assets/images/phonics_l2/smrev/small.png',
             'size' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-all.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-all.mp3',
         ],
         [
             'ending' => 'elly',
             'image' => 'assets/images/phonics_l2/smrev/smelly.png',
             'size' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-elly.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sm_rev/sm-elly.mp3',
         ],
     ];
 

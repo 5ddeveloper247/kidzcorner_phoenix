@@ -17,7 +17,7 @@
         [
             'image' => 'assets/images/phonics_l2/smrev/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sm_rev/fb-rev1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sm_rev/fb-rev1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The skunk'],
                 ['type' => 'blank'],
@@ -33,8 +33,8 @@
                 ['word' => 'swing', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sw_sc/scoop.m4a',
-                'assets/audio/phonics_audio-2/sp_st/spoon.m4a',
+                'assets/audio/phonics_audio-2/sw_sc/scoop.mp3',
+                'assets/audio/phonics_audio-2/sp_st/spoon.mp3',
             ],
         ],
 
@@ -42,7 +42,7 @@
         [
             'image' => 'assets/images/phonics_l2/smrev/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sm_rev/fb-rev2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sm_rev/fb-rev2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The scout has'],
                 ['type' => 'blank'],
@@ -58,8 +58,8 @@
                 ['word' => 'skip', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sp_st/star.m4a',
-                'assets/audio/phonics_audio-2/sw_sc/sweater.m4a',
+                'assets/audio/phonics_audio-2/sp_st/star.mp3',
+                'assets/audio/phonics_audio-2/sw_sc/sweater.mp3',
             ],
         ],
 
@@ -67,7 +67,7 @@
         [
             'image' => 'assets/images/phonics_l2/smrev/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sm_rev/fb-rev3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sm_rev/fb-rev3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The snake and the'],
                 ['type' => 'blank'],
@@ -83,8 +83,8 @@
                 ['word' => 'swing', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sk_sn/snake.m4a',
-                'assets/audio/phonics_audio-2/sw_sc/swing.m4a',
+                'assets/audio/phonics_audio-2/sp_st/spider.mp3',
+                'assets/audio/phonics_audio-2/sw_sc/swing.mp3',
             ],
         ],
     ];
@@ -96,7 +96,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2vw;
+            font-size: 1.1vw;
             color: white !important;
         }
 
@@ -159,7 +159,7 @@
         @endphp
 
         {{-- ── Question panel ── --}}
-        <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.5vw]"
+        <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.75vw]"
             data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.mp3') }}">
 
             <h2 class="title-top stroke">Find the missing words to complete <br> the sentence.</h2>

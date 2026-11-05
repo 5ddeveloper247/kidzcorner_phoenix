@@ -51,42 +51,42 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st1.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st1.png',
                 'text' => 'What’s that smell?',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st2.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st2.png',
                 'text' => 'What’s that smell?',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st3.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st3.png',
                 'text' => 'It makes me sneeze until my nose swells.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st4.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st4.png',
                 'text' => 'I sniff around but I can’t find where it dwells.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st5.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st5.png',
                 'text' => 'Does the smell come from my starry sweater? No, my starry sweater smells better!',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st6.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st6.png',
                 'text' => 'Does the smell come from my snail? No, my snail isn’t stale as I wash it daily in a pail.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st7.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st7.png',
                 'text' => 'The smell comes from under the stairs.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/st8.mp3',
                 'image' => 'assets/images/phonics_l2/smrev/st8.png',
                 'text' => 'It’s a sweaty skunk eating scallops with a spoon on my chair!',
             ]
@@ -94,27 +94,27 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq1.mp3',
                 'question' => "Why does the\nboy’s nose\nswell?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq2.mp3',
                 'question' => "Why does he\nsmell his\nstarry\nsweater?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq3.mp3',
                 'question' => "Why does he wash\nhis snail daily?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq4.mp3',
                 'question' => "Where does the\nsmell come\nfrom?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sm_rev/stq5.mp3',
                 'question' => "Why is it smells\nbad?",
                 'tip' => 'Tip: Elicit response from children.',
             ]
@@ -191,7 +191,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -247,7 +247,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -306,7 +306,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st7.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st7.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -369,7 +369,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st8.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sm_rev/st8.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
