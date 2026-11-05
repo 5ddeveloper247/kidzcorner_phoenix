@@ -26,7 +26,7 @@
 
 @section('content')
     {{-- Panel 1: Intro Slide --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/rhymetime.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/rhymetime.mp3') }}">
         <h2 class="top-title stroke">Rhyme Time</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/rhyme.png') }}" class="w-[30vw] h-[20vw]" />

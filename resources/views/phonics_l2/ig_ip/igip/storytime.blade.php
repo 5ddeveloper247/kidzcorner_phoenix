@@ -130,7 +130,7 @@
 
     {{-- Panel 1 — Story Time intro --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -182,7 +182,7 @@
 
 
     {{-- Panel 13 — Find the picture intro --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.mp3') }}">
         <div class="flex items-end justify-center">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="scale-x-[-1] w-[33vw]" />

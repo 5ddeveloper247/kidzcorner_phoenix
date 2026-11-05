@@ -26,7 +26,7 @@
 
 @section('content')
     {{-- Panel 1: Intro Slide --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/rhymetime.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/rhymetime.mp3') }}">
         <h2 class="top-title stroke">Rhyme Time</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/rhyme.png') }}" class="w-[30vw] h-[20vw]" />
@@ -43,8 +43,8 @@
             sound. <br>
             Encourage them to find words that rhyme too.</p>
 
-        <button class="absolute top-1/2 -translate-1/2 left-[-10vw] w-[4vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-singalong.mp3') }}">
+        <button class="absolute top-1/2 -translate-1/2 left-[-10vw] w-[4vw]" id="soundButton">
+            {{-- data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-rhymetime.m4a') }}"> --}}
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

@@ -42,7 +42,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -63,7 +63,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st1.mp3') }}">
         <h2 class="title-top stroke">The Blushing Plate</h2>
         <img src="{{ asset('assets/images/phonics_l2/blpl/16.png') }}" class="w-[25vw]" />
     </div>
@@ -71,7 +71,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/blpl/16.png') }}" class="w-[25vw]" />
         <h2 class="title-top">Have you seen a blushing plate?</h2>
     </div>
@@ -79,7 +79,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/blpl/5.png') }}" class="w-[25vw]" />
         <h2 class="title-top">Have you seen him blush when he is late?</h2>
     </div>
@@ -87,7 +87,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/blpl/6.png') }}" class="w-[25vw]" />
         <h2 class="title-top">He blushes while playing with his blue plane.</h2>
     </div>
@@ -95,14 +95,14 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/blpl/7.png') }}" class="w-[25vw]" />
         <h2 class="title-top">He even blushes while patting his black crane.</h2>
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st6.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/blpl/8.png') }}" class="w-[25vw]" />
         <h2 class="title-top">Have you seen a blushing plate blowing a balloon,</h2>
     </div>
@@ -110,21 +110,21 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st7.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/blpl/9.png') }}" class="w-[25vw]" />
         <h2 class="title-top">and eating plumbs with a baboon?</h2>
     </div>
 
     {{-- Panel 9 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st8.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/blpl/10.png') }}" class="w-[25vw]" />
         <h2 class="title-top">I have Yes, I have</h2>
     </div>
 
     {{-- Panel 10 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/stq1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/stq1.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -143,7 +143,7 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/stq2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/stq2.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -162,7 +162,7 @@
 
     {{-- Panel 12 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/stq3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/stq3.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -181,7 +181,7 @@
 
 
     {{-- Panel 13 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.mp3') }}">
         <div class="flex items-end justify-center ">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="scale-x-[-1] w-[33vw]" />
@@ -200,7 +200,7 @@
 
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
 
         {{-- images --}}
@@ -261,7 +261,7 @@
 
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
 
         {{-- images --}}
@@ -326,7 +326,7 @@
 
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
 
         {{-- images --}}
@@ -399,7 +399,7 @@
 
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
 
         {{-- images --}}

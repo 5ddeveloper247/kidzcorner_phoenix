@@ -11,7 +11,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/stairs.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/stairs.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/stairs.mp3',
             'correct' => 'stairs',
             'wrong' => 'pairs',
             'correctSide' => 'right',
@@ -19,7 +19,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/stool.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/stool.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/stool.mp3',
             'correct' => 'stool',
             'wrong' => 'pool',
             'correctSide' => 'left',
@@ -27,7 +27,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/stone.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/stone.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/stone.mp3',
             'correct' => 'stone',
             'wrong' => 'bone',
             'correctSide' => 'right',
@@ -35,7 +35,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/stir.png',
             'imageSize' => 'h-[18vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/stir.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/stir.mp3',
             'correct' => 'stir',
             'wrong' => 'fir',
             'correctSide' => 'left',
@@ -43,7 +43,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/sting.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/sting.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/sting.mp3',
             'correct' => 'sting',
             'wrong' => 'cling',
             'correctSide' => 'left',
@@ -51,7 +51,7 @@
         [
             'image' => 'assets/images/phonics_l2/spst/stick.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/stick.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/stick.mp3',
             'correct' => 'stick',
             'wrong' => 'pick',
             'correctSide' => 'right',
@@ -92,7 +92,7 @@
 @section('content')
 
     {{-- Panel 1 – Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.mp3') }}">
         <h2 class="top-title stroke">Word Hunt</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -111,7 +111,7 @@
 
         {{-- Question Panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

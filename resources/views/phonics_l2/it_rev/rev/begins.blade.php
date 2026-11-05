@@ -166,7 +166,7 @@
     @section('content')
 
         {{-- ========== SLIDE 1: INTRO ========== --}}
-        <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.m4a') }}">
+        <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
             <h2 class="top-title stroke">It Begins With</h2>
             <div class="flex justify-center items-center">
                 <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -193,7 +193,7 @@
 
             {{-- QUESTION SLIDE --}}
             <div class="phonics-panel h-full space-y-[1vw] flex flex-col items-center justify-between"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
 
                 <h2 class="title-top stroke">Look at the picture. <br>
                     Find the blend that completes the name of this item.</h2>

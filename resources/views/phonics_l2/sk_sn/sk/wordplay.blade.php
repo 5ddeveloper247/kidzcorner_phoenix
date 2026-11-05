@@ -7,7 +7,7 @@
   
     $blend = 'sk';
 
-    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/wordplay.m4a';
+    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/wordplay.mp3';
     $tip = 'Tips: Encourage children to try blending the word parts together to make a whole word.';
 
     $words = [
@@ -15,25 +15,25 @@
             'ending' => 'ids',
             'image' => 'assets/images/phonics_l2/sksn/skids.png',
             'size' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ids.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ids.mp3',
         ],
         [
             'ending' => 'ates',
             'image' => 'assets/images/phonics_l2/sksn/skates.png',
             'size' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ates.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ates.mp3',
         ],
         [
             'ending' => 'ip',
             'image' => 'assets/images/phonics_l2/sksn/skip.png',
             'size' => 'h-[17vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ip.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-ip.mp3',
         ],
         [
             'ending' => 'y',
             'image' => 'assets/images/phonics_l2/sksn/sky.png',
             'size' => 'w-[17vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-y.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sk-y.mp3',
         ],
     ];
 

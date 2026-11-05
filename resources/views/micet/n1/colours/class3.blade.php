@@ -485,7 +485,7 @@
 @endsection
 
 @push('script')
-    <script>
+     <script>
         // SLIDE NAVIGATION SYSTEM
         document.body.dataset.homeRoute = "{{ url('/micet') }}";
 

@@ -17,7 +17,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snow-g.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/fb-sksn1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/fb-sksn1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The little girl'],
                 ['type' => 'blank'],
@@ -33,7 +33,7 @@
                 ['word' => 'snap', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sk_sn/skip.m4a',
+                'assets/audio/phonics_audio-2/sk_sn/skip.mp3',
                 'assets/audio/phonics_audio-2/sk_sn/snow.m4a',
             ],
         ],
@@ -42,7 +42,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snap-s.png',
             'imageSize' => 'w-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/fb-sksn2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/fb-sksn2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The skunk'],
                 ['type' => 'blank'],
@@ -58,8 +58,8 @@
                 ['word' => 'skids', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sk_sn/skates.m4a',
-                'assets/audio/phonics_audio-2/sk_sn/snail.m4a',
+                'assets/audio/phonics_audio-2/sk_sn/skates.mp3',
+                'assets/audio/phonics_audio-2/sk_sn/snail.mp3',
             ],
         ],
 
@@ -67,7 +67,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snake-s.png',
             'imageSize' => 'w-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/fb-sksn3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/fb-sksn3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The snake sniffs the'],
                 ['type' => 'blank'],
@@ -83,8 +83,8 @@
                 ['word' => 'sneezes', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sk_sn/skirt.m4a',
-                'assets/audio/phonics_audio-2/sk_sn/sneeze.m4a',
+                'assets/audio/phonics_audio-2/sk_sn/skirt.mp3',
+                'assets/audio/phonics_audio-2/sk_sn/sneeze.mp3',
             ],
         ],
     ];
@@ -140,7 +140,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.mp3') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -160,7 +160,7 @@
 
         {{-- ── Question panel ── --}}
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.5vw]"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.mp3') }}">
 
             <h2 class="title-top stroke">Find the missing words to complete <br> the sentence.</h2>
 

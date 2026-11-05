@@ -5,78 +5,78 @@
     $showBackground = true;
     $blend = 'tr';
 
-    $blendSound1 = 'assets/audio/phonics_audio-2/tr_rev/tr.m4a'; // letter sound
-    $blendSound2 = 'assets/audio/phonics_audio-2/tr_rev/trah.m4a'; // syllable sound
+    $blendSound1 = 'assets/audio/phonics_audio-2/tr_rev/tr.mp3'; // letter sound
+    $blendSound2 = 'assets/audio/phonics_audio-2/tr_rev/trah.mp3'; // syllable sound
 
-    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/bl1.m4a';
+    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/bl1.mp3';
 
     $wordCards = [
         [
             'image' => 'assets/images/phonics_l2/trev/tree.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'tree',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ee.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ee.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/trumpet.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'trumpet',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-umpet.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-umpet.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/train.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'train',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ain.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ain.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/truck.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'truck',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-uck.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-uck.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/tray.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'tray',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ay.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ay.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/track.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'track',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ack.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ack.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/trap.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'trap',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ap.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ap.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/trip.png',
             'imageSize' => 'h-[25vw]',
             'word' => 'trip',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ip.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-ip.mp3',
         ],
         [
             'image' => 'assets/images/phonics_l2/trev/tractor.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'tractor',
-            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-actor.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/tr_rev/tr-actor.mp3',
         ]
     ];
 
     $spotWords = [
-        ['word' => 'frame', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frame.m4a'],
-        ['word' => 'tray', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/tray.m4a'],
+        ['word' => 'frame', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frame.mp3'],
+        ['word' => 'tray', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/tray.mp3'],
         // Row 2 (3 words)
-        ['word' => 'trip', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/trip.m4a'],
-        ['word' => 'truck', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/truck.m4a'],
-        ['word' => 'pry', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/br_pr/pry.m4a'],
+        ['word' => 'trip', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/trip.mp3'],
+        ['word' => 'truck', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/truck.mp3'],
+        ['word' => 'pry', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/br_pr/pry.mp3'],
         // Row 3 (2 words)
-        ['word' => 'grape', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grape.m4a'],
-        ['word' => 'train', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/train.m4a'],
+        ['word' => 'grape', 'blend' => false, 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grape.mp3'],
+        ['word' => 'train', 'blend' => true, 'audio' => 'assets/audio/phonics_audio-2/tr_rev/train.mp3'],
     ];
 
     $blendWordsCount = count(array_filter($spotWords, fn($w) => $w['blend']));
@@ -152,7 +152,7 @@
     {{-- PANELS 2-4 — Mascot intro questions   --}}
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[20vw]" />
@@ -163,7 +163,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -181,7 +181,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -240,7 +240,7 @@
 
 
     {{-- SPOT THE WORD — transition panel --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr4.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/tr_rev/tr4.mp3') }}">
         <div class="flex justify-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
             <div class="relative w-fit h-fit">

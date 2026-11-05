@@ -51,37 +51,37 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st1.mp3',
                 'image' => 'assets/images/phonics_l2/sksn/st1.png',
                 'text' => 'Skunk and Snail',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st2.mp3',
                 'image' => 'assets/images/phonics_l2/sksn/st2.png',
                 'text' => 'Did you see a skunk wearing a skirt with a snail on its shoulder?',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st3.mp3',
                 'image' => 'assets/images/phonics_l2/sksn/st3.png',
                 'text' => 'Skiing around in the snow till it gets colder and colder.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st4.mp3',
                 'image' => 'assets/images/phonics_l2/sksn/st4.png',
                 'text' => 'Sniffing and sneezing wherever they go.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st5.mp3',
                 'image' => 'assets/images/phonics_l2/sksn/st5.png',
                 'text' => 'Watching out for snakes as well as people’s toes.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st6.mp3',
                 'image' => 'assets/images/phonics_l2/sksn/st6.png',
                 'text' => 'Soon they’ll stop to do there chores.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/st7.mp3',
                 'image' => 'assets/images/phonics_l2/sksn/st7.png',
                 'text' => 'But after a while you’ll here nothing but snores.',
             ]
@@ -89,22 +89,22 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq1.mp3',
                 'question' => "Where was\nthe snail?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq2.mp3',
                 'question' => "Why was the skunk\nand the snail\nsniffing and\nsneezing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq3.mp3',
                 'question' => "What did they\nhave to watch\nout for?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/stq4.mp3',
                 'question' => "Why did they\nstop skiing?",
                 'tip' => 'Tip: Elicit response from children.',
             ]
@@ -115,7 +115,7 @@
 
     {{-- Panel 1 — Story Time intro --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -166,7 +166,7 @@
 
 
     {{-- Panel 13 — Find the picture intro --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.mp3') }}">
         <div class="flex items-end justify-center">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="scale-x-[-1] w-[33vw]" />
@@ -181,7 +181,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -237,7 +237,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -296,7 +296,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -359,7 +359,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sk_sn/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

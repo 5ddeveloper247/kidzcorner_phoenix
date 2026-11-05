@@ -12,14 +12,14 @@
             'image' => 'assets/images/phonics_l2/spst/spoon.png',
             'imageSize' => 'w-[15vw]',
             'ending' => 'oon',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/sp-oon.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/sp-oon.mp3',
             'note' =>
                 'Tips: Invite children to name the object. <br> Encourage them to listen and identify the initial blend while saying the word.',
             'choices' => [
-                ['blend' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', 'correct' => false],
-                ['blend' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.m4a', 'correct' => false],
-                ['blend' => 'sp', 'audio' => 'assets/audio/phonics_audio-2/sp_st/spah.m4a', 'correct' => true],
-                ['blend' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/flah.m4a', 'correct' => false],
+                ['blend' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.mp3', 'correct' => false],
+                ['blend' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3', 'correct' => false],
+                ['blend' => 'sp', 'audio' => 'assets/audio/phonics_audio-2/sp_st/spah.mp3', 'correct' => true],
+                ['blend' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/flah.mp3', 'correct' => false],
             ],
         ],
 
@@ -27,13 +27,13 @@
             'image' => 'assets/images/phonics_l2/spst/stop.png',
             'imageSize' => 'w-[15vw]',
             'ending' => 'op',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/st-op.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/st-op.mp3',
             'note' => null,
             'choices' => [
-                ['blend' => 'st', 'audio' => 'assets/audio/phonics_audio-2/sp_st/stah.m4a', 'correct' => true],
-                ['blend' => 'sw', 'audio' => 'assets/audio/phonics_audio-2/sw_sc/swah.m4a', 'correct' => false],
-                ['blend' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slah.m4a', 'correct' => false],
-                ['blend' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.m4a', 'correct' => false],
+                ['blend' => 'st', 'audio' => 'assets/audio/phonics_audio-2/sp_st/stah.mp3', 'correct' => true],
+                ['blend' => 'sw', 'audio' => 'assets/audio/phonics_audio-2/sw_sc/swah.mp3', 'correct' => false],
+                ['blend' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slah.mp3', 'correct' => false],
+                ['blend' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.mp3', 'correct' => false],
             ],
         ],
 
@@ -41,13 +41,13 @@
             'image' => 'assets/images/phonics_l2/spst/spill.png',
             'imageSize' => 'w-[15vw]',
             'ending' => 'ill',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/sp-ill.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/sp-ill.mp3',
             'note' => null,
             'choices' => [
-                ['blend' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/plah.m4a', 'correct' => false],
-                ['blend' => 'sp', 'audio' => 'assets/audio/phonics_audio-2/sp_st/spah.m4a', 'correct' => true],
-                ['blend' => 'sc', 'audio' => 'assets/audio/phonics_audio-2/sw_sc/scah.m4a', 'correct' => false],
-                ['blend' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.m4a', 'correct' => false],
+                ['blend' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/plah.mp3', 'correct' => false],
+                ['blend' => 'sp', 'audio' => 'assets/audio/phonics_audio-2/sp_st/spah.mp3', 'correct' => true],
+                ['blend' => 'sc', 'audio' => 'assets/audio/phonics_audio-2/sw_sc/scah.mp3', 'correct' => false],
+                ['blend' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.mp3', 'correct' => false],
             ],
         ],
 
@@ -55,13 +55,13 @@
             'image' => 'assets/images/phonics_l2/spst/stir.png',
             'imageSize' => 'h-[15vw]',
             'ending' => 'ir',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/st-ir.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/st-ir.mp3',
             'note' => null,
             'choices' => [
-                ['blend' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.m4a', 'correct' => false],
-                ['blend' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.m4a', 'correct' => false],
-                ['blend' => 'st', 'audio' => 'assets/audio/phonics_audio-2/sp_st/stah.m4a', 'correct' => true],
-                ['blend' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', 'correct' => false],
+                ['blend' => 'br', 'audio' => 'assets/audio/phonics_audio-2/br_pr/brah.mp3', 'correct' => false],
+                ['blend' => 'gr', 'audio' => 'assets/audio/phonics_audio-2/dr_gr/grah.mp3', 'correct' => false],
+                ['blend' => 'st', 'audio' => 'assets/audio/phonics_audio-2/sp_st/stah.mp3', 'correct' => true],
+                ['blend' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.mp3', 'correct' => false],
             ],
         ],
 
@@ -69,13 +69,13 @@
             'image' => 'assets/images/phonics_l2/spst/spider.png',
             'imageSize' => 'w-[15vw]',
             'ending' => 'ider',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/sp-ider.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/sp-ider.mp3',
             'note' => null,
             'choices' => [
-                ['blend' => 'sp', 'audio' => 'assets/audio/phonics_audio-2/sp_st/spah.m4a', 'correct' => true],
-                ['blend' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/plah.m4a', 'correct' => false],
-                ['blend' => 'cl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/clah.m4a', 'correct' => false],
-                ['blend' => 'sc', 'audio' => 'assets/audio/phonics_audio-2/sw_sc/scah.m4a', 'correct' => false],
+                ['blend' => 'sp', 'audio' => 'assets/audio/phonics_audio-2/sp_st/spah.mp3', 'correct' => true],
+                ['blend' => 'pl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/plah.mp3', 'correct' => false],
+                ['blend' => 'cl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/clah.mp3', 'correct' => false],
+                ['blend' => 'sc', 'audio' => 'assets/audio/phonics_audio-2/sw_sc/scah.mp3', 'correct' => false],
             ],
         ],
 
@@ -83,13 +83,13 @@
             'image' => 'assets/images/phonics_l2/spst/stool.png',
             'imageSize' => 'h-[15vw]',
             'ending' => 'ool',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/st-ool.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/st-ool.mp3',
             'note' => null,
             'choices' => [
-                ['blend' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.m4a', 'correct' => false],
-                ['blend' => 'st', 'audio' => 'assets/audio/phonics_audio-2/sp_st/stah.m4a', 'correct' => true],
-                ['blend' => 'tr', 'audio' => 'assets/audio/phonics_audio-2/tr_rev/trah.m4a', 'correct' => false],
-                ['blend' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.m4a', 'correct' => false],
+                ['blend' => 'cr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/crah.mp3', 'correct' => false],
+                ['blend' => 'st', 'audio' => 'assets/audio/phonics_audio-2/sp_st/stah.mp3', 'correct' => true],
+                ['blend' => 'tr', 'audio' => 'assets/audio/phonics_audio-2/tr_rev/trah.mp3', 'correct' => false],
+                ['blend' => 'fr', 'audio' => 'assets/audio/phonics_audio-2/fr_cr/frah.mp3', 'correct' => false],
             ],
         ],
     ];
@@ -145,7 +145,7 @@
 @section('content')
 
     {{-- PANEL 1 — Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -170,7 +170,7 @@
 
     @foreach ($questions as $qIndex => $q)
         <div class="phonics-panel h-full space-y-[1vw]"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}"
             data-answer-audio="{{ asset($q['answerAudio']) }}">
 
             <h2 class="title-top stroke">

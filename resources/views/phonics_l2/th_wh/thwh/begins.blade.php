@@ -9,7 +9,7 @@
         [
             'blend' => 'th',
             'correctWord' => 'three',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
             'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/three.m4a'),
             'options' => [
                 [
@@ -36,7 +36,7 @@
         [
             'blend' => 'wh',
             'correctWord' => 'whistle',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
             'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
             'options' => [
                 [
@@ -63,7 +63,7 @@
         [
             'blend' => 'th',
             'correctWord' => 'thumb',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
             'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/thumb.m4a'),
             'options' => [
                 [
@@ -90,7 +90,7 @@
         [
             'blend' => 'wh',
             'correctWord' => 'whale',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
             'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
             'options' => [
                 [
@@ -117,7 +117,7 @@
         [
             'blend' => 'th',
             'correctWord' => 'think',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
             'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/think.m4a'),
             'options' => [
                 [
@@ -143,7 +143,7 @@
         [
             'blend' => 'wh',
             'correctWord' => 'whisper',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
             'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whisper.m4a'),
             'options' => [
                 [
@@ -243,7 +243,7 @@
 @section('content')
 
     {{-- SLIDE 1: INTRO PANEL --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />

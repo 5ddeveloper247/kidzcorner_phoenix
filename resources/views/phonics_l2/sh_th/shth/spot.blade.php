@@ -12,7 +12,7 @@
         [
             'type' => 'intro',
             'title' => 'Spot It',
-            'audio' => asset('assets/audio/phonics_audio-2/common/spot-it.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/common/spot-it.mp3'),
             'hasBackground' => true,
         ],
 

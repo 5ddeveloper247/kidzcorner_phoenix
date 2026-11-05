@@ -6,26 +6,26 @@
 
     $box = [
         'label' => 'sn',
-        'audio' => 'assets/audio/phonics_audio-2/sk_sn/snah.m4a',
+        'audio' => 'assets/audio/phonics_audio-2/sk_sn/snah.mp3',
     ];
 
     $questions = [
         [
             [
                 'image' => 'assets/images/phonics_l2/sksn/snail.png',
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snail.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snail.mp3',
                 'correct' => true,
                 'size' => 'h-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/spst/stork.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stork.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/stork.mp3',
                 'correct' => false,
                 'size' => 'h-[6vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/drgr/green.png',
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/green.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/green.mp3',
                 'correct' => false,
                 'size' => 'w-[6vw]',
             ],
@@ -33,19 +33,19 @@
         [
             [
                 'image' => 'assets/images/phonics_l2/flgl/flask.png',
-                'audio' => 'assets/audio/phonics_audio-2/fl_gl/flask.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/fl_gl/flask.mp3',
                 'correct' => false,
                 'size' => 'w-[6vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/sksn/ski.png',
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/ski.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/ski.mp3',
                 'correct' => false,
                 'size' => 'w-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/sksn/snake.png',
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snake.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snake.mp3',
                 'correct' => true,
                 'size' => 'h-[6vw]',
             ],
@@ -53,19 +53,19 @@
         [
             [
                 'image' => 'assets/images/phonics_l2/swsc/sweep.png',
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweep.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweep.mp3',
                 'correct' => false,
                 'size' => 'w-[8vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/spst/stop.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stop.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/stop.mp3',
                 'correct' => false,
                 'size' => 'h-[8vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/sksn/sneeze.png',
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/sneeze.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/sneeze.mp3',
                 'correct' => true,
                 'size' => 'h-[7vw]',
             ],
@@ -73,19 +73,19 @@
         [
             [
                 'image' => 'assets/images/phonics_l2/sksn/snap.png',
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snap.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snaps.mp3',
                 'correct' => true,
                 'size' => 'w-[8vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/drgr/drum.png',
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/drum.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/dr_gr/drum.mp3',
                 'correct' => false,
                 'size' => 'w-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/brpr/present.png',
-                'audio' => 'assets/audio/phonics_audio-2/br_pr/present.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/br_pr/present.mp3',
                 'correct' => false,
                 'size' => 'w-[7vw]',
             ],
@@ -93,19 +93,19 @@
         [
             [
                 'image' => 'assets/images/phonics_l2/clsl/climb.png',
-                'audio' => 'assets/audio/phonics_audio-2/cl_sl/climb.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/cl_sl/climb.mp3',
                 'correct' => false,
                 'size' => 'h-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/sksn/snatch.png',
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snatch.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/snatch.mp3',
                 'correct' => true,
                 'size' => 'h-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/sksn/skirt.png',
-                'audio' => 'assets/audio/phonics_audio-2/sk_sn/skirt.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sk_sn/skirt.mp3',
                 'correct' => false,
                 'size' => 'w-[7vw]',
             ],
@@ -148,7 +148,7 @@
 @section('content')
 
     {{-- Panel 1 – Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-it.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-it.mp3') }}">
         <h2 class="top-title stroke">Match It</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -165,7 +165,7 @@
 
         {{-- Question Panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! items-center"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.mp3') }}">
 
             <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
 
@@ -304,15 +304,9 @@
             }));
 
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             soundButtons.forEach(b => b.addEventListener('click', e => {
                 e.stopPropagation();

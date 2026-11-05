@@ -11,7 +11,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snail.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snail.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snail.mp3',
             'correct' => 'snail',
             'wrong' => 'pail',
             'correctSide' => 'right',
@@ -19,7 +19,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snake.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snake.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snake.mp3',
             'correct' => 'snake',
             'wrong' => 'bake',
             'correctSide' => 'left',
@@ -27,7 +27,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snap.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snaps.mp3',
             'correct' => 'snaps',
             'wrong' => 'flaps',
             'correctSide' => 'right',
@@ -35,7 +35,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/sneeze.png',
             'imageSize' => 'h-[18vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sneeze.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/sneeze.mp3',
             'correct' => 'sneeze',
             'wrong' => 'breeze',
             'correctSide' => 'left',
@@ -43,7 +43,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snatch.png',
             'imageSize' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snatch.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snatch.mp3',
             'correct' => 'snatch',
             'wrong' => 'patch',
             'correctSide' => 'left',
@@ -51,7 +51,7 @@
         [
             'image' => 'assets/images/phonics_l2/sksn/snore.png',
             'imageSize' => 'h-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snore.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sk_sn/snore.mp3',
             'correct' => 'snore',
             'wrong' => 'sore',
             'correctSide' => 'right',
@@ -73,7 +73,7 @@
         }
 
         .options {
-            width: 12vw;
+            width: 13.5vw;
             height: 6vw;
             font-size: 4vw;
             line-height: 100%;
@@ -92,7 +92,7 @@
 @section('content')
 
     {{-- Panel 1 – Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.mp3') }}">
         <h2 class="top-title stroke">Word Hunt</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -111,7 +111,7 @@
 
         {{-- Question Panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

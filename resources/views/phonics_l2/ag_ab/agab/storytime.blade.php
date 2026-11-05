@@ -130,7 +130,7 @@
 
     {{-- Panel 1 — Story Time intro --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />

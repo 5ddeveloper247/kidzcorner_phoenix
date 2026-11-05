@@ -5,27 +5,27 @@
     $showBackground = true;
 
     $box = [
-        'label' => 'sc',
-        'audio' => 'assets/audio/phonics_audio-2/sw_sc/scah.m4a',
+        'label' => 'st',
+        'audio' => 'assets/audio/phonics_audio-2/sw_sc/scah.mp3',
     ];
 
     $questions = [
         [
             [
                 'image' => 'assets/images/phonics_l2/swsc/scarf.png',
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scarf.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scarf.mp3',
                 'correct' => false,
                 'size' => 'h-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/spst/stork.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stork.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/stork.mp3',
                 'correct' => true,
                 'size' => 'h-[6vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/clsl/slow.png',
-                'audio' => 'assets/audio/phonics_audio-2/cl_sl/slow.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/cl_sl/slow.mp3',
                 'correct' => false,
                 'size' => 'w-[6vw]',
             ],
@@ -39,13 +39,13 @@
             ],
             [
                 'image' => 'assets/images/phonics_l2/swsc/scooter.png',
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scooter.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scooter.mp3',
                 'correct' => false,
                 'size' => 'w-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/spst/stamp.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stamp.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/stamp.mp3',
                 'correct' => true,
                 'size' => 'h-[6vw]',
             ],
@@ -53,19 +53,19 @@
         [
             [
                 'image' => 'assets/images/phonics_l2/swsc/sweep.png',
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweep.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweep.mp3',
                 'correct' => false,
                 'size' => 'w-[8vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/spst/stop.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stop.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/stop.mp3',
                 'correct' => true,
                 'size' => 'h-[8vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/swsc/scared.png',
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scared.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scared.mp3',
                 'correct' => false,
                 'size' => 'h-[7vw]',
             ],
@@ -73,19 +73,19 @@
         [
             [
                 'image' => 'assets/images/phonics_l2/spst/star.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/star.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/star.mp3',
                 'correct' => true,
                 'size' => 'w-[8vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/swsc/sweet.png',
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweet.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweet.mp3',
                 'correct' => false,
                 'size' => 'w-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/brpr/present.png',
-                'audio' => 'assets/audio/phonics_audio-2/br_pr/present.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/br_pr/present.mp3',
                 'correct' => false,
                 'size' => 'w-[7vw]',
             ],
@@ -93,19 +93,19 @@
         [
             [
                 'image' => 'assets/images/phonics_l2/spst/spin.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/spin.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/spin.mp3',
                 'correct' => false,
                 'size' => 'h-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/swsc/scout.png',
-                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scout.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scout.mp3',
                 'correct' => false,
                 'size' => 'h-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/spst/stairs.png',
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stairs.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/stairs.mp3',
                 'correct' => true,
                 'size' => 'w-[7vw]',
             ],
@@ -148,7 +148,7 @@
 @section('content')
 
     {{-- Panel 1 – Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-it.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-it.mp3') }}">
         <h2 class="top-title stroke">Match It</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -165,7 +165,7 @@
 
         {{-- Question Panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! items-center"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-box.mp3') }}">
 
             <h2 class="panel-title stroke">Find the picture that has the same <br> initial blend as the one on the box.</h2>
 
@@ -304,15 +304,9 @@
             }));
 
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             soundButtons.forEach(b => b.addEventListener('click', e => {
                 e.stopPropagation();

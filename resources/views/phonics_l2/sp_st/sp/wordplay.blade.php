@@ -7,7 +7,7 @@
   
     $blend = 'sp';
 
-    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/wordplay.m4a';
+    $introAudio = 'assets/audio/phonics_audio-2/bl_pl/wordplay.mp3';
     $tip = 'Tips: Encourage children to try blending the word parts together to make a whole word.';
 
     $words = [
@@ -15,25 +15,25 @@
             'ending' => 'ots',
             'image' => 'assets/images/phonics_l2/spst/spots.png',
             'size' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-ots.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-ots.mp3',
         ],
         [
             'ending' => 'ill',
             'image' => 'assets/images/phonics_l2/spst/spill.png',
             'size' => 'w-[20vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-ill.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-ill.mp3',
         ],
         [
             'ending' => 'in',
             'image' => 'assets/images/phonics_l2/spst/spin.png',
             'size' => 'h-[17vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-in.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-in.mp3',
         ],
         [
             'ending' => 'oon',
             'image' => 'assets/images/phonics_l2/spst/spoon.png',
             'size' => 'w-[17vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-oon.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sp_st/sp-oon.mp3',
         ],
     ];
 

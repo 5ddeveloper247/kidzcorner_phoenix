@@ -51,42 +51,42 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst1.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st1.png',
                 'text' => 'If You Give a Spider a Spotted Star',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst1.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st2.png',
                 'text' => 'If you give a spider a spotted star.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst3.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st3.png',
                 'text' => 'It will stick it in a spaghetti jar.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst4.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st4.png',
                 'text' => 'Fill it with stones and stamps.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst5.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st5.png',
                 'text' => 'Bury it under the stars with lamps.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst6.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st6.png',
                 'text' => 'Spin around on its web and not stop.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst7.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st7.png',
                 'text' => 'Until its spectacles finally drop!',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sst8.mp3',
                 'image' => 'assets/images/phonics_l2/spst/st8.png',
                 'text' => 'If you give a spider 2 spotted star.',
             ]
@@ -94,27 +94,27 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sstq1.mp3',
                 'question' => "What is the\nspider given?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sstq2.mp3',
                 'question' => "Where will the\nspider put the\nspotted star?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sstq3.mp3',
                 'question' => "Where will\nthe spider\nbury it?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sstq4.mp3',
                 'question' => "Why will the spider\nspin around on\nits web?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sp_st/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sp_st/sstq5.mp3',
                 'question' => "What will happen\nif the spider get\n2 spotted stars?",
                 'tip' => 'Tip: Elicit response from children.',
             ]
@@ -125,7 +125,7 @@
 
     {{-- Panel 1 — Story Time intro --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/storytime.mp3') }}">
         <h2 class="top-title stroke">Story Time</h2>
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
@@ -176,7 +176,7 @@
 
 
     {{-- Panel 13 — Find the picture intro --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.mp3') }}">
         <div class="flex items-end justify-center">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="scale-x-[-1] w-[33vw]" />
@@ -191,7 +191,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -247,7 +247,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -306,7 +306,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -369,7 +369,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
