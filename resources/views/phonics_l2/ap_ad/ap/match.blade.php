@@ -13,36 +13,36 @@
             'type' => 'grid',
             'cols' => 3,
             'question' => 'Find the picture that begin with the /ap/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/apad/snap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/cap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/star.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/apad/snap.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'snap',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -63,36 +63,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ap/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/apad/snap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/cap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/star.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/apad/cap.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cap',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -113,36 +113,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ap/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/apad/snap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/cap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/star.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/apad/map.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'map',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
         ],
 
         // ── Round 4: ──
@@ -163,36 +163,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ap/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/apad/snap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/cap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/star.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/apad/trap.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'trap',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
         ],
 
         // ── Round 5: ──
@@ -212,36 +212,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ap/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/match-ap.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/apad/snap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/cap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/star.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => true,
                 ],
             ],
@@ -250,8 +250,8 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.m4a',
-            'message' => "That's right! <br> Shower, Shell, Shut and <br> Shark begin with the <br> /ap/ sound.",
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/right-sh.mp3',
+            'message' => "That's right! <br> Snap, cap, map and <br> trap begin with the <br> /ap/ sound.",
             'cols' => 2, 
             'cards' => [
                 [
