@@ -15,7 +15,7 @@
             'options' => ['hips', 'ship'],
             'answer' => 'ship',
             'highlight' => 'sh',
-            'audio' => 'sh_ch/ship.m4a',
+            'audio' => 'sh_ch/ship.mp3',
             'tip' =>
                 'Tip: Invite children to sound out each word by parts (e.g. /sh/.../ip/) <br> before selecting the word that matches the picture.',
         ],
@@ -25,7 +25,7 @@
             'options' => ['pout', 'shout'],
             'answer' => 'shout',
             'highlight' => 'sh',
-            'audio' => 'sh_ch/shout.m4a',
+            'audio' => 'sh_ch/shout.mp3',
             'tip' => null,
         ],
         [
@@ -34,7 +34,7 @@
             'options' => ['shut', 'huts'],
             'answer' => 'shut',
             'highlight' => 'sh',
-            'audio' => 'sh_ch/shut.m4a',
+            'audio' => 'sh_ch/shut.mp3',
             'tip' => null,
         ],
         [
@@ -43,7 +43,7 @@
             'options' => ['skirt', 'shirt'],
             'answer' => 'shirt',
             'highlight' => 'sh',
-            'audio' => 'sh_ch/shirt.m4a',
+            'audio' => 'sh_ch/shirt.mp3',
             'tip' => null,
         ],
         [
@@ -52,7 +52,7 @@
             'options' => ['bell', 'shell'],
             'answer' => 'shell',
             'highlight' => 'sh',
-            'audio' => 'sh_ch/shell.m4a',
+            'audio' => 'sh_ch/shell.mp3',
             'tip' => null,
         ],
         

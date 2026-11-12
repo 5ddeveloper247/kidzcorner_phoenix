@@ -3,6 +3,165 @@
 
 @php
     $showBackground = true;
+
+    $rounds = [
+        // ── Round 1 ──
+        [
+            'sound' => 'sh',
+            'word' => 'shower',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/begins-with.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/sh-ower.mp3',
+            'choices' => [
+                [
+                    'image' => 'assets/images/phonics_l2/shch/shower.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shower.mp3',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/spst/spill.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/spst/star.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/star.mp3',
+                    'correct' => false,
+                ],
+            ],
+        ],
+
+        // ── Round 2 ──
+        [
+            'sound' => 'ch',
+            'word' => 'chop',
+            'questionAudio' => 'assets/audio/phonics_audio-2/common/begins-with-ch.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/ch-op.mp3',
+            'choices' => [
+                [
+                    'image' => 'assets/images/phonics_l2/sksn/skip.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sk_sn/skip.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/shch/chop.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chop.mp3',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/sksn/snap.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sk_sn/snaps.mp3',
+                    'correct' => false,
+                ],
+            ],
+        ],
+
+        // ── Round 3 ──
+        [
+            'sound' => 'sh',
+            'word' => 'shark',
+            'questionAudio' => 'assets/audio/phonics_audio-2/common/begins-with.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/sh-ark.mp3',
+            'choices' => [
+                [
+                    'image' => 'assets/images/phonics_l2/spst/spider.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spider.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/shch/chair.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/shch/shark.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.mp3',
+                    'correct' => true,
+                ],
+            ],
+        ],
+
+        // ── Round 4 ──
+        [
+            'sound' => 'ch',
+            'word' => 'chocolate',
+            'questionAudio' => 'assets/audio/phonics_audio-2/common/begins-with-ch.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/ch-ocolate.mp3',
+            'choices' => [
+                [
+                    'image' => 'assets/images/phonics_l2/shch/shirt.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shirt.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/shch/chocolate.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.mp3',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/swsc/scar.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/scar.mp3',
+                    'correct' => false,
+                ],
+            ],
+        ],
+
+        // ── Round 5 ──
+        [
+            'sound' => 'sh',
+            'word' => 'sheep',
+            'questionAudio' => 'assets/audio/phonics_audio-2/common/begins-with.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/sh-eep.mp3',
+            'choices' => [
+                [
+                    'image' => 'assets/images/phonics_l2/swsc/sweet.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweet.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/clsl/sleep.png',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/sleep.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/shch/sheep.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.mp3',
+                    'correct' => true,
+                ],
+            ],
+        ],
+
+        // ── Round 6 ──
+        [
+            'sound' => 'ch',
+            'word' => 'cherries',
+            'questionAudio' => 'assets/audio/phonics_audio-2/common/begins-with-ch.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/ch-erries.mp3',
+            'choices' => [
+                [
+                    'image' => 'assets/images/phonics_l2/clsl/clock.png',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.mp3',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/shch/cherries.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/cherries.mp3',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/frcr/fruits.png',
+                    'audio' => 'assets/audio/phonics_audio-2/fr_cr/fruits.mp3',
+                    'correct' => false,
+                    'size' => 'w-[9vw]',
+                ],
+            ],
+        ],
+    ];
+
+    $infoTips = [
+        'The ability to understand that words are made up of sounds is an important beginning reading skill.',
+        'Language and word games can help children develop the ability to listen for sounds in spoken words.',
+        'This simple listening game helps children develop their ability to listen for and identify initial sounds.',
+    ];
 @endphp
 
 
@@ -18,7 +177,7 @@
         }
 
         .title-top {
-            font-size: 1.5vw !important;
+            font-size: 1.75vw !important;
             color: #F7B94A;
         }
 
@@ -70,445 +229,75 @@
         <h1 class="text-white text-[1.6vw]">Tips:</h1>
 
         <ul class="list-disc text-start panel-ul space-y-[.2vw]">
-            <li>The ability to understand that words are made up of sounds is an important beginning reading skill.</li>
-            <li>Language and word games can help children develop the ability to listen for sounds in spoken words.</li>
-            <li>This simple listening game helps children develop their ability to listen for and identify initial sounds.
-            </li>
+            @foreach ($infoTips as $tip)
+                <li>{{ $tip }}</li>
+            @endforeach
         </ul>
     </div>
 
-    {{-- Panel 2 --}}
-    <div class="phonics-panel h-full" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
 
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
+    {{-- ── Question + Answer panels, generated from $rounds ── --}}
+    @foreach ($rounds as $round)
+        @php
+            $title = "Find the picture that begins with the ‘{$round['sound']}’ sound.";
+            // Part of the word after the target sound, e.g. "shower" -> "ower"
+            $ending = substr($round['word'], strlen($round['sound']));
+        @endphp
+
+        {{-- Question panel --}}
+        <div class="phonics-panel h-full" data-slide-audio="{{ asset($round['questionAudio']) }}">
+            <h2 class="title-top stroke">{{ $title }}</h2>
+
+            <div class="flex flex-col justify-around h-full space-y-[1vw]">
+                <div class="flex items-center gap-[1.5vw]">
+                    @foreach ($round['choices'] as $choice)
+                        <div class="box">
+                            <button class="w-[2.5vw] sbtn" id="soundButton"
+                                data-slide-audio="{{ asset($choice['audio']) }}">
+                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                            </button>
+                            <img src="{{ asset($choice['image']) }}" class="{{ $choice['size'] ?? 'h-[6vw]' }}" />
+                        </div>
+                    @endforeach
                 </div>
 
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
+                <div class="flex items-center justify-center gap-4">
+                    <span class="text-[3.5vw] text-[#f7b94a]">{{ $round['sound'] }}</span>
+                    <span class="text-[3.5vw] text-white opacity-0">{{ $ending }}</span>
                 </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-start gap-4">
-                <span class="text-[2.5vw] text-[#f7b94a]">sh</span>
             </div>
         </div>
-    </div>
 
+        {{-- Answer panel (answer sound, then cheering) --}}
+        <div class="phonics-panel h-full" data-cheer data-slide-audio="{{ asset($round['answerAudio']) }}">
+            <h2 class="title-top stroke">{{ $title }}</h2>
 
-    {{-- Panel 3 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-start gap-[1.5vw]">
-                <div class="flex flex-col items-center justify-center">
-                    <div class="box">
-                        <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                    </div>
-                    <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
+            <div class="flex flex-col justify-around h-full space-y-[1vw]">
+                <div class="flex items-start gap-[1.5vw]">
+                    @foreach ($round['choices'] as $choice)
+                        @if ($choice['correct'])
+                            {{-- Correct picture gets the tick --}}
+                            <div class="flex flex-col items-center justify-center">
+                                <div class="box">
+                                    <img src="{{ asset($choice['image']) }}" class="h-[6vw]" />
+                                </div>
+                                <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
+                            </div>
+                        @else
+                            <div class="box">
+                                <img src="{{ asset($choice['image']) }}" class="{{ $choice['size'] ?? 'h-[6vw]' }}" />
+                            </div>
+                        @endif
+                    @endforeach
                 </div>
 
-                <div class="box">
-
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
+                <div class="flex items-center justify-center gap-4">
+                    <span class="text-[3.5vw] text-[#f7b94a]">{{ $round['sound'] }}</span>
+                    <span class="text-[3.5vw] text-white">{{ $ending }}</span>
                 </div>
-
-                <div class="box">
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-center gap-4">
-                <span class="text-[3.5vw] text-[#f7b94a]">sh</span>
-                <span class="text-[3.5vw] text-white">ower</span>
             </div>
         </div>
-    </div>
-
-
-    {{-- Panel 4 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-start gap-4">
-                <span class="text-[2.5vw] text-[#f7b94a]">sh</span>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- Panel 5 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-start gap-[1.5vw]">
-                <div class="flex flex-col items-center justify-center">
-                    <div class="box">
-                        <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                    </div>
-                    <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-center gap-4">
-                <span class="text-[3.5vw] text-[#f7b94a]">sh</span>
-                <span class="text-[3.5vw] text-white">ower</span>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel 6 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-start gap-4">
-                <span class="text-[2.5vw] text-[#f7b94a]">sh</span>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- Panel 7 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-start gap-[1.5vw]">
-                <div class="flex flex-col items-center justify-center">
-                    <div class="box">
-                        <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                    </div>
-                    <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-center gap-4">
-                <span class="text-[3.5vw] text-[#f7b94a]">sh</span>
-                <span class="text-[3.5vw] text-white">ower</span>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- Panel 8 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-start gap-4">
-                <span class="text-[2.5vw] text-[#f7b94a]">sh</span>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel 9 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-start gap-[1.5vw]">
-                <div class="flex flex-col items-center justify-center">
-                    <div class="box">
-                        <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                    </div>
-                    <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-center gap-4">
-                <span class="text-[3.5vw] text-[#f7b94a]">sh</span>
-                <span class="text-[3.5vw] text-white">ower</span>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel 10 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-start gap-4">
-                <span class="text-[2.5vw] text-[#f7b94a]">sh</span>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel 11 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-start gap-[1.5vw]">
-                <div class="flex flex-col items-center justify-center">
-                    <div class="box">
-                        <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                    </div>
-                    <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-center gap-4">
-                <span class="text-[3.5vw] text-[#f7b94a]">sh</span>
-                <span class="text-[3.5vw] text-white">ower</span>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel 12 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <button class="w-[2.5vw] sbtn" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-start gap-4">
-                <span class="text-[2.5vw] text-[#f7b94a]">sh</span>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- Panel 13 --}}
-    <div class="phonics-panel h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-        <h2 class="title-top stroke">Find the picture that begins with the ‘sh’ sound.</h2>
-
-        <div class="flex flex-col justify-around h-full space-y-[1vw]">
-            <div class="flex items-start gap-[1.5vw]">
-                <div class="flex flex-col items-center justify-center">
-                    <div class="box">
-                        <img src="{{ asset('assets/images/phonics_l2/shch/shower.png') }}" class="h-[6vw]" />
-                    </div>
-                    <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-
-                    <img src="{{ asset('assets/images/phonics_l2/spst/spill.png') }}" class="h-[6vw]" />
-                </div>
-
-                <div class="box">
-                    <img src="{{ asset('assets/images/phonics_l2/spst/star.png') }}" class="h-[6vw]" />
-                </div>
-
-            </div>
-
-            <div class="flex items-center justify-center gap-4">
-                <span class="text-[3.5vw] text-[#f7b94a]">sh</span>
-                <span class="text-[3.5vw] text-white">ower</span>
-            </div>
-        </div>
-    </div>
-
-
+    @endforeach
 
 
     {{-- ======================================================== --}}
@@ -563,7 +352,7 @@
             const doneURL = "{{ url('/phonics_l2/sh_ch/shch') }}";
             const homeURL = document.body.dataset.homeRoute;
 
-            const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
@@ -574,7 +363,7 @@
             /* ── Audio ── */
             function stopAudio() {
                 if (currentAudio) {
-                    currentAudio.onended = null;
+                    currentAudio.onended = null; // cancels any pending cheering
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
                     currentAudio = null;
@@ -583,22 +372,25 @@
 
             function playAudio(src, onEnd) {
                 stopAudio();
-                if (!src) {
-                    if (onEnd) onEnd();
-                    return;
+                if (!src) return;
+                const audio = new Audio(src);
+                currentAudio = audio;
+                if (onEnd) {
+                    audio.onended = () => {
+                        if (currentAudio !== audio) return; // slide changed meanwhile
+                        onEnd();
+                    };
                 }
-                currentAudio = new Audio(src);
-                if (onEnd) currentAudio.onended = onEnd;
-                currentAudio.play().catch(() => {
-                    if (onEnd) onEnd();
-                });
+                audio.play().catch(() => {});
             }
 
             function playSlideAudio(idx) {
                 const slide = slides[idx];
                 const src = slide.getAttribute('data-slide-audio') ||
                     slide.querySelector('[data-slide-audio]')?.getAttribute('data-slide-audio');
-                playAudio(src);
+
+                // Answer panel (data-cheer): answer sound first, then the cheering sound
+                playAudio(src, slide.hasAttribute('data-cheer') ? () => playAudio(CHEERING_AUDIO) : null);
             }
 
             /* ── Slides ── */
@@ -628,43 +420,10 @@
             function showSlide(idx) {
                 stopAudio();
                 currentSlide = idx;
-
-                slides.forEach((s, i) => {
-                    s.classList.toggle('hidden', i !== idx);
-
-                    // Reset answer boxes on question slides when revisited
-                    const answerBox = s.querySelector('.box.answer');
-                    if (answerBox) {
-                        answerBox.classList.remove('opacity-0');
-                        answerBox.style.pointerEvents = '';
-                    }
-
-                    // Reset the bottom box text on question slides
-                    const bottomBox = s.querySelector('.flex.items-center.gap-4 .box');
-                    if (bottomBox && !bottomBox.closest('.phonics-panel').querySelector('.box.opacity-0')) {
-                        // only clear if it's a question slide (has answer box)
-                        if (s.querySelector('.box.answer')) {
-                            bottomBox.innerHTML = '';
-                        }
-                    }
-                });
-
+                slides.forEach((s, i) => s.classList.toggle('hidden', i !== idx));
                 updateNavButtons(idx);
                 playSlideAudio(idx);
             }
-
-            /* ── Answer box click ── */
-            slides.forEach((slide, idx) => {
-                const answerBox = slide.querySelector('.box.answer');
-                if (!answerBox) return;
-
-                answerBox.addEventListener('click', () => {
-                    if (answerBox.classList.contains('opacity-0')) return;
-
-                    // Play cheering → then go to the next slide (pre-built answer slide)
-                    playAudio(CHEERING_AUDIO, () => goNext());
-                });
-            });
 
             /* ── Sound buttons ── */
             soundButtons.forEach(btn => {

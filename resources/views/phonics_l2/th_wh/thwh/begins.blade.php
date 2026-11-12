@@ -9,24 +9,24 @@
         [
             'blend' => 'th',
             'correctWord' => 'three',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/three.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-th.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/ib-three.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/three.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/three.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/three.mp3'),
                     'wordPart' => 'ree',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/shch/ship.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/ship.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/ship.mp3'),
                     'wordPart' => 'ip',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/shch/cherries.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/cherries.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/cherries.mp3'),
                     'wordPart' => 'erries',
                     'isCorrect' => false,
                 ],
@@ -36,24 +36,24 @@
         [
             'blend' => 'wh',
             'correctWord' => 'whistle',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-wh.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/ib-whistle.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/shch/chair.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/whistle.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whistle.mp3'),
                     'wordPart' => 'istle',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/spst/spoon.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spoon.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spoon.mp3'),
                     'wordPart' => 'poon',
                     'isCorrect' => false,
                 ],
@@ -63,24 +63,24 @@
         [
             'blend' => 'th',
             'correctWord' => 'thumb',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/thumb.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-th.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/ib-thumb.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/spst/spider.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spider.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spider.mp3'),
                     'wordPart' => 'istle',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/shch/chair.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/thumb.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/thumb.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/thumb.mp3'),
                     'wordPart' => 'umb',
                     'isCorrect' => true,
                 ],
@@ -90,24 +90,24 @@
         [
             'blend' => 'wh',
             'correctWord' => 'whale',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-wh.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/ib-whistle.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/shch/chocolate.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chocolate.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chocolate.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/whale.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whale.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whale.mp3'),
                     'wordPart' => 'ale',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/spst/spoon.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spoon.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spoon.mp3'),
                     'wordPart' => 'poon',
                     'isCorrect' => false,
                 ],
@@ -117,24 +117,24 @@
         [
             'blend' => 'th',
             'correctWord' => 'think',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/think.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-th.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/ib-think.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/shch/chair.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/clsl/sleep.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3'),
                     'wordPart' => 'istle',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/think.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/think.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/think.mp3'),
                     'wordPart' => 'ink',
                     'isCorrect' => true,
                 ],
@@ -143,24 +143,24 @@
         [
             'blend' => 'wh',
             'correctWord' => 'whisper',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whisper.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-wh.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/ib-whisper.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/clsl/clock.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/clock.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/clock.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/whisper.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whisper.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whisper.mp3'),
                     'wordPart' => 'isper',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/clsl/sleep.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3'),
                     'wordPart' => 'poon',
                     'isCorrect' => false,
                 ],
@@ -191,7 +191,7 @@
         }
 
         .title-top {
-            font-size: 1.5vw !important;
+            font-size: 1.75vw !important;
             color: #F7B94A;
         }
 
@@ -344,7 +344,6 @@
 
 @push('script')
     <script>
-        // CLEAN & SIMPLE SLIDE CONTROLLER
         (function() {
             // DOM elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -356,7 +355,7 @@
             const infoBtns = document.querySelectorAll("[class*='info-btn']");
 
             // Audio & Routes
-            const CHEERING_SOUND = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const CHEERING_SOUND = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
             const RETURN_URL = "{{ url('/phonics_l2/th_wh/thwh') }}";
             const DONE_URL = "{{ url('/phonics_l2/th_wh/thwh') }}";
             const HOME_URL = "{{ url('/phonics/l2') }}";
@@ -366,9 +365,10 @@
             let isSpecialMode = false; // When showing info panel
             let returnToSlide = null; // Slide to come back to after info panel
 
-            // Helper: stop any playing audio
+            // Stop any playing audio (also cancels a pending cheering)
             function stopAudio() {
                 if (currentAudio) {
+                    currentAudio.onended = null;
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
                     currentAudio = null;
@@ -379,32 +379,32 @@
             function playAudio(src, onEnd = null) {
                 if (!src) return;
                 stopAudio();
-                currentAudio = new Audio(src);
-                if (onEnd) currentAudio.onended = onEnd;
-                currentAudio.play().catch(e => console.warn("Audio play failed:", e));
+                const audio = new Audio(src);
+                currentAudio = audio;
+                if (onEnd) {
+                    audio.onended = () => {
+                        if (currentAudio !== audio) return; // slide changed meanwhile
+                        onEnd();
+                    };
+                }
+                audio.play().catch(e => console.warn("Audio play failed:", e));
             }
 
-            // Play the data-slide-audio for the current slide
+            // Play the slide's audio. On an answer slide: answer sound first, then the cheering sound.
             function playSlideAudio(index) {
                 const slide = slides[index];
                 const src = slide.getAttribute('data-slide-audio');
-                if (src) playAudio(src);
+                const isAnswer = slide.classList.contains('answer-slide');
+                if (src) playAudio(src, isAnswer ? () => playAudio(CHEERING_SOUND) : null);
             }
 
-            // Check if a slide is the special info panel
             function isInfoPanelSlide(slide) {
                 return slide.classList.contains('info-panel-1');
             }
 
-            // Check if a slide is a question slide (has .question-slide)
-            function isQuestionSlide(slide) {
-                return slide.classList.contains('question-slide');
-            }
-
-            // Update Next/Done buttons visibility based on whether this is the last slide
+            // Update Next/Done buttons based on whether this is the last slide
             function updateNavButtons(index) {
                 let isLast = true;
-                // Look ahead for any non-info slide (since info panel is special and not part of normal flow)
                 for (let i = index + 1; i < slides.length; i++) {
                     if (!isInfoPanelSlide(slides[i])) {
                         isLast = false;
@@ -420,94 +420,55 @@
                 if (index < 0 || index >= slides.length) return;
                 stopAudio();
                 currentSlideIdx = index;
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle('hidden', i !== index);
-                });
+                slides.forEach((slide, i) => slide.classList.toggle('hidden', i !== index));
                 updateNavButtons(index);
                 playSlideAudio(index);
             }
 
-            // Go to next slide in normal sequence (skip info panels)
+            // Next slide (skip info panels)
             function goToNextSlide() {
                 let next = currentSlideIdx + 1;
-                while (next < slides.length && isInfoPanelSlide(slides[next])) {
-                    next++;
-                }
-                if (next < slides.length) {
-                    showSlide(next);
-                }
+                while (next < slides.length && isInfoPanelSlide(slides[next])) next++;
+                if (next < slides.length) showSlide(next);
             }
 
-            // Go to previous slide (skip info panels)
+            // Previous slide (skip info panels)
             function goToPrevSlide() {
                 let prev = currentSlideIdx - 1;
-                while (prev >= 0 && isInfoPanelSlide(slides[prev])) {
-                    prev--;
-                }
+                while (prev >= 0 && isInfoPanelSlide(slides[prev])) prev--;
                 if (prev >= 0) {
                     showSlide(prev);
                 } else {
-                    // At the very beginning, return to the main page
+                    stopAudio();
                     window.location.href = RETURN_URL;
                 }
             }
 
-            // Handle clicking on a correct answer in a question slide
-            function setupAnswerHandlers() {
-                document.querySelectorAll('.question-slide .option-box').forEach(box => {
-                    // Remove old listeners to avoid duplicates (simple cleanup)
-                    box.removeEventListener('click', answerClickHandler);
-                    box.addEventListener('click', answerClickHandler);
-                });
-            }
-
-            function answerClickHandler(e) {
-                // Prevent if already answered (by checking if slide has 'answered' flag)
-                const currentQuestionSlide = slides[currentSlideIdx];
-                if (currentQuestionSlide.getAttribute('data-answered') === 'true') return;
-
-                const isCorrect = this.getAttribute('data-correct') === 'true';
-                if (!isCorrect) return; // Only correct answers trigger next slide
-
-                // Mark as answered to prevent double clicking
-                currentQuestionSlide.setAttribute('data-answered', 'true');
-
-                // Play cheering sound, then move to next slide (the answer slide)
-                playAudio(CHEERING_SOUND, () => {
+            // Click the correct picture → open the answer slide right away.
+            // Its answer sound plays, then the cheering sound (see playSlideAudio).
+            document.querySelectorAll('.question-slide .option-box').forEach(box => {
+                box.addEventListener('click', () => {
+                    // Only react to the slide that is on screen (prevents double jumps)
+                    if (!slides[currentSlideIdx].contains(box)) return;
+                    if (box.getAttribute('data-correct') !== 'true') return;
                     goToNextSlide();
                 });
-            }
+            });
 
-            // Handle sound buttons on options (play individual word sound)
-            function setupSoundButtons() {
-                document.querySelectorAll('.sound-option-btn').forEach(btn => {
-                    btn.removeEventListener('click', soundClickHandler);
-                    btn.addEventListener('click', soundClickHandler);
+            // Sound buttons on the pictures
+            document.querySelectorAll('.sound-option-btn').forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.stopPropagation();
+                    playAudio(btn.getAttribute('data-sound'));
                 });
-            }
+            });
 
-            function soundClickHandler(e) {
-                e.stopPropagation();
-                const soundSrc = this.getAttribute('data-sound');
-                if (soundSrc) playAudio(soundSrc);
-            }
-
-            // Re-attach handlers when slide changes (for newly added DOM or dynamic)
-            function refreshEventHandlers() {
-                setupAnswerHandlers();
-                setupSoundButtons();
-            }
-
-
-            // INFO PANEL (Special Mode)
-
+            // Info panel (special mode)
             infoBtns.forEach(btn => {
-                btn.addEventListener('click', (e) => {
+                btn.addEventListener('click', e => {
                     e.preventDefault();
-                    // Save current slide to return later
                     returnToSlide = currentSlideIdx;
                     isSpecialMode = true;
-                    // Find the info panel slide
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains('info-panel-1')) {
                             showSlide(i);
@@ -517,75 +478,49 @@
                 });
             });
 
+            // Buttons
+            nextBtn?.addEventListener('click', () => {
+                if (isSpecialMode) {
+                    isSpecialMode = false;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
+                    goToNextSlide();
+                }
+            });
 
-            // BUTTON HANDLERS
-
-            if (nextBtn) {
-                nextBtn.addEventListener('click', () => {
-                    if (isSpecialMode) {
-                        // If in info panel, just go back to the saved slide
-                        isSpecialMode = false;
-                        showSlide(returnToSlide);
-                        returnToSlide = null;
-                    } else {
-                        goToNextSlide();
-                    }
-                });
-            }
-
-            if (doneBtn) {
-                doneBtn.addEventListener('click', () => {
-                    if (isSpecialMode) {
-                        isSpecialMode = false;
-                        showSlide(returnToSlide);
-                        returnToSlide = null;
-                    } else {
-                        window.location.href = DONE_URL;
-                    }
-                });
-            }
-
-            if (returnBtn) {
-                returnBtn.addEventListener('click', () => {
-                    if (isSpecialMode) {
-                        // Exit info panel and return to saved slide
-                        isSpecialMode = false;
-                        showSlide(returnToSlide);
-                        returnToSlide = null;
-                    } else {
-                        goToPrevSlide();
-                    }
-                });
-            }
-
-            if (homeBtn) {
-                homeBtn.addEventListener('click', () => {
+            doneBtn?.addEventListener('click', () => {
+                if (isSpecialMode) {
+                    isSpecialMode = false;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
                     stopAudio();
-                    window.location.href = HOME_URL;
-                });
-            }
+                    window.location.href = DONE_URL;
+                }
+            });
 
-            if (closeBtn) {
-                closeBtn.addEventListener('click', () => {
-                    stopAudio();
-                    window.location.href = HOME_URL;
-                });
-            }
+            returnBtn?.addEventListener('click', () => {
+                if (isSpecialMode) {
+                    isSpecialMode = false;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
+                    goToPrevSlide();
+                }
+            });
 
-            // Observe slide changes to re-attach handlers (using MutationObserver is overkill, but we can call after showSlide)
-            // Override showSlide to call refreshEventHandlers
-            const originalShowSlide = showSlide;
-            window.showSlide = function(index) {
-                originalShowSlide(index);
-                refreshEventHandlers();
-            };
-            showSlide = function(index) {
-                originalShowSlide(index);
-                refreshEventHandlers();
-            };
+            homeBtn?.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = HOME_URL;
+            });
+
+            closeBtn?.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = HOME_URL;
+            });
 
             // Initialize
-            refreshEventHandlers();
             showSlide(0);
         })();
     </script>
