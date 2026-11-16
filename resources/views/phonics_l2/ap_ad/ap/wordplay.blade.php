@@ -17,7 +17,7 @@
             'highlight' => 'ap',
             'before' => 't', // Part before highlight
             'after' => '', // Part after highlight
-            'audio' => 'ap_ad/tap.mp3',
+            'audio' => 'ap_ad/t-ap.mp3',
             'tip' =>
                 'Tip: Invite children to sound out each word by parts (e.g. /t/.../ap/) <br> before selecting the word that matches the picture.',
         ],
@@ -29,7 +29,7 @@
             'highlight' => 'ap',
             'before' => 'wr',
             'after' => '',
-            'audio' => 'ap_ad/wrap.mp3',
+            'audio' => 'ap_ad/wr-ap.mp3',
             'tip' => null,
         ],
         [
@@ -40,7 +40,7 @@
             'highlight' => 'ap',
             'before' => 'n',
             'after' => '',
-            'audio' => 'ap_ad/nap.mp3',
+            'audio' => 'ap_ad/n-ap.mp3',
             'tip' => null,
         ],
         [
@@ -51,7 +51,7 @@
             'highlight' => 'ap',
             'before' => 'cl',
             'after' => '',
-            'audio' => 'ap_ad/clap.mp3',
+            'audio' => 'ap_ad/cl-ap.mp3',
             'tip' => null,
         ],
         [
@@ -62,7 +62,7 @@
             'highlight' => 'ap',
             'before' => 'l',
             'after' => '',
-            'audio' => 'ap_ad/lap.mp3',
+            'audio' => 'ap_ad/l-ap.mp3',
             'tip' => null,
         ],
     ];
@@ -107,7 +107,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/wordplay.mp3') }}">
-        <h2 class="top-title stroke">Word Play</h2>
+        <h2 class="top-title stroke">Word Hunt</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/word.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -118,7 +118,7 @@
     @foreach ($panels as $panel)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col items-center space-y-[2vw] w-full relative"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.mp3') }}">
 
             <h2 class="stroke panel-title">Find the word that matches the picture.</h2>
 

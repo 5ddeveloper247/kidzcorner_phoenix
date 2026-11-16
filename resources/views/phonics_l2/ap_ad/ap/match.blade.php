@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/apad/snap.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'snap',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/snap.mp3',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/MM-snap.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/apad/cap.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cap',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/MM-cap.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/apad/map.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'map',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/MM-map.mp3',
         ],
 
         // ── Round 4: ──
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/apad/trap.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'trap',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/MM-trap.mp3',
         ],
 
         // ── Round 5: ──
@@ -353,6 +353,7 @@
             </button>
         </div>
     </div>
+
 
 
     {{-- ── All round panels — auto-generated ── --}}
