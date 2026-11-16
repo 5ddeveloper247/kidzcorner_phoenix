@@ -51,43 +51,43 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st1.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st1.png',
                 'text' => 'The Sheep and the Chick',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st2.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st2.png',
                 'text' => 'A sheep with shoes and a shirt',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st3.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st3.png',
                 'text' => 'Was dancing with a chirpy chick in a skirt.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st4.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st4.png',
                 'text' => 'They were on a ship decorated with shiny shells.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st5.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st5.png',
                 'text' => 'Where they ate too much chips which made them swell.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st6.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st6.png',
-                'text' => 'The sheep then pointed to a shark chewing <br>
+                'text' => 'The sheep then pointed to a shark chewing
                 on cherries and cheese.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st7.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st7.png',
                 'text' => 'That shocked the chick which made it freeze.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/st8.mp3',
                 'image' => 'assets/images/phonics_l2/shch/st8.png',
                 'text' => 'Both the sheep and the chick ran like the breeze.',
             ],
@@ -95,27 +95,27 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq1.mp3',
                 'question' => "What was the\nsheep wearing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq2.mp3',
                 'question' => "Who was dancing\nwith the\nsheep?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq3.mp3',
                 'question' => "Why did\nthey swell?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq4.mp3',
                 'question' => "Why were they\nafraid of\nthe shark?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_ch/stq5.mp3',
                 'question' => "What would you\ndo if you\nsaw a shark?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -145,7 +145,7 @@
     @foreach ($storySlides as $slide)
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
-            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'Skunk and Snail' : '' }}
+            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'The Sheep and the Chick' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)
@@ -192,7 +192,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -247,7 +247,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -305,7 +305,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -367,7 +367,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

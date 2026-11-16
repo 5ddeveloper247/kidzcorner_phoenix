@@ -7,28 +7,28 @@
     $returnURL = '/phonics_l2/th_wh/wh';
     $doneURL = '/phonics_l2/th_wh/wh';
 
-    $introPanelTip = "Tips: Encourage children to say the 'pl' sound. <br>
+    $introPanelTip = "Tips: Encourage children to say the 'wh' sound. <br>
         Remind them to listen to the initial sound when naming each object.";
 
     $questions = [
         // ── Question 1 ──
         [
-            'tip' => "Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
+            'tip' => "Tips: Invite children to sound out each word by parts (e.g. /wh/ ... /ite/) <br>
             before selecting the word that matches the picture.",
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/white.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/white.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/white.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/chips.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chips.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chips.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'white',
-            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/white.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/wh-ite.mp3',
             'answerImage' => 'assets/images/phonics_l2/thwh/white.png',
             'answerDiagraph' => 'wh',
             'answerRest' => 'ite',
@@ -40,17 +40,17 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/wheat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/wheat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/wheat.mp3',
                     'answer' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/shch/stick.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/stick.m4a',
+                    'image' => 'assets/images/phonics_l2/shch/chair.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'wheat',
-            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/wheat.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/wh-eat.mp3',
             'answerImage' => 'assets/images/phonics_l2/thwh/wheat.png',
             'answerDiagraph' => 'wh',
             'answerRest' => 'eat',
@@ -62,17 +62,17 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chick.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/whale.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whale.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whale.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'whale',
-            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/whale.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/wh-ale.mp3',
             'answerImage' => 'assets/images/phonics_l2/thwh/whale.png',
             'answerDiagraph' => 'wh',
             'answerRest' => 'ale',
@@ -84,17 +84,17 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chair.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/wheel.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/wheel.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/wheel.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'wheel',
-            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/wheel.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/th_wh/wh-eel.mp3',
             'answerImage' => 'assets/images/phonics_l2/thwh/wheel.png',
             'answerDiagraph' => 'wh',
             'answerRest' => 'eel',
@@ -133,6 +133,16 @@
         .options.answer-option {
             cursor: pointer;
         }
+
+        /* Next / Done: the container never blocks clicks, only the visible button receives them */
+        .down-btn-container {
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        .down-btn-container button {
+            pointer-events: auto;
+        }
     </style>
 @endpush
 
@@ -140,8 +150,8 @@
 @section('content')
 
     {{-- ── Panel 1: Intro ── --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.mp3') }}">
-        <h2 class="top-title stroke">Word Hunt</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/pic-match.mp3') }}">
+        <h2 class="top-title stroke">Picture Match</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -156,7 +166,7 @@
     @foreach ($questions as $q)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[4vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
@@ -165,7 +175,7 @@
                 {{-- Left: images with sound buttons --}}
                 <div>
                     @foreach ($q['images'] as $item)
-                        <div class="flex items-center justify-center gap-5 {{ $item['answer'] ? 'answer' : '' }}">
+                        <div class="flex items-center justify-center gap-5">
                             <button class="w-[3vw] sound-btn" data-slide-audio="{{ asset($item['audio']) }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
@@ -184,8 +194,8 @@
             @endif
         </div>
 
-        {{-- Answer panel — audio plays then cheering automatically --}}
-        <div class="phonics-panel answer flex flex-col justify-start space-y-[5vw] items-center h-full w-full"
+        {{-- Answer panel --}}
+        <div class="phonics-panel flex flex-col justify-start space-y-[5vw] items-center h-full w-full"
             data-slide-audio="{{ asset($q['answerAudio']) }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
@@ -214,20 +224,17 @@
         </button>
     </div>
 
+    {{-- Next and Done share ONE container, so an empty container can never sit on top of the visible button --}}
     <div class="down-btn-container">
         <button class="nextButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
         </button>
-    </div>
-
-    <div class="down-btn-container">
         <button class="doneButton hidden">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
         </button>
     </div>
 
 @endsection
-
 
 @push('script')
     <script>
@@ -245,7 +252,6 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = document.body.dataset.homeRoute;
-            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
@@ -259,12 +265,10 @@
                 }
             }
 
-            // Plays a list of audio files one after another
-            function playSequence(sources, idx = 0) {
-                if (idx >= sources.length) return;
+            function playAudio(src) {
                 stopAudio();
-                currentAudio = new Audio(sources[idx]);
-                currentAudio.onended = () => playSequence(sources, idx + 1);
+                if (!src) return;
+                currentAudio = new Audio(src);
                 currentAudio.play().catch(() => {});
             }
 
@@ -274,11 +278,7 @@
                 currentSlide = idx;
                 slides.forEach((s, i) => s.classList.toggle('hidden', i !== idx));
 
-                const src = slides[idx].getAttribute('data-slide-audio');
-                const isAnswer = slides[idx].classList.contains('answer');
-
-                // Answer panels → play audio then cheering
-                if (src) playSequence(isAnswer ? [src, CHEERING] : [src]);
+                playAudio(slides[idx].getAttribute('data-slide-audio'));
 
                 const isLast = idx >= slides.length - 1;
                 nextButtons.forEach(b => b.classList.toggle('hidden', isLast));
@@ -309,6 +309,7 @@
                 window.location.href = homeURL;
             });
 
+            // Done button: stop the audio and go to the done page
             doneButtons.forEach(b => b.addEventListener('click', () => {
                 stopAudio();
                 window.location.href = doneURL;
@@ -316,7 +317,7 @@
 
             soundButtons.forEach(b => b.addEventListener('click', e => {
                 e.stopPropagation();
-                playSequence([b.getAttribute('data-slide-audio')]);
+                playAudio(b.getAttribute('data-slide-audio'));
             }));
 
             showSlide(0);

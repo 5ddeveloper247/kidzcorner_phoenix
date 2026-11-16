@@ -31,7 +31,7 @@
                 <img src="{{ asset('assets/images/phonics_l2/global/b6.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/sh_ch/wch/match') }}">
+            <a href="{{ url('/phonics_l2/sh_ch/ch/match') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b8.png') }}" class="mx-auto d-block" />
             </a>
 

@@ -7,15 +7,15 @@
     $returnURL = '/phonics_l2/sh_ch/shch';
     $doneURL = '/phonics_l2/sh_ch/shch';
 
-    $introPanelTip = "Tips: Encourage children to say the 'pl' sound. <br>
-        Remind them to listen to the initial sound when naming each object.";
+    $introPanelTip = "Tips: Look at the picture, then read the sentence. <br>
+Encourage children to sound out the words in parts when in doubt (click on audio if needed).";
 
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
             'image' => 'assets/images/phonics_l2/shch/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/fb-shch1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_ch/fb-shch1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The little girls draw a'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'sheep', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sh_ch/chick.m4a',
-                'assets/audio/phonics_audio-2/sh_ch/sheep.m4a',
+                'assets/audio/phonics_audio-2/sh_ch/chick.mp3',
+                'assets/audio/phonics_audio-2/sh_ch/sheep.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/shch/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/fb-shch2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_ch/fb-shch2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The man sits on a'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'shoe', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sh_ch/chair.m4a',
-                'assets/audio/phonics_audio-2/sh_ch/shaves.m4a',
+                'assets/audio/phonics_audio-2/sh_ch/chair.mp3',
+                'assets/audio/phonics_audio-2/sh_ch/shaves.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/shch/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/fb-shch3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_ch/fb-shch3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The is a bowl of'],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'shirt', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sh_ch/cherries.m4a',
-                'assets/audio/phonics_audio-2/sh_ch/shelf.m4a',
+                'assets/audio/phonics_audio-2/sh_ch/cherries.mp3',
+                'assets/audio/phonics_audio-2/sh_ch/shelf.mp3',
             ],
         ],
     ];
@@ -94,7 +94,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2vw;
+            font-size: 1vw;
             color: white !important;
         }
 
@@ -138,8 +138,8 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.mp3') }}">
-        <h2 class="top-title stroke">It Begins With</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-dia.mp3') }}">
+        <h2 class="top-title stroke">Fun with Digraphs</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />

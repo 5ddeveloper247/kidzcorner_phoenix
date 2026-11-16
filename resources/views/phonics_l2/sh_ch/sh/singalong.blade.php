@@ -47,7 +47,7 @@
             Extension: Encourage children to substitute other words with /cl/ and sing along.</p>
 
         <button class="absolute top-1/2 -translate-1/2 left-[-10vw] w-[4vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh-singalong.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/singalong-sh.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>

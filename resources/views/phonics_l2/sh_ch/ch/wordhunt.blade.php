@@ -4,8 +4,8 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/sh_ch/sh';
-    $doneURL = '/phonics_l2/sh_ch/sh';
+    $returnURL = '/phonics_l2/sh_ch/ch';
+    $doneURL = '/phonics_l2/sh_ch/ch';
 
     $introPanelTip = "Tips: Encourage children to say the 'pl' sound. <br>
         Remind them to listen to the initial sound when naming each object.";
@@ -13,18 +13,18 @@
     $questions = [
         // ── Question 1 ──
         [
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chips.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chips.mp3',
             'tip' => "Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
                 before selecting the word that matches the picture.",
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/lips.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/lips.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/lips.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/chips.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chips.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chips.mp3',
                     'answer' => true,
                 ],
             ],
@@ -36,17 +36,17 @@
 
         // ── Question 2  ──
         [
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chick.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chick.mp3',
             'tip' => null,
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chick.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/stick.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/stick.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/stick.mp3',
                     'answer' => false,
                 ],
             ],
@@ -62,17 +62,17 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chick.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/chop.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chop.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chop.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'chop',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chop.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chop.mp3',
             'answerImage' => 'assets/images/phonics_l2/shch/chop.png',
             'answerDiagraph' => 'ch',
             'answerRest' => 'op',
@@ -84,17 +84,17 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chair.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/hair.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/hair.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/hair.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'chair',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chair.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chair.mp3',
             'answerImage' => 'assets/images/phonics_l2/shch/chair.png',
             'answerDiagraph' => 'ch',
             'answerRest' => 'air',
@@ -156,7 +156,7 @@
     @foreach ($questions as $q)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[4vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

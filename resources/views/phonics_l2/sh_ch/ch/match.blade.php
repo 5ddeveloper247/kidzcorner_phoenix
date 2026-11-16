@@ -1,4 +1,4 @@
-@extends('layout.master')
+    @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
 @php
@@ -10,14 +10,14 @@
     $introPanelTip = "Tips: Encourage children to say the 'sl' sound. <br>
         Remind them to listen to the initial sound when naming each object.";
 
-    $mascotMessage = "Let's find the <br> pictures that begin <br> with 'ch'.";
+    $mascotMessage = "Let's find the <br> pictures that begin <br> with '<span class='text-[#70af39]'>ch</span>'.";
 
     $questions = [
         // ── Question 1 ─
         [
             'diagraph' => 'ch',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/mm-chocolate.mp3',
             'questionText' => 'Find the picture that <br> begins with the <br> /ch/ sound.',
             'answerWord' => 'chocolate',
             'answerEnding' => 'ocolate',
@@ -25,24 +25,24 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/swsc/scooter.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/scooter.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/scooter.mp3',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/clsl/slow.png',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/slow.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/slow.mp3',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/chocolate.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.mp3',
                 ],
             ],
         ],
 
-        // ── Question 2 — 
+        // ── Question 2 —
         [
             'diagraph' => 'ch',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chicken.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/mm-chicken.mp3',
             'questionText' => 'Find the picture that <br> begins with the <br> /ch/ sound.',
             'answerWord' => 'chicken',
             'answerEnding' => 'icken',
@@ -50,24 +50,24 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chicken.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chicken.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chicken.mp3',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spoon.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spoon.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spoon.mp3',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                 ],
             ],
         ],
-        
-        // ── Question 3 — 
+
+        // ── Question 3 —
         [
             'diagraph' => 'ch',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/chair.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/mm-chair.mp3',
             'questionText' => 'Find the picture that <br> begins with the <br> /ch/ sound.',
             'answerWord' => 'chair',
             'answerEnding' => 'air',
@@ -75,23 +75,23 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/soup.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/stir.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/stir.mp3',
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/shch/shair.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shair.m4a',
+                    'image' => 'assets/images/phonics_l2/shch/chair.png',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shair.mp3',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/swsc/swan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.mp3',
                 ],
             ],
         ],
-        // ── Question 4 — 
+        // ── Question 4 —
         [
             'diagraph' => 'ch',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/cheese.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_ch/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_ch/mm-cheese.mp3',
             'questionText' => 'Find the picture that <br> begins with the <br> /ch/ sound.',
             'answerWord' => 'cheese',
             'answerEnding' => 'eese',
@@ -99,21 +99,19 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/cheese.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/cheese.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/cheese.mp3',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/shirt.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shirt.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shirt.mp3',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/swsc/swan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.mp3',
                 ],
             ],
         ],
     ];
-
-
 
 @endphp
 
@@ -161,7 +159,8 @@
         @endif
     </div>
 
-    <div class="phonics-panel flex justify-center items-center" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/match-ch.m4a') }}">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/match-ch.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -191,7 +190,7 @@
                             <button class="w-[2.5vw] sound-btn" data-slide-audio="{{ asset($item['audio']) }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
-                            <img class="w-[4vw]" src="{{ asset($item['image']) }}" />
+                            <img class="w-[5vw]" src="{{ asset($item['image']) }}" />
                         </div>
                     @endforeach
                 </div>
@@ -335,15 +334,9 @@
             });
 
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             // ── Sound buttons ─────────────────────────────────────
             soundButtons.forEach(b => b.addEventListener('click', e => {

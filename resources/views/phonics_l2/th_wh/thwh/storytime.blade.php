@@ -51,47 +51,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st1.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st1.png',
                 'text' => 'A Thick or Thin Whale?',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st2.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st2.png',
                 'text' => 'A whale made of thread',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st3.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st3.png',
                 'text' => 'Isn’t tasty as a whale made of thread.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st4.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st4.png',
                 'text' => 'Whistle while you add in the wheat,',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st5.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st5.png',
                 'text' => 'Stir with your thumb, it’s quite a treat.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st6.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st6.png',
                 'text' => 'You can make them thick or thin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st7.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st7.png',
                 'text' => 'And make them with whiskers and fins.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st8.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st8.png',
                 'text' => 'Then sit on three white wheels while they bake.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/st9.mp3',
                 'image' => 'assets/images/phonics_l2/thwh/st9.png',
                 'text' => 'And think of what you want to make next!',
             ],
@@ -99,32 +99,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq1.mp3',
                 'question' => "What is the first\nwhale made\nof?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq2.mp3',
                 'question' => "Which kind\nof whale tastes\nbetter?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq3.mp3',
                 'question' => "What should you do\nwhen you add\nin the wheat?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq4.mp3',
                 'question' => "What did he\nstir it\nwith?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq5.mp3',
                 'question' => "How else can you\ndecorate\nthe whales?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq6.mp3',
                 'question' => "What would you\nbake if you\nhad a choice?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -201,7 +201,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -256,7 +256,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -314,7 +314,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -376,7 +376,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

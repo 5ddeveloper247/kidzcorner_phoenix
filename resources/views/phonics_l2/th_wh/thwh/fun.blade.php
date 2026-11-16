@@ -7,15 +7,15 @@
     $returnURL = '/phonics_l2/th_wh/thwh';
     $doneURL = '/phonics_l2/th_wh/thwh';
 
-    $introPanelTip = "Tips: Encourage children to say the 'pl' sound. <br>
-        Remind them to listen to the initial sound when naming each object.";
+    $introPanelTip = "Tips: Look at the picture, then read the sentence. <br>
+Encourage children to sound out the words in parts when in doubt (click on audio if needed).";
 
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
             'image' => 'assets/images/phonics_l2/thwh/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'I see'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'whales', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/three.m4a',
-                'assets/audio/phonics_audio-2/th_wh/whales.m4a',
+                'assets/audio/phonics_audio-2/th_wh/three.mp3',
+                'assets/audio/phonics_audio-2/th_wh/whale.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/thwh/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'Is that'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'whispers', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/thread.m4a',
-                'assets/audio/phonics_audio-2/th_wh/whiskers.m4a',
+                'assets/audio/phonics_audio-2/th_wh/thread.mp3',
+                'assets/audio/phonics_audio-2/th_wh/whiskers.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/thwh/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The '],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'thin', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/thief.m4a',
-                'assets/audio/phonics_audio-2/th_wh/wheel.m4a',
+                'assets/audio/phonics_audio-2/th_wh/thief.mp3',
+                'assets/audio/phonics_audio-2/th_wh/wheel.mp3',
             ],
         ],
     ];

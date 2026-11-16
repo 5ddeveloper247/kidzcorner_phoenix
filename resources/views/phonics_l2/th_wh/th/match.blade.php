@@ -12,37 +12,37 @@
         [
             'type' => 'grid',
             'cols' => 3,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/match-sh.m4a',
+            'question' => 'Find the picture that begin with the /th/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/match-th2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/throw.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/three.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/thumb.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/think.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/shark.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/thwh/throw.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'throw',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/mm-throw.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -62,37 +62,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/match-sh.m4a',
+            'question' => 'Find the picture that begin with the /th/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/match-th2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/throw.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/three.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/thumb.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/think.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/shark.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/thwh/three.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'three',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/three.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/mm-three.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -112,37 +112,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/match-sh.m4a',
+            'question' => 'Find the picture that begin with the /th/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/match-th2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/throw.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/three.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/thumb.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/think.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/shark.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/thwh/thumb.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'thumb',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/mm-thumb.mp3',
         ],
 
         // ── Round 4: ──
@@ -162,48 +162,48 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/match-sh.m4a',
+            'question' => 'Find the picture that begin with the /th/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/match-th2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/throw.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/three.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/thumb.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/think.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/shark.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.mp3',
                     'correct' => false,
                 ],
             ],
         ],
-          // ── Round 4: Answer —
+        // ── Round 4: Answer —
         [
             'type' => 'answer_word',
             'image' => 'assets/images/phonics_l2/thwh/think.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'think',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/think.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/mm-think.mp3',
         ],
 
         // ── Round 5: ──
@@ -211,48 +211,48 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/match-sh.m4a',
+            'question' => 'Find the picture that begin with the /th/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/match-th2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/throw.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/throw.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/three.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/three.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/thumb.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thumb.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/think.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/think.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/shark.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/shark.mp3',
                     'correct' => false,
                 ],
             ],
         ],
-       
+
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.m4a',
-            'message' => "That's right! <br> Shower, Shell, Shut and <br> Shark begin with the <br> /th/ sound.",
-            'cols' => 2, 
+            'audio' => 'assets/audio/phonics_audio-2/th_wh/right-th.mp3',
+            'message' => "That's right! <br> throw, three, thumb and <br> think begin with the <br> /th/ sound.",
+            'cols' => 2,
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/throw.png',
@@ -263,11 +263,11 @@
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/thwh/think.png',
+                    'image' => 'assets/images/phonics_l2/thwh/thumb.png',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/shch/shark.png',
+                    'image' => 'assets/images/phonics_l2/thwh/think.png',
                     'correct' => false,
                 ],
             ],
@@ -303,7 +303,8 @@
             position: absolute;
             top: 4%;
         }
-.panel-ul {
+
+        .panel-ul {
             color: white;
             font-size: 1.1vw;
             padding-left: 3vw;
@@ -352,6 +353,22 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
             </button>
         </div>
+    </div>
+
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/match-th.mp3') }}">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw]" />
+                <h2 class="absolute top-1/2 left-1/2 -translate-1/2 text-[#A15E0D] text-[2vw] text-center w-100">
+                    Let's spot the <br>
+                    pictures that begin <br>
+                    with '<span class="text-[#70af39]">th</span>'!
+                </h2>
+            </div>
+        </div>
+        <p class="p-note">Tips: Children to name the picture first. <br>
+            Encourage them to identify each of the initial target sound made by each word.</p>
     </div>
 
 
@@ -496,7 +513,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
-            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
+            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
