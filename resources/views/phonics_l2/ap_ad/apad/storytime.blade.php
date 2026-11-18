@@ -51,44 +51,44 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st1.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st1.png',
                 'text' => 'Chad and His Map',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st2.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st2.png',
                 'text' => 'Chat the rat was feeling rather sad.
 He had just lost his map!',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st3.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st3.png',
                 'text' => 'The map was on his lap when he was taking a nap.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st4.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st4.png',
                 'text' => 'After the nap, he was feeling rather glad.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st5.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st5.png',
                 'text' => 'Then he found that the map was not in the plastic wrap.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st6.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st6.png',
                 'text' => 'Instead, all he found was his old dirty cap.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st7.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st7.png',
                 'text' => 'Was it Brad the cat who took away the map?
 Thinking about it made him just mad.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/st8.mp3',
                 'image' => 'assets/images/phonics_l2/apad/st8.png',
                 'text' => 'Do you know where is Chad’s map?',
             ],
@@ -96,22 +96,22 @@ Thinking about it made him just mad.',
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq1.mp3',
                 'question' => "What was Chad the\nrat feeling sad?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq2.mp3',
                 'question' => "Where was the\nmap when he was\nsleeping?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq3.mp3',
                 'question' => "Why did he put\nthe map in a\nplastic wrap?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ap_ad/stq4.mp3',
                 'question' => "Why was his dirty\nold cap in the\nplastic wrap?",
                 'tip' => 'Tip: Elicit response from children.',
             ]
@@ -188,7 +188,7 @@ Thinking about it made him just mad.',
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -243,7 +243,7 @@ Thinking about it made him just mad.',
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -300,7 +300,7 @@ Thinking about it made him just mad.',
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -360,7 +360,7 @@ Thinking about it made him just mad.',
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

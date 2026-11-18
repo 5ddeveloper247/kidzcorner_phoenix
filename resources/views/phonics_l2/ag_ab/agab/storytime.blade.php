@@ -51,42 +51,42 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st1.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st1.png',
                 'text' => 'Dag The Crab',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st2.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st1.png',
                 'text' => 'I know a crab named Dag.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st3.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st2.png',
                 'text' => 'Dag the crab would only nag at a Stag.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st4.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st3.png',
                 'text' => 'He nagged at Stag when it tripped on a rag while carrying his flag.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st5.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st4.png',
                 'text' => 'He nagged at Stag for going into a lab to get a jab.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st6.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st5.png',
                 'text' => 'He nagged at Stag for sitting on a tab in an old yellow cab.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st7.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st6.png',
                 'text' => 'He also nagged at Stag for losing the tag on his big brown bag.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/st8.mp3',
                 'image' => 'assets/images/phonics_l2/agab/st7.png',
                 'text' => 'Poor Stag! He only wishes that Dag would stop his nag.',
             ],
@@ -94,32 +94,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq1.mp3',
                 'question' => "What did Dag\nnag at?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq2.mp3',
                 'question' => "What did Stag\ntrip on?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq3.mp3',
                 'question' => "Why did Stag\ngo into the lab?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq4.mp3',
                 'question' => "Why did Dag nag\n at Stag for\nsitting on the tab?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq5.mp3',
                 'question' => "What did Dag\nnag at Stag for\nlosing his tag?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ag_ab/stq6.mp3',
                 'question' => "What did Stag\nwish for Dag to\nstop his nag?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -181,7 +181,7 @@
 
 
     {{-- Panel 13 — Find the picture intro --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/st-find.mp3') }}">
         <div class="flex items-end justify-center">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="scale-x-[-1] w-[33vw]" />
@@ -196,7 +196,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -251,7 +251,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -308,7 +308,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -368,7 +368,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

@@ -15,7 +15,7 @@
         [
             'image' => 'assets/images/phonics_l2/apad/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/fb-apad1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/fb-apad1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'I felt'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'snap',  'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ap_ad/false.m4a',
-                'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                'assets/audio/phonics_audio-2/ap_ad/sad.mp3',
+                'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/apad/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/fb-apad2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/fb-apad2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'She was'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'clap', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ap_ad/glad.m4a',
-                'assets/audio/phonics_audio-2/sh_th/wrap.m4a',
+                'assets/audio/phonics_audio-2/ap_ad/glad.mp3',
+                'assets/audio/phonics_audio-2/ap_ad/wrap.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/apad/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ap_ad/fb-apad3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ap_ad/fb-apad3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The dog ran away with my dad’s'],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'mad', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
-                'assets/audio/phonics_audio-2/ap_ad/mad.m4a',
+                'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
+                'assets/audio/phonics_audio-2/ap_ad/mad.mp3',
             ],
         ],
     ];
@@ -138,19 +138,19 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.mp3') }}">
-        <h2 class="top-title stroke">Fun with Digraphs</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-words.mp3') }}">
+        <h2 class="top-title stroke">Fun with words</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
         @if ($introPanelTip)
-            <p class="p-note">{!! $introPanelTip !!}</p>
+            <p class="p-note"></p>
         @endif
     </div>
 
 
-    {{-- Question + Reveal panels — auto-generated --}}
+    {{-- Question + Reveal panels — auto-generated --}} 
     @foreach ($questions as $q)
         @php
             $answerWords = collect($q['words'])->where('answer', true)->values();

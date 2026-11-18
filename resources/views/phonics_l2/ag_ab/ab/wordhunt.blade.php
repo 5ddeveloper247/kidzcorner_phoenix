@@ -18,18 +18,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/tab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/tab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/tab.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/nab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/nab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/nab.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'nab',
             'answerImage' => 'assets/images/phonics_l2/agab/nab.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/nab.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/n-ab.mp3',
             'answerRest' => 'n',
             'answerDiagraph' => 'ab',
         ],
@@ -40,18 +40,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chick.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/crab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/cr-ab.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'crab',
             'answerImage' => 'assets/images/phonics_l2/agab/crab.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/crab.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/crab.mp3',
             'answerRest' => 'cr',
             'answerDiagraph' => 'ab',
         ],
@@ -62,18 +62,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/lab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/lab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/lab.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/jab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/jab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/jab.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'lab',
             'answerImage' => 'assets/images/phonics_l2/agab/lab.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/lab.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/l-ab.mp3',
             'answerRest' => 'l',
             'answerDiagraph' => 'ab',
         ],
@@ -84,18 +84,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/grab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/grab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/grab.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/drgr/grapes.png',
-                    'audio' => 'assets/audio/phonics_audio-2/dr_gr/grapes.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/dr_gr/grape.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'grab',
             'answerImage' => 'assets/images/phonics_l2/agab/grab.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/grab.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ag_ab/gr-ab.mp3',
             'answerRest' => 'gr',
             'answerDiagraph' => 'ab',
         ],
@@ -156,7 +156,7 @@
     @foreach ($questions as $q)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[4vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

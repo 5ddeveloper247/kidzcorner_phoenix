@@ -4,8 +4,8 @@
 @php
     $showBackground = true;
 
-    $targetSound = 'ad';
-    $targetSoundAudio = asset('assets/audio/phonics_audio-2/ag_ab/apah.m4a');
+    // Fallback target sound (used only if a question has no isAnswer option)
+    $targetSoundAudio = asset('assets/audio/phonics_audio-2/ag_ab/agah.mp3');
 
     $slidesData = [
         // Slide 1: Introduction
@@ -16,17 +16,17 @@
             'hasBackground' => true,
         ],
 
-        // Slide 2: Question with options
+        // Slide 2: Question with options  (target: ag)
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-agah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-agah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'options' => [
-                ['text' => 'ag', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/agah.m4a'), 'isAnswer' => true],
-                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
-                ['text' => 'sp', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/spah.m4a'), 'isAnswer' => false],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
+                ['text' => 'ag', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/agah.mp3'), 'isAnswer' => true],
+                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'), 'isAnswer' => false],
+                ['text' => 'sp', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/spah.mp3'), 'isAnswer' => false],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -39,23 +39,23 @@
             'options' => [['text' => 'ag'], ['text' => 'st'], ['text' => 'sp'], ['text' => 'sl']],
         ],
 
-        // Slide 4: Question
+        // Slide 4: Question  (target: ab)
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-abah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-abah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'layout' => 'with-bottom    ',
             'options' => [
                 [
                     'text' => 'sw',
-                    'audio' => asset('assets/audio/phonics_audio-2/sw_sc/swah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/sw_sc/swah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a'), 'isAnswer' => false],
-                ['text' => 'ab', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/abah.m4a'), 'isAnswer' => true],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
+                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3'), 'isAnswer' => false],
+                ['text' => 'ab', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/abah.mp3'), 'isAnswer' => true],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -68,23 +68,23 @@
             'options' => [['text' => 'sw'], ['text' => 'cl'], ['text' => 'ab'], ['text' => 'sl']],
         ],
 
-        // Slide 6: Question
+        // Slide 6: Question  (target: ag)
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-agah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-agah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '45%',
             'layout' => 'with-bottom',
             'options' => [
-                ['text' => 'sn', 'audio' => asset('assets/audio/phonics_audio-2/sk_sn/snah.m4a'), 'isAnswer' => false],
-                ['text' => 'ag', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/agah.m4a'), 'isAnswer' => true],
+                ['text' => 'sn', 'audio' => asset('assets/audio/phonics_audio-2/sk_sn/snah.mp3'), 'isAnswer' => false],
+                ['text' => 'ag', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/agah.mp3'), 'isAnswer' => true],
                 [
                     'text' => 'sm',
-                    'audio' => asset('assets/audio/phonics_audio-2/sm_rev/smah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/sm_rev/smah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'ch', 'audio' => asset('assets/audio/phonics_audio-2/sh_ch/chah.m4a'), 'isAnswer' => false],
+                ['text' => 'ch', 'audio' => asset('assets/audio/phonics_audio-2/sh_ch/chah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -97,23 +97,23 @@
             'options' => [['text' => 'sn'], ['text' => 'ag'], ['text' => 'sm'], ['text' => 'ch']],
         ],
 
-        // Slide 8: Question
+        // Slide 8: Question  (target: ab)
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-abah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-abah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '55%',
             'layout' => 'with-bottom',
             'options' => [
-                ['text' => 'ab', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/abah.m4a'), 'isAnswer' => true],
+                ['text' => 'ab', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/abah.mp3'), 'isAnswer' => true],
                 [
                     'text' => 'cr',
-                    'audio' => asset('assets/audio/phonics_audio-2/fr_cr/crah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/fr_cr/crah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'fl', 'audio' => asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a'), 'isAnswer' => false],
-                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a'), 'isAnswer' => false],
+                ['text' => 'fl', 'audio' => asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3'), 'isAnswer' => false],
+                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -126,23 +126,23 @@
             'options' => [['text' => 'ab'], ['text' => 'cr'], ['text' => 'fl'], ['text' => 'cl']],
         ],
 
-        // Slide 10: Question
+        // Slide 10: Question  (target: ag)
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-agah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-agah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '70%',
             'layout' => 'with-bottom',
             'options' => [
                 [
                     'text' => 'st',
-                    'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'ag', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/agah.m4a'), 'isAnswer' => true],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
-                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
+                ['text' => 'ag', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/agah.mp3'), 'isAnswer' => true],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
+                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -155,17 +155,17 @@
             'options' => [['text' => 'st'], ['text' => 'ag'], ['text' => 'sl'], ['text' => 'tr']],
         ],
 
-        // Slide 12: Wood pads question
+        // Slide 12: Wood pads question  (target: ab)
         [
             'type' => 'question-wood',
-            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-abah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-abah.mp3'),
             'frogPosition' => 'single-top',
             'frogPadText' => 'ag',
             'options' => [
-                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
-                ['text' => 'ab', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/abah.m4a'), 'isAnswer' => true],
-                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/tr_rev/trah.m4a'), 'isAnswer' => false],
+                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'), 'isAnswer' => false],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
+                ['text' => 'ab', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/abah.mp3'), 'isAnswer' => true],
+                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/tr_rev/trah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -251,12 +251,22 @@
             @continue
         @endif {{-- Skip intro slide, already rendered --}}
 
+        @php
+            // The top "Find the [sound]" button plays the sound this slide is asking for.
+            // On question slides it is the audio of the option marked isAnswer (ag or ab).
+            // Answer slides come right after their question, so they keep the same sound.
+            if (in_array($slide['type'], ['question', 'question-wood'])) {
+                $currentTargetAudio =
+                    collect($slide['options'])->firstWhere('isAnswer', true)['audio'] ?? $targetSoundAudio;
+            }
+        @endphp
+
         @if ($slide['type'] === 'question')
             {{-- Question Slide --}}
             <div class="phonics-panel no-bg" data-slide-audio="{{ $slide['audio'] }}">
                 <div class="title-top stroke -translate-1/2">
                     Help the frog get to the other side.
-                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $targetSoundAudio }}">
+                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $currentTargetAudio }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button> </span> sound.
                 </div>
@@ -311,7 +321,7 @@
             <div class="phonics-panel no-bg">
                 <div class="title-top stroke -translate-1/2">
                     Help the frog get to the other side.
-                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $targetSoundAudio }}">
+                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $currentTargetAudio }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button> </span> sound.
                 </div>
@@ -342,7 +352,7 @@
             <div class="phonics-panel no-bg" data-slide-audio="{{ $slide['audio'] }}">
                 <div class="title-top stroke -translate-1/2">
                     Help the frog get to the other side.
-                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $targetSoundAudio }}">
+                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $currentTargetAudio }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button> </span> sound.
                 </div>
@@ -378,11 +388,11 @@
                 </div>
             </div>
         @elseif($slide['type'] === 'answer-wood')
-            {{-- Wood Pads Answer --}}
-           <div class="phonics-panel no-bg" data-slide-audio="{{ $slide['audio'] ?? '' }}">
+            {{-- Wood Pads Answer (final slide) — plays the cheering sound --}}
+            <div class="phonics-panel no-bg answer-slide">
                 <div class="title-top stroke -translate-1/2">
                     Help the frog get to the other side.
-                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $targetSoundAudio }}">
+                    Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $currentTargetAudio }}">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button> </span> sound.
                 </div>
@@ -390,15 +400,10 @@
                     <img src="{{ asset('assets/images/phonics_l2/global/common/frogbg.png') }}"
                         class="h-[33vw] w-[74vw]" />
 
-                    {{-- <div class="pad absolute bottom-0 left-[70%] -translate-1/2 marked">
-                        <div class="relative w-fit h-fit"> --}}
-                            {{-- <img src="{{ asset('assets/images/phonics_l2/global/common/h-frog.png') }}" class="w-[15vw]"> --}}
-                            <img src="{{ asset('assets/images/phonics_l2/global/common/h-frog.png') }}"
-                                class="w-[16vw] absolute bottom-[5%] right-[20%] z-10" />
-                            <span
-                                class="absolute bottom-[8%] right-[26%] text-white text-[2vw] z-20">{{ $slide['frogPadText'] }}</span>
-                        {{-- </div>
-                    </div> --}}
+                    <img src="{{ asset('assets/images/phonics_l2/global/common/h-frog.png') }}"
+                        class="w-[16vw] absolute bottom-[5%] right-[20%] z-10" />
+                    <span
+                        class="absolute bottom-[8%] right-[26%] text-white text-[2vw] z-20">{{ $slide['frogPadText'] }}</span>
                 </div>
             </div>
         @endif
@@ -444,16 +449,19 @@
             const returnURL = "{{ url('/phonics_l2/ag_ab/agab') }}";
             const doneURL = "{{ url('/phonics_l2/ag_ab/agab') }}";
             const homeURL = document.body.dataset.homeRoute;
+            // Make sure this file exists (other lessons use common/bading.mp3)
             const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
+            let pendingSrc = null; // audio blocked by the browser's autoplay policy
             let isInSpecialMode = false;
             let returnToSlide = null;
             let specialSlideClass = null;
 
             /* ── Audio Functions ── */
             function stopAudio() {
+                pendingSrc = null;
                 if (currentAudio) {
                     currentAudio.onended = null;
                     currentAudio.pause();
@@ -465,14 +473,28 @@
             function playAudio(src) {
                 stopAudio();
                 if (!src) return;
-                currentAudio = new Audio(src);
-                currentAudio.play().catch(() => {});
+                const audio = new Audio(src);
+                currentAudio = audio;
+                audio.onerror = () => console.error('Audio failed to load:', src);
+                audio.play().catch(err => {
+                    if (err.name === 'NotAllowedError') pendingSrc = src; // retry on first interaction
+                    else console.error('Audio play failed:', src, err);
+                });
             }
+
+            function retryPendingAudio() {
+                if (!pendingSrc) return;
+                const src = pendingSrc;
+                pendingSrc = null;
+                playAudio(src);
+            }
+            document.addEventListener('click', retryPendingAudio);
+            document.addEventListener('keydown', retryPendingAudio);
 
             function playSlideAudio(idx) {
                 const slide = slides[idx];
-                // If slide has .marked (answer slide) → play cheering
-                if (slide.querySelector('.marked')) {
+                // Answer slides (frog on a pad, or the final wood slide) → cheering
+                if (slide.querySelector('.marked') || slide.classList.contains('answer-slide')) {
                     playAudio(CHEERING);
                     return;
                 }

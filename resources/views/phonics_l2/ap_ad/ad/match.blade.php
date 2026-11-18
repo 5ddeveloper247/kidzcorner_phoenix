@@ -10,15 +10,15 @@
     $introPanelTip = "Tips: Encourage children to say the 'ad' sound. <br>
         Remind them to listen to the initial sound when naming each object.";
 
-    $mascotMessage = "Let's find the <br> pictures that begin <br> with 'ad'.";
+    $mascotMessage = "Let's find the <br> pictures that end <br> with 'ad'.";
 
     $questions = [
         // ── Question 1 ─
         [
             'diagraph' => 'ad',
-            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/pad.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /ad/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/pad.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /ad/ sound.',
             'answerWord' => 'pad',
             'answerEnding' => 'p',
             'answerImage' => 'assets/images/phonics_l2/apad/pad.png',
@@ -26,17 +26,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/swsc/scooter.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/scooter.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/scooter.mp3',
                     'size' => 'w-[5vw]', 
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/pad.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/pad.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/pad.mp3',
                     'size' => 'w-[5vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/chocolate.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.mp3',
                     'size' => 'w-[5vw]',
                 ],
             ],
@@ -45,9 +45,9 @@
         // ── Question 2 —
         [
             'diagraph' => 'ad',
-            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/bath.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /ad/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/bath.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /ad/ sound.',
             'answerWord' => 'bath',
             'answerEnding' => 'ba',
             'answerImage' => 'assets/images/phonics_l2/shth/bath.png',
@@ -55,17 +55,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/bath.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/bath.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/bath.mp3',
                     'size' => 'w-[5vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/whisper.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whisper.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whisper.mp3',
                     'size' => 'w-[5vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                     'size' => 'w-[5vw]',
                 ],
             ],
@@ -74,9 +74,9 @@
         // ── Question 3 —
         [
             'diagraph' => 'ad',
-            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/tooth.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /ad/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/tooth.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /ad/ sound.',
             'answerWord' => 'tooth',
             'answerEnding' => 'too',
             'answerImage' => 'assets/images/phonics_l2/shth/tooth.png',
@@ -84,17 +84,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/tooth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/tooth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/tooth.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/whale.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whale.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whale.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/swsc/swan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.mp3',
                     'size' => 'w-[4vw]',
                 ],
             ],
@@ -102,9 +102,9 @@
         // ── Question 4 —
         [
             'diagraph' => 'ad',
-            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/cloth.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /ad/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/cloth.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /ad/ sound.',
             'answerWord' => 'cloth',
             'answerEnding' => 'clo',
             'answerImage' => 'assets/images/phonics_l2/shth/cloth.png',
@@ -112,17 +112,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/clsl/clock.png',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/cloth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cloth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/cloth.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/thread.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thread.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thread.mp3',
                     'size' => 'w-[4vw]',
                 ],
             ],
@@ -130,9 +130,9 @@
         // ── Question 5 —
         [
             'diagraph' => 'ad',
-            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/mouth.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /ad/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ap_ad/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/mouth.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /ad/ sound.',
             'answerWord' => 'mouth',
             'answerEnding' => 'mou',
             'answerImage' => 'assets/images/phonics_l2/shth/mouth.png',
@@ -140,17 +140,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/swsc/swim.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swim.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swim.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/clsl/clock.png',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/mouth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/mouth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/mouth.mp3',
                     'size' => 'w-[4vw]',
                 ],
             ],
@@ -204,7 +204,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/match-ch.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/match-ad.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />

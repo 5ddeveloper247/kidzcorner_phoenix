@@ -7,7 +7,7 @@ $showBackground = true;
 $returnURL = '/phonics_l2/ap_ad/ad';
 $doneURL = '/phonics_l2/ap_ad/ad';
 
-$diagraph = 'th';
+$diagraph = 'ad';
 
 $sideBtns = ['assets/audio/phonics_audio-2/ap_ad/ad.mp3', 'assets/audio/phonics_audio-2/ap_ad/adah.mp3'];
 
@@ -16,7 +16,7 @@ $words = [
 'image' => 'assets/images/phonics_l2/apad/dad.png',
 'imageSize' => 'h-[20vw]',
 'word' => 'dad',
-'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/ad-ale.mp3',
+'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/d-ad.mp3',
 'tip' =>
 'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /d/..../ad/...dad)',
 ],
@@ -24,35 +24,35 @@ $words = [
 'image' => 'assets/images/phonics_l2/apad/mad.png',
 'imageSize' => 'h-[20vw]',
 'word' => 'mad',
-'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/ad-ree.mp3',
+'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/m-ad.mp3',
 'tip' => null,
 ],
 [
 'image' => 'assets/images/phonics_l2/apad/sad.png',
 'imageSize' => 'h-[20vw]',
 'word' => 'sad',
-'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/ad-istle.mp3',
+'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/s-ad.mp3',
 'tip' => null,
 ],
 [
 'image' => 'assets/images/phonics_l2/apad/glad.png',
 'imageSize' => 'w-[20vw]',
 'word' => 'glad',
-'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/ad-eat.mp3',
+'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/gl-ad.mp3',
 'tip' => null,
 ],
 [
 'image' => 'assets/images/phonics_l2/apad/pad.png',
 'imageSize' => 'h-[20vw]',
 'word' => 'pad',
-'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/ad-ip.mp3',
+'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/p-ad.mp3',
 'tip' => null,
 ],
 [
 'image' => 'assets/images/phonics_l2/apad/bad.png',
 'imageSize' => 'w-[20vw]',
 'word' => 'bad',
-'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/ad-ite.mp3',
+'wordAudio' => 'assets/audio/phonics_audio-2/ap_ad/b-ad.mp3',
 'tip' => null,
 ]
 ];
@@ -162,7 +162,7 @@ $words = [
         <div class="flex gap-[2vw] justify-center items-center panel-title">
             <h2 class="stroke">had</h2>
             <h2 class="stroke">bad</h2>
-            <h2 class="stroke">clad</h2>
+            <h2 class="stroke">glad</h2>
         </div>
 
     </div>
@@ -184,17 +184,12 @@ $words = [
                 words have in <br>
                 common?
             </h2>
-
-            <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/adah.mp3') }}">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
         </div>
 
         <div class="flex gap-[2vw] justify-center items-center panel-title">
             <h2 class="stroke">had</h2>
             <h2 class="stroke">bad</h2>
-            <h2 class="stroke">clad</h2>
+            <h2 class="stroke">glad</h2>
         </div>
     </div>
 </div>
@@ -202,7 +197,7 @@ $words = [
 
 {{-- Intro Panel --}}
 <div class="phonics-panel flex justify-center items-center"
-    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad2.mp3') }}">
+    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad1.mp3') }}">
     <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
     <div>
 
@@ -211,8 +206,8 @@ $words = [
             <h2
                 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[2vw] text-center w-100">
                 You’re right! <br>
-                Shine, she and <br>
-                sharp begin with '<span class="text-[#70af39]">{{ $diagraph }}</span>'.
+                had, bad and <br>
+                glad begin with '<span class="text-[#70af39]">{{ $diagraph }}</span>'.
             </h2>
         </div>
 
@@ -228,7 +223,7 @@ $words = [
             </div>
 
             <div class="relative w-fit h-fit">
-                <h2 class="stroke">clad</h2>
+                <h2 class="stroke">glad</h2>
                 <div class="circle"></div>
             </div>
         </div>
@@ -237,7 +232,7 @@ $words = [
 
 {{-- Intro Panel --}}
 <div class="phonics-panel flex justify-center items-center"
-    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad3.mp3') }}">
+    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad2.mp3') }}">
     <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
     <div class="relative w-fit h-fit">
@@ -254,7 +249,7 @@ $words = [
 
 {{-- Intro Panel --}}
 <div class="phonics-panel flex justify-center items-center"
-    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad4.mp3') }}">
+    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad3.mp3') }}">
     <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
     <div class="relative w-fit h-fit">
@@ -277,7 +272,7 @@ $words = [
 
 {{-- Intro Panel --}}
 <div class="phonics-panel flex justify-center items-center"
-    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad5.mp3') }}">
+    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/ad4.mp3') }}">
     <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
     <div class="relative w-fit h-fit">

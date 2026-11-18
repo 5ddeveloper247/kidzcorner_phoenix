@@ -17,7 +17,8 @@
             'before' => 't', 
             'highlight' => 'ag',
             'after' => '', 
-            'audio' => 'ag_ab/tag.m4a',
+            'audio' => 'ag_ab/t-ag.mp3',
+            'answeraudio' => 'ag_ab/tag.mp3',
             'tip' =>
                 'Tip: Invite children to sound out each word by parts (e.g. /t/.../ag/) <br> before selecting the word that matches the picture.',
         ],
@@ -29,7 +30,8 @@
             'before' => 'dr',
             'highlight' => 'ag',
             'after' => '',
-            'audio' => 'ag_ab/drag.m4a',
+            'audio' => 'ag_ab/dr-ag.mp3',
+            'answeraudio' => 'ag_ab/drag.mp3',
             'tip' => null,
         ],
         [
@@ -40,7 +42,8 @@
             'before' => 'w',
             'highlight' => 'ag',
             'after' => '',
-            'audio' => 'ag_ab/wag.m4a',
+            'audio' => 'ag_ab/w-ag.mp3',
+            'answeraudio' => 'ag_ab/wag.mp3',
             'tip' => null,
         ],
         [
@@ -51,7 +54,8 @@
             'before' => 'st',
             'highlight' => 'ag',
             'after' => '',
-            'audio' => 'ag_ab/stag.m4a',
+            'audio' => 'ag_ab/st-ag.mp3',
+            'answeraudio' => 'ag_ab/stag.mp3',
             'tip' => null,
         ],
         [
@@ -62,7 +66,8 @@
             'before' => 'b',
             'highlight' => 'ag',
             'after' => '',
-            'audio' => 'ag_ab/bag.m4a',
+            'audio' => 'ag_ab/b-ag.mp3',
+            'answeraudio' => 'ag_ab/bag.mp3',
             'tip' => null,
         ],
     ];
@@ -118,7 +123,7 @@
     @foreach ($panels as $panel)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col items-center space-y-[4vw] w-full relative"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/find-word.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="stroke panel-title">Find the word that matches the picture.</h2>
 
@@ -138,7 +143,7 @@
             {{-- Side sound button --}}
             <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-3%] top-[40%]">
                 <button class="w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['audio']) }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['answeraudio']) }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>

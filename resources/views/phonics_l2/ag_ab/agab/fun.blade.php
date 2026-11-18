@@ -15,7 +15,7 @@
         [
             'image' => 'assets/images/phonics_l2/agab/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/fb-agab1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/fb-agab1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'There is a'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'nag',  'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ag_ab/tab.m4a',
-                'assets/audio/phonics_audio-2/ag_ab/flag.m4a',
+                'assets/audio/phonics_audio-2/ag_ab/tab.mp3',
+                'assets/audio/phonics_audio-2/ag_ab/flag.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/agab/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/fb-agab2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/fb-agab2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'tag', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ag_ab/crab.m4a',
-                'assets/audio/phonics_audio-2/ag_ab/bag.m4a',
+                'assets/audio/phonics_audio-2/ag_ab/crab.mp3',
+                'assets/audio/phonics_audio-2/ag_ab/bag.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/agab/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/fb-agab3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/fb-agab3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The boys'],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'cab', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ag_ab/drag.m4a',
-                'assets/audio/phonics_audio-2/ag_ab/cab.m4a',
+                'assets/audio/phonics_audio-2/ag_ab/drag.mp3',
+                'assets/audio/phonics_audio-2/ag_ab/cab.mp3',
             ],
         ],
     ];
@@ -138,14 +138,14 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.mp3') }}">
-        <h2 class="top-title stroke">Fun with Digraphs</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-words.mp3') }}">
+        <h2 class="top-title stroke">Fun with Words</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
         @if ($introPanelTip)
-            <p class="p-note">{!! $introPanelTip !!}</p>
+            <p class="p-note"></p>
         @endif
     </div>
 

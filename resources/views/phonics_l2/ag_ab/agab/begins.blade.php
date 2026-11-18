@@ -12,61 +12,61 @@
     $questions = [
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/agab/jab.png', 'audio' => 'ag_ab/jab.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/agab/jab.png', 'audio' => 'ag_ab/jab.mp3', 'size' => 'w-[6vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/grab.png',
-            'answer_audio' => 'ag_ab/grab.m4a',
+            'answer_audio' => 'ag_ab/iew-grab.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/rag.png',
-            'answer_audio' => 'ag_ab/rag.m4a',
+            'answer_audio' => 'ag_ab/iew-rag.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 0,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/wrap.png', 'audio' => 'ap_ad/wrap.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.m4a', 'size' => 'h-[7vw]'],
+                ['img' => 'phonics_l2/apad/wrap.png', 'audio' => 'ap_ad/wrap.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.mp3', 'size' => 'h-[7vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/lab.png',
-            'answer_audio' => 'ag_ab/lab.m4a',
+            'answer_audio' => 'ag_ab/iew-lab.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/agab/wag.png', 'audio' => 'ag_ab/wag.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/apad/glad.png', 'audio' => 'ap_ad/glad.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/agab/wag.png', 'audio' => 'ag_ab/wag.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/apad/glad.png', 'audio' => 'ap_ad/glad.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/tag.png',
-            'answer_audio' => 'ag_ab/tag.m4a',
+            'answer_audio' => 'ag_ab/iew-tag.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 0,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/glad.png', 'audio' => 'ap_ad/glad.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/agab/nab.png', 'audio' => 'ag_ab/nab.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/apad/glad.png', 'audio' => 'ap_ad/glad.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/agab/nab.png', 'audio' => 'ag_ab/nab.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/crab.png',
-            'answer_audio' => 'ag_ab/crab.m4a',
+            'answer_audio' => 'ag_ab/iew-crab.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/agab/drag.png', 'audio' => 'ag_ab/drag.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/apad/trap.png', 'audio' => 'ap_ad/trap.m4a', 'size' => 'w-[7vw]'],
+                ['img' => 'phonics_l2/agab/drag.png', 'audio' => 'ag_ab/drag.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/apad/trap.png', 'audio' => 'ap_ad/trap.mp3', 'size' => 'w-[7vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/flag.png',
-            'answer_audio' => 'ag_ab/flag.m4a',
+            'answer_audio' => 'ag_ab/iew-flag.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 0,
         ],
@@ -251,7 +251,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

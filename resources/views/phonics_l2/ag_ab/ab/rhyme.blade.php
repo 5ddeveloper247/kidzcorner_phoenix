@@ -36,7 +36,7 @@
 
     {{-- Panel 2: Song Content Slide --}}
     <div class="phonics-panel flex flex-col mt-[-3vw] h-full items-center space-y-[1.5vw]">
-        <h2 class="large-title stroke">Brad and Chad</h2>
+        <h2 class="large-title stroke">Grab a Hermit Crab</h2>
         <img src="{{ asset('assets/images/phonics_l2/agab/rhyme.png') }}" class="h-[20vw]" />
 
         <p class="p-note">Tips: After reciting the rhyme, invite children to find the words that begin with the target blend
