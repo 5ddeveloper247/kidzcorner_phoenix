@@ -8,84 +8,82 @@
         'text' => 'et',
         'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.mp3',
     ];
-    $lastBg = 'assets/images/phonics_l2/global/common/m7.png'; 
+    $lastBg = 'assets/images/phonics_l2/global/common/m7.png';
 
     $cheerAudio = 'assets/audio/phonics_audio-2/common/cheering.mp3';
-    
+
     $questions = [
         // ── Question 1 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ob_og/spot-obah.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ob_og/spot-obah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m1.png',
             'circles' => [
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => true],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
+                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.mp3', 'isCorrect' => true],
+                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.mp3', 'isCorrect' => false],
+                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.mp3', 'isCorrect' => false],
+                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ob_og/spot-ogah.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ob_og/spot-ogah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m2.png',
             'circles' => [
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => true],
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => false],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
+                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.mp3', 'isCorrect' => false],
+                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.mp3', 'isCorrect' => true],
+                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.mp3', 'isCorrect' => false],
+                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ob_og/spot-obah.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ob_og/spot-obah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m3.png',
             'circles' => [
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => false],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => true],
+                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.mp3', 'isCorrect' => false],
+                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.mp3', 'isCorrect' => false],
+                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.mp3', 'isCorrect' => false],
+                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.mp3', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 4 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ob_og/spot-ogah.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ob_og/spot-ogah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m4.png',
             'circles' => [
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => false],
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => true],
+                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.mp3', 'isCorrect' => false],
+                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.mp3', 'isCorrect' => false],
+                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.mp3', 'isCorrect' => false],
+                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.mp3', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 5 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ob_og/spot-obah.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ob_og/spot-obah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m5.png',
             'circles' => [
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => true],
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
+                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.mp3', 'isCorrect' => true],
+                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.mp3', 'isCorrect' => false],
+                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.mp3', 'isCorrect' => false],
+                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 6 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ob_og/spot-ogah.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ob_og/spot-ogah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m6.png',
             'circles' => [
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => false],
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => true],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
+                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.mp3', 'isCorrect' => false],
+                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.mp3', 'isCorrect' => false],
+                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.mp3', 'isCorrect' => true],
+                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.mp3', 'isCorrect' => false],
             ],
         ],
-
- 
     ];
 
 @endphp
@@ -179,10 +177,10 @@
 
     {{-- ========== QUESTION + ANSWER SLIDES  ========== --}}
     @foreach ($questions as $i => $q)
-       @php
-    $nextBg = $questions[$i + 1]['bgImage'] ?? $lastBg;  
-    $isLast = $i === count($questions) - 1;
-@endphp
+        @php
+            $nextBg = $questions[$i + 1]['bgImage'] ?? $lastBg;
+            $isLast = $i === count($questions) - 1;
+        @endphp
 
         {{-- QUESTION SLIDE --}}
         <div class="phonics-panel no-bg" data-audio="{{ asset($q['slideAudio']) }}">

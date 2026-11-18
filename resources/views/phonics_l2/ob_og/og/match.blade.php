@@ -8,39 +8,40 @@
     $returnURL = '/phonics_l2/ob_og/og';
     $doneURL = '/phonics_l2/ob_og/og';
 
-    // Questions Data - Super Easy to Edit!
     $questions = [
         [
             'top_image' => 'phonics_l2/agab/grab.png',
-            'top_audio' => 'sw_sc/grab.m4a',
+            'top_audio' => 'sw_sc/grab.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/edet/pet.png', 'audio' => 'ed_eyt/pet.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/obog/frog.png', 'audio' => 'ob_og/frog.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/edet/pet.png', 'audio' => 'ed_et/pet.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/obog/frog.png', 'audio' => 'ob_og/frog.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 1,
+            'answer_audio' => 'ob_og/mi-frog.mp3',
             'answer_background' => 'oval-ans',
-            'highlight_position' => 1, 
+            'highlight_position' => 1,
 
             'word_prefix' => 'fr',
             'word_suffix' => 'og',
 
             'instruction' => 'Find the picture that <br> ends with the <br> /og/ sound.',
         ],
-        // 2 - 
+        // 2 -
         [
             'top_image' => 'phonics_l2/swsc/scooter.png',
-            'top_audio' => 'sw_sc/scooter.m4a',
+            'top_audio' => 'sw_sc/scooter.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/obog/jog.png', 'audio' => 'ob_go/jog.m4a', 'size' => 'h-[6vw]'],
-                ['img' => 'phonics_l2/edet/net.png', 'audio' => 'ed_et/net.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/obog/jog.png', 'audio' => 'ob_og/jog.mp3', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/edet/net.png', 'audio' => 'ed_et/net.mp3', 'size' => 'h-[6vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'ob_og/mi-jog.mp3',
             'answer_background' => 'green',
-            'highlight_position' => 0, 
+            'highlight_position' => 0,
 
             'word_prefix' => 'j',
             'word_suffix' => 'og',
@@ -48,19 +49,20 @@
             'instruction' => 'Find the picture that <br> ends with the <br> /og/ sound.',
         ],
 
-        // 3 - 
+        // 3 -
         [
             'top_image' => 'phonics_l2/agab/cab.png',
-            'top_audio' => 'ag_ab/cab.m4a',
+            'top_audio' => 'ag_ab/cab.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/edet/jet.png', 'audio' => 'ed_et/jet.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/obog/log.png', 'audio' => 'ob_og/log.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/edet/jet.png', 'audio' => 'ed_et/jet.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/obog/log.png', 'audio' => 'ob_og/log.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'ob_og/mi-log.mp3',
             'answer_background' => 'yellow',
-            'highlight_position' => 1, 
+            'highlight_position' => 1,
 
             'word_prefix' => 'l',
             'word_suffix' => 'og',
@@ -71,14 +73,15 @@
         // 4
         [
             'top_image' => 'phonics_l2/obog/dog.png',
-            'top_audio' => 'ob_og/dog.m4a',
+            'top_audio' => 'ob_og/dog.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.mp3', 'size' => 'h-[6vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'ob_og/mi-dog.mp3',
             'answer_background' => 'oval-ans',
             'highlight_position' => 'top',
 
@@ -87,8 +90,6 @@
 
             'instruction' => 'Find the picture that <br> ends with the <br> /og/ sound.',
         ],
-
-        
     ];
 @endphp
 
@@ -124,7 +125,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-it.mp3') }}">
         <h2 class="top-title stroke">Match It</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -134,10 +135,29 @@
             Remind them to listen to the initial sound when naming each object.</p>
     </div>
 
+
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/match-og.mp3') }}">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw]" />
+                <h2 class="absolute top-1/2 left-1/2 -translate-1/2 text-[#A15E0D] text-[2vw] text-center w-100">
+                    Let's find the <br>
+                    pictures that end <br>
+                    with '<span class="text-[#70af39]">og</span>'!
+                </h2>
+            </div>
+        </div>
+        <p class="p-note">Tips: Children to name the picture first. <br>
+            Encourage them to identify each of the initial target sound made by each word.</p>
+    </div>
+
+
     {{-- Auto-generated Question & Answer Panels --}}
     @foreach ($questions as $index => $q)
-        {{-- Question Panel --}}
-        <div class="phonics-panel flex justify-center items-center gap-[1vw]">
+        {{-- Question Panel (data-correct = index of the right bottom picture) --}}
+        <div class="phonics-panel flex justify-center items-center gap-[1vw]" data-correct="{{ $q['correct_answer'] }}"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/match-box.mp3') }}">
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -187,8 +207,9 @@
             </div>
         </div>
 
-        {{-- Answer Panel (with highlighted correct answer) --}}
-        <div class="phonics-panel flex justify-center items-center gap-[2vw]">
+        {{-- Answer Panel: plays its OWN answer sound ('answer_audio'), no cheering --}}
+        <div class="phonics-panel flex justify-center items-center gap-[2vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['answer_audio']) }}">
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -246,7 +267,7 @@
                 </div>
             </div>
 
-            {{-- Right Side: Instruction Box --}}
+            {{-- Right Side --}}
             <div class="flex flex-col items-end gap-[1vw]">
                 <img src="{{ asset('assets/images/phonics_l2/global/common/happy.png') }}" class="h-[20vw]" />
             </div>
@@ -292,13 +313,14 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l1') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
+            let audioTimer = null;
 
             // Audio functions
             function stopAudio() {
+                clearTimeout(audioTimer); // cancels a pending delayed slide audio
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
@@ -306,20 +328,14 @@
                 }
             }
 
-            function playAudio(src, onEnd) {
+            function playAudio(src) {
                 stopAudio();
-                if (!src) {
-                    if (onEnd) onEnd();
-                    return;
-                }
+                if (!src) return;
                 currentAudio = new Audio(src);
-                if (onEnd) currentAudio.onended = onEnd;
-                currentAudio.play().catch(() => {
-                    if (onEnd) onEnd();
-                });
+                currentAudio.play().catch(() => {});
             }
 
-            // Show slide
+            // Show slide (plays the slide's own audio after a short delay)
             function showSlide(idx) {
                 stopAudio();
                 currentSlide = idx;
@@ -329,7 +345,7 @@
                 nextButtons.forEach(b => b.classList.toggle('hidden', isLast));
                 doneButtons.forEach(b => b.classList.toggle('hidden', !isLast));
 
-                setTimeout(() => {
+                audioTimer = setTimeout(() => {
                     playAudio(slides[idx].getAttribute('data-slide-audio'));
                 }, 500);
             }
@@ -349,26 +365,17 @@
                 }
             }
 
-            // Handle answer option clicks (on question slides)
-            const correctAnswers = @json(array_column($questions, 'correct_answer'));
+            // Question slides: clicking the correct picture opens the answer slide,
+            // which plays its own answer sound.
+            slides.forEach(slide => {
+                if (slide.dataset.correct === undefined) return; // not a question slide
+                const correctAnswer = parseInt(slide.dataset.correct, 10);
 
-            slides.forEach((slide, slideIdx) => {
-                const answerOptions = slide.querySelectorAll('[data-answer-option]');
-                if (answerOptions.length === 0) return; // Skip if not a question slide
-
-                // Calculate which question this is (skip intro slide)
-                const questionIndex = Math.floor((slideIdx - 1) / 2);
-                if (questionIndex < 0 || questionIndex >= correctAnswers.length) return;
-
-                const correctAnswer = correctAnswers[questionIndex];
-
-                answerOptions.forEach((option, optionIdx) => {
+                slide.querySelectorAll('[data-answer-option]').forEach(option => {
                     option.style.cursor = 'pointer';
                     option.addEventListener('click', () => {
-                        if (optionIdx === correctAnswer) {
-                            // Correct answer clicked - play cheering and go to next
-                            playAudio(cheeringAudio, () => goNext());
-                        }
+                        if (parseInt(option.dataset.answerOption, 10) === correctAnswer)
+                            goNext();
                     });
                 });
             });
@@ -389,15 +396,9 @@
                 window.location.href = homeURL;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             showSlide(0);
         });

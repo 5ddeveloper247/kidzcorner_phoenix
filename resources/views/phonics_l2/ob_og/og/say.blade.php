@@ -9,14 +9,14 @@
 
     $diagraph = 'og';
 
-    $sideBtns = ['assets/audio/phonics_audio-2/ob_og/og.m4a', 'assets/audio/phonics_audio-2/ob_og/ogah.m4a'];
+    $sideBtns = ['assets/audio/phonics_audio-2/ob_og/og.mp3', 'assets/audio/phonics_audio-2/ob_og/ogah.mp3'];
 
     $words = [
         [
             'image' => 'assets/images/phonics_l2/obog/dog.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'dog',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/og-sh.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/d-og.mp3',
             'tip' =>
                 'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /j/..../et/...jet)',
         ],
@@ -24,35 +24,35 @@
             'image' => 'assets/images/phonics_l2/obog/jog.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'jog',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/og-ree.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/j-og.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/obog/log.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'log',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/og-read.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/l-og.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/obog/fog.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'fog',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/og-irty.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/f-og.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/obog/clog.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'clog',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/og-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/cl-og.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/obog/frog.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'frog',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/og-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ob_og/fr-og.mp3',
             'tip' => null,
         ],
     ];
@@ -104,7 +104,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.mp3') }}">
         {{-- <h2 class="top-title stroke">Let's Blend</h2> --}}
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/say.png') }}" class="w-[30vw] h-[20vw]" />
@@ -146,7 +146,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -170,7 +170,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -186,7 +186,7 @@
                 </h2>
 
                 <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/ogah.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/ogah.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -202,7 +202,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div>
 
@@ -237,7 +237,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -254,7 +254,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -268,7 +268,7 @@
             </h2>
 
             <button class="absolute right-[36%] top-[25%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/ogah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/ogah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -277,7 +277,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/og4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">

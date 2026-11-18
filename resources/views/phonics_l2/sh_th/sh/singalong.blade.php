@@ -1,4 +1,4 @@
-@extends('layout.master')
+w@extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
 @php

@@ -23,19 +23,19 @@
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/sh_th/th/say') }}">
+            <a href="{{ url('/phonics_l2/ch_rev/th/say') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b12.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/sh_th/th/rhyme') }}">
+            <a href="{{ url('/phonics_l2/ch_rev/th/rhyme') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b6.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/sh_th/th/match') }}">
+            <a href="{{ url('/phonics_l2/ch_rev/th/match') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b8.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/sh_th/th/wordhunt') }}">
+            <a href="{{ url('/phonics_l2/ch_rev/th/wordhunt') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b7.png') }}" class="mx-auto d-block" />
             </a>
 
@@ -46,7 +46,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url ('/phonics_l2/sh_th') }}" id="returnButton">
+        <a href="{{ url ('/phonics_l2/ch_rev') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 

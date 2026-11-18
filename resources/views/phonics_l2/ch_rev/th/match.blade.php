@@ -4,39 +4,39 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/sh_th/th';
-    $doneURL = '/phonics_l2/sh_th/th';
+    $returnURL = '/phonics_l2/ch_rev/th';
+    $doneURL = '/phonics_l2/ch_rev/th';
 
     $introPanelTip = "Tips: Encourage children to say the 'th' sound. <br>
         Remind them to listen to the initial sound when naming each object.";
 
-    $mascotMessage = "Let's find the <br> pictures that begin <br> with 'th'.";
+    $mascotMessage = "Let's find the <br> pictures that end <br> with '<span class='text-[#70af39]'>th</span>'.";
 
     $questions = [
         // ── Question 1 ─
         [
             'diagraph' => 'th',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/moth.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /th/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mi-moth.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /th/ sound.',
             'answerWord' => 'moth',
             'answerEnding' => 'mo',
             'answerImage' => 'assets/images/phonics_l2/shth/moth.png',
-            'answerImageSize' => 'w-[10vw]', 
+            'answerImageSize' => 'w-[10vw]',
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/thwh/whiskers.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whiskers.m4a',
-                    'size' => 'w-[5vw]', 
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whiskers.mp3',
+                    'size' => 'w-[5vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/moth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/moth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/moth.mp3',
                     'size' => 'w-[5vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/chocolate.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chocolate.mp3',
                     'size' => 'w-[5vw]',
                 ],
             ],
@@ -45,9 +45,9 @@
         // ── Question 2 —
         [
             'diagraph' => 'th',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/bath.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /th/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mi-bath.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /th/ sound.',
             'answerWord' => 'bath',
             'answerEnding' => 'ba',
             'answerImage' => 'assets/images/phonics_l2/shth/bath.png',
@@ -55,17 +55,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/bath.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/bath.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/bath.mp3',
                     'size' => 'w-[5vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/whisper.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whisper.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whisper.mp3',
                     'size' => 'w-[5vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                     'size' => 'w-[5vw]',
                 ],
             ],
@@ -74,9 +74,9 @@
         // ── Question 3 —
         [
             'diagraph' => 'th',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/tooth.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /th/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mi-tooth.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /th/ sound.',
             'answerWord' => 'tooth',
             'answerEnding' => 'too',
             'answerImage' => 'assets/images/phonics_l2/shth/tooth.png',
@@ -84,17 +84,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/tooth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/tooth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/tooth.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/whale.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whale.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/whale.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/swsc/swan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swan.mp3',
                     'size' => 'w-[4vw]',
                 ],
             ],
@@ -102,9 +102,9 @@
         // ── Question 4 —
         [
             'diagraph' => 'th',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/cloth.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /th/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mi-cloth.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /th/ sound.',
             'answerWord' => 'cloth',
             'answerEnding' => 'clo',
             'answerImage' => 'assets/images/phonics_l2/shth/cloth.png',
@@ -112,17 +112,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/clsl/clock.png',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/cloth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/cloth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/cloth.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/thread.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thread.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/thread.mp3',
                     'size' => 'w-[4vw]',
                 ],
             ],
@@ -130,9 +130,9 @@
         // ── Question 5 —
         [
             'diagraph' => 'th',
-            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mouth.m4a',
-            'questionText' => 'Find the picture that <br> begins with the <br> /th/ sound.',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sh_th/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mi-mouth.mp3',
+            'questionText' => 'Find the picture that <br> end with the <br> /th/ sound.',
             'answerWord' => 'mouth',
             'answerEnding' => 'mou',
             'answerImage' => 'assets/images/phonics_l2/shth/mouth.png',
@@ -140,17 +140,17 @@
             'items' => [
                 [
                     'image' => 'assets/images/phonics_l2/swsc/swim.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swim.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sw_sc/swim.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/clsl/clock.png',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clock.mp3',
                     'size' => 'w-[4vw]',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/mouth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/mouth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/mouth.mp3',
                     'size' => 'w-[4vw]',
                 ],
             ],
@@ -204,7 +204,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/match-ch.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/match-th.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}" class="w-[30vw] h-[23vw]" />
@@ -320,12 +320,11 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = document.body.dataset.homeRoute;
-            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
 
-            // ── Audio helpers ─────────────────────────────────────
+            // ── Audio ─────────────────────────────────────────────
             function stopAudio() {
                 if (currentAudio) {
                     currentAudio.onended = null;
@@ -334,26 +333,20 @@
                 }
             }
 
-            // Plays a list of audio files one after another
-            function playSequence(sources, idx = 0) {
-                if (idx >= sources.length) return;
+            function playAudio(src) {
                 stopAudio();
-                currentAudio = new Audio(sources[idx]);
-                currentAudio.onended = () => playSequence(sources, idx + 1);
+                if (!src) return;
+                currentAudio = new Audio(src);
                 currentAudio.play().catch(() => {});
             }
 
-            // ── Show a slide ──────────────────────────────────────
+            // ── Show slide ────────────────────────────────────────
             function showSlide(idx) {
                 stopAudio();
                 currentSlide = idx;
                 slides.forEach((s, i) => s.classList.toggle('hidden', i !== idx));
 
-                const src = slides[idx].getAttribute('data-slide-audio');
-                const isAnswer = slides[idx].classList.contains('answer');
-
-                // Answer panels: play audio then cheering
-                if (src) playSequence(isAnswer ? [src, CHEERING] : [src]);
+                playAudio(slides[idx].getAttribute('data-slide-audio'));
 
                 const isLast = idx >= slides.length - 1;
                 nextButtons.forEach(b => b.classList.toggle('hidden', isLast));
@@ -361,9 +354,16 @@
             }
 
             // ── Navigation ────────────────────────────────────────
-            nextButtons.forEach(b => b.addEventListener('click', () => {
+            function goNext() {
                 if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);
-            }));
+            }
+
+            nextButtons.forEach(b => b.addEventListener('click', goNext));
+
+            // Clicking the answer options box also advances the slide
+            document.querySelectorAll('.answer-option').forEach(opt => {
+                opt.addEventListener('click', goNext);
+            });
 
             returnButton?.addEventListener('click', () => {
                 if (currentSlide === 0) {
@@ -377,21 +377,15 @@
                 window.location.href = homeURL;
             });
 
+            // Done button: stop the audio and go to the done page
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
-            // ── Sound buttons ─────────────────────────────────────
             soundButtons.forEach(b => b.addEventListener('click', e => {
                 e.stopPropagation();
-                playSequence([b.getAttribute('data-slide-audio')]);
+                playAudio(b.getAttribute('data-slide-audio'));
             }));
 
             showSlide(0);

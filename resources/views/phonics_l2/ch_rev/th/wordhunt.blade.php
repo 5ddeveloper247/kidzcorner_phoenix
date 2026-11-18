@@ -4,11 +4,10 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/sh_th/th';
-    $doneURL = '/phonics_l2/sh_th/th';
+    $returnURL = '/phonics_l2/ch_rev/th';
+    $doneURL = '/phonics_l2/ch_rev/th';
 
-    $introPanelTip = "Tips: Encourage children to say the 'pl' sound. <br>
-        Remind them to listen to the initial sound when naming each object.";
+
 
     $questions = [
         // ── Question 1 ──
@@ -18,18 +17,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/bath.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/bath.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/bath.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/path.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/path.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/path.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'bath',
             'answerImage' => 'assets/images/phonics_l2/shth/bath.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/bath.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/ba-th.mp3',
             'answerDiagraph' => 'th',
             'answerRest' => 'ba',
         ],
@@ -40,18 +39,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/mug.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/mug.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/froth.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/cloth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/cloth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/cloth.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'cloth',
             'answerImage' => 'assets/images/phonics_l2/shth/cloth.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/cloth.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/clo-th.mp3',
             'answerDiagraph' => 'th',
             'answerRest' => 'clo',
         ],
@@ -62,18 +61,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/teeth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/teeth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/teeth.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/wreath.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/wreath.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/wreath.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'teeth',
             'answerImage' => 'assets/images/phonics_l2/shth/teeth.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/teeth.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/tee-th.mp3',
             'answerDiagraph' => 'th',
             'answerRest' => 'tee',
         ],
@@ -84,18 +83,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/mouth.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/mouth.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/mouth.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/thwh/wheel.png',
-                    'audio' => 'assets/audio/phonics_audio-2/th_wh/wheel.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/th_wh/wheel.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'mouth',
             'answerImage' => 'assets/images/phonics_l2/shth/mouth.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mouth.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/sh_th/mou-th.mp3',
             'answerDiagraph' => 'th',
             'answerRest' => 'mou',
         ],
@@ -146,9 +145,6 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        @if ($introPanelTip)
-            <p class="p-note">{!! $introPanelTip !!}</p>
-        @endif
     </div>
 
 
@@ -156,7 +152,7 @@
     @foreach ($questions as $q)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[4vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 

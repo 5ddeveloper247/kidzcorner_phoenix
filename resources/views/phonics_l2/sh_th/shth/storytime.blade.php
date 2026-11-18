@@ -51,47 +51,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st1.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st1.png',
                 'text' => 'The Starfish and His Tooth',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st2.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st2.png',
                 'text' => 'A starfish had a bath in a little dish.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st3.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st3.png',
                 'text' => 'Along came Cash the cat and with one big push.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st4.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st4.png',
                 'text' => 'Crash went the little dish on the floor.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st5.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st5.png',
                 'text' => 'The starfish grabbed a cloth and went through the door',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st6.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st6.png',
                 'text' => 'Ran behind the bush and then he saw',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st7.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st7.png',
                 'text' => 'His tooth on the floor!',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st8.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st8.png',
                 'text' => 'With his hand over his mouth he made a wish.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/st9.mp3',
                 'image' => 'assets/images/phonics_l2/shth/st9.png',
                 'text' => 'Swoosh! He and his tooth were back in the little dish.',
             ],
@@ -99,30 +99,30 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq1.mp3',
                 'question' => "What was the\nstarfish doing\nin the dish?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq2.mp3',
                 'question' => "Why did Cash\nthe cat push\nthe dish?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq3.mp3',
                 'question' => "What did the\nstarfish do when\nthe dish landed\non the floor?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq4.mp3',
                 'question' => "What did the\nstarfish hide\nbehind the bush?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/sh_th/stq5.mp3',
                 'question' => "What did the\nstarfish wish\nfor?",
                 'tip' => 'Tip: Elicit response from children.',
-            ]
+            ],
         ];
 
     @endphp
@@ -149,7 +149,8 @@
     @foreach ($storySlides as $slide)
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
-            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'The Starfish and His Tooth' : '' }}
+            <h2 class="title-top stroke">
+                {{ $storySlides[0]['text'] === $slide['text'] ? 'The Starfish and His Tooth' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)
@@ -196,7 +197,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -243,7 +244,8 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.
+            </div>
             <div class="question">Along came Cash the cat and with one big push</div>
             <div class="question">Crash went the little dish on the floor</div>
             <div class="question">The starfish grabbed a cloth and went through the door.</div>
@@ -251,7 +253,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -300,8 +302,10 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Along came Cash the cat and with one big push
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Along came Cash the cat and with one
+                big push
             </div>
             <div class="question">Crash went the little dish on the floor</div>
             <div class="question">The starfish grabbed a cloth and went through the door.</div>
@@ -309,7 +313,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -361,8 +365,10 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Along came Cash the cat and with one big push
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Along came Cash the cat and with one
+                big push
             </div>
             <div class="question done"><span class="absolute left-0 pl-5">3</span> Crash went the little dish on the floor
             </div>
@@ -371,7 +377,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -391,7 +397,8 @@
             <div class="question">A starfish had a bath in a little dish.</div>
             <div class="question">Along came Cash the cat and with one big push</div>
             <div class="question">Crash went the little dish on the floor</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">The starfish grabbed a cloth and went through the door.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">The starfish grabbed a cloth and went through the door.
+            </div>
         </div>
     </div>
 
@@ -426,10 +433,14 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Along came Cash the cat and with one big push</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Crash went the little dish on the floor</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> The starfish grabbed a cloth and went through the door.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> A starfish had a bath in a little dish.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Along came Cash the cat and with one
+                big push</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Crash went the little dish on the floor
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> The starfish grabbed a cloth and went
+                through the door.</div>
         </div>
     </div>
 

@@ -51,70 +51,70 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/st1.mp3',
                 'image' => 'assets/images/phonics_l2/edet/story1.png',
                 'text' => 'Ned and His Pet',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/st2.mp3',
                 'image' => 'assets/images/phonics_l2/edet/story2.png',
                 'text' => 'Ned wanted to bring his pet to the vet.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/st3.mp3',
                 'image' => 'assets/images/phonics_l2/edet/story3.png',
                 'text' => 'The vet lived in a creepy old jet.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/st4.mp3',
                 'image' => 'assets/images/phonics_l2/edet/story4.png',
                 'text' => 'That had only a bed shaped like a sled that was red.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/st5.mp3',
                 'image' => 'assets/images/phonics_l2/edet/story5.png',
                 'text' => 'Trembling, Ned led his pet towards the vet.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/st6.mp3',
                 'image' => 'assets/images/phonics_l2/edet/story6.png',
                 'text' => 'Ned’s pet was now soaking wet with sweat.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/st7.mp3',
                 'image' => 'assets/images/phonics_l2/edet/story7.png',
                 'text' => 'When they met the vet holding a net, they just fled.',
-            ]
+            ],
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq1.mp3',
                 'question' => "Why did Ned want \n to bring his pet \n to the vet?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq2.mp3',
                 'question' => "What was on \n the jet?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq3.mp3',
                 'question' => "Why did Ned \n tremble?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq4.mp3',
                 'question' => "Why was Ned’s \n pet soaking wet?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq5.mp3',
                 'question' => "Why did Ned \n and his pet flee \n from the vet?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq6.mp3',
                 'question' => "Why was the \nvet holding the\n net?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -191,7 +191,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -238,7 +238,8 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.
+            </div>
             <div class="question">The vet lived in a creepy old jet.</div>
             <div class="question">Trembling, Ned led his pet towards the vet,</div>
             <div class="question">Ned’s pet was now soaking wet with sweat.</div>
@@ -246,7 +247,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -295,15 +296,17 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.
+            </div>
             <div class="question">Trembling, Ned led his pet towards the vet,</div>
             <div class="question">Ned’s pet was now soaking wet with sweat.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -355,15 +358,18 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Trembling, Ned led his pet towards the vet,</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Trembling, Ned led his pet towards the
+                vet,</div>
             <div class="question">Ned’s pet was now soaking wet with sweat.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -421,9 +427,12 @@
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Trembling, Ned led his pet towards the vet,</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Trembling, Ned led his pet towards the
+                vet,</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> Ned’s pet was now soaking wet with
+                sweat.</div>
         </div>
     </div>
 

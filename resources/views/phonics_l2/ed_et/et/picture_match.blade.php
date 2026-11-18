@@ -13,14 +13,15 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/jet.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/jet.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/jet.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/ed_et/pm-jet.mp3',
                     'isCorrect' => true,
                     'word' => 'jet',
                     'highlight' => 'et',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/crab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab.mp3',
                     'isCorrect' => false,
                 ],
             ],
@@ -32,12 +33,13 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/bed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/pet.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/pet.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/pet.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/ed_et/pm-pet.mp3',
                     'isCorrect' => true,
                     'word' => 'pet',
                     'highlight' => 'et',
@@ -51,14 +53,15 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/wet.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/wet.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/wet.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/ed_et/pm-wet.mp3',
                     'isCorrect' => true,
                     'word' => 'wet',
                     'highlight' => 'et',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.mp3',
                     'isCorrect' => false,
                 ],
             ],
@@ -70,12 +73,13 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/fan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/fan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/fan.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/net.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/net.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/net.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/ed_et/pm-net.mp3',
                     'isCorrect' => true,
                     'word' => 'net',
                     'highlight' => 'et',
@@ -116,7 +120,7 @@
 @section('content')
 
     {{-- ========== SLIDE 1: INTRO ========== --}}
-    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.mp3') }}">
+    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/common/pic-match.mp3') }}">
         <h2 class="top-title stroke">Picture Match</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -126,15 +130,20 @@
 
     {{-- ========== SLIDES 2+3 per question (Question + Answer) ========== --}}
     @foreach ($questions as $q)
+        @php
+            // The correct option of THIS question (its answer audio is used on the answer slide)
+            $correct = collect($q['options'])->firstWhere('isCorrect', true);
+        @endphp
+
         {{-- QUESTION SLIDE --}}
         <div class="phonics-panel flex flex-col justify-between h-full space-y-[2vw] items-center"
-            data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/find.mp3') }}">
             <div>
                 {{-- Title --}}
                 <div class="flex">
                     <h2 class="panel-title stroke">Find the picture whose name ends with the same sound as</h2>
                     <button class="sound-btn w-[2.5vw]"
-                        data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                        data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                 </div>
@@ -161,19 +170,12 @@
             @endif
         </div>
 
-        {{-- ANSWER SLIDE --}}
-        <div class="phonics-panel flex flex-col justify-start h-full space-y-[2vw] items-center"
-            data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
-            {{-- Title --}}
-            <div class="flex">
-                <h2 class="panel-title stroke">Find the picture whose name ends with the same sound as</h2>
-                <button class="sound-btn w-[2.5vw]" data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
+        {{-- ANSWER SLIDE (answer sound, then cheering) --}}
+        <div class="phonics-panel answer flex flex-col justify-start h-full space-y-[2vw] items-center"
+            data-audio="{{ asset($correct['answeraudio']) }}">
 
             {{-- Options with answers shown --}}
-            <div class="flex w-full justify-around">
+            <div class="flex justify-around w-[52vw] mt-[3vw]">
                 @foreach ($q['options'] as $opt)
                     <div>
                         <div class="relative w-fit h-fit">
@@ -231,7 +233,7 @@
 
         const returnURL = "{{ url($returnURL) }}";
         const doneURL = "{{ url($doneURL) }}";
-        const cheerAudio = "{{ asset('assets/audio/phonics_audio-2/bl_pl/cheering.m4a') }}";
+        const cheerAudio = "{{ asset('assets/audio/phonics_audio-2/common/chering.mp3') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
 
@@ -249,6 +251,7 @@
             // ── Audio ─────────────────────────────────────
             function stopAudio() {
                 if (currentAudio) {
+                    currentAudio.onended = null; // cancels any pending cheering
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
                     currentAudio = null;
@@ -261,9 +264,15 @@
                     if (onEnd) onEnd();
                     return;
                 }
-                currentAudio = new Audio(src);
-                if (onEnd) currentAudio.onended = onEnd;
-                currentAudio.play().catch(() => {
+                const audio = new Audio(src);
+                currentAudio = audio;
+                if (onEnd) {
+                    audio.onended = () => {
+                        if (currentAudio !== audio) return; // slide changed meanwhile
+                        onEnd();
+                    };
+                }
+                audio.play().catch(() => {
                     if (onEnd) onEnd();
                 });
             }
@@ -278,21 +287,22 @@
                 nextBtns.forEach(b => b.classList.toggle("hidden", isLast));
                 doneBtns.forEach(b => b.classList.toggle("hidden", !isLast));
 
-                // play slide audio with no delay (like file 2)
-                playAudio(slides[idx].getAttribute("data-audio"));
+                const slide = slides[idx];
+                const isAnswer = slide.classList.contains("answer");
+
+                // Answer slide: answer sound first, then the cheering sound
+                playAudio(slide.getAttribute("data-audio"), isAnswer ? () => playAudio(cheerAudio) : null);
             }
 
             function goNext() {
                 if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);
             }
 
-            // ── Correct option click → cheer → then go next ──
+            // ── Correct option click → answer slide opens (answer sound, then cheering) ──
             optionBoxes.forEach(box => {
                 box.addEventListener("click", function(e) {
                     if (e.target.closest(".sound-btn")) return;
-                    if (this.dataset.correct === "true") {
-                        playAudio(cheerAudio, goNext); // ✅ go next AFTER cheer ends
-                    }
+                    if (this.dataset.correct === "true") goNext();
                 });
             });
 

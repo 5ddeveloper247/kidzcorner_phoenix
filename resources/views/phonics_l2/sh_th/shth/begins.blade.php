@@ -2,54 +2,181 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-    $showBackground = true
+    $showBackground = true;
 
-    // 📝 EASY DATA CONFIGURATION - CHANGE HER
-
-    $config = [
-        'sound_to_find' => 'sh', // The sound students are looking for
-        'correct_word' => 'shower', // The complete word (sound + ending)
-        'word_ending' => 'ower', // The ending part of the word
+    $questionGroups = [
+        // slide 1
+        [
+            'blend' => 'th',
+            'correctWord' => 'teeth',
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-th.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/sh_th/ib-teeth.mp3'),
+            'options' => [
+                [
+                    'image' => asset('assets/images/phonics_l2/shth/teeth.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/teeth.mp3'),
+                    'wordPart' => 'tee',
+                    'isCorrect' => true,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shch/ship.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/ship.mp3'),
+                    'wordPart' => 'ip',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shch/cherries.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/cherries.mp3'),
+                    'wordPart' => 'erries',
+                    'isCorrect' => false,
+                ],
+            ],
+        ],
+        // slide 2
+        [
+            'blend' => 'sh',
+            'correctWord' => 'fish',
+            'questionAudio' => asset('assets/audio/phonics_audio-2/sh_ch/begins-sh.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/sh_th/ib-whistle.mp3'),
+            'options' => [
+                [
+                    'image' => asset('assets/images/phonics_l2/thwh/whistle.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whistle.mp3'),
+                    'wordPart' => 'istle',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shth/fish.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/fish.mp3'),
+                    'wordPart' => 'fi',
+                    'isCorrect' => true,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/sksn/snap.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sk_sn/snaps.mp3'),
+                    'wordPart' => 'poon',
+                    'isCorrect' => false,
+                ],
+            ],
+        ],
+        // slide 3
+        [
+            'blend' => 'sh',
+            'correctWord' => 'push',
+            'questionAudio' => asset('assets/audio/phonics_audio-2/sh_ch/begins-sh.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/sh_th/ib-push.mp3'),
+            'options' => [
+                [
+                    'image' => asset('assets/images/phonics_l2/blpl/19.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/bl_pl/plane.mp3'),
+                    'wordPart' => 'istle',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/blpl/22.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/bl_pl/plug.mp3'),
+                    'wordPart' => 'air',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shth/push.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/push.mp3'),
+                    'wordPart' => 'pu',
+                    'isCorrect' => true,
+                ],
+            ],
+        ],
+        // slide 4
+        [
+            'blend' => 'th',
+            'correctWord' => 'tooth',
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-th.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/sh_th/ib-tooth.mp3'),
+            'options' => [
+                [
+                    'image' => asset('assets/images/phonics_l2/blpl/19.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/bl_pl/plane.mp3'),
+                    'wordPart' => 'istle',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shth/tooth.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/tooth.mp3'),
+                    'wordPart' => 'too',
+                    'isCorrect' => true,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shth/push.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/push.mp3'),
+                    'wordPart' => 'pu',
+                    'isCorrect' => false,
+                ],
+            ],
+        ],
+        // slide 5
+        [
+            'blend' => 'th',
+            'correctWord' => 'bath',
+            'questionAudio' => asset('assets/audio/phonics_audio-2/th_wh/begins-th.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/sh_th/ib-bath.mp3'),
+            'options' => [
+                [
+                    'image' => asset('assets/images/phonics_l2/shth/bath.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/bath.mp3'),
+                    'wordPart' => 'ba',
+                    'isCorrect' => true,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/clsl/sleep.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3'),
+                    'wordPart' => 'istle',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/thwh/think.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/think.mp3'),
+                    'wordPart' => 'ink',
+                    'isCorrect' => false,
+                ],
+            ],
+        ],
+        [
+            'blend' => 'sh',
+            'correctWord' => 'trash',
+            'questionAudio' => asset('assets/audio/phonics_audio-2/sh_ch/begins-sh.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/sh_th/ib-trash.mp3'),
+            'options' => [
+                [
+                    'image' => asset('assets/images/phonics_l2/clsl/clock.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/clock.mp3'),
+                    'wordPart' => 'air',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shth/trash.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/trash.mp3'),
+                    'wordPart' => 'tra',
+                    'isCorrect' => true,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/clsl/sleep.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3'),
+                    'wordPart' => 'poon',
+                    'isCorrect' => false,
+                ],
+            ],
+        ],
     ];
 
-    $questions = [
-        // Question 1
-        [
-            ['image' => 'phonics_l2/shch/shower.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a', 'correct' => true],
-            ['image' => 'phonics_l2/spst/spill.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-            ['image' => 'phonics_l2/spst/star.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-        ],
-        // Question 2
-        [
-            ['image' => 'phonics_l2/shch/shower.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-            ['image' => 'phonics_l2/spst/spill.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a', 'correct' => true],
-            ['image' => 'phonics_l2/spst/star.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-        ],
-        // Question 3
-        [
-            ['image' => 'phonics_l2/spst/spill.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-            ['image' => 'phonics_l2/shch/shower.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-            ['image' => 'phonics_l2/spst/star.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a', 'correct' => true],
-        ],
-        // Question 4
-        [
-            ['image' => 'phonics_l2/shch/shower.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a', 'correct' => true],
-            ['image' => 'phonics_l2/spst/spill.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-            ['image' => 'phonics_l2/spst/star.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-        ],
-        // Question 5
-        [
-            ['image' => 'phonics_l2/shch/shower.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a', 'correct' => true],
-            ['image' => 'phonics_l2/spst/spill.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-            ['image' => 'phonics_l2/spst/star.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-        ],
-        // Question 6
-        [
-            ['image' => 'phonics_l2/shch/shower.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a', 'correct' => true],
-            ['image' => 'phonics_l2/spst/spill.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-            ['image' => 'phonics_l2/spst/star.png', 'audio' => 'phonics_audio-2/cl_sl/clah.m4a'],
-        ],
-    ];
+    function getCorrectOption($group)
+    {
+        foreach ($group['options'] as $option) {
+            if ($option['isCorrect']) {
+                return $option;
+            }
+        }
+        return $group['options'][0];
+    }
 @endphp
 
 @push('styles')
@@ -64,7 +191,7 @@
         }
 
         .title-top {
-            font-size: 1.5vw !important;
+            font-size: 1.75vw !important;
             color: #F7B94A;
         }
 
@@ -80,10 +207,23 @@
             position: relative;
         }
 
+        .box span {
+            color: #A15E0D;
+            font-size: 2.5vw;
+        }
+
         .sbtn {
             position: absolute;
             top: 15%;
             left: 8%;
+            cursor: pointer;
+            background: none;
+            border: none;
+            z-index: 2;
+        }
+
+        .sbtn img {
+            width: 2.5vw;
         }
 
         .panel-ul {
@@ -91,14 +231,18 @@
             font-size: 1.3vw;
             padding-left: 3vw;
         }
+
+        /* Disable clicks on answered question */
+        .question-answered .box:not(.disabled-option) {
+            pointer-events: none;
+            opacity: 0.7;
+        }
     </style>
 @endpush
 
 @section('content')
 
-    {{-- ============================================ --}}
-    {{-- INTRO PANEL --}}
-    {{-- ============================================ --}}
+    {{-- SLIDE 1: INTRO PANEL --}}
     <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
@@ -108,9 +252,7 @@
         <p class="p-note">Tips: To know more about this activity, <a class="c-btn info-btn1">Click here</a>.</p>
     </div>
 
-    {{-- ============================================ --}}
-    {{-- INFO PANEL (Shows when clicking "Click here") --}}
-    {{-- ============================================ --}}
+    {{-- INFO PANEL (hidden, accessible via 'Click here') --}}
     <div class="phonics-panel info-panel-1 flex flex-col items-start">
         <h1 class="text-white text-[1.6vw]">Tips:</h1>
         <ul class="list-disc text-start panel-ul space-y-[.2vw]">
@@ -121,77 +263,60 @@
         </ul>
     </div>
 
-    {{-- ============================================ --}}
-    {{-- QUESTION & ANSWER SLIDES --}}
-    {{-- Auto-generated from the $questions array above --}}
-    {{-- ============================================ --}}
-    @foreach ($questions as $qIndex => $question)
+    {{-- DYNAMIC SLIDES: All Question and Answer slides --}}
+    @foreach ($questionGroups as $group)
         @php
-            $questionNum = $qIndex + 1;
-            $correctIndex = array_search(true, array_column($question, 'correct'));
+            $correctOption = getCorrectOption($group);
         @endphp
 
-        {{-- QUESTION SLIDE (with sound buttons) --}}
-        <div class="phonics-panel h-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-            <h2 class="title-top stroke">Find the picture that begins with the '{{ $config['sound_to_find'] }}' sound.</h2>
-
+        {{-- ----- QUESTION SLIDE ----- --}}
+        <div class="phonics-panel question-slide h-full" data-slide-audio="{{ $group['questionAudio'] }}">
+            <h2 class="title-top stroke">Find the picture that begins with the ‘{{ $group['blend'] }}’ sound.</h2>
             <div class="flex flex-col justify-around h-full space-y-[1vw]">
-                <div class="flex items-center gap-[1.5vw]">
-                    @foreach ($question as $optIndex => $option)
-                        <div class="box clickable-box"
-                            data-is-correct="{{ isset($option['correct']) && $option['correct'] ? 'true' : 'false' }}">
-                            <button class="w-[2.5vw] sbtn sound-btn"
-                                data-slide-audio="{{ asset('assets/audio/' . $option['audio']) }}">
+                <div class="flex items-center gap-[1.5vw] options-container">
+                    @foreach ($group['options'] as $index => $option)
+                        <div class="box option-box" data-correct="{{ $option['isCorrect'] ? 'true' : 'false' }}"
+                            data-group-id="{{ $loop->parent->index }}">
+                            <button class="sbtn sound-option-btn" data-sound="{{ $option['sound'] }}">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
-                            <img src="{{ asset('assets/images/' . $option['image']) }}" class="h-[6vw]" />
+                            <img src="{{ $option['image'] }}" class="h-[6vw]" />
                         </div>
                     @endforeach
                 </div>
-
-                <div class="flex items-center justify-start gap-4">
-                    <span class="text-[2.5vw] text-[#f7b94a]">{{ $config['sound_to_find'] }}</span>
+                <div class="flex items-center justify-center gap-4">
+                    <span class="text-[3.5vw] text-[#f7b94a]">{{ $group['blend'] }}</span>
                 </div>
             </div>
         </div>
 
-        {{-- ANSWER SLIDE (shows correct answer with checkmark) --}}
-        <div class="phonics-panel h-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
-            <h2 class="title-top stroke">Find the picture that begins with the '{{ $config['sound_to_find'] }}' sound.</h2>
-
+        {{-- ----- ANSWER SLIDE ---- --}}
+        <div class="phonics-panel answer-slide h-full" data-slide-audio="{{ $group['answerAudio'] }}">
+            <h2 class="title-top stroke">Find the picture that begins with the ‘{{ $group['blend'] }}’ sound.</h2>
             <div class="flex flex-col justify-around h-full space-y-[1vw]">
                 <div class="flex items-start gap-[1.5vw]">
-                    @foreach ($question as $optIndex => $option)
-                        @if ($optIndex === $correctIndex)
-                            {{-- Show correct answer with checkmark --}}
-                            <div class="flex flex-col items-center justify-center">
-                                <div class="box">
-                                    <img src="{{ asset('assets/images/' . $option['image']) }}" class="h-[6vw]" />
-                                </div>
-                                <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
-                            </div>
-                        @else
-                            {{-- Show other options without checkmark --}}
+                    @foreach ($group['options'] as $index => $option)
+                        <div class="flex flex-col items-center justify-center">
                             <div class="box">
-                                <img src="{{ asset('assets/images/' . $option['image']) }}" class="h-[6vw]" />
+                                <img src="{{ $option['image'] }}" class="h-[6vw]" />
                             </div>
-                        @endif
+                            @if ($option['isCorrect'])
+                                <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="h-[6vw]" />
+                            @endif
+                        </div>
                     @endforeach
                 </div>
-
-                <div class="flex items-center justify-center gap-4">
-                    <span class="text-[3.5vw] text-[#f7b94a]">{{ $config['sound_to_find'] }}</span>
-                    <span class="text-[3.5vw] text-white">{{ $config['word_ending'] }}</span>
+                <div class="flex items-center justify-center">
+                    <span class="text-[3.5vw] text-white">{{ $correctOption['wordPart'] }}</span>
+                    <span class="text-[3.5vw] text-[#f7b94a]">{{ $group['blend'] }}</span>
                 </div>
             </div>
         </div>
     @endforeach
 
-    {{-- ============================================ --}}
-    {{-- NAVIGATION BUTTONS --}}
-    {{-- ============================================ --}}
+    {{-- ================================================================ --}}
+    {{-- ALL BUTTONS --}}
+    {{-- ================================================================ --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
         <button id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
@@ -219,166 +344,131 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
-
-        document.addEventListener("DOMContentLoaded", function() {
-
-            // VARIABLES
-
+        (function() {
+            // DOM elements
             const slides = document.querySelectorAll(".phonics-panel");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const homeButton = document.getElementById("homeButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn']");
-            const soundButtons = document.querySelectorAll(".sound-btn");
-            const clickableBoxes = document.querySelectorAll(".clickable-box");
+            const nextBtn = document.querySelector(".nextButton");
+            const doneBtn = document.querySelector(".doneButton");
+            const returnBtn = document.getElementById("returnButton");
+            const homeBtn = document.getElementById("homeButton");
+            const closeBtn = document.getElementById("closeButton");
+            const infoBtns = document.querySelectorAll("[class*='info-btn']");
 
-            const returnURL = "{{ url('/phonics_l2/sh_th/shth') }}";
-            const doneURL = "{{ url('/phonics_l2/sh_th/shth') }}";
-            const homeURL = document.body.dataset.homeRoute;
-            const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            // Audio & Routes
+            const CHEERING_SOUND = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
+            const RETURN_URL = "{{ url('/phonics_l2/sh_th/shth') }}";
+            const DONE_URL = "{{ url('/phonics_l2/sh_th/shth') }}";
+            const HOME_URL = "{{ url('/phonics/l2') }}";
 
-            let currentSlide = 0;
             let currentAudio = null;
-            let isInInfoMode = false;
-            let returnToSlide = null;
+            let currentSlideIdx = 0;
+            let isSpecialMode = false; // When showing info panel
+            let returnToSlide = null; // Slide to come back to after info panel
 
-
-            // AUDIO FUNCTIONS
-
+            // Stop any playing audio (also cancels a pending cheering)
             function stopAudio() {
                 if (currentAudio) {
+                    currentAudio.onended = null;
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
                     currentAudio = null;
                 }
             }
 
-            function playAudio(src, onEnd) {
+            // Play audio from src, optional onEnd callback
+            function playAudio(src, onEnd = null) {
+                if (!src) return;
                 stopAudio();
-                if (!src) {
-                    if (onEnd) onEnd();
-                    return;
+                const audio = new Audio(src);
+                currentAudio = audio;
+                if (onEnd) {
+                    audio.onended = () => {
+                        if (currentAudio !== audio) return; // slide changed meanwhile
+                        onEnd();
+                    };
                 }
-                currentAudio = new Audio(src);
-                if (onEnd) currentAudio.onended = onEnd;
-                currentAudio.play().catch(() => {
-                    if (onEnd) onEnd();
-                });
+                audio.play().catch(e => console.warn("Audio play failed:", e));
             }
 
-            function playSlideAudio(slideIndex) {
-                const slide = slides[slideIndex];
-                const audioSrc = slide.getAttribute('data-slide-audio');
-                if (audioSrc) playAudio(audioSrc);
+            // Play the slide's audio. On an answer slide: answer sound first, then the cheering sound.
+            function playSlideAudio(index) {
+                const slide = slides[index];
+                const src = slide.getAttribute('data-slide-audio');
+                const isAnswer = slide.classList.contains('answer-slide');
+                if (src) playAudio(src, isAnswer ? () => playAudio(CHEERING_SOUND) : null);
             }
 
-
-            // SLIDE NAVIGATION
-
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(c => c.startsWith('info-panel-'));
+            function isInfoPanelSlide(slide) {
+                return slide.classList.contains('info-panel-1');
             }
 
-            function isLastSlide(index) {
-                if (isInInfoMode) return index === slides.length - 1;
-
+            // Update Next/Done buttons based on whether this is the last slide
+            function updateNavButtons(index) {
+                let isLast = true;
                 for (let i = index + 1; i < slides.length; i++) {
-                    if (!isInfoSlide(slides[i])) return false;
+                    if (!isInfoPanelSlide(slides[i])) {
+                        isLast = false;
+                        break;
+                    }
                 }
-                return true;
+                nextBtn.classList.toggle('hidden', isLast);
+                doneBtn.classList.toggle('hidden', !isLast);
             }
 
-            function updateButtons(index) {
-                const isLast = isLastSlide(index);
-                nextButtons.forEach(btn => btn.classList.toggle('hidden', isLast));
-                document.querySelectorAll('.doneButton').forEach(btn => btn.classList.toggle('hidden', !isLast));
-            }
-
+            // Show a specific slide by index
             function showSlide(index) {
+                if (index < 0 || index >= slides.length) return;
                 stopAudio();
-                currentSlide = index;
-
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle('hidden', i !== index);
-                });
-
-                updateButtons(index);
+                currentSlideIdx = index;
+                slides.forEach((slide, i) => slide.classList.toggle('hidden', i !== index));
+                updateNavButtons(index);
                 playSlideAudio(index);
             }
 
-            function goNext() {
-                let nextIndex = currentSlide + 1;
-
-                // Skip info slides in normal mode
-                while (nextIndex < slides.length && !isInInfoMode && isInfoSlide(slides[nextIndex])) {
-                    nextIndex++;
-                }
-
-                if (nextIndex < slides.length) {
-                    showSlide(nextIndex);
-                }
+            // Next slide (skip info panels)
+            function goToNextSlide() {
+                let next = currentSlideIdx + 1;
+                while (next < slides.length && isInfoPanelSlide(slides[next])) next++;
+                if (next < slides.length) showSlide(next);
             }
 
-            function goBack() {
-                if (currentSlide === 0 && !isInInfoMode) {
-                    stopAudio();
-                    window.location.href = returnURL;
-                    return;
-                }
-
-                if (isInInfoMode) {
-                    // Return to the slide before info mode
-                    isInInfoMode = false;
-                    showSlide(returnToSlide);
+            // Previous slide (skip info panels)
+            function goToPrevSlide() {
+                let prev = currentSlideIdx - 1;
+                while (prev >= 0 && isInfoPanelSlide(slides[prev])) prev--;
+                if (prev >= 0) {
+                    showSlide(prev);
                 } else {
-                    let prevIndex = currentSlide - 1;
-
-                    // Skip info slides
-                    while (prevIndex > 0 && isInfoSlide(slides[prevIndex])) {
-                        prevIndex--;
-                    }
-
-                    showSlide(prevIndex);
+                    stopAudio();
+                    window.location.href = RETURN_URL;
                 }
             }
 
-
-            // CLICKABLE ANSWER BOXES
-
-            clickableBoxes.forEach(box => {
-                box.addEventListener('click', function(e) {
-                    const isCorrect = this.getAttribute('data-is-correct') === 'true';
-
-                    if (isCorrect) {
-                        // Play cheering sound, then go to next slide (answer slide)
-                        playAudio(CHEERING_AUDIO, () => {
-                            goNext();
-                        });
-                    }
+            // Click the correct picture → open the answer slide right away.
+            // Its answer sound plays, then the cheering sound (see playSlideAudio).
+            document.querySelectorAll('.question-slide .option-box').forEach(box => {
+                box.addEventListener('click', () => {
+                    // Only react to the slide that is on screen (prevents double jumps)
+                    if (!slides[currentSlideIdx].contains(box)) return;
+                    if (box.getAttribute('data-correct') !== 'true') return;
+                    goToNextSlide();
                 });
             });
 
-
-            // SOUND BUTTONS
-
-            soundButtons.forEach(btn => {
-                btn.addEventListener('click', function(e) {
-                    e.stopPropagation(); // Prevent box click
-                    const audioSrc = this.getAttribute('data-slide-audio');
-                    if (audioSrc) playAudio(audioSrc);
+            // Sound buttons on the pictures
+            document.querySelectorAll('.sound-option-btn').forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.stopPropagation();
+                    playAudio(btn.getAttribute('data-sound'));
                 });
             });
 
-
-            // INFO BUTTON
-
-            infoButtons.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    returnToSlide = currentSlide;
-                    isInInfoMode = true;
-
-                    // Find and show the info panel
+            // Info panel (special mode)
+            infoBtns.forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.preventDefault();
+                    returnToSlide = currentSlideIdx;
+                    isSpecialMode = true;
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains('info-panel-1')) {
                             showSlide(i);
@@ -388,36 +478,50 @@
                 });
             });
 
-
-            // NAVIGATION BUTTON EVENTS
-
-            nextButtons.forEach(btn => btn.addEventListener('click', goNext));
-
-            if (returnButton) {
-                returnButton.addEventListener('click', goBack);
-            }
-
-            if (homeButton) {
-                homeButton.addEventListener('click', () => {
-                    stopAudio();
-                    window.location.href = homeURL;
-                });
-            }
-
-            document.querySelectorAll('.doneButton').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    stopAudio();
-                    if (isInInfoMode) {
-                        isInInfoMode = false;
-                        showSlide(returnToSlide);
-                    } else {
-                        window.location.href = doneURL;
-                    }
-                });
+            // Buttons
+            nextBtn?.addEventListener('click', () => {
+                if (isSpecialMode) {
+                    isSpecialMode = false;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
+                    goToNextSlide();
+                }
             });
 
-            // START THE PRESENTATION
+            doneBtn?.addEventListener('click', () => {
+                if (isSpecialMode) {
+                    isSpecialMode = false;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
+                    stopAudio();
+                    window.location.href = DONE_URL;
+                }
+            });
+
+            returnBtn?.addEventListener('click', () => {
+                if (isSpecialMode) {
+                    isSpecialMode = false;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
+                    goToPrevSlide();
+                }
+            });
+
+            homeBtn?.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = HOME_URL;
+            });
+
+            closeBtn?.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = HOME_URL;
+            });
+
+            // Initialize
             showSlide(0);
-        });
+        })();
     </script>
 @endpush

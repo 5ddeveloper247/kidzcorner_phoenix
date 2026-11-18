@@ -96,8 +96,8 @@
             const doneButton = document.querySelector(".doneButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/sh_th/th') }}";
-            const doneURL = "{{ url('/phonics_l2/sh_th/th') }}";
+            const returnURL = "{{ url('/phonics_l2/ch_rev/th') }}";
+            const doneURL = "{{ url('/phonics_l2/ch_rev/th') }}";
             const homeURL = document.body.dataset.homeRoute;
 
             let currentSlide = 0;

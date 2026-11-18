@@ -5,7 +5,7 @@
     $showBackground = true;
 
     $targetSound = 'th';
-    $targetSoundAudio = asset('assets/audio/phonics_audio-2/sh_th/shah.m4a');
+    $targetSoundAudio = asset('assets/audio/phonics_audio-2/sh_th/shah.mp3');
 
     $slidesData = [
         // Slide 1: Introduction
@@ -19,14 +19,14 @@
         // Slide 2: Question with options
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-shah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/sh_ch/spot-shah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'options' => [
-                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.m4a'), 'isAnswer' => true],
-                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
-                ['text' => 'sp', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/spah.m4a'), 'isAnswer' => false],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
+                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.mp3'), 'isAnswer' => true],
+                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'), 'isAnswer' => false],
+                ['text' => 'sp', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/spah.mp3'), 'isAnswer' => false],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -42,20 +42,20 @@
         // Slide 4: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-thah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-thah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'layout' => 'with-bottom    ',
             'options' => [
                 [
                     'text' => 'sw',
-                    'audio' => asset('assets/audio/phonics_audio-2/sw_sc/swah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/sw_sc/swah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a'), 'isAnswer' => false],
-                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/thah.m4a'), 'isAnswer' => true],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
+                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3'), 'isAnswer' => false],
+                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/thah.mp3'), 'isAnswer' => true],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -71,20 +71,20 @@
         // Slide 6: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-shah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/sh_ch/spot-shah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '45%',
             'layout' => 'with-bottom',
             'options' => [
-                ['text' => 'sn', 'audio' => asset('assets/audio/phonics_audio-2/sk_sn/snah.m4a'), 'isAnswer' => false],
-                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.m4a'), 'isAnswer' => true],
+                ['text' => 'sn', 'audio' => asset('assets/audio/phonics_audio-2/sk_sn/snah.mp3'), 'isAnswer' => false],
+                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.mp3'), 'isAnswer' => true],
                 [
                     'text' => 'sm',
-                    'audio' => asset('assets/audio/phonics_audio-2/sm_rev/smah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/sm_rev/smah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'ch', 'audio' => asset('assets/audio/phonics_audio-2/sh_ch/chah.m4a'), 'isAnswer' => false],
+                ['text' => 'ch', 'audio' => asset('assets/audio/phonics_audio-2/sh_ch/chah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -100,20 +100,20 @@
         // Slide 8: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-thah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-thah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '55%',
             'layout' => 'with-bottom',
             'options' => [
-                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/thah.m4a'), 'isAnswer' => true],
+                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/thah.mp3'), 'isAnswer' => true],
                 [
                     'text' => 'cr',
-                    'audio' => asset('assets/audio/phonics_audio-2/fr_cr/crah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/fr_cr/crah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'fl', 'audio' => asset('assets/audio/phonics_audio-2/fl_gl/flah.m4a'), 'isAnswer' => false],
-                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a'), 'isAnswer' => false],
+                ['text' => 'fl', 'audio' => asset('assets/audio/phonics_audio-2/fl_gl/flah.mp3'), 'isAnswer' => false],
+                ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -129,20 +129,20 @@
         // Slide 10: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-shah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/sh_ch/spot-shah.mp3'),
             'frogPosition' => 'top',
             'rowPosition' => '70%',
             'layout' => 'with-bottom',
             'options' => [
                 [
                     'text' => 'st',
-                    'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'),
+                    'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'),
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.m4a'), 'isAnswer' => true],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
-                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
+                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.mp3'), 'isAnswer' => true],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
+                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'), 'isAnswer' => false],
             ],
         ],
 
@@ -158,14 +158,14 @@
         // Slide 12: Wood pads question
         [
             'type' => 'question-wood',
-            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-thah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-thah.mp3'),
             'frogPosition' => 'single-top',
             'frogPadText' => 'th',
             'options' => [
-                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
-                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
-                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/thah.m4a'), 'isAnswer' => true],
-                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/tr_rev/trah.m4a'), 'isAnswer' => false],
+                ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.mp3'), 'isAnswer' => false],
+                ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.mp3'), 'isAnswer' => false],
+                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/thah.mp3'), 'isAnswer' => true],
+                ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/tr_rev/trah.mp3'), 'isAnswer' => false],
             ],
         ],
 

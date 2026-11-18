@@ -15,7 +15,7 @@
         [
             'image' => 'assets/images/phonics_l2/chrev/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'She'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'shoes',  'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/whistles.m4a',
-                'assets/audio/phonics_audio-2/sh_ch/shoes.m4a',
+                'assets/audio/phonics_audio-2/th_wh/whistle.mp3',
+                'assets/audio/phonics_audio-2/sh_th/shoe.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/chrev/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The baby sucks his'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'cloth', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
-                'assets/audio/phonics_audio-2/sh_th/mouth.m4a',
+                'assets/audio/phonics_audio-2/th_wh/thumb.mp3',
+                'assets/audio/phonics_audio-2/sh_th/mouth.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/chrev/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The scouts hide the'],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'brush', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ch_rev/bench.m4a',
-                'assets/audio/phonics_audio-2/sh_th/bush.m4a',
+                'assets/audio/phonics_audio-2/ch_rev/bench.mp3',
+                'assets/audio/phonics_audio-2/sh_th/bush.mp3',
             ],
         ],
     ];

@@ -13,36 +13,36 @@
             'type' => 'grid',
             'cols' => 3,
             'question' => 'Find the picture that end with the /ed/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/match-ed2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/red.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/red.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/bed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/sled.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/sled.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/sled.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/fed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/edet/red.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'red',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/pat.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/red.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -63,36 +63,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ed/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/match-ed2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/red.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/red.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/bed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/sled.png',
-                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/fed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/edet/bed.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'bed',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -113,36 +113,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ed/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/match-ed2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/red.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/red.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/bed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/sled.png',
-                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/fed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/edet/sled.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'sled',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/sled.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/sled.mp3',
         ],
 
         // ── Round 4: ──
@@ -163,36 +163,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ed/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/match-ed2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/red.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/red.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/bed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/sled.png',
-                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/fed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/edet/fed.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'fed',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.mp3',
         ],
 
         // ── Round 5: ──
@@ -212,36 +212,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ed/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/match-e2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/edet/red.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/red.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/bed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/bed.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/sled.png',
-                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/edet/sled.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/edet/fed.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ed_et/fed.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -250,8 +250,8 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.m4a',
-            'message' => "That's right! <br> Shower, Shell, Shut and <br> Shark end with the <br> /ed/ sound.",
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/right-ed.mp3',
+            'message' => "That's right! <br> red, bed, sled and <br> fed end with the <br> /ed/ sound.",
             'cols' => 2,
             'cards' => [
                 [

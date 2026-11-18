@@ -9,78 +9,78 @@
 
     $diagraph = 'ch';
 
-    $sideBtns = ['assets/audio/phonics_audio-2/ch_rev/ch.m4a', 'assets/audio/phonics_audio-2/ch_rev/chah.m4a'];
+    $sideBtns = ['assets/audio/phonics_audio-2/ch_rev/ch.mp3', 'assets/audio/phonics_audio-2/ch_rev/chah.mp3'];
 
     $words = [
         [
             'image' => 'assets/images/phonics_l2/chrev/couch.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'couch',
-            'wordAudio' => 'assets/audio/phonics_audio-2/sh_th/fi-sh.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/cou-ch.mp3',
             'tip' =>
-                'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /cl/..../ocks/...ships)',
+                'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /cou/..../ch/...ships)',
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/peach.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'peach',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-ree.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/pea-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/bench.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'bench',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-read.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ben-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/beach.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'beach',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-irty.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/bea-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/hatch.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'hatch',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/hat-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/match.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'match',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-ick.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/mat-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/catch.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'catch',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-ief.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/cat-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/rench.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'rench',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-row.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ren-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/snatch.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'snatch',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-ink.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/snat-ch.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/chrev/grouch.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'grouch',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/ch-imble.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ch_rev/grou-ch.mp3',
             'tip' => null,
         ],
     ];
@@ -132,7 +132,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.mp3') }}">
         {{-- <h2 class="top-title stroke">Let's Blend</h2> --}}
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/say.png') }}" class="w-[30vw] h-[20vw]" />
@@ -174,7 +174,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -198,7 +198,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -214,7 +214,7 @@
                 </h2>
 
                 <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/chah.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/chah.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -230,7 +230,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div>
 
@@ -265,7 +265,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -282,7 +282,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -296,7 +296,7 @@
             </h2>
 
             <button class="absolute right-[36%] top-[25%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/chah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/chah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -305,7 +305,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/ch4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">

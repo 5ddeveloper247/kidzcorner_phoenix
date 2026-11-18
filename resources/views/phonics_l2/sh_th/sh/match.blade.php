@@ -12,37 +12,37 @@
         [
             'type' => 'grid',
             'cols' => 3,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh.m4a',
+            'question' => 'Find the picture that end with the /sh/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/dish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/fish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/sheep.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/brush.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/push.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/shth/dish.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'dish',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/mm-dish.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -62,37 +62,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh.m4a',
+            'question' => 'Find the picture that end with the /sh/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/dish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/fish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/sheep.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/brush.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/push.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/shth/fish.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'fish',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/mm-fish.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -112,37 +112,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh.m4a',
+            'question' => 'Find the picture that end with the /sh/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/dish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/fish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/sheep.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/brush.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/push.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/shth/brush.png',
             'imageSize' => 'w-[25vw]',
             'word' => 'brush',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/mm-brush.mp3',
         ],
 
         // ── Round 4: ──
@@ -162,48 +162,48 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh.m4a',
+            'question' => 'Find the picture that end with the /sh/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/dish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/fish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/sheep.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/brush.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/push.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.mp3',
                     'correct' => false,
                 ],
             ],
         ],
-          // ── Round 4: Answer —
+        // ── Round 4: Answer —
         [
             'type' => 'answer_word',
             'image' => 'assets/images/phonics_l2/shth/push.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'push',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/push.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/mm-push.mp3',
         ],
 
         // ── Round 5: ──
@@ -211,48 +211,48 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /sh/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh.m4a',
+            'question' => 'Find the picture that end with the /sh/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/match-sh2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/dish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/dish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/fish.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/fish.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/sheep.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/sheep.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/ship.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/brush.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/brush.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shth/push.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_th/push.mp3',
                     'correct' => true,
                 ],
             ],
         ],
-       
+
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.mp3',
             'message' => "That's right! <br> Shower, Shell, Shut and <br> Shark begin with the <br> /th/ sound.",
-            'cols' => 2, 
+            'cols' => 2,
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/shth/dish.png',
@@ -303,7 +303,8 @@
             position: absolute;
             top: 4%;
         }
-.panel-ul {
+
+        .panel-ul {
             color: white;
             font-size: 1.1vw;
             padding-left: 3vw;
@@ -353,6 +354,23 @@
             </button>
         </div>
     </div>
+
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/match-sh.mp3') }}">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw]" />
+                <h2 class="absolute top-1/2 left-1/2 -translate-1/2 text-[#A15E0D] text-[2vw] text-center w-100">
+                    Let's spot the <br>
+                    pictures that <br> end
+                    with '<span class="text-[#70af39]">sh</span>'!
+                </h2>
+            </div>
+        </div>
+        <p class="p-note">Tips: Children to name the picture first. <br>
+            Encourage them to identify each of the initial target sound made by each word.</p>
+    </div>
+
 
 
     {{-- ── All round panels — auto-generated ── --}}
@@ -496,7 +514,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
-            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
+            const CHEERING = "{{ asset('assets/audio/phonics_audi-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

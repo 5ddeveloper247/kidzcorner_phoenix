@@ -9,14 +9,14 @@
 
     $diagraph = 'et';
 
-    $sideBtns = ['assets/audio/phonics_audio-2/ed_et/et.m4a', 'assets/audio/phonics_audio-2/ed_et/etah.m4a'];
+    $sideBtns = ['assets/audio/phonics_audio-2/ed_et/et.mp3', 'assets/audio/phonics_audio-2/ed_et/etah.mp3'];
 
     $words = [
         [
             'image' => 'assets/images/phonics_l2/edet/jet.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'jet',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-sh.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-sh.mp3',
             'tip' =>
                 'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /j/..../et/...jet)',
         ],
@@ -24,28 +24,28 @@
             'image' => 'assets/images/phonics_l2/edet/net.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'net',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-ree.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-ree.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/edet/vet.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'vet',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-read.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-read.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/edet/pet.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'pet',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-irty.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-irty.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/edet/wet.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'wet',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ed_et/et-in.mp3',
             'tip' => null,
         ],
       
@@ -98,7 +98,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.mp3') }}">
         {{-- <h2 class="top-title stroke">Let's Blend</h2> --}}
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/say.png') }}" class="w-[30vw] h-[20vw]" />
@@ -140,7 +140,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -164,7 +164,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -180,7 +180,7 @@
                 </h2>
 
                 <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/etah.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/etah.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -196,7 +196,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div>
 
@@ -231,7 +231,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -248,7 +248,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -262,7 +262,7 @@
             </h2>
 
             <button class="absolute right-[36%] top-[25%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/etah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/etah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -271,7 +271,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/et5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">

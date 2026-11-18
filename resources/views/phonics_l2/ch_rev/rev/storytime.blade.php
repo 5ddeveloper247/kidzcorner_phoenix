@@ -51,83 +51,83 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st1.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st1.png',
                 'text' => 'The Beach',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st2.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st2.png',
                 'text' => 'March the Grouch was at the beach.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st3.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st3.png',
                 'text' => 'Sitting on a cloth with her cheery fish and her shy chick.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st4.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st4.png',
                 'text' => 'Sharing with them thirty-three cherries and a peach.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st5.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st5.png',
                 'text' => 'From behind the bush, Shelly Sheep come with a leap!',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st6.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st6.png',
                 'text' => 'Scaring the fish who couldn’t help but weep.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st7.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st7.png',
                 'text' => 'Frightening the chick which made her turn white.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st8.mp3',
                 'image' => 'assets/images/phonics_l2/chrev/st8.png',
                 'text' => 'And the cheeky sheep got scolding from March throughout the night',
-            ]
+            ],
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq1.mp3',
                 'question' => "Where was the\nmarch the\nGrouch?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq2.mp3',
                 'question' => "Who were\nwith her?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq3.mp3',
                 'question' => "What are \nthey sharing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq4.mp3',
                 'question' => "What did the shelly\nsheep leap from\nbehind the bush?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq5.mp3',
                 'question' => "What happened\nto the fish and \nthe chick?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq6.mp3',
                 'question' => "What happened\nto the Shelly Sheep\n at the end?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq7.mp3',
                 'question' => "What would you\ntell Shelly Sheep\nif you were March\nthe Grouch?",
                 'tip' => 'Tip: Elicit response from children.',
-            ]
+            ],
         ];
 
     @endphp
@@ -201,7 +201,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -256,7 +256,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -274,7 +274,8 @@
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question">March the Grouch was at the beach,</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Sitting on a cloth with her cheesy fish and her shy chick</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Sitting on a cloth with her cheesy fish and her shy chick
+            </div>
             <div class="question">Sharing with them thirty-three cherries and a peach</div>
             <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
@@ -305,8 +306,10 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish and her shy chick
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish
+                and her shy chick
             </div>
             <div class="question">Sharing with them thirty-three cherries and a peach</div>
             <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
@@ -314,7 +317,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -366,17 +369,20 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish and her shy chick
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Sharing with them thirty-three cherries and a peach
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish
+                and her shy chick
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Sharing with them thirty-three cherries
+                and a peach
             </div>
             <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -431,10 +437,14 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish and her shy chick</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Sharing with them thirty-three cherries and a peach</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> From behind the bush, Shelly Sheep came with a leap!</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish
+                and her shy chick</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Sharing with them thirty-three cherries
+                and a peach</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> From behind the bush, Shelly Sheep came
+                with a leap!</div>
         </div>
     </div>
 

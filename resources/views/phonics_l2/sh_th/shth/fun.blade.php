@@ -15,7 +15,7 @@
         [
             'image' => 'assets/images/phonics_l2/shth/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The childern'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'push', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sh_th/brush.m4a',
-                'assets/audio/phonics_audio-2/sh_th/teeth.m4a',
+                'assets/audio/phonics_audio-2/sh_th/brush.mp3',
+                'assets/audio/phonics_audio-2/sh_th/teeth.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/shth/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The cat and the'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'path', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sh_th/fish.m4a',
-                'assets/audio/phonics_audio-2/sh_th/bath.m4a',
+                'assets/audio/phonics_audio-2/sh_th/fish.mp3',
+                'assets/audio/phonics_audio-2/sh_th/bath.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/shth/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The '],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'bush', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/sh_th/moth.m4a',
-                'assets/audio/phonics_audio-2/sh_th/dish.m4a',
+                'assets/audio/phonics_audio-2/sh_th/moth.mp3',
+                'assets/audio/phonics_audio-2/sh_th/dish.mp3',
             ],
         ],
     ];
@@ -138,7 +138,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.mp3') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-dia.mp3') }}">
         <h2 class="top-title stroke">Fun with Digraphs</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />

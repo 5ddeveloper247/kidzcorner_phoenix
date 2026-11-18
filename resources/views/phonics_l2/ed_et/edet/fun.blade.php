@@ -7,14 +7,12 @@
     $returnURL = '/phonics_l2/ed_et/edet';
     $doneURL = '/phonics_l2/ed_et/edet';
 
-
-
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
             'image' => 'assets/images/phonics_l2/edet/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'Ted places his'],
                 ['type' => 'blank'],
@@ -27,12 +25,12 @@
             'words' => [
                 ['word' => 'pet', 'answer' => true],
                 ['word' => 'led', 'answer' => false],
-                ['word' => 'get',  'answer' => false],
+                ['word' => 'get', 'answer' => false],
                 ['word' => 'bed', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ed_et/pet.m4a',
-                'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                'assets/audio/phonics_audio-2/ed_et/pet.mp3',
+                'assets/audio/phonics_audio-2/ed_et/bed.mp3',
             ],
         ],
 
@@ -40,7 +38,7 @@
         [
             'image' => 'assets/images/phonics_l2/edet/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The green'],
                 ['type' => 'blank'],
@@ -51,13 +49,13 @@
             'tip' => null,
             'words' => [
                 ['word' => 'fled', 'answer' => false],
-                ['word' => 'sled', 'answer' => false],
-                ['word' => 'wet', 'answer' => true],
+                ['word' => 'sled', 'answer' => true],
+                ['word' => 'wet', 'answer' => false],
                 ['word' => 'vet', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ed_et/sled.m4a',
-                'assets/audio/phonics_audio-2/ed_et/wet.m4a',
+                'assets/audio/phonics_audio-2/ed_et/sled.mp3',
+                'assets/audio/phonics_audio-2/ed_et/wet.mp3',
             ],
         ],
 
@@ -65,7 +63,7 @@
         [
             'image' => 'assets/images/phonics_l2/edet/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'Fred points to the'],
                 ['type' => 'blank'],
@@ -81,8 +79,8 @@
                 ['word' => 'net', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ed_et/red.m4a',
-                'assets/audio/phonics_audio-2/ed_et/jet.m4a',
+                'assets/audio/phonics_audio-2/ed_et/red.mp3',
+                'assets/audio/phonics_audio-2/ed_et/jet.mp3',
             ],
         ],
     ];
@@ -143,7 +141,7 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        
+
     </div>
 
 

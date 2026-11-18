@@ -15,73 +15,73 @@
     $questions = [
         // ── Question 1 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-etah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-etah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m1.png',
             'circles' => [
-                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.m4a', 'isCorrect' => true],
-                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.m4a', 'isCorrect' => false],
-                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.m4a', 'isCorrect' => false],
-                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.m4a', 'isCorrect' => false],
+                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.mp3', 'isCorrect' => true],
+                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.mp3', 'isCorrect' => false],
+                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.mp3', 'isCorrect' => false],
+                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-edah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-edah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m2.png',
             'circles' => [
-                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.m4a', 'isCorrect' => false],
-                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.m4a', 'isCorrect' => true],
-                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.m4a', 'isCorrect' => false],
-                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.m4a', 'isCorrect' => false],
+                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.mp3', 'isCorrect' => false],
+                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.mp3', 'isCorrect' => true],
+                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.mp3', 'isCorrect' => false],
+                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-etah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-etah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m3.png',
             'circles' => [
-                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.m4a', 'isCorrect' => false],
-                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.m4a', 'isCorrect' => false],
-                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.m4a', 'isCorrect' => false],
-                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.m4a', 'isCorrect' => true],
+                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.mp3', 'isCorrect' => false],
+                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.mp3', 'isCorrect' => false],
+                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.mp3', 'isCorrect' => false],
+                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.mp3', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 4 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-edah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-edah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m4.png',
             'circles' => [
-                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.m4a', 'isCorrect' => false],
-                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.m4a', 'isCorrect' => false],
-                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.m4a', 'isCorrect' => false],
-                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.m4a', 'isCorrect' => true],
+                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.mp3', 'isCorrect' => false],
+                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.mp3', 'isCorrect' => false],
+                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.mp3', 'isCorrect' => false],
+                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.mp3', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 5 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-etah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-etah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m5.png',
             'circles' => [
-                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.m4a', 'isCorrect' => true],
-                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.m4a', 'isCorrect' => false],
-                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.m4a', 'isCorrect' => false],
-                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.m4a', 'isCorrect' => false],
+                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.mp3', 'isCorrect' => true],
+                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.mp3', 'isCorrect' => false],
+                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.mp3', 'isCorrect' => false],
+                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 6 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-edah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ed_et/spot-edah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/m6.png',
             'circles' => [
-                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.m4a', 'isCorrect' => false],
-                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.m4a', 'isCorrect' => false],
-                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.m4a', 'isCorrect' => true],
-                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.m4a', 'isCorrect' => false],
+                ['text' => 'eg', 'audio' => 'assets/audio/phonics_audio-2/ed_et/egah.mp3', 'isCorrect' => false],
+                ['text' => 'et', 'audio' => 'assets/audio/phonics_audio-2/ed_et/etah.mp3', 'isCorrect' => false],
+                ['text' => 'ed', 'audio' => 'assets/audio/phonics_audio-2/ed_et/edah.mp3', 'isCorrect' => true],
+                ['text' => 'en', 'audio' => 'assets/audio/phonics_audio-2/ed_et/enah.mp3', 'isCorrect' => false],
             ],
         ],
 

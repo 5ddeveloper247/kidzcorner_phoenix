@@ -9,24 +9,24 @@
         [
             'blend' => 'ch',
             'correctWord' => 'catch',
-            'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/catch.m4a'),
+            'questionAudio' => asset('assets/audio/phonics_audio-2/sh_ch/begins-with.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/catch.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/chrev/catch.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/catch.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/catch.mp3'),
                     'wordPart' => 'cat',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/shch/ship.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/ship.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/ship.mp3'),
                     'wordPart' => 'ip',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/shch/cherries.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/cherries.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/cherries.mp3'),
                     'wordPart' => 'erries',
                     'isCorrect' => false,
                 ],
@@ -37,23 +37,23 @@
             'blend' => 'th',
             'correctWord' => 'mouth',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/mouth.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/mouth.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/whistle.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whistle.mp3'),
                     'wordPart' => 'istle',
                     'isCorrect' => false,
                 ],
                 [
-                    'image' => asset('assets/images/phonics_l2/chrev/mouth.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/mouth.m4a'),
+                    'image' => asset('assets/images/phonics_l2/shth/mouth.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/mouth.mp3'),
                     'wordPart' => 'mou',
                     'isCorrect' => true,
                 ],
                 [
-                    'image' => asset('assets/images/phonics_l2/shch/fish.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/fish.m4a'),
+                    'image' => asset('assets/images/phonics_l2/shth/fish.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/fish.mp3'),
                     'wordPart' => 'poon',
                     'isCorrect' => false,
                 ],
@@ -61,53 +61,53 @@
         ],
         // slide 3
         [
-            'blend' => 'ch',
-            'correctWord' => 'shirt',
+            'blend' => 'sh',
+            'correctWord' => 'bush',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/shirt.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/shirt.mp3'),
             'options' => [
                 [
-                    'image' => asset('assets/images/phonics_l2/thwh/hatch.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/hatch.m4a'),
+                    'image' => asset('assets/images/phonics_l2/chrev/hatch.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/hatch.mp3'),
                     'wordPart' => 'hat',
                     'isCorrect' => false,
                 ],
                 [
-                    'image' => asset('assets/images/phonics_l2/shch/bush.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/bush.m4a'),
-                    'wordPart' => 'istle',
-                    'isCorrect' => false,
+                    'image' => asset('assets/images/phonics_l2/shth/bush.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_th/bush.mp3'),
+                    'wordPart' => 'bu',
+                    'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/shch/shirt.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/shirt.m4a'),
-                    'wordPart' => 'air',
-                    'isCorrect' => true,
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/shirt.mp3'),
+                    'wordPart' => 'irt',
+                    'isCorrect' => false,
                 ],
             ],
         ],
         // slide 4
         [
-            'blend' => 'wh',
+            'blend' => 'ch',
             'correctWord' => 'whale',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whistle.mp3'),
             'options' => [
                 [
-                    'image' => asset('assets/images/phonics_l2/shch/chocolate.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chocolate.m4a'),
+                    'image' => asset('assets/images/phonics_l2/blpl/19.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/bl_pl/plane.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
-                    'image' => asset('assets/images/phonics_l2/thwh/whale.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whale.m4a'),
+                    'image' => asset('assets/images/phonics_l2/thwh/tooth.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/tooth.mp3'),
                     'wordPart' => 'ale',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/spst/spoon.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spoon.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spoon.mp3'),
                     'wordPart' => 'poon',
                     'isCorrect' => false,
                 ],
@@ -118,23 +118,23 @@
             'blend' => 'th',
             'correctWord' => 'think',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/think.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/think.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/shch/chair.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/clsl/sleep.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3'),
                     'wordPart' => 'istle',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/think.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/think.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/think.mp3'),
                     'wordPart' => 'ink',
                     'isCorrect' => true,
                 ],
@@ -144,23 +144,23 @@
             'blend' => 'wh',
             'correctWord' => 'whisper',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.mp3'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whisper.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whisper.mp3'),
             'options' => [
                 [
                     'image' => asset('assets/images/phonics_l2/clsl/clock.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/clock.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/clock.mp3'),
                     'wordPart' => 'air',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/whisper.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whisper.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/whisper.mp3'),
                     'wordPart' => 'isper',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => asset('assets/images/phonics_l2/clsl/sleep.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.m4a'),
+                    'sound' => asset('assets/audio/phonics_audio-2/cl_sl/sleep.mp3'),
                     'wordPart' => 'poon',
                     'isCorrect' => false,
                 ],
@@ -191,7 +191,7 @@
         }
 
         .title-top {
-            font-size: 1.5vw !important;
+            font-size: 1.75vw !important;
             color: #F7B94A;
         }
 
@@ -307,8 +307,8 @@
                     @endforeach
                 </div>
                 <div class="flex items-center justify-center">
-                    <span class="text-[3.5vw] text-[#f7b94a]">{{ $group['blend'] }}</span>
                     <span class="text-[3.5vw] text-white">{{ $correctOption['wordPart'] }}</span>
+                    <span class="text-[3.5vw] text-[#f7b94a]">{{ $group['blend'] }}</span>
                 </div>
             </div>
         </div>
@@ -355,7 +355,7 @@
             const infoBtns = document.querySelectorAll("[class*='info-btn']");
 
             // Audio & Routes
-            const CHEERING_SOUND = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const CHEERING_SOUND = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
             const RETURN_URL = "{{ url('/phonics_l2/ch_rev/rev') }}";
             const DONE_URL = "{{ url('/phonics_l2/ch_rev/rev') }}";
             const HOME_URL = "{{ url('/phonics/l2') }}";

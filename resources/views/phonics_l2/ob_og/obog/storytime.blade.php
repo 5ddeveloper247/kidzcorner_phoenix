@@ -51,80 +51,80 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st1.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story1.png',
                 'text' => 'Bab and the Frog',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st2.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story2.png',
                 'text' => 'Bob the slob likes to jog.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st3.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story3.png',
                 'text' => 'Bob jogs with his dog through a fog.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st4.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story4.png',
                 'text' => 'In the fog, he sees a frog on a log.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st5.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story5.png',
                 'text' => 'The frog sobs as he has just lost his golden knob.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st6.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story6.png',
                 'text' => '“Don’t sob. I’ll help you find your golden knob, says Bob the slob.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st7.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story7.png',
                 'text' => 'They search and instead, they find a clog next to a blob.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st8.mp3',
                 'image' => 'assets/images/phonics_l2/obog/story8.png',
                 'text' => 'Bob’s dog then points to the log and under it is the knob.',
-            ]
+            ],
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq1.mp3',
                 'question' => "What does Bob \n like to do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq2.mp3',
                 'question' => "Who does\n he jog with?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq3.mp3',
                 'question' => "Where is the\n frog?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq4.mp3',
                 'question' => "Why does the\n frog sob?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq5.mp3',
                 'question' => "What does Bob\n do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq6.mp3',
                 'question' => "What do they\n find next to the \n blob?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq7.mp3',
                 'question' => "Where is\n the knob?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -201,7 +201,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -248,7 +248,8 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.
+            </div>
             <div class="question">In a fog, he sees a frog on a log.</div>
             <div class="question">The frog sobs as he has just lost his golden knob</div>
             <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
@@ -256,7 +257,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -305,15 +306,17 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.
+            </div>
             <div class="question">The frog sobs as he has just lost his golden knob</div>
             <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -365,15 +368,18 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> The frog sobs as he has just lost his golden knob</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> The frog sobs as he has just lost his
+                golden knob</div>
             <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -431,9 +437,12 @@
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> The frog sobs as he has just lost his golden knob</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> Bob’s dog then points to the log and under it is the knob.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> The frog sobs as he has just lost his
+                golden knob</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> Bob’s dog then points to the log and
+                under it is the knob.</div>
         </div>
     </div>
 

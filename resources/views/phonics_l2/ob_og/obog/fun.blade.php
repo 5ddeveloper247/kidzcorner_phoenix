@@ -7,14 +7,12 @@
     $returnURL = '/phonics_l2/ob_og/obog';
     $doneURL = '/phonics_l2/ob_og/obog';
 
-
-
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
             'image' => 'assets/images/phonics_l2/obog/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The small'],
                 ['type' => 'blank'],
@@ -27,12 +25,12 @@
             'words' => [
                 ['word' => 'frog', 'answer' => true],
                 ['word' => 'job', 'answer' => false],
-                ['word' => 'fog',  'answer' => false],
+                ['word' => 'fog', 'answer' => false],
                 ['word' => 'knob', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ob_og/frog.m4a',
-                'assets/audio/phonics_audio-2/ob_og/knob.m4a',
+                'assets/audio/phonics_audio-2/ob_og/frog.mp3',
+                'assets/audio/phonics_audio-2/ob_og/knob.mp3',
             ],
         ],
 
@@ -40,7 +38,7 @@
         [
             'image' => 'assets/images/phonics_l2/obog/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'Bob and his friend'],
                 ['type' => 'blank'],
@@ -51,13 +49,13 @@
             'tip' => null,
             'words' => [
                 ['word' => 'rob', 'answer' => false],
-                ['word' => 'jog', 'answer' => false],
-                ['word' => 'log', 'answer' => true],
+                ['word' => 'jog', 'answer' => true],
+                ['word' => 'log', 'answer' => false],
                 ['word' => 'snob', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ob_og/jog.m4a',
-                'assets/audio/phonics_audio-2/ob_og/log.m4a',
+                'assets/audio/phonics_audio-2/ob_og/jog.mp3',
+                'assets/audio/phonics_audio-2/ob_og/log.mp3',
             ],
         ],
 
@@ -65,7 +63,7 @@
         [
             'image' => 'assets/images/phonics_l2/obog/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The boys'],
                 ['type' => 'blank'],
@@ -81,8 +79,8 @@
                 ['word' => 'clog', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ob_og/sob.m4a',
-                'assets/audio/phonics_audio-2/ob_og/dog.m4a',
+                'assets/audio/phonics_audio-2/ob_og/sob.mp3',
+                'assets/audio/phonics_audio-2/ob_og/dog.mp3',
             ],
         ],
     ];
@@ -137,13 +135,13 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.mp3') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-dia.mp3') }}">
         <h2 class="top-title stroke">Fun with Digraphs</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        
+
     </div>
 
 

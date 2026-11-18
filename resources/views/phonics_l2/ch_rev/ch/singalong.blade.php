@@ -37,7 +37,7 @@
     {{-- Panel 2: Song Content Slide --}}
     <div class="phonics-panel flex flex-col h-full justify-between items-center">
         <div class="text-center">
-            <h2 class="large-title">SH</h2>
+            <h2 class="large-title">CH</h2>
             <p class="note">Sing to the tune of “Skip to My Lou’</p>
         </div>
 
