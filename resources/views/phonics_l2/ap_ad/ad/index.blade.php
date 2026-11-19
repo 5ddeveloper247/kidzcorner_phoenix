@@ -36,7 +36,7 @@
             </a>
 
             <a href="{{ url('/phonics_l2/ap_ad/ad/wordhunt') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b7.png') }}" class="mx-auto d-block" />
+                <img src="{{ asset('assets/images/phonics_l2/global/b13.png') }}" class="mx-auto d-block" />
             </a>
 
         </div>

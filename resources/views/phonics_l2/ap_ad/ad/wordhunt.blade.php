@@ -18,18 +18,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/atrev/rat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/rat.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/glad.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/glad.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/glad.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'glad',
             'answerImage' => 'assets/images/phonics_l2/apad/glad.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/glad.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/glad.mp3',
             'answerDiagraph' => 'ad',
             'answerRest' => 'gl',
         ],
@@ -40,18 +40,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chick.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chick.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/mad.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/mad.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/mad.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'mad',
             'answerImage' => 'assets/images/phonics_l2/apad/mad.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/mad.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/mad.mp3',
             'answerRest' => 'm',
             'answerDiagraph' => 'ad',
         ],
@@ -62,19 +62,19 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/apad/sad2.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/sad2.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/sad.mp3',
                     'answer' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/shch/chop.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chop.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chop.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'sad',
             'answerImage' => 'assets/images/phonics_l2/apad/sad2.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/sad2.m4a',
-            'answerRest' => 'tee',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/sad.mp3',
+            'answerRest' => 'S',
             'answerDiagraph' => 'ad',
         ],
 
@@ -84,18 +84,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/shch/chair.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sh_ch/chair.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/pad.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/pad.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/pad.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'pad',
             'answerImage' => 'assets/images/phonics_l2/apad/pad.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/pad.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ap_ad/pad.mp3',
             'answerRest' => 'p',
             'answerDiagraph' => 'ad',
         ],
@@ -140,8 +140,8 @@
 @section('content')
 
     {{-- ── Panel 1: Intro ── --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.mp3') }}">
-        <h2 class="top-title stroke">Word Hunt</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/pic-match.mp3') }}">
+        <h2 class="top-title stroke">Picture Match</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -156,9 +156,9 @@
     @foreach ($questions as $q)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[4vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ap_ad/pm.mp3') }}">
 
-            <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+            <h2 class="large-title stroke">Find the picture that matches the word.</h2>
 
             <div class="flex items-center justify-between w-full px-[3vw]">
 
@@ -245,15 +245,19 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = document.body.dataset.homeRoute;
+            // Make sure this file exists (other lessons use common/bading.mp3)
             const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
+            let pendingAudio = null; // audio blocked by the browser's autoplay policy
 
             // ── Audio ─────────────────────────────────────────────
             function stopAudio() {
+                pendingAudio = null;
                 if (currentAudio) {
                     currentAudio.onended = null;
+                    currentAudio.onerror = null;
                     currentAudio.pause();
                     currentAudio = null;
                 }
@@ -263,10 +267,34 @@
             function playSequence(sources, idx = 0) {
                 if (idx >= sources.length) return;
                 stopAudio();
-                currentAudio = new Audio(sources[idx]);
-                currentAudio.onended = () => playSequence(sources, idx + 1);
-                currentAudio.play().catch(() => {});
+
+                const audio = new Audio(sources[idx]);
+                currentAudio = audio;
+
+                const next = () => playSequence(sources, idx + 1);
+                audio.onended = next;
+                audio.onerror = () => {
+                    console.error('Audio failed to load:', sources[idx]);
+                    next(); // skip a broken file so the rest (cheering) still plays
+                };
+
+                audio.play().catch(err => {
+                    if (err.name === 'NotAllowedError') {
+                        pendingAudio = { sources, idx }; // retry on first user interaction
+                    } else {
+                        console.error('Audio play failed:', sources[idx], err);
+                    }
+                });
             }
+
+            function retryPendingAudio() {
+                if (!pendingAudio) return;
+                const { sources, idx } = pendingAudio;
+                pendingAudio = null;
+                playSequence(sources, idx);
+            }
+            document.addEventListener('click', retryPendingAudio);
+            document.addEventListener('keydown', retryPendingAudio);
 
             // ── Show slide ────────────────────────────────────────
             function showSlide(idx) {

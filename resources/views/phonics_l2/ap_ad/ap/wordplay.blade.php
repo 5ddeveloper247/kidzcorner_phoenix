@@ -17,7 +17,8 @@
             'highlight' => 'ap',
             'before' => 't', // Part before highlight
             'after' => '', // Part after highlight
-            'audio' => 'ap_ad/tap.m4a',
+            'audio' => 'ap_ad/t-ap.mp3',
+            'answeraudio' => 'ap_ad/tap.mp3',
             'tip' =>
                 'Tip: Invite children to sound out each word by parts (e.g. /t/.../ap/) <br> before selecting the word that matches the picture.',
         ],
@@ -29,7 +30,8 @@
             'highlight' => 'ap',
             'before' => 'wr',
             'after' => '',
-            'audio' => 'ap_ad/wrap.m4a',
+            'audio' => 'ap_ad/wr-ap.mp3',
+            'answeraudio' => 'ap_ad/wrap.mp3',
             'tip' => null,
         ],
         [
@@ -40,7 +42,8 @@
             'highlight' => 'ap',
             'before' => 'n',
             'after' => '',
-            'audio' => 'ap_ad/nap.m4a',
+            'audio' => 'ap_ad/n-ap.mp3',
+            'answeraudio' => 'ap_ad/nap.mp3',
             'tip' => null,
         ],
         [
@@ -51,7 +54,8 @@
             'highlight' => 'ap',
             'before' => 'cl',
             'after' => '',
-            'audio' => 'ap_ad/clap.m4a',
+            'audio' => 'ap_ad/cl-ap.mp3',
+            'answeraudio' => 'ap_ad/clap.mp3',
             'tip' => null,
         ],
         [
@@ -62,7 +66,8 @@
             'highlight' => 'ap',
             'before' => 'l',
             'after' => '',
-            'audio' => 'ap_ad/lap.m4a',
+            'audio' => 'ap_ad/l-ap.mp3',
+            'answeraudio' => 'ap_ad/lap.mp3',
             'tip' => null,
         ],
     ];
@@ -107,7 +112,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/wordplay.mp3') }}">
-        <h2 class="top-title stroke">Word Play</h2>
+        <h2 class="top-title stroke">Word Hunt</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/word.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -118,7 +123,7 @@
     @foreach ($panels as $panel)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col items-center space-y-[2vw] w-full relative"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/find-word.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.mp3') }}">
 
             <h2 class="stroke panel-title">Find the word that matches the picture.</h2>
 
@@ -132,13 +137,13 @@
             </div>
 
             @if (!empty($panel['tip']))
-                <p class="note">{!! $panel['tip'] !!}</p>
+                <p class="p-note">{!! $panel['tip'] !!}</p>
             @endif
 
             {{-- Side sound button --}}
             <div class="flex flex-col gap-[1vw] items-center justify-center absolute left-[-3%] top-[40%]">
                 <button class="w-[3vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['audio']) }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['answeraudio']) }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -203,27 +208,66 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
+            // Make sure this file exists (other lessons use common/bading.mp3)
+            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
+            let pendingAudio = null; // audio blocked by the browser's autoplay policy
 
             function stopAudio() {
+                pendingAudio = null;
                 if (currentAudio) {
+                    currentAudio.onended = null;
+                    currentAudio.onerror = null;
                     currentAudio.pause();
-                    currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 
-            function playAudio(src) {
+            // Plays a list of audio files one after another
+            function playSequence(sources, idx = 0) {
+                if (idx >= sources.length) return;
                 stopAudio();
-                if (!src) return;
-                currentAudio = new Audio(src);
-                currentAudio.play().catch(() => {});
+
+                const audio = new Audio(sources[idx]);
+                currentAudio = audio;
+
+                const next = () => playSequence(sources, idx + 1);
+                audio.onended = next;
+                audio.onerror = () => {
+                    console.error('Audio failed to load:', sources[idx]);
+                    next(); // skip a broken file so the rest (cheering) still plays
+                };
+
+                audio.play().catch(err => {
+                    if (err.name === 'NotAllowedError') {
+                        pendingAudio = { sources, idx }; // retry on first user interaction
+                    } else {
+                        console.error('Audio play failed:', sources[idx], err);
+                    }
+                });
             }
 
+            function retryPendingAudio() {
+                if (!pendingAudio) return;
+                const { sources, idx } = pendingAudio;
+                pendingAudio = null;
+                playSequence(sources, idx);
+            }
+            document.addEventListener('click', retryPendingAudio);
+            document.addEventListener('keydown', retryPendingAudio);
+
             function showSlide(index) {
+                stopAudio();
                 slides.forEach((s, i) => s.classList.toggle('hidden', i !== index));
-                playAudio(slides[index].getAttribute('data-slide-audio'));
+
+                const slide = slides[index];
+                const src = slide.getAttribute('data-slide-audio');
+                const isAnswer = slide.classList.contains('answer');
+
+                // Answer panels: word audio, then cheering
+                if (src) playSequence(isAnswer ? [src, CHEERING] : [src]);
 
                 const isLast = index === slides.length - 1;
                 nextButtons.forEach(b => b.classList.toggle('hidden', isLast));
@@ -247,7 +291,7 @@
             }));
             soundButtons.forEach(b => b.addEventListener('click', e => {
                 e.stopPropagation();
-                playAudio(b.getAttribute('data-slide-audio'));
+                playSequence([b.getAttribute('data-slide-audio')]);
             }));
 
             showSlide(0);

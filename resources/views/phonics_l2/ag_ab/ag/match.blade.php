@@ -13,36 +13,36 @@
             'type' => 'grid',
             'cols' => 3,
             'question' => 'Find the picture that begin with the /ag/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/bag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/flag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/flag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/flag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/agab/stag.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'stag',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/mm-stag.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -63,36 +63,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ag/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/bag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/flag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/agab/bag.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'bag',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/mm-bag.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -113,36 +113,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ag/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/bag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/flag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/agab/flag.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'flag',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/flag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/mm-flag.mp3',
         ],
 
         // ── Round 4: ──
@@ -163,36 +163,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ag/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/bag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/flag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/agab/wag.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'wag',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/mm-wag.mp3',
         ],
 
         // ── Round 5: ──
@@ -212,36 +212,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /ag/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/match-ag.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/spst/spill.png',
-                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/sp_st/spill.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/bag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/flag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/trap.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/trap.mp3',
                     'correct' => false,
                 ],
             ],
@@ -250,8 +250,8 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.m4a',
-            'message' => "That's right! <br> Shower, Shell, Shut and <br> Shark begin with the <br> /ag/ sound.",
+            'audio' => 'assets/audio/phonics_audio-2/ag_ab/right-ag.mp3',
+            'message' => "That's right! <br> stag, bag, flag and <br> wag begin with the <br> /ag/ sound.",
             'cols' => 2, 
             'cards' => [
                 [
