@@ -51,42 +51,42 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st1.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story1.png',
                 'text' => 'Zig and his Ship',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st2.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story2.png',
                 'text' => 'My name is Zig and I am the captain of the ship.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st3.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story3.png',
                 'text' => 'The sail of my ship is help up by a big clip.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st4.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story4.png',
                 'text' => 'At sea, I like to skip around with my whip.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st5.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story5.png',
                 'text' => 'Which sometimes makes me trip.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st6.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story6.png',
                 'text' => 'At night, I like to wear a wig and dance a fancy jig.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st7.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story7.png',
                 'text' => 'On land, I like to eat a fig just before I dig with my twig.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st8.mp3',
                 'image' => 'assets/images/phonics_l2/igip/story8.png',
                 'text' => 'My name is Zig and I love my ship.',
             ],
@@ -94,32 +94,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq1.mp3',
                 'question' => "Who is \n Zig?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq2.mp3',
                 'question' => "What is used to\n hold up \nthe sail?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq3.mp3',
                 'question' => "What makes\n him trip?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq4.mp3',
                 'question' => "What does he \n like to do \n at night?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq5.mp3',
                 'question' => "What does he \n like to do \n on land?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq5.mp3',
                 'question' => "What would you \n do if you are the \n captain of a ship?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -197,7 +197,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -244,7 +244,8 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of
+                the ship </div>
             <div class="question">The sail of my ship is help up by a big clip</div>
             <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
             <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
@@ -252,7 +253,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -301,15 +302,17 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big clip </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of
+                the ship</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big
+                clip </div>
             <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
             <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -361,15 +364,18 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big clip</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> At night, I like to wear a wig and dance a fancy jig</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of
+                the ship</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big
+                clip</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> At night, I like to wear a wig and
+                dance a fancy jig</div>
             <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -389,7 +395,8 @@
             <div class="question">My name is Zig and I am the captain of the ship</div>
             <div class="question">The sail of my ship is help up by a big clip</div>
             <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">On land, I like to eat a fig just before I dig with my
+                twig.</div>
         </div>
     </div>
 
@@ -424,10 +431,14 @@
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big clip</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of
+                the ship </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big
+                clip</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> At night, I like to wear a wig and
+                dance a fancy jig</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> On land, I like to eat a fig just
+                before I dig with my twig.</div>
         </div>
     </div>
 

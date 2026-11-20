@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/idin/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'thin', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/id_in/kid.m4a',
-                'assets/audio/phonics_audio-2/id_in/thin.m4a',
+                'assets/audio/phonics_audio-2/id_in/kid.mp3',
+                'assets/audio/phonics_audio-2/id_in/thin.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/idin/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'He'],
                 ['type' => 'blank'],
@@ -56,8 +56,8 @@
                 ['word' => 'skid', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/id_in/hid.m4a',
-                'assets/audio/phonics_audio-2/id_in/tin.m4a',
+                'assets/audio/phonics_audio-2/id_in/hid.mp3',
+                'assets/audio/phonics_audio-2/id_in/tin.mp3',
             ],
         ],
 
@@ -65,7 +65,7 @@
         [
             'image' => 'assets/images/phonics_l2/idin/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'chin', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/id_in/squid.m4a',
-                'assets/audio/phonics_audio-2/id_in/bin.m4a',
+                'assets/audio/phonics_audio-2/id_in/squid.mp3',
+                'assets/audio/phonics_audio-2/id_in/bin.mp3',
             ],
         ],
     ];

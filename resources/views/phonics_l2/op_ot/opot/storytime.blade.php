@@ -51,38 +51,38 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/st1.mp3',
                 'image' => 'assets/images/phonics_l2/opot/story1.png',
                 'text' => 'The Pot with a Dot on the Top',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/st2.mp3',
                 'image' => 'assets/images/phonics_l2/opot/story2.png',
                 'text' => 'I placed my pot in a spot next to the cot before I
 went into my shop.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/st3.mp3',
                 'image' => 'assets/images/phonics_l2/opot/story1.png',
                 'text' => 'The pot has a round dot on the top.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/st4.mp3',
                 'image' => 'assets/images/phonics_l2/opot/story3.png',
                 'text' => 'I had the pot since I was a tot.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/st5.mp3',
                 'image' => 'assets/images/phonics_l2/opot/story4.png',
                 'text' => 'I was afraid to drop the pot in my shop as it was hot.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/st6.mp3',
                 'image' => 'assets/images/phonics_l2/opot/story5.png',
                 'text' => 'As I would have to then mop the spot.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/st7.mp3',
                 'image' => 'assets/images/phonics_l2/opot/story6.png',
                 'text' => 'Now I cannot stop thinking of my pot.',
             ],
@@ -90,27 +90,27 @@ went into my shop.',
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq1.mp3',
                 'question' => "Where did he place \n the pot?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq2.mp3',
                 'question' => "What is on the \n top of the \n pot?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq3.mp3',
                 'question' => "Why didn’t he\n bring the pot \n into the shop?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq4.mp3',
                 'question' => "Why can’t he \n stop thinking of \n his pot?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq5.mp3',
                 'question' => "What do you think \n is in the pot?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -188,7 +188,7 @@ went into my shop.',
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -235,7 +235,8 @@ went into my shop.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the
+                cot. </div>
             <div class="question">The pot has a round dot on the top.</div>
             <div class="question">I had the pot since I was a tot.</div>
             <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
@@ -243,7 +244,7 @@ went into my shop.',
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -292,15 +293,17 @@ went into my shop.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the
+                cot.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top.
+            </div>
             <div class="question">I had the pot since I was a tot.</div>
             <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -352,15 +355,17 @@ went into my shop.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the
+                cot.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top.
+            </div>
             <div class="question done"><span class="absolute left-0 pl-5">3</span> I had the pot since I was a tot.</div>
             <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -380,7 +385,8 @@ went into my shop.',
             <div class="question">I placed my pot in a spot next to the cot.</div>
             <div class="question">The pot has a round dot on the top.</div>
             <div class="question">I had the pot since I was a tot.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">I was afraid to drop the pot in my shop as it was hot.
+            </div>
         </div>
     </div>
 
@@ -415,10 +421,13 @@ went into my shop.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot. </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the
+                cot. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top.
+            </div>
             <div class="question done"><span class="absolute left-0 pl-5">3</span> I had the pot since I was a tot.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> I was afraid to drop the pot in my shop
+                as it was hot.</div>
         </div>
     </div>
 

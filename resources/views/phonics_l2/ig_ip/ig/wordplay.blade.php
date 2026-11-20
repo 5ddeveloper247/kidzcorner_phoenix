@@ -14,10 +14,11 @@
             'imageSize' => 'w-[16vw]',
             'options' => ['bag', 'big'],
             'answer' => 'big',
-            'before' => 'b', 
+            'before' => 'b',
             'highlight' => 'ig',
-            'after' => '', 
-            'audio' => 'ig_ip/big.m4a',
+            'after' => '',
+            'audio' => 'ig_ip/big.mp3',
+            'asnweraudio' => 'ig_ip/b-ig.mp3',
             'tip' =>
                 'Tip: Invite children to sound out each word by parts (e.g. /t/.../op/) <br> before selecting the word that matches the picture.',
         ],
@@ -29,7 +30,8 @@
             'before' => 'd',
             'highlight' => 'ig',
             'after' => '',
-            'audio' => 'ig_ip/dig.m4a',
+            'audio' => 'ig_ip/dig.mp3',
+            'asnweraudio' => 'ig_ip/d-ig.mp3',
             'tip' => null,
         ],
         [
@@ -40,7 +42,8 @@
             'before' => 'w',
             'highlight' => 'ig',
             'after' => '',
-            'audio' => 'ig_ip/wig.m4a',
+            'audio' => 'ig_ip/wig.mp3',
+            'asnweraudio' => 'ig_ip/w-ig.mp3',
             'tip' => null,
         ],
         [
@@ -51,7 +54,8 @@
             'before' => 'tw',
             'highlight' => 'ig',
             'after' => '',
-            'audio' => 'ig_ip/twig.m4a',
+            'audio' => 'ig_ip/twig.mp3',
+            'asnweraudio' => 'ig_ip/tw-ig.mp3',
             'tip' => null,
         ],
     ];
@@ -107,7 +111,7 @@
     @foreach ($panels as $panel)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col items-center space-y-[4vw] w-full relative"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/find-word.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/find-word.m4a') }}">
 
             <h2 class="stroke panel-title">Find the word that matches the picture.</h2>
 
@@ -135,7 +139,7 @@
 
         {{-- Answer panel --}}
         <div class="phonics-panel answer flex flex-col justify-center space-y-[2vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['audio']) }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['asnweraudio']) }}">
 
             <div class="flex items-end justify-around w-full">
                 <img src="{{ asset('assets/images/' . $panel['image']) }}" class="{{ $panel['imageSize'] }}" />
@@ -146,7 +150,8 @@
             </div>
 
             <h2 class="text-[4vw]">
-                <span class="text-white">{{ $panel['before'] }}<span class="text-[#f7b94a]">{{ $panel['highlight'] }}</span>{{ $panel['after'] }}</span>
+                <span class="text-white">{{ $panel['before'] }}<span
+                        class="text-[#f7b94a]">{{ $panel['highlight'] }}</span>{{ $panel['after'] }}</span>
             </h2>
         </div>
     @endforeach

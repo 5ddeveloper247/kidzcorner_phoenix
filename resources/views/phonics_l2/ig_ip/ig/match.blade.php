@@ -13,36 +13,36 @@
             'type' => 'grid',
             'cols' => 3,
             'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/match-ig2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/sled.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/igip/big.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'big',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/mm-big.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -63,36 +63,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/match-ig2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/igip/twig.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'twig',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/mm-twig.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -113,36 +113,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/match-ig2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/igip/wig.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'wig',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/mm-wig.mp3',
         ],
 
         // ── Round 4: ──
@@ -163,36 +163,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/match-ig2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.mp3',
                     'correct' => false,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/igip/dig.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'dig',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/mm-dig.mp3',
         ],
 
         // ── Round 5: ──
@@ -212,36 +212,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/match-ig2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.mp3',
                     'correct' => false,
                 ],
             ],
@@ -250,7 +250,7 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/matched.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/right-ig.mp3',
             'message' => "That's right! <br> Big, Twig, Wig and <br> dig end with the <br> /ig/ sound.",
             'cols' => 2,
             'cards' => [
@@ -303,7 +303,8 @@
             position: absolute;
             top: 4%;
         }
-.panel-ul {
+
+        .panel-ul {
             color: white;
             font-size: 1.1vw;
             padding-left: 3vw;
@@ -353,6 +354,24 @@
             </button>
         </div>
     </div>
+
+
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/match-ig.mp3') }}">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw]" />
+                <h2 class="absolute top-1/2 left-1/2 -translate-1/2 text-[#A15E0D] text-[2vw] text-center w-100">
+                    Let's spot the <br>
+                    pictures that end <br>
+                    with '<span class="text-[#70af39]">ig</span>'!
+                </h2>
+            </div>
+        </div>
+        <p class="p-note">Tips: Children to name the picture first. <br>
+            Encourage them to identify each of the initial target sound made by each word.</p>
+    </div>
+
 
 
     {{-- ── All round panels — auto-generated ── --}}
@@ -495,7 +514,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
-            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
+            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/chering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

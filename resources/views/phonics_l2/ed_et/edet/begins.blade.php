@@ -222,7 +222,9 @@
             </div>
 
             @if (!empty($q['tip']))
-                <p class="p-note">{{ $q['tip'] }}</p>
+                <p class="p-note w-full text-center leading-relaxed">
+        {!! $q['tip'] !!}
+    </p>
             @endif
         </div>
 

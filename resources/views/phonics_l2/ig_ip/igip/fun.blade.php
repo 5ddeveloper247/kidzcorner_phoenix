@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/igip/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'My brother used a'],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'dig', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                'assets/audio/phonics_audio-2/ig_ip/twig.mp3',
+                'assets/audio/phonics_audio-2/ig_ip/dig.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/igip/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'I took a'],
                 ['type' => 'blank'],
@@ -56,8 +56,8 @@
                 ['word' => 'fig', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ig_ip/sip.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                'assets/audio/phonics_audio-2/ig_ip/sip.mp3',
+                'assets/audio/phonics_audio-2/ig_ip/big.mp3',
             ],
         ],
 
@@ -65,7 +65,7 @@
         [
             'image' => 'assets/images/phonics_l2/igip/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'There is a'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'jig', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ig_ip/clip.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                'assets/audio/phonics_audio-2/ig_ip/clip.mp3',
+                'assets/audio/phonics_audio-2/ig_ip/wig.mp3',
             ],
         ],
     ];

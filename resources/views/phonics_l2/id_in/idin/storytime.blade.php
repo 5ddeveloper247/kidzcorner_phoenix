@@ -51,37 +51,37 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st1.mp3',
                 'image' => 'assets/images/phonics_l2/idin/story1.png',
                 'text' => 'The Squid in the Tin',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st2.mp3',
                 'image' => 'assets/images/phonics_l2/idin/story2.png',
                 'text' => 'Sid the kid slid down a pole into a bin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st3.mp3',
                 'image' => 'assets/images/phonics_l2/idin/story3.png',
                 'text' => 'In the bin, he found a thin squid in a tin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st4.mp3',
                 'image' => 'assets/images/phonics_l2/idin/story4.png',
                 'text' => 'The squid hid a fin under the tin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st5.mp3',
                 'image' => 'assets/images/phonics_l2/idin/story5.png',
                 'text' => 'And used it to tickle Sid’s chin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st6.mp3',
                 'image' => 'assets/images/phonics_l2/idin/story6.png',
                 'text' => 'It then hopped onto a lid and started to spin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st7.mp3',
                 'image' => 'assets/images/phonics_l2/idin/story7.png',
                 'text' => 'Before the squid knew it, down came the tin!',
             ],
@@ -89,27 +89,27 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq1.mp3',
                 'question' => "How did Sid \n get into \n he bin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq2.mp3',
                 'question' => "What did he \n find in \n the tin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq3.mp3',
                 'question' => "Why did the squid \n hide the fin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq4.mp3',
                 'question' => "What did the \n squid do \n with the fin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/id_in/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq5.mp3',
                 'question' => "What happened to \n the squid in\nthe end?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -187,7 +187,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -242,7 +242,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -299,7 +299,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -359,7 +359,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
