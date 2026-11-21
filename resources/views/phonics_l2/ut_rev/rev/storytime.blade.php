@@ -51,47 +51,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st1.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story1.png',
                 'text' => 'The Pup and the Nut',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st2.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story2.png',
                 'text' => 'A pup buys a nut from a cub',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st3.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story3.png',
                 'text' => 'And brings the nut to the pup’s hut in a cup.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st4.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story4.png',
                 'text' => 'The pup tries to crack the nut with its club.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st5.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story5.png',
                 'text' => 'But the nut is too hard and it bounces into a dirty tub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st6.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story6.png',
                 'text' => 'The pup then tries to cut the nut with a hub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st7.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story7.png',
                 'text' => 'But the nut is too hard and it nearly hits a slug on a rug.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st8.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story8.png',
                 'text' => 'The sad pup then places the nut in the sun and goes for a run.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/st9.mp3',
                 'image' => 'assets/images/phonics_l2/utrev/story9.png',
                 'text' => 'Along comes a bug, cracks open the nut and eats it with a bun.',
             ],
@@ -99,32 +99,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq1.mp3',
                 'question' => "From whom does \n the pup buy \n the nut?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq2.mp3',
                 'question' => "How does the nut \n get into the \n dirty tub?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq3.mp3',
                 'question' => "What does the \npup use to \n cut the nut?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq4.mp3',
                 'question' => "Why does the pup \n place the nut \n in the sun?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq5.mp3',
                 'question' => "Who eats the \n nut in the \n end?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ut_rev/stq5.mp3',
                 'question' => "How will you \n crack open \n a nut?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -202,7 +202,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -257,7 +257,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -314,7 +314,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -374,7 +374,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">

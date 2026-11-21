@@ -14,10 +14,11 @@
             'imageSize' => 'h-[16vw]',
             'options' => ['sid', 'sit'],
             'answer' => 'sit',
-            'before' => 's', 
+            'before' => 's',
             'highlight' => 'it',
-            'after' => '', 
-            'audio' => 'it_rev/sit.m4a',
+            'after' => '',
+            'audio' => 'it_rev/sit.mp3',
+            'asnweraudio' => 'it_rev/s-it.mp3',
             'tip' =>
                 'Tip: Invite children to sound out each word by parts (e.g. /t/.../op/) <br> before selecting the word that matches the picture.',
         ],
@@ -29,7 +30,8 @@
             'before' => 'l',
             'highlight' => 'it',
             'after' => '',
-            'audio' => 'it_rev/lit.m4a',
+            'audio' => 'it_rev/lit.mp3',
+            'asnweraudio' => 'it_rev/l-it.mp3',
             'tip' => null,
         ],
         [
@@ -40,7 +42,8 @@
             'before' => 'b',
             'highlight' => 'it',
             'after' => '',
-            'audio' => 'it_rev/bit.m4a',
+            'audio' => 'it_rev/bit.mp3',
+            'asnweraudio' => 'it_rev/b-it.mp3',
             'tip' => null,
         ],
         [
@@ -51,7 +54,8 @@
             'before' => 'spl',
             'highlight' => 'it',
             'after' => '',
-            'audio' => 'it_rev/split.m4a',
+            'audio' => 'it_rev/split.mp3',
+            'asnweraudio' => 'it_rev/spl-it.mp3',
             'tip' => null,
         ],
     ];
@@ -107,7 +111,7 @@
     @foreach ($panels as $panel)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col items-center space-y-[4vw] w-full relative"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/find-word.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/find-word.m4a') }}">
 
             <h2 class="stroke panel-title">Find the word that matches the picture.</h2>
 
@@ -135,7 +139,7 @@
 
         {{-- Answer panel --}}
         <div class="phonics-panel answer flex flex-col justify-center space-y-[2vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['audio']) }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $panel['asnweraudio']) }}">
 
             <div class="flex items-end justify-around w-full">
                 <img src="{{ asset('assets/images/' . $panel['image']) }}" class="{{ $panel['imageSize'] }}" />
@@ -146,7 +150,8 @@
             </div>
 
             <h2 class="text-[4vw]">
-                <span class="text-white">{{ $panel['before'] }}<span class="text-[#f7b94a]">{{ $panel['highlight'] }}</span>{{ $panel['after'] }}</span>
+                <span class="text-white">{{ $panel['before'] }}<span
+                        class="text-[#f7b94a]">{{ $panel['highlight'] }}</span>{{ $panel['after'] }}</span>
             </h2>
         </div>
     @endforeach
@@ -192,27 +197,45 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
+            const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
 
             function stopAudio() {
                 if (currentAudio) {
+                    currentAudio.onended = null; // cancels any pending cheering
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 
-            function playAudio(src) {
+            function playAudio(src, onEnd) {
                 stopAudio();
                 if (!src) return;
-                currentAudio = new Audio(src);
-                currentAudio.play().catch(() => {});
+                const audio = new Audio(src);
+                currentAudio = audio;
+                if (onEnd) {
+                    audio.onended = () => {
+                        if (currentAudio !== audio) return; // slide changed meanwhile
+                        onEnd();
+                    };
+                }
+                audio.play().catch(() => {});
             }
 
             function showSlide(index) {
                 slides.forEach((s, i) => s.classList.toggle('hidden', i !== index));
-                playAudio(slides[index].getAttribute('data-slide-audio'));
+
+                const slide = slides[index];
+                const isAnswer = slide.classList.contains('answer');
+
+                // Answer panel: answer sound first, then the cheering sound
+                playAudio(
+                    slide.getAttribute('data-slide-audio'),
+                    isAnswer ? () => playAudio(CHEERING_AUDIO) : null
+                );
 
                 const isLast = index === slides.length - 1;
                 nextButtons.forEach(b => b.classList.toggle('hidden', isLast));

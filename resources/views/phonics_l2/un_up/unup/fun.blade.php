@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/unup/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/un_up/fb-unup1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/un_up/fb-unup1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'run', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/un_up/pup.m4a',
-                'assets/audio/phonics_audio-2/un_up/run.m4a',
+                'assets/audio/phonics_audio-2/un_up/pup.mp3',
+                'assets/audio/phonics_audio-2/un_up/run.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/unup/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/un_up/fb-unup2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/un_up/fb-unup2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'My mother eat the'],
                 ['type' => 'blank'],
@@ -56,8 +56,8 @@
                 ['word' => 'cap', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/un_up/bun.m4a',
-                'assets/audio/phonics_audio-2/un_up/cup.m4a',
+                'assets/audio/phonics_audio-2/un_up/bun.mp3',
+                'assets/audio/phonics_audio-2/un_up/cup.mp3',
             ],
         ],
 
@@ -65,7 +65,7 @@
         [
             'image' => 'assets/images/phonics_l2/unup/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/un_up/fb-unup3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/un_up/fb-unup3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'Jub had'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'spun', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/un_up/fun.m4a',
-                'assets/audio/phonics_audio-2/un_up/sun.m4a',
+                'assets/audio/phonics_audio-2/un_up/fun.mp3',
+                'assets/audio/phonics_audio-2/un_up/sun.mp3',
             ],
         ],
     ];

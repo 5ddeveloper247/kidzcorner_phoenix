@@ -12,14 +12,15 @@
     $questions = [
         [
             'top_image' => 'phonics_l2/ubug/jug.png',
-            'top_audio' => 'ub_ug/jug.m4a',
+            'top_audio' => 'ub_ug/jug.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/edet/pet.png', 'audio' => 'ed_eyt/pet.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/edet/pet.png', 'audio' => 'ed_et/pet.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 1,
+            'answer_audio' => 'ub_ug/mi-jug.mp3',
             'answer_background' => 'oval-ans',
             'highlight_position' => 'top',
 
@@ -31,14 +32,15 @@
         // 2 -
         [
             'top_image' => 'phonics_l2/obog/jog.png',
-            'top_audio' => 'ob_og/jog.m4a',
+            'top_audio' => 'ob_og/jog.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/ubug/mug.png', 'audio' => 'ub_ug/mug.m4a', 'size' => 'h-[6vw]'],
-                ['img' => 'phonics_l2/idin/spin.png', 'audio' => 'id_in/spin.m4a', 'size' => 'h-[7vw]'],
+                ['img' => 'phonics_l2/ubug/mug.png', 'audio' => 'ub_ug/mug.mp3', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/idin/spin.png', 'audio' => 'id_in/spin.mp3', 'size' => 'h-[7vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'ub_ug/mi-mug.mp3',
             'answer_background' => 'green',
             'highlight_position' => 0,
 
@@ -51,18 +53,19 @@
         // 3 -
         [
             'top_image' => 'phonics_l2/obog/log.png',
-            'top_audio' => 'ob_og/log.m4a',
+            'top_audio' => 'ob_og/log.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/opot/slot.png', 'audio' => 'op_ot/slot.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/ubug/hug.png', 'audio' => 'ub_ug/hug.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/opot/slot.png', 'audio' => 'op_ot/slot.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/ubug/hug.png', 'audio' => 'ub_ug/hug.mp3', 'size' => 'h-[6vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'ub_ug/mi-hug.mp3',
             'answer_background' => 'yellow',
             'highlight_position' => 1,
 
-            'word_prefix' => 'dr',
+            'word_prefix' => 'h',
             'word_suffix' => 'ug',
 
             'instruction' => 'Find the picture that <br> ends with the <br> /ug/ sound.',
@@ -71,14 +74,15 @@
         // 4
         [
             'top_image' => 'phonics_l2/ubug/dug.png',
-            'top_audio' => 'ub_ug/dug.m4a',
+            'top_audio' => 'ub_ug/dug.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/obog/dog.png', 'audio' => 'ob_og/dog.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/obog/dog.png', 'audio' => 'ob_og/dog.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.mp3', 'size' => 'h-[6vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'ub_ug/mi-dug.mp3',
             'answer_background' => 'oval-ans',
             'highlight_position' => 'top',
 
@@ -122,7 +126,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-it.mp3') }}">
         <h2 class="top-title stroke">Match It</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -132,10 +136,31 @@
             Remind them to listen to the initial sound when naming each object.</p>
     </div>
 
+
+
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/match-ug.mp3') }}">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw]" />
+                <h2 class="absolute top-1/2 left-1/2 -translate-1/2 text-[#A15E0D] text-[2vw] text-center w-100">
+                    Let's spot the <br>
+                    pictures that end <br>
+                    with '<span class="text-[#70af39]">ug</span>'!
+                </h2>
+            </div>
+        </div>
+        <p class="p-note">Tips: Children to name the picture first. <br>
+            Encourage them to identify each of the initial target sound made by each word.</p>
+    </div>
+
+
     {{-- Auto-generated Question & Answer Panels --}}
     @foreach ($questions as $index => $q)
         {{-- Question Panel --}}
-        <div class="phonics-panel flex justify-center items-center gap-[1vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[1vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/match-box.mp3') }}">
+
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -186,7 +211,9 @@
         </div>
 
         {{-- Answer Panel (with highlighted correct answer) --}}
-        <div class="phonics-panel flex justify-center items-center gap-[2vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[2vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['answer_audio']) }}">
+
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -290,7 +317,6 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l1') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
@@ -363,10 +389,8 @@
                 answerOptions.forEach((option, optionIdx) => {
                     option.style.cursor = 'pointer';
                     option.addEventListener('click', () => {
-                        if (optionIdx === correctAnswer) {
-                            // Correct answer clicked - play cheering and go to next
-                            playAudio(cheeringAudio, () => goNext());
-                        }
+                        // Correct answer clicked: open the answer slide (it plays its own answer sound)
+                        if (optionIdx === correctAnswer) goNext();
                     });
                 });
             });
@@ -386,16 +410,11 @@
                 stopAudio();
                 window.location.href = homeURL;
             });
+
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             showSlide(0);
         });

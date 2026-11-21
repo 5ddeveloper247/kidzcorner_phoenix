@@ -9,14 +9,14 @@
 
     $diagraph = 'up';
 
-    $sideBtns = ['assets/audio/phonics_audio-2/un_up/up.m4a', 'assets/audio/phonics_audio-2/un_up/upah.m4a'];
+    $sideBtns = ['assets/audio/phonics_audio-2/un_up/up.mp3', 'assets/audio/phonics_audio-2/un_up/upah.mp3'];
 
     $words = [
         [
             'image' => 'assets/images/phonics_l2/unup/cup.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cup',
-            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/up-sh.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/c-up.mp3',
             'tip' =>
                 'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /j/..../et/...jet)',
         ],
@@ -24,28 +24,28 @@
             'image' => 'assets/images/phonics_l2/unup/pup.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'pup',
-            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/up-ree.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/p-up.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/unup/sup.png',
             'imageSize' => 'h-[15vw]',
             'word' => 'sup',
-            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/up-read.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/s-up.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/unup/ketchup.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'ketchup',
-            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/up-irty.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/ketch-up.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/unup/hiccup.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'hiccup',
-            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/up-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/un_up/hicc-up.mp3',
             'tip' => null,
         ],
     ];
@@ -97,7 +97,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.mp3') }}">
         {{-- <h2 class="top-title stroke">Let's Blend</h2> --}}
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/say.png') }}" class="w-[30vw] h-[20vw]" />
@@ -139,7 +139,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -163,7 +163,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -179,7 +179,7 @@
                 </h2>
 
                 <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/upah.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/upah.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -195,7 +195,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div>
 
@@ -230,7 +230,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -247,7 +247,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -261,7 +261,7 @@
             </h2>
 
             <button class="absolute right-[36%] top-[25%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/upah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/upah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -270,7 +270,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/up4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
