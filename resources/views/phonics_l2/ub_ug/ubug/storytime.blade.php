@@ -51,42 +51,42 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st1.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story1.png',
                 'text' => 'The Cub and the Bug',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st2.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story2.png',
                 'text' => 'Doug the cub was in his tub giving himself a scrub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st3.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story3.png',
                 'text' => 'A bug was merrily crawling up a plug.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st4.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story4.png',
                 'text' => 'Slipped and bounced off a hub that was on rug.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st5.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story5.png',
                 'text' => 'The bug then flew straight into the tub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st6.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story6.png',
                 'text' => 'Doug tried to scoop the bug out with his club.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st7.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story7.png',
                 'text' => 'But the frightened bug scurried out of the tub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st8.mp3',
                 'image' => 'assets/images/phonics_l2/ubug/story8.png',
                 'text' => 'Slipped and ended up in Doug’s mug.',
             ],
@@ -94,32 +94,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq1.mp3',
                 'question' => "What was Doug \ndoing in hus \n tub?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq2.mp3',
                 'question' => "What was the \n bug doing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq3.mp3',
                 'question' => "How did the bug \n get into the \n tub?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq4.mp3',
                 'question' => "What did Doug\n do to help the \n bug?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq5.mp3',
                 'question' => "Why was the bug \n frightened?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq5.mp3',
                 'question' => "How would you \n help the bug?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -197,7 +197,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -252,7 +252,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -309,7 +309,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -369,7 +369,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">

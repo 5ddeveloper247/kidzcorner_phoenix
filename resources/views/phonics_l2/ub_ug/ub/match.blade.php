@@ -13,36 +13,36 @@
             'type' => 'grid',
             'cols' => 3,
             'question' => 'Find the picture that end with the /ub/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/ubug/cub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/hit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/rub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/scrub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/lit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/rev.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/ubug/cub.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cub',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/mm-cub.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -63,36 +63,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ub/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/ubug/cub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/hit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/rub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/scrub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/lit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/ubug/tub.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'tub',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/mm-tub.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -113,36 +113,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ub/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/ubug/cub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/hit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/rub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/scrub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/lit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/ubug/rub.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'rub',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/mm-rub.mp3',
         ],
 
         // ── Round 4: ──
@@ -163,36 +163,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ub/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/ubug/cub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/hit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/rub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/scrub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/lit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.mp3',
                     'correct' => false,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/ubug/scrub.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'scrub',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/mm-scrub.mp3',
         ],
 
         // ── Round 5: ──
@@ -212,36 +212,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that end with the /ub/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/ubug/cub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/hit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/rub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/scrub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/itrev/lit.png',
-                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.mp3',
                     'correct' => false,
                 ],
             ],
@@ -250,7 +250,7 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/matched.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/right-ub.mp3',
             'message' => "That's right! <br> Cub, Tub, Rub and <br> Scrub end with the <br> /ub/ sound.",
             'cols' => 2,
             'cards' => [
@@ -303,7 +303,8 @@
             position: absolute;
             top: 4%;
         }
-.panel-ul {
+
+        .panel-ul {
             color: white;
             font-size: 1.1vw;
             padding-left: 3vw;
@@ -352,6 +353,22 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
             </button>
         </div>
+    </div>
+
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/match-ub.mp3') }}">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw]" />
+                <h2 class="absolute top-1/2 left-1/2 -translate-1/2 text-[#A15E0D] text-[2vw] text-center w-100">
+                    Let's spot the <br>
+                    pictures that end <br>
+                    with '<span class="text-[#70af39]">ub</span>'!
+                </h2>
+            </div>
+        </div>
+        <p class="p-note">Tips: Children to name the picture first. <br>
+            Encourage them to identify each of the initial target sound made by each word.</p>
     </div>
 
 

@@ -7,14 +7,12 @@
     $returnURL = '/phonics_l2/ut_rev/rev';
     $doneURL = '/phonics_l2/ut_rev/rev';
 
-
-
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
             'image' => 'assets/images/phonics_l2/utrev/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ut_rev/fb-utrev1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ut_rev/fb-utrev1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The brown'],
                 ['type' => 'blank'],
@@ -27,12 +25,12 @@
             'words' => [
                 ['word' => 'cub', 'answer' => true],
                 ['word' => 'club', 'answer' => false],
-                ['word' => 'fun',  'answer' => false],
+                ['word' => 'fun', 'answer' => false],
                 ['word' => 'bun', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
-                'assets/audio/phonics_audio-2/un_up/bun.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/cub.mp3',
+                'assets/audio/phonics_audio-2/un_up/bun.mp3',
             ],
         ],
 
@@ -40,7 +38,7 @@
         [
             'image' => 'assets/images/phonics_l2/utrev/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ut_rev/fb-utrev2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ut_rev/fb-utrev2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The baby like to'],
                 ['type' => 'blank'],
@@ -56,8 +54,8 @@
                 ['word' => 'mug', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ub_ug/hug.m4a',
-                'assets/audio/phonics_audio-2/un_up/pup.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/hug.mp3',
+                'assets/audio/phonics_audio-2/un_up/pup.mp3',
             ],
         ],
 
@@ -65,7 +63,7 @@
         [
             'image' => 'assets/images/phonics_l2/utrev/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ut_rev/fb-utrev3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ut_rev/fb-utrev3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -81,8 +79,8 @@
                 ['word' => 'cut', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ub_ug/bug.m4a',
-                'assets/audio/phonics_audio-2/ut_rev/nut.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/bug.mp3',
+                'assets/audio/phonics_audio-2/ut_rev/nut.mp3',
             ],
         ],
     ];
@@ -143,7 +141,7 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        
+
     </div>
 
 

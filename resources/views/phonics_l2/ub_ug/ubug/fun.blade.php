@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/ubug/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'My grandmother washed the'],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'tub', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ub_ug/rug.m4a',
-                'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/rug.mp3',
+                'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/ubug/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The '],
                 ['type' => 'blank'],
@@ -56,8 +56,8 @@
                 ['word' => 'rub', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
-                'assets/audio/phonics_audio-2/ub_ug/jug.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/cub.mp3',
+                'assets/audio/phonics_audio-2/ub_ug/jug.mp3',
             ],
         ],
 
@@ -65,7 +65,7 @@
         [
             'image' => 'assets/images/phonics_l2/ubug/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The bug'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'hub', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ub_ug/dug.m4a',
-                'assets/audio/phonics_audio-2/ub_ug/club.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/dug.mp3',
+                'assets/audio/phonics_audio-2/ub_ug/cl-ub.mp3',
             ],
         ],
     ];

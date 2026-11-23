@@ -12,35 +12,37 @@
     $questions = [
         [
             'top_image' => 'phonics_l2/unup/pup.png',
-            'top_audio' => 'un_up/pup.m4a',
+            'top_audio' => 'un_up/pup.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/ubug/jug.png', 'audio' => 'ub_ug/jug.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/ubug/jug.png', 'audio' => 'ub_ug/jug.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 1,
+            'answer_audio' => 'un_up/mi-pup.mp3',
             'answer_background' => 'oval-ans',
-            'highlight_position' => 'top', 
+            'highlight_position' => 'top',
 
             'word_prefix' => 'p',
             'word_suffix' => 'up',
 
             'instruction' => 'Find the picture that <br> ends with the <br> /up/ sound.',
         ],
-        // 2 - 
+        // 2 -
         [
             'top_image' => 'phonics_l2/obog/jog.png',
-            'top_audio' => 'ob_og/jog.m4a',
+            'top_audio' => 'ob_og/jog.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/unup/cup.png', 'audio' => 'un_up/cup.m4a', 'size' => 'h-[7vw]'],
-                ['img' => 'phonics_l2/ubug/mug.png', 'audio' => 'ub_ug/mug.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/unup/cup.png', 'audio' => 'un_up/cup.mp3', 'size' => 'h-[7vw]'],
+                ['img' => 'phonics_l2/ubug/mug.png', 'audio' => 'ub_ug/mug.mp3', 'size' => 'h-[6vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'un_up/mi-cup.mp3',
             'answer_background' => 'green',
-            'highlight_position' => 0, 
+            'highlight_position' => 0,
 
             'word_prefix' => 'c',
             'word_suffix' => 'up',
@@ -48,28 +50,26 @@
             'instruction' => 'Find the picture that <br> ends with the <br> /up/ sound.',
         ],
 
-        // 3 - 
+        // 3 -
         [
             'top_image' => 'phonics_l2/ubug/hug.png',
-            'top_audio' => 'un_ug/hug.m4a',
+            'top_audio' => 'un_ug/hug.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/opot/slot.png', 'audio' => 'op_ot/slot.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/unup/sup.png', 'audio' => 'un_up/sup.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/opot/slot.png', 'audio' => 'op_ot/slot.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/unup/sup.png', 'audio' => 'un_up/sup.mp3', 'size' => 'h-[6vw]'],
             ],
             'correct_answer' => 0,
+            'answer_audio' => 'un_up/mi-sup.mp3',
             'answer_background' => 'yellow',
-            'highlight_position' => 1, 
+            'highlight_position' => 1,
 
             'word_prefix' => 's',
             'word_suffix' => 'up',
 
             'instruction' => 'Find the picture that <br> ends with the <br> /up/ sound.',
         ],
-
-      
-        
     ];
 @endphp
 
@@ -105,7 +105,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/match-it.mp3') }}">
         <h2 class="top-title stroke">Match It</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -115,10 +115,29 @@
             Remind them to listen to the initial sound when naming each object.</p>
     </div>
 
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/match-up.mp3') }}">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw]" />
+                <h2 class="absolute top-1/2 left-1/2 -translate-1/2 text-[#A15E0D] text-[2vw] text-center w-100">
+                    Let's spot the <br>
+                    pictures that end <br>
+                    with '<span class="text-[#70af39]">ug</span>'!
+                </h2>
+            </div>
+        </div>
+        <p class="p-note">Tips: Children to name the picture first. <br>
+            Encourage them to identify each of the initial target sound made by each word.</p>
+    </div>
+
+
     {{-- Auto-generated Question & Answer Panels --}}
     @foreach ($questions as $index => $q)
         {{-- Question Panel --}}
-        <div class="phonics-panel flex justify-center items-center gap-[1vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[1vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/match-box.mp3') }}">
+
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -169,7 +188,9 @@
         </div>
 
         {{-- Answer Panel (with highlighted correct answer) --}}
-        <div class="phonics-panel flex justify-center items-center gap-[2vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[2vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['answer_audio']) }}">
+
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -260,6 +281,8 @@
     </div>
 @endsection
 
+
+
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -273,7 +296,6 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l1') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
@@ -346,10 +368,8 @@
                 answerOptions.forEach((option, optionIdx) => {
                     option.style.cursor = 'pointer';
                     option.addEventListener('click', () => {
-                        if (optionIdx === correctAnswer) {
-                            // Correct answer clicked - play cheering and go to next
-                            playAudio(cheeringAudio, () => goNext());
-                        }
+                        // Correct answer clicked: open the answer slide (it plays its own answer sound)
+                        if (optionIdx === correctAnswer) goNext();
                     });
                 });
             });
@@ -369,16 +389,11 @@
                 stopAudio();
                 window.location.href = homeURL;
             });
+
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             showSlide(0);
         });

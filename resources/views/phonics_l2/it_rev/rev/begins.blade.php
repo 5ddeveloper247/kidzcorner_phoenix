@@ -6,14 +6,14 @@
 
         $returnURL = '/phonics_l2/it_rev/rev';
         $doneURL = '/phonics_l2/it_rev/rev';
-        $cheerAudio = 'assets/audio/phonics_audio-2/common/cheering.m4a';
+        $cheerAudio = 'assets/audio/phonics_audio-2/common/cheering.mp3';
 
         $questions = [
             // ── Question 1 ──────────────────────────────
             [
                 'image' => 'assets/images/phonics_l2/itrev/sit.png',
-                'image_size' => 'w-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/it_rev/sit.m4a',
+                'image_size' => 'h-[12vw]',
+                'audio' => 'assets/audio/phonics_audio-2/it_rev/s-it.mp3',
                 'tip' =>
                     'Tips: Invite children to name the object. <br> Encourage them to listen and identify the initial blend while saying the word.',
 
@@ -21,95 +21,95 @@
                 'word_suffix' => 'it',
 
                 'boxes' => [
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => true],
-                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.mp3', 'isCorrect' => false],
+                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.mp3', 'isCorrect' => false],
+                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.mp3', 'isCorrect' => true],
+                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.mp3', 'isCorrect' => false],
                 ],
             ],
             // ── Question 2 ──────────────────────────────
             [
                 'image' => 'assets/images/phonics_l2/idin/hid.png',
                 'image_size' => 'w-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/h-id.mp3',
                 'tip' => null,
 
                 'word_prefix' => 'h',
                 'word_suffix' => 'id',
 
                 'boxes' => [
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => true],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
+                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.mp3', 'isCorrect' => false],
+                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.mp3', 'isCorrect' => true],
+                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.mp3', 'isCorrect' => false],
+                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.mp3', 'isCorrect' => false],
                 ],
             ],
             // ── Question 3 ──────────────────────────────
             [
                 'image' => 'assets/images/phonics_l2/igip/big.png',
-                'image_size' => 'w-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                'image_size' => 'h-[12vw]',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/b-ig.mp3',
                 'tip' => null,
 
                 'word_prefix' => 'b',
                 'word_suffix' => 'ig',
 
                 'boxes' => [
-                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => true],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
+                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.mp3', 'isCorrect' => true],
+                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.mp3', 'isCorrect' => false],
+                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.mp3', 'isCorrect' => false],
+                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.mp3', 'isCorrect' => false],
                 ],
             ],
             // ── Question 4 ──────────────────────────────
             [
                 'image' => 'assets/images/phonics_l2/igip/skip.png',
-                'image_size' => 'h-[20vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/skip.m4a',
+                'image_size' => 'h-[17vw]',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/sk-ip.mp3',
                 'tip' => null,
 
                 'word_prefix' => 'sk',
                 'word_suffix' => 'ip',
 
                 'boxes' => [
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => true],
+                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.mp3', 'isCorrect' => false],
+                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.mp3', 'isCorrect' => false],
+                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.mp3', 'isCorrect' => false],
+                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.mp3', 'isCorrect' => true],
                 ],
             ],
             // ── Question 5 ──────────────────────────────
             [
                 'image' => 'assets/images/phonics_l2/idin/thin.png',
                 'image_size' => 'h-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/id_in/thin.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/th-in.mp3',
                 'tip' => null,
 
                 'word_prefix' => 'th',
                 'word_suffix' => 'in',
 
                 'boxes' => [
-                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => true],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.mp3', 'isCorrect' => false],
+                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.mp3', 'isCorrect' => true],
+                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.mp3', 'isCorrect' => false],
+                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.mp3', 'isCorrect' => false],
                 ],
             ],
             // ── Question 6    ──────────────────────────────
             [
                 'image' => 'assets/images/phonics_l2/itrev/hit.png',
                 'image_size' => 'h-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/it_rev/h-it.mp3',
                 'tip' => null,
 
                 'word_prefix' => 'h',
                 'word_suffix' => 'it',
 
                 'boxes' => [
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => true],
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
+                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.mp3', 'isCorrect' => false],
+                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.mp3', 'isCorrect' => true],
+                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.mp3', 'isCorrect' => false],
+                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.mp3', 'isCorrect' => false],
                 ],
             ],
         ];
@@ -213,7 +213,7 @@
 
                     {{-- Image + word builder --}}
                     <div class="flex items-end justify-around w-full">
-                        <img src="{{ asset($q['image']) }}" class="{{ $q['image_size'] ?? 'w-[15vw]' }}" /> 
+                        <img src="{{ asset($q['image']) }}" class="{{ $q['image_size'] ?? 'w-[15vw]' }}" />
                         <div class="flex items-center gap-4">
                             <span class="text-[2.5vw] text-[#f7b94a]">{{ $q['word_prefix'] }}</span>
                             <div class="boxs"><span></span></div>
@@ -222,7 +222,9 @@
                 </div>
 
                 @if (!empty($q['tip']))
-                    <p class="p-note">{{ $q['tip'] }}</p>
+                    <p class="p-note w-full text-center leading-relaxed">
+                        {!! $q['tip'] !!}
+                    </p>
                 @endif
             </div>
 

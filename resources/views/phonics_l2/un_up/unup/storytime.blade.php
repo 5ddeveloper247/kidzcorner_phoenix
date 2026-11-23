@@ -51,47 +51,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st1.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story1.png',
                 'text' => 'Pup has Fun',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st2.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story2.png',
                 'text' => 'Buttercup likes to run for fun.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st3.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story3.png',
                 'text' => 'After her run. she sits in the sun.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st4.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story4.png',
                 'text' => 'And eats a hot cross bun.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st5.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story5.png',
                 'text' => 'Along comes a playful pup',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st6.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story6.png',
                 'text' => 'And knocks over her favourite cup.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st7.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story7.png',
                 'text' => 'Scares Buttercup that she drops her bun',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st8.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story8.png',
                 'text' => 'And starts to run.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/st9.mp3',
                 'image' => 'assets/images/phonics_l2/unup/story9.png',
                 'text' => 'The pup runs after her as it is having such fun.',
             ],
@@ -99,32 +99,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/stq1.mp3',
                 'question' => "What does \n Buttercup like \n to do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/stq2.mp3',
                 'question' => "Why does she like \n to sit in \n the sun?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/stq3.mp3',
                 'question' => "What does \n she eat?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/stq4.mp3',
                 'question' => "What happens \n to her \n favourite cup?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/stq5.mp3',
                 'question' => "What is Buttercup \n scared of?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/un_up/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/un_up/stq5.mp3',
                 'question' => "Why does the pup \n run after \n Buttercup?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -202,7 +202,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -257,7 +257,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -314,7 +314,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -374,7 +374,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/un_up/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">

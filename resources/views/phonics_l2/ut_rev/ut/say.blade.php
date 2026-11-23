@@ -9,39 +9,38 @@
 
     $diagraph = 'ut';
 
-    $sideBtns = ['assets/audio/phonics_audio-2/ut_rev/ut.m4a', 'assets/audio/phonics_audio-2/ut_rev/utah.m4a'];
+    $sideBtns = ['assets/audio/phonics_audio-2/ut_rev/ut.mp3', 'assets/audio/phonics_audio-2/ut_rev/utah.mp3'];
 
     $words = [
         [
             'image' => 'assets/images/phonics_l2/utrev/cut.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cut',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/ut-sh.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/c-ut.mp3',
             'tip' =>
                 'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /h/..../am/...ham)',
         ],
         [
             'image' => 'assets/images/phonics_l2/utrev/hut.png',
-            'imageSize' => 'h-[20vw]',  
+            'imageSize' => 'h-[20vw]',
             'word' => 'hut',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/ut-ree.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/h-ut.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/utrev/nut.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'nut',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/ut-read.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/n-ut.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/utrev/shut.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'shut',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/ut-irty.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ut_rev/sh-ut.mp3',
             'tip' => null,
         ],
-    
     ];
 
 @endphp
@@ -91,7 +90,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.mp3') }}">
         {{-- <h2 class="top-title stroke">Let's Blend</h2> --}}
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/say.png') }}" class="w-[30vw] h-[20vw]" />
@@ -133,7 +132,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -157,7 +156,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -173,7 +172,7 @@
                 </h2>
 
                 <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/utah.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/utah.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
@@ -189,7 +188,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div>
 
@@ -224,7 +223,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -241,7 +240,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -255,7 +254,7 @@
             </h2>
 
             <button class="absolute right-[36%] top-[25%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/utah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/utah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -264,7 +263,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ut_rev/ut4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">

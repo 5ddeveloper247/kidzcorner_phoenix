@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/opot/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'My sister points to the blue'],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'mop', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/op_ot/dot.m4a',
-                'assets/audio/phonics_audio-2/op_ot/mop.m4a',
+                'assets/audio/phonics_audio-2/op_ot/dot.mp3',
+                'assets/audio/phonics_audio-2/op_ot/mop.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/opot/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'My dad buys a black'],
                 ['type' => 'blank'],
@@ -56,8 +56,8 @@
                 ['word' => 'spot', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/op_ot/pot.m4a',
-                'assets/audio/phonics_audio-2/op_ot/shop.m4a',
+                'assets/audio/phonics_audio-2/op_ot/pot.mp3',
+                'assets/audio/phonics_audio-2/op_ot/shop.mp3',
             ],
         ],
 
@@ -65,7 +65,7 @@
         [
             'image' => 'assets/images/phonics_l2/opot/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'My mother puts the'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'drop', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/op_ot/top.m4a',
-                'assets/audio/phonics_audio-2/op_ot/cot.m4a',
+                'assets/audio/phonics_audio-2/op_ot/top.mp3',
+                'assets/audio/phonics_audio-2/op_ot/cot.mp3',
             ],
         ],
     ];

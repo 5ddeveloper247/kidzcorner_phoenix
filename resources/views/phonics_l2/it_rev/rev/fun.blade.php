@@ -4,8 +4,8 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/it_rev/itrev';
-    $doneURL = '/phonics_l2/it_rev/itrev';
+    $returnURL = '/phonics_l2/it_rev/rev';
+    $doneURL = '/phonics_l2/it_rev/rev';
 
 
 
@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/itrev/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/it_rev/fb-itrev1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/it_rev/fb-itrev1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'twig', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/it_in/kid.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                'assets/audio/phonics_audio-2/it_in/kid.mp3',
+                'assets/audio/phonics_audio-2/ig_ip/twig.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/itrev/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/it_rev/fb-itrev2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/it_rev/fb-itrev2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -56,16 +56,16 @@
                 ['word' => 'slid', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/id_in/thin.m4a',
-                'assets/audio/phonics_audio-2/id_in/squid.m4a',
+                'assets/audio/phonics_audio-2/id_in/thin.mp3',
+                'assets/audio/phonics_audio-2/id_in/squid.mp3',
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/itrev/fun3.png',
+            'image' => 'assets/images/phonics_l2/itrev/fun.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/it_rev/fb-itrev3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/it_rev/fb-itrev3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The boys'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'slip', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/it_rev/sit.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/sip.m4a',
+                'assets/audio/phonics_audio-2/it_rev/sit.mp3',
+                'assets/audio/phonics_audio-2/ig_ip/sip.mp3',
             ],
         ],
     ];

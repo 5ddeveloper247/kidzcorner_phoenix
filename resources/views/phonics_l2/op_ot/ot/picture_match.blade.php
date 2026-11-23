@@ -13,7 +13,8 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/opot/hot.png',
-                    'audio' => 'assets/audio/phonics_audio-2/op_ot/hot.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/op_ot/hot.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/op_ot/pm-hot.mp3',
                     'image_size' => 'h-[8vw]',
                     'isCorrect' => true,
                     'word' => 'hot',
@@ -21,7 +22,7 @@
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/opot/hop.png',
-                    'audio' => 'assets/audio/phonics_audio-2/op_ot/hop.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/op_ot/hop.mp3',
                     'isCorrect' => false,
                 ],
             ],
@@ -33,15 +34,15 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/opot/stop.png',
-                    'audio' => 'assets/audio/phonics_audio-2/op_ot/stop.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/op_ot/stop.mp3',
                     'isCorrect' => false,
-                   
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/opot/rot.png',
-                    'audio' => 'assets/audio/phonics_audio-2/op_ot/rot.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/op_ot/rot.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/op_ot/pm-rot.mp3',
                     'isCorrect' => true,
-                     'word' => 'rot',
+                    'word' => 'rot',
                     'highlight' => 'ot',
                 ],
             ],
@@ -53,12 +54,13 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/obog/log.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/log.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ob_og/log.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/opot/cot.png',
-                    'audio' => 'assets/audio/phonics_audio-2/op_ot/cot.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/op_ot/cot.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/op_ot/pm-cot.mp3',
                     'isCorrect' => true,
                     'word' => 'c',
                     'highlight' => 'ot',
@@ -72,13 +74,14 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/fan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/fan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/fan.mp3',
                     'image_size' => 'h-[8vw]',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/opot/spot.png',
-                    'audio' => 'assets/audio/phonics_audio-2/op_ot/spot.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/op_ot/spot.mp3',
+                    'answeraudio' => 'assets/audio/phonics_audio-2/op_ot/pm-spot.mp3',
                     'isCorrect' => true,
                     'word' => 'spot',
                     'highlight' => 'ot',
@@ -119,7 +122,7 @@
 @section('content')
 
     {{-- ========== SLIDE 1: INTRO ========== --}}
-    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.mp3') }}">
+    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/common/pic-match.mp3') }}">
         <h2 class="top-title stroke">Picture Match</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -129,15 +132,20 @@
 
     {{-- ========== SLIDES 2+3 per question (Question + Answer) ========== --}}
     @foreach ($questions as $q)
+        @php
+            $correctOpt = collect($q['options'])->firstWhere('isCorrect', true);
+            $answerAudio = !empty($correctOpt['answeraudio']) ? asset($correctOpt['answeraudio']) : '';
+        @endphp
+
         {{-- QUESTION SLIDE --}}
         <div class="phonics-panel flex flex-col justify-between h-full space-y-[2vw] items-center"
-            data-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/ogah.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/find.mp3') }}">
             <div>
                 {{-- Title --}}
                 <div class="flex">
                     <h2 class="panel-title stroke">Find the picture whose name ends with the same sound as</h2>
                     <button class="sound-btn w-[2.5vw]"
-                        data-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/ogah.m4a') }}">
+                        data-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/otah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                 </div>
@@ -164,19 +172,12 @@
             @endif
         </div>
 
-        {{-- ANSWER SLIDE --}}
-        <div class="phonics-panel flex flex-col justify-start h-full space-y-[2vw] items-center">
-            {{-- Title --}}
-            <div class="flex">
-                <h2 class="panel-title stroke">Find the picture whose name ends with the same sound as</h2>
-                <button class="sound-btn w-[2.5vw]"
-                    data-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/ogah.m4a') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-            </div>
+        {{-- ANSWER SLIDE (plays its own answer audio) --}}
+        <div class="phonics-panel flex flex-col justify-start h-full space-y-[2vw] items-center"
+            data-audio="{{ $answerAudio }}">
 
             {{-- Options with answers shown --}}
-            <div class="flex w-full justify-around">
+            <div class="flex justify-around w-[52vw] mt-[3vw]">
                 @foreach ($q['options'] as $opt)
                     <div>
                         <div class="relative w-fit h-fit">
@@ -201,6 +202,7 @@
             </div>
         </div>
     @endforeach
+
 
     {{-- ========== NAV BUTTONS ========== --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
@@ -234,7 +236,6 @@
 
         const returnURL = "{{ url($returnURL) }}";
         const doneURL = "{{ url($doneURL) }}";
-        const cheerAudio = "{{ asset('assets/audio/phonics_audio-2/bl_pl/cheering.m4a') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
 
@@ -281,7 +282,7 @@
                 nextBtns.forEach(b => b.classList.toggle("hidden", isLast));
                 doneBtns.forEach(b => b.classList.toggle("hidden", !isLast));
 
-                // play slide audio with no delay (like file 2)
+                // play slide audio (question audio or answer audio)
                 playAudio(slides[idx].getAttribute("data-audio"));
             }
 
@@ -289,13 +290,11 @@
                 if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);
             }
 
-            // ── Correct option click → cheer → then go next ──
+            // ── Correct option click → go to answer slide immediately ──
             optionBoxes.forEach(box => {
                 box.addEventListener("click", function(e) {
                     if (e.target.closest(".sound-btn")) return;
-                    if (this.dataset.correct === "true") {
-                        playAudio(cheerAudio, goNext); // ✅ go next AFTER cheer ends
-                    }
+                    if (this.dataset.correct === "true") goNext();
                 });
             });
 
