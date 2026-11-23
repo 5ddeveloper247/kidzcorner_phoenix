@@ -12,17 +12,17 @@
     $questions = [
         [
             'top_image' => 'phonics_l2/agab/grab.png',
-            'top_audio' => 'sw_sc/grab.m4a',
+            'top_audio' => 'ag_ab/grab.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/apad/pad.png', 'audio' => 'ap_ad/pad.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/aman/pan.png', 'audio' => 'am_an/pan.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/apad/pad.png', 'audio' => 'ap_ad/pad.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/aman/pan.png', 'audio' => 'am_an/pan.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 1,
             'answer_background' => 'oval-ans',
             'highlight_position' => 1, 
-
+            'answer_audio' => 'am_an/mi-pan.mp3',
             'word_prefix' => 'p',
             'word_suffix' => 'an',
 
@@ -31,17 +31,17 @@
         // 2 - 
         [
             'top_image' => 'phonics_l2/swsc/scooter.png',
-            'top_audio' => 'sw_sc/scooter.m4a',
+            'top_audio' => 'sw_sc/scooter.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/aman/vam.png', 'audio' => 'am_an/vam.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/crab.png', 'audio' => 'ag_ab/crab.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/aman/van.png', 'audio' => 'am_an/van.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/crab.png', 'audio' => 'ag_ab/crab.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 0,
             'answer_background' => 'green',
             'highlight_position' => 0, 
-
+            'answer_audio' => 'am_an/mi-van.mp3',
             'word_prefix' => 'v',
             'word_suffix' => 'an',
 
@@ -51,17 +51,17 @@
         // 3 - 
         [
             'top_image' => 'phonics_l2/agab/cab.png',
-            'top_audio' => 'ag_ab/cab.m4a',
+            'top_audio' => 'ag_ab/cab.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/swsc/scarf.png', 'audio' => 'sw_sc/scarf.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/aman/fan.png', 'audio' => 'am_an/fan.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/swsc/scarf.png', 'audio' => 'sw_sc/scarf.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/aman/fan.png', 'audio' => 'am_an/fan.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 0,
             'answer_background' => 'yellow',
             'highlight_position' => 1, 
-
+            'answer_audio' => 'am_an/mi-fan.mp3',
             'word_prefix' => 'f',
             'word_suffix' => 'an',
 
@@ -71,17 +71,17 @@
         // 4
         [
             'top_image' => 'phonics_l2/aman/can.png',
-            'top_audio' => 'am_an/can.m4a',
+            'top_audio' => 'am_an/can.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/tab.png', 'audio' => 'ag_ab/tab.mp3', 'size' => 'h-[6vw]'],
             ],
             'correct_answer' => 0,
             'answer_background' => 'oval-ans',
             'highlight_position' => 'top',
-
+            'answer_audio' => 'am_an/mi-can.mp3',
             'word_prefix' => 'c',
             'word_suffix' => 'an',
 
@@ -91,17 +91,17 @@
         // 5
         [
             'top_image' => 'phonics_l2/aman/man.png',
-            'top_audio' => 'am_an/man.m4a',
+            'top_audio' => 'am_an/man.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/apad/dad.png', 'audio' => 'ap_ad/dad.m4a', 'size' => 'h-[6vw]'],
-                ['img' => 'phonics_l2/agab/jab.png', 'audio' => 'ag_ab/jab.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/apad/dad.png', 'audio' => 'ap_ad/dad.mp3', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/agab/jab.png', 'audio' => 'ag_ab/jab.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 1,
             'answer_background' => 'sea-g',
             'highlight_position' => 'top',
-
+            'answer_audio' => 'am_an/mi-man.mp3',
             'word_prefix' => 'm',
             'word_suffix' => 'an',
 
@@ -148,14 +148,14 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Encourage children to say the 'pl' sound. <br>
+        <p class="p-note">Tips: Encourage children to say the 'an' sound. <br>
             Remind them to listen to the initial sound when naming each object.</p>
     </div>
 
     {{-- Auto-generated Question & Answer Panels --}}
     @foreach ($questions as $index => $q)
         {{-- Question Panel --}}
-        <div class="phonics-panel flex justify-center items-center gap-[1vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[1vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/find-an.mp3') }}">
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -206,7 +206,7 @@
         </div>
 
         {{-- Answer Panel (with highlighted correct answer) --}}
-        <div class="phonics-panel flex justify-center items-center gap-[2vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['answer_audio']) }}">
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -310,7 +310,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l1') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

@@ -12,71 +12,71 @@
     $questions = [
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/aman/jam.png', 'audio' => 'am_an/jam.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/jam.png', 'audio' => 'am_an/jam.mp3', 'size' => 'h-[6vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/pram.png',
-            'answer_audio' => 'am_an/pram.m4a',
+            'answer_audio' => 'am_an/pram.mp3',
             'answer_size' => 'w-[8vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/apad/mad.png', 'audio' => 'ap_ad/mad.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/rag.png',
-            'answer_audio' => 'ag_ab/rag.m4a',
+            'answer_audio' => 'ag_ab/rag.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 0,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/wrap.png', 'audio' => 'ap_ad/wrap.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/aman/can.png', 'audio' => 'am_an/can.m4a', 'size' => 'h-[7vw]'],
+                ['img' => 'phonics_l2/apad/wrap.png', 'audio' => 'ap_ad/wrap.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/can.png', 'audio' => 'am_an/can.mp3', 'size' => 'h-[7vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/fan.png',
-            'answer_audio' => 'am_an/fan.m4a',
+            'answer_audio' => 'am_an/fan.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/agab/wag.png', 'audio' => 'ag_ab/wag.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/aman/ram.png', 'audio' => 'am_an/ram.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/agab/wag.png', 'audio' => 'ag_ab/wag.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/ram.png', 'audio' => 'am_an/ram.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/clam.png',
-            'answer_audio' => 'am_an/clam.m4a',
+            'answer_audio' => 'am_an/clam.mp3',
             'answer_size' => 'w-[8vw]',
             'correct_box' => 0,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/aman/van.png', 'audio' => 'am_an/van.m4a', 'size' => 'w-[8vw]'],
-                ['img' => 'phonics_l2/agab/nab.png', 'audio' => 'ag_ab/nab.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/van.png', 'audio' => 'am_an/van.mp3', 'size' => 'w-[8vw]'],
+                ['img' => 'phonics_l2/agab/nab.png', 'audio' => 'ag_ab/nab.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/man.png',
-            'answer_audio' => 'am_an/man.m4a',
+            'answer_audio' => 'am_an/man.mp3',
             'answer_size' => 'h-[10vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/trap.png', 'audio' => 'ap_ad/trap.m4a', 'size' => 'w-[7vw]'],
-                ['img' => 'phonics_l2/aman/yam.png', 'audio' => 'am_an/yam.m4a', 'size' => 'w-[8vw]'],
+                ['img' => 'phonics_l2/apad/trap.png', 'audio' => 'ap_ad/trap.mp3', 'size' => 'w-[7vw]'],
+                ['img' => 'phonics_l2/aman/yam.png', 'audio' => 'am_an/yam.mp3', 'size' => 'w-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/ham.png',
-            'answer_audio' => 'am_an/ham.m4a',
+            'answer_audio' => 'am_an/ham.mp3',
             'answer_size' => 'w-[10vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/aman/ran.png', 'audio' => 'am_an/ran.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/apad/trap.png', 'audio' => 'ap_ad/trap.m4a', 'size' => 'w-[7vw]'],
+                ['img' => 'phonics_l2/aman/ran.png', 'audio' => 'am_an/ran.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/apad/trap.png', 'audio' => 'ap_ad/trap.mp3', 'size' => 'w-[7vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/pan.png',
-            'answer_audio' => 'am_an/pan.m4a',
+            'answer_audio' => 'am_an/pan.mp3',
             'answer_size' => 'w-[10vw]',
             'correct_box' => 0,
         ],
@@ -134,8 +134,8 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.mp3') }}">
-        <h2 class="top-title stroke">It Begins With</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/ends-with.mp3') }}">
+        <h2 class="top-title stroke">It Ends With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -158,7 +158,7 @@
     @foreach ($questions as $index => $q)
         {{-- Question Panel --}}
         <div class="phonics-panel h-full space-y-[1vw] w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/ends-with1.mp3') }}">
             <h2 class="title-top stroke">Find the picture that has the same ending <br> sound as the one on the box.</h2>
 
             <div class="w-full flex justify-between items-center px-[2vw]">
@@ -261,7 +261,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

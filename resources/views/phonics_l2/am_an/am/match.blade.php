@@ -13,36 +13,36 @@
             'type' => 'grid',
             'cols' => 3,
             'question' => 'Find the picture that begin with the /am/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/clam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/aman/ram.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'ram',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/mm-ram.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -63,36 +63,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /am/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/clam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => true,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/aman/clam.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'clam',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/clam.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/mm-clam.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -113,36 +113,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /am/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/clam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => true,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/aman/jam.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'jam',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/jam.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/mm-jam.mp3',
         ],
 
         // ── Round 4: ──
@@ -163,36 +163,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /am/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/clam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => true,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/aman/pram.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'pram',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/mm-pram.mp3',
         ],
 
         // ── Round 5: ──
@@ -212,36 +212,36 @@
             'cols' => 3,
             'showTicks' => true,
             'question' => 'Find the picture that begin with the /am/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/match-am.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/stag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/stag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/clam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/clam.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/wag.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/wag.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => true,
                 ],
             ],
@@ -250,8 +250,8 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.m4a',
-            'message' => "That's right! <br> Shower, Shell, Shut and <br> Shark begin with the <br> /am/ sound.",
+            'audio' => 'assets/audio/phonics_audio-2/am_an/right-am.mp3',
+            'message' => "That's right! <br> Pram, Clam, Jam and <br> Ram begin with the <br> /am/ sound.",
             'cols' => 2, 
             'cards' => [
                 [

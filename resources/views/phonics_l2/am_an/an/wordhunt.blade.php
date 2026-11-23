@@ -18,18 +18,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/ran.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ran.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ran.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/van.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/van.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/van.mp3',
                     'answer' => false,
                 ],
             ],
             'optionWord' => 'ran',
             'answerImage' => 'assets/images/phonics_l2/aman/ran.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/ran.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/ran.mp3',
             'answerRest' => 'r',
             'answerDiagraph' => 'an',
         ],
@@ -40,18 +40,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/man.png',
-                    'audio' => 'assets/audio/phonics_audio-2/aman/man.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/man.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pan.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'pan',
             'answerImage' => 'assets/images/phonics_l2/aman/pan.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/pan.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/pan.mp3',
             'answerRest' => 'p',
             'answerDiagraph' => 'an',
         ],
@@ -62,18 +62,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/lab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/lab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/lab.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/fan.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/fan.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/fan.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'fan',
             'answerImage' => 'assets/images/phonics_l2/aman/fan.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/fan.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/fan.mp3',
             'answerRest' => 'f',
             'answerDiagraph' => 'an',
         ],
@@ -84,18 +84,18 @@
             'images' => [
                 [
                     'image' => 'assets/images/phonics_l2/agab/grab.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/grab.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/grab.mp3',
                     'answer' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/can.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/can.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/can.mp3',
                     'answer' => true,
                 ],
             ],
             'optionWord' => 'can',
             'answerImage' => 'assets/images/phonics_l2/aman/can.png',
-            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/can.m4a',
+            'answerAudio' => 'assets/audio/phonics_audio-2/am_an/can.mp3',
             'answerRest' => 'c',
             'answerDiagraph' => 'an',
         ],
@@ -156,7 +156,7 @@
     @foreach ($questions as $q)
         {{-- Question panel --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[4vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that matches the picture.</h2>
 
