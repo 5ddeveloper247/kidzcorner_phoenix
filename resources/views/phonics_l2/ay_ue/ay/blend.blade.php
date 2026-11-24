@@ -7,114 +7,114 @@
     $questions = [
         // Question 1
         [
-            'sound1' => ['text' => '/h/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay'],
-            'sound2' => ['text' => '/ay/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay'],
+            'sound1' => ['text' => '/h/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-h.mp3'],
+            'sound2' => ['text' => '/ay/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-ay.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/bag.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/bag',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/bag.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/hay.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/crab.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab.mp3',
                     'isCorrect' => false,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/hay.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/bw-hay.mp3',
             'answertext' => 'hay',
         ],
         // Question 2
         [
-            'sound1' => ['text' => '/sw/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway'],
-            'sound2' => ['text' => '/ay/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway'],
+            'sound1' => ['text' => '/sw/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-sw.mp3'],
+            'sound2' => ['text' => '/ay/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-ay.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/sway.png',
                     'class' => 'h-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/hay.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/crab.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab.mp3',
                     'isCorrect' => false,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/sway.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/bw-sway.mp3',
             'answertext' => 'sway',
         ],
         // Question 3
         [
-            'sound1' => ['text' => '/sp/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray'],
-            'sound2' => ['text' => '/ray/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray'],
+            'sound1' => ['text' => '/sp/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-spr.mp3'],
+            'sound2' => ['text' => '/ray/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-ay.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
                     'class' => 'h-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/spray.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.mp3',
                     'isCorrect' => true,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/spray.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/bw-spray.mp3',
             'answertext' => 'spray',
         ],
         // Question 4
         [
-            'sound1' => ['text' => '/t/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray'],
-            'sound2' => ['text' => '/ray/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray'],
+            'sound1' => ['text' => '/t/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-tr.mp3'],
+            'sound2' => ['text' => '/ray/', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/bw-ay.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/clsl/clap.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clap',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clap.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/tray.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
                     'class' => 'h-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'isCorrect' => false,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/tray.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/bw-tray.mp3',
             'answertext' => 'tray',
         ],
     ];
@@ -145,7 +145,7 @@
 
 @section('content')
     {{-- INTRO PANEL (static) --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.mp3') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/blend-word.mp3') }}">
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bbl.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -198,9 +198,9 @@
             </div>
         </div>
 
-        {{-- ANSWER SLIDE (tick + cheering) --}}
+        {{-- ANSWER SLIDE (tick) --}}
         <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-            data-slide-audio="{{ asset($q['answerAudio']) }}" data-cheering="true">
+            data-slide-audio="{{ asset($q['answerAudio']) }}">
             <div class="flex items-end panel-div text-white">
                 <h2 class="text-[1.3vw]">The boxes make sounds. <br>
                     Put these sounds together to make a picture name. <br>
@@ -274,7 +274,6 @@
 
             let currentSlide = 0;
             let currentAudio = null;
-            let cheeringAudio = null;
 
             function stopCurrentAudio() {
                 if (currentAudio) {
@@ -283,27 +282,13 @@
                     currentAudio.currentTime = 0;
                     currentAudio = null;
                 }
-                if (cheeringAudio) {
-                    cheeringAudio.pause();
-                    cheeringAudio.currentTime = 0;
-                    cheeringAudio = null;
-                }
             }
 
             function playSlideAudio(idx) {
                 stopCurrentAudio();
-                const slide = slides[idx];
-                let src = slide.getAttribute('data-slide-audio');
+                const src = slides[idx].getAttribute('data-slide-audio');
                 if (src) {
                     currentAudio = new Audio(src);
-                    const shouldCheer = slide.getAttribute('data-cheering') === 'true';
-                    if (shouldCheer) {
-                        currentAudio.onended = function() {
-                            cheeringAudio = new Audio(
-                                "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}");
-                            cheeringAudio.play().catch(() => {});
-                        };
-                    }
                     currentAudio.play().catch(() => {});
                 }
             }

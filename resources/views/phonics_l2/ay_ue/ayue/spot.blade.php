@@ -15,84 +15,84 @@
     $questions = [
         // ── Question 1 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ayah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ayah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/b1.png',
             'circles' => [
-                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.m4a', 'isCorrect' => true],
-                ['text' => 'ap', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/apah.m4a', 'isCorrect' => false],
-                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.m4a', 'isCorrect' => false],
-                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.mp3', 'isCorrect' => true],
+                ['text' => 'ap', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/apah.mp3', 'isCorrect' => false],
+                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.mp3', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/b2.png',
             'circles' => [
-                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/upah.m4a', 'isCorrect' => false],
-                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.m4a', 'isCorrect' => true],
-                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.m4a', 'isCorrect' => false],
-                ['text' => 'ad', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/adah.m4a', 'isCorrect' => false],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/upah.mp3', 'isCorrect' => false],
+                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.mp3', 'isCorrect' => true],
+                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.mp3', 'isCorrect' => false],
+                ['text' => 'ad', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/adah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ayah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ayah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/b3.png',
             'circles' => [
-                ['text' => 'at', 'audio' => 'assets/audio/phonics_audio-2/at_rev/atah.m4a', 'isCorrect' => false],
-                ['text' => 'ut', 'audio' => 'assets/audio/phonics_audio-2/ut_rev/utah.m4a', 'isCorrect' => false],
-                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.m4a', 'isCorrect' => false],
-                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.m4a', 'isCorrect' => true],
+                ['text' => 'at', 'audio' => 'assets/audio/phonics_audio-2/at_rev/atah.mp3', 'isCorrect' => false],
+                ['text' => 'ut', 'audio' => 'assets/audio/phonics_audio-2/ut_rev/utah.mp3', 'isCorrect' => false],
+                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.mp3', 'isCorrect' => false],
+                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.mp3', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 4 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/b4.png',
             'circles' => [
-                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/upah.m4a', 'isCorrect' => false],
-                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.m4a', 'isCorrect' => true],
-                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.m4a', 'isCorrect' => false],
-                ['text' => 'ad', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/adah.m4a', 'isCorrect' => false],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/upah.mp3', 'isCorrect' => false],
+                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.mp3', 'isCorrect' => true],
+                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.mp3', 'isCorrect' => false],
+                ['text' => 'ad', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/adah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 5 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ayah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ayah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/b5.png',
             'circles' => [
-                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.m4a', 'isCorrect' => true],
-                ['text' => 'ap', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/apah.m4a', 'isCorrect' => false],
-                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.m4a', 'isCorrect' => false],
-                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.mp3', 'isCorrect' => true],
+                ['text' => 'ap', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/apah.mp3', 'isCorrect' => false],
+                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.mp3', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.mp3', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 6 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/b6.png',
             'circles' => [
-                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
-                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.m4a', 'isCorrect' => true],
-                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.m4a', 'isCorrect' => false],
-                ['text' => 'ad', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/adah.m4a', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.mp3', 'isCorrect' => false],
+                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.mp3', 'isCorrect' => true],
+                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.mp3', 'isCorrect' => false],
+                ['text' => 'ad', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/adah.mp3', 'isCorrect' => false],
             ],
         ],
         // ── Question 7 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ay_ue/spot-ueah.mp3',
             'bgImage' => 'assets/images/phonics_l2/global/common/b7.png',
             'circles' => [
-                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.m4a', 'isCorrect' => true],
-                ['text' => 'ap', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/apah.m4a', 'isCorrect' => false],
-                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.m4a', 'isCorrect' => true],
-                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                ['text' => 'ay', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ayah.mp3', 'isCorrect' => true],
+                ['text' => 'ap', 'audio' => 'assets/audio/phonics_audio-2/ap_ad/apah.mp3', 'isCorrect' => false],
+                ['text' => 'u_e', 'audio' => 'assets/audio/phonics_audio-2/ay_ue/ueah.mp3', 'isCorrect' => true],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.mp3', 'isCorrect' => false],
             ],
         ],
 

@@ -206,10 +206,10 @@
 @section('content')
 
     {{-- ========== SLIDE 1: INTRO ========== --}}
-    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.mp3') }}">
+    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/common/pick-pair.mp3') }}">
         <h2 class="top-title stroke">Pick a Pair</h2>
         <div class="flex justify-center items-center">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/global/common/pair.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
         <p class="p-note">Tips: To find out how to use this activity <a class="c-btn info-btn1">Click here</a>.</p>
@@ -250,11 +250,9 @@
 
             {{-- Title with reference image --}}
             <div class="flex items-end panel-div">
-                <h2 class="panel-title">Find the picture that has the same initial blend as</h2>
+                <h2 class="panel-title">Find the picture that rhymes with         </h2>
                 <img src="{{ asset($q['reference']['image']) }}" class="w-[6vw]" />
-                <button class="w-[3vw] sound-btn" data-audio="{{ asset($q['reference']['audio']) }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
+             
             </div>
 
             {{-- Two paper boxes --}}
@@ -295,7 +293,7 @@
 
             {{-- Title --}}
             <div class="flex items-end panel-div">
-                <h2 class="panel-title">Find the picture that has the same initial blend as</h2>
+                <h2 class="panel-title">Find the picture that rhymes with         </h2>
                 <img src="{{ asset($q['reference']['image']) }}" class="w-[6vw]" />
             </div>
 

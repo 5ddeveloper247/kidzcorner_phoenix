@@ -7,30 +7,29 @@
     $returnURL = '/phonics_l2/ay_ue/ue';
     $doneURL = '/phonics_l2/ay_ue/ue';
 
+    // 'audio'       -> question audio (step 1)
     $questionsData = [
         [
             'image' => 'assets/images/phonics_l2/ayue/cube.png',
             'leftLetters' => ['t', 'm', 'fl', 'c'],
             'rightLetters' => ['t', 'l', 'p', 'b'],
             'vowels' => ['u', 'e'],
-            'audio' => 'assets/audio/phonics_audio-2/common/match-box.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/cu-be.mp3',
             'steps' => [
                 [
-                    // Step 1:
                     'slot1' => null,
                     'slot2' => null,
                     'leftHidden' => [false, false, false, false],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 2:
                     'slot1' => 'c',
                     'slot2' => null,
                     'leftHidden' => [false, false, false, true],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 3:
                     'slot1' => 'c',
                     'slot2' => 'b',
                     'leftHidden' => [false, false, false, true],
@@ -38,31 +37,29 @@
                 ],
             ],
         ],
-        
+
         // Question 2
         [
             'image' => 'assets/images/phonics_l2/ayue/tube.png',
             'leftLetters' => ['t', 'm', 'fl', 'c'],
             'rightLetters' => ['t', 'l', 'p', 'b'],
             'vowels' => ['u', 'e'],
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/tube.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/tu-be.mp3',
             'steps' => [
                 [
-                    // Step 1:
                     'slot1' => null,
                     'slot2' => null,
                     'leftHidden' => [false, false, false, false],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 2:
                     'slot1' => 't',
                     'slot2' => null,
                     'leftHidden' => [true, false, false, false],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 3:
                     'slot1' => 't',
                     'slot2' => 'b',
                     'leftHidden' => [true, false, false, false],
@@ -70,31 +67,29 @@
                 ],
             ],
         ],
-        
+
         // Question 3
         [
             'image' => 'assets/images/phonics_l2/ayue/cute.png',
             'leftLetters' => ['t', 'm', 'fl', 'c'],
             'rightLetters' => ['t', 'l', 'p', 'b'],
             'vowels' => ['u', 'e'],
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/cute.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/cu-te.mp3',
             'steps' => [
                 [
-                    // Step 1:
                     'slot1' => null,
                     'slot2' => null,
                     'leftHidden' => [false, false, false, false],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 2:
                     'slot1' => 'c',
                     'slot2' => null,
                     'leftHidden' => [false, false, false, true],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 3:
                     'slot1' => 'c',
                     'slot2' => 't',
                     'leftHidden' => [false, false, false, true],
@@ -102,31 +97,29 @@
                 ],
             ],
         ],
-        
+
         // Question 4
         [
             'image' => 'assets/images/phonics_l2/ayue/mule.png',
             'leftLetters' => ['t', 'm', 'fl', 'c'],
             'rightLetters' => ['t', 'l', 'p', 'b'],
             'vowels' => ['u', 'e'],
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/mule.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-box.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/mu-le.mp3',
             'steps' => [
                 [
-                    // Step 1:
                     'slot1' => null,
                     'slot2' => null,
                     'leftHidden' => [false, false, false, false],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 2:
                     'slot1' => 'm',
                     'slot2' => null,
                     'leftHidden' => [false, true, false, false],
                     'rightHidden' => [false, false, false, false],
                 ],
                 [
-                    // Step 3:
                     'slot1' => 'm',
                     'slot2' => 'l',
                     'leftHidden' => [false, true, false, false],
@@ -171,7 +164,8 @@
 
 @section('content')
     {{-- INTRO PANEL (static, unchanged) --}}
-    <div class="phonics-panel" >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/make-word.mp3') }}">
+
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/make-word.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -180,15 +174,15 @@
             Remind them to listen to the initial sound when naming each object.</p>
     </div>
 
-    {{-- DYNAMIC SLIDES generated from $questionsData --}}
+
     @foreach ($questionsData as $question)
         @foreach ($question['steps'] as $step)
             @php
-                $isFinalStep = $loop->parent->last && $loop->last;
+                $mode = $loop->index === 0 ? 'audio' : ($loop->index === 1 ? 'cheer' : 'audio-cheer');
             @endphp
             <div class="phonics-panel flex flex-col justify-center space-y-[2vw]! w-full items-center"
-                data-slide-audio="{{ asset($question['audio']) }}"
-                @if ($isFinalStep) data-cheering="true" @endif>
+                data-mode="{{ $mode }}" data-slide-audio="{{ asset($question['audio']) }}"
+                data-answer-audio="{{ asset($question['answerAudio'] ?? $question['audio']) }}">
                 <h2 class="panel-title stroke">Make a word to match the picture.</h2>
 
                 <div class="flex w-full justify-between px-[3vw]">
@@ -257,40 +251,49 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = document.body.dataset.homeRoute;
+            const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
-            let cheeringAudio = null;
 
             function stopCurrentAudio() {
                 if (currentAudio) {
-                    currentAudio.onended = null;
+                    currentAudio.onended = null; // cancels any pending cheering
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
                     currentAudio = null;
                 }
-                if (cheeringAudio) {
-                    cheeringAudio.pause();
-                    cheeringAudio.currentTime = 0;
-                    cheeringAudio = null;
+            }
+
+            function playAudio(src, onEnd) {
+                stopCurrentAudio();
+                if (!src) return;
+                const audio = new Audio(src);
+                currentAudio = audio;
+                if (onEnd) {
+                    audio.onended = () => {
+                        if (currentAudio !== audio) return; // slide changed meanwhile
+                        onEnd();
+                    };
                 }
+                audio.play().catch(() => {});
             }
 
             function playSlideAudio(idx) {
-                stopCurrentAudio();
                 const slide = slides[idx];
-                let src = slide.getAttribute('data-slide-audio');
-                if (src) {
-                    currentAudio = new Audio(src);
-                    const shouldCheer = slide.getAttribute('data-cheering') === 'true';
-                    if (shouldCheer) {
-                        currentAudio.onended = function() {
-                            cheeringAudio = new Audio(
-                                "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}");
-                            cheeringAudio.play().catch(() => {});
-                        };
-                    }
-                    currentAudio.play().catch(() => {});
+                const src = slide.getAttribute('data-slide-audio');
+                const answerSrc = slide.getAttribute('data-answer-audio') || src;
+                const mode = slide.dataset.mode;
+
+                if (mode === 'cheer') {
+                    // Step 2: cheering sound only
+                    playAudio(CHEERING_AUDIO);
+                } else if (mode === 'audio-cheer') {
+                    // Step 3: the answer audio, then the cheering sound
+                    playAudio(answerSrc, () => playAudio(CHEERING_AUDIO));
+                } else {
+                    // Step 1 (and the intro panel): question audio
+                    playAudio(src);
                 }
             }
 

@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/ayue/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/fb-ayue1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ay_ue/fb-ayue1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The duke likes to '],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'cube', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ay_ue/play.m4a',
-                'assets/audio/phonics_audio-2/ay_ue/cube.m4a',
+                'assets/audio/phonics_audio-2/ay_ue/play.mp3',
+                'assets/audio/phonics_audio-2/ay_ue/cube.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/ayue/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/fb-ayue2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ay_ue/fb-ayue2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -56,8 +56,8 @@
                 ['word' => 'sway', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ay_ue/mule.m4a',
-                'assets/audio/phonics_audio-2/ay_ue/hay.m4a',
+                'assets/audio/phonics_audio-2/ay_ue/mule.mp3',
+                'assets/audio/phonics_audio-2/ay_ue/hay.mp3',
             ],
         ],
 
@@ -65,7 +65,7 @@
         [
             'image' => 'assets/images/phonics_l2/ayue/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/fb-ayue3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ay_ue/fb-ayue3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The boy points to a'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'tray', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ay_ue/huge.m4a',
-                'assets/audio/phonics_audio-2/ay_ue/clay.m4a',
+                'assets/audio/phonics_audio-2/ay_ue/huge.mp3',
+                'assets/audio/phonics_audio-2/ay_ue/cl-ay.mp3',
             ],
         ],
     ];
@@ -157,7 +157,7 @@
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.5vw]"
             data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.mp3') }}">
 
-            <h2 class="title-top stroke">Find the missing words to complete <br> the sentence.</h2>
+            <h2 class="title-top stroke">Find the missing words to complete the sentence.</h2>
 
             <img src="{{ asset($q['image']) }}" class="{{ $q['imageSize'] }}" />
 
@@ -213,7 +213,7 @@
             <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[2vw]"
                 @if ($revealAudio) data-slide-audio="{{ asset($revealAudio) }}" @endif>
 
-                <h2 class="title-top stroke">Find the missing words to complete <br> the sentence.</h2>
+                <h2 class="title-top stroke">Find the missing words to complete the sentence.</h2>
 
                 <img src="{{ asset($q['image']) }}" class="{{ $q['imageSize'] }}" />
 

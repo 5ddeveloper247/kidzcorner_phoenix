@@ -6,21 +6,21 @@
 
     $returnURL = '/phonics_l2/ay_ue/ay';
     $doneURL = '/phonics_l2/ay_ue/ay';
-    $cheerAudio = 'assets/audio/phonics_audio-2/common/cheering.m4a';
+    $cheerAudio = 'assets/audio/phonics_audio-2/common/cheerng.mp3';
 
     $questions = [
         // ── Question 1 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/ayue/hay.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.m4a',
-                'word' => 'h', 
-                'highlight' => 'ay', 
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.mp3',
+                'word' => 'h',
+                'highlight' => 'ay',
             ],
 
             'answer' => [
-                'image' => 'assets/images/phonwics_l2/ayue/spray.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.m4a',
+                'image' => 'assets/images/phonics_l2/ayue/spray.png',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.mp3',
                 'word' => 'spr',
                 'highlight' => 'ay',
             ],
@@ -28,37 +28,37 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/spray.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/utrev/nut.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/nut.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/nut.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/utrev/cut.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/cut.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/cut.mp3',
                     'isCorrect' => false,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/spray.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-ay.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/pp-spray.mp3',
         ],
-        
+
         // ── Question 2 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/ayue/hay.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.m4a',
-                'word' => 'h', 
-                'highlight' => 'ay', 
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.mp3',
+                'word' => 'h',
+                'highlight' => 'ay',
             ],
 
             'answer' => [
                 'image' => 'assets/images/phonics_l2/ayue/sway.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.mp3',
                 'word' => 'sw',
                 'highlight' => 'ay',
             ],
@@ -66,37 +66,37 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/utrev/nut.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/nut.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/nut.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/sway.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.mp3',
                     'isCorrect' => true,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/swaye.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-ay.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/pp-sway.mp3',
         ],
-        
+
         // ── Question 3 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/ayue/hay.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.m4a',
-                'word' => 'h', 
-                'highlight' => 'ay', 
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.mp3',
+                'word' => 'h',
+                'highlight' => 'ay',
             ],
 
             'answer' => [
                 'image' => 'assets/images/phonics_l2/ayue/clay.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/clay.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/clay.mp3',
                 'word' => 'cl',
                 'highlight' => 'ay',
             ],
@@ -104,37 +104,37 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/clay.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/clay.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/clay.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/drgr/drip.png',
-                    'audio' => 'assets/audio/phonics_audio-2/dr_gr/drip.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/dr_gr/drip.mp3',
                     'isCorrect' => false,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/clay.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-ay.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/pp-clay.mp3',
         ],
-        
+
         // ── Question 4 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/ayue/hay.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.m4a',
-                'word' => 'h', 
-                'highlight' => 'ay', 
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/hay.mp3',
+                'word' => 'h',
+                'highlight' => 'ay',
             ],
 
             'answer' => [
                 'image' => 'assets/images/phonics_l2/ayue/tray.png',
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray.mp3',
                 'word' => 'spr',
                 'highlight' => 'ay',
             ],
@@ -142,28 +142,25 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/spray.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/tray.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'isCorrect' => false,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/tray.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-ay.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ay_ue/pp-tray.mp3',
         ],
-   
-
     ];
-
 
 @endphp
 
@@ -201,17 +198,16 @@
         .clickable {
             cursor: pointer;
         }
-
     </style>
 @endpush
 
 @section('content')
 
     {{-- ========== SLIDE 1: INTRO ========== --}}
-    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.mp3') }}">
+    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio-2/common/pick-pair.mp3') }}">
         <h2 class="top-title stroke">Pick a Pair</h2>
         <div class="flex justify-center items-center">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/global/common/pair.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
         <p class="p-note">Tips: To find out how to use this activity <a class="c-btn info-btn1">Click here</a>.</p>
@@ -252,11 +248,8 @@
 
             {{-- Title with reference image --}}
             <div class="flex items-end panel-div">
-                <h2 class="panel-title">Find the picture that has the same initial blend as</h2>
+                <h2 class="panel-title">Find the picture that rhymes with </h2>
                 <img src="{{ asset($q['reference']['image']) }}" class="w-[6vw]" />
-                <button class="w-[3vw] sound-btn" data-audio="{{ asset($q['reference']['audio']) }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
             </div>
 
             {{-- Two paper boxes --}}
@@ -297,7 +290,7 @@
 
             {{-- Title --}}
             <div class="flex items-end panel-div">
-                <h2 class="panel-title">Find the picture that has the same initial blend as</h2>
+                <h2 class="panel-title">Find the picture that rhymes with </h2>
                 <img src="{{ asset($q['reference']['image']) }}" class="w-[6vw]" />
             </div>
 

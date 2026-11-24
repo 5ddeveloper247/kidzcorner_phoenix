@@ -4,19 +4,22 @@
 @php
     $showBackground = true;
 
+    // 'answerAudio' -> audio played on the answer slide (replace with your real files)
     $questions = [
         [
             'picture' => asset('assets/images/phonics_l2/ayue/hay.png'),
-            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/hay.m4a'),
+            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/hay.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ay_ue/pm-hay.mp3'),
             'correctWord' => 'tray',
             'correctHighlight' => 'ay',
             'distractorWord' => 'trap',
             'pictureWordBreak' => 'h<span class="text-[#f7b94a]">ay</span>',
-            'correctPosition' => 'left', 
+            'correctPosition' => 'left',
         ],
         [
             'picture' => asset('assets/images/phonics_l2/ayue/mule.png'),
-            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/mule.m4a'),
+            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/mule.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ay_ue/pm-mule.mp3'),
             'correctWord' => 'cube',
             'correctHighlight' => 'u',
             'distractorWord' => 'cup',
@@ -25,7 +28,8 @@
         ],
         [
             'picture' => asset('assets/images/phonics_l2/ayue/spray.png'),
-            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/spray.m4a'),
+            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/spray.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ay_ue/pm-spray.mp3'),
             'correctWord' => 'sway',
             'correctHighlight' => 'ay',
             'distractorWord' => 'swan',
@@ -34,7 +38,8 @@
         ],
         [
             'picture' => asset('assets/images/phonics_l2/ayue/cute.png'),
-            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/cute.m4a'),
+            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/cute.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ay_ue/pm-cute.mp3'),
             'distractorWord' => 'cut',
             'correctHighlight' => 'u',
             'correctWord' => 'tube',
@@ -43,7 +48,8 @@
         ],
         [
             'picture' => asset('assets/images/phonics_l2/ayue/pay.png'),
-            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/pay.m4a'),
+            'pictureAudio' => asset('assets/audio/phonics_audio-2/ay_ue/pay.mp3'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ay_ue/pm-pay.mp3'),
             'correctWord' => 'play',
             'correctHighlight' => 'ay',
             'distractorWord' => 'plant',
@@ -90,7 +96,7 @@
     {{-- ============================================================== --}}
     {{-- SLIDE 0: INTRO PANEL --}}
     {{-- ============================================================== --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt.mp3') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/pic-match.mp3') }}">
         <h2 class="top-title stroke">Picture Match</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -109,7 +115,7 @@
 
         {{-- ----- QUESTION SLIDE (correct answer can be left or right) ----- --}}
         <div class="phonics-panel flex flex-col justify-center space-y-[1.5vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/pic-match.mp3') }}">
 
             <h2 class="large-title stroke">Find the word that has the same vowel sound as the one <br>in the picture.</h2>
 
@@ -152,7 +158,7 @@
 
         {{-- ----- ANSWER SLIDE (always correct word with tick on left, picture on right) ----- --}}
         <div class="phonics-panel flex flex-col justify-start space-y-[1vw] items-center w-full"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/wordhunt-match.m4a') }}">
+            data-slide-audio="{{ $q['answerAudio'] }}">
 
             <h2 class="large-title stroke">Find the word that has the same vowel sound as the one <br>in the picture.</h2>
 
@@ -179,7 +185,6 @@
                 </div>
             </div>
 
-            <p class="note">{{ $tip }}</p>
         </div>
     @endforeach
 
@@ -221,7 +226,6 @@
             const homeBtn = document.getElementById("homeButton");
             const closeBtn = document.getElementById("closeButton");
 
-            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
             const RETURN_URL = "{{ url('/phonics_l2/ay_ue/ayue') }}";
             const DONE_URL = "{{ url('/phonics_l2/ay_ue/ayue') }}";
             const HOME_URL = "{{ url('/phonics/l2') }}";
@@ -231,6 +235,7 @@
 
             function stopAudio() {
                 if (currentAudio) {
+                    currentAudio.onended = null;
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
                     currentAudio = null;
@@ -269,6 +274,7 @@
 
             function goBack() {
                 if (currentSlide === 0) {
+                    stopAudio();
                     window.location.href = RETURN_URL;
                 } else {
                     showSlide(currentSlide - 1);
@@ -279,20 +285,19 @@
             // EVENT HANDLERS (using delegation for dynamically added elements)
             // ----------------------------------------------------------
             document.body.addEventListener('click', (e) => {
-                // Handle correct answer click (class .answer)
+                // Correct answer click -> go straight to the answer slide (no cheering)
                 const answerBox = e.target.closest('.options.answer');
                 if (answerBox && answerBox.getAttribute('data-correct') !== 'false') {
-                    // Play cheering sound, then go to next slide (the answer slide)
-                    playAudio(CHEERING, () => goNext());
                     e.stopPropagation();
+                    goNext();
+                    return;
                 }
 
-                // Handle sound buttons on pictures
+                // Sound buttons on pictures
                 const soundBtn = e.target.closest('.sound-btn');
                 if (soundBtn) {
                     e.stopPropagation();
-                    const audioSrc = soundBtn.getAttribute('data-audio');
-                    playAudio(audioSrc);
+                    playAudio(soundBtn.getAttribute('data-audio'));
                 }
             });
 

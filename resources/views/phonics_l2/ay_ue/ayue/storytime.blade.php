@@ -51,47 +51,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st1.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story1.png',
                 'text' => 'Ray the Mule',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st2.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story2.png',
                 'text' => 'Ray the mule likes to play with clay.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st3.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story3.png',
                 'text' => '“”What can I say... playing with clay always makes my day!”” Says Ray.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st4.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story4.png',
                 'text' => 'One day, while walking with his lump of clay.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st5.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story5.png',
                 'text' => 'Ray spots a huge tray of hay right in front of the walkway.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st6.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story6.png',
                 'text' => 'Feeling hungry, Ray decides to stay and eat the hay.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st7.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story7.png',
                 'text' => 'Along comes the Duke and says that Ray has to pay.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st8.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story8.png',
                 'text' => 'Ray takes out his clay and molds it into a cube and a tube.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/st9.mp3',
                 'image' => 'assets/images/phonics_l2/ayue/story9.png',
                 'text' => 'He gives them to the Duke who finds them rather cute. 
 And so Ray does not need to pay for his hay.',
@@ -100,32 +100,32 @@ And so Ray does not need to pay for his hay.',
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq1.mp3',
                 'question' => "What does Ray \nlike to play with?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq2.mp3',
                 'question' => "What does Ray find\nin front of the \n walkway?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq3.mp3',
                 'question' => "Why does the \nDuke want \n Ray to pay?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq4.mp3',
                 'question' => "What does Ray \ngive to the \n Duke?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq5.mp3',
                 'question' => "Why doesn’t Ray \n need to pay in \n the end?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ay_ue/stq6.mp3',
                 'question' => "If  you had a lump \n of clay, what would \n you mold it into?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -203,7 +203,7 @@ And so Ray does not need to pay for his hay.',
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -250,7 +250,8 @@ And so Ray does not need to pay for his hay.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay.
+            </div>
             <div class="question">One day while walking with his lump of clay.</div>
             <div class="question">Ray spots a huge of hay right in front of his walkway.</div>
             <div class="question">Feeling hungry, Ray decides to stay and eat the hay.</div>
@@ -258,7 +259,7 @@ And so Ray does not need to pay for his hay.',
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -307,15 +308,17 @@ And so Ray does not need to pay for his hay.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> One day while walking with his lump of clay. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> One day while walking with his lump of
+                clay. </div>
             <div class="question">Ray spots a huge of hay right in front of his walkway.</div>
             <div class="question">Feeling hungry, Ray decides to stay and eat the hay.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -334,7 +337,8 @@ And so Ray does not need to pay for his hay.',
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
             <div class="question">Ray the mule likes to play with clay.</div>
             <div class="question">One day while walking with his lump of clay.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Ray spots a huge of hay right in front of his walkway.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Ray spots a huge of hay right in front of his walkway.
+            </div>
             <div class="question">Feeling hungry, Ray decides to stay and eat the hay.</div>
         </div>
     </div>
@@ -367,15 +371,18 @@ And so Ray does not need to pay for his hay.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> One day while walking with his lump of clay.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Ray spots a huge of hay right in front of his walkway.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> One day while walking with his lump of
+                clay.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Ray spots a huge of hay right in front
+                of his walkway.</div>
             <div class="question">Feeling hungry, Ray decides to stay and eat the hay.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ay_ue/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -430,10 +437,14 @@ And so Ray does not need to pay for his hay.',
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay. </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> One day while walking with his lump of clay.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Ray spots a huge of hay right in front of his walkway.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> Feeling hungry, Ray decides to stay and eat the hay.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ray the mule likes to play with clay.
+            </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> One day while walking with his lump of
+                clay.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Ray spots a huge of hay right in front
+                of his walkway.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> Feeling hungry, Ray decides to stay and
+                eat the hay.</div>
         </div>
     </div>
 
