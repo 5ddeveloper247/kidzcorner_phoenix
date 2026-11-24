@@ -37,7 +37,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/All About Antonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -93,6 +93,7 @@
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - 1.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -108,6 +109,7 @@
     {{-- Panel 2 --}}
 
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - 2.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/n1.png') }}" class="w-[50vw]" />
 
@@ -116,6 +118,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - 3.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/n2.png') }}" class="w-[40vw]" />
 
@@ -123,6 +126,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - 4.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/n3.png') }}" class="w-[40vw]" />
 
@@ -133,6 +137,7 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - 5.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 

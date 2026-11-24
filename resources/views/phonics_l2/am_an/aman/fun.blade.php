@@ -15,7 +15,7 @@
         [
             'image' => 'assets/images/phonics_l2/aman/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/fb-aman1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/fb-aman1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'This large'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'ham',  'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/am_an/can.m4a',
-                'assets/audio/phonics_audio-2/am_an/jam.m4a',
+                'assets/audio/phonics_audio-2/am_an/can.mp3',
+                'assets/audio/phonics_audio-2/am_an/jam.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/aman/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/fb-aman2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/fb-aman2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'pan', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/am_an/ram.m4a',
-                'assets/audio/phonics_audio-2/am_an/pan.m4a',
+                'assets/audio/phonics_audio-2/am_an/ram.mp3',
+                'assets/audio/phonics_audio-2/am_an/pan.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/aman/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/am_an/fb-aman3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/am_an/fb-aman3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The old'],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'clam', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/am_an/man.m4a',
-                'assets/audio/phonics_audio-2/am_an/clam.m4a',
+                'assets/audio/phonics_audio-2/am_an/man.mp3',
+                'assets/audio/phonics_audio-2/am_an/clam.mp3',
             ],
         ],
     ];

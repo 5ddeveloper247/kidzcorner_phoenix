@@ -38,17 +38,25 @@
 @section('content')
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        >
-        <div class="flex justify-center items-center">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/blend.png') }}" class="w-[30vw] h-[20vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[20vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/lrw-nouns.mp3') }}">
+        <h2 class="panel-title stroke">All About Nouns!</h2>
+        <div class="flex justify-center items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"
+                    class="w-[30vw] h-[25vw]" />
+                <h2
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#A15E0D] text-[1.7vw] text-center w-full">
+                    People, animals, places <br> and things are called <br>
+                    <span class="text-[#70af39]">nouns</span>.
+                </h2>
+            </div>
         </div>
-        <p class="p-note">Tips: Follow the sequence of activities numbered, or click on any activity of your choice. <br>
-            For a definition of blends and other phonics terminologies,<a class="c-btn info-btn1">Click here</a>.</p>
+        <p class="p-note">Follow the activities in order, or click any activity you choose. <a class="c-btn info-btn1">Click here</a> for definitions.</p>
     </div>
 
     {{-- Side Info Panel --}}
-    <div class="phonics-panel info-panel-1 flex flex-col  gap-y-[1vw]">
+    <div class="phonics-panel info-panel-1 flex flex-col gap-y-[1vw]">
         <h1 class="panel-title">Definitions</h1>
         <ul class="pl-[2vw] space-y-[0.5vw] text-white text-[1.2vw] text-start">
             <li>
@@ -92,14 +100,14 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n0.png') }}" class="w-[50vw]" />
 
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n1.png') }}" class="w-[50vw]" />
 
     </div>
@@ -107,42 +115,49 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n2.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n3.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n4.png') }}" class="w-[40vw]" />
+
+    </div>
+
+    {{-- Panel 6 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns6.mp3') }}">
+        <img src="{{ asset('assets/images/phonics_l2/lrw1/n7.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns7.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n5.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns8.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n6.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns9.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -156,7 +171,7 @@
     </div>
     {{-- panel 10 --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns10.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -171,7 +186,7 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns11.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -184,7 +199,7 @@
     </div>
     {{-- panel 12 --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns12.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -198,7 +213,7 @@
     </div>
     {{-- panel 13 --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/nouns13.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">

@@ -37,7 +37,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/All About Synonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -95,6 +95,7 @@
 
     {{-- panel  --}}
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/SYN - 1.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -109,6 +110,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/SYN - 2.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/sr1.png') }}" class="w-[40vw]" />
 
@@ -117,6 +119,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/SYN - 3.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/sr2.png') }}" class="w-[40vw]" />
 
@@ -126,6 +129,7 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/SYN - 4.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/sr3.png') }}" class="w-[45vw]" />
 
@@ -133,6 +137,7 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/SYN - 5.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/sr4.png') }}" class="w-[45vw]" />
 
@@ -140,6 +145,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/SYN - 6.mp3') }}"
         >
         <img src="{{ asset('assets/images/phonics_l2/lrw3/sr5.png') }}" class="w-[45vw]" />
 
@@ -148,6 +154,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/SYN - 7.mp3') }}"
         >
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />

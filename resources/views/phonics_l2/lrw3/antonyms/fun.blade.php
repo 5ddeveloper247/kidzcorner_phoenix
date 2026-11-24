@@ -43,55 +43,142 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/Fun with Antonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
                 Fun with <br>
-                Adjectives!</h2>
+                Antonyms!</h2>
         </div>
     </div>
 
 
 
-    {{-- ============================ --}}
-    {{-- Panel 2 --}}
+    {{-- Original dirty-room question --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-         >
-        <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
-                class="text-[#A21E14]"> red word.</span></h2>
-
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - 1.mp3') }}">
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white">opposite</span> of each
+            <span class="text-[#A21E14]">red word.</span>
+        </h2>
         <img src="{{ asset('assets/images/phonics_l2/lrw3/fun1.png') }}" class="w-[20vw]" />
-
         <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
-            <span class="absolute top-0 right-[10%] text-[#A21E14] text-[2vw] ">dirty</span>
-
-            <span>The prince’s room is</span>
+            <span class="absolute top-0 right-[10%] text-[#A21E14] text-[2vw]">dirty</span>
+            <span>The prince's room is</span>
             <div class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
         </div>
-
         <div class="flex items-center justify-center gap-[2vw] w-full">
             <div class="rectangle">clean</div>
             <div class="rectangle">messy</div>
         </div>
     </div>
 
-    {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full gap-[2vw] h-full items-center w-full"
+    {{-- Original clean-room answer --}}
+    <div class="phonics-panel flex flex-col justify-start h-full gap-[2vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white">opposite</span> of each
+            <span class="text-[#A21E14]">red word.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun2.png') }}" class="w-[20vw]" />
+        <p class="text-[2vw] text-white">The prince's room is <span class="text-[#f7b94a]">clean</span>.</p>
+    </div>
+
+    {{-- ============================ --}}
+    {{-- Panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full pb-[8vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - big.mp3') }}"
          >
         <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
                 class="text-[#A21E14]"> red word.</span></h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun1.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun3.png') }}" class="w-[40vw]" />
 
         <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
-            <span class="absolute top-0 right-[10%] text-[#f7b94a] text-[2vw] ">clean</span>
+            <span class="absolute top-0 right-[10%] text-[#A21E14] text-[2vw] ">big</span>
 
-            <span>The prince’s room is</span>
+            <span>The prince has a</span>
             <div class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>train.</span>
         </div>
 
+        <div class="flex items-center justify-center gap-[2vw] w-full">
+            <div class="rectangle">huge</div>
+            <div class="rectangle">small</div>
+        </div>
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - small.mp3') }}"
+         >
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
+                class="text-[#A21E14]"> red word.</span></h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun4.png') }}" class="h-[18vw]" />
+
+        <p class="text-[2vw] text-center text-white">The prince has a <span class="text-[#f7b94a]">small</span> train.</p>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full pb-[8vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - walks.mp3') }}">
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white">opposite</span> of each
+            <span class="text-[#A21E14]">red word.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun5.png') }}" class="h-[18vw]" />
+        <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
+            <span>The prince</span>
+            <span class="relative flex flex-col items-center leading-none">
+                <span class="text-[#A21E14]">walks</span>
+                <span class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></span>
+            </span>
+            <span>around the tree.</span>
+        </div>
+        <div class="flex items-center justify-center gap-[2vw] w-full">
+            <div class="rectangle">runs</div>
+            <div class="rectangle">strolls</div>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - runs.mp3') }}">
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white">opposite</span> of each
+            <span class="text-[#A21E14]">red word.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun6.png') }}" class="h-[18vw]" />
+        <p class="text-[2vw] text-center text-white">The prince <span class="text-[#f7b94a]">runs</span> around the tree.</p>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full pb-[8vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - laugh.mp3') }}">
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white">opposite</span> of each
+            <span class="text-[#A21E14]">red word.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun7.png') }}" class="w-[30vw]" />
+        <div class="flex flex-wrap items-end justify-center relative h-fit w-[62vw] max-w-full gap-x-[0.35vw] px-[1vw] text-center text-white text-[1.8vw]">
+            <span>The prince and the tree hug and</span>
+            <span class="relative flex flex-col items-center leading-none">
+                <span class="text-[#A21E14]">laugh</span>
+                <span class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></span>
+            </span>
+            <span>loudly.</span>
+        </div>
+        <div class="flex items-center justify-center gap-[2vw] w-full">
+            <div class="rectangle">giggle</div>
+            <div class="rectangle">cry</div>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - cry.mp3') }}">
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white">opposite</span> of each
+            <span class="text-[#A21E14]">red word.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun8.png') }}" class="w-[25vw] max-h-[20vw] object-contain" />
+        <p class="w-[62vw] max-w-full px-[1vw] text-center text-[1.8vw] text-white">The prince and the tree hug and <span class="text-[#f7b94a]">cry</span> loudly.</p>
     </div>
 
 

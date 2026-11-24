@@ -12,37 +12,37 @@
         [
             'type' => 'grid',
             'cols' => 3,
-            'question' => 'Find the picture that begin with the /at/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that ends with the /at/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/atrev/pat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/rat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/hat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/hat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/hat.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/atrev/pat.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'pat',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/mm-pat.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -62,37 +62,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /at/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that ends with the /at/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/atrev/pat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/rat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/hat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/atrev/rat.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'rat',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/mm-rat.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -112,37 +112,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /at/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that ends with the /at/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/atrev/pat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/rat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/hat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/atrev/hat.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'hat',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/hat.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/mm-hat.mp3',
         ],
 
         // ── Round 4: ──
@@ -162,37 +162,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /at/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that ends with the /at/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/atrev/pat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/rat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/hat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/atrev/cat.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'cat',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/mm-cat.mp3',
         ],
 
         // ── Round 5: ──
@@ -211,37 +211,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that begin with the /at/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that ends with the /at/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/atrev/pat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/pat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/pram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/pram.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/rat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/rat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/hat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/star.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/aman/ram.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/ram.mp3',
                     'correct' => false,
                 ],
             ],
@@ -250,8 +250,8 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/sh_ch/right-sh.m4a',
-            'message' => "That's right! <br> Shower, Shell, Shut and <br> Shark begin with the <br> /at/ sound.",
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/right-at.mp3',
+            'message' => "That's right! <br> Pat, Rat, Hat and <br> Cat begin with the <br> /at/ sound.",
             'cols' => 2, 
             'cards' => [
                 [

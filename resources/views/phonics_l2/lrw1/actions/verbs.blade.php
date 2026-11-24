@@ -37,7 +37,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/All About Verbs.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -98,14 +98,16 @@
     {{-- Panel 3 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         >
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/v1.png') }}" class="w-[40vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw1/v1.png') }}" class="w-[40vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/AV - 1.mp3') }}" />
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         >
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/v2.png') }}" class="w-[40vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw1/v2.png') }}" class="w-[40vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/AV - 2.mp3') }}" />
 
     </div>
 
@@ -114,7 +116,8 @@
         >
 
         <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
+            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] "
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/AV - 3.mp3') }}" />
             <h2
                 class="absolute top-[28%] right-0 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.5vw] text-center">
                 These words are call <br><span class="text-[#70af39]">verbs</span>
@@ -125,28 +128,32 @@
     {{-- Panel 5 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         >
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/v3.png') }}" class="w-[45vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw1/v3.png') }}" class="w-[45vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/AV - 4.mp3') }}" />
 
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         >
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/v4.png') }}" class="w-[45vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw1/v4.png') }}" class="w-[45vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/AV - 5.mp3') }}" />
 
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         >
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/v5.png') }}" class="w-[45vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw1/v5.png') }}" class="w-[45vw]"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/AV - 6.mp3') }}" />
 
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
         >
         <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
+            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] "
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/AV - 7.mp3') }}" />
             <h2
                 class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 Now let’s practice <br> using <span class="text-[#70af39]">verbs</span>.</h2>

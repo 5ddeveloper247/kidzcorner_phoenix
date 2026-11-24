@@ -39,7 +39,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/Finding Adjectives.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -51,7 +51,7 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - 1.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -64,8 +64,8 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
-        <h2 class="panel-title">Find the nouns!</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - 2.mp3') }}">
+        <h2 class="panel-title">Find the Adjectives!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end">
             <div>
@@ -98,7 +98,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - green.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -107,15 +107,15 @@
                 class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
                 The word ‘green’ <br>
-                is a <span class="text-[#70af39]">adjectives</span>.</h2>
+                is an <span class="text-[#70af39]">adjective</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/drgr/green.png') }}"
                 class="w-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
-        <h2 class="panel-title">Find the nouns!</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - 2.mp3') }}">
+        <h2 class="panel-title">Find the Adjectives!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
 
@@ -152,7 +152,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - peroud.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -160,16 +160,16 @@
             <h2
                 class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘green’ <br>
-                is a <span class="text-[#70af39]">adjectives</span>.</h2>
+                The word ‘proud’ <br>
+                is an <span class="text-[#70af39]">adjective</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/brpr/proud.png') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
-        <h2 class="panel-title">Find the nouns!</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - 2.mp3') }}">
+        <h2 class="panel-title">Find the Adjectives!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[25%]"
@@ -207,7 +207,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - thick.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -215,16 +215,16 @@
             <h2
                 class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘green’ <br>
-                is a <span class="text-[#70af39]">adjectives</span>.</h2>
+                The word ‘thick’ <br>
+                is an <span class="text-[#70af39]">adjective</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw2/thick.png') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
-        <h2 class="panel-title">Find the nouns!</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - 2.mp3') }}">
+        <h2 class="panel-title">Find the Adjectives!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[25%]"
@@ -264,7 +264,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - thin.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -272,16 +272,16 @@
             <h2
                 class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘green’ <br>
-                is a <span class="text-[#70af39]">adjectives</span>.</h2>
+                The word ‘thin’ <br>
+                is an <span class="text-[#70af39]">adjective</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}"
     h        class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
-        <h2 class="panel-title">Find the nouns!</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - 2.mp3') }}">
+        <h2 class="panel-title">Find the Adjectives!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[39%]"
@@ -322,7 +322,8 @@
     </div>
 
 
-    <div class="phonics-panel flex justify-between items-end w-[53vw]">
+    <div class="phonics-panel flex justify-between items-end w-[53vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FA - 3.mp3') }}">
 
         {{-- Bear + speech bubble on the right --}}
         <div class="w-fit h-fit">

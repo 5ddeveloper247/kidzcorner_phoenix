@@ -39,7 +39,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/Finding Nouns.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -50,7 +50,8 @@
     </div>
 
     {{-- Side Info Panel --}}
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - 1.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -61,7 +62,8 @@
     </div>
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - 2.mp3') }}">
         <h2 class="panel-title">Find the nouns!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw]" style="place-items: end;">
@@ -94,7 +96,8 @@
     </div>
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - plane.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -109,7 +112,8 @@
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - 2.mp3') }}">
         <h2 class="panel-title">Find the nouns!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
@@ -146,7 +150,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - crayons.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -154,14 +159,15 @@
             <h2
                 class="absolute top-[16%] right-[14%] text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘planes’ <br>
+                The word ‘crayons’ <br>
                 is a <span class="text-[#70af39]">noun</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/frcr/crayon.png') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - 2 (1).mp3') }}">
         <h2 class="panel-title">Find the nouns!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
@@ -199,7 +205,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - baby.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -207,14 +214,15 @@
             <h2
                 class="absolute top-[16%] right-[14%] text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘planes’ <br>
+                The word ‘baby’ <br>
                 is a <span class="text-[#70af39]">noun</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw1/baby.png') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - 2 (2).mp3') }}">
         <h2 class="panel-title">Find the nouns!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
@@ -254,7 +262,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - school.mp3') }}">
 
 
         <div class="relative w-fit h-fit">
@@ -262,14 +271,15 @@
             <h2
                 class="absolute top-[16%] right-[14%] text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘planes’ <br>
+                The word ‘school’ <br>
                 is a <span class="text-[#70af39]">noun</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/swsc/school.png') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - 2 (3).mp3') }}">
         <h2 class="panel-title">Find the nouns!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
@@ -311,7 +321,8 @@
     </div>
 
 
-    <div class="phonics-panel flex justify-between items-end w-[53vw]">
+    <div class="phonics-panel flex justify-between items-end w-[53vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FN - 3.mp3') }}">
 
         {{-- Bear + speech bubble on the right --}}
         <div class="w-fit h-fit">

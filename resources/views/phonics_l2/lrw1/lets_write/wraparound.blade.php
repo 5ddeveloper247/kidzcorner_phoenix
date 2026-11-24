@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/Wrap around endings.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -48,7 +48,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WAE - 1.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -63,56 +63,56 @@
     {{-- ================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst1.mp3') }}">
         <h2 class="title-top stroke">If You Give a Spider a Spotted Star</h2>
         <img src="{{ asset('assets/images/phonics_l2/spst/st1.png') }}" class="h-[25vw]" />
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/spst/st2.png') }}" class="h-[25vw]" />
         <h2 class="title-top">If you give a spider a spotted star.</h2>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/spst/st3.png') }}" class="h-[25vw]" />
         <h2 class="title-top">It will stick it in a spaghetti jar.</h2>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/spst/st4.png') }}" class="h-[25vw]" />
         <h2 class="title-top">Fill it with stones and stamps.</h2>
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/spst/st5.png') }}" class="h-[25vw]" />
         <h2 class="title-top">Bury it under the stars with lamps.</h2>
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst6.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/spst/st6.png') }}" class="h-[25vw]" />
         <h2 class="title-top">Spin around on its web and not stop.</h2>
     </div>
 
     {{-- Panel 8 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst7.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/spst/st7.png') }}" class="h-[25vw]" />
         <h2 class="title-top">Until its spectacles finally drop!</h2>
     </div>
 
     {{-- Panel 9 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sp_st/sst8.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/spst/st8.png') }}" class="h-[25vw]" />
         <h2 class="title-top">If you give a spider 2 spotted star.</h2>
     </div>
@@ -120,7 +120,7 @@
     {{-- =================== --}}
 
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WAE - 2.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -132,13 +132,13 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WAE - 3.mp3') }}">
     
         <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq1.png') }}"class="w-[50vw] " />
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WAE - 4.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -152,13 +152,13 @@
 
 
     <div class="phonics-panel flex flex-col justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WAE - 5.mp3') }}">
        
         <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq2.png') }}"class="w-[50vw] " />
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WAE - 6.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -172,7 +172,7 @@
     
     {{-- Well Done Panel --}}
     <div class="phonics-panel h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/welldone.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/Well Done.mp3') }}">
         <h2 class="title-top">Well Done!</h2>
         <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[25vw]" />
     </div>

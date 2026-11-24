@@ -51,47 +51,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st1.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st1.png',
                 'text' => 'The cat and the Trap',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st2.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st2.png',
                 'text' => 'Put the cat sat gladly on a hat,',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st3.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st3.png',
                 'text' => 'Under the hat was a very sad rat.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st4.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st4.png',
                 'text' => 'The rat had found a can of jam in a van.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st5.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st5.png',
                 'text' => 'He took the jam and poured it into a pan.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st6.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st6.png',
                 'text' => 'Added a clam and a yam and shared it with a ram.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st7.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st7.png',
                 'text' => 'The van was a trap set by Pat to nab the rat.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st8.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st8.png',
                 'text' => 'With a clap and a snap, the rat was under the hat.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/st9.mp3',
                 'image' => 'assets/images/phonics_l2/atrev/st9.png',
                 'text' => 'Now the rat is in Pat’s bag waving his white flag.',
             ],
@@ -99,32 +99,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq1.mp3',
                 'question' => "Why was the\ncat glad?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq2.mp3',
                 'question' => "What was the \n rat sad?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq3.mp3',
                 'question' => "What did the rat \n find in the\nvan?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq4.mp3',
                 'question' => "What did the rat \n add to the \n jam?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq5.mp3',
                 'question' => "Why did the \n cat want to \n trap the rat?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/at_rev/stq6.mp3',
                 'question' => "Why did the \n rat want to \n trap the rat?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -201,7 +201,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -256,7 +256,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -313,7 +313,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -373,7 +373,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/at_rev/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

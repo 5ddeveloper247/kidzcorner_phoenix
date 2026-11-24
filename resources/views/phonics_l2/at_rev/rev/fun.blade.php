@@ -15,7 +15,7 @@
         [
             'image' => 'assets/images/phonics_l2/atrev/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/fb-atrev1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/fb-atrev1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'This'],
                 ['type' => 'blank'],
@@ -32,8 +32,8 @@
                 ['word' => 'crab',  'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/at_rev/rat.m4a',
-                'assets/audio/phonics_audio-2/ap_ad/cap.m4a',
+                'assets/audio/phonics_audio-2/at_rev/rat.mp3',
+                'assets/audio/phonics_audio-2/ap_ad/cap.mp3',
             ],
         ],
 
@@ -41,7 +41,7 @@
         [
             'image' => 'assets/images/phonics_l2/atrev/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/fb-atrev2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/fb-atrev2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The ram sits infornt of the'],
                 ['type' => 'blank'],
@@ -57,8 +57,8 @@
                 ['word' => 'jam', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/am_an/pan.m4a',
-                'assets/audio/phonics_audio-2/am_an/jam.m4a',
+                'assets/audio/phonics_audio-2/am_an/pan.mp3',
+                'assets/audio/phonics_audio-2/am_an/jam.mp3',
             ],
         ],
 
@@ -66,7 +66,7 @@
         [
             'image' => 'assets/images/phonics_l2/atrev/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/fb-atrev3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/at_rev/fb-atrev3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The stag waves the'],
                 ['type' => 'blank'],
@@ -82,8 +82,8 @@
                 ['word' => 'cab', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ag_ab/flag.m4a',
-                'assets/audio/phonics_audio-2/ag_ab/cab.m4a',
+                'assets/audio/phonics_audio-2/ag_ab/flag.mp3',
+                'assets/audio/phonics_audio-2/ag_ab/cab.mp3',
             ],
         ],
     ];

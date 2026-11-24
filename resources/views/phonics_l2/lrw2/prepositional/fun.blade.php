@@ -47,7 +47,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/Fun with proepositions.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -59,125 +59,113 @@
 
     {{-- ============================= --}}
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - 1.mp3') }}">
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
 
             <div class="flex flex-col gap-[2vw]">
-                <h2 class="text-[2.5vw] text-white">The are grapes <span>in</span> the fridge.</h2>
-                <h2 class="text-[2.5vw] text-white">The are grapes <span>on</span> the fridge.</h2>
+                <h2 class="text-[2.5vw] text-white">The girl likes to sit <span>in</span> the swing.</h2>
+                <h2 class="text-[2.5vw] text-white">The girl likes to sit <span>on</span> the swing.</h2>
             </div>
-            <img src="{{ asset('assets/images/phonics_l2/lrw2/fridge.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/swing.png') }}" class="h-[20vw]" />
 
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - SWING.mp3') }}">
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
 
             <div class="flex flex-col gap-[2vw]">
-                <h2 class="text-[2.5vw] text-white">The are grapes <span>in</span> the fridge.</h2>
-                <h2 class="text-[2.5vw] text-white opacity-0">The are grapes <span>on</span> the fridge.</h2>
+                <h2 class="text-[2.5vw] text-white">The girl likes to sit <span>on</span> the swing.</h2>
             </div>
-            <img src="{{ asset('assets/images/phonics_l2/lrw2/fridge.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/swing.png') }}" class="h-[20vw]" />
 
         </div>
     </div>
 
     {{-- ============================= --}}
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - 1.mp3') }}">
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
 
             <div class="flex flex-col gap-[2vw]">
-                <h2 class="text-[2.5vw] text-white">The boy climbs <span>up</span> the ladder.</h2>
-                <h2 class="text-[2.5vw] text-white">The boy climbs <span>above</span> the ladder.</h2>
+                <h2 class="text-[2.5vw] text-white">Frog and crab live <span>under</span> a bridge.</h2>
+                <h2 class="text-[2.5vw] text-white">Frog and crab live <span>behind</span> a bridge.</h2>
             </div>
-            <img src="{{ asset('assets/images/phonics_l2/lrw2/climb.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/bridge.png') }}" class="h-[20vw]" />
 
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - BRIDGE.mp3') }}">
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
 
             <div class="flex flex-col gap-[2vw]">
-                <h2 class="text-[2.5vw] text-white">The boy climbs <span>up</span> the ladder.</h2>
-                <h2 class="text-[2.5vw] text-white opacity-0">The boy climbs <span>above</span> the ladder.</h2>
+                <h2 class="text-[2.5vw] text-white">Frog and crab live <span>under</span> a bridge.</h2>
             </div>
-            <img src="{{ asset('assets/images/phonics_l2/lrw2/climb.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/bridge.png') }}" class="h-[20vw]" />
 
         </div>
     </div>
 
     {{-- ============================= --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
+    <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - 1.mp3') }}">
 
-        <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
-
-        <div class="flex justify-around items-center w-full">
-            <h2 class="text-[2.5vw] text-white">crawling</h2>
-            <img src="{{ asset('assets/images/phonics_l2/clsl/sleepyclown.png') }}" class="h-[20vw]" />
-            <h2 class="text-[2.5vw] text-white">sleeping</h2>
-        </div>
-        <div class="flex items-end relative h-fit w-fit text-[#f7b94a] text-[2vw]">
-            <span>He juggles slippers ans clogs while</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
+        <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
+        <div class="flex items-center">
+            <div class="flex flex-col gap-[2vw]">
+                <h2 class="text-[2.5vw] text-white">The monkey jumps <span>up</span> the crate.</h2>
+                <h2 class="text-[2.5vw] text-white">The monkey jumps <span>over</span> the crate.</h2>
+            </div>
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/image 701.png') }}" class="h-[20vw]" />
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
+    <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - MONKEY.mp3') }}">
 
-        <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
-
-        <img src="{{ asset('assets/images/phonics_l2/clsl/sleepyclown.png') }}" class="h-[20vw]" />
-
-        <div class="flex items-end relative h-fit w-fit text-[#f7b94a] text-[2vw]">
-            <span class="absolute top-0 right-[6%] text-white text-[1.6vw] ">sleeping</span>
-            <span>He juggles slippers ans clogs while</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
+        <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
+        <div class="flex items-center">
+            <div class="flex flex-col gap-[2vw]">
+                <h2 class="text-[2.5vw] text-white">The monkey jumps <span>over</span> the crate.</h2>
+            </div>
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/image 701.png') }}" class="h-[20vw]" />
         </div>
     </div>
 
     {{-- ============================= --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
+    <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - 1.mp3') }}">
 
-        <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
-
-        <div class="flex justify-around items-center w-full">
-            <h2 class="text-[2.5vw] text-white">sweeping</h2>
-            <img src="{{ asset('assets/images/phonics_l2/clsl/s-clown.png') }}" class="h-[20vw]" />
-            <h2 class="text-[2.5vw] text-white">clapping</h2>
-        </div>
-        <div class="flex items-end relative h-fit w-fit text-[#f7b94a] text-[2vw]">
-            <span>He juggles them slowly</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
+        <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
+        <div class="flex items-center">
+            <div class="flex flex-col gap-[2vw]">
+                <h2 class="text-[2.5vw] text-white">The skunk hides <span>below</span> the bricks.</h2>
+                <h2 class="text-[2.5vw] text-white">The skunk hides <span>behind</span> the bricks.</h2>
+            </div>
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/image 702.png') }}" class="h-[20vw]" />
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
+    <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/FWEP - BRICKS.mp3') }}">
 
-        <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
-
-        <img src="{{ asset('assets/images/phonics_l2/clsl/s-clown.png') }}" class="h-[20vw]" />
-
-        <div class="flex items-end relative h-fit w-fit text-[#f7b94a] text-[2vw]">
-            <span class="absolute top-0 right-[8%] text-white text-[1.6vw] ">sweeping</span>
-            <span>He juggles them slowly</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
+        <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
+        <div class="flex items-center">
+            <div class="flex flex-col gap-[2vw]">
+                <h2 class="text-[2.5vw] text-white">The skunk hides <span>behind</span> the bricks.</h2>
+            </div>
+            <img src="{{ asset('assets/images/phonics_l2/lrw2/image 702.png') }}" class="h-[20vw]" />
         </div>
     </div>
 
