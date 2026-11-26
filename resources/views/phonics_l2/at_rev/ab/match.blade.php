@@ -5,24 +5,24 @@
     $showBackground = true;
 
     // URLS
-    $returnURL = '/phonics_l2/ag_ab/ab';
-    $doneURL = '/phonics_l2/ag_ab/ab';
+    $returnURL = '/phonics_l2/at_rev/ab';
+    $doneURL = '/phonics_l2/at_rev/ab';
 
     // Questions Data - Super Easy to Edit!
     $questions = [
         [
             'top_image' => 'phonics_l2/swsc/scooter.png',
-            'top_audio' => 'sw_sc/scooter.m4a',
+            'top_audio' => 'sw_sc/scooter.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/apad/pad.png', 'audio' => 'ap_ad/pad.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/grab.png', 'audio' => 'ag_ab/grab.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/apad/pad.png', 'audio' => 'ap_ad/pad.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/grab.png', 'audio' => 'ag_ab/grab.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 1,
             'answer_background' => 'oval-ans',
             'highlight_position' => 1, 
-
+            'answer_audio' => 'ag_ab/mi-grab.mp3',
             'word_prefix' => 'gr',
             'word_suffix' => 'ab',
 
@@ -31,17 +31,17 @@
         // 2 - 
         [
             'top_image' => 'phonics_l2/swsc/scooter.png',
-            'top_audio' => 'sw_sc/scooter.m4a',
+            'top_audio' => 'sw_sc/scooter.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/agab/crab.png', 'audio' => 'ag_ab/crab.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/candy.png', 'audio' => 'ag_ab/candy.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/crab.png', 'audio' => 'ag_ab/crab.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/candy.png', 'audio' => 'ag_ab/sweet.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 0,
             'answer_background' => 'green',
             'highlight_position' => 0, 
-
+            'answer_audio' => 'ag_ab/mi-crab.mp3',
             'word_prefix' => 'cr',
             'word_suffix' => 'ab',
 
@@ -51,17 +51,17 @@
         // 3 - 
         [
             'top_image' => 'phonics_l2/spst/spoon.png',
-            'top_audio' => 'sp_st/spoon.m4a',
+            'top_audio' => 'sp_st/spoon.mp3',
             'top_size' => 'w-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/swsc/scarf.png', 'audio' => 'sw_sc/scarf.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/cab.png', 'audio' => 'ag_ab/cab.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/swsc/scarf.png', 'audio' => 'sw_sc/scarf.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/cab.png', 'audio' => 'ag_ab/cab.mp3', 'size' => 'w-[6vw]'],
             ],
-            'correct_answer' => 0,
+            'correct_answer' => 1,
             'answer_background' => 'yellow',
             'highlight_position' => 1, 
-
+            'answer_audio' => 'ag_ab/mi-cab.mp3',
             'word_prefix' => 'c',
             'word_suffix' => 'ab',
 
@@ -71,16 +71,17 @@
         // 4
         [
             'top_image' => 'phonics_l2/agab/tab.png',
-            'top_audio' => 'ag_ab/tab.m4a',
+            'top_audio' => 'ag_ab/tab.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/flgl/globe.png', 'audio' => 'fl_gl/globe.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/flgl/globe.png', 'audio' => 'fl_gl/globe.mp3', 'size' => 'w-[6vw]'],
             ],
-            'correct_answer' => 0,
+            'correct_answer' => 'top',
             'answer_background' => 'oval-ans',
             'highlight_position' => 'top',
+            'answer_audio' => 'ag_ab/mi-tab.mp3',
 
             'word_prefix' => 't',
             'word_suffix' => 'ab',
@@ -91,16 +92,17 @@
         // 5
         [
             'top_image' => 'phonics_l2/thwh/thumb.png',
-            'top_audio' => 'th_wh/thumb.m4a',
+            'top_audio' => 'th_wh/thumb.mp3',
             'top_size' => 'h-[6vw]',
 
             'bottom_images' => [
-                ['img' => 'phonics_l2/apad/dad.png', 'audio' => 'ap_ad/dad.m4a', 'size' => 'h-[6vw]'],
-                ['img' => 'phonics_l2/agab/jab.png', 'audio' => 'ag_ab/jab.m4a', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/apad/dad.png', 'audio' => 'ap_ad/dad.mp3', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/agab/jab.png', 'audio' => 'ag_ab/jab.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 1,
             'answer_background' => 'sea-g',
             'highlight_position' => 1,
+            'answer_audio' => 'ag_ab/mi-jab.mp3',
 
             'word_prefix' => 'j',
             'word_suffix' => 'ab',
@@ -129,7 +131,7 @@
         .box {
             width: 19vw;
             height: 10vw;
-            border: 0.15vw solid #F7B94A;
+            border: 2px solid #F7B94A;
             border-radius: 7px;
             position: relative;
             display: flex;
@@ -142,26 +144,26 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/mi-ab.mp3') }}" >
         <h2 class="top-title stroke">Match It</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Encourage children to say the 'pl' sound. <br>
+        <p class="p-note">Tips: Encourage children to say the 'ab' sound. <br>
             Remind them to listen to the initial sound when naming each object.</p>
     </div>
 
     {{-- Auto-generated Question & Answer Panels --}}
     @foreach ($questions as $index => $q)
         {{-- Question Panel --}}
-        <div class="phonics-panel flex justify-center items-center gap-[1vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[1vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ag_ab/mi-ab2.mp3') }}">
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
                 <div class="flex items-center justify-center flex-col">
                     {{-- Top Image --}}
-                    <div class="relative w-fit h-fit">
+                    <div class="relative w-fit h-fit" data-answer-option="top">
                         <img src="{{ asset('assets/images/phonics_l2/global/common/oval.png') }}" class="w-[12vw]" />
                         <img class="absolute top-1/2 left-1/2 -translate-1/2 {{ $q['top_size'] }}"
                             src="{{ asset('assets/images/' . $q['top_image']) }}">
@@ -206,7 +208,7 @@
         </div>
 
         {{-- Answer Panel (with highlighted correct answer) --}}
-        <div class="phonics-panel flex justify-center items-center gap-[2vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['answer_audio']) }}">
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -310,10 +312,11 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l1') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
+            let autoplayBlocked = false;
 
             // Audio functions
             function stopAudio() {
@@ -333,9 +336,21 @@
                 currentAudio = new Audio(src);
                 if (onEnd) currentAudio.onended = onEnd;
                 currentAudio.play().catch(() => {
+                    autoplayBlocked = true;
                     if (onEnd) onEnd();
                 });
             }
+
+            function unlockAudio() {
+                if (!autoplayBlocked || !currentAudio) return;
+                const audioToUnlock = currentAudio;
+                audioToUnlock.play().then(() => {
+                    if (currentAudio === audioToUnlock) autoplayBlocked = false;
+                }).catch(() => {});
+            }
+
+            document.addEventListener('pointerdown', unlockAudio);
+            document.addEventListener('keydown', unlockAudio);
 
             // Show slide
             function showSlide(idx) {
@@ -380,10 +395,11 @@
 
                 const correctAnswer = correctAnswers[questionIndex];
 
-                answerOptions.forEach((option, optionIdx) => {
+                answerOptions.forEach((option) => {
                     option.style.cursor = 'pointer';
                     option.addEventListener('click', () => {
-                        if (optionIdx === correctAnswer) {
+                        const selectedAnswer = option.getAttribute('data-answer-option');
+                        if (String(selectedAnswer) === String(correctAnswer)) {
                             // Correct answer clicked - play cheering and go to next
                             playAudio(cheeringAudio, () => goNext());
                         }
@@ -407,15 +423,9 @@
                 window.location.href = homeURL;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             showSlide(0);
         });

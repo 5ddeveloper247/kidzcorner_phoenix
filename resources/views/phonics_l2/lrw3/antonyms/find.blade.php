@@ -49,7 +49,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/Finding Antonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -61,6 +61,7 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FANT - 1.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -75,6 +76,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - happy.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of happy</h2>
@@ -108,6 +110,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - sad.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of happy</h2>
@@ -132,6 +135,7 @@
     {{-- ======================================= --}}
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - thin.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of thin</h2>
@@ -165,6 +169,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - fat.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of thin</h2>
@@ -189,6 +194,7 @@
     {{-- ======================================= --}}
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - stand.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of stand</h2>
@@ -222,6 +228,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - sit.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of stand</h2>
@@ -246,6 +253,7 @@
     {{-- ======================================= --}}
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - cold.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of cold</h2>
@@ -279,6 +287,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/ANT - hot.mp3') }}"
          >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the antonym of cold</h2>

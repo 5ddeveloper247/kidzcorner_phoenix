@@ -31,20 +31,20 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/Where\'s the adjective.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                Where’s the <br>
-                Adjective?</h2>
+                Where are the <br>
+                Adjectives?</h2>
         </div>
         <p class="p-note">Tips: Encourage children to read the sentences.</p>
     </div>
 
 
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WA - 1.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -57,7 +57,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WA - 2.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">The girl draws a white sheep</h2>
@@ -67,7 +67,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -87,7 +87,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WA - 2.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">Look at the big whale!</h2>
@@ -97,7 +97,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -118,7 +118,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WA - 2.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">The cute boy is sucking on his little thumb.</h2>
@@ -128,7 +128,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -145,7 +145,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw] flex-wrap">
@@ -175,7 +175,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WA - 2.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">The rabbit has short and thin whiskers.</h2>
@@ -185,7 +185,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -202,7 +202,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the adjectives in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw] flex-wrap">

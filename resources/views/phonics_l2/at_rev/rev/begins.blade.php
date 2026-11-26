@@ -12,61 +12,67 @@
     $questions = [
         [
             'box_images' => [
-                ['img' => 'phonics_l2/aman/jam.png', 'audio' => 'am_an/jam.m4a', 'size' => 'h-[6vw]'],
-                ['img' => 'phonics_l2/atrev/hat.png', 'audio' => 'at_rev/hat.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/jam.png', 'audio' => 'am_an/jam.mp3', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/atrev/hat.png', 'audio' => 'at_rev/hat.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/atrev/bat.png',
-            'answer_audio' => 'at_rev/bat.m4a',
+            'question_audio' => 'at_rev/bat.mp3',
+            'answer_audio' => 'at_rev/iew-bat.mp3',
             'answer_size' => 'w-[8vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.m4a', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/aman/jam.png', 'audio' => 'am_an/jam.m4a', 'size' => 'h-[6vw]'],
+                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/aman/ram.png', 'audio' => 'am_an/ram.mp3', 'size' => 'h-[6vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/clam.png',
-            'answer_audio' => 'am_an/clam.m4a',
+            'question_audio' => 'am_an/clam.mp3',
+            'answer_audio' => 'am_an/iew-clam.mp3',
             'answer_size' => 'w-[8vw]',
             'correct_box' => 0,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/wrap.png', 'audio' => 'ap_ad/wrap.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/aman/pan.png', 'audio' => 'am_an/pan.m4a', 'size' => 'h-[7vw]'],
+                ['img' => 'phonics_l2/apad/wrap.png', 'audio' => 'ap_ad/wrap.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/pan.png', 'audio' => 'am_an/pan.mp3', 'size' => 'h-[7vw]'],
             ],
             'answer_image' => 'phonics_l2/aman/fan.png',
-            'answer_audio' => 'am_an/fan.m4a',
+            'question_audio' => 'am_an/fan.mp3',
+            'answer_audio' => 'am_an/iew-fan.mp3',
             'answer_size' => 'h-[8vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/apad/nap.png', 'audio' => 'ap_ad/nap.m4a', 'size' => 'h-[8vw]'],
-                ['img' => 'phonics_l2/aman/ram.png', 'audio' => 'am_an/ram.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/apad/nap.png', 'audio' => 'ap_ad/nap.mp3', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/ram.png', 'audio' => 'am_an/ram.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/apad/cap.png',
-            'answer_audio' => 'ap_ad/cap.m4a',
+            'question_audio' => 'ap_ad/cap.mp3',
+            'answer_audio' => 'at_rev/iew-cap.mp3',
             'answer_size' => 'w-[8vw]',
             'correct_box' => 0,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/aman/van.png', 'audio' => 'am_an/van.m4a', 'size' => 'w-[8vw]'],
-                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.m4a', 'size' => 'h-[8vw]'],
+                ['img' => 'phonics_l2/aman/van.png', 'audio' => 'am_an/van.mp3', 'size' => 'w-[8vw]'],
+                ['img' => 'phonics_l2/agab/bag.png', 'audio' => 'ag_ab/bag.mp3', 'size' => 'h-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/wag.png',
-            'answer_audio' => 'ag_ab/wag.m4a',
+            'question_audio' => 'ag_ab/wag.mp3',
+            'answer_audio' => 'at_rev/iew-wag.mp3',
             'answer_size' => 'h-[10vw]',
             'correct_box' => 1,
         ],
         [
             'box_images' => [
-                ['img' => 'phonics_l2/agab/crab.png', 'audio' => 'ag_ab/crab.m4a', 'size' => 'w-[7vw]'],
-                ['img' => 'phonics_l2/aman/yam.png', 'audio' => 'am_an/yam.m4a', 'size' => 'w-[8vw]'],
+                ['img' => 'phonics_l2/agab/crab.png', 'audio' => 'ag_ab/crab.mp3', 'size' => 'w-[7vw]'],
+                ['img' => 'phonics_l2/aman/yam.png', 'audio' => 'am_an/yam.mp3', 'size' => 'w-[8vw]'],
             ],
             'answer_image' => 'phonics_l2/agab/cab.png',
-            'answer_audio' => 'ag_ab/cab.m4a',
+            'question_audio' => 'ag_ab/cab.mp3',
+            'answer_audio' => 'at_rev/iew-cab.mp3',
             'answer_size' => 'w-[10vw]',
             'correct_box' => 0,
         ]
@@ -168,7 +174,7 @@
                 {{-- Right side: Answer box (clickable) --}}
                 <div class="answer-box" data-answer-box>
                     <button class="w-[2.5vw] absolute top-[15%] left-[8%]" data-sound-btn
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['answer_audio']) }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['question_audio']) }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <img src="{{ asset('assets/images/' . $q['answer_image']) }}" class="{{ $q['answer_size'] }}" />
@@ -251,7 +257,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
+            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

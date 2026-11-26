@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/Pattern Story.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -46,6 +46,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/PS - 1.mp3') }}">
         >
 
         <div class="relative w-fit h-fit">
@@ -61,6 +62,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/PS - 2.mp3') }}">
          >
         <h2 class="panel-title">Look at these pictures. <br>
             Complete each sentence in your own words to create a story.</h2>
@@ -140,6 +142,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/PS - 3.mp3') }}">
          >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/p1.png') }}" class="w-[50vw]" />
     </div>

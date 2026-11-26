@@ -39,7 +39,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/Finding Verbs.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -51,7 +51,7 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - 1.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -64,7 +64,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - 2.mp3') }}">
         <h2 class="panel-title">Find the verbs!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end">
@@ -85,8 +85,8 @@
                 <div class="rectangle">drink</div>
             </div>
             <div>
-                <img src="{{ asset('assets/images/phonics_l2/spst/drinks.png') }}" class="w-[10vw]" />
-                <div class="rectangle">drinks</div>
+                <img src="{{ asset('assets/images/phonics_l2/spst/spoon.png') }}" class="w-[10vw]" />
+                <div class="rectangle">spoon</div>
             </div>
             <div>
                 <img src="{{ asset('assets/images/phonics_l2/lrw1/sleep.png') }}" class="w-[10vw]" />
@@ -109,12 +109,13 @@
                 The word ‘stirs’ <br>
                 is a <span class="text-[#70af39]">verb</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw1/stirs.png') }}"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - stirs.mp3') }}"
                 class="w-[12vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - 2.mp3') }}">
         <h2 class="panel-title">Find the verbs!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
@@ -139,8 +140,8 @@
                 <div class="rectangle">drink</div>
             </div>
             <div>
-                <img src="{{ asset('assets/images/phonics_l2/spst/drinks.png') }}" class="w-[10vw]" />
-                <div class="rectangle">drinks</div>
+                <img src="{{ asset('assets/images/phonics_l2/spst/spoon.png') }}" class="w-[10vw]" />
+                <div class="rectangle">spoon</div>
             </div>
             <div>
                 <img src="{{ asset('assets/images/phonics_l2/lrw1/sleep.png') }}" class="w-[10vw]" />
@@ -160,15 +161,16 @@
             <h2
                 class="absolute top-[35%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘stirs’ <br>
+                The word ‘clap’ <br>
                 is a <span class="text-[#70af39]">verb</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/clsl/clap.png') }}"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - claeps.mp3') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - 2.mp3') }}">
         <h2 class="panel-title">Find the verbs!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
@@ -194,8 +196,8 @@
                 <div class="rectangle">drink</div>
             </div>
             <div>
-                <img src="{{ asset('assets/images/phonics_l2/spst/drinks.png') }}" class="w-[10vw]" />
-                <div class="rectangle">drinks</div>
+                <img src="{{ asset('assets/images/phonics_l2/spst/spoon.png') }}" class="w-[10vw]" />
+                <div class="rectangle">spoon</div>
             </div>
             <div>
                 <img src="{{ asset('assets/images/phonics_l2/lrw1/sleep.png') }}" class="w-[10vw]" />
@@ -215,15 +217,16 @@
             <h2
                 class="absolute top-[35%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘stirs’ <br>
+                The word ‘drink’ <br>
                 is a <span class="text-[#70af39]">verb</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw1/drink.png') }}"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - drinks.mp3') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - 2.mp3') }}">
         <h2 class="panel-title">Find the verbs!</h2>
 
         <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
@@ -251,8 +254,8 @@
                 <div class="rectangle">drink</div>
             </div>
             <div>
-                <img src="{{ asset('assets/images/phonics_l2/spst/drinks.png') }}" class="w-[10vw]" />
-                <div class="rectangle">drinks</div>
+                <img src="{{ asset('assets/images/phonics_l2/spst/spoon.png') }}" class="w-[10vw]" />
+                <div class="rectangle">spoon</div>
             </div>
             <div>
                 <img src="{{ asset('assets/images/phonics_l2/lrw1/sleep.png') }}" class="w-[10vw]" />
@@ -272,57 +275,17 @@
             <h2
                 class="absolute top-[35%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
-                The word ‘stirs’ <br>
+                The word ‘sleep’ <br>
                 is a <span class="text-[#70af39]">verb</span>.</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw1/sleep.png') }}"
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - sleep.mp3') }}"
                 class="h-[15vw] absolute bottom-0 right-[10%]" />
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
-        <h2 class="panel-title">Find the verbs!</h2>
 
-        <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
-            <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[39%]"
-                style="left: -6%" />
-            <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
-                class="w-[3 h-[3vw] absolute top-[38%] left-[31%]" />
-            <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
-                class="w-[3 h-[3vw] absolute bottom-0" style="left:-6%" />
-            <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
-                class="w-[3 h-[3vw] absolute bottom-0 left-[67%]" />
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw1/stirs.png') }}" class="w-[10vw]" />
-                <div class="rectangle">stirs</div>
-            </div>
-
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/clsl/clap.png') }}" class="h-[10vw]" />
-                <div class="rectangle">clap</div>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw1/prawn.png') }}" class="h-[10vw]" />
-                <div class="rectangle">prawn</div>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw1/drink.png') }}" class="h-[10vw]" />
-                <div class="rectangle">drink</div>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/spst/drinks.png') }}" class="w-[10vw]" />
-                <div class="rectangle">drinks</div>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw1/sleep.png') }}" class="w-[10vw]" />
-                <div class="rectangle">sleep</div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="phonics-panel flex justify-between items-end w-[53vw]">
+    <div class="phonics-panel flex justify-between items-end w-[53vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FV - 3.mp3') }}">
 
         {{-- Bear + speech bubble on the right --}}
         <div class="w-fit h-fit">

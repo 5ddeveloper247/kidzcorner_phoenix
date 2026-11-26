@@ -31,13 +31,13 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/Where are the preepositions.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                Where’s the <br>
-                Verbs?</h2>
+                Where are the <br>
+                Prepositions?</h2>
         </div>
         <p class="p-note">Tips: Encourage children to read the sentences.</p>
     </div>
@@ -46,7 +46,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WEP - 1.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">The scouts hid the bench behind the bush.</h2>
@@ -56,7 +56,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -75,7 +75,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WEP - 1.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">The white whale is on the wheel.</h2>
@@ -85,7 +85,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -105,7 +105,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WEP - 1.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">A chick hatches from the egg.</h2>
@@ -115,7 +115,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -135,7 +135,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WEP - 1.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">The sloth sees a fish bathing in a tub.</h2>
@@ -145,7 +145,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -165,7 +165,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WEP - 1.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">Lingo throws the ball to his friend.</h2>
@@ -175,7 +175,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
@@ -194,7 +194,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2/WEP - 1.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white">There are chips in the bowl.</h2>
@@ -204,7 +204,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
-         >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">

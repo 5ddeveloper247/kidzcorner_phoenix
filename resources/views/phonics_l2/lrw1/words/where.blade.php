@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/Wheres the Noun.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -44,6 +44,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - 1.mp3') }}">
         >
 
         <div class="relative w-fit h-fit">
@@ -57,6 +58,8 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - skunk.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -67,6 +70,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -84,6 +88,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -110,6 +115,8 @@
 {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - flute.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -120,6 +127,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -137,6 +145,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -166,6 +175,8 @@
 {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - socks.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -176,6 +187,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -192,6 +204,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -221,6 +234,8 @@
 {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw1/WN - scouts.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -231,6 +246,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -248,6 +264,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the nouns in the sentence.</h2>
 
@@ -391,8 +408,20 @@
                 }
 
                 if (audioSrc) {
-                    currentAudio = new Audio(audioSrc);
-                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    const firstAudio = new Audio(audioSrc);
+                    currentAudio = firstAudio;
+
+                    const nextAudioSrc = slide.getAttribute('data-slide-audio-next');
+                    if (nextAudioSrc) {
+                        firstAudio.addEventListener('ended', () => {
+                            if (currentAudio !== firstAudio) return;
+
+                            currentAudio = new Audio(nextAudioSrc);
+                            currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                        }, { once: true });
+                    }
+
+                    firstAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
             }
 

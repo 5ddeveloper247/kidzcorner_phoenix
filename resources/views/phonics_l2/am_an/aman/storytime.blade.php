@@ -51,47 +51,47 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st1.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st1.png',
                 'text' => 'Sam and His Van',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st2.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st2.png',
                 'text' => 'Sam the ram drove a van.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st3.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st3.png',
                 'text' => 'In his van, there was a little fan and lots of cans.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st4.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st4.png',
                 'text' => 'Some cans were filled with juicy jam',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st5.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st5.png',
                 'text' => 'While others filled with yummy yam.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st6.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st6.png',
                 'text' => 'But his favorite can was still chowder made of clams.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st7.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st7.png',
                 'text' => 'Sam the ram had a plan to sell his cans.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st8.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st8.png',
                 'text' => 'He sold them near a dam to an old raggedy man.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/st9.mp3',
                 'image' => 'assets/images/phonics_l2/aman/st9.png',
                 'text' => 'But when he saw the policeman, he just ran!',
             ],
@@ -99,32 +99,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/stq1.mp3',
                 'question' => "What did Sam\n drive?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/stq2.mp3',
                 'question' => "What was in \n the van?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/stq3.mp3',
                 'question' => "which can was\n his favorite?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/stq4.mp3',
                 'question' => "What was \n his plan?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/stq5.mp3',
                 'question' => "What did Sam \n sell the cans \n to?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/am_an/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/am_an/stq6.mp3',
                 'question' => "What did Sam run \nafter seeing \n the policeman?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -201,7 +201,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -256,7 +256,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -313,7 +313,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
@@ -373,7 +373,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/am_an/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">

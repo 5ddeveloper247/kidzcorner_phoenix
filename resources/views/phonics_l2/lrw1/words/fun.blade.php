@@ -43,7 +43,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/Fun with Nouns.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -55,6 +55,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FWN - 1.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -68,6 +69,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FWN - 2.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -91,6 +93,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -117,6 +120,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -142,6 +146,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -166,6 +171,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -193,6 +199,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -220,6 +227,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -246,6 +254,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -276,6 +285,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -307,6 +317,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FWN - 3.mp3') }}"
          >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
@@ -333,7 +344,35 @@
         </div>
     </div>
 
+    {{-- Create-your-own rhyme introduction --}}
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FWN - 4.mp3') }}">
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}" class="w-[45vw]" />
+            <h2 class="absolute top-[17%] right-[8%] w-[52%] text-[#A15E0D] text-[1.7vw] text-center">
+                Now it’s your turn <br> to create your own rhyme.
+            </h2>
+        </div>
+    </div>
 
+    {{-- Create-your-own rhyme prompt --}}
+    <div class="phonics-panel flex flex-col justify-center items-center gap-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1/FWN - 5.mp3') }}">
+        <h2 class="panel-title text-center max-w-[60vw]">
+            Fill in the blanks with appropriate nouns to create your own rhyme.
+        </h2>
+
+        <div class="flex flex-col gap-[1vw] text-white text-[1.5vw] text-center">
+            <p><span class="inline-block w-[6vw] border-b-2 border-[#F7B94A]"></span> the <span class="inline-block w-[7vw] border-b-2 border-[#F7B94A]"></span> was cross.</p>
+            <p>A <span class="inline-block w-[7vw] border-b-2 border-[#F7B94A]"></span> had cracked his <span class="inline-block w-[7vw] border-b-2 border-[#F7B94A]"></span>.</p>
+            <p>And a <span class="inline-block w-[7vw] border-b-2 border-[#F7B94A]"></span> had eaten his <span class="inline-block w-[7vw] border-b-2 border-[#F7B94A]"></span>.</p>
+            <p>They had made a mess of his <span class="inline-block w-[7vw] border-b-2 border-[#F7B94A]"></span>.</p>
+        </div>
+
+        <p class="text-white text-[0.8vw] text-center">
+            Tip: Pair up, choose nouns to complete the rhyme, then share it with your classmates.
+        </p>
+    </div>
 
 
     {{-- =========================================================== --}}

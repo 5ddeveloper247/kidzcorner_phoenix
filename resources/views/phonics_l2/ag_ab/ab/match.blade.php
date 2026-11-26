@@ -5,8 +5,8 @@
     $showBackground = true;
 
     // URLS
-    $returnURL = '/phonics_l2/ag_ab/ab';
-    $doneURL = '/phonics_l2/ag_ab/ab';
+    $returnURL = '/phonics_l2/at_rev/ab';
+    $doneURL = '/phonics_l2/at_rev/ab';
 
     // Questions Data - Super Easy to Edit!
     $questions = [
@@ -22,7 +22,7 @@
             'correct_answer' => 1,
             'answer_background' => 'oval-ans',
             'highlight_position' => 1, 
-
+            'answer_audio' => 'ag_ab/mi-grab.mp3',
             'word_prefix' => 'gr',
             'word_suffix' => 'ab',
 
@@ -36,12 +36,12 @@
 
             'bottom_images' => [
                 ['img' => 'phonics_l2/agab/crab.png', 'audio' => 'ag_ab/crab.mp3', 'size' => 'w-[6vw]'],
-                ['img' => 'phonics_l2/agab/candy.png', 'audio' => 'ag_ab/candy.mp3', 'size' => 'w-[6vw]'],
+                ['img' => 'phonics_l2/agab/candy.png', 'audio' => 'ag_ab/sweet.mp3', 'size' => 'w-[6vw]'],
             ],
             'correct_answer' => 0,
             'answer_background' => 'green',
             'highlight_position' => 0, 
-
+            'answer_audio' => 'ag_ab/mi-crab.mp3',
             'word_prefix' => 'cr',
             'word_suffix' => 'ab',
 
@@ -58,10 +58,10 @@
                 ['img' => 'phonics_l2/swsc/scarf.png', 'audio' => 'sw_sc/scarf.mp3', 'size' => 'w-[6vw]'],
                 ['img' => 'phonics_l2/agab/cab.png', 'audio' => 'ag_ab/cab.mp3', 'size' => 'w-[6vw]'],
             ],
-            'correct_answer' => 0,
+            'correct_answer' => 1,
             'answer_background' => 'yellow',
             'highlight_position' => 1, 
-
+            'answer_audio' => 'ag_ab/mi-cab.mp3',
             'word_prefix' => 'c',
             'word_suffix' => 'ab',
 
@@ -78,9 +78,10 @@
                 ['img' => 'phonics_l2/spst/spoon.png', 'audio' => 'sp_st/spoon.mp3', 'size' => 'w-[6vw]'],
                 ['img' => 'phonics_l2/flgl/globe.png', 'audio' => 'fl_gl/globe.mp3', 'size' => 'w-[6vw]'],
             ],
-            'correct_answer' => 0,
+            'correct_answer' => 'top',
             'answer_background' => 'oval-ans',
             'highlight_position' => 'top',
+            'answer_audio' => 'ag_ab/mi-tab.mp3',
 
             'word_prefix' => 't',
             'word_suffix' => 'ab',
@@ -101,6 +102,7 @@
             'correct_answer' => 1,
             'answer_background' => 'sea-g',
             'highlight_position' => 1,
+            'answer_audio' => 'ag_ab/mi-jab.mp3',
 
             'word_prefix' => 'j',
             'word_suffix' => 'ab',
@@ -161,7 +163,7 @@
                 {{-- Images Section --}}
                 <div class="flex items-center justify-center flex-col">
                     {{-- Top Image --}}
-                    <div class="relative w-fit h-fit">
+                    <div class="relative w-fit h-fit" data-answer-option="top">
                         <img src="{{ asset('assets/images/phonics_l2/global/common/oval.png') }}" class="w-[12vw]" />
                         <img class="absolute top-1/2 left-1/2 -translate-1/2 {{ $q['top_size'] }}"
                             src="{{ asset('assets/images/' . $q['top_image']) }}">
@@ -206,7 +208,7 @@
         </div>
 
         {{-- Answer Panel (with highlighted correct answer) --}}
-        <div class="phonics-panel flex justify-center items-center gap-[2vw]">
+        <div class="phonics-panel flex justify-center items-center gap-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/' . $q['answer_audio']) }}">
             <div class="flex flex-col justify-center items-center gap-[2vw]">
 
                 {{-- Images Section --}}
@@ -314,6 +316,7 @@
 
             let currentSlide = 0;
             let currentAudio = null;
+            let autoplayBlocked = false;
 
             // Audio functions
             function stopAudio() {
@@ -333,9 +336,21 @@
                 currentAudio = new Audio(src);
                 if (onEnd) currentAudio.onended = onEnd;
                 currentAudio.play().catch(() => {
+                    autoplayBlocked = true;
                     if (onEnd) onEnd();
                 });
             }
+
+            function unlockAudio() {
+                if (!autoplayBlocked || !currentAudio) return;
+                const audioToUnlock = currentAudio;
+                audioToUnlock.play().then(() => {
+                    if (currentAudio === audioToUnlock) autoplayBlocked = false;
+                }).catch(() => {});
+            }
+
+            document.addEventListener('pointerdown', unlockAudio);
+            document.addEventListener('keydown', unlockAudio);
 
             // Show slide
             function showSlide(idx) {
@@ -380,10 +395,11 @@
 
                 const correctAnswer = correctAnswers[questionIndex];
 
-                answerOptions.forEach((option, optionIdx) => {
+                answerOptions.forEach((option) => {
                     option.style.cursor = 'pointer';
                     option.addEventListener('click', () => {
-                        if (optionIdx === correctAnswer) {
+                        const selectedAnswer = option.getAttribute('data-answer-option');
+                        if (String(selectedAnswer) === String(correctAnswer)) {
                             // Correct answer clicked - play cheering and go to next
                             playAudio(cheeringAudio, () => goNext());
                         }
@@ -407,15 +423,9 @@
                 window.location.href = homeURL;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-    if (infoMode) {
-        infoMode = false;
-        infoClass = null;
-        showSlide(returnToSlide);
-    } else {
-        stopAudio();
-        window.location.href = doneURL;
-    }
-}));
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
             showSlide(0);
         });
