@@ -51,48 +51,48 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st1.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story1.png',
                 'text' => 'Three Pease and a Sheep',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st2.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story2.png',
                 'text' => 'Three peas are walking on a beach.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st3.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story3.png',
                 'text' => 'They meet a sheep chewing on a slab of meat and a peach.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st4.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story4.png',
                 'text' => 'To add to its meal, the sheep eats a whole packet of cheese.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st5.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story5.png',
                 'text' => 'The now sleepy sheep then picks up a book to read.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st6.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story6.png',
                 'text' => 'But holds the book upside down with its feet.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st7.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st7.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story7.png',
                 'text' => '“”Please teach me to read and I’ll give you some sweets,””
                 says the sheep.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st8.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st8.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story8.png',
                 'text' => 'The peas do not want the sweets.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st9.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/st9.mp3',
                 'image' => 'assets/images/phonics_l2/eea/story9.png',
                 'text' => 'They, however, agree to teach the sheep
                 but only if it brushes its teeth!',
@@ -101,32 +101,32 @@
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq1.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq1.mp3',
                 'question' => "What are the three \npeas doing on \n the beach?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq2.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq2.mp3',
                 'question' => "What does \n sheep eat?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq3.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq3.mp3',
                 'question' => "Why is the \n sheep sleepy?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq4.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq4.mp3',
                 'question' => "Where does the  \n sheep put \n the book?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq5.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq5.mp3',
                 'question' => "Why does the \n Sheep want to \nlearn to read?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq6.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/stq6.mp3',
                 'question' => "Why do the peas \n want the sheep to \n brush its teeth?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
@@ -204,7 +204,7 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st2.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -259,7 +259,7 @@
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st3.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -316,7 +316,7 @@
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st4.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
@@ -376,7 +376,7 @@
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/st5.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">

@@ -10,14 +10,14 @@
     $first = 'e';
     $end = 'a';
 
-    $sideBtns = ['assets/audio/phonics_audio-2/ee_ea/ea.m4a', 'assets/audio/phonics_audio-2/ee_ea/eaah.m4a'];
+    $sideBtns = ['assets/audio/phonics_audio-2/ee_ea/ea.mp3', 'assets/audio/phonics_audio-2/ee_ea/eaah.mp3'];
 
     $words = [
         [
             'image' => 'assets/images/phonics_l2/eea/sea.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'sea',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-sh.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/s-ea.mp3',
             'tip' =>
                 'Tips: Invite children to name the object. <br> Encourage them to sound out the words by parts (e.g. /j/..../et/...jet)',
         ],
@@ -25,56 +25,56 @@
             'image' => 'assets/images/phonics_l2/eea/flea.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'flea',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-ree.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/fl-ea.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/eea/peas.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'peas',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-read.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/p-eas.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/eea/beak.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'beak',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-irty.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/b-eak.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/eea/bean.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'bean',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/b-ean.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/eea/team.png',
             'imageSize' => 'h-[20vw]',
             'word' => 'team',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/t-eam.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/eea/seal.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'seal',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/s-eal.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/eea/beach.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'beach',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/b-each.mp3',
             'tip' => null,
         ],
         [
             'image' => 'assets/images/phonics_l2/eea/peach.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'peach',
-            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/ea-in.m4a',
+            'wordAudio' => 'assets/audio/phonics_audio-2/ee_ea/p-each.mp3',
             'tip' => null,
         ],
     ];
@@ -108,7 +108,6 @@
             font-size: 1.1vw;
             padding-left: 3vw;
         }
-
     </style>
 @endpush
 
@@ -117,7 +116,7 @@
 
     {{-- ── Panel 1: Intro ── --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/say.mp3') }}">
         {{-- <h2 class="top-title stroke">Let's Blend</h2> --}}
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/say.png') }}" class="w-[30vw] h-[20vw]" />
@@ -159,7 +158,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -173,9 +172,9 @@
             </div>
 
             <div class="flex gap-[2vw] justify-center items-center panel-title">
-                <h2 class="stroke">cube</h2>
-                <h2 class="stroke">tube</h2>
-                <h2 class="stroke">cute</h2>
+                <h2 class="stroke">reach</h2>
+                <h2 class="stroke">plead</h2>
+                <h2 class="stroke">neat</h2>
             </div>
 
         </div>
@@ -183,7 +182,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div>
@@ -199,15 +198,15 @@
                 </h2>
 
                 <button class="absolute right-[16%] top-[22%] w-[3.5vw]" id="soundButton"
-                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/eaah.m4a') }}">
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/eaah.mp3') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                 </button>
             </div>
 
             <div class="flex gap-[2vw] justify-center items-center panel-title">
-                <h2 class="stroke">cube</h2>
-                <h2 class="stroke">tube</h2>
-                <h2 class="stroke">cute</h2>
+                <h2 class="stroke">reach</h2>
+                <h2 class="stroke">plead</h2>
+                <h2 class="stroke">neat</h2>
             </div>
         </div>
     </div>
@@ -215,7 +214,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea1.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
         <div>
 
@@ -225,23 +224,23 @@
                     class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[2vw] text-center w-100">
                     You’re right! <br>
                     Shine, she and <br>
-                    sharp begin with '<span class="text-[#70af39]">_{{ $first }}{{$end}}</span>'.
+                    sharp begin with '<span class="text-[#70af39]">_{{ $first }}{{ $end }}</span>'.
                 </h2>
             </div>
 
             <div class="flex gap-[2vw] justify-center items-center panel-title">
                 <div class="relative w-fit h-fit">
-                    <h2 class="stroke">cube</h2>
+                    <h2 class="stroke">reach</h2>
                     <div class="line"></div>
                 </div>
 
                 <div class="relative w-fit h-fit">
-                    <h2 class="stroke">tube</h2>
+                    <h2 class="stroke">plead</h2>
                     <div class="line"></div>
                 </div>
 
                 <div class="relative w-fit h-fit">
-                    <h2 class="stroke">cute</h2>
+                    <h2 class="stroke">neat</h2>
                     <div class="line"></div>
                 </div>
             </div>
@@ -250,7 +249,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -259,7 +258,7 @@
                 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[2vw] text-center w-100">
                 Do you know <br>
                 the sound of <br>
-                '<span class="text-[#70af39]">_{{ $first }}{{$end}}</span>'.
+                '<span class="text-[#70af39]">_{{ $first }}{{ $end }}</span>'.
             </h2>
         </div>
 
@@ -267,21 +266,22 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[35vw] h-[25vw]" />
             <h2
                 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.8vw] text-center w-100">
-                '<span class="text-[#70af39]">_{{ $first }}{{$end}}</span>' makes the <span class="opacity-0">----</span>
+                '<span class="text-[#70af39]">_{{ $first }}{{ $end }}</span>' makes the <span
+                    class="opacity-0">----</span>
                 sound. <br>
                 Let's practice saying <br> the sound of <br> the diagraph '<span
-                    class="text-[#70af39]">_{{ $first }}{{$end}}</span>'.
+                    class="text-[#70af39]">_{{ $first }}{{ $end }}</span>'.
             </h2>
 
             <button class="absolute right-[36%] top-[25%] w-[3.5vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/eaah.m4a') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/eaah.mp3') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
         </div>
@@ -290,7 +290,7 @@
 
     {{-- Intro Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/ea4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -299,7 +299,7 @@
                 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[2vw] text-center w-100">
                 Do you know some words <br>
                 that begin with the <br>
-                digslabh '<span class="text-[#70af39]">_{{ $first }}{{$end}}</span>'?
+                digslabh '<span class="text-[#70af39]">_{{ $first }}{{ $end }}</span>'?
             </h2>
         </div>
 
@@ -315,7 +315,7 @@
             <div class="flex gap-x-[4vw] items-center justify-center">
                 <div>
                     <span class="text-white text-[1.5vw]">Long Vowel Family</span>
-                    <h1 class="large-title h-fit">_{{ $first }}{{$end}}</h1>
+                    <h1 class="large-title h-fit">_{{ $first }}{{ $end }}</h1>
                 </div>
                 <img src="{{ asset($item['image']) }}" class="{{ $item['imageSize'] }}" />
             </div>
@@ -340,7 +340,7 @@
             <div class="flex gap-x-[4vw] items-center justify-center">
                 <div>
                     <span class="text-white text-[1.5vw]">Long Vowel Family</span>
-                    <h1 class="large-title h-fit">_{{ $first }}{{$end}}</h1>
+                    <h1 class="large-title h-fit">_{{ $first }}{{ $end }}</h1>
                 </div>
                 <img src="{{ asset($item['image']) }}" class="{{ $item['imageSize'] }}" />
             </div>

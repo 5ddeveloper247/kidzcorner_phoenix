@@ -9,114 +9,114 @@
     $questions = [
         // Question 1
         [
-            'sound1' => ['text' => '/b/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.m4a'],
-            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.m4a'],
+            'sound1' => ['text' => '/b/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/bw-b.mp3'],
+            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/eeah.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/bag.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/bag',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/bag.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/bee.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/agab/crab.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab',
+                    'audio' => 'assets/audio/phonics_audio-2/ag_ab/crab.mp3',
                     'isCorrect' => false,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/bee.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/bw-bee.mp3',
             'answertext' => 'bee',
         ],
         // Question 2
         [
-            'sound1' => ['text' => '/s/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/see'],
-            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/see'],
+            'sound1' => ['text' => '/s/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/bw-s.mp3'],
+            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/eeah.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/eea/see.png',
                     'class' => 'h-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/see',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/see.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/sway.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.mp3',
                     'isCorrect' => false,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/see.m4a',
-            'answertext' => 'sway',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/bw-see.mp3',
+            'answertext' => 'see',
         ],
         // Question 3
         [
-            'sound1' => ['text' => '/tr/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree'],
-            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree'],
+            'sound1' => ['text' => '/tr/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/bw-tr.mp3'],
+            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/eeah.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/spray.png',
                     'class' => 'h-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/atrev/cat.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat',
+                    'audio' => 'assets/audio/phonics_audio-2/at_rev/cat.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/tree.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree.mp3',
                     'isCorrect' => true,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/tree.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/bw-tree.mp3',
             'answertext' => 'tree',
         ],
         // Question 4
         [
-            'sound1' => ['text' => '/thr/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/three'],
-            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/three'],
+            'sound1' => ['text' => '/thr/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/bw-thr.mp3'],
+            'sound2' => ['text' => '/ee/', 'audio' => 'assets/audio/phonics_audio-2/ee_ea/eeah.mp3'],
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/clsl/clap.png',
                     'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clap',
+                    'audio' => 'assets/audio/phonics_audio-2/cl_sl/clap.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/three.png',
-                    'class' => 'w-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/three',
+                    'class' => 'h-[6vw]',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/three.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/apad/map.png',
                     'class' => 'h-[8vw]',
-                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map',
+                    'audio' => 'assets/audio/phonics_audio-2/ap_ad/map.mp3',
                     'isCorrect' => false,
                 ],
             ],
-            'questionAudio' => 'assets/audio/phonics_audio-2/fl_gl/match-fl.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/three.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/ay_ue/match-bw.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/bw-three.mp3',
             'answertext' => 'three',
         ],
     ];
@@ -200,9 +200,9 @@
             </div>
         </div>
 
-        {{-- ANSWER SLIDE (tick + cheering) --}}
+        {{-- ANSWER SLIDE (tick, and the answer word under the correct picture) --}}
         <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-            data-slide-audio="{{ asset($q['answerAudio']) }}" data-cheering="true">
+            data-slide-audio="{{ asset($q['answerAudio']) }}">
             <div class="flex items-end panel-div text-white">
                 <h2 class="text-[1.3vw]">The boxes make sounds. <br>
                     Put these sounds together to make a picture name. <br>
@@ -226,20 +226,19 @@
                 </div>
             </div>
 
-            <div class="flex flex-col items-center gap-[1vw]">
-                <div class="flex items-center w-[40vw] justify-between">
-                    @foreach ($q['options'] as $opt)
-                        <div class="flex flex-col items-center @if ($opt['isCorrect']) relative @endif">
-                            <img class="{{ $opt['class'] ?? 'w-[8vw]' }}" src="{{ asset($opt['image']) }}" />
-                            @if ($opt['isCorrect'])
-                                <img class="h-[3vw] w-[3vw] absolute top-0"
-                                    src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" style="right: -33%" />
-                            @endif
-                        </div>
-                    @endforeach
-                </div>
-                {{-- Answer text displayed once below the images --}}
-                <h2 class="text-[2vw] text-[#f7b94a]">{{ $q['answertext'] }}</h2>
+            {{-- items-start keeps all pictures on the same line; the word sits under the correct one --}}
+            <div class="flex items-start w-[40vw] justify-between">
+                @foreach ($q['options'] as $opt)
+                    <div class="flex flex-col items-center @if ($opt['isCorrect']) relative @endif">
+                        <img class="{{ $opt['class'] ?? 'w-[8vw]' }}" src="{{ asset($opt['image']) }}" />
+                        @if ($opt['isCorrect'])
+                            <img class="h-[3vw] w-[3vw] absolute top-0"
+                                src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" style="right: -33%" />
+                            {{-- Answer word directly below the correct picture --}}
+                            <h2 class="text-[2vw] text-[#f7b94a] mt-[0.5vw]">{{ $q['answertext'] }}</h2>
+                        @endif
+                    </div>
+                @endforeach
             </div>
         </div>
     @endforeach
@@ -270,13 +269,12 @@
             const homeButton = document.getElementById("homeButton");
             const soundBtns = document.querySelectorAll(".sound-btn");
 
-           const returnURL = "{{ url($returnURL) }}";
+            const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
-                const homeURL = document.body.dataset.homeRoute;
+            const homeURL = document.body.dataset.homeRoute;
 
             let currentSlide = 0;
             let currentAudio = null;
-            let cheeringAudio = null;
 
             function stopCurrentAudio() {
                 if (currentAudio) {
@@ -285,27 +283,13 @@
                     currentAudio.currentTime = 0;
                     currentAudio = null;
                 }
-                if (cheeringAudio) {
-                    cheeringAudio.pause();
-                    cheeringAudio.currentTime = 0;
-                    cheeringAudio = null;
-                }
             }
 
             function playSlideAudio(idx) {
                 stopCurrentAudio();
-                const slide = slides[idx];
-                let src = slide.getAttribute('data-slide-audio');
+                const src = slides[idx].getAttribute('data-slide-audio');
                 if (src) {
                     currentAudio = new Audio(src);
-                    const shouldCheer = slide.getAttribute('data-cheering') === 'true';
-                    if (shouldCheer) {
-                        currentAudio.onended = function() {
-                            cheeringAudio = new Audio(
-                                "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}");
-                            cheeringAudio.play().catch(() => {});
-                        };
-                    }
                     currentAudio.play().catch(() => {});
                 }
             }

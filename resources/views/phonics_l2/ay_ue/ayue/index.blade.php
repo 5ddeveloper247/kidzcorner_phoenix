@@ -29,7 +29,7 @@
             </a>
 
             <a href="{{ url('/phonics_l2/ay_ue/ayue/picture_match') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b10.png') }}" class="mx-auto d-block" />
+                <img src="{{ asset('assets/images/phonics_l2/global/b13.png') }}" class="mx-auto d-block" />
             </a>
 
             <a href="{{ url('/phonics_l2/ay_ue/ayue/fun') }}">

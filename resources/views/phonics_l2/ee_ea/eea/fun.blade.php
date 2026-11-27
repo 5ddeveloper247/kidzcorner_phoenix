@@ -14,7 +14,7 @@
         [
             'image' => 'assets/images/phonics_l2/eea/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ee_ea/fb-eea1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/fb-eea1.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The '],
                 ['type' => 'blank'],
@@ -31,8 +31,8 @@
                 ['word' => 'bean',  'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ee_ea/sheep.m4a',
-                'assets/audio/phonics_audio-2/ee_ea/beach.m4a',
+                'assets/audio/phonics_audio-2/ee_ea/sheep.mp3',
+                'assets/audio/phonics_audio-2/ee_ea/beach.mp3',
             ],
         ],
 
@@ -40,7 +40,7 @@
         [
             'image' => 'assets/images/phonics_l2/eea/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ee_ea/fb-eea2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/fb-eea2.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The bird uses its'],
                 ['type' => 'blank'],
@@ -56,8 +56,8 @@
                 ['word' => 'three', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ee_ea/beak.m4a',
-                'assets/audio/phonics_audio-2/ee_ea/tree.m4a',
+                'assets/audio/phonics_audio-2/ee_ea/beak.mp3',
+                'assets/audio/phonics_audio-2/ee_ea/tree.mp3',
             ],
         ],
 
@@ -65,7 +65,7 @@
         [
             'image' => 'assets/images/phonics_l2/eea/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ee_ea/fb-eea3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/fb-eea3.mp3',
             'sentence' => [
                 ['type' => 'text', 'text' => 'i brush my'],
                 ['type' => 'blank'],
@@ -81,8 +81,8 @@
                 ['word' => 'peach', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ee_ea/teeth.m4a',
-                'assets/audio/phonics_audio-2/ee_ea/peas.m4a',
+                'assets/audio/phonics_audio-2/ee_ea/teeth.mp3',
+                'assets/audio/phonics_audio-2/ee_ea/peas.mp3',
             ],
         ],
     ];

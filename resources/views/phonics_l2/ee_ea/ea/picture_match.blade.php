@@ -12,37 +12,37 @@
         [
             'type' => 'grid',
             'cols' => 3,
-            'question' => 'Find the picture that end with the /e/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-ue.m4a',
+            'question' => 'Find the picture that have the long /e/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/match-ea2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/eea/peas.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/flea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/sea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/sea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/beach.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/peach.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/unup/bun.png',
-                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.mp3',
                     'correct' => false,
                 ],
             ],
@@ -54,7 +54,7 @@
             'image' => 'assets/images/phonics_l2/eea/peas.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'peas',
-            'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.mp3',
         ],
 
         // ── Round 2: Question grid ──
@@ -62,37 +62,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /e/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-ue.m4a',
+            'question' => 'Find the picture that have the long /e/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/match-ea2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/eea/peas.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/flea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/sea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/sea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/beach.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/peach.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/unup/bun.png',
-                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.mp3',
                     'correct' => false,
                 ],
             ],
@@ -104,7 +104,7 @@
             'image' => 'assets/images/phonics_l2/eea/flea.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'flea',
-            'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.mp3',
         ],
 
         // ── Round 3: Question grid ──
@@ -112,37 +112,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /e/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-ue.m4a',
+            'question' => 'Find the picture that have the long /e/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/match-ea2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/eea/peas.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/flea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/sea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/sea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/beach.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/peach.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/unup/bun.png',
-                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.mp3',
                     'correct' => false,
                 ],
             ],
@@ -154,7 +154,7 @@
             'image' => 'assets/images/phonics_l2/eea/sea.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'sea',
-            'audio' => 'assets/audio/phonics_audio-2/ee_ea/sea.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/beach.mp3',
         ],
 
         // ── Round 4: ──
@@ -162,37 +162,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /e/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-ue.m4a',
+            'question' => 'Find the picture that have the long /e/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/match-ea2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/eea/peas.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/flea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/sea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/sea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/beach.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/peach.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/unup/bun.png',
-                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.mp3',
                     'correct' => false,
                 ],
             ],
@@ -203,7 +203,7 @@
             'image' => 'assets/images/phonics_l2/eea/peach.png',
             'imageSize' => 'w-[20vw]',
             'word' => 'peach',
-            'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.mp3',
         ],
 
         // ── Round 5: ──
@@ -211,37 +211,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /e/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/ay_ue/match-ue.m4a',
+            'question' => 'Find the picture that have the long /e/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ee_ea/match-ea2.mp3',
             'cards' => [
                 [
                     'image' => 'assets/images/phonics_l2/eea/peas.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peas.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ubug/tub.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.mp3',
                     'correct' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/flea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/flea.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/sea.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/sea.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/beach.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/peach.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peach.mp3',
                     'correct' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/unup/bun.png',
-                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/un_up/bun.mp3',
                     'correct' => false,
                 ],
             ],
@@ -250,7 +250,7 @@
         // ── Final bear summary panel ──
         [
             'type' => 'bear_summary',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/matched.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/op_ot/matched.mp3',
             'message' => "That's right! <br> Peas, Flea, Sea and <br> Peach end with the <br> /e/ sound.",
             'cols' => 2,
             'cards' => [
@@ -310,14 +310,15 @@
 @section('content')
 
     {{-- ── Intro panel ── --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.mp3') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/make-match.mp3') }}">
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/match.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
     </div>
 
-    <div class="phonics-panel  flex justify-center items-center">
+    <div class="phonics-panel  flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ee_ea/match-ea.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -474,7 +475,7 @@
             const returnURL = "{{ url($returnURL) }}";
             const doneURL = "{{ url($doneURL) }}";
             const homeURL = "{{ url('/phonics/l2') }}";
-            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
+            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/chering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

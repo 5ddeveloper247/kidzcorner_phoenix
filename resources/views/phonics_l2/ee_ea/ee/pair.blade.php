@@ -6,21 +6,21 @@
 
     $returnURL = '/phonics_l2/ee_ea/ee';
     $doneURL = '/phonics_l2/ee_ea/ee';
-    $cheerAudio = 'assets/audio/phonics_audio-2/common/cheering.m4a';
+    $cheerAudio = 'assets/audio/phonics_audio-2/common/cheeing.mp3';
 
     $questions = [
         // ── Question 1 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/eea/bee.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.mp3',
                 'word' => 'b', 
                 'highlight' => 'ee', 
             ],
 
             'answer' => [
-                'image' => 'assets/images/phonwics_l2/eea/see.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/see.m4a',
+                'image' => 'assets/images/phonics_l2/eea/see.png',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/see.mp3',
                 'word' => 's',
                 'highlight' => 'ee',
             ],
@@ -28,37 +28,37 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/spray.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/see.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/see.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/see.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/utrev/cut.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/cut.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ut_rev/cut.mp3',
                     'isCorrect' => false,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/see.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/pp-see.mp3',
         ],
         
         // ── Question 2 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/eea/bee.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.mp3',
                 'word' => 'b', 
                 'highlight' => 'ee', 
             ],
 
             'answer' => [
                 'image' => 'assets/images/phonics_l2/eea/three.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/three.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/three.mp3',
                 'word' => 'thr',
                 'highlight' => 'ee',
             ],
@@ -66,37 +66,37 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/aman/jam.png',
-                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/am_an/jam.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/three.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/three.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/three.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/sway.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/sway.mp3',
                     'isCorrect' => true,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/three.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/pp-three.mp3',
         ],
         
         // ── Question 3 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/eea/bee.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.mp3',
                 'word' => 'b', 
                 'highlight' => 'ee', 
             ],
 
             'answer' => [
                 'image' => 'assets/images/phonics_l2/eea/tree.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree.mp3',
                 'word' => 'tr',
                 'highlight' => 'ee',
             ],
@@ -104,37 +104,37 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/eea/tree.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/tree.mp3',
                     'isCorrect' => true,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/clay.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/clay.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/clay.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/drgr/drip.png',
-                    'audio' => 'assets/audio/phonics_audio-2/dr_gr/drip.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/dr_gr/drip.mp3',
                     'isCorrect' => false,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/tree.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/pp-tree.mp3',
         ],
         
         // ── Question 4 ──────────────────────────────
         [
             'reference' => [
                 'image' => 'assets/images/phonics_l2/eea/bee.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/bee.mp3',
                 'word' => 'b', 
                 'highlight' => 'ee', 
             ],
 
             'answer' => [
                 'image' => 'assets/images/phonics_l2/eea/peel.png',
-                'audio' => 'assets/audio/phonics_audio-2/ee_ea/peel.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ee_ea/peel.mp3',
                 'word' => 'p',
                 'highlight' => 'ee',
             ],
@@ -142,23 +142,23 @@
             'options' => [
                 [
                     'image' => 'assets/images/phonics_l2/ayue/spray.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/spray.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/ayue/tray.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ay_ue/tray.mp3',
                     'isCorrect' => false,
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/eea/peel.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peel.m4a',
+                    'audio' => 'assets/audio/phonics_audio-2/ee_ea/peel.mp3',
                     'isCorrect' => true,
                 ],
             ],
 
-            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.m4a',
-            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/peel.m4a',
+            'slideAudio' => 'assets/audio/phonics_audio-2/ee_ea/match-ee.mp3',
+            'answerAudio' => 'assets/audio/phonics_audio-2/ee_ea/pp-peel.mp3',
         ],
    
 
