@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Make a Match.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -45,7 +45,8 @@
 
     {{-- ============================ --}}
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+    <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 1.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -113,7 +114,9 @@
     </div>
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-start justify-around w-full">
 
@@ -150,7 +153,8 @@
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+    <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 1.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -206,7 +210,9 @@
 
 
     {{-- Panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-start justify-around w-full">
 
@@ -255,7 +261,8 @@
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+    <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 1.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -313,7 +320,9 @@
 
 
     {{-- Panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -369,7 +378,8 @@
     </div>
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+    <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 1.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -427,7 +437,9 @@
 
 
     {{-- Panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start w-full items-center">
+    <div class="phonics-panel flex flex-col justify-start w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/MAM - 2.mp3') }}"
+        data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}">
         <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -602,6 +614,7 @@
 
                 const slide = slides[slideIndex];
 
+                const audioSources = [];
                 let audioSrc = slide.getAttribute('data-slide-audio');
 
                 if (!audioSrc) {
@@ -611,10 +624,19 @@
                     }
                 }
 
-                if (audioSrc) {
-                    currentAudio = new Audio(audioSrc);
+                if (audioSrc) audioSources.push(audioSrc);
+
+                const nextAudioSrc = slide.getAttribute('data-slide-audio-next');
+                if (nextAudioSrc) audioSources.push(nextAudioSrc);
+
+                function playNext(index) {
+                    if (index >= audioSources.length) return;
+                    currentAudio = new Audio(audioSources[index]);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    currentAudio.onended = () => playNext(index + 1);
                 }
+
+                playNext(0);
             }
 
             function showSlide(slideIndex) {

@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Where are the Homonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -44,6 +44,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WH - 1.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -57,6 +58,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WH - 1.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -67,6 +69,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -85,6 +88,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -110,6 +114,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WH - 1.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -138,6 +143,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -164,6 +170,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WH - 1.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -191,6 +198,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -218,6 +226,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WH - 1.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
@@ -245,6 +254,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Kids Cheering.mp3') }}"
          >
         <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 

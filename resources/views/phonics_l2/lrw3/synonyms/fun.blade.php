@@ -43,7 +43,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/Fun with Synonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -55,6 +55,8 @@
 
     {{-- ============================= --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - 1.mp3') }}"
+         data-slide-audio-next="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - unhappy.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
@@ -74,6 +76,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - sad.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
@@ -90,25 +93,27 @@
 
    {{-- ============================= --}}
    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - angry.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
 
         <div class="flex justify-around items-center w-full">
-            <h2 class="text-[2.5vw] text-[#f7b94a]">glad</h2>
+            <h2 class="text-[2.5vw] text-[#f7b94a]">mad</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw3/fp2.png') }}" class="w-[25vw]" />
-            <h2 class="text-[2.5vw] text-[#f7b94a]">sad</h2>
+            <h2 class="text-[2.5vw] text-[#f7b94a]">shy</h2>
         </div>
         <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[15%] text-[#f7b94a] text-[1.6vw] ">unhappy</span>
+            <span class="absolute top-0 left-[15%] text-[#f7b94a] text-[1.6vw] ">Angry</span>
 
-            <span>The</span>
+            <span>The crab is</span>
             <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+            <span>at Stag for losing his tag</span>
         </div>
     </div>
 
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - mad.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
@@ -116,15 +121,16 @@
         <img src="{{ asset('assets/images/phonics_l2/lrw3/fp2.png') }}" class="w-[25vw]" />
 
         <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[20%] text-[#f7b94a] text-[1.6vw] ">sad</span>
-            <span>The</span>
+            <span class="absolute top-0 left-[20%] text-[#f7b94a] text-[1.6vw] ">Mad</span>
+            <span>The crab is</span>
             <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+            <span>at Stag for losing his tag</span>
         </div>
     </div>
 
  {{-- ============================= --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+       data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - frightened.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
@@ -144,6 +150,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - scared.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
@@ -160,6 +167,7 @@
 
      {{-- ============================= --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - jumps.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
@@ -179,6 +187,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/FWS - hops.mp3') }}"
         >
 
         <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
@@ -290,8 +299,10 @@
 
             function stopCurrentAudio() {
                 if (currentAudio) {
+                    currentAudio.onended = null;
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
+                    currentAudio = null;
                 }
             }
 
@@ -309,8 +320,16 @@
                     }
                 }
 
+                const nextAudioSrc = slide.getAttribute('data-slide-audio-next');
+
                 if (audioSrc) {
                     currentAudio = new Audio(audioSrc);
+                    if (nextAudioSrc) {
+                        currentAudio.onended = () => {
+                            currentAudio = new Audio(nextAudioSrc);
+                            currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                        };
+                    }
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
             }
