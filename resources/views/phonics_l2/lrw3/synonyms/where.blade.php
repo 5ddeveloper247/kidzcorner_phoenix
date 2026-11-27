@@ -31,12 +31,12 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/Where are the synonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                Where’s the <br>
+                Where are the <br>
                 Synonyms?</h2>
         </div>
         <p class="p-note">Tips: Encourage children to read the sentences.</p>
@@ -46,6 +46,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - 1.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
@@ -103,6 +104,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - fast.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
@@ -131,6 +133,7 @@
 
     {{-- panel 4 --}}
        <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - 1.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
@@ -189,6 +192,7 @@
 
     {{-- Panel 5 --}}
      <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - close.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
@@ -227,6 +231,7 @@
 
     {{-- panel 6 --}}
        <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - 1.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
@@ -285,6 +290,7 @@
 
     {{-- Panel 7 --}}
      <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - throw.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
@@ -330,6 +336,7 @@
 
     {{-- panel 8 --}}
        <div class="phonics-panel flex flex-col justify-between w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - 1.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
@@ -388,6 +395,7 @@
 
     {{-- Panel 9 --}}
      <div class="phonics-panel flex flex-col justify-start w-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WATS - see.mp3') }}"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">

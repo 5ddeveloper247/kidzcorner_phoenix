@@ -49,7 +49,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Finding Onomatopeia.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -60,7 +60,8 @@
     </div>
 
     {{-- Side Info Panel --}}
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 1.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -71,7 +72,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -89,7 +91,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - SNORES.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -106,7 +109,8 @@
 
     {{-- -======================================- --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -124,7 +128,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - ZIP.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -141,7 +146,8 @@
 
     {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -159,7 +165,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - DRIP.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -176,7 +183,8 @@
 
     {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -193,7 +201,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - TRUMPIT.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -210,7 +219,8 @@
 
     {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -228,7 +238,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - CROW.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -243,7 +254,8 @@
 
     {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -260,7 +272,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - NEIGH.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -277,7 +290,8 @@
 
     {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -293,7 +307,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - HOWL.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -310,7 +325,8 @@
 
     {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -326,7 +342,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - BRAY.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -343,7 +360,8 @@
 
     {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - 2.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
@@ -359,7 +377,8 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FO - CROAK.mp3') }}">
         <div class="flex items-end">
             <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>

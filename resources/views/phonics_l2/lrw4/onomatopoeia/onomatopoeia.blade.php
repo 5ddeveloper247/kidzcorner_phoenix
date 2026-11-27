@@ -37,7 +37,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/All About Onomatopeia.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -94,7 +94,8 @@
     </div>
 
     {{-- panel  --}}
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 1.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -108,14 +109,16 @@
     </div>
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 2.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr1.png') }}" class="w-[40vw]" />
 
     </div>
 
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr2.png') }}" class="w-[40vw]" />
 
     </div>
@@ -123,68 +126,80 @@
 
 
     {{-- Panel 5 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 4.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr3.png') }}" class="w-[45vw]" />
 
     </div>
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr4.png') }}" class="w-[45vw]" />
 
     </div>
 
     {{-- Panel 7 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 6.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr5.png') }}" class="w-[45vw]" />
     </div>
 
     {{-- Panel 8 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 7.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr6.png') }}" class="w-[45vw]" />
     </div>
 
     {{-- Panel 9 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - LION.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr7.png') }}" class="w-[45vw]" />
     </div>
 
     {{-- Panel 10 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - CAT.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr8.png') }}" class="w-[45vw]" />
 
     </div>
 
     {{-- Panel 11 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - SNAKE.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr9.png') }}" class="w-[45vw]" />
     </div>
 
     {{-- Panel 12 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - DUCK.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr10.png') }}" class="w-[45vw]" />
 
     </div>
 
     {{-- Panel 13 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - OWL.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr11.png') }}" class="w-[45vw]" />
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - MOUSE.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr12.png') }}" class="w-[45vw]" />
     </div>
 
     {{-- Panel 15 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full">
+    <div class="phonics-panel flex justify-center items-center h-full w-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 8.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/sr13.png') }}" class="w-[45vw]" />
 
     </div>
 
 
 
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/ONO - 9.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2 class="absolute top-[12%] right-[13%] text-[#A15E0D] text-[1.5vw] text-center">

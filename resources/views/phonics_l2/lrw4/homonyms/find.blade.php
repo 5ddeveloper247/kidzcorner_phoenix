@@ -49,7 +49,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Finding Homonyms.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -61,6 +61,7 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - 1.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -76,6 +77,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - 2.mp3') }}"
         >
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -91,6 +93,7 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - 3.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
@@ -120,6 +123,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - blue.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
@@ -140,6 +144,7 @@
     {{-- ======================================= --}}
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - 3.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
@@ -169,6 +174,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - son.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
@@ -189,6 +195,7 @@
     {{-- ======================================= --}}
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - 3.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
@@ -218,6 +225,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - rose.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
         <div class="flex justify-around items-center w-full">
@@ -237,6 +245,7 @@
     {{-- ======================================= --}}
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - 3.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
@@ -267,6 +276,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/FH - tow.mp3') }}"
          >
         <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 

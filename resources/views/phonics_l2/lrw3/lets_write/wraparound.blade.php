@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/Wrap around endings.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -48,14 +48,14 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/The pot with a dot.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
             <h2 class="absolute top-[40%]  right-[10%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 Can you remember the story <br>
-                “”If you give a spider a <br>
-                spotted star””?</h2>
+                "The Pot with a Dot on the Top"?</h2>
         </div>
     </div>
 
@@ -114,6 +114,7 @@ went into my shop.</h2>
     {{-- =================== --}}
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WAE - 2.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -125,12 +126,14 @@ went into my shop.</h2>
     </div>
 
     <div class="phonics-panel flex flex-col justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WAE - 3.mp3') }}"
         >
 
         <img src="{{ asset('assets/images/phonics_l2/lrw3/storyq1.png') }}"class="w-[50vw] " />
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WAE - 4.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">
@@ -144,12 +147,14 @@ went into my shop.</h2>
 
 
     <div class="phonics-panel flex flex-col justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WAE - 5.mp3') }}"
         >
 
         <img src="{{ asset('assets/images/phonics_l2/lrw3/storyq2.png') }}"class="w-[50vw] " />
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3/WAE - 6.mp3') }}"
         >
 
         <div class="relative w-fit h-fit">

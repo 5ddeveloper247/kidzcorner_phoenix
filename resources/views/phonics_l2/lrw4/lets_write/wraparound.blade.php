@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Wrap around endings.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -47,7 +47,8 @@
 
 
 
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Ray the Mule.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -118,7 +119,8 @@
 
     {{-- =================== --}}
 
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WAE - 2.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -128,11 +130,13 @@
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center items-center">
+    <div class="phonics-panel flex flex-col justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WAE - 3.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/storyq1.png') }}"class="w-[50vw] " />
     </div>
 
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WAE - 4.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -144,11 +148,13 @@
     </div>
 
 
-    <div class="phonics-panel flex flex-col justify-center items-center">
+    <div class="phonics-panel flex flex-col justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WAE - 5.mp3') }}">
         <img src="{{ asset('assets/images/phonics_l2/lrw4/storyq2.png') }}"class="w-[50vw] " />
     </div>
 
-    <div class="phonics-panel flex justify-center items-center">
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/WAE - 6.mp3') }}">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -161,7 +167,7 @@
 
     {{-- Well Done Panel --}}
     <div class="phonics-panel h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/welldone.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4/Well Done.mp3') }}">
         <h2 class="title-top">Well Done!</h2>
         <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[25vw]" />
     </div>
